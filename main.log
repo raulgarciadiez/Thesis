@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/TeX Live for SUSE Linux) (format=pdflatex 2015.3.4)  25 FEB 2016 15:02
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/TeX Live for SUSE Linux) (format=pdflatex 2015.3.4)  3 MAR 2016 13:54
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -335,18 +335,18 @@ Package: xspace 2009/10/20 v1.13 Space after command names (DPC,MH)
 ) (./main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
 
 (/usr/share/texmf/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -440,9 +440,9 @@ e
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <14.4> on input line 17.
+(Font)              <14.4> on input line 19.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 17.
+(Font)              <7> on input line 19.
 [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./main.toc
@@ -460,81 +460,33 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 
 ]
 Chapter 1.
-(./Chapter1/main.tex (./Chapter1/fig1/figure.tex
-<Chapter1/fig1/figure.pdf, id=12, 284.06125pt x 226.8475pt>
-File: Chapter1/fig1/figure.pdf Graphic file (type pdf)
-
-<use Chapter1/fig1/figure.pdf>
-Package pdftex.def Info: Chapter1/fig1/figure.pdf used on input line 141.
-(pdftex.def)             Requested size: 284.06053pt x 226.84694pt.
-) (./Chapter1/fig2/figure.tex
-\gptboxheight=\skip43
-\gptboxwidth=\skip44
-\gptboxtext=\box27
-
-<Chapter1/fig2/figure.pdf, id=13, 284.06125pt x 226.8475pt>
-File: Chapter1/fig2/figure.pdf Graphic file (type pdf)
-
-<use Chapter1/fig2/figure.pdf>
-Package pdftex.def Info: Chapter1/fig2/figure.pdf used on input line 146.
+(./chapter_introduction.tex (./Figures/figure.tex
+<Figures/figure.pdf, id=12, 284.06125pt x 226.8475pt>
+File: Figures/figure.pdf Graphic file (type pdf)
+ <use Figures/figure.pdf>
+Package pdftex.def Info: Figures/figure.pdf used on input line 141.
 (pdftex.def)             Requested size: 284.06053pt x 226.84694pt.
 ) [2
 
-] [3 <./Chapter1/fig1/figure.pdf>]) [4 <./Chapter1/fig2/figure.pdf>]
-Chapter 2.
-(./Chapter2/main.tex (./Chapter2/fig1/figure.tex
-<Chapter2/fig1/figure.pdf, id=30, 284.06125pt x 226.8475pt>
-File: Chapter2/fig1/figure.pdf Graphic file (type pdf)
-
-<use Chapter2/fig1/figure.pdf>
-Package pdftex.def Info: Chapter2/fig1/figure.pdf used on input line 150.
-(pdftex.def)             Requested size: 284.06053pt x 226.84694pt.
-) (./Chapter2/fig2/figure.tex
-<Chapter2/fig2/figure.pdf, id=31, 284.06125pt x 226.8475pt>
-File: Chapter2/fig2/figure.pdf Graphic file (type pdf)
-
-<use Chapter2/fig2/figure.pdf>
-Package pdftex.def Info: Chapter2/fig2/figure.pdf used on input line 146.
-(pdftex.def)             Requested size: 284.06053pt x 226.84694pt.
-) [5
-
-] [6 <./Chapter2/fig1/figure.pdf>] [7 <./Chapter2/fig2/figure.pdf>]) [8]
-Chapter 3.
-(./Chapter3/main.tex (./Chapter3/fig1/figure.tex
-<Chapter3/fig1/figure.pdf, id=49, 284.06125pt x 226.8475pt>
-File: Chapter3/fig1/figure.pdf Graphic file (type pdf)
-
-<use Chapter3/fig1/figure.pdf>
-Package pdftex.def Info: Chapter3/fig1/figure.pdf used on input line 150.
-(pdftex.def)             Requested size: 284.06053pt x 226.84694pt.
-) (./Chapter3/fig2/figure.tex
-<Chapter3/fig2/figure.pdf, id=50, 284.06125pt x 226.8475pt>
-File: Chapter3/fig2/figure.pdf Graphic file (type pdf)
-
-<use Chapter3/fig2/figure.pdf>
-Package pdftex.def Info: Chapter3/fig2/figure.pdf used on input line 146.
-(pdftex.def)             Requested size: 284.06053pt x 226.84694pt.
-) [9
-
-] [10 <./Chapter3/fig1/figure.pdf>]) [11 <./Chapter3/fig2/figure.pdf>] (./main.
-aux) ) 
+]) [3 <./Figures/figure.pdf>] (./main.aux) ) 
 Here is how much of TeX's memory you used:
- 2497 strings out of 493315
- 34422 string characters out of 6145894
- 109617 words of memory out of 5000000
- 5892 multiletter control sequences out of 15000+600000
+ 2453 strings out of 493315
+ 33367 string characters out of 6145894
+ 103629 words of memory out of 5000000
+ 5869 multiletter control sequences out of 15000+600000
  9414 words of font info for 33 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
- 38i,9n,23p,237b,384s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texmf/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/t
-exmf/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texmf/fonts/type1/pu
-blic/amsfonts/cm/cmr12.pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmr
-17.pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/te
-xmf/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on main.pdf (12 pages, 186786 bytes).
+ 38i,9n,23p,237b,376s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texmf/fonts/type1/publi
+c/amsfonts/cm/cmbx12.pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmmi1
+2.pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/te
+xmf/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texmf/fonts/type1/publ
+ic/amsfonts/cm/cmr8.pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmsy8.
+pfb>
+Output written on main.pdf (4 pages, 94401 bytes).
 PDF statistics:
- 85 PDF objects out of 1000 (max. 8388607)
- 58 compressed objects within 1 object stream
+ 44 PDF objects out of 1000 (max. 8388607)
+ 30 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 31 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 6 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,12 +1,4 @@
 \contentsline {chapter}{\numberline {1}Introduction}{2}
 \contentsline {section}{\numberline {1.1}First section}{2}
-\contentsline {subsection}{\numberline {1.1.1}Subsection}{4}
-\contentsline {section}{\numberline {1.2}First section}{4}
-\contentsline {chapter}{\numberline {2}Contrast variation in small-angle X-ray scattering}{5}
-\contentsline {section}{\numberline {2.1}First section}{5}
-\contentsline {subsection}{\numberline {2.1.1}Subsection}{7}
-\contentsline {section}{\numberline {2.2}First section}{8}
-\contentsline {chapter}{\numberline {3}Experimental setup}{9}
-\contentsline {section}{\numberline {3.1}First section}{9}
-\contentsline {subsection}{\numberline {3.1.1}Subsection}{11}
-\contentsline {section}{\numberline {3.2}First section}{11}
+\contentsline {subsection}{\numberline {1.1.1}Subsection}{3}
+\contentsline {section}{\numberline {1.2}First section}{3}
