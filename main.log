@@ -1,8 +1,8 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/TeX Live for SUSE Linux) (format=pdflatex 2015.3.4)  3 MAR 2016 13:54
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/TeX Live for SUSE Linux) (format=pdflatex 2015.3.4)  4 MAR 2016 14:15
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**main.tex
+**main
 (./main.tex
 LaTeX2e <2011/06/27>
 Babel <3.9f> and hyphenation patterns for 78 languages loaded.
@@ -332,23 +332,25 @@ Package: xspace 2009/10/20 v1.13 Space after command names (DPC,MH)
 \c@blind@randommax=\count107
 \c@blind@pangramcount=\count108
 \c@blind@pangrammax=\count109
-) (./main.aux)
+) (./main.aux
+(./chapter_introduction.aux)
+No file chapter_theory_SAXS.aux.
+)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-
-(/usr/share/texmf/tex/context/base/supp-pdf.mkii
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+ (/usr/share/texmf/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count110
 \scratchdimen=\dimen113
@@ -440,9 +442,9 @@ e
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <14.4> on input line 19.
+(Font)              <14.4> on input line 21.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 19.
+(Font)              <7> on input line 21.
 [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./main.toc
@@ -459,31 +461,39 @@ LaTeX Font Info:    External font `cmex10' loaded for size
  [1
 
 ]
+\openout2 = `chapter_introduction.aux'.
+
+
+(./chapter_introduction.tex
 Chapter 1.
-(./chapter_introduction.tex (./Figures/figure.tex
-<Figures/figure.pdf, id=12, 284.06125pt x 226.8475pt>
-File: Figures/figure.pdf Graphic file (type pdf)
- <use Figures/figure.pdf>
-Package pdftex.def Info: Figures/figure.pdf used on input line 141.
+(./Figures/GradientKisker.tex
+<Figures/GradientKisker.pdf, id=12, 284.06125pt x 226.8475pt>
+File: Figures/GradientKisker.pdf Graphic file (type pdf)
+
+<use Figures/GradientKisker.pdf>
+Package pdftex.def Info: Figures/GradientKisker.pdf used on input line 109.
 (pdftex.def)             Requested size: 284.06053pt x 226.84694pt.
 ) [2
 
-]) [3 <./Figures/figure.pdf>] (./main.aux) ) 
+
+]) [3 <./Figures/GradientKisker.pdf>]
+(./main.aux (./chapter_introduction.aux)
+No file chapter_theory_SAXS.aux.
+) ) 
 Here is how much of TeX's memory you used:
- 2453 strings out of 493315
- 33367 string characters out of 6145894
- 103629 words of memory out of 5000000
- 5869 multiletter control sequences out of 15000+600000
+ 2462 strings out of 493315
+ 33612 string characters out of 6145894
+ 103164 words of memory out of 5000000
+ 5872 multiletter control sequences out of 15000+600000
  9414 words of font info for 33 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
- 38i,9n,23p,237b,376s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texmf/fonts/type1/publi
-c/amsfonts/cm/cmbx12.pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmmi1
-2.pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/te
-xmf/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texmf/fonts/type1/publ
-ic/amsfonts/cm/cmr8.pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmsy8.
-pfb>
-Output written on main.pdf (4 pages, 94401 bytes).
+ 38i,9n,24p,233b,367s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texmf/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texm
+f/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texmf/fonts/type1/publi
+c/amsfonts/cm/cmr12.pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmr17.
+pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texmf
+/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
+Output written on main.pdf (4 pages, 84414 bytes).
 PDF statistics:
  44 PDF objects out of 1000 (max. 8388607)
  30 compressed objects within 1 object stream
