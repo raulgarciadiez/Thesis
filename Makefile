@@ -11,5 +11,5 @@ bildln:
 
 
 clean:
-	rm -f *aux *bbl *log *pdf *toc *blg
+	rm -f *aux *bbl *log *pdf *toc *blg *out
 

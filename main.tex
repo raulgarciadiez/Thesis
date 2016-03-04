@@ -1,4 +1,19 @@
 \documentclass[12pt]{report}
+
+
+%\bibliographystyle{model1-num-names}
+
+%\usepackage{natbib}
+
+\usepackage{wrapfig}
+\usepackage{float}
+
+\usepackage{subfig}
+\usepackage{amsmath}
+\usepackage{hyperref}
+
+\usepackage{amsmath}
+
 \usepackage[utf8]{inputenc}
 \usepackage{graphicx}
 \usepackage{geometry}
@@ -6,9 +21,11 @@
 %\usepackage{import}
 \usepackage{blindtext}
 
+\bibliographystyle{acm}
+
 \graphicspath{{Figures/}}
 
-\includeonly{chapter_introduction}
+%\includeonly{chapter_density_gradient_SAXS}
 
 \title{
 	{Characterization of nanoparticles by continuous contrast variation in SAXS}\\
@@ -21,11 +38,19 @@
 	\maketitle
 	\tableofcontents
 	
-	
 	\include{chapter_introduction}
 	
-%	\chapter{Theoretical Background}
 	\include{chapter_theory_SAXS}
+	
+	\include{chapter_experimental_setup}
+	
+	\include{chapter_density_gradient_SAXS}
+		
+	\include{chapter_simultaneous_size_density}		
+	
+	\include{chapter_bio_applications}
+	
+	\bibliography{main}
 
 	
 \end{document}
