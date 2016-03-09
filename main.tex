@@ -4,6 +4,8 @@
 \newcommand{\fsmedium}[0]{\fontsize{10pt}{10pt}\selectfont}
 
 \bibliographystyle{meinbst}
+%\bibliographystyle{rmp}
+%\bibliographystyle{rusnat}
 \usepackage{natbib}
 \setcitestyle{aysep={},yysep={, },round,semicolon,authoryear}
 
@@ -12,36 +14,25 @@
 \renewcommand{\topfraction}{0.85}
 \renewcommand{\bottomfraction}{0.5}
 
-\usepackage{wrapfig}
 \usepackage{float}
 
-\usepackage{subfig}
 \usepackage{amsmath}
 \usepackage{hyperref}
 
 \usepackage{amsmath}
 
 \usepackage[utf8]{inputenc}
+\usepackage{wrapfig}
+\usepackage{subfig}
 \usepackage{graphicx}
+\graphicspath{{Figures/}}
 \usepackage{geometry}
 \usepackage{color}
-%\usepackage{import}
-\usepackage{blindtext}
 
-
-%\usepackage[demo]{graphicx}
 \usepackage{caption}
-%\usepackage{subfig}
-
 \captionsetup{font=footnotesize}
 
-%\bibliographystyle{rmp}
-
-%\bibliographystyle{rusnat}
-
-\graphicspath{{Figures/}}
-
-%\includeonly{chapter_density_gradient_SAXS}
+%\includeonly{chapter_theory_SAXS}
 
 \title{
 	{Characterization of nanoparticles by continuous contrast variation in SAXS}\\
@@ -66,7 +57,7 @@
 	
 	\include{chapter_bio_applications}
 	
-	\bibliography{main,polymers,polymers_patent}
+	\bibliography{main,polymers,polymers_patent,iucr}
 
 	
 \end{document}

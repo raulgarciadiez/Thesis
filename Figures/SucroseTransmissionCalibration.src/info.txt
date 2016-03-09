@@ -1,0 +1,5 @@
+fcm_201411_067
+Sucrose Background
+x=97.94
+M_max=65%
+M_min=0%

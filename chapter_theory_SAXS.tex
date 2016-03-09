@@ -1,6 +1,6 @@
 \chapter{Theoretical Background}
 \label{chap:theory_SAXS}
-\blindtext[1]\cite{banc_origin_2015}
+
 \section{Interaction of light and matter}
 \subsection{X-ray cross sections}
 \subsection{Rayleight and Mie scattering}
@@ -14,9 +14,46 @@ Number of colloids
 \subsubsection{What is $q$?}
 \subsubsection{Modelling of the scattering curve}
 What about size distributions? Log-normal, gaussian, Monte-carlo free number of sizes (Pauw)
+
+The scattering intensity of an ensemble of randomly oriented nanoparticles in suspension can be expressed as a function of the momentum transfer \( q \), modulus of the scattering vector \(\vec q\), as
+\begin{equation}
+\label{eq:intensity}
+I(q)=N\int_{0}^{\infty} g(R)\left|F(q,R) \right|^2 dR,
+\end{equation}
+where \(N\) is the number of scatterers, \(g(R)\) is the size distribution function and \(F(R)\) is the particle form factor, which depends on the inner radial structure of the particle. If the particle shows a heterogeneous morphology, the form factor differs qualitatively for different suspending medium densities.  For sufficiently monodisperse particle suspensions, the Fourier region of the scattering curve shows pronounced minima that characterize the particle structure. 
+
+For a typical morphology with sharp interfaces between the radial symmetric components of the particle with radius \(R_i\) the form factor is
+\begin{equation}
+\label{eq:multicore-shell}
+F\left(q,R \right)= \Delta \eta f_{sph}(q,R)+\sum_{i=1}^{n-1} \Delta\rho_i \left( f_{sph}(q,R_{i+1})-f_{sph}(q,R_{i}) \right) ,
+\end{equation}
+where \(R\) is the external radius of the particle, \( n \) is the number of concentric shells and \(f_{sph}\) is the form factor of a homogeneous solid sphere given by
+\begin{equation}
+f_{sph}(q,R)=\frac{4}{3} \pi R^3  \left( 3\frac{\sin{qR}-qR\sin{qR}}{(qR)^3}\right).
+\label{eq:ff_sph}
+\end{equation}
 \begin{itemize}
 	\item [Sphere] Gudrun polymeric colloids???
+	
+	In the case of the PMMA-COOH colloids, the form factor is calculated for a homogeneous solid sphere with electron density $\rho_0$:
+\begin{equation}
+f_{sph}(q,R)=\frac{4}{3} \pi R^3  \left( 3\frac{\sin{qR}-qR\cos{qR}}{(qR)^3}\right)=\frac{F(q,R)}{\rho_0}.
+\label{eq:ff_sph}
+\end{equation}
 	\item [Core-shell] Interface effects???
+	
+	The model represents a radially symmetric particle with a sharp interface between the outer shell and the inner core. The form factor is described by
+
+\begin{equation}
+	\begin{split}
+	F(q,R)= & \Delta\eta f_{sph}(q,R)+ \\
+	& \Delta\rho\left[ f_{sph}(q,R)-f_{sph}(q,R_{core}) \right] ,
+	\end{split}
+\label{eq:ff_cs}
+\end{equation}
+
+where \(R \) and \(R_{core} \)  are the outer shell and inner core radii respectively, the excess of electron density is \(\Delta\rho=\rho_{shell}-\rho_{core}\) and the contrast is expressed as \(\Delta\eta=\rho_{core}-\rho_{solv}\), where $\rho_{solv}$ is the electron density of the suspending medium.
+
 	\item [Onion model] It can be used for single-SAXS experiment maybe
 	\item [Vesicle] 5 gaussian????
 	\item [Inclusion of background] a+b*q-4
@@ -28,13 +65,57 @@ Polydispersity effects
 
 \section{Contrast variation}
 Solvent variation
+
 ASAXS
+
+When analyzing contrast variation data, a widespread theoretical approach is based in the non-interacting model proposed by Stuhrmann $\&$ Kirste \citeyear{Stuhrmann1965,Stuhrmann1967} for monodisperse particles. The so-called \emph{basic functions} formulation differentiates, independently of the particle inner structure, the contributions which depend on the varying solvent density or contrast (\(\Delta\eta=\rho_{core}-\rho_{solv}\)) and on the excess of electron density of each component \(\Delta \rho_i =\rho_i-\rho_{core}\). 
 \subsection{Isoscattering point}
+One of the best known features appearing in a contrast variation experiment is the existence of \emph{isoscattering points}. At these specific \( q\)-values, the scattering intensity is independent of the adjusted solvent contrast, i.e. all scattering curves intersect in the isoscattering points regardless of the contrast. The isoscattering points \(q^{\star}\) are particularly interesting because they emerge for any spherical particle with an inner structure and a sufficiently narrow size distribution. From the contrast-depending part of equation \eqref{eq:multicore-shell}, a model-free expression can be derived which relates the position of the isoscattering points \(q^{\star}_i\) with the external radius of the particle \( R \), independent of its radial structure \cite{Kawaguchi1992}:
+\begin{equation}
+\label{eq:isoscattering}
+\tan(q^{\star}_iR)=q^{\star}_iR
+\end{equation}
+The positions of the isoscattering points correspond to the minima positions of the scattering intensity of a compact spherical particle with radius \( R \). Although this expression is derived for the monodisperse case, it can still be applied up to a moderate degree of polydispersity, if care is taken regarding the shift of the minima position due to polydispersity \cite{Beurten1981}. If defining the polydispersity degree \( p_d\) as the full width half maximum of the particle size distribution divided by its average value, for size distributions with \( p_d\) larger than \( \approx 30\,\% \), the isoscattering point is not well defined and the intersection point of the curves is smeared out, showing a diffuseness in the isoscattering point position \cite{Kawaguchi1992}.
 \subsubsection{Possible deviations}
 Polydispersity and ellipticity smearing (simulation, calculation)
 \subsection{Basic functions approach}
+When analyzing contrast variation data, a widespread theoretical approach is based in the non-interacting model proposed by Stuhrmann $\&$ Kirste (\citeyear{Stuhrmann1965,Stuhrmann1967}) for monodisperse particles. The so-called \emph{basic functions} formulation differentiates, independently of the particle inner structure, the contributions which depend on the varying solvent density or contrast (\(\Delta\eta\)) and on the excess of electron density of each component of the particle. 
+
+Deriving from this approach, the scattering intensity can be expressed as the combination of contributions corresponding to different features of the particles:
+\begin{equation}
+\label{eq:intensity_contrast}
+I(q)=I_c(q)+\Delta\eta I_{sc}(q)+(\Delta\eta)^2 I_{s}(q)
+\end{equation}
+The $I_c$ function contains the contributions from the density fluctuations inside the particle, the contribution $I_s$ is the so-called \emph{resonant term} and $I_{sc}$ is the cross-term function.
+
 \subsubsection{Shape factor}
+The $I_s(q)$ function, also known as \emph{shape factor}, corresponds to the scattering contributions from particles with homogenous density and a size equivalent to the volume inaccessible to the solvent. By modelling the shape factor function, the shape and size distribution of the polymeric colloids can be determined independently of their inner structure.
+
+For this purpose, a spherical form factor for homogeneous colloids with a gaussian size distribution was utilized, similarly to the PMMA-COOH example. In order to obtain the particle sphericity, an ellipsoid model was employed.
 \subsubsection{Guinier law}
 Gyration radius
+
+The radius of gyration \( R_g\) is systematically employed in small-angle scattering as an evaluation tool \cite{Mertens2010,Sim2012}. It can be calculated using the Guinier approximation \cite{Guinier1939,Guinier1955}, which assumes that the scattering intensity behaves in the limit of small \(q\) as
+\begin{equation}
+\label{eq:guinier}
+I(q)=I(0)\,\mbox{exp}\left(-\frac{R_g^2}{3}q^2\right),
+\end{equation}
+where \( I(0)\) is known as forward scattering or intensity at zero angle. Using the basic functions approach, the radius of gyration of a monodisperse, heterogeneous particle can be expressed as a function of the solvent electron density \( \rho_{solv} \) and the average electron density of the particle \( \rho_0 \) \cite{Feigin1987}
+\begin{equation}
+R_g^2=R_{g,c}^{\,2}+\frac{\alpha}{\rho_0-\rho_{solv}}-\frac{\beta}{(\rho_0-\rho_{solv})^2},
+\label{eq:gyration}
+\end{equation}
+where \(R_{g,c}\) is the radius of gyration of the particle shape corresponding to the volume inaccessible for the solvent \( V_c \), \( \alpha \) characterizes the distribution of different phases inside the particle and \( \beta>0 \) considers the eccentricity of the different scattering contributions \cite{Stuhrmann2008}. Nevertheless, particle aggregation influences the scattering curves especially in the Guinier region and must be explicitly avoided.
+
+\cite{Avdeev2007} proposed an extended version to equation \eqref{eq:gyration} for the case of a polydisperse particle ensemble by introducing the \emph{effective} values \( \tilde R^2_{g,c} \), \( \tilde \alpha \) and \( \tilde \beta \), which are the intensity-weighted averages of the corresponding parameters over the polydispersity. The observed average electron density is not affected by the polydispersity (\( \tilde\rho_0=\rho_0 \)) if the volume ratio between the different particle components is constant for all particles in the ensemble.
+
+Assuming the same premise, the intensity at zero angle is given by
+\begin{equation}
+\label{eq:I0}
+I(0)\propto N \left( \rho_0-\rho_{solv} \right)^2 ,
+\end{equation}
+with a minimum at \( \rho_{solv}=\rho_0 \). Therefore, by analyzing the Guinier region of the scattering curves, the average electron density of the particle can be obtained without assuming an \emph{a priori} inner structure.
+
+Using the models presented above, it is possible to obtain by independent means the external radius and the average electron density of the particle in suspension.
 \subsubsection{$I(0)$}
 what happens in polydisperse systems?
