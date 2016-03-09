@@ -1,9 +1,16 @@
 \documentclass[12pt]{report}
 
+\newcommand{\fssmall}[0]{\fontsize{8pt}{8pt}\selectfont}
+\newcommand{\fsmedium}[0]{\fontsize{10pt}{10pt}\selectfont}
 
-%\bibliographystyle{model1-num-names}
+\bibliographystyle{meinbst}
+\usepackage{natbib}
+\setcitestyle{aysep={},yysep={, },round,semicolon,authoryear}
 
-%\usepackage{natbib}
+\renewcommand{\floatpagefraction}{0.8}
+% Mindestgröße Abbildung auf einer eigenen Seite
+\renewcommand{\topfraction}{0.85}
+\renewcommand{\bottomfraction}{0.5}
 
 \usepackage{wrapfig}
 \usepackage{float}
@@ -21,7 +28,16 @@
 %\usepackage{import}
 \usepackage{blindtext}
 
-\bibliographystyle{acm}
+
+%\usepackage[demo]{graphicx}
+\usepackage{caption}
+%\usepackage{subfig}
+
+\captionsetup{font=footnotesize}
+
+%\bibliographystyle{rmp}
+
+%\bibliographystyle{rusnat}
 
 \graphicspath{{Figures/}}
 
@@ -50,7 +66,7 @@
 	
 	\include{chapter_bio_applications}
 	
-	\bibliography{main}
+	\bibliography{main,polymers,polymers_patent}
 
 	
 \end{document}
