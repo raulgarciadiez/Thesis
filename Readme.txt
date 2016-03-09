@@ -1,3 +1,7 @@
-Readme for PhD Thesis
+PhD Thesis
 
-Test with Github / Test from PTB
+Characterization of nanoparticles by continuous contrast variation in SAXS
+
+Raul Garcia-Diez
+
+All rights reserved 2016 R. Garcia-Diez
