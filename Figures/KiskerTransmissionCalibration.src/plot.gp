@@ -4,11 +4,11 @@ set y2tics nomirror
 set grid
 
 set autoscale
-set xrange [0:10]
+set xrange [-0.5:11]
 
 set xlabel 'Vertical Position / mm'
-set ylabel 'Sucrose Mass Fraction / $\%$'# offset 2
-set y2label 'X-ray Transmission / $\%$' rotate by 270# offset -2.5
+set ylabel 'Sucrose Mass Fraction / $\%$' offset 2
+set y2label 'X-ray Transmission / $\%$' rotate by 270 offset -2.5
 
 set cblabel 'Diffusion Time / min' rotate by 270 offset 0
 #unset colorbox

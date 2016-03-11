@@ -1,0 +1,61 @@
+This is BibTeX, Version 0.99d (TeX Live 2013/TeX Live for SUSE Linux)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: main.aux
+The style file: meinbst.bst
+A level-1 auxiliary file: chapter_introduction.aux
+A level-1 auxiliary file: chapter_theory_SAXS.aux
+A level-1 auxiliary file: chapter_experimental_setup.aux
+A level-1 auxiliary file: chapter_density_gradient_SAXS.aux
+A level-1 auxiliary file: chapter_simultaneous_size_density.aux
+A level-1 auxiliary file: chapter_bio_applications.aux
+Database file #1: main.bib
+Database file #2: polymers.bib
+Database file #3: polymers_patent.bib
+Database file #4: iucr.bib
+`number' is a missing field, not a string, for entry Dingenouts1999
+while executing---line 3135 of file meinbst.bst
+`number' is a missing field, not a string, for entry dingenouts_analysis_1999
+while executing---line 3135 of file meinbst.bst
+Warning--can't use both author and editor fields in Feigin1987
+You've used 89 entries,
+            2851 wiz_defined-function locations,
+            1205 strings with 24955 characters,
+and the built_in function-call counts, 48397 in all, are:
+= -- 4639
+> -- 2678
+< -- 41
++ -- 1039
+- -- 935
+* -- 4684
+:= -- 8712
+add.period$ -- 181
+call.type$ -- 89
+change.case$ -- 763
+chr.to.int$ -- 92
+cite$ -- 90
+duplicate$ -- 1942
+empty$ -- 3268
+format.name$ -- 1060
+if$ -- 9399
+int.to.chr$ -- 10
+int.to.str$ -- 1
+missing$ -- 92
+newline$ -- 271
+num.names$ -- 360
+pop$ -- 594
+preamble$ -- 1
+purify$ -- 667
+quote$ -- 0
+skip$ -- 1109
+stack$ -- 0
+substring$ -- 3007
+swap$ -- 467
+text.length$ -- 3
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 789
+warning$ -- 1
+while$ -- 432
+width$ -- 0
+write$ -- 981
+(There were 2 error messages)

@@ -10,11 +10,11 @@ set xlabel 'Vertical Position / mm'
 set ylabel 'Particle Concentration / $\%$' offset 2
 set y2label 'X-ray Transmission / $\%$' rotate by 270 offset -2.5
 
-#set cblabel 'Diffusion Time / min' rotate by 270 offset 0
+set cblabel 'Diffusion Time / min' rotate by 270 offset 0
 
-unset colorbox
-load '../style.gp'
-set palette
+#unset colorbox
+#load '../style.gp'
+#set palette
 
 Imin=4.433
 Imax=2.675

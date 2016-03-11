@@ -37,6 +37,12 @@ pilatus and thin diode
 galden at bottom, reference layer
 \subsubsection{Capillary homogeneity}
 Hilgenberg
+\begin{figure}%[htbp]
+	\centering
+		\input{Figures/HilgenbergHomogeneity}
+		\caption{Deviation from glass transmission (thickness of the capillary)}
+		\label{fig:HilgenbergHomogeneity}
+\end{figure}
 
 \subsection{Calibration of solvent density and finding of main axis}
 The transmitted intensity through the sample is recorded at a photon energy of \(E = (5500.0 \pm  0.5)\) eV for 10 seconds at each position. The measurement consists of 20 points spaced 0.5 mm along the central vertical axis of the capillary. The overall X-ray transmission measurement requires approximately 5 minutes, which is within the calculated diffusion timescale of the aqueous sucrose solution. The solvent electron density profile within the density gradient capillary derived from this measurement is depicted in figure \ref{fig:1}. A uniform thickness of the capillary within $0.5\,\%$ along this axis was determined by measuring the X-ray transmission of an empty capillary. The associated uncertainty in the sample transmission measurement is below $4\,\%$. The sample thickness is assumed to be constant. This transmission measurement is performed both immediately before and after recording the scattering patterns, which takes 15 minutes to complete. The transmittance values used for the density calibration are then linearly interpolated between both data sets taking into account the time-dependence. These values can be converted to solvent electron densities via the Beer-Lambert law, which relates the density of the solution with the transmitted intensity:
@@ -47,9 +53,16 @@ Here \(\rho\) is the electron density of the suspending medium, $I$ and $I_0$ ar
 
 \begin{figure}%[htbp]
 	\centering
-		\subfloat[Isoscattering point positions]{\resizebox{0.45\linewidth}{!}{\input{Figures/LudoxHS40TransmissionCalibration}}\label{fig:LudoxHS40TransmissionCalibration}}
-		\subfloat[Scattering curves]{\resizebox{0.45\linewidth}{!}{\input{Figures/KiskerTransmissionCalibration}}\label{fig:KiskerTransmissionCalibration}}
-	\caption{Typical measurement of particles with different diffusion timescale: Sucrose (with Kisker NPs) measured at 5500 eV and Colloids (Ludox HS40) mesaured at 8000eV}
+		\input{Figures/LudoxHS40TransmissionCalibration}
+		\caption{Typical measurement of particles with different diffusion timescale: Sucrose (with Kisker NPs) measured at 5500 eV and Colloids (Ludox HS40) mesaured at 8000eV}
+		\label{fig:LudoxHS40TransmissionCalibration}
+\end{figure}
+
+\begin{figure}%[htbp]
+	\centering
+		\input{Figures/KiskerTransmissionCalibration}
+		\caption{Typical measurement of particles with different diffusion timescale: Sucrose (with Kisker NPs) measured at 5500 eV and Colloids (Ludox HS40) mesaured at 8000eV}
+		\label{fig:KiskerTransmissionCalibration}
 \end{figure}
 
 \begin{figure}%[htbp]
