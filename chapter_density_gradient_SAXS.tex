@@ -26,7 +26,21 @@ Directly above the Galden fluid, the denser of two mixtures with different solve
 \section{Continuous contrast variation in SAXS on PS-PMMA colloids}
 The measured scattering curves of the polystyrene particles are displayed in figure \ref{fig:2}. In the region for \(q\) from 0.03 nm\(^{-1}\) to 0.5 nm\(^{-1}\) it is possible to observe the variation of the curve features corresponding to the particle form factor through the increase of the solvent electron density from 333.7 nm\(^{-3}\) at the top edge of the density gradient to 360.3 nm\(^{-3}\) at the maximum sucrose concentration. In this region, the experimental background is composed mainly by the contribution of the capillary scattering at the low $q$-region and the uniform scattering of the suspending medium. The experimental background scattering varies for different sucrose concentrations, but their variations are small and the background remains one order of magnitude below the sample scattering in the relevant Fourier region.
 
+\begin{figure}%[htbp]
+	\centering
+		\input{Figures/KiskerContinuousSAXS}
+		\caption{Kisker PS-PMMA 105 nm continous contrast variation}
+		\label{fig:KiskerContinuousSAXS}
+\end{figure}
+
 Upon increasing the solvent density, the position of the first minimum shifts from 0.07 nm\(^{-1}\) towards smaller \(q\)-values until it vanishes when the solvent electron density matches the average electron density of the measured particle. In the Fourier region of the scattering curves, several minima are observed which shift towards smaller \(q\)-values when increasing the solvent electron density. Upon subtracting the experimental background from the scattering curve, a decrease of the scattering intensity towards $q=0$ is observed only for the solvent electron density closest to the match point as depicted in figure \ref{fig:2B}. Therefore, background corrections can be neglected for systems with relatively high scattering power like in this study. For low-scatterers, an accurate background correction by measuring the pure suspending medium at different sucrose concentrations might be required. The behaviour at low $q$-values will be further discussed in section \S\ref{sec:guinier_analysis} when evaluating the zero-angle intensity.
+
+\begin{figure}%[htbp]
+	\centering
+		\input{Figures/KiskerBackgroundSubtraction}
+		\caption{Effect of BG, specially at low q at ed 345.4 nm$^{-3}$}
+		\label{fig:KiskerBackgroundSubtraction}
+\end{figure}
 
 The presence of the clearly visible isoscattering point around \(q=0.09\) nm\(^{-1}\) confirms the existence of an inner structure. This heterogeneous composition was previously reported for the same colloids by \citet{Minelli2014}, who observed methacrylic acid (MAA) and methylmethacrylate (MMA) at the particle surface, both monomer precursors of PMMA polymerization. A more detailed insight into the radial morphology is presented subsequently, using the theoretical framework already introduced.
 
@@ -40,6 +54,13 @@ F_{CS}(q,R,R_{core})=\Delta\eta f_{sph}(q,R)+\Delta\rho\left[ f_{sph}(q,R)-f_{sp
 \end{equation}
 where \(R \) and \(R_{core} \)  are the outer shell and inner core radii respectively and the excess of electron density is \(\Delta\rho=\rho_{shell}-\rho_{core}\). The simultaneous fitting of the form factor to the 40 measured scattering curves was performed by means of the method of least squares in the Fourier region \citet{Pedersen1997}. The calculated scattered intensity was modelled as the sum of the particle contributions and a two-component background \(I_{bg}=C_0+C_4q^{-\gamma} \). The parameters \(\rho_{core}\), \(\rho_{shell}\), \(R\), \(R_{core}\) and \(\gamma\) were fitted simultaneously for all curves, whilst \( C_0 \) and \( C_4 \) were adjusted independently for each solvent density. A Gaussian size distribution was assumed. For the suspending medium electron density \( \rho_{solv} \) appearing in the contrast \( \Delta\eta \), the value determined from the transmission measurement was used for each curve.
 
+\begin{figure}%[htbp]
+	\centering
+		\input{Figures/KiskerSAXSCoreshellFit}
+		\caption{Core-shell fit to 3 representative curves at different contrasts}
+		\label{fig:KiskerSAXSCoreshellFit}
+\end{figure}
+
 The obtained results are \(R=\left(49.7 \pm 2.8\right) \) nm, \(R_{core}=\left(44.2 \pm 0.9\right) \) nm, \(\rho_{core}=\left(339.7 \pm 0.1\right)\) nm\(^{-3}\) and \(\rho_{shell}=\left(361.9 \pm 2.0\right)\) nm\(^{-3}\), which represent the radial structure of a dense, thin shell surrounding a lighter core, as seen in the inset of figure \ref{fig:3}. The resulting average electron density of the particle is \(\rho_{0}=\left(345.9 \pm 1.5\right)\) nm\(^{-3}\) and the polydispersity degree, \(p_d=\left(22.8\pm 6.0\right)\,\%\). The best fitting background corresponds to a value of \( \gamma = 4.3\pm 0.5 \), close to the case \( \gamma = 4 \) originating from large impurities or precipitates \citet{Pedersen1994}. The fit uncertainty was calculated with a confidence interval of one standard deviation. 
 
 It is noticeable that the calculated electron density of the core coincides exactly with the theoretical polystyrene electron density, although the electron density of the shell is remarkably lower than the theoretical value of 383.4 nm\(^{-3}\) for PMMA \citet{Ballauff2001}. This might arise from the lower density of the monomers used in the particle synthesis (MAA and MMA), which could have mixed with the styrene monomers resulting in a less dense material than PMMA. This model might present some differences with the real colloid system, as a diffusive interfacial layer can be expected between polymer phases in colloids \citet{Dingenouts1994}, especially for incompatible polymers such as PMMA and PS. On the other hand, the large quantity of scattering curves used for the fitting process and, accordingly, the decreased uncertainty suggests that the chosen sharp core-shell model has a great resemblance to the real particle.
@@ -52,6 +73,13 @@ The first isoscattering point is clearly visible in figure \ref{fig:2}. For a mo
 \sigma_r (q)=\frac{1}{\bar{I}(q)}\sqrt{\frac{\sum^{M}_{i=1} (I_i(q) -\bar{I} (q))^2 }{M-1}} ,
 \end{equation}
 where \(\bar{I} (q)\) is the mean value of the intensity at \(q\) and \( M \) is the number of scattering curves. This value becomes minimal at an isoscattering point. In order to reduce the influence of outliers, a truncated mean value was utilized, disregarding the \(10\,\%\) most dispersed data points. In figure \ref{fig:4}, the relative standard deviation is plotted as a function of the momentum transfer \(q\), which shows several distinguishable minima corresponding to isoscattering points.
+
+\begin{figure}%[htbp]
+	\centering
+		\input{Figures/KiskerIsopoint}
+		\caption{Relative standard deviation to quantify the position of the isoscattering points}
+		\label{fig:KiskerIsopoint}
+\end{figure}
 
 \begin{table}
 \caption{Experimentally determined position of the first five isoscattering points and the corresponding external particle radius \(R\).}
@@ -77,10 +105,25 @@ By analyzing the low \(q \)-region of the scattering curves, the so-called Guini
 
 As described in \(\S\)\ref{sec:guinier}, the radius of gyration of a heterogeneous particle in a contrast variation experiment should behave according to equation \eqref{eq:gyration}. In figure \ref{fig:5}, the experimental squared radius of gyration is displayed as a function of the suspending medium electron density. The best fit to the measured data with values \(\rho_0=343.7\) nm\(^{-3}\), \( \tilde R_{g,c}=39.0\) nm, \(\tilde \alpha=4470\) nm\(^{-1}\) and \(\tilde\beta=0\) nm\(^{-4}\) is shown by the solid line. 
 
+\begin{figure}%[htbp]
+	\centering
+		\input{Figures/KiskerGuinierRadius}
+		\caption{Squared radius of gyration against solvent electron density. The asymptotes show $\rho_0$ and $\tilde R^2_{g,c}$}
+		\label{fig:KiskerGuinierRadius}
+\end{figure}
+
 The positive value of \(\tilde\alpha\) validates the hypothesis that a more dense polymer (probably PMMA) surrounds a lighter core (PS) \cite{Stuhrmann2008}. The calculated average electron density of the particle \(\rho_0\) suggests a very thin layer of PMMA shell around the PS core, due to the proximity of its value to the polystyrene electron density (339.7 nm\(^{-3}\) ). The value of \( \tilde\beta=0\) proves a concentric model, where core and shell share the same centre. Using the same polydispersity value of \(22.8\,\%\) obtained in the fitting process, the value for the particle shape radius of gyration results in \(R_{g,c}=36.9\) nm and the external radius of the particle can be calculated assuming the particle as a spherical object (\( R_g^2=\frac{3}{5}R^2 \)). This calculation gives \( R=47.6\) nm, which is only 2.1 nm smaller than the calculated external radius \(R=49.7\) nm, though it might be underestimated due to the choice of a possibly inflated polydispersity. 
 
 \subsubsection{Average electron density}
 Using the same set of 40 scattering curves, the behaviour of the zero-angle intensity under the contrast variation is also investigated by fitting equation \eqref{eq:I0} to the experimental \(I(0)\), as depicted in figure \ref{fig:6}. A minimum in the curve is observed at \(\rho_{solv}=346.0\) nm\(^{-3}\), which corresponds to the value of the average electron density of the particle. This value is in very good agreement with the result obtained by fitting the core-shell form factor. It is also noticeable that the minimum intensity is approximately 0, which means that the effective average density of the ensemble is equal to the average density of the particle \cite{Avdeev2007}. This result further legitimates the previously made assumption that the ratio between the particle components' volumes is constant independent of the polydispersity and hence \(  \tilde \rho_0 = \rho_0  \).
+
+\begin{figure}%[htbp]
+	\centering
+		\input{Figures/KiskerIntensityParabola}
+		\caption{Intensity at $q=0$ as functio of the solvent electron density}
+		\label{fig:KiskerIntensityParabola}
+\end{figure}
+
 \begin{itemize}
 	\item [First point] Comparison of accuracy
 	\item [Extrapolatio] Using just the Guinier region or extrapolating from first minimum

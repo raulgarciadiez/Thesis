@@ -1,0 +1,5 @@
+
+#(fit curve) R2=1522.5	A=4470.2	C=343.74
+#ERRORS: R2=408.06	A=22413	C=0.015769
+
+#f(x)=R2+A/(C-x), where x is the electron density and y is Rg**2
