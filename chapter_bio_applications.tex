@@ -30,19 +30,10 @@ The PEGylated liposomal formulation of doxorubicin, Caelyx R (SP Europe, Brussel
 
 \begin{figure}
 	\centering
-		\input{Figures/CaelyxSingleContrastSAXS}
-		\caption{Caelyx in buffer: SAXS scattering curve}
-		\label{fig:CaelyxSingleContrastSAXS}
-\end{figure}
-
-\begin{figure}
-	\centering
 		\input{Figures/CaelyxIodixanolSingleContrast}
-		\caption{Caelyx in 9.1 $\%$ iodixanol: SAXS scattering curve at single contrast compared to that of an SSL of similar size}
+		\caption{Caelyx in buffer and in 9.1 $\%$ iodixanol: SAXS scattering curve at single contrast compared to that of an SSL of similar size}
 		\label{fig:CaelyxIodixanolSingleContrast}
 \end{figure}
-
-
 
 \subsection{Iso-osmolar contrast agent: Iodixinol}
 \subsection{Sterically Stabilized Liposomes (SSLs) of different sizes}
@@ -51,6 +42,14 @@ HDL and LDL
 
 \section{Traceable size determination of a liposomal drug}
 SAXS curves of the liposomal doxorubicin sample measured at different suspending medium electron densities are shown in Fig. 1. In the scattering curves, it is possible to observe the variation of the curve features through the increase of the suspending medium density, which indicates the complexity of the internal structure of the nanocarrier. Besides, the appearance of an intersection point around q = 0.12 nm$^{-1}$ is a further indicator of the structural complexity of the drug-carrier.
+
+\begin{figure}
+	\centering
+		\subfloat[Contrast variation with density gradient]{\resizebox{0.44\linewidth}{!}{\input{Figures/CaelyxIodixanolContinuousSAXS}}\label{fig:CaelyxIodixanolContinuousSAXS}}
+		\subfloat[Isoscattering point positions]{\resizebox{0.44\linewidth}{!}{\input{Figures/CaelyxIodixanolIsopoint}}\label{fig:CaelyxIodixanolIsopoint}}
+		\caption{Caelyx in iodixanol}
+\end{figure}
+
 The solvent background has been subtracted by measuring the scattering curves of a density gradient of Optiprep® and buffer without nanocarriers. The low scattering power of the PEGylated liposomal doxorubicin at high q values and the contribution of the iodixanol background  result in an increased uncertainty in the high-q range of the corrected scattering curves, although in the Fourier region below q = 0.3 nm$^{-1}$ the background effect is almost negligible.
 
 \subsection{Isoscattering point approach}
@@ -60,6 +59,13 @@ The determination of the q values have an associated relative uncertainty of 0.1
 
 \subsection{Shape factor calculation}
 In order to provide a traceable uncertainty for the obtained size value, we have used an alternative evaluation procedure, namely the calculation of the so-called shape factor which extracts all contributions from the 30 measured scattering curves that change with the contrast at different solvent densities. The shape factor of the Caelyx® sample contains essentially information only about the shape and size distribution of the space filled up by the liposomes, i.e. the contributions of the phospholipid bilayer and the encapsulated doxorubicin to the scattering intensity are cancelled.  Thus, the complex interpretation of the original SAXS curve of Caelyx R is avoided and enables the size determination of the liposomal carrier by fitting a simple analytical model for homogeneous spherical objects. A model with a certain ellipticity was also attempted, due to the slight liposomal eccentricity observed in TEM images though the best fit was accomplished with a spherical model. Details on the calculation of the shape factor as well as the analytical expression for the model fitting can be found in the Supplementary Information. 
+
+\begin{figure}
+	\centering
+		\input{Figures/CaelyxIodixanolResonantTerm}
+		\caption{Caelyx in buffer and in 9.1 $\%$ iodixanol: SAXS scattering curve at single contrast compared to that of an SSL of similar size}
+		\label{fig:CaelyxIodixanolResonantTerm}
+\end{figure}
 
 The shape factor calculated from the SAXS curves and the theoretical model fitting are depicted in Fig. 2. The mean diameter obtained from the spherical form factor fit is (65.5 $\pm$ 4.7) nm, slightly smaller than the value calculated from the isoscattering point position. Nevertheless, both values overlap when considering the associated standard uncertainties and that the polydispersity smearing of the isoscattering point is difficult to quantify. The latter fact is supported by the broad size distribution determined by the shape factor fitting. When assuming a Gaussian size distribution, the polydispersity degree (defined as the full width at half maximum of the size distribution divided by its mean value) of the nanocarrier is ca. 40$\%$. Therefore, the average value of (69 $\pm$ 5) nm can be embraced as a reliable external size for the liposomal drug-carrier.
 

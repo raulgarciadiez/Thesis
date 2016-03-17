@@ -86,10 +86,10 @@
 \contentsline {subsection}{\numberline {6.1.2}Iso-osmolar contrast agent: Iodixinol}{53}{subsection.6.1.2}
 \contentsline {subsection}{\numberline {6.1.3}Sterically Stabilized Liposomes (SSLs) of different sizes}{53}{subsection.6.1.3}
 \contentsline {subsection}{\numberline {6.1.4}Lipoproteins}{53}{subsection.6.1.4}
-\contentsline {section}{\numberline {6.2}Traceable size determination of a liposomal drug}{53}{section.6.2}
+\contentsline {section}{\numberline {6.2}Traceable size determination of a liposomal drug}{54}{section.6.2}
 \contentsline {subsection}{\numberline {6.2.1}Isoscattering point approach}{54}{subsection.6.2.1}
 \contentsline {subsection}{\numberline {6.2.2}Shape factor calculation}{55}{subsection.6.2.2}
-\contentsline {subsection}{\numberline {6.2.3}Average electron density}{56}{subsection.6.2.3}
+\contentsline {subsection}{\numberline {6.2.3}Average electron density}{57}{subsection.6.2.3}
 \contentsline {section}{\numberline {6.3}Osmotic effects in liposomes}{57}{section.6.3}
 \contentsline {subsection}{\numberline {6.3.1}Application to drug-stabilized liposomes}{57}{subsection.6.3.1}
 \contentsline {subsection}{\numberline {6.3.2}Size dependency of the osmotic activity}{59}{subsection.6.3.2}

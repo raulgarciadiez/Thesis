@@ -44,6 +44,6 @@ FIT_WSSR = 432.303312926403
 set xlabel '$q$ / nm$^{-1}$'
 set ylabel 'Scattering Intensity / a.u.'
 set xrange [0.035:1.]
-set yrange [1:300]
+set yrange [0.4:500]
 
-p "caelyx_iodixanol_9.1.dat" every 2 u 1:($2/1.e12) w p ls 1 t 'Caelyx in iodixanol', 'SSL_water.dat' every 2 u 1:($2/1e12) w p ls 2 t 'SSL in buffer',(N*vesicle(x)+c)*1e9/1e12 w l ls 3 t 'Vesicle fit'
+p 'caelyx_water.dat' every 2 u ($1<0.1?$1:1/0):($2/1.e12) w p ls 1 t 'Caelyx in buffer','' every 4 u (($1<0.2)&&($1>0.1)?$1:1/0):($2/1e12) w p ls 1 notitle,'' every 6 u (($1>0.2)?$1:1/0):($2/1e12) w p ls 1 notitle, "caelyx_iodixanol_9.1.dat" every 2 u ($1<0.1?$1:1/0):($2/1.e12) w p ls 2 t 'Caelyx in 9.1$\%$ iodixanol','' every 4 u (($1<0.2)&&($1>0.1)?$1:1/0):($2/1e12) w p ls 2 notitle,'' every 6 u (($1>0.2)?$1:1/0):($2/1e12) w p ls 2 notitle, 'SSL_water.dat' every 2 u (($1<0.1)?$1:1/0):($2/2e12) w p ls 3 t 'SSL in buffer','' every 4 u (($1<0.2)&&($1>0.1)?$1:1/0):($2/2e12) w p ls 3 notitle,'' every 6 u (($1>0.2)?$1:1/0):($2/2e12) w p ls 3 notitle,(N*vesicle(x)+c)*1e9/1e12 w l ls 1 t 'Vesicle fit'
