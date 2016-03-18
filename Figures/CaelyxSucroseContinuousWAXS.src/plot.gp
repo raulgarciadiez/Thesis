@@ -4,21 +4,18 @@ set grid
 set xlabel '$q$ / nm$^{-1}$' 
 set ylabel 'Scattering Intensity / cm$^{-1}$' offset 2,-1
 set autoscale
-set xrange [1.5:3.]
+set xrange [1.8:3.]
 set yrange [0:1.e-3]
 
 set key spacing 1.5
 set key 0.075,5
-#set xtics (0.05,0.1,0.2,0.5,1.)
+set xtics (2.,2.5,3.)
 
-set cblabel '\fsmedium Solvent Osmolality / mOsm kg$^{-1}$' offset -1,0  rotate by -90
+set cblabel '\fsmedium Solvent Osmolality / mOsm kg$^{-1}$' offset -3,0  rotate by -90
 set cbtics offset -1,0 format '\fsmedium %g'
-#set cbtics offset -1,0 format '\fsmedium %g'
 
 set cbrange [200:1500]
-#set format cb "%.1f"
 
-#N=1.05e14*0.3
 N=1
 
 list = system('ls WAXS_*.dat')
