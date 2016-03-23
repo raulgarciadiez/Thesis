@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/TeX Live for SUSE Linux) (format=pdflatex 2015.3.4)  22 MAR 2016 16:40
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/TeX Live for SUSE Linux) (format=pdflatex 2015.3.4)  23 MAR 2016 10:52
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -632,9 +632,12 @@ e
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
+[1
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
 \openout2 = `abstract.aux'.
 
-(./abstract.tex
+ (./abstract.tex
 
 LaTeX Warning: Command \textregistered invalid in math mode on input line 20.
 
@@ -660,45 +663,594 @@ LaTeX Warning: Command \textcircled invalid in math mode on input line 26.
 
 LaTeX Warning: Command \textcircled invalid in math mode on input line 26.
 
-[1
+pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.29 
+      [1
+
+]) [2] (./main.toc [3
 
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]) [2]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 65.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 65.
- (./main.aux
-(./abstract.aux) (./chapter_introduction.aux) (./chapter_theory_SAXS.aux)
-(./chapter_experimental_setup.aux) (./chapter_density_gradient_SAXS.aux)
-(./chapter_simultaneous_size_density.aux) (./chapter_bio_applications.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 65.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 65.
+] [4])
+\tf@toc=\write4
+\openout4 = `main.toc'.
+
+ [5]
+\openout2 = `chapter_introduction.aux'.
+
+ (./chapter_introduction.tex
+Chapter 1.
+[6
+
+
+]) [7]
+\openout2 = `chapter_theory_SAXS.aux'.
+
+ (./chapter_theory_SAXS.tex
+Chapter 2.
+[8
+
+
+
+] [9] [10] [11]) [12]
+\openout2 = `chapter_experimental_setup.aux'.
+
+ (./chapter_experimental_setup.tex
+Chapter 3.
+
+LaTeX Warning: Reference `fig:0' on page 13 undefined on input line 14.
+
+[13
+
+
+
+] [14] (./Figures/GaldenCalibration.tex
+<Figures/GaldenCalibration.pdf, id=551, 284.06125pt x 226.8475pt>
+File: Figures/GaldenCalibration.pdf Graphic file (type pdf)
+
+<use Figures/GaldenCalibration.pdf>
+Package pdftex.def Info: Figures/GaldenCalibration.pdf used on input line 107.
+(pdftex.def)             Requested size: 284.06053pt x 226.84694pt.
+) (./Figures/HilgenbergHomogeneity.tex
+<Figures/HilgenbergHomogeneity.pdf, id=552, 284.06125pt x 226.8475pt>
+File: Figures/HilgenbergHomogeneity.pdf Graphic file (type pdf)
+
+<use Figures/HilgenbergHomogeneity.pdf>
+Package pdftex.def Info: Figures/HilgenbergHomogeneity.pdf used on input line 1
+12.
+(pdftex.def)             Requested size: 284.06053pt x 226.84694pt.
+)
+Underfull \hbox (badness 5345) in paragraph at lines 50--50
+[]\OT1/cmr/m/n/10 (a) |De-vi-a-tion from glass trans-mis-sion
+ []
+
+(./Figures/WaterHomogeneity.tex
+<Figures/WaterHomogeneity.pdf, id=553, 284.06125pt x 226.8475pt>
+File: Figures/WaterHomogeneity.pdf Graphic file (type pdf)
+
+<use Figures/WaterHomogeneity.pdf>
+Package pdftex.def Info: Figures/WaterHomogeneity.pdf used on input line 108.
+(pdftex.def)             Requested size: 284.06053pt x 226.84694pt.
+)
+
+LaTeX Warning: Reference `fig:1' on page 15 undefined on input line 56.
+
+[15 <./Figures/GaldenCalibration.pdf>] [16 <./Figures/HilgenbergHomogeneity.pdf
+> <./Figures/WaterHomogeneity.pdf>]
+(./Figures/LudoxHS40TransmissionCalibration.tex
+<Figures/LudoxHS40TransmissionCalibration.pdf, id=578, 284.06125pt x 226.8475pt
+>
+File: Figures/LudoxHS40TransmissionCalibration.pdf Graphic file (type pdf)
+ <use Figures/LudoxHS40TransmissionCalibration.pdf>
+Package pdftex.def Info: Figures/LudoxHS40TransmissionCalibration.pdf used on i
+nput line 126.
+(pdftex.def)             Requested size: 284.06053pt x 226.84694pt.
+)
+(./Figures/KiskerTransmissionCalibration.tex
+<Figures/KiskerTransmissionCalibration.pdf, id=579, 284.06125pt x 226.8475pt>
+File: Figures/KiskerTransmissionCalibration.pdf Graphic file (type pdf)
+
+<use Figures/KiskerTransmissionCalibration.pdf>
+Package pdftex.def Info: Figures/KiskerTransmissionCalibration.pdf used on inpu
+t line 120.
+(pdftex.def)             Requested size: 284.06053pt x 226.84694pt.
+)
+(./Figures/EnergiesTransmissionCalibration.tex
+<Figures/EnergiesTransmissionCalibration.pdf, id=580, 284.06125pt x 226.8475pt>
+File: Figures/EnergiesTransmissionCalibration.pdf Graphic file (type pdf)
+<use Figures/EnergiesTransmissionCalibration.pdf>
+Package pdftex.def Info: Figures/EnergiesTransmissionCalibration.pdf used on in
+put line 123.
+(pdftex.def)             Requested size: 284.06053pt x 226.84694pt.
+)
+(./Figures/SucroseTransmissionCalibration.tex
+<Figures/SucroseTransmissionCalibration.pdf, id=581, 284.06125pt x 226.8475pt>
+File: Figures/SucroseTransmissionCalibration.pdf Graphic file (type pdf)
+
+<use Figures/SucroseTransmissionCalibration.pdf>
+Package pdftex.def Info: Figures/SucroseTransmissionCalibration.pdf used on inp
+ut line 115.
+(pdftex.def)             Requested size: 284.06053pt x 226.84694pt.
+)) [17 <./Figures/LudoxHS40TransmissionCalibration.pdf>] [18 <./Figures/KiskerT
+ransmissionCalibration.pdf> <./Figures/EnergiesTransmissionCalibration.pdf> <./
+Figures/SucroseTransmissionCalibration.pdf>]
+\openout2 = `chapter_density_gradient_SAXS.aux'.
+
+ (./chapter_density_gradient_SAXS.tex
+Chapter 4.
+[19
+
+
+
+] [20]
+
+LaTeX Warning: Reference `sec:guinier' on page 21 undefined on input line 18.
+
+
+LaTeX Warning: Command \textregistered invalid in math mode on input line 22.
+
+
+LaTeX Warning: Command \textcircled invalid in math mode on input line 22.
+
+
+LaTeX Warning: Command \textcircled invalid in math mode on input line 22.
+
+[21]
+
+LaTeX Warning: Reference `fig:2' on page 22 undefined on input line 27.
+
+(./Figures/KiskerContinuousSAXS.tex
+<Figures/KiskerContinuousSAXS.pdf, id=671, 284.06125pt x 226.8475pt>
+File: Figures/KiskerContinuousSAXS.pdf Graphic file (type pdf)
+
+<use Figures/KiskerContinuousSAXS.pdf>
+Package pdftex.def Info: Figures/KiskerContinuousSAXS.pdf used on input line 11
+1.
+(pdftex.def)             Requested size: 284.06053pt x 226.84694pt.
+)
+
+LaTeX Warning: Reference `fig:2B' on page 22 undefined on input line 36.
+
+
+LaTeX Warning: Reference `sec:guinier_analysis' on page 22 undefined on input l
+ine 36.
+
+[22] (./Figures/KiskerBackgroundSubtraction.tex
+<Figures/KiskerBackgroundSubtraction.pdf, id=680, 284.06125pt x 226.8475pt>
+File: Figures/KiskerBackgroundSubtraction.pdf Graphic file (type pdf)
+
+<use Figures/KiskerBackgroundSubtraction.pdf>
+Package pdftex.def Info: Figures/KiskerBackgroundSubtraction.pdf used on input 
+line 103.
+(pdftex.def)             Requested size: 284.06053pt x 226.84694pt.
+)
+
+LaTeX Warning: Reference `fig:3' on page 23 undefined on input line 50.
+
+[23 <./Figures/KiskerContinuousSAXS.pdf>] (./Figures/KiskerSAXSCoreshellFit.tex
+<Figures/KiskerSAXSCoreshellFit.pdf, id=696, 284.06125pt x 226.8475pt>
+File: Figures/KiskerSAXSCoreshellFit.pdf Graphic file (type pdf)
+
+<use Figures/KiskerSAXSCoreshellFit.pdf>
+Package pdftex.def Info: Figures/KiskerSAXSCoreshellFit.pdf used on input line 
+133.
+(pdftex.def)             Requested size: 284.06053pt x 226.84694pt.
+) [24 <./Figures/KiskerBackgroundSubtraction.pdf>]
+
+LaTeX Warning: Reference `fig:3' on page 25 undefined on input line 64.
+
+[25 <./Figures/KiskerSAXSCoreshellFit.pdf>]
+Overfull \hbox (3.04314pt too wide) in paragraph at lines 68--68
+[]\OT1/cmr/bx/n/17.28 Model-free ap-proach to con-trast vari-a-tion data 
+ []
+
+
+LaTeX Warning: Reference `fig:2' on page 26 undefined on input line 71.
+
+
+LaTeX Warning: Reference `fig:4' on page 26 undefined on input line 75.
+
+(./Figures/KiskerIsopoint.tex
+<Figures/KiskerIsopoint.pdf, id=726, 284.06125pt x 226.8475pt>
+File: Figures/KiskerIsopoint.pdf Graphic file (type pdf)
+
+<use Figures/KiskerIsopoint.pdf>
+Package pdftex.def Info: Figures/KiskerIsopoint.pdf used on input line 99.
+(pdftex.def)             Requested size: 284.06053pt x 226.84694pt.
+)
+
+LaTeX Warning: Reference `tab:polydispersity' on page 26 undefined on input lin
+e 98.
+
+[26]
+
+LaTeX Warning: Reference `fig:4' on page 27 undefined on input line 100.
+
+
+LaTeX Warning: Reference `sec:model_fit' on page 27 undefined on input line 100
+.
+
+[27 <./Figures/KiskerIsopoint.pdf>]
+
+LaTeX Warning: Reference `sec:guinier' on page 28 undefined on input line 106.
+
+
+LaTeX Warning: Reference `fig:5' on page 28 undefined on input line 106.
+
+(./Figures/KiskerGuinierRadius.tex
+<Figures/KiskerGuinierRadius.pdf, id=752, 284.06125pt x 226.8475pt>
+File: Figures/KiskerGuinierRadius.pdf Graphic file (type pdf)
+
+<use Figures/KiskerGuinierRadius.pdf>
+Package pdftex.def Info: Figures/KiskerGuinierRadius.pdf used on input line 113
+.
+(pdftex.def)             Requested size: 284.06053pt x 226.84694pt.
+) [28 <./Figures/KiskerGuinierRadius.pdf>]
+
+LaTeX Warning: Reference `fig:6' on page 29 undefined on input line 118.
+
+(./Figures/KiskerIntensityParabola.tex
+<Figures/KiskerIntensityParabola.pdf, id=765, 284.06125pt x 226.8475pt>
+File: Figures/KiskerIntensityParabola.pdf Graphic file (type pdf)
+
+<use Figures/KiskerIntensityParabola.pdf>
+Package pdftex.def Info: Figures/KiskerIntensityParabola.pdf used on input line
+ 111.
+(pdftex.def)             Requested size: 284.06053pt x 226.84694pt.
+) [29] [30 <./Figures/KiskerIntensityParabola.pdf>]) [31]
+\openout2 = `chapter_simultaneous_size_density.aux'.
+
+ (./chapter_simultaneous_size_density.tex
+Chapter 5.
+[32
+
+
+
+] [33]
+
+LaTeX Warning: Command \textregistered invalid in math mode on input line 31.
+
+
+LaTeX Warning: Command \textcircled invalid in math mode on input line 31.
+
+
+LaTeX Warning: Command \textcircled invalid in math mode on input line 31.
+
+[34] (./Figures/PSPlainSingleContrastSAXS.tex
+<Figures/PSPlainSingleContrastSAXS.pdf, id=926, 284.06125pt x 226.8475pt>
+File: Figures/PSPlainSingleContrastSAXS.pdf Graphic file (type pdf)
+
+<use Figures/PSPlainSingleContrastSAXS.pdf>
+Package pdftex.def Info: Figures/PSPlainSingleContrastSAXS.pdf used on input li
+ne 133.
+(pdftex.def)             Requested size: 284.06053pt x 226.84694pt.
+) [35 <./Figures/PSPlainSingleContrastSAXS.pdf>]
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 49.
+
+
+Overfull \hbox (7.54672pt too wide) in paragraph at lines 53--61
+ [][] 
+ []
+
+[36] (./Figures/DCSCombinedStokes.tex
+<Figures/DCSCombinedStokes.pdf, id=945, 284.06125pt x 226.8475pt>
+File: Figures/DCSCombinedStokes.pdf Graphic file (type pdf)
+
+<use Figures/DCSCombinedStokes.pdf>
+Package pdftex.def Info: Figures/DCSCombinedStokes.pdf used on input line 109.
+(pdftex.def)             Requested size: 284.06053pt x 226.84694pt.
+) [37] (./Figures/PSPlainContinuousSAXS.tex
+<Figures/PSPlainContinuousSAXS.pdf, id=962, 284.06125pt x 226.8475pt>
+File: Figures/PSPlainContinuousSAXS.pdf Graphic file (type pdf)
+
+<use Figures/PSPlainContinuousSAXS.pdf>
+Package pdftex.def Info: Figures/PSPlainContinuousSAXS.pdf used on input line 1
+13.
+(pdftex.def)             Requested size: 284.06053pt x 226.84694pt.
+)
+(./Figures/PSPlainContinuousSAXSIsopoint.tex
+<Figures/PSPlainContinuousSAXSIsopoint.pdf, id=963, 284.06125pt x 226.8475pt>
+File: Figures/PSPlainContinuousSAXSIsopoint.pdf Graphic file (type pdf)
+
+<use Figures/PSPlainContinuousSAXSIsopoint.pdf>
+Package pdftex.def Info: Figures/PSPlainContinuousSAXSIsopoint.pdf used on inpu
+t line 99.
+(pdftex.def)             Requested size: 284.06053pt x 226.84694pt.
+) [38 <./Figures/DCSCombinedStokes.pdf>] (./Figures/PSPlainResonantTerm.tex
+<Figures/PSPlainResonantTerm.pdf, id=983, 284.06125pt x 226.8475pt>
+File: Figures/PSPlainResonantTerm.pdf Graphic file (type pdf)
+
+<use Figures/PSPlainResonantTerm.pdf>
+Package pdftex.def Info: Figures/PSPlainResonantTerm.pdf used on input line 109
+.
+(pdftex.def)             Requested size: 284.06053pt x 226.84694pt.
+) [39 <./Figures/PSPlainContinuousSAXS.pdf> <./Figures/PSPlainContinuousSAXSIso
+point.pdf>] [40 <./Figures/PSPlainResonantTerm.pdf>]
+Overfull \hbox (4.11032pt too wide) in paragraph at lines 164--165
+[]\OT1/cmr/m/n/12 The mi-croscopy val-ues are ob-tained from Bel-gian Ser-vice 
+M^^Setrologie-Metrologische
+ []
+
+(./Figures/PSPlainSizeComparison.tex
+<Figures/PSPlainSizeComparison.pdf, id=1013, 284.06125pt x 226.8475pt>
+File: Figures/PSPlainSizeComparison.pdf Graphic file (type pdf)
+
+<use Figures/PSPlainSizeComparison.pdf>
+Package pdftex.def Info: Figures/PSPlainSizeComparison.pdf used on input line 1
+16.
+(pdftex.def)             Requested size: 284.06053pt x 226.84694pt.
+) [41 <./Figures/PSPlainSizeComparison.pdf>] (./Figures/PSPlainSizeDistribution
+.tex
+<Figures/PSPlainSizeDistribution.pdf, id=1026, 284.06125pt x 226.8475pt>
+File: Figures/PSPlainSizeDistribution.pdf Graphic file (type pdf)
+
+<use Figures/PSPlainSizeDistribution.pdf>
+Package pdftex.def Info: Figures/PSPlainSizeDistribution.pdf used on input line
+ 117.
+(pdftex.def)             Requested size: 284.06053pt x 226.84694pt.
+) [42] [43 <./Figures/PSPlainSizeDistribution.pdf>] (./Figures/ResonantTermSimu
+lationNumber.tex
+<Figures/ResonantTermSimulationNumber.pdf, id=1048, 284.06125pt x 226.8475pt>
+File: Figures/ResonantTermSimulationNumber.pdf Graphic file (type pdf)
+
+<use Figures/ResonantTermSimulationNumber.pdf>
+Package pdftex.def Info: Figures/ResonantTermSimulationNumber.pdf used on input
+ line 111.
+(pdftex.def)             Requested size: 284.06053pt x 226.84694pt.
+) [44 <./Figures/ResonantTermSimulationNumber.pdf>] (./Figures/IsopointSimulati
+onRange.tex
+<Figures/IsopointSimulationRange.pdf, id=1065, 284.06125pt x 226.8475pt>
+File: Figures/IsopointSimulationRange.pdf Graphic file (type pdf)
+
+<use Figures/IsopointSimulationRange.pdf>
+Package pdftex.def Info: Figures/IsopointSimulationRange.pdf used on input line
+ 109.
+(pdftex.def)             Requested size: 284.06053pt x 226.84694pt.
+)
+(./Figures/IsopointSimulationPolydispersity.tex
+<Figures/IsopointSimulationPolydispersity.pdf, id=1066, 284.06125pt x 226.8475p
+t>
+File: Figures/IsopointSimulationPolydispersity.pdf Graphic file (type pdf)
+ <use Figures/IsopointSimulationPolydispersity.pdf>
+Package pdftex.def Info: Figures/IsopointSimulationPolydispersity.pdf used on i
+nput line 127.
+(pdftex.def)             Requested size: 284.06053pt x 226.84694pt.
+) [45] [46 <./Figures/IsopointSimulationRange.pdf> <./Figures/IsopointSimulatio
+nPolydispersity.pdf>]
+(./Figures/PSPlainAverageDensity.tex
+<Figures/PSPlainAverageDensity.pdf, id=1089, 284.06125pt x 226.8475pt>
+File: Figures/PSPlainAverageDensity.pdf Graphic file (type pdf)
+
+<use Figures/PSPlainAverageDensity.pdf>
+Package pdftex.def Info: Figures/PSPlainAverageDensity.pdf used on input line 1
+07.
+(pdftex.def)             Requested size: 284.06053pt x 226.84694pt.
+) [47 <./Figures/PSPlainAverageDensity.pdf>] (./Figures/DensityComparison.tex
+<Figures/DensityComparison.pdf, id=1109, 284.06125pt x 226.8475pt>
+File: Figures/DensityComparison.pdf Graphic file (type pdf)
+
+<use Figures/DensityComparison.pdf>
+Package pdftex.def Info: Figures/DensityComparison.pdf used on input line 117.
+(pdftex.def)             Requested size: 284.06053pt x 226.84694pt.
+) [48] [49 <./Figures/DensityComparison.pdf>]) [50]
+\openout2 = `chapter_bio_applications.aux'.
+
+ (./chapter_bio_applications.tex
+Chapter 6.
+[51
+
+
+
+] [52] [53] [54]
+<Figures/CaelyxCryoTEM.png, id=1157, 243.91125pt x 245.91875pt>
+File: Figures/CaelyxCryoTEM.png Graphic file (type png)
+
+<use Figures/CaelyxCryoTEM.png>
+Package pdftex.def Info: Figures/CaelyxCryoTEM.png used on input line 33.
+(pdftex.def)             Requested size: 243.91064pt x 245.91814pt.
+ (./Figures/CaelyxScheme.pdf_tex
+<Figures/CaelyxScheme.pdf, id=1158, 966.9253pt x 435.88487pt>
+File: Figures/CaelyxScheme.pdf Graphic file (type pdf)
+
+<use Figures/CaelyxScheme.pdf>
+Package pdftex.def Info: Figures/CaelyxScheme.pdf used on input line 52.
+(pdftex.def)             Requested size: 301.00192pt x 135.68825pt.
+)
+Overfull \hbox (42.9994pt too wide) in paragraph at lines 33--35
+ [][][][] 
+ []
+
+(./Figures/CaelyxIodixanolSingleContrast.tex
+<Figures/CaelyxIodixanolSingleContrast.pdf, id=1159, 284.06125pt x 226.8475pt>
+File: Figures/CaelyxIodixanolSingleContrast.pdf Graphic file (type pdf)
+
+<use Figures/CaelyxIodixanolSingleContrast.pdf>
+Package pdftex.def Info: Figures/CaelyxIodixanolSingleContrast.pdf used on inpu
+t line 97.
+(pdftex.def)             Requested size: 284.06053pt x 226.84694pt.
+)
+Overfull \hbox (1.1949pt too wide) in paragraph at lines 46--46
+[]\OT1/cmr/bx/n/14.4 Sterically Sta-bi-lized Li-po-somes (SSLs) of dif-fer-ent 
+sizes 
+ []
+
+(./Figures/CaelyxIodixanolContinuousSAXS.tex
+<Figures/CaelyxIodixanolContinuousSAXS.pdf, id=1160, 284.06125pt x 226.8475pt>
+File: Figures/CaelyxIodixanolContinuousSAXS.pdf Graphic file (type pdf)
+
+<use Figures/CaelyxIodixanolContinuousSAXS.pdf>
+Package pdftex.def Info: Figures/CaelyxIodixanolContinuousSAXS.pdf used on inpu
+t line 110.
+(pdftex.def)             Requested size: 284.06053pt x 226.84694pt.
+)
+(./Figures/CaelyxIodixanolIsopoint.tex
+<Figures/CaelyxIodixanolIsopoint.pdf, id=1161, 284.06125pt x 226.8475pt>
+File: Figures/CaelyxIodixanolIsopoint.pdf Graphic file (type pdf)
+
+<use Figures/CaelyxIodixanolIsopoint.pdf>
+Package pdftex.def Info: Figures/CaelyxIodixanolIsopoint.pdf used on input line
+ 101.
+(pdftex.def)             Requested size: 284.06053pt x 226.84694pt.
+) [55 <./Figures/CaelyxCryoTEM.png> <./Figures/CaelyxScheme.pdf>] [56 <./Figure
+s/CaelyxIodixanolSingleContrast.pdf>]
+
+LaTeX Warning: Command \textregistered invalid in math mode on input line 65.
+
+
+LaTeX Warning: Command \textcircled invalid in math mode on input line 65.
+
+
+LaTeX Warning: Command \textcircled invalid in math mode on input line 65.
+
+
+LaTeX Warning: Command \textregistered invalid in math mode on input line 68.
+
+
+LaTeX Warning: Command \textcircled invalid in math mode on input line 68.
+
+
+LaTeX Warning: Command \textcircled invalid in math mode on input line 68.
+
+
+LaTeX Warning: Command \textregistered invalid in math mode on input line 68.
+
+
+LaTeX Warning: Command \textcircled invalid in math mode on input line 68.
+
+
+LaTeX Warning: Command \textcircled invalid in math mode on input line 68.
+
+[57 <./Figures/CaelyxIodixanolContinuousSAXS.pdf> <./Figures/CaelyxIodixanolIso
+point.pdf>] (./Figures/CaelyxIodixanolResonantTerm.tex
+<Figures/CaelyxIodixanolResonantTerm.pdf, id=1304, 284.06125pt x 226.8475pt>
+File: Figures/CaelyxIodixanolResonantTerm.pdf Graphic file (type pdf)
+
+<use Figures/CaelyxIodixanolResonantTerm.pdf>
+Package pdftex.def Info: Figures/CaelyxIodixanolResonantTerm.pdf used on input 
+line 105.
+(pdftex.def)             Requested size: 284.06053pt x 226.84694pt.
+) [58 <./Figures/CaelyxIodixanolResonantTerm.pdf>] (./Figures/CaelyxAverageDens
+ity.tex
+<Figures/CaelyxAverageDensity.pdf, id=1312, 284.06125pt x 226.8475pt>
+File: Figures/CaelyxAverageDensity.pdf Graphic file (type pdf)
+
+<use Figures/CaelyxAverageDensity.pdf>
+Package pdftex.def Info: Figures/CaelyxAverageDensity.pdf used on input line 10
+7.
+(pdftex.def)             Requested size: 284.06053pt x 226.84694pt.
+) [59]
+(./Figures/CaelyxSucroseContinuousSAXS.tex
+<Figures/CaelyxSucroseContinuousSAXS.pdf, id=1317, 284.06125pt x 226.8475pt>
+File: Figures/CaelyxSucroseContinuousSAXS.pdf Graphic file (type pdf)
+
+<use Figures/CaelyxSucroseContinuousSAXS.pdf>
+Package pdftex.def Info: Figures/CaelyxSucroseContinuousSAXS.pdf used on input 
+line 111.
+(pdftex.def)             Requested size: 284.06053pt x 226.84694pt.
+)
+(./Figures/CaelyxSucroseContinuousSAXSIsopoint.tex
+<Figures/CaelyxSucroseContinuousSAXSIsopoint.pdf, id=1318, 284.06125pt x 226.84
+75pt>
+File: Figures/CaelyxSucroseContinuousSAXSIsopoint.pdf Graphic file (type pdf)
+ <use Figures/CaelyxSucroseContinuousSAXSIsopoint.pdf>
+Package pdftex.def Info: Figures/CaelyxSucroseContinuousSAXSIsopoint.pdf used o
+n input line 124.
+(pdftex.def)             Requested size: 284.06053pt x 226.84694pt.
+) [60 <./Figures/CaelyxAverageDensity.pdf>]
+
+LaTeX Warning: Command \textregistered invalid in math mode on input line 112.
+
+
+LaTeX Warning: Command \textcircled invalid in math mode on input line 112.
+
+
+LaTeX Warning: Command \textcircled invalid in math mode on input line 112.
+
+[61 <./Figures/CaelyxSucroseContinuousSAXS.pdf> <./Figures/CaelyxSucroseContinu
+ousSAXSIsopoint.pdf>] (./Figures/CaelyxSucroseContinuousWAXS.tex
+<Figures/CaelyxSucroseContinuousWAXS.pdf, id=1338, 284.06125pt x 226.8475pt>
+File: Figures/CaelyxSucroseContinuousWAXS.pdf Graphic file (type pdf)
+
+<use Figures/CaelyxSucroseContinuousWAXS.pdf>
+Package pdftex.def Info: Figures/CaelyxSucroseContinuousWAXS.pdf used on input 
+line 110.
+(pdftex.def)             Requested size: 284.06053pt x 226.84694pt.
+)
+(./Figures/CaelyxSucroseContinuousWAXSDiffraction.tex
+<Figures/CaelyxSucroseContinuousWAXSDiffraction.pdf, id=1339, 284.06125pt x 226
+.8475pt>
+File: Figures/CaelyxSucroseContinuousWAXSDiffraction.pdf Graphic file (type pdf
+)
+ <use Figures/CaelyxSucroseContinuousWAXSDiffraction.pdf>
+Package pdftex.def Info: Figures/CaelyxSucroseContinuousWAXSDiffraction.pdf use
+d on input line 139.
+(pdftex.def)             Requested size: 284.06053pt x 226.84694pt.
+) [62 <./Figures/CaelyxSucroseContinuousWAXS.pdf> <./Figures/CaelyxSucroseConti
+nuousWAXSDiffraction.pdf>] (./Figures/CaelyxIsopointComparison.tex
+<Figures/CaelyxIsopointComparison.pdf, id=1351, 284.06125pt x 226.8475pt>
+File: Figures/CaelyxIsopointComparison.pdf Graphic file (type pdf)
+
+<use Figures/CaelyxIsopointComparison.pdf>
+Package pdftex.def Info: Figures/CaelyxIsopointComparison.pdf used on input lin
+e 109.
+(pdftex.def)             Requested size: 284.06053pt x 226.84694pt.
+) [63 <./Figures/CaelyxIsopointComparison.pdf>] [64]) [65] (./main.bbl [66
+
+
+] [67] [68] [69] [70] [71] [72] [73])
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 66.
+
+[74]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 66.
+ (./main.aux (./abstract.aux) (./chapter_introduction.aux)
+(./chapter_theory_SAXS.aux) (./chapter_experimental_setup.aux)
+(./chapter_density_gradient_SAXS.aux) (./chapter_simultaneous_size_density.aux)
+(./chapter_bio_applications.aux))
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 66.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 66.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
+(rerunfilecheck)             Checksum: 874D617569E7A8AB6CF68E385821C391;6398.
+
+
+LaTeX Warning: There were undefined references.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 65.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 66.
  ) 
 Here is how much of TeX's memory you used:
- 8048 strings out of 493315
- 118635 string characters out of 6145894
- 222102 words of memory out of 5000000
- 11386 multiletter control sequences out of 15000+600000
- 9569 words of font info for 34 fonts, out of 8000000 for 9000
+ 9078 strings out of 493315
+ 142637 string characters out of 6145894
+ 236613 words of memory out of 5000000
+ 11952 multiletter control sequences out of 15000+600000
+ 12368 words of font info for 44 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
- 44i,9n,42p,783b,323s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 44i,16n,49p,1895b,588s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texmf/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texmf
 /fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf/fonts/type1/public
-/amsfonts/cm/cmr10.pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmr12.p
-fb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texmf/
-fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf/fonts/type1/public/
+/amsfonts/cm/cmcsc10.pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmex1
+0.pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/t
+exmf/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texmf/fonts/type1/pu
+blic/amsfonts/cm/cmmi7.pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmm
+i8.pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/t
+exmf/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf/fonts/type1/pub
+lic/amsfonts/cm/cmr17.pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmr6
+.pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texm
+f/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texmf/fonts/type1/public/
+amsfonts/cm/cmsy10.pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmsy6.p
+fb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texmf
+/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texmf/fonts/type1/public/
 amsfonts/cm/cmti10.pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmti12.
 pfb>
-Output written on main.pdf (2 pages, 94621 bytes).
+Output written on main.pdf (75 pages, 2040325 bytes).
 PDF statistics:
- 49 PDF objects out of 1000 (max. 8388607)
- 36 compressed objects within 1 object stream
- 3 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1548 PDF objects out of 1728 (max. 8388607)
+ 1351 compressed objects within 14 object streams
+ 336 named destinations out of 1000 (max. 500000)
+ 826 words of extra memory for PDF output out of 10000 (max. 10000000)
 

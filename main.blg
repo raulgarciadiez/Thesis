@@ -9,135 +9,54 @@ A level-1 auxiliary file: chapter_experimental_setup.aux
 A level-1 auxiliary file: chapter_density_gradient_SAXS.aux
 A level-1 auxiliary file: chapter_simultaneous_size_density.aux
 A level-1 auxiliary file: chapter_bio_applications.aux
-I found no \bibdata command---while reading file main.aux
-Warning--I didn't find a database entry for "Stuhrmann1965"
-Warning--I didn't find a database entry for "Stuhrmann1967"
-Warning--I didn't find a database entry for "Kawaguchi1992"
-Warning--I didn't find a database entry for "Beurten1981"
-Warning--I didn't find a database entry for "Mertens2010"
-Warning--I didn't find a database entry for "Sim2012"
-Warning--I didn't find a database entry for "Guinier1939"
-Warning--I didn't find a database entry for "Guinier1955"
-Warning--I didn't find a database entry for "Feigin1987"
-Warning--I didn't find a database entry for "Stuhrmann2008"
-Warning--I didn't find a database entry for "Avdeev2007"
-Warning--I didn't find a database entry for "Krumrey2001"
-Warning--I didn't find a database entry for "Henke1993"
-Warning--I didn't find a database entry for "Wernecke2014"
-Warning--I didn't find a database entry for "Haynes2012"
-Warning--I didn't find a database entry for "Vittaz1996"
-Warning--I didn't find a database entry for "Kattan1992"
-Warning--I didn't find a database entry for "Soppimath2001"
-Warning--I didn't find a database entry for "Dingenouts1999"
-Warning--I didn't find a database entry for "Ballauff2011"
-Warning--I didn't find a database entry for "Joensson1991"
-Warning--I didn't find a database entry for "Silverstein1989"
-Warning--I didn't find a database entry for "Ballauff2001"
-Warning--I didn't find a database entry for "Bolze2003"
-Warning--I didn't find a database entry for "Kiselev2001"
-Warning--I didn't find a database entry for "Kawaguchi1993"
-Warning--I didn't find a database entry for "Coombs1981"
-Warning--I didn't find a database entry for "Hinton1978"
-Warning--I didn't find a database entry for "Uedaira1985"
-Warning--I didn't find a database entry for "Ribeiro2006"
-Warning--I didn't find a database entry for "Berberan-Santos1997"
-Warning--I didn't find a database entry for "Minelli2014"
-Warning--I didn't find a database entry for "Pedersen1997"
-Warning--I didn't find a database entry for "Pedersen1994"
-Warning--I didn't find a database entry for "Dingenouts1994"
-Warning--I didn't find a database entry for "Vauthier1999"
-Warning--I didn't find a database entry for "Arnold2006"
-Warning--I didn't find a database entry for "Sun2009"
-Warning--I didn't find a database entry for "Stuhrmann2007"
-Warning--I didn't find a database entry for "guterres_polymeric_2007"
-Warning--I didn't find a database entry for "wang_nanoparticle_2012"
-Warning--I didn't find a database entry for "tao_shapespecific_2011"
-Warning--I didn't find a database entry for "vicent_polymer_2006"
-Warning--I didn't find a database entry for "patel_polymeric_2012"
-Warning--I didn't find a database entry for "beija_colloidal_2012"
-Warning--I didn't find a database entry for "cabral_progress_2014"
-Warning--I didn't find a database entry for "euliss_imparting_2006"
-Warning--I didn't find a database entry for "yang_shapememory_2005"
-Warning--I didn't find a database entry for "vittaz_effect_1996"
-Warning--I didn't find a database entry for "mitragotri_physical_2009"
-Warning--I didn't find a database entry for "doshi_designer_2009"
-Warning--I didn't find a database entry for "powers_research_2006"
-Warning--I didn't find a database entry for "beyer_saxs_1990"
-Warning--I didn't find a database entry for "leonardjr_size_1952"
-Warning--I didn't find a database entry for "motzkus_untersuchung_1959"
-Warning--I didn't find a database entry for "silverstein_microstructure_1989"
-Warning--I didn't find a database entry for "joensson_morphology_1991"
-Warning--I didn't find a database entry for "mykhaylyk_structural_2012"
-Warning--I didn't find a database entry for "bolze_situ_2004"
-Warning--I didn't find a database entry for "dingenouts_radial_1994"
-Warning--I didn't find a database entry for "dingenouts_analysis_1999"
-Warning--I didn't find a database entry for "ballauff_analysis_2011"
-Warning--I didn't find a database entry for "ballauff_smallangle_1996"
-Warning--I didn't find a database entry for "grunder_analysis_1991"
-Warning--I didn't find a database entry for "grunder_smallangle_1993"
-Warning--I didn't find a database entry for "ottewill_characterization_1995"
-Warning--I didn't find a database entry for "bolze_smallangle_1997"
-Warning--I didn't find a database entry for "dingenouts_structure_1994"
-Warning--I didn't find a database entry for "mykhaylyk_application_2007-1"
-Warning--I didn't find a database entry for "garcia-diez_nanoparticle_2015"
-Warning--I didn't find a database entry for "fielding_correcting_2012"
-Warning--I didn't find a database entry for "giddings_density_1981"
-Warning--I didn't find a database entry for "yang_colloid_1983"
-Warning--I didn't find a database entry for "caldwell_measurement_1986"
-Warning--I didn't find a database entry for "carney_determination_2011"
-Warning--I didn't find a database entry for "minelli_characterization_2014"
-Warning--I didn't find a database entry for "neumann_new_2013"
-Warning--I didn't find a database entry for "bell_emerging_2012"
-Warning--I didn't find a database entry for "fitzpatrick_structure_1998"
-Warning--I didn't find a database entry for "kawaguchi_xray_1983"
-Warning--I didn't find a database entry for "kawaguchi_isoscattering_1992"
-Warning--I didn't find a database entry for "stuhrmann_elimination_1965"
-Warning--I didn't find a database entry for "stuhrmann_elimination_1967"
-Warning--I didn't find a database entry for "nicolet_interlaboratory_2015"
-Warning--I didn't find a database entry for "kusaka_effect_2014"
-Warning--I didn't find a database entry for "lefebvre_propagation_2000"
-Warning--I didn't find a database entry for "avdeev_contrast_2007"
-Warning--I didn't find a database entry for "kamiti_simultaneous_2012"
-Warning--I didn't find a database entry for "nichols_prediction_1950"
-You've used 0 entries,
+Database file #1: main.bib
+Database file #2: polymers.bib
+Database file #3: polymers_patent.bib
+Database file #4: iucr.bib
+`number' is a missing field, not a string, for entry Dingenouts1999
+while executing---line 3135 of file meinbst.bst
+`number' is a missing field, not a string, for entry dingenouts_analysis_1999
+while executing---line 3135 of file meinbst.bst
+Warning--can't use both author and editor fields in Feigin1987
+You've used 89 entries,
             2851 wiz_defined-function locations,
-            763 strings with 6896 characters,
-and the built_in function-call counts, 23 in all, are:
-= -- 0
-> -- 0
-< -- 0
-+ -- 0
-- -- 0
-* -- 2
-:= -- 8
-add.period$ -- 0
-call.type$ -- 0
-change.case$ -- 0
-chr.to.int$ -- 0
-cite$ -- 0
-duplicate$ -- 0
-empty$ -- 1
-format.name$ -- 0
-if$ -- 1
-int.to.chr$ -- 1
+            1206 strings with 24967 characters,
+and the built_in function-call counts, 48397 in all, are:
+= -- 4639
+> -- 2678
+< -- 41
++ -- 1039
+- -- 935
+* -- 4684
+:= -- 8712
+add.period$ -- 181
+call.type$ -- 89
+change.case$ -- 763
+chr.to.int$ -- 92
+cite$ -- 90
+duplicate$ -- 1942
+empty$ -- 3268
+format.name$ -- 1060
+if$ -- 9399
+int.to.chr$ -- 10
 int.to.str$ -- 1
-missing$ -- 0
-newline$ -- 4
-num.names$ -- 0
-pop$ -- 0
+missing$ -- 92
+newline$ -- 271
+num.names$ -- 360
+pop$ -- 594
 preamble$ -- 1
-purify$ -- 0
+purify$ -- 667
 quote$ -- 0
-skip$ -- 1
+skip$ -- 1109
 stack$ -- 0
-substring$ -- 0
-swap$ -- 0
-text.length$ -- 0
+substring$ -- 3007
+swap$ -- 467
+text.length$ -- 3
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 0
-warning$ -- 0
-while$ -- 0
+type$ -- 789
+warning$ -- 1
+while$ -- 432
 width$ -- 0
-write$ -- 3
-(There was 1 error message)
+write$ -- 981
+(There were 2 error messages)
