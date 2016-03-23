@@ -92,12 +92,12 @@
 \contentsline {subsection}{\numberline {6.2.3}Average electron density}{59}{subsection.6.2.3}
 \contentsline {section}{\numberline {6.3}Osmotic effects in liposomes}{59}{section.6.3}
 \contentsline {subsection}{\numberline {6.3.1}Application to drug-stabilized liposomes}{59}{subsection.6.3.1}
-\contentsline {subsection}{\numberline {6.3.2}Size dependency of the osmotic activity}{64}{subsection.6.3.2}
-\contentsline {section}{\numberline {6.4}Application to blood plasma componenents}{64}{section.6.4}
-\contentsline {subsection}{\numberline {6.4.1}HDL}{64}{subsection.6.4.1}
-\contentsline {subsection}{\numberline {6.4.2}LDL}{64}{subsection.6.4.2}
-\contentsline {subsection}{\numberline {6.4.3}Literature comparison}{64}{subsection.6.4.3}
-\contentsline {section}{\numberline {6.5}Protein-coated low-density nanoparticles}{64}{section.6.5}
-\contentsline {subsection}{\numberline {6.5.1}Singe-contrast SAXS}{64}{subsection.6.5.1}
-\contentsline {subsection}{\numberline {6.5.2}Contrast variation}{64}{subsection.6.5.2}
-\contentsline {section}{\numberline {6.6}Summary}{64}{section.6.6}
+\contentsline {subsection}{\numberline {6.3.2}Size dependency of the osmotic activity}{65}{subsection.6.3.2}
+\contentsline {section}{\numberline {6.4}Application to blood plasma componenents}{65}{section.6.4}
+\contentsline {subsection}{\numberline {6.4.1}HDL}{65}{subsection.6.4.1}
+\contentsline {subsection}{\numberline {6.4.2}LDL}{65}{subsection.6.4.2}
+\contentsline {subsection}{\numberline {6.4.3}Literature comparison}{65}{subsection.6.4.3}
+\contentsline {section}{\numberline {6.5}Protein-coated low-density nanoparticles}{65}{section.6.5}
+\contentsline {subsection}{\numberline {6.5.1}Singe-contrast SAXS}{65}{subsection.6.5.1}
+\contentsline {subsection}{\numberline {6.5.2}Contrast variation}{65}{subsection.6.5.2}
+\contentsline {section}{\numberline {6.6}Summary}{66}{section.6.6}

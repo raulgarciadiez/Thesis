@@ -1,0 +1,2829 @@
+
+
+*******************************************************************************
+Mon Jan 18 10:24:32 2016
+
+
+FIT:    data read from 'SSL_isopoint.txt' u ($1/2.):2
+        format = x:z
+        x range restricted to [40.0000 : 52.0000]
+        #datapoints = 3
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 92274.3           delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 32.0861
+
+initial set of free parameter values
+
+a               = 1
+b               = 1
+
+After 6 iterations the fit converged.
+final sum of squares of residuals : 80.8695
+rel. change during last iteration : -9.5156e-09
+
+degrees of freedom    (FIT_NDF)                        : 1
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 8.99275
+variance of residuals (reduced chisquare) = WSSR/ndf   : 80.8695
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+a               = -4.49636         +/- 1.256        (27.92%)
+b               = 423.131          +/- 56.96        (13.46%)
+
+
+correlation matrix of the fit parameters:
+
+               a      b      
+a               1.000 
+b              -0.996  1.000 
+
+
+*******************************************************************************
+Mon Jan 18 10:25:14 2016
+
+
+FIT:    data read from 'SSL_isopoint.txt' u ($1/2.):2
+        format = x:z
+        x range restricted to [40.0000 : 52.0000]
+        #datapoints = 3
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 92274.3           delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 32.0861
+
+initial set of free parameter values
+
+a               = 1
+b               = 1
+
+After 6 iterations the fit converged.
+final sum of squares of residuals : 80.8695
+rel. change during last iteration : -9.5156e-09
+
+degrees of freedom    (FIT_NDF)                        : 1
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 8.99275
+variance of residuals (reduced chisquare) = WSSR/ndf   : 80.8695
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+a               = -4.49636         +/- 1.256        (27.92%)
+b               = 423.131          +/- 56.96        (13.46%)
+
+
+correlation matrix of the fit parameters:
+
+               a      b      
+a               1.000 
+b              -0.996  1.000 
+
+
+*******************************************************************************
+Mon Jan 18 10:39:30 2016
+
+
+FIT:    data read from 'SSL_isopoint.txt' u ($1/2.):2
+        format = x:z
+        x range restricted to [40.0000 : 52.0000]
+        #datapoints = 3
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 92274.3           delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 32.0861
+
+initial set of free parameter values
+
+a               = 1
+b               = 1
+
+After 6 iterations the fit converged.
+final sum of squares of residuals : 80.8695
+rel. change during last iteration : -9.5156e-09
+
+degrees of freedom    (FIT_NDF)                        : 1
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 8.99275
+variance of residuals (reduced chisquare) = WSSR/ndf   : 80.8695
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+a               = -4.49636         +/- 1.256        (27.92%)
+b               = 423.131          +/- 56.96        (13.46%)
+
+
+correlation matrix of the fit parameters:
+
+               a      b      
+a               1.000 
+b              -0.996  1.000 
+
+
+*******************************************************************************
+Mon Jan 18 10:39:40 2016
+
+
+FIT:    data read from 'SSL_isopoint.txt' u ($1/2.):2
+        format = x:z
+        x range restricted to [40.0000 : 52.0000]
+        #datapoints = 3
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 92274.3           delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 32.0861
+
+initial set of free parameter values
+
+a               = 1
+b               = 1
+
+After 6 iterations the fit converged.
+final sum of squares of residuals : 80.8695
+rel. change during last iteration : -9.5156e-09
+
+degrees of freedom    (FIT_NDF)                        : 1
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 8.99275
+variance of residuals (reduced chisquare) = WSSR/ndf   : 80.8695
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+a               = -4.49636         +/- 1.256        (27.92%)
+b               = 423.131          +/- 56.96        (13.46%)
+
+
+correlation matrix of the fit parameters:
+
+               a      b      
+a               1.000 
+b              -0.996  1.000 
+
+
+*******************************************************************************
+Mon Jan 18 10:40:06 2016
+
+
+FIT:    data read from 'SSL_isopoint.txt' u ($1/2.):2
+        format = x:z
+        x range restricted to [40.0000 : 52.0000]
+        #datapoints = 3
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 92274.3           delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 32.0861
+
+initial set of free parameter values
+
+a               = 1
+b               = 1
+
+After 6 iterations the fit converged.
+final sum of squares of residuals : 80.8695
+rel. change during last iteration : -9.5156e-09
+
+degrees of freedom    (FIT_NDF)                        : 1
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 8.99275
+variance of residuals (reduced chisquare) = WSSR/ndf   : 80.8695
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+a               = -4.49636         +/- 1.256        (27.92%)
+b               = 423.131          +/- 56.96        (13.46%)
+
+
+correlation matrix of the fit parameters:
+
+               a      b      
+a               1.000 
+b              -0.996  1.000 
+
+
+*******************************************************************************
+Mon Jan 18 10:40:43 2016
+
+
+FIT:    data read from 'SSL_isopoint.txt' u ($1/2.):2
+        format = x:z
+        x range restricted to [40.0000 : 52.0000]
+        #datapoints = 3
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 92274.3           delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 32.0861
+
+initial set of free parameter values
+
+a               = 1
+b               = 1
+
+After 6 iterations the fit converged.
+final sum of squares of residuals : 80.8695
+rel. change during last iteration : -9.5156e-09
+
+degrees of freedom    (FIT_NDF)                        : 1
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 8.99275
+variance of residuals (reduced chisquare) = WSSR/ndf   : 80.8695
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+a               = -4.49636         +/- 1.256        (27.92%)
+b               = 423.131          +/- 56.96        (13.46%)
+
+
+correlation matrix of the fit parameters:
+
+               a      b      
+a               1.000 
+b              -0.996  1.000 
+
+
+*******************************************************************************
+Mon Jan 18 10:45:50 2016
+
+
+FIT:    data read from 'SSL_isopoint.txt' u ($1/2.):2
+        format = x:z
+        x range restricted to [40.0000 : 52.0000]
+        #datapoints = 3
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 92274.3           delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 32.0861
+
+initial set of free parameter values
+
+a               = 1
+b               = 1
+
+After 6 iterations the fit converged.
+final sum of squares of residuals : 80.8695
+rel. change during last iteration : -9.5156e-09
+
+degrees of freedom    (FIT_NDF)                        : 1
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 8.99275
+variance of residuals (reduced chisquare) = WSSR/ndf   : 80.8695
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+a               = -4.49636         +/- 1.256        (27.92%)
+b               = 423.131          +/- 56.96        (13.46%)
+
+
+correlation matrix of the fit parameters:
+
+               a      b      
+a               1.000 
+b              -0.996  1.000 
+
+
+*******************************************************************************
+Mon Jan 18 10:46:11 2016
+
+
+FIT:    data read from 'SSL_isopoint.txt' u ($1/2.):2
+        format = x:z
+        x range restricted to [40.0000 : 52.0000]
+        #datapoints = 3
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 92274.3           delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 32.0861
+
+initial set of free parameter values
+
+a               = 1
+b               = 1
+
+After 6 iterations the fit converged.
+final sum of squares of residuals : 80.8695
+rel. change during last iteration : -9.5156e-09
+
+degrees of freedom    (FIT_NDF)                        : 1
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 8.99275
+variance of residuals (reduced chisquare) = WSSR/ndf   : 80.8695
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+a               = -4.49636         +/- 1.256        (27.92%)
+b               = 423.131          +/- 56.96        (13.46%)
+
+
+correlation matrix of the fit parameters:
+
+               a      b      
+a               1.000 
+b              -0.996  1.000 
+
+
+*******************************************************************************
+Mon Jan 18 10:46:19 2016
+
+
+FIT:    data read from 'SSL_isopoint.txt' u ($1/2.):2
+        format = x:z
+        x range restricted to [40.0000 : 52.0000]
+        #datapoints = 3
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 92274.3           delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 32.0861
+
+initial set of free parameter values
+
+a               = 1
+b               = 1
+
+After 6 iterations the fit converged.
+final sum of squares of residuals : 80.8695
+rel. change during last iteration : -9.5156e-09
+
+degrees of freedom    (FIT_NDF)                        : 1
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 8.99275
+variance of residuals (reduced chisquare) = WSSR/ndf   : 80.8695
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+a               = -4.49636         +/- 1.256        (27.92%)
+b               = 423.131          +/- 56.96        (13.46%)
+
+
+correlation matrix of the fit parameters:
+
+               a      b      
+a               1.000 
+b              -0.996  1.000 
+
+
+*******************************************************************************
+Mon Jan 18 10:46:38 2016
+
+
+FIT:    data read from 'SSL_isopoint.txt' u ($1/2.):2
+        format = x:z
+        x range restricted to [40.0000 : 52.0000]
+        #datapoints = 3
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 92274.3           delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 32.0861
+
+initial set of free parameter values
+
+a               = 1
+b               = 1
+
+After 6 iterations the fit converged.
+final sum of squares of residuals : 80.8695
+rel. change during last iteration : -9.5156e-09
+
+degrees of freedom    (FIT_NDF)                        : 1
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 8.99275
+variance of residuals (reduced chisquare) = WSSR/ndf   : 80.8695
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+a               = -4.49636         +/- 1.256        (27.92%)
+b               = 423.131          +/- 56.96        (13.46%)
+
+
+correlation matrix of the fit parameters:
+
+               a      b      
+a               1.000 
+b              -0.996  1.000 
+
+
+*******************************************************************************
+Mon Jan 18 10:47:02 2016
+
+
+FIT:    data read from 'SSL_isopoint.txt' u ($1/2.):2
+        format = x:z
+        x range restricted to [40.0000 : 52.0000]
+        #datapoints = 3
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 92274.3           delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 32.0861
+
+initial set of free parameter values
+
+a               = 1
+b               = 1
+
+After 6 iterations the fit converged.
+final sum of squares of residuals : 80.8695
+rel. change during last iteration : -9.5156e-09
+
+degrees of freedom    (FIT_NDF)                        : 1
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 8.99275
+variance of residuals (reduced chisquare) = WSSR/ndf   : 80.8695
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+a               = -4.49636         +/- 1.256        (27.92%)
+b               = 423.131          +/- 56.96        (13.46%)
+
+
+correlation matrix of the fit parameters:
+
+               a      b      
+a               1.000 
+b              -0.996  1.000 
+
+
+*******************************************************************************
+Mon Jan 18 10:47:40 2016
+
+
+FIT:    data read from 'SSL_isopoint.txt' u ($1/2.):2
+        format = x:z
+        x range restricted to [40.0000 : 52.0000]
+        #datapoints = 3
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 92274.3           delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 32.0861
+
+initial set of free parameter values
+
+a               = 1
+b               = 1
+
+After 6 iterations the fit converged.
+final sum of squares of residuals : 80.8695
+rel. change during last iteration : -9.5156e-09
+
+degrees of freedom    (FIT_NDF)                        : 1
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 8.99275
+variance of residuals (reduced chisquare) = WSSR/ndf   : 80.8695
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+a               = -4.49636         +/- 1.256        (27.92%)
+b               = 423.131          +/- 56.96        (13.46%)
+
+
+correlation matrix of the fit parameters:
+
+               a      b      
+a               1.000 
+b              -0.996  1.000 
+
+
+*******************************************************************************
+Mon Jan 18 10:47:48 2016
+
+
+FIT:    data read from 'SSL_isopoint.txt' u ($1/2.):2
+        format = x:z
+        #datapoints = 3
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 92274.3           delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 32.0861
+
+initial set of free parameter values
+
+a               = 1
+b               = 1
+
+After 6 iterations the fit converged.
+final sum of squares of residuals : 80.8695
+rel. change during last iteration : -9.5156e-09
+
+degrees of freedom    (FIT_NDF)                        : 1
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 8.99275
+variance of residuals (reduced chisquare) = WSSR/ndf   : 80.8695
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+a               = -4.49636         +/- 1.256        (27.92%)
+b               = 423.131          +/- 56.96        (13.46%)
+
+
+correlation matrix of the fit parameters:
+
+               a      b      
+a               1.000 
+b              -0.996  1.000 
+
+
+*******************************************************************************
+Mon Jan 18 10:48:00 2016
+
+
+FIT:    data read from 'SSL_isopoint.txt' u ($1/2.):2
+        format = x:z
+        #datapoints = 3
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 92274.3           delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 32.0861
+
+initial set of free parameter values
+
+a               = 1
+b               = 1
+
+After 6 iterations the fit converged.
+final sum of squares of residuals : 80.8695
+rel. change during last iteration : -9.5156e-09
+
+degrees of freedom    (FIT_NDF)                        : 1
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 8.99275
+variance of residuals (reduced chisquare) = WSSR/ndf   : 80.8695
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+a               = -4.49636         +/- 1.256        (27.92%)
+b               = 423.131          +/- 56.96        (13.46%)
+
+
+correlation matrix of the fit parameters:
+
+               a      b      
+a               1.000 
+b              -0.996  1.000 
+
+
+*******************************************************************************
+Mon Jan 18 10:48:22 2016
+
+
+FIT:    data read from 'SSL_isopoint.txt' u ($1/2.):2
+        format = x:z
+        #datapoints = 3
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 92274.3           delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 32.0861
+
+initial set of free parameter values
+
+a               = 1
+b               = 1
+
+After 6 iterations the fit converged.
+final sum of squares of residuals : 80.8695
+rel. change during last iteration : -9.5156e-09
+
+degrees of freedom    (FIT_NDF)                        : 1
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 8.99275
+variance of residuals (reduced chisquare) = WSSR/ndf   : 80.8695
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+a               = -4.49636         +/- 1.256        (27.92%)
+b               = 423.131          +/- 56.96        (13.46%)
+
+
+correlation matrix of the fit parameters:
+
+               a      b      
+a               1.000 
+b              -0.996  1.000 
+
+
+*******************************************************************************
+Mon Jan 18 10:48:22 2016
+
+
+FIT:    data read from 'SSL_isopoint.txt' u (2./$1):2
+        format = x:z
+        #datapoints = 3
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 124783            delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 0.707284
+
+initial set of free parameter values
+
+a               = -4.49636
+b               = 423.131
+
+After 6 iterations the fit converged.
+final sum of squares of residuals : 95.9271
+rel. change during last iteration : -2.64176e-09
+
+degrees of freedom    (FIT_NDF)                        : 1
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 9.79424
+variance of residuals (reduced chisquare) = WSSR/ndf   : 95.9271
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+a               = 9574.72          +/- 2933         (30.64%)
+b               = 6.37142          +/- 65.69        (1031%)
+
+
+correlation matrix of the fit parameters:
+
+               a      b      
+a               1.000 
+b              -0.996  1.000 
+
+
+*******************************************************************************
+Mon Jan 18 10:49:12 2016
+
+
+FIT:    data read from 'SSL_isopoint.txt' u ($1/2.):2
+        format = x:z
+        #datapoints = 3
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 92274.3           delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 32.0861
+
+initial set of free parameter values
+
+a               = 1
+b               = 1
+
+After 6 iterations the fit converged.
+final sum of squares of residuals : 80.8695
+rel. change during last iteration : -9.5156e-09
+
+degrees of freedom    (FIT_NDF)                        : 1
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 8.99275
+variance of residuals (reduced chisquare) = WSSR/ndf   : 80.8695
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+a               = -4.49636         +/- 1.256        (27.92%)
+b               = 423.131          +/- 56.96        (13.46%)
+
+
+correlation matrix of the fit parameters:
+
+               a      b      
+a               1.000 
+b              -0.996  1.000 
+
+
+*******************************************************************************
+Mon Jan 18 10:49:12 2016
+
+
+FIT:    data read from 'SSL_isopoint.txt' u (2./$1):2
+        format = x:z
+        #datapoints = 3
+        residuals are weighted equally (unit weight)
+
+function used for fitting: g(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 152314            delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 1
+
+initial set of free parameter values
+
+a               = -4.49636
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 1118
+rel. change during last iteration : -1.03721e-13
+
+degrees of freedom    (FIT_NDF)                        : 2
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 23.6432
+variance of residuals (reduced chisquare) = WSSR/ndf   : 559
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+a               = 220              +/- 13.65        (6.205%)
+
+
+correlation matrix of the fit parameters:
+
+               a      
+a               1.000 
+
+
+*******************************************************************************
+Mon Jan 18 10:49:27 2016
+
+
+FIT:    data read from 'SSL_isopoint.txt' u ($1/2.):2
+        format = x:z
+        #datapoints = 3
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 92274.3           delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 32.0861
+
+initial set of free parameter values
+
+a               = 1
+b               = 1
+
+After 6 iterations the fit converged.
+final sum of squares of residuals : 80.8695
+rel. change during last iteration : -9.5156e-09
+
+degrees of freedom    (FIT_NDF)                        : 1
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 8.99275
+variance of residuals (reduced chisquare) = WSSR/ndf   : 80.8695
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+a               = -4.49636         +/- 1.256        (27.92%)
+b               = 423.131          +/- 56.96        (13.46%)
+
+
+correlation matrix of the fit parameters:
+
+               a      b      
+a               1.000 
+b              -0.996  1.000 
+
+
+*******************************************************************************
+Mon Jan 18 10:49:27 2016
+
+
+FIT:    data read from 'SSL_isopoint.txt' u (2./$1):2
+        format = x:z
+        #datapoints = 3
+        residuals are weighted equally (unit weight)
+
+function used for fitting: g(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 146451            delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 0.0223948
+
+initial set of free parameter values
+
+a               = -4.49636
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 96.8295
+rel. change during last iteration : -1.15648e-12
+
+degrees of freedom    (FIT_NDF)                        : 2
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 6.95807
+variance of residuals (reduced chisquare) = WSSR/ndf   : 48.4148
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+a               = 9858.17          +/- 179.4        (1.82%)
+
+
+correlation matrix of the fit parameters:
+
+               a      
+a               1.000 
+
+
+*******************************************************************************
+Mon Jan 18 10:51:43 2016
+
+
+FIT:    data read from 'SSL_isopoint.txt' u ($1/2.):2
+        format = x:z
+        x range restricted to [0.0190000 : 0.0250000]
+BREAK:          No data to fit 
+
+
+
+*******************************************************************************
+Mon Jan 18 10:51:59 2016
+
+
+FIT:    data read from 'SSL_isopoint.txt' u (2./$1):2
+        format = x:z
+        x range restricted to [0.0190000 : 0.0250000]
+        #datapoints = 3
+        residuals are weighted equally (unit weight)
+
+function used for fitting: g(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 146288            delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 0.0223948
+
+initial set of free parameter values
+
+a               = 1
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 96.8295
+rel. change during last iteration : -1.15795e-12
+
+degrees of freedom    (FIT_NDF)                        : 2
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 6.95807
+variance of residuals (reduced chisquare) = WSSR/ndf   : 48.4148
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+a               = 9858.17          +/- 179.4        (1.82%)
+
+
+correlation matrix of the fit parameters:
+
+               a      
+a               1.000 
+
+
+*******************************************************************************
+Mon Jan 18 10:52:53 2016
+
+
+FIT:    data read from 'SSL_isopoint.txt' u (2./$1):2
+        format = x:z
+        x range restricted to [0.0190000 : 0.0250000]
+        #datapoints = 3
+        residuals are weighted equally (unit weight)
+
+function used for fitting: g(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 96.8295           delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 0.0223948
+
+initial set of free parameter values
+
+a               = 9858.17
+
+After 1 iterations the fit converged.
+final sum of squares of residuals : 96.8295
+rel. change during last iteration : -1.9079e-15
+
+degrees of freedom    (FIT_NDF)                        : 2
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 6.95807
+variance of residuals (reduced chisquare) = WSSR/ndf   : 48.4148
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+a               = 9858.17          +/- 179.4        (1.82%)
+
+
+correlation matrix of the fit parameters:
+
+               a      
+a               1.000 
+
+
+*******************************************************************************
+Mon Jan 18 10:53:07 2016
+
+
+FIT:    data read from 'SSL_isopoint.txt' u (2./$1):2
+        format = x:z
+        x range restricted to [0.0190000 : 0.0250000]
+        #datapoints = 3
+        residuals are weighted equally (unit weight)
+
+function used for fitting: g(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 96.8295           delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 0.0223948
+
+initial set of free parameter values
+
+a               = 9858.17
+
+The maximum lambda = 1.000000e+20 was exceeded. Fit stopped.
+final sum of squares of residuals : 96.8295
+rel. change during last iteration : 0
+
+degrees of freedom    (FIT_NDF)                        : 2
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 6.95807
+variance of residuals (reduced chisquare) = WSSR/ndf   : 48.4148
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+a               = 9858.17          +/- 179.4        (1.82%)
+
+
+correlation matrix of the fit parameters:
+
+               a      
+a               1.000 
+
+
+*******************************************************************************
+Mon Jan 18 10:53:39 2016
+
+
+FIT:    data read from 'SSL_isopoint.txt' u (2./$1):2
+        format = x:z
+        x range restricted to [0.0190000 : 0.0250000]
+        #datapoints = 3
+        residuals are weighted equally (unit weight)
+
+function used for fitting: g(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 96.8295           delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 0.0223948
+
+initial set of free parameter values
+
+a               = 9858.17
+
+The maximum lambda = 1.000000e+20 was exceeded. Fit stopped.
+final sum of squares of residuals : 96.8295
+rel. change during last iteration : 0
+
+degrees of freedom    (FIT_NDF)                        : 2
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 6.95807
+variance of residuals (reduced chisquare) = WSSR/ndf   : 48.4148
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+a               = 9858.17          +/- 179.4        (1.82%)
+
+
+correlation matrix of the fit parameters:
+
+               a      
+a               1.000 
+
+
+*******************************************************************************
+Mon Jan 18 10:56:12 2016
+
+
+FIT:    data read from 'SSL_isopoint.txt' u (2./$1):2
+        format = x:z
+        x range restricted to [0.0190000 : 0.0250000]
+        #datapoints = 3
+        residuals are weighted equally (unit weight)
+
+function used for fitting: g(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 96.8295           delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 0.0223948
+
+initial set of free parameter values
+
+a               = 9858.17
+
+The maximum lambda = 1.000000e+20 was exceeded. Fit stopped.
+final sum of squares of residuals : 96.8295
+rel. change during last iteration : 0
+
+degrees of freedom    (FIT_NDF)                        : 2
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 6.95807
+variance of residuals (reduced chisquare) = WSSR/ndf   : 48.4148
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+a               = 9858.17          +/- 179.4        (1.82%)
+
+
+correlation matrix of the fit parameters:
+
+               a      
+a               1.000 
+
+
+*******************************************************************************
+Mon Jan 18 10:57:22 2016
+
+
+FIT:    data read from 'SSL_isopoint.txt' u (2./$1):2
+        format = x:z
+        x range restricted to [0.0190000 : 0.0250000]
+        #datapoints = 3
+        residuals are weighted equally (unit weight)
+
+function used for fitting: g(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 96.8295           delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 0.0223948
+
+initial set of free parameter values
+
+a               = 9858.17
+
+The maximum lambda = 1.000000e+20 was exceeded. Fit stopped.
+final sum of squares of residuals : 96.8295
+rel. change during last iteration : 0
+
+degrees of freedom    (FIT_NDF)                        : 2
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 6.95807
+variance of residuals (reduced chisquare) = WSSR/ndf   : 48.4148
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+a               = 9858.17          +/- 179.4        (1.82%)
+
+
+correlation matrix of the fit parameters:
+
+               a      
+a               1.000 
+
+
+*******************************************************************************
+Mon Jan 18 10:59:02 2016
+
+
+FIT:    data read from 'SSL_isopoint.txt' u (2./$1):2
+        format = x:z
+        x range restricted to [0.0190000 : 0.0250000]
+        #datapoints = 3
+        residuals are weighted equally (unit weight)
+
+function used for fitting: g(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 96.8295           delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 0.0223948
+
+initial set of free parameter values
+
+a               = 9858.17
+
+The maximum lambda = 1.000000e+20 was exceeded. Fit stopped.
+final sum of squares of residuals : 96.8295
+rel. change during last iteration : 0
+
+degrees of freedom    (FIT_NDF)                        : 2
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 6.95807
+variance of residuals (reduced chisquare) = WSSR/ndf   : 48.4148
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+a               = 9858.17          +/- 179.4        (1.82%)
+
+
+correlation matrix of the fit parameters:
+
+               a      
+a               1.000 
+
+
+*******************************************************************************
+Mon Jan 18 10:59:35 2016
+
+
+FIT:    data read from 'SSL_isopoint.txt' u (2./$1):2
+        format = x:z
+        x range restricted to [0.0190000 : 0.0250000]
+        #datapoints = 3
+        residuals are weighted equally (unit weight)
+
+function used for fitting: g(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 96.8295           delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 0.0223948
+
+initial set of free parameter values
+
+a               = 9858.17
+
+The maximum lambda = 1.000000e+20 was exceeded. Fit stopped.
+final sum of squares of residuals : 96.8295
+rel. change during last iteration : 0
+
+degrees of freedom    (FIT_NDF)                        : 2
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 6.95807
+variance of residuals (reduced chisquare) = WSSR/ndf   : 48.4148
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+a               = 9858.17          +/- 179.4        (1.82%)
+
+
+correlation matrix of the fit parameters:
+
+               a      
+a               1.000 
+
+
+*******************************************************************************
+Mon Jan 18 11:00:24 2016
+
+
+FIT:    data read from 'SSL_isopoint.txt' u (2./$1):2
+        format = x:z
+        x range restricted to [0.0190000 : 0.0250000]
+        #datapoints = 3
+        residuals are weighted equally (unit weight)
+
+function used for fitting: g(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 96.8295           delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 0.0223948
+
+initial set of free parameter values
+
+a               = 9858.17
+
+The maximum lambda = 1.000000e+20 was exceeded. Fit stopped.
+final sum of squares of residuals : 96.8295
+rel. change during last iteration : 0
+
+degrees of freedom    (FIT_NDF)                        : 2
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 6.95807
+variance of residuals (reduced chisquare) = WSSR/ndf   : 48.4148
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+a               = 9858.17          +/- 179.4        (1.82%)
+
+
+correlation matrix of the fit parameters:
+
+               a      
+a               1.000 
+
+
+*******************************************************************************
+Mon Jan 18 11:00:35 2016
+
+
+FIT:    data read from 'SSL_isopoint.txt' u (2./$1):2
+        format = x:z
+        x range restricted to [0.0190000 : 0.0250000]
+        #datapoints = 3
+        residuals are weighted equally (unit weight)
+
+function used for fitting: g(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 96.8295           delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 0.0223948
+
+initial set of free parameter values
+
+a               = 9858.17
+
+The maximum lambda = 1.000000e+20 was exceeded. Fit stopped.
+final sum of squares of residuals : 96.8295
+rel. change during last iteration : 0
+
+degrees of freedom    (FIT_NDF)                        : 2
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 6.95807
+variance of residuals (reduced chisquare) = WSSR/ndf   : 48.4148
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+a               = 9858.17          +/- 179.4        (1.82%)
+
+
+correlation matrix of the fit parameters:
+
+               a      
+a               1.000 
+
+
+*******************************************************************************
+Mon Jan 18 11:04:01 2016
+
+
+FIT:    data read from 'SSL_isopoint.txt' u (2./$1):2
+        format = x:z
+        x range restricted to [0.0190000 : 0.0250000]
+        #datapoints = 3
+        residuals are weighted equally (unit weight)
+
+function used for fitting: g(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 96.8295           delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 0.0223948
+
+initial set of free parameter values
+
+a               = 9858.17
+
+The maximum lambda = 1.000000e+20 was exceeded. Fit stopped.
+final sum of squares of residuals : 96.8295
+rel. change during last iteration : 0
+
+degrees of freedom    (FIT_NDF)                        : 2
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 6.95807
+variance of residuals (reduced chisquare) = WSSR/ndf   : 48.4148
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+a               = 9858.17          +/- 179.4        (1.82%)
+
+
+correlation matrix of the fit parameters:
+
+               a      
+a               1.000 
+
+
+*******************************************************************************
+Mon Jan 18 11:04:14 2016
+
+
+FIT:    data read from 'SSL_isopoint.txt' u (2./$1):2
+        format = x:z
+        x range restricted to [0.0190000 : 0.0250000]
+        #datapoints = 3
+        residuals are weighted equally (unit weight)
+
+function used for fitting: g(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 96.8295           delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 0.0223948
+
+initial set of free parameter values
+
+a               = 9858.17
+
+The maximum lambda = 1.000000e+20 was exceeded. Fit stopped.
+final sum of squares of residuals : 96.8295
+rel. change during last iteration : 0
+
+degrees of freedom    (FIT_NDF)                        : 2
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 6.95807
+variance of residuals (reduced chisquare) = WSSR/ndf   : 48.4148
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+a               = 9858.17          +/- 179.4        (1.82%)
+
+
+correlation matrix of the fit parameters:
+
+               a      
+a               1.000 
+
+
+*******************************************************************************
+Mon Jan 18 11:04:43 2016
+
+
+FIT:    data read from 'SSL_isopoint.txt' u (2./$1):2
+        format = x:z
+        x range restricted to [0.0190000 : 0.0250000]
+        #datapoints = 3
+        residuals are weighted equally (unit weight)
+
+function used for fitting: g(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 96.8295           delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 0.0223948
+
+initial set of free parameter values
+
+a               = 9858.17
+
+The maximum lambda = 1.000000e+20 was exceeded. Fit stopped.
+final sum of squares of residuals : 96.8295
+rel. change during last iteration : 0
+
+degrees of freedom    (FIT_NDF)                        : 2
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 6.95807
+variance of residuals (reduced chisquare) = WSSR/ndf   : 48.4148
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+a               = 9858.17          +/- 179.4        (1.82%)
+
+
+correlation matrix of the fit parameters:
+
+               a      
+a               1.000 
+
+
+*******************************************************************************
+Mon Jan 18 11:04:57 2016
+
+
+FIT:    data read from 'SSL_isopoint.txt' u (2./$1):2
+        format = x:z
+        x range restricted to [0.0190000 : 0.0250000]
+        #datapoints = 3
+        residuals are weighted equally (unit weight)
+
+function used for fitting: g(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 96.8295           delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 0.0223948
+
+initial set of free parameter values
+
+a               = 9858.17
+
+The maximum lambda = 1.000000e+20 was exceeded. Fit stopped.
+final sum of squares of residuals : 96.8295
+rel. change during last iteration : 0
+
+degrees of freedom    (FIT_NDF)                        : 2
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 6.95807
+variance of residuals (reduced chisquare) = WSSR/ndf   : 48.4148
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+a               = 9858.17          +/- 179.4        (1.82%)
+
+
+correlation matrix of the fit parameters:
+
+               a      
+a               1.000 
+
+
+*******************************************************************************
+Mon Jan 18 11:05:45 2016
+
+
+FIT:    data read from 'SSL_isopoint.txt' u (2./$1):2
+        format = x:z
+        x range restricted to [0.0190000 : 0.0250000]
+        #datapoints = 3
+        residuals are weighted equally (unit weight)
+
+function used for fitting: g(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 96.8295           delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 0.0223948
+
+initial set of free parameter values
+
+a               = 9858.17
+
+The maximum lambda = 1.000000e+20 was exceeded. Fit stopped.
+final sum of squares of residuals : 96.8295
+rel. change during last iteration : 0
+
+degrees of freedom    (FIT_NDF)                        : 2
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 6.95807
+variance of residuals (reduced chisquare) = WSSR/ndf   : 48.4148
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+a               = 9858.17          +/- 179.4        (1.82%)
+
+
+correlation matrix of the fit parameters:
+
+               a      
+a               1.000 
+
+
+*******************************************************************************
+Mon Jan 18 11:05:52 2016
+
+
+FIT:    data read from 'SSL_isopoint.txt' u (2./$1):2
+        format = x:z
+        x range restricted to [0.0190000 : 0.0250000]
+        #datapoints = 3
+        residuals are weighted equally (unit weight)
+
+function used for fitting: g(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 96.8295           delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 0.0223948
+
+initial set of free parameter values
+
+a               = 9858.17
+
+The maximum lambda = 1.000000e+20 was exceeded. Fit stopped.
+final sum of squares of residuals : 96.8295
+rel. change during last iteration : 0
+
+degrees of freedom    (FIT_NDF)                        : 2
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 6.95807
+variance of residuals (reduced chisquare) = WSSR/ndf   : 48.4148
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+a               = 9858.17          +/- 179.4        (1.82%)
+
+
+correlation matrix of the fit parameters:
+
+               a      
+a               1.000 
+
+
+*******************************************************************************
+Mon Jan 18 11:06:23 2016
+
+
+FIT:    data read from 'SSL_isopoint.txt' u (2./$1):2
+        format = x:z
+        x range restricted to [0.0190000 : 0.0250000]
+        #datapoints = 3
+        residuals are weighted equally (unit weight)
+
+function used for fitting: g(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 96.8295           delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 0.0223948
+
+initial set of free parameter values
+
+a               = 9858.17
+
+The maximum lambda = 1.000000e+20 was exceeded. Fit stopped.
+final sum of squares of residuals : 96.8295
+rel. change during last iteration : 0
+
+degrees of freedom    (FIT_NDF)                        : 2
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 6.95807
+variance of residuals (reduced chisquare) = WSSR/ndf   : 48.4148
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+a               = 9858.17          +/- 179.4        (1.82%)
+
+
+correlation matrix of the fit parameters:
+
+               a      
+a               1.000 
+
+
+*******************************************************************************
+Mon Jan 18 11:06:29 2016
+
+
+FIT:    data read from 'SSL_isopoint.txt' u (2./$1):2
+        format = x:z
+        x range restricted to [0.0190000 : 0.0250000]
+        #datapoints = 3
+        residuals are weighted equally (unit weight)
+
+function used for fitting: g(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 96.8295           delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 0.0223948
+
+initial set of free parameter values
+
+a               = 9858.17
+
+The maximum lambda = 1.000000e+20 was exceeded. Fit stopped.
+final sum of squares of residuals : 96.8295
+rel. change during last iteration : 0
+
+degrees of freedom    (FIT_NDF)                        : 2
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 6.95807
+variance of residuals (reduced chisquare) = WSSR/ndf   : 48.4148
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+a               = 9858.17          +/- 179.4        (1.82%)
+
+
+correlation matrix of the fit parameters:
+
+               a      
+a               1.000 
+
+
+*******************************************************************************
+Mon Jan 18 11:06:37 2016
+
+
+FIT:    data read from 'SSL_isopoint.txt' u (2./$1):2
+        format = x:z
+        x range restricted to [0.0190000 : 0.0250000]
+        #datapoints = 3
+        residuals are weighted equally (unit weight)
+
+function used for fitting: g(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 96.8295           delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 0.0223948
+
+initial set of free parameter values
+
+a               = 9858.17
+
+The maximum lambda = 1.000000e+20 was exceeded. Fit stopped.
+final sum of squares of residuals : 96.8295
+rel. change during last iteration : 0
+
+degrees of freedom    (FIT_NDF)                        : 2
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 6.95807
+variance of residuals (reduced chisquare) = WSSR/ndf   : 48.4148
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+a               = 9858.17          +/- 179.4        (1.82%)
+
+
+correlation matrix of the fit parameters:
+
+               a      
+a               1.000 
+
+
+*******************************************************************************
+Mon Jan 18 11:07:18 2016
+
+
+FIT:    data read from 'SSL_isopoint.txt' u (2./$1):2
+        format = x:z
+        x range restricted to [0.0190000 : 0.0250000]
+        #datapoints = 3
+        residuals are weighted equally (unit weight)
+
+function used for fitting: g(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 96.8295           delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 0.0223948
+
+initial set of free parameter values
+
+a               = 9858.17
+
+The maximum lambda = 1.000000e+20 was exceeded. Fit stopped.
+final sum of squares of residuals : 96.8295
+rel. change during last iteration : 0
+
+degrees of freedom    (FIT_NDF)                        : 2
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 6.95807
+variance of residuals (reduced chisquare) = WSSR/ndf   : 48.4148
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+a               = 9858.17          +/- 179.4        (1.82%)
+
+
+correlation matrix of the fit parameters:
+
+               a      
+a               1.000 
+
+
+*******************************************************************************
+Mon Jan 18 11:08:14 2016
+
+
+FIT:    data read from 'SSL_isopoint.txt' u (2./$1):2
+        format = x:z
+        x range restricted to [0.0190000 : 0.0250000]
+        #datapoints = 3
+        residuals are weighted equally (unit weight)
+
+function used for fitting: g(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 96.8295           delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 0.0223948
+
+initial set of free parameter values
+
+a               = 9858.17
+
+The maximum lambda = 1.000000e+20 was exceeded. Fit stopped.
+final sum of squares of residuals : 96.8295
+rel. change during last iteration : 0
+
+degrees of freedom    (FIT_NDF)                        : 2
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 6.95807
+variance of residuals (reduced chisquare) = WSSR/ndf   : 48.4148
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+a               = 9858.17          +/- 179.4        (1.82%)
+
+
+correlation matrix of the fit parameters:
+
+               a      
+a               1.000 
+
+
+*******************************************************************************
+Mon Jan 18 11:09:00 2016
+
+
+FIT:    data read from 'SSL_isopoint.txt' u (2./$1):2
+        format = x:z
+        x range restricted to [0.0190000 : 0.0250000]
+        #datapoints = 3
+        residuals are weighted equally (unit weight)
+
+function used for fitting: g(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 96.8295           delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 0.0223948
+
+initial set of free parameter values
+
+a               = 9858.17
+
+The maximum lambda = 1.000000e+20 was exceeded. Fit stopped.
+final sum of squares of residuals : 96.8295
+rel. change during last iteration : 0
+
+degrees of freedom    (FIT_NDF)                        : 2
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 6.95807
+variance of residuals (reduced chisquare) = WSSR/ndf   : 48.4148
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+a               = 9858.17          +/- 179.4        (1.82%)
+
+
+correlation matrix of the fit parameters:
+
+               a      
+a               1.000 
+
+
+*******************************************************************************
+Mon Jan 18 12:02:08 2016
+
+
+FIT:    data read from 'SSL_isopoint.txt' u (2./$1):2
+        format = x:z
+        x range restricted to [0.0100000 : 0.0250000]
+        #datapoints = 3
+        residuals are weighted equally (unit weight)
+
+function used for fitting: g(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 146288            delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 0.0223948
+
+initial set of free parameter values
+
+a               = 1
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 96.8295
+rel. change during last iteration : -1.15795e-12
+
+degrees of freedom    (FIT_NDF)                        : 2
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 6.95807
+variance of residuals (reduced chisquare) = WSSR/ndf   : 48.4148
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+a               = 9858.17          +/- 179.4        (1.82%)
+
+
+correlation matrix of the fit parameters:
+
+               a      
+a               1.000 
+
+
+*******************************************************************************
+Mon Jan 18 12:02:16 2016
+
+
+FIT:    data read from 'SSL_isopoint.txt' u (2./$1):2
+        format = x:z
+        x range restricted to [0.0100000 : 0.0250000]
+        #datapoints = 3
+        residuals are weighted equally (unit weight)
+
+function used for fitting: g(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 96.8295           delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 0.0223948
+
+initial set of free parameter values
+
+a               = 9858.17
+
+After 1 iterations the fit converged.
+final sum of squares of residuals : 96.8295
+rel. change during last iteration : -1.9079e-15
+
+degrees of freedom    (FIT_NDF)                        : 2
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 6.95807
+variance of residuals (reduced chisquare) = WSSR/ndf   : 48.4148
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+a               = 9858.17          +/- 179.4        (1.82%)
+
+
+correlation matrix of the fit parameters:
+
+               a      
+a               1.000 
+
+
+*******************************************************************************
+Mon Jan 18 12:03:42 2016
+
+
+FIT:    data read from 'SSL_isopoint.txt' u (2./$1):2
+        format = x:z
+        x range restricted to [0.0140000 : 0.0250000]
+        #datapoints = 3
+        residuals are weighted equally (unit weight)
+
+function used for fitting: g(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 96.8295           delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 0.0223948
+
+initial set of free parameter values
+
+a               = 9858.17
+
+The maximum lambda = 1.000000e+20 was exceeded. Fit stopped.
+final sum of squares of residuals : 96.8295
+rel. change during last iteration : 0
+
+degrees of freedom    (FIT_NDF)                        : 2
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 6.95807
+variance of residuals (reduced chisquare) = WSSR/ndf   : 48.4148
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+a               = 9858.17          +/- 179.4        (1.82%)
+
+
+correlation matrix of the fit parameters:
+
+               a      
+a               1.000 
+
+
+*******************************************************************************
+Mon Jan 18 12:07:34 2016
+
+
+FIT:    data read from 'SSL_isopoint.txt' u (2./$1):2
+        format = x:z
+        x range restricted to [0.0140000 : 0.0250000]
+        #datapoints = 3
+        residuals are weighted equally (unit weight)
+
+function used for fitting: g(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 96.8295           delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 0.0223948
+
+initial set of free parameter values
+
+a               = 9858.17
+
+The maximum lambda = 1.000000e+20 was exceeded. Fit stopped.
+final sum of squares of residuals : 96.8295
+rel. change during last iteration : 0
+
+degrees of freedom    (FIT_NDF)                        : 2
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 6.95807
+variance of residuals (reduced chisquare) = WSSR/ndf   : 48.4148
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+a               = 9858.17          +/- 179.4        (1.82%)
+
+
+correlation matrix of the fit parameters:
+
+               a      
+a               1.000 
+
+
+*******************************************************************************
+Mon Jan 18 12:07:58 2016
+
+
+FIT:    data read from 'SSL_isopoint.txt' u (2./$1):2
+        format = x:z
+        x range restricted to [0.0140000 : 0.0250000]
+        #datapoints = 3
+        residuals are weighted equally (unit weight)
+
+function used for fitting: g(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 96.8295           delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 0.0223948
+
+initial set of free parameter values
+
+a               = 9858.17
+
+The maximum lambda = 1.000000e+20 was exceeded. Fit stopped.
+final sum of squares of residuals : 96.8295
+rel. change during last iteration : 0
+
+degrees of freedom    (FIT_NDF)                        : 2
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 6.95807
+variance of residuals (reduced chisquare) = WSSR/ndf   : 48.4148
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+a               = 9858.17          +/- 179.4        (1.82%)
+
+
+correlation matrix of the fit parameters:
+
+               a      
+a               1.000 
+
+
+*******************************************************************************
+Mon Jan 18 12:08:17 2016
+
+
+FIT:    data read from 'SSL_isopoint.txt' u (2./$1):2
+        format = x:z
+        x range restricted to [0.0140000 : 0.0250000]
+        #datapoints = 3
+        residuals are weighted equally (unit weight)
+
+function used for fitting: g(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 96.8295           delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 0.0223948
+
+initial set of free parameter values
+
+a               = 9858.17
+
+The maximum lambda = 1.000000e+20 was exceeded. Fit stopped.
+final sum of squares of residuals : 96.8295
+rel. change during last iteration : 0
+
+degrees of freedom    (FIT_NDF)                        : 2
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 6.95807
+variance of residuals (reduced chisquare) = WSSR/ndf   : 48.4148
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+a               = 9858.17          +/- 179.4        (1.82%)
+
+
+correlation matrix of the fit parameters:
+
+               a      
+a               1.000 
+
+
+*******************************************************************************
+Mon Jan 18 12:08:49 2016
+
+
+FIT:    data read from 'SSL_isopoint.txt' u (2./$1):2
+        format = x:z
+        x range restricted to [0.0140000 : 0.0250000]
+        #datapoints = 3
+        residuals are weighted equally (unit weight)
+
+function used for fitting: g(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 96.8295           delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 0.0223948
+
+initial set of free parameter values
+
+a               = 9858.17
+
+The maximum lambda = 1.000000e+20 was exceeded. Fit stopped.
+final sum of squares of residuals : 96.8295
+rel. change during last iteration : 0
+
+degrees of freedom    (FIT_NDF)                        : 2
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 6.95807
+variance of residuals (reduced chisquare) = WSSR/ndf   : 48.4148
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+a               = 9858.17          +/- 179.4        (1.82%)
+
+
+correlation matrix of the fit parameters:
+
+               a      
+a               1.000 
+
+
+*******************************************************************************
+Mon Jan 18 12:09:24 2016
+
+
+FIT:    data read from 'SSL_isopoint.txt' u (2./$1):2
+        format = x:z
+        x range restricted to [0.0140000 : 0.0250000]
+        #datapoints = 3
+        residuals are weighted equally (unit weight)
+
+function used for fitting: g(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 96.8295           delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 0.0223948
+
+initial set of free parameter values
+
+a               = 9858.17
+
+The maximum lambda = 1.000000e+20 was exceeded. Fit stopped.
+final sum of squares of residuals : 96.8295
+rel. change during last iteration : 0
+
+degrees of freedom    (FIT_NDF)                        : 2
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 6.95807
+variance of residuals (reduced chisquare) = WSSR/ndf   : 48.4148
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+a               = 9858.17          +/- 179.4        (1.82%)
+
+
+correlation matrix of the fit parameters:
+
+               a      
+a               1.000 
+
+
+*******************************************************************************
+Mon Jan 18 12:09:39 2016
+
+
+FIT:    data read from 'SSL_isopoint.txt' u (2./$1):2
+        format = x:z
+        x range restricted to [0.0140000 : 0.0250000]
+        #datapoints = 3
+        residuals are weighted equally (unit weight)
+
+function used for fitting: g(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 96.8295           delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 0.0223948
+
+initial set of free parameter values
+
+a               = 9858.17
+
+The maximum lambda = 1.000000e+20 was exceeded. Fit stopped.
+final sum of squares of residuals : 96.8295
+rel. change during last iteration : 0
+
+degrees of freedom    (FIT_NDF)                        : 2
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 6.95807
+variance of residuals (reduced chisquare) = WSSR/ndf   : 48.4148
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+a               = 9858.17          +/- 179.4        (1.82%)
+
+
+correlation matrix of the fit parameters:
+
+               a      
+a               1.000 
+
+
+*******************************************************************************
+Mon Jan 18 12:13:07 2016
+
+
+FIT:    data read from 'SSL_isopoint.txt' u (2./$1):2
+        format = x:z
+        x range restricted to [0.0140000 : 0.0250000]
+        #datapoints = 3
+        residuals are weighted equally (unit weight)
+
+function used for fitting: g(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 96.8295           delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 0.0223948
+
+initial set of free parameter values
+
+a               = 9858.17
+
+The maximum lambda = 1.000000e+20 was exceeded. Fit stopped.
+final sum of squares of residuals : 96.8295
+rel. change during last iteration : 0
+
+degrees of freedom    (FIT_NDF)                        : 2
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 6.95807
+variance of residuals (reduced chisquare) = WSSR/ndf   : 48.4148
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+a               = 9858.17          +/- 179.4        (1.82%)
+
+
+correlation matrix of the fit parameters:
+
+               a      
+a               1.000 
+
+
+*******************************************************************************
+Mon Jan 18 12:13:26 2016
+
+
+FIT:    data read from 'SSL_isopoint.txt' u (2./$1):2
+        format = x:z
+        x range restricted to [0.0140000 : 0.0250000]
+        #datapoints = 3
+        residuals are weighted equally (unit weight)
+
+function used for fitting: g(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 96.8295           delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 0.0223948
+
+initial set of free parameter values
+
+a               = 9858.17
+
+The maximum lambda = 1.000000e+20 was exceeded. Fit stopped.
+final sum of squares of residuals : 96.8295
+rel. change during last iteration : 0
+
+degrees of freedom    (FIT_NDF)                        : 2
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 6.95807
+variance of residuals (reduced chisquare) = WSSR/ndf   : 48.4148
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+a               = 9858.17          +/- 179.4        (1.82%)
+
+
+correlation matrix of the fit parameters:
+
+               a      
+a               1.000 
+
+
+*******************************************************************************
+Mon Jan 18 12:13:37 2016
+
+
+FIT:    data read from 'SSL_isopoint.txt' u (2./$1):2
+        format = x:z
+        x range restricted to [0.0140000 : 0.0250000]
+        #datapoints = 3
+        residuals are weighted equally (unit weight)
+
+function used for fitting: g(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 96.8295           delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 0.0223948
+
+initial set of free parameter values
+
+a               = 9858.17
+
+The maximum lambda = 1.000000e+20 was exceeded. Fit stopped.
+final sum of squares of residuals : 96.8295
+rel. change during last iteration : 0
+
+degrees of freedom    (FIT_NDF)                        : 2
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 6.95807
+variance of residuals (reduced chisquare) = WSSR/ndf   : 48.4148
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+a               = 9858.17          +/- 179.4        (1.82%)
+
+
+correlation matrix of the fit parameters:
+
+               a      
+a               1.000 
+
+
+*******************************************************************************
+Mon Jan 18 12:14:09 2016
+
+
+FIT:    data read from 'SSL_isopoint.txt' u (2./$1):2
+        format = x:z
+        x range restricted to [0.0140000 : 0.0250000]
+        #datapoints = 3
+        residuals are weighted equally (unit weight)
+
+function used for fitting: g(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 96.8295           delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 0.0223948
+
+initial set of free parameter values
+
+a               = 9858.17
+
+The maximum lambda = 1.000000e+20 was exceeded. Fit stopped.
+final sum of squares of residuals : 96.8295
+rel. change during last iteration : 0
+
+degrees of freedom    (FIT_NDF)                        : 2
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 6.95807
+variance of residuals (reduced chisquare) = WSSR/ndf   : 48.4148
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+a               = 9858.17          +/- 179.4        (1.82%)
+
+
+correlation matrix of the fit parameters:
+
+               a      
+a               1.000 
+
+
+*******************************************************************************
+Wed Mar 23 15:53:30 2016
+
+
+FIT:    data read from 'SSL_isopoint.dat' u (2./$1):2
+        format = x:z
+        x range restricted to [0.0140000 : 0.0250000]
+        #datapoints = 3
+        residuals are weighted equally (unit weight)
+
+function used for fitting: g(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 146288            delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 0.0223948
+
+initial set of free parameter values
+
+a               = 1
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 96.8295
+rel. change during last iteration : -1.15795e-12
+
+degrees of freedom    (FIT_NDF)                        : 2
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 6.95807
+variance of residuals (reduced chisquare) = WSSR/ndf   : 48.4148
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+a               = 9858.17          +/- 179.4        (1.82%)
+
+
+correlation matrix of the fit parameters:
+
+               a      
+a               1.000 
+
+
+*******************************************************************************
+Wed Mar 23 15:53:51 2016
+
+
+FIT:    data read from 'SSL_isopoint.dat' u (2./$1):2
+        format = x:z
+        x range restricted to [0.0140000 : 0.0250000]
+        #datapoints = 3
+        residuals are weighted equally (unit weight)
+
+function used for fitting: g(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 146288            delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 0.0223948
+
+initial set of free parameter values
+
+a               = 1
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 96.8295
+rel. change during last iteration : -1.15795e-12
+
+degrees of freedom    (FIT_NDF)                        : 2
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 6.95807
+variance of residuals (reduced chisquare) = WSSR/ndf   : 48.4148
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+a               = 9858.17          +/- 179.4        (1.82%)
+
+
+correlation matrix of the fit parameters:
+
+               a      
+a               1.000 
+
+
+*******************************************************************************
+Wed Mar 23 15:55:08 2016
+
+
+FIT:    data read from 'SSL_isopoint.dat' u (2./$1):2
+        format = x:z
+        x range restricted to [0.0140000 : 0.0250000]
+        #datapoints = 3
+        residuals are weighted equally (unit weight)
+
+function used for fitting: g(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 146288            delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 0.0223948
+
+initial set of free parameter values
+
+a               = 1
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 96.8295
+rel. change during last iteration : -1.15795e-12
+
+degrees of freedom    (FIT_NDF)                        : 2
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 6.95807
+variance of residuals (reduced chisquare) = WSSR/ndf   : 48.4148
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+a               = 9858.17          +/- 179.4        (1.82%)
+
+
+correlation matrix of the fit parameters:
+
+               a      
+a               1.000 
+
+
+*******************************************************************************
+Wed Mar 23 15:55:45 2016
+
+
+FIT:    data read from 'SSL_isopoint.dat' u (2./$1):2
+        format = x:z
+        x range restricted to [0.0140000 : 0.0250000]
+        #datapoints = 3
+        residuals are weighted equally (unit weight)
+
+function used for fitting: g(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 146288            delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 0.0223948
+
+initial set of free parameter values
+
+a               = 1
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 96.8295
+rel. change during last iteration : -1.15795e-12
+
+degrees of freedom    (FIT_NDF)                        : 2
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 6.95807
+variance of residuals (reduced chisquare) = WSSR/ndf   : 48.4148
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+a               = 9858.17          +/- 179.4        (1.82%)
+
+
+correlation matrix of the fit parameters:
+
+               a      
+a               1.000 
+
+
+*******************************************************************************
+Wed Mar 23 15:55:55 2016
+
+
+FIT:    data read from 'SSL_isopoint.dat' u (2./$1):2
+        format = x:z
+        x range restricted to [0.0140000 : 0.0250000]
+        #datapoints = 3
+        residuals are weighted equally (unit weight)
+
+function used for fitting: g(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 146288            delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 0.0223948
+
+initial set of free parameter values
+
+a               = 1
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 96.8295
+rel. change during last iteration : -1.15795e-12
+
+degrees of freedom    (FIT_NDF)                        : 2
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 6.95807
+variance of residuals (reduced chisquare) = WSSR/ndf   : 48.4148
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+a               = 9858.17          +/- 179.4        (1.82%)
+
+
+correlation matrix of the fit parameters:
+
+               a      
+a               1.000 
+
+
+*******************************************************************************
+Wed Mar 23 15:56:12 2016
+
+
+FIT:    data read from 'SSL_isopoint.dat' u (2./$1):2
+        format = x:z
+        x range restricted to [0.0140000 : 0.0250000]
+        #datapoints = 3
+        residuals are weighted equally (unit weight)
+
+function used for fitting: g(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 146288            delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 0.0223948
+
+initial set of free parameter values
+
+a               = 1
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 96.8295
+rel. change during last iteration : -1.15795e-12
+
+degrees of freedom    (FIT_NDF)                        : 2
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 6.95807
+variance of residuals (reduced chisquare) = WSSR/ndf   : 48.4148
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+a               = 9858.17          +/- 179.4        (1.82%)
+
+
+correlation matrix of the fit parameters:
+
+               a      
+a               1.000 
+
+
+*******************************************************************************
+Wed Mar 23 15:56:39 2016
+
+
+FIT:    data read from 'SSL_isopoint.dat' u (2./$1):2
+        format = x:z
+        x range restricted to [0.0140000 : 0.0250000]
+        #datapoints = 3
+        residuals are weighted equally (unit weight)
+
+function used for fitting: g(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 146288            delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 0.0223948
+
+initial set of free parameter values
+
+a               = 1
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 96.8295
+rel. change during last iteration : -1.15795e-12
+
+degrees of freedom    (FIT_NDF)                        : 2
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 6.95807
+variance of residuals (reduced chisquare) = WSSR/ndf   : 48.4148
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+a               = 9858.17          +/- 179.4        (1.82%)
+
+
+correlation matrix of the fit parameters:
+
+               a      
+a               1.000 
+
+
+*******************************************************************************
+Wed Mar 23 15:56:59 2016
+
+
+FIT:    data read from 'SSL_isopoint.dat' u (2./$1):2
+        format = x:z
+        x range restricted to [0.0140000 : 0.0250000]
+        #datapoints = 3
+        residuals are weighted equally (unit weight)
+
+function used for fitting: g(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 146288            delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 0.0223948
+
+initial set of free parameter values
+
+a               = 1
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 96.8295
+rel. change during last iteration : -1.15795e-12
+
+degrees of freedom    (FIT_NDF)                        : 2
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 6.95807
+variance of residuals (reduced chisquare) = WSSR/ndf   : 48.4148
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+a               = 9858.17          +/- 179.4        (1.82%)
+
+
+correlation matrix of the fit parameters:
+
+               a      
+a               1.000 
