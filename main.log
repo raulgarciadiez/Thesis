@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/TeX Live for SUSE Linux) (format=pdflatex 2015.3.4)  23 MAR 2016 15:58
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/TeX Live for SUSE Linux) (format=pdflatex 2015.3.4)  24 MAR 2016 11:49
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1248,18 +1248,51 @@ File: Figures/SSLPoissonComplete.pdf Graphic file (type pdf)
 Package pdftex.def Info: Figures/SSLPoissonComplete.pdf used on input line 121.
 
 (pdftex.def)             Requested size: 284.06053pt x 226.84694pt.
+) (./Figures/HDLContinuousSAXS.tex
+<Figures/HDLContinuousSAXS.pdf, id=1358, 284.06125pt x 226.8475pt>
+File: Figures/HDLContinuousSAXS.pdf Graphic file (type pdf)
+
+<use Figures/HDLContinuousSAXS.pdf>
+Package pdftex.def Info: Figures/HDLContinuousSAXS.pdf used on input line 104.
+(pdftex.def)             Requested size: 284.06053pt x 226.84694pt.
+) (./Figures/LDLContinuousSAXS.tex
+<Figures/LDLContinuousSAXS.pdf, id=1359, 284.06125pt x 226.8475pt>
+File: Figures/LDLContinuousSAXS.pdf Graphic file (type pdf)
+
+<use Figures/LDLContinuousSAXS.pdf>
+Package pdftex.def Info: Figures/LDLContinuousSAXS.pdf used on input line 104.
+(pdftex.def)             Requested size: 284.06053pt x 226.84694pt.
+) (./Figures/LipoproteinIsopointComp.tex
+<Figures/LipoproteinIsopointComp.pdf, id=1360, 284.06125pt x 226.8475pt>
+File: Figures/LipoproteinIsopointComp.pdf Graphic file (type pdf)
+
+<use Figures/LipoproteinIsopointComp.pdf>
+Package pdftex.def Info: Figures/LipoproteinIsopointComp.pdf used on input line
+ 101.
+(pdftex.def)             Requested size: 284.06053pt x 226.84694pt.
+)
+(./Figures/LipoproteinsAverageDensity.tex
+<Figures/LipoproteinsAverageDensity.pdf, id=1361, 284.06125pt x 226.8475pt>
+File: Figures/LipoproteinsAverageDensity.pdf Graphic file (type pdf)
+
+<use Figures/LipoproteinsAverageDensity.pdf>
+Package pdftex.def Info: Figures/LipoproteinsAverageDensity.pdf used on input l
+ine 109.
+(pdftex.def)             Requested size: 284.06053pt x 226.84694pt.
 ) [63 <./Figures/CaelyxIsopointComparison.pdf>] [64 <./Figures/SSLContinuousSAX
 S.pdf> <./Figures/SSLIsopointIntensity.pdf> <./Figures/SSLCurveFeatureCompariso
 n.pdf> <./Figures/SSLBilayerDeformationChi2.pdf>] [65 <./Figures/SSLPoissonOsmo
-ticShrinkage.pdf> <./Figures/SSLPoissonComplete.pdf>]) [66] (./main.bbl [67
+ticShrinkage.pdf> <./Figures/SSLPoissonComplete.pdf>] [66 <./Figures/HDLContinu
+ousSAXS.pdf> <./Figures/LDLContinuousSAXS.pdf> <./Figures/LipoproteinIsopointCo
+mp.pdf> <./Figures/LipoproteinsAverageDensity.pdf>]) [67] (./main.bbl [68
 
 
-] [68] [69] [70] [71] [72] [73] [74])
+] [69] [70] [71] [72] [73] [74] [75])
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 66.
- [75]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 66.
 
-(./main.aux (./abstract.aux) (./chapter_introduction.aux)
+[76]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 66.
+ (./main.aux (./abstract.aux) (./chapter_introduction.aux)
 (./chapter_theory_SAXS.aux) (./chapter_experimental_setup.aux)
 (./chapter_density_gradient_SAXS.aux) (./chapter_simultaneous_size_density.aux)
 (./chapter_bio_applications.aux))
@@ -1277,10 +1310,10 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 66.
  ) 
 Here is how much of TeX's memory you used:
- 9142 strings out of 493315
- 144646 string characters out of 6145894
- 242216 words of memory out of 5000000
- 11988 multiletter control sequences out of 15000+600000
+ 9185 strings out of 493315
+ 145950 string characters out of 6145894
+ 249624 words of memory out of 5000000
+ 12012 multiletter control sequences out of 15000+600000
  12368 words of font info for 44 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
  44i,16n,49p,1895b,588s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1300,10 +1333,10 @@ fb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texmf
 /fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texmf/fonts/type1/public/
 amsfonts/cm/cmti10.pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmti12.
 pfb>
-Output written on main.pdf (76 pages, 2147964 bytes).
+Output written on main.pdf (77 pages, 2301743 bytes).
 PDF statistics:
- 1581 PDF objects out of 1728 (max. 8388607)
- 1377 compressed objects within 14 object streams
- 346 named destinations out of 1000 (max. 500000)
- 856 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1604 PDF objects out of 1728 (max. 8388607)
+ 1395 compressed objects within 14 object streams
+ 353 named destinations out of 1000 (max. 500000)
+ 876 words of extra memory for PDF output out of 10000 (max. 10000000)
 

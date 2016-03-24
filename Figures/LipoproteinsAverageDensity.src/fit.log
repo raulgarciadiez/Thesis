@@ -1,0 +1,1664 @@
+
+
+*******************************************************************************
+Thu Mar 24 11:09:53 2016
+
+
+FIT:    data read from 'HDL_Guinier-results.dat' u 1:($4/N)
+        format = x:z
+        #datapoints = 63
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 9.74375e+11       delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 71803.1
+
+initial set of free parameter values
+
+a               = 1
+b               = 1
+c               = 1
+
+After 115 iterations the fit converged.
+final sum of squares of residuals : 63.3383
+rel. change during last iteration : -9.98093e-06
+
+degrees of freedom    (FIT_NDF)                        : 60
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 1.02744
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.05564
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+a               = -9.10677e-06     +/- 0.0006703    (7361%)
+b               = -501.618         +/- 6.319e+04    (1.26e+04%)
+c               = 8.89279          +/- 494.2        (5557%)
+
+
+correlation matrix of the fit parameters:
+
+               a      b      c      
+a               1.000 
+b              -1.000  1.000 
+c               1.000 -1.000  1.000 
+
+
+*******************************************************************************
+Thu Mar 24 11:10:15 2016
+
+
+FIT:    data read from 'HDL_Guinier-results.dat' u 1:($4/N)
+        format = x:z
+        x range restricted to [332.098 : 387.493]
+        #datapoints = 63
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 2849.02           delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 194.833
+
+initial set of free parameter values
+
+a               = -9.10677e-06
+b               = 358
+c               = 8.89279
+
+After 7 iterations the fit converged.
+final sum of squares of residuals : 2.2188
+rel. change during last iteration : -8.37099e-12
+
+degrees of freedom    (FIT_NDF)                        : 60
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.192302
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.0369801
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+a               = 0.00509138       +/- 0.0001255    (2.464%)
+b               = 358.44           +/- 0.1568       (0.04376%)
+c               = 0.822986         +/- 0.04172      (5.07%)
+
+
+correlation matrix of the fit parameters:
+
+               a      b      c      
+a               1.000 
+b              -0.248  1.000 
+c              -0.783 -0.022  1.000 
+
+
+*******************************************************************************
+Thu Mar 24 11:10:37 2016
+
+
+FIT:    data read from 'HDL_Guinier-results.dat' u 1:($4/N)
+        format = x:z
+        x range restricted to [324.286 : 395.714]
+        #datapoints = 63
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 2.56962           delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 194.833
+
+initial set of free parameter values
+
+a               = 0.00509138
+b               = 358
+c               = 0.822986
+
+After 6 iterations the fit converged.
+final sum of squares of residuals : 2.2188
+rel. change during last iteration : -9.35254e-09
+
+degrees of freedom    (FIT_NDF)                        : 60
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.192302
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.0369801
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+a               = 0.00509138       +/- 0.0001255    (2.464%)
+b               = 358.44           +/- 0.1568       (0.04376%)
+c               = 0.822986         +/- 0.04172      (5.07%)
+
+
+correlation matrix of the fit parameters:
+
+               a      b      c      
+a               1.000 
+b              -0.248  1.000 
+c              -0.783 -0.022  1.000 
+
+
+*******************************************************************************
+Thu Mar 24 11:10:43 2016
+
+
+FIT:    data read from 'HDL_Guinier-results.dat' u 1:($4/N)
+        format = x:z
+        x range restricted to [324.286 : 395.714]
+        #datapoints = 63
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 2.56962           delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 194.833
+
+initial set of free parameter values
+
+a               = 0.00509138
+b               = 358
+c               = 0.822986
+
+After 6 iterations the fit converged.
+final sum of squares of residuals : 2.2188
+rel. change during last iteration : -9.35254e-09
+
+degrees of freedom    (FIT_NDF)                        : 60
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.192302
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.0369801
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+a               = 0.00509138       +/- 0.0001255    (2.464%)
+b               = 358.44           +/- 0.1568       (0.04376%)
+c               = 0.822986         +/- 0.04172      (5.07%)
+
+
+correlation matrix of the fit parameters:
+
+               a      b      c      
+a               1.000 
+b              -0.248  1.000 
+c              -0.783 -0.022  1.000 
+
+
+*******************************************************************************
+Thu Mar 24 11:35:59 2016
+
+
+FIT:    data read from 'HDL_Guinier-results.dat' u 1:($4/N)
+        format = x:z
+        x range restricted to [324.286 : 395.714]
+        #datapoints = 63
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 2.56962           delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 194.833
+
+initial set of free parameter values
+
+a               = 0.00509138
+b               = 358
+c               = 0.822986
+
+After 6 iterations the fit converged.
+final sum of squares of residuals : 2.2188
+rel. change during last iteration : -9.35254e-09
+
+degrees of freedom    (FIT_NDF)                        : 60
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.192302
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.0369801
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+a               = 0.00509138       +/- 0.0001255    (2.464%)
+b               = 358.44           +/- 0.1568       (0.04376%)
+c               = 0.822986         +/- 0.04172      (5.07%)
+
+
+correlation matrix of the fit parameters:
+
+               a      b      c      
+a               1.000 
+b              -0.248  1.000 
+c              -0.783 -0.022  1.000 
+
+
+*******************************************************************************
+Thu Mar 24 11:35:59 2016
+
+
+FIT:    data read from 'LDL_intensity_zero_angle.dat' u 1:($2/N2)
+        format = x:z
+        x range restricted to [324.286 : 395.714]
+        #datapoints = 12
+        residuals are weighted equally (unit weight)
+
+function used for fitting: g(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 74.4943           delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 0
+
+initial set of free parameter values
+
+d               = 1
+e               = 340
+f               = 1
+BREAK:          Singular matrix in Givens()
+
+
+
+*******************************************************************************
+Thu Mar 24 11:36:28 2016
+
+
+FIT:    data read from 'HDL_Guinier-results.dat' u 1:($4/N)
+        format = x:z
+        x range restricted to [324.286 : 395.714]
+        #datapoints = 63
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 2.56962           delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 194.833
+
+initial set of free parameter values
+
+a               = 0.00509138
+b               = 358
+c               = 0.822986
+
+After 6 iterations the fit converged.
+final sum of squares of residuals : 2.2188
+rel. change during last iteration : -9.35254e-09
+
+degrees of freedom    (FIT_NDF)                        : 60
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.192302
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.0369801
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+a               = 0.00509138       +/- 0.0001255    (2.464%)
+b               = 358.44           +/- 0.1568       (0.04376%)
+c               = 0.822986         +/- 0.04172      (5.07%)
+
+
+correlation matrix of the fit parameters:
+
+               a      b      c      
+a               1.000 
+b              -0.248  1.000 
+c              -0.783 -0.022  1.000 
+
+
+*******************************************************************************
+Thu Mar 24 11:36:28 2016
+
+
+FIT:    data read from 'LDL_intensity_zero_angle.dat' u 1:($2/N2)
+        format = x:z
+        x range restricted to [324.286 : 395.714]
+        #datapoints = 12
+        residuals are weighted equally (unit weight)
+
+function used for fitting: g(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 8.60758e+06       delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 491.532
+
+initial set of free parameter values
+
+d               = 1
+e               = 340
+f               = 1.001
+
+After 9 iterations the fit converged.
+final sum of squares of residuals : 1.61444
+rel. change during last iteration : -1.0067e-08
+
+degrees of freedom    (FIT_NDF)                        : 9
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.423535
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.179382
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+d               = 0.00603854       +/- 0.0007896    (13.08%)
+e               = 345.518          +/- 1.985        (0.5746%)
+f               = 0.0957962        +/- 0.164        (171.2%)
+
+
+correlation matrix of the fit parameters:
+
+               d      e      f      
+d               1.000 
+e               0.941  1.000 
+f              -0.141  0.087  1.000 
+
+
+*******************************************************************************
+Thu Mar 24 11:37:00 2016
+
+
+FIT:    data read from 'HDL_Guinier-results.dat' u 1:($4/N)
+        format = x:z
+        x range restricted to [324.286 : 395.714]
+        #datapoints = 63
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 2.56962           delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 194.833
+
+initial set of free parameter values
+
+a               = 0.00509138
+b               = 358
+c               = 0.822986
+
+After 6 iterations the fit converged.
+final sum of squares of residuals : 2.2188
+rel. change during last iteration : -9.35254e-09
+
+degrees of freedom    (FIT_NDF)                        : 60
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.192302
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.0369801
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+a               = 0.00509138       +/- 0.0001255    (2.464%)
+b               = 358.44           +/- 0.1568       (0.04376%)
+c               = 0.822986         +/- 0.04172      (5.07%)
+
+
+correlation matrix of the fit parameters:
+
+               a      b      c      
+a               1.000 
+b              -0.248  1.000 
+c              -0.783 -0.022  1.000 
+
+
+*******************************************************************************
+Thu Mar 24 11:37:00 2016
+
+
+FIT:    data read from 'LDL_intensity_zero_angle.dat' u 1:($2/N2)
+        format = x:z
+        x range restricted to [324.286 : 395.714]
+        #datapoints = 12
+        residuals are weighted equally (unit weight)
+
+function used for fitting: g(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 53.2448           delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 490.748
+
+initial set of free parameter values
+
+d               = 0.00603854
+e               = 340
+f               = 0.0957962
+
+After 8 iterations the fit converged.
+final sum of squares of residuals : 1.12114
+rel. change during last iteration : -1.18177e-08
+
+degrees of freedom    (FIT_NDF)                        : 9
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.352946
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.124571
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+d               = 0.00503211       +/- 0.000658     (13.08%)
+e               = 345.518          +/- 1.985        (0.5746%)
+f               = 0.0798302        +/- 0.1367       (171.2%)
+
+
+correlation matrix of the fit parameters:
+
+               d      e      f      
+d               1.000 
+e               0.941  1.000 
+f              -0.141  0.087  1.000 
+
+
+*******************************************************************************
+Thu Mar 24 11:37:07 2016
+
+
+FIT:    data read from 'HDL_Guinier-results.dat' u 1:($4/N)
+        format = x:z
+        x range restricted to [324.286 : 395.714]
+        #datapoints = 63
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 2.56962           delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 194.833
+
+initial set of free parameter values
+
+a               = 0.00509138
+b               = 358
+c               = 0.822986
+
+After 6 iterations the fit converged.
+final sum of squares of residuals : 2.2188
+rel. change during last iteration : -9.35254e-09
+
+degrees of freedom    (FIT_NDF)                        : 60
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.192302
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.0369801
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+a               = 0.00509138       +/- 0.0001255    (2.464%)
+b               = 358.44           +/- 0.1568       (0.04376%)
+c               = 0.822986         +/- 0.04172      (5.07%)
+
+
+correlation matrix of the fit parameters:
+
+               a      b      c      
+a               1.000 
+b              -0.248  1.000 
+c              -0.783 -0.022  1.000 
+
+
+*******************************************************************************
+Thu Mar 24 11:37:07 2016
+
+
+FIT:    data read from 'LDL_intensity_zero_angle.dat' u 1:($2/N2)
+        format = x:z
+        x range restricted to [324.286 : 395.714]
+        #datapoints = 12
+        residuals are weighted equally (unit weight)
+
+function used for fitting: g(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 48.3621           delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 490.748
+
+initial set of free parameter values
+
+d               = 0.00503211
+e               = 340
+f               = 0.0798302
+
+After 8 iterations the fit converged.
+final sum of squares of residuals : 0.63064
+rel. change during last iteration : -3.17213e-08
+
+degrees of freedom    (FIT_NDF)                        : 9
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.264709
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.0700711
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+d               = 0.00377409       +/- 0.0004935    (13.08%)
+e               = 345.518          +/- 1.985        (0.5746%)
+f               = 0.0598726        +/- 0.1025       (171.2%)
+
+
+correlation matrix of the fit parameters:
+
+               d      e      f      
+d               1.000 
+e               0.941  1.000 
+f              -0.141  0.087  1.000 
+
+
+*******************************************************************************
+Thu Mar 24 11:37:21 2016
+
+
+FIT:    data read from 'HDL_Guinier-results.dat' u 1:($4/N)
+        format = x:z
+        x range restricted to [324.286 : 395.714]
+        #datapoints = 63
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 91.86             delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 194.833
+
+initial set of free parameter values
+
+a               = 0.00509138
+b               = 358
+c               = 0.822986
+
+After 6 iterations the fit converged.
+final sum of squares of residuals : 0.554701
+rel. change during last iteration : -5.00686e-08
+
+degrees of freedom    (FIT_NDF)                        : 60
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.096151
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.00924502
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+a               = 0.00254569       +/- 6.273e-05    (2.464%)
+b               = 358.44           +/- 0.1568       (0.04376%)
+c               = 0.411493         +/- 0.02086      (5.07%)
+
+
+correlation matrix of the fit parameters:
+
+               a      b      c      
+a               1.000 
+b              -0.248  1.000 
+c              -0.783 -0.022  1.000 
+
+
+*******************************************************************************
+Thu Mar 24 11:37:21 2016
+
+
+FIT:    data read from 'LDL_intensity_zero_angle.dat' u 1:($2/N2)
+        format = x:z
+        x range restricted to [324.286 : 395.714]
+        #datapoints = 12
+        residuals are weighted equally (unit weight)
+
+function used for fitting: g(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 23.2491           delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 490.748
+
+initial set of free parameter values
+
+d               = 0.00377409
+e               = 340
+f               = 0.0598726
+
+After 8 iterations the fit converged.
+final sum of squares of residuals : 0.403609
+rel. change during last iteration : -9.73351e-07
+
+degrees of freedom    (FIT_NDF)                        : 9
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.211768
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.0448455
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+d               = 0.00301927       +/- 0.0003948    (13.08%)
+e               = 345.518          +/- 1.985        (0.5746%)
+f               = 0.0478981        +/- 0.08199      (171.2%)
+
+
+correlation matrix of the fit parameters:
+
+               d      e      f      
+d               1.000 
+e               0.941  1.000 
+f              -0.141  0.087  1.000 
+
+
+*******************************************************************************
+Thu Mar 24 11:39:53 2016
+
+
+FIT:    data read from 'HDL_Guinier-results.dat' u 1:($4/N)
+        format = x:z
+        #datapoints = 63
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 7.15763e+06       delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 195.777
+
+initial set of free parameter values
+
+a               = 1
+b               = 358
+c               = 1
+
+After 6 iterations the fit converged.
+final sum of squares of residuals : 0.554701
+rel. change during last iteration : -2.60368e-08
+
+degrees of freedom    (FIT_NDF)                        : 60
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.096151
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.00924502
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+a               = 0.00254569       +/- 6.273e-05    (2.464%)
+b               = 358.44           +/- 0.1568       (0.04376%)
+c               = 0.411493         +/- 0.02086      (5.07%)
+
+
+correlation matrix of the fit parameters:
+
+               a      b      c      
+a               1.000 
+b              -0.248  1.000 
+c              -0.783 -0.022  1.000 
+
+
+*******************************************************************************
+Thu Mar 24 11:39:53 2016
+
+
+FIT:    data read from 'LDL_intensity_zero_angle.dat' u 1:($2/N2)
+        format = x:z
+        #datapoints = 12
+        residuals are weighted equally (unit weight)
+
+function used for fitting: g(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 8.65668e+06       delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 491.532
+
+initial set of free parameter values
+
+d               = 1
+e               = 340
+f               = 1
+
+After 9 iterations the fit converged.
+final sum of squares of residuals : 0.205923
+rel. change during last iteration : -4.26274e-12
+
+degrees of freedom    (FIT_NDF)                        : 9
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.151263
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.0228804
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+d               = 0.00215662       +/- 0.000282     (13.08%)
+e               = 345.518          +/- 1.985        (0.5746%)
+f               = 0.0342129        +/- 0.05857      (171.2%)
+
+
+correlation matrix of the fit parameters:
+
+               d      e      f      
+d               1.000 
+e               0.941  1.000 
+f              -0.141  0.087  1.000 
+
+
+*******************************************************************************
+Thu Mar 24 11:39:59 2016
+
+
+FIT:    data read from 'HDL_Guinier-results.dat' u 1:($4/N)
+        format = x:z
+        #datapoints = 63
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 0.642406          delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 194.833
+
+initial set of free parameter values
+
+a               = 0.00254569
+b               = 358
+c               = 0.411493
+
+After 6 iterations the fit converged.
+final sum of squares of residuals : 0.554701
+rel. change during last iteration : -1.28477e-07
+
+degrees of freedom    (FIT_NDF)                        : 60
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.096151
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.00924502
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+a               = 0.00254569       +/- 6.273e-05    (2.464%)
+b               = 358.44           +/- 0.1568       (0.04376%)
+c               = 0.411493         +/- 0.02086      (5.07%)
+
+
+correlation matrix of the fit parameters:
+
+               a      b      c      
+a               1.000 
+b              -0.248  1.000 
+c              -0.783 -0.022  1.000 
+
+
+*******************************************************************************
+Thu Mar 24 11:39:59 2016
+
+
+FIT:    data read from 'LDL_intensity_zero_angle.dat' u 1:($2/N2)
+        format = x:z
+        #datapoints = 12
+        residuals are weighted equally (unit weight)
+
+function used for fitting: g(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 19.3494           delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 490.748
+
+initial set of free parameter values
+
+d               = 0.00301927
+e               = 340
+f               = 0.0478981
+
+After 9 iterations the fit converged.
+final sum of squares of residuals : 0.205923
+rel. change during last iteration : -4.27973e-12
+
+degrees of freedom    (FIT_NDF)                        : 9
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.151263
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.0228804
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+d               = 0.00215662       +/- 0.000282     (13.08%)
+e               = 345.518          +/- 1.985        (0.5746%)
+f               = 0.0342129        +/- 0.05857      (171.2%)
+
+
+correlation matrix of the fit parameters:
+
+               d      e      f      
+d               1.000 
+e               0.941  1.000 
+f              -0.141  0.087  1.000 
+
+
+*******************************************************************************
+Thu Mar 24 11:40:10 2016
+
+
+FIT:    data read from 'HDL_Guinier-results.dat' u 1:($4/N)
+        format = x:z
+        #datapoints = 63
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 7.15763e+06       delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 195.777
+
+initial set of free parameter values
+
+a               = 1
+b               = 358
+c               = 1
+
+After 6 iterations the fit converged.
+final sum of squares of residuals : 0.554701
+rel. change during last iteration : -2.60368e-08
+
+degrees of freedom    (FIT_NDF)                        : 60
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.096151
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.00924502
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+a               = 0.00254569       +/- 6.273e-05    (2.464%)
+b               = 358.44           +/- 0.1568       (0.04376%)
+c               = 0.411493         +/- 0.02086      (5.07%)
+
+
+correlation matrix of the fit parameters:
+
+               a      b      c      
+a               1.000 
+b              -0.248  1.000 
+c              -0.783 -0.022  1.000 
+
+
+*******************************************************************************
+Thu Mar 24 11:40:10 2016
+
+
+FIT:    data read from 'LDL_intensity_zero_angle.dat' u 1:($2/N2)
+        format = x:z
+        #datapoints = 12
+        residuals are weighted equally (unit weight)
+
+function used for fitting: g(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 8.66275e+06       delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 491.532
+
+initial set of free parameter values
+
+d               = 1
+e               = 340
+f               = 1
+
+After 9 iterations the fit converged.
+final sum of squares of residuals : 0.124571
+rel. change during last iteration : -7.87772e-11
+
+degrees of freedom    (FIT_NDF)                        : 9
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.117649
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.0138412
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+d               = 0.00167737       +/- 0.0002193    (13.08%)
+e               = 345.518          +/- 1.985        (0.5746%)
+f               = 0.0266101        +/- 0.04555      (171.2%)
+
+
+correlation matrix of the fit parameters:
+
+               d      e      f      
+d               1.000 
+e               0.941  1.000 
+f              -0.141  0.087  1.000 
+
+
+*******************************************************************************
+Thu Mar 24 11:40:17 2016
+
+
+FIT:    data read from 'HDL_Guinier-results.dat' u 1:($4/N)
+        format = x:z
+        x range restricted to [333.000 : 385.000]
+        #datapoints = 63
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 0.642406          delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 194.833
+
+initial set of free parameter values
+
+a               = 0.00254569
+b               = 358
+c               = 0.411493
+
+After 6 iterations the fit converged.
+final sum of squares of residuals : 0.554701
+rel. change during last iteration : -1.28477e-07
+
+degrees of freedom    (FIT_NDF)                        : 60
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.096151
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.00924502
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+a               = 0.00254569       +/- 6.273e-05    (2.464%)
+b               = 358.44           +/- 0.1568       (0.04376%)
+c               = 0.411493         +/- 0.02086      (5.07%)
+
+
+correlation matrix of the fit parameters:
+
+               a      b      c      
+a               1.000 
+b              -0.248  1.000 
+c              -0.783 -0.022  1.000 
+
+
+*******************************************************************************
+Thu Mar 24 11:40:17 2016
+
+
+FIT:    data read from 'LDL_intensity_zero_angle.dat' u 1:($2/N2)
+        format = x:z
+        x range restricted to [333.000 : 385.000]
+        #datapoints = 12
+        residuals are weighted equally (unit weight)
+
+function used for fitting: g(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 8.15195           delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 490.748
+
+initial set of free parameter values
+
+d               = 0.00215662
+e               = 340
+f               = 0.0342129
+
+After 9 iterations the fit converged.
+final sum of squares of residuals : 0.124571
+rel. change during last iteration : -7.85236e-11
+
+degrees of freedom    (FIT_NDF)                        : 9
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.117649
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.0138412
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+d               = 0.00167737       +/- 0.0002193    (13.08%)
+e               = 345.518          +/- 1.985        (0.5746%)
+f               = 0.0266101        +/- 0.04555      (171.2%)
+
+
+correlation matrix of the fit parameters:
+
+               d      e      f      
+d               1.000 
+e               0.941  1.000 
+f              -0.141  0.087  1.000 
+
+
+*******************************************************************************
+Thu Mar 24 11:40:32 2016
+
+
+FIT:    data read from 'HDL_Guinier-results.dat' u 1:($4/N)
+        format = x:z
+        x range restricted to [333.000 : 385.000]
+        #datapoints = 63
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 0.642406          delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 194.833
+
+initial set of free parameter values
+
+a               = 0.00254569
+b               = 358
+c               = 0.411493
+
+After 6 iterations the fit converged.
+final sum of squares of residuals : 0.554701
+rel. change during last iteration : -1.28477e-07
+
+degrees of freedom    (FIT_NDF)                        : 60
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.096151
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.00924502
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+a               = 0.00254569       +/- 6.273e-05    (2.464%)
+b               = 358.44           +/- 0.1568       (0.04376%)
+c               = 0.411493         +/- 0.02086      (5.07%)
+
+
+correlation matrix of the fit parameters:
+
+               a      b      c      
+a               1.000 
+b              -0.248  1.000 
+c              -0.783 -0.022  1.000 
+
+
+*******************************************************************************
+Thu Mar 24 11:40:32 2016
+
+
+FIT:    data read from 'LDL_intensity_zero_angle.dat' u 1:($2/N2)
+        format = x:z
+        x range restricted to [333.000 : 385.000]
+        #datapoints = 12
+        residuals are weighted equally (unit weight)
+
+function used for fitting: g(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 2.12923           delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 490.748
+
+initial set of free parameter values
+
+d               = 0.00167737
+e               = 340
+f               = 0.0266101
+
+After 9 iterations the fit converged.
+final sum of squares of residuals : 0.124571
+rel. change during last iteration : -7.8479e-11
+
+degrees of freedom    (FIT_NDF)                        : 9
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.117649
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.0138412
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+d               = 0.00167737       +/- 0.0002193    (13.08%)
+e               = 345.518          +/- 1.985        (0.5746%)
+f               = 0.0266101        +/- 0.04555      (171.2%)
+
+
+correlation matrix of the fit parameters:
+
+               d      e      f      
+d               1.000 
+e               0.941  1.000 
+f              -0.141  0.087  1.000 
+
+
+*******************************************************************************
+Thu Mar 24 11:40:37 2016
+
+
+FIT:    data read from 'HDL_Guinier-results.dat' u 1:($4/N)
+        format = x:z
+        x range restricted to [333.000 : 385.000]
+        #datapoints = 63
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 0.642406          delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 194.833
+
+initial set of free parameter values
+
+a               = 0.00254569
+b               = 358
+c               = 0.411493
+
+After 6 iterations the fit converged.
+final sum of squares of residuals : 0.554701
+rel. change during last iteration : -1.28477e-07
+
+degrees of freedom    (FIT_NDF)                        : 60
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.096151
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.00924502
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+a               = 0.00254569       +/- 6.273e-05    (2.464%)
+b               = 358.44           +/- 0.1568       (0.04376%)
+c               = 0.411493         +/- 0.02086      (5.07%)
+
+
+correlation matrix of the fit parameters:
+
+               a      b      c      
+a               1.000 
+b              -0.248  1.000 
+c              -0.783 -0.022  1.000 
+
+
+*******************************************************************************
+Thu Mar 24 11:40:37 2016
+
+
+FIT:    data read from 'LDL_intensity_zero_angle.dat' u 1:($2/N2)
+        format = x:z
+        x range restricted to [333.000 : 385.000]
+        #datapoints = 12
+        residuals are weighted equally (unit weight)
+
+function used for fitting: g(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 2.12923           delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 490.748
+
+initial set of free parameter values
+
+d               = 0.00167737
+e               = 340
+f               = 0.0266101
+
+After 9 iterations the fit converged.
+final sum of squares of residuals : 0.124571
+rel. change during last iteration : -7.8478e-11
+
+degrees of freedom    (FIT_NDF)                        : 9
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.117649
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.0138412
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+d               = 0.00167737       +/- 0.0002193    (13.08%)
+e               = 345.518          +/- 1.985        (0.5746%)
+f               = 0.0266101        +/- 0.04555      (171.2%)
+
+
+correlation matrix of the fit parameters:
+
+               d      e      f      
+d               1.000 
+e               0.941  1.000 
+f              -0.141  0.087  1.000 
+
+
+*******************************************************************************
+Thu Mar 24 11:41:31 2016
+
+
+FIT:    data read from 'HDL_Guinier-results.dat' u 1:($4/N)
+        format = x:z
+        #datapoints = 63
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 0.642406          delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 194.833
+
+initial set of free parameter values
+
+a               = 0.00254569
+b               = 358
+c               = 0.411493
+
+After 6 iterations the fit converged.
+final sum of squares of residuals : 0.554701
+rel. change during last iteration : -1.28477e-07
+
+degrees of freedom    (FIT_NDF)                        : 60
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.096151
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.00924502
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+a               = 0.00254569       +/- 6.273e-05    (2.464%)
+b               = 358.44           +/- 0.1568       (0.04376%)
+c               = 0.411493         +/- 0.02086      (5.07%)
+
+
+correlation matrix of the fit parameters:
+
+               a      b      c      
+a               1.000 
+b              -0.248  1.000 
+c              -0.783 -0.022  1.000 
+
+
+*******************************************************************************
+Thu Mar 24 11:41:31 2016
+
+
+FIT:    data read from 'LDL_intensity_zero_angle.dat' u 1:($2/N2)
+        format = x:z
+        #datapoints = 12
+        residuals are weighted equally (unit weight)
+
+function used for fitting: g(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 2.12923           delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 490.748
+
+initial set of free parameter values
+
+d               = 0.00167737
+e               = 340
+f               = 0.0266101
+
+After 9 iterations the fit converged.
+final sum of squares of residuals : 0.124571
+rel. change during last iteration : -7.84782e-11
+
+degrees of freedom    (FIT_NDF)                        : 9
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.117649
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.0138412
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+d               = 0.00167737       +/- 0.0002193    (13.08%)
+e               = 345.518          +/- 1.985        (0.5746%)
+f               = 0.0266101        +/- 0.04555      (171.2%)
+
+
+correlation matrix of the fit parameters:
+
+               d      e      f      
+d               1.000 
+e               0.941  1.000 
+f              -0.141  0.087  1.000 
+
+
+*******************************************************************************
+Thu Mar 24 11:43:06 2016
+
+
+FIT:    data read from 'HDL_Guinier-results.dat' u 1:($4/N)
+        format = x:z
+        #datapoints = 63
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 7.15763e+06       delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 195.777
+
+initial set of free parameter values
+
+a               = 1
+b               = 358
+c               = 1
+
+After 6 iterations the fit converged.
+final sum of squares of residuals : 0.554701
+rel. change during last iteration : -2.60368e-08
+
+degrees of freedom    (FIT_NDF)                        : 60
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.096151
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.00924502
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+a               = 0.00254569       +/- 6.273e-05    (2.464%)
+b               = 358.44           +/- 0.1568       (0.04376%)
+c               = 0.411493         +/- 0.02086      (5.07%)
+
+
+correlation matrix of the fit parameters:
+
+               a      b      c      
+a               1.000 
+b              -0.248  1.000 
+c              -0.783 -0.022  1.000 
+
+
+*******************************************************************************
+Thu Mar 24 11:43:06 2016
+
+
+FIT:    data read from 'LDL_intensity_zero_angle.dat' u 1:($2/N2)
+        format = x:z
+        #datapoints = 12
+        residuals are weighted equally (unit weight)
+
+function used for fitting: g(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 8.66275e+06       delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 491.532
+
+initial set of free parameter values
+
+d               = 1
+e               = 340
+f               = 1
+
+After 9 iterations the fit converged.
+final sum of squares of residuals : 0.124571
+rel. change during last iteration : -7.87772e-11
+
+degrees of freedom    (FIT_NDF)                        : 9
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.117649
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.0138412
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+d               = 0.00167737       +/- 0.0002193    (13.08%)
+e               = 345.518          +/- 1.985        (0.5746%)
+f               = 0.0266101        +/- 0.04555      (171.2%)
+
+
+correlation matrix of the fit parameters:
+
+               d      e      f      
+d               1.000 
+e               0.941  1.000 
+f              -0.141  0.087  1.000 
+
+
+*******************************************************************************
+Thu Mar 24 11:44:28 2016
+
+
+FIT:    data read from 'HDL_Guinier-results.dat' u 1:($4/N)
+        format = x:z
+        #datapoints = 63
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 7.15763e+06       delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 195.777
+
+initial set of free parameter values
+
+a               = 1
+b               = 358
+c               = 1
+
+After 6 iterations the fit converged.
+final sum of squares of residuals : 0.554701
+rel. change during last iteration : -2.60368e-08
+
+degrees of freedom    (FIT_NDF)                        : 60
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.096151
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.00924502
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+a               = 0.00254569       +/- 6.273e-05    (2.464%)
+b               = 358.44           +/- 0.1568       (0.04376%)
+c               = 0.411493         +/- 0.02086      (5.07%)
+
+
+correlation matrix of the fit parameters:
+
+               a      b      c      
+a               1.000 
+b              -0.248  1.000 
+c              -0.783 -0.022  1.000 
+
+
+*******************************************************************************
+Thu Mar 24 11:44:28 2016
+
+
+FIT:    data read from 'LDL_intensity_zero_angle.dat' u 1:($2/N2)
+        format = x:z
+        #datapoints = 12
+        residuals are weighted equally (unit weight)
+
+function used for fitting: g(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 8.66275e+06       delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 491.532
+
+initial set of free parameter values
+
+d               = 1
+e               = 340
+f               = 1
+
+After 9 iterations the fit converged.
+final sum of squares of residuals : 0.124571
+rel. change during last iteration : -7.87772e-11
+
+degrees of freedom    (FIT_NDF)                        : 9
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.117649
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.0138412
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+d               = 0.00167737       +/- 0.0002193    (13.08%)
+e               = 345.518          +/- 1.985        (0.5746%)
+f               = 0.0266101        +/- 0.04555      (171.2%)
+
+
+correlation matrix of the fit parameters:
+
+               d      e      f      
+d               1.000 
+e               0.941  1.000 
+f              -0.141  0.087  1.000 
+
+
+*******************************************************************************
+Thu Mar 24 11:49:28 2016
+
+
+FIT:    data read from 'HDL_Guinier-results.dat' u 1:($4/N)
+        format = x:z
+        #datapoints = 63
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 7.15763e+06       delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 195.777
+
+initial set of free parameter values
+
+a               = 1
+b               = 358
+c               = 1
+
+After 6 iterations the fit converged.
+final sum of squares of residuals : 0.554701
+rel. change during last iteration : -2.60368e-08
+
+degrees of freedom    (FIT_NDF)                        : 60
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.096151
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.00924502
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+a               = 0.00254569       +/- 6.273e-05    (2.464%)
+b               = 358.44           +/- 0.1568       (0.04376%)
+c               = 0.411493         +/- 0.02086      (5.07%)
+
+
+correlation matrix of the fit parameters:
+
+               a      b      c      
+a               1.000 
+b              -0.248  1.000 
+c              -0.783 -0.022  1.000 
+
+
+*******************************************************************************
+Thu Mar 24 11:49:28 2016
+
+
+FIT:    data read from 'LDL_intensity_zero_angle.dat' u 1:($2/N2)
+        format = x:z
+        #datapoints = 12
+        residuals are weighted equally (unit weight)
+
+function used for fitting: g(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 8.66275e+06       delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 491.532
+
+initial set of free parameter values
+
+d               = 1
+e               = 340
+f               = 1
+
+After 9 iterations the fit converged.
+final sum of squares of residuals : 0.124571
+rel. change during last iteration : -7.87772e-11
+
+degrees of freedom    (FIT_NDF)                        : 9
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.117649
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.0138412
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+d               = 0.00167737       +/- 0.0002193    (13.08%)
+e               = 345.518          +/- 1.985        (0.5746%)
+f               = 0.0266101        +/- 0.04555      (171.2%)
+
+
+correlation matrix of the fit parameters:
+
+               d      e      f      
+d               1.000 
+e               0.941  1.000 
+f              -0.141  0.087  1.000 
