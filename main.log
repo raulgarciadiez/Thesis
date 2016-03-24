@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/TeX Live for SUSE Linux) (format=pdflatex 2015.3.4)  24 MAR 2016 14:06
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/TeX Live for SUSE Linux) (format=pdflatex 2015.3.4)  24 MAR 2016 14:33
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1312,18 +1312,27 @@ res/SSLContinuousSAXS.pdf> <./Figures/SSLIsopointIntensity.pdf>] [65 <./Figures
 /SSLCurveFeatureComparison.pdf> <./Figures/SSLBilayerDeformationChi2.pdf> <./Fi
 gures/SSLPoissonOsmoticShrinkage.pdf> <./Figures/SSLPoissonComplete.pdf>] [66 <
 ./Figures/HDLContinuousSAXS.pdf> <./Figures/LDLContinuousSAXS.pdf> <./Figures/L
-ipoproteinIsopointComp.pdf> <./Figures/LipoproteinsAverageDensity.pdf>] [67 <./
-Figures/CoatedKiskerIgGSingleContrastSAXS.pdf> <./Figures/CoatedKiskerAllSingle
-ContrastSAXS.pdf>])
-[68] (./main.bbl [69
+ipoproteinIsopointComp.pdf> <./Figures/LipoproteinsAverageDensity.pdf>]
+(./Figures/CoatedKiskerIsopointComp.tex
+<Figures/CoatedKiskerIsopointComp.pdf, id=1424, 284.06125pt x 226.8475pt>
+File: Figures/CoatedKiskerIsopointComp.pdf Graphic file (type pdf)
+
+<use Figures/CoatedKiskerIsopointComp.pdf>
+Package pdftex.def Info: Figures/CoatedKiskerIsopointComp.pdf used on input lin
+e 99.
+(pdftex.def)             Requested size: 284.06053pt x 226.84694pt.
+) [67 <./Figures/CoatedKiskerIgGSingleContrastSAXS.pdf> <./Figures/CoatedKisker
+AllSingleContrastSAXS.pdf>]) [68 <./Figures/CoatedKiskerIsopointComp.pdf>] [69]
+ (./main.bbl [70
 
 
-] [70] [71] [72] [73] [74] [75] [76])
+] [71] [72] [73]
+[74] [75] [76] [77])
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 66.
- [77]
+ [78]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 66.
- (./main.aux
-(./abstract.aux) (./chapter_introduction.aux) (./chapter_theory_SAXS.aux)
+ (./main.aux (./abstract.aux)
+(./chapter_introduction.aux) (./chapter_theory_SAXS.aux)
 (./chapter_experimental_setup.aux) (./chapter_density_gradient_SAXS.aux)
 (./chapter_simultaneous_size_density.aux) (./chapter_bio_applications.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 66.
@@ -1340,10 +1349,10 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 66.
  ) 
 Here is how much of TeX's memory you used:
- 9216 strings out of 493315
- 147068 string characters out of 6145894
- 258679 words of memory out of 5000000
- 12029 multiletter control sequences out of 15000+600000
+ 9226 strings out of 493315
+ 147387 string characters out of 6145894
+ 258834 words of memory out of 5000000
+ 12034 multiletter control sequences out of 15000+600000
  12368 words of font info for 44 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
  44i,16n,49p,1895b,588s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1363,10 +1372,10 @@ fb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texmf
 /fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texmf/fonts/type1/public/
 amsfonts/cm/cmti10.pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmti12.
 pfb>
-Output written on main.pdf (78 pages, 2339591 bytes).
+Output written on main.pdf (79 pages, 2345353 bytes).
 PDF statistics:
- 1623 PDF objects out of 1728 (max. 8388607)
- 1409 compressed objects within 15 object streams
- 358 named destinations out of 1000 (max. 500000)
- 891 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1632 PDF objects out of 1728 (max. 8388607)
+ 1416 compressed objects within 15 object streams
+ 360 named destinations out of 1000 (max. 500000)
+ 896 words of extra memory for PDF output out of 10000 (max. 10000000)
 
