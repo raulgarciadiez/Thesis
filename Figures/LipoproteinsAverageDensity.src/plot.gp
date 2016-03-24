@@ -13,7 +13,7 @@ fit g(x) 'LDL_intensity_zero_angle.dat' u 1:($2/N2)  via d,e,f
 set grid
 
 set xlabel 'Solvent Electron Density / nm$^{-3}$'
-set ylabel '$I(0)$ / a.u.'
+set ylabel '$I(0)$ / a.u.' offset 2
 
 set xrange [333:385]
 set yrange [-0.1:2.5]
