@@ -101,4 +101,5 @@
 \contentsline {section}{\numberline {6.5}Protein-coated low-density nanoparticles}{70}{section.6.5}
 \contentsline {subsection}{\numberline {6.5.1}Singe-contrast SAXS}{70}{subsection.6.5.1}
 \contentsline {subsection}{\numberline {6.5.2}Contrast variation}{70}{subsection.6.5.2}
-\contentsline {section}{\numberline {6.6}Summary}{70}{section.6.6}
+\contentsline {subsubsection}{Uncertainty analysis}{72}{section*.69}
+\contentsline {section}{\numberline {6.6}Summary}{73}{section.6.6}
