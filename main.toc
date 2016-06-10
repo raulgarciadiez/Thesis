@@ -85,19 +85,20 @@
 \contentsline {subsection}{\numberline {6.1.1}Caelyx: PEGylated liposomal doxorubicin}{54}{subsection.6.1.1}
 \contentsline {subsection}{\numberline {6.1.2}Iso-osmolar contrast agent: Iodixinol}{55}{subsection.6.1.2}
 \contentsline {subsection}{\numberline {6.1.3}Sterically Stabilized Liposomes (SSLs) of different sizes}{55}{subsection.6.1.3}
-\contentsline {subsection}{\numberline {6.1.4}Lipoproteins}{55}{subsection.6.1.4}
-\contentsline {section}{\numberline {6.2}Traceable size determination of a liposomal drug}{55}{section.6.2}
-\contentsline {subsection}{\numberline {6.2.1}Isoscattering point approach}{57}{subsection.6.2.1}
+\contentsline {subsection}{\numberline {6.1.4}Lipoproteins}{56}{subsection.6.1.4}
+\contentsline {section}{\numberline {6.2}Traceable size determination of a liposomal drug}{56}{section.6.2}
+\contentsline {subsection}{\numberline {6.2.1}Isoscattering point approach}{58}{subsection.6.2.1}
 \contentsline {subsection}{\numberline {6.2.2}Shape factor calculation}{58}{subsection.6.2.2}
-\contentsline {subsection}{\numberline {6.2.3}Average electron density}{59}{subsection.6.2.3}
+\contentsline {subsection}{\numberline {6.2.3}Average electron density}{60}{subsection.6.2.3}
 \contentsline {section}{\numberline {6.3}Osmotic effects in liposomes}{60}{section.6.3}
 \contentsline {subsection}{\numberline {6.3.1}Application to drug-stabilized liposomes}{60}{subsection.6.3.1}
-\contentsline {subsection}{\numberline {6.3.2}Size dependency of the osmotic activity}{63}{subsection.6.3.2}
-\contentsline {section}{\numberline {6.4}Application to blood plasma componenents}{63}{section.6.4}
-\contentsline {subsection}{\numberline {6.4.1}HDL}{63}{subsection.6.4.1}
-\contentsline {subsection}{\numberline {6.4.2}LDL}{64}{subsection.6.4.2}
-\contentsline {subsection}{\numberline {6.4.3}Literature comparison}{64}{subsection.6.4.3}
-\contentsline {section}{\numberline {6.5}Protein-coated low-density nanoparticles}{64}{section.6.5}
-\contentsline {subsection}{\numberline {6.5.1}Singe-contrast SAXS}{64}{subsection.6.5.1}
-\contentsline {subsection}{\numberline {6.5.2}Contrast variation}{64}{subsection.6.5.2}
-\contentsline {section}{\numberline {6.6}Summary}{66}{section.6.6}
+\contentsline {subsection}{\numberline {6.3.2}Osmotic activity in lipid vesicles}{64}{subsection.6.3.2}
+\contentsline {subsubsection}{Contrast variation}{65}{section*.61}
+\contentsline {section}{\numberline {6.4}Application to blood plasma componenents}{69}{section.6.4}
+\contentsline {subsection}{\numberline {6.4.1}HDL}{69}{subsection.6.4.1}
+\contentsline {subsection}{\numberline {6.4.2}LDL}{70}{subsection.6.4.2}
+\contentsline {subsection}{\numberline {6.4.3}Literature comparison}{70}{subsection.6.4.3}
+\contentsline {section}{\numberline {6.5}Protein-coated low-density nanoparticles}{70}{section.6.5}
+\contentsline {subsection}{\numberline {6.5.1}Singe-contrast SAXS}{70}{subsection.6.5.1}
+\contentsline {subsection}{\numberline {6.5.2}Contrast variation}{70}{subsection.6.5.2}
+\contentsline {section}{\numberline {6.6}Summary}{70}{section.6.6}

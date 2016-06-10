@@ -44,6 +44,20 @@ The PEGylated liposomal formulation of doxorubicin, Caelyx R (SP Europe, Brussel
 
 \subsection{Iso-osmolar contrast agent: Iodixinol}
 \subsection{Sterically Stabilized Liposomes (SSLs) of different sizes}
+
+The SSL samples were also made of HSPC. Their composition is:
+
+HSPC: 9.6 mg/ml
+cholesterol: 3.2 mg/ml
+DSPE-PEG2k: 3.2 mg/ml
+
+It is clear from the sizes and polydispersities obtained from the DLS measurements that the morphology of the liposomes is not easily reproducible. The tendency is that \textbf{plain liposomes show a higher polydispersity than SSLs.} It can also be said that \textbf{polydispersity increases with increasing pore size.} Nevertheless, there are some samples which clearly deviates from the tendency, like the 100 nm pore SSL. The caelyx DLS result is also plotted for comparison purposes.
+
+The deviations within the samples extruded with the same pore size (e.g. 80 nm pore) are suspicious and strongly hint that the extrusion process is very sensitive to inaccuracies. This is something that should be pointed out.
+
+It must be considered also that PEG2k has an hydrodynamic radius of around 3 nm (REF) so \textbf{the PEG size should be subtracted from the overall DLS size} measured in order to obtain the liposome size.
+
+The smallest plain liposome (pore 50 nm), shows a second population at around 1 micrometer size. Does it affect the formation of the bilayer structure?
 \subsection{Lipoproteins}
 HDL and LDL
 \begin{figure}
@@ -135,7 +149,11 @@ To conclude this section, the diameter obtained from the isoscattering position 
 		\label{fig:CaelyxIsopointComparison}
 \end{figure}
 
-\subsection{Size dependency of the osmotic activity}
+\subsection{Osmotic activity in lipid vesicles}
+The first minimum is defined by the overall size of the liposomes and we observe how it shifts to smaller $q$ as the liposome size increases. However, for high polydispersities (400 nm pore size, for example) this minimum does not show up. \textbf{In the case of the \emph{damaged} 100 nm SSL with a hydrodynamic size of 105.2 nm, the minimum is not visible either}.
+
+The plain liposomes (in reddish colors) show slightly larger polydispersities than PEGylated ones although still good enough to observe the first minimum. 
+
 
 \begin{figure}
 	\centering
@@ -144,6 +162,12 @@ To conclude this section, the diameter obtained from the isoscattering position 
 		\label{fig:SSLSingleContrast}
 \end{figure}
 
+From the single-contrast SAXS curves, if we focus in the phospholipid bilayer feature at large $q$, we can see that for unilamellar SSLs, the shape is the typical round one with \textbf{a maximum around $q=0.86$ nm-1}. \textbf{For SSLs extruded with larger pores ($\geq$ 200 nm), the shape changes to show incipient Bragg peaks}. This suggests the appearance of \textbf{MultiLamellar Vesicles (MLV)}, although not a ratio enough to shadow the scattering from UniLamellar Vesicles (ULV) \textbf{INTERESTING REFERENCE \cite{sakuragi_transformation_2011}} From visual comparison with the reference in the case of the 179 nm SSL, the double MLV correspond only to 7$\%$ of the total population. Should we try to fit a similar model to quantify the number of MLVs?
+
+\textbf{However, the bilayer feature of the plain liposomes differs completely from the SSLs.} Even for the smaller size (89 nm), the shape of the feature is much thinner. For the case of 116 and 128 nm, the bilayer feature shape looks similar though even thinnier.
+
+All SSLs show a very similar bilayer feature independent of the polydispersity (maximum at $q=0.86$ nm-1, related to a 7.3 nm distance), except the largest ones which show secondary populations of MLVs
+
 \begin{figure}
 	\centering
 		\input{Figures/SSLSingleContrastBilayer}
@@ -151,12 +175,58 @@ To conclude this section, the diameter obtained from the isoscattering position 
 		\label{fig:SSLSingleContrastBilayer}
 \end{figure}
 
+\subsubsection{Contrast variation}
+
+In this first section, we are focused on the larger sizes of SSL, which already \textbf{show a MLV population at the isosmolar state} (in buffer, black lines in the plots). These samples were measured with a maximum sucrose concentration of ca. 10$\%$ and with a extended q-range until 2.2 nm-1.
+
+The changes of the bilayer feature upon increasing the sucrose concentration are smooth and very similar in both cases. (Not abrupt as I first stated in the NSSM conference). We observe how the double peak structure at 0$\%$ concentration transforms into the 3-peak structure of the final state with ca. 10 $\%$ sucrose mass fraction.
+
+\textbf{The position of the initial peak at $q_0=0.86$ nm-1 splits into 3 peaks at $q=0.48 ,\; 0.86  ,\; 1.28$ nm-1} If we consider these peaks to be lamellar Bragg diffractions of the bilayer/multilayer, $q_1=0.48$ nm-1 would be the 1st order and $q_{2}\approx2q_0=0.86$ nm-1 and  $q_{3}\approx3q_0=1.28$ nm-1 would be the following diffraction orders. This corresponds to \textbf{an increase of the lamellar repeat distance $d$ from 7 nm to 13 nm, suggesting the appearance of multilamellar/oligolamellar structure with $N\approx2$ already with 10$\%$ sucrose.} The intensity of the peaks decrease for increasing orders of diffraction, as expected (see  \cite{fernandez_influence_2008}). This could be further evaluated by fitting a $I \propto F(q) (1+S(q))$ approach as proposed in the reference \cite{fernandez_influence_2008}
+
+By comparing the scattering of all the SSLs with a sucrose concentration of 10$\%$ (figure 12), it can be stated that \textbf{they all show the same 3-peak structure in the bilayer feature which was dicussed before.}
+
 \begin{figure}
 	\centering
 		\subfloat[Scattering curves]{\resizebox{0.44\linewidth}{!}{\input{Figures/SSLContinuousSAXS}}\label{fig:SSLContinuousSAXS}}
 		\subfloat[Isopoint intensity]{\resizebox{0.44\linewidth}{!}{\input{Figures/SSLIsopointIntensity}}\label{fig:SSLIsopointIntensity}}
 		\caption{Scattering curves of SSL (50 nm, Oct 2015) measured at different solvent osmolalities with an aqueous sucrose density gradient. The osmotic shrinkage is quantified with the intensity of the isoscattering point at different osmolalities.}
 \end{figure}
+
+\begin{figure}
+	\centering
+		\subfloat[SSL 200 nm]{\resizebox{0.44\linewidth}{!}{\input{Figures/SSLContrastCurvesBilayer200SSL}}\label{fig:SSLContrastCurvesBilayer200SSL}}
+		\subfloat[Plain 100 nm]{\resizebox{0.44\linewidth}{!}{\input{Figures/SSLContrastCurvesBilayer100Plain}}\label{fig:SSLContrastCurvesBilayer100Plain}}
+		\caption{Summary of the different osmotic pressures needed for the deformation of the liposamal structure. The radius was determined by DLS.}
+\end{figure}
+
+\begin{figure}
+	\centering
+		\input{Figures/SSLContrastVariationChiSquared400SSL}
+		\caption{Variation of the bilayer scattering feature by increasing the sucrose mass fraction. There are no sharp transitions, thus the osmotic effect is continuously modfying the liposomal structure.}
+		\label{fig:SSLContrastVariationChiSquared400SSL}
+\end{figure}
+
+The first difference was already discussed. \textbf{The bilayer feature for larger sizes is thinner.} It is also observed in both samples a Bragg peak at exactly $q_2=2q_1\approx1.8$ nm-1, whereas $q_1=0.88$ nm-1. Nevertheless, \textbf{the lamellar diffraction peaks for larger sizes are much more relevant than for smaller sizes}, suggesting a more lamellar structure (MLVs) in the last case (as could be expected)
+
+By increasing the sucrose concentration, there are no major changes in the bilayer feature. Except in the case of the smallest liposome, \textbf{the main peak shifts from 0.88 nm-1 to 0.9 nm-1, corresponding to a size decrease of around 0.2 nm}. This would correspond to a reduction of the bilayer thickness. This is not the case for the smallest plain liposome (89 nm) whose peak does not shift considerably within the noise range. However, a variation in the shape of the feature is observed, becoming thinner.
+
+\begin{itemize}
+
+\item The changes of the SSLs bilayer are smooth with increasing the sucrose concentration (NOT abrupt)
+
+\item The phospholipid bilayer of all the SSLs (independently of their size) behave similarly when a certain sucrose concentration is applied (look at 10$\%$)
+
+\item Until around 10$\%$ concentration in SSLs, the formation of a multilamellar structure is visible with a lamellar repeat distance of 13 nm (suggesting an oligolamellar structure with $N=2$). This is observed by a superimposed lamellar structure factor to the bilayer form factor
+
+\item By even higher concentrations ($\geq20\%$), the SSLs bilayer form factor starts changing (shifting to larger sizes) although the Bragg peaks are still visible. CONTRAST EFFECT
+
+%\item For plain liposomes, the main result is that for large sizes the thickness of the bilayer decreases by increasing the sucrose mass fraction.
+
+%\item The smallest plain liposome varies its bilayer upon increasing the sucrose concentration as well. Its bilayer feature becomes thinner and more similar to the larger liposomes one.
+
+\item How does sucrose influce the properties of the HSPC bilayer? \cite{kiselev_does_2003, kiselev_sucrose_2001, kiselev_sucrose_2001-1}
+
+\end{itemize}
 
 %\begin{figure}
 %	\centering
@@ -174,19 +244,7 @@ To conclude this section, the diameter obtained from the isoscattering position 
 %\end{figure}
 
 
-\begin{figure}
-	\centering
-		\subfloat[SSL 200 nm]{\resizebox{0.44\linewidth}{!}{\input{Figures/SSLContrastCurvesBilayer200SSL}}\label{fig:SSLContrastCurvesBilayer200SSL}}
-		\subfloat[Plain 100 nm]{\resizebox{0.44\linewidth}{!}{\input{Figures/SSLContrastCurvesBilayer100Plain}}\label{fig:SSLContrastCurvesBilayer100Plain}}
-		\caption{Summary of the different osmotic pressures needed for the deformation of the liposamal structure. The radius was determined by DLS.}
-\end{figure}
 
-\begin{figure}
-	\centering
-		\input{Figures/SSLContrastVariationChiSquared400SSL}
-		\caption{Variation of the bilayer scattering feature by increasing the sucrose mass fraction. There are no sharp transitions, thus the osmotic effect is continuously modfying the liposomal structure.}
-		\label{fig:SSLContrastVariationChiSquared400SSL}
-\end{figure}
 
 \section{Application to blood plasma componenents}
 \subsection{HDL}
