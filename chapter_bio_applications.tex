@@ -118,7 +118,7 @@ The osmotic behavior of liposomes depends, basically, on their size and chemical
 
 \begin{figure}
 	\centering
-		\subfloat[Osmotic effects in Caelys by using sucrose as contrast agent]{\resizebox{0.44\linewidth}{!}{\input{Figures/CaelyxSucroseContinuousSAXS}}\label{fig:CaelyxSucroseContinuousSAXS}}
+		\subfloat[Osmotic effects in Caelyx by using sucrose as contrast agent]{\resizebox{0.44\linewidth}{!}{\input{Figures/CaelyxSucroseContinuousSAXS}}\label{fig:CaelyxSucroseContinuousSAXS}}
 		\subfloat[Isoscattering point intensity at 2 different setups: Osmotic threshold at 740 mOsm kg$^{-1}$]{\resizebox{0.44\linewidth}{!}{\input{Figures/CaelyxSucroseContinuousSAXSIsopoint}}\label{fig:CaelyxSucroseContinuousSAXSIsopoint}}
 		\caption{Scattering curves of Caelyx in an aqueous sucrose density gradient calibrated to the osmolality of the suspending medium. Intensity of the first isoscattering point depending on the aqueous sucrose solution osmolality is shown with black dots.}
 \end{figure}
@@ -150,6 +150,11 @@ To conclude this section, the diameter obtained from the isoscattering position 
 \end{figure}
 
 \subsection{Osmotic activity in lipid vesicles}
+
+Liposomes, or lipid vesicles, have an increasing importance in the emerging field of nanomedicine. Their capacity to encapsulate hydrophillic compounds within the closed bilayer membrane opens exciting new possibilities in drug-delivery or as platforms for imaging agents. Typically, unilamellar liposomes present a very narrow size distribution and spherical shape, whose diameter ranges from 50 nm to some hundreds of nanometers. PEGylated liposomal formulations, also called as sterically stabilized liposomes (SSLs), have longer blood circulation times in vivo, besides the improved stability of the phospholipid bilayer due to the incorporation of PEG-lipid molecules. SSLs show higher membrane stiffness and behave according to the Laplace law: the osmotic pressure needed to deform them decreases for increasing sizes. The effects of the suspending medium osmolality on the liposomal structure have been studied by SAXS continuous contrast variation with an aqueous sucrose gradient at the four-crystal monochromator beamline of PTB at the synchrotron radiation facility BESSY II. In this work, the different response of SSLs and plain liposomes to osmotic pressure is presented and the creation of multilamellar domains in the phospholipid layer is evaluated. For instance, the osmotic pressure needed for a liposomal shrinkage is quantitatively studied by focusing on the evolution of the isoscattering point $q^{\star}$ intensity, which gives an insight into the Laplace law for small sized SSLs and the role of the PEG moieties in the membrane resilience.
+
+\subsubsection{Information from single-contrast SAXS}
+
 The first minimum is defined by the overall size of the liposomes and we observe how it shifts to smaller $q$ as the liposome size increases. However, for high polydispersities (400 nm pore size, for example) this minimum does not show up. \textbf{In the case of the \emph{damaged} 100 nm SSL with a hydrodynamic size of 105.2 nm, the minimum is not visible either}.
 
 The plain liposomes (in reddish colors) show slightly larger polydispersities than PEGylated ones although still good enough to observe the first minimum. 
@@ -177,14 +182,6 @@ All SSLs show a very similar bilayer feature independent of the polydispersity (
 
 \subsubsection{Contrast variation}
 
-In this first section, we are focused on the larger sizes of SSL, which already \textbf{show a MLV population at the isosmolar state} (in buffer, black lines in the plots). These samples were measured with a maximum sucrose concentration of ca. 10$\%$ and with a extended q-range until 2.2 nm-1.
-
-The changes of the bilayer feature upon increasing the sucrose concentration are smooth and very similar in both cases. (Not abrupt as I first stated in the NSSM conference). We observe how the double peak structure at 0$\%$ concentration transforms into the 3-peak structure of the final state with ca. 10 $\%$ sucrose mass fraction.
-
-\textbf{The position of the initial peak at $q_0=0.86$ nm-1 splits into 3 peaks at $q=0.48 ,\; 0.86  ,\; 1.28$ nm-1} If we consider these peaks to be lamellar Bragg diffractions of the bilayer/multilayer, $q_1=0.48$ nm-1 would be the 1st order and $q_{2}\approx2q_0=0.86$ nm-1 and  $q_{3}\approx3q_0=1.28$ nm-1 would be the following diffraction orders. This corresponds to \textbf{an increase of the lamellar repeat distance $d$ from 7 nm to 13 nm, suggesting the appearance of multilamellar/oligolamellar structure with $N\approx2$ already with 10$\%$ sucrose.} The intensity of the peaks decrease for increasing orders of diffraction, as expected (see  \cite{fernandez_influence_2008}). This could be further evaluated by fitting a $I \propto F(q) (1+S(q))$ approach as proposed in the reference \cite{fernandez_influence_2008}
-
-By comparing the scattering of all the SSLs with a sucrose concentration of 10$\%$ (figure 12), it can be stated that \textbf{they all show the same 3-peak structure in the bilayer feature which was dicussed before.}
-
 \begin{figure}
 	\centering
 		\subfloat[Scattering curves]{\resizebox{0.44\linewidth}{!}{\input{Figures/SSLContinuousSAXS}}\label{fig:SSLContinuousSAXS}}
@@ -205,6 +202,16 @@ By comparing the scattering of all the SSLs with a sucrose concentration of 10$\
 		\caption{Variation of the bilayer scattering feature by increasing the sucrose mass fraction. There are no sharp transitions, thus the osmotic effect is continuously modfying the liposomal structure.}
 		\label{fig:SSLContrastVariationChiSquared400SSL}
 \end{figure}
+
+In this first section, we are focused on the larger sizes of SSL, which already \textbf{show a MLV population at the isosmolar state} (in buffer, black lines in the plots). These samples were measured with a maximum sucrose concentration of ca. 10$\%$ and with a extended q-range until 2.2 nm-1.
+
+The changes of the bilayer feature upon increasing the sucrose concentration are smooth and very similar in both cases. (Not abrupt as I first stated in the NSSM conference). We observe how the double peak structure at 0$\%$ concentration transforms into the 3-peak structure of the final state with ca. 10 $\%$ sucrose mass fraction.
+
+\textbf{The position of the initial peak at $q_0=0.86$ nm-1 splits into 3 peaks at $q=0.48 ,\; 0.86  ,\; 1.28$ nm-1} If we consider these peaks to be lamellar Bragg diffractions of the bilayer/multilayer, $q_1=0.48$ nm-1 would be the 1st order and $q_{2}\approx2q_0=0.86$ nm-1 and  $q_{3}\approx3q_0=1.28$ nm-1 would be the following diffraction orders. This corresponds to \textbf{an increase of the lamellar repeat distance $d$ from 7 nm to 13 nm, suggesting the appearance of multilamellar/oligolamellar structure with $N\approx2$ already with 10$\%$ sucrose.} The intensity of the peaks decrease for increasing orders of diffraction, as expected (see  \cite{fernandez_influence_2008}). This could be further evaluated by fitting a $I \propto F(q) (1+S(q))$ approach as proposed in the reference \cite{fernandez_influence_2008}
+
+By comparing the scattering of all the SSLs with a sucrose concentration of 10$\%$ (figure 12), it can be stated that \textbf{they all show the same 3-peak structure in the bilayer feature which was dicussed before.}
+
+
 
 The first difference was already discussed. \textbf{The bilayer feature for larger sizes is thinner.} It is also observed in both samples a Bragg peak at exactly $q_2=2q_1\approx1.8$ nm-1, whereas $q_1=0.88$ nm-1. Nevertheless, \textbf{the lamellar diffraction peaks for larger sizes are much more relevant than for smaller sizes}, suggesting a more lamellar structure (MLVs) in the last case (as could be expected)
 
@@ -247,6 +254,14 @@ By increasing the sucrose concentration, there are no major changes in the bilay
 
 
 \section{Application to blood plasma componenents}
+
+The costs of health care are increasing rapidly throughout Europe due to ageing of the population. One of the instruments to reduce health care costs is early diagnosis of disease, which improves the efficacy of medical treatment. Making a medical decision requires reliable information. A major partthis information comes from the routine analysis of body fluids such as blood and urine. These fluids contain cells and biomarkers that reflect health and disease. To gain access to this information, clinicians request the collection of blood, urine and other body fluid samples, which are then analysed in hospital laboratories.
+
+
+SAXS with solvent density contrast variation is a method that can be used to reveal the inner structure of nanoparticles in solution1 . With the recently proposed density gradient technique2 , a continuous set of scattering curves at many different solvent densities can be recorded easily. For monodisperse samples with a heterogeneous structure, the outer diameter can be determined by a model-free analysis using the isoscattering point. Human lipoproteins isolated from blood, like high-density (HDL) and low-density lipoprotein (LDL), play an important role in physiological and pathological conditions. They exhibit naturally narrow size distributions and are therefore well suited for contrast variation SAXS. In this work, human lipoproteins were studied in an aqueous sucrose density gradient. The scattering curves were recorded at the four-crystal monochromator beamline of PTB at the synchrotron radiation facility BESSY II in a range of solvent electron densities between 333 nm$^{-3}$ and 384 nm$^{-3}$ . From this data, the mean size, the average electron density and the inner structure could be derived.
+
+
+
 \subsection{HDL}
 \begin{figure}
 	\centering
@@ -264,7 +279,7 @@ By increasing the sucrose concentration, there are no major changes in the bilay
 
 The isoscattering points are for LDL $q=0.43$, $R=10.45$ nm and for HDL $q=0.826$, $R=5.41$ nm. Therefore, the sizes are for LDL 21 nm and for HDL 11 nm.
 
-The LDL density is 345.5 and the HDL is 358.4 nm -3
+The LDL density is 345.5 and the HDL is 358.4 nm$^{-3}$
 
 \subsection{LDL}
 \subsection{Literature comparison}
@@ -325,7 +340,7 @@ The isoscattering point position of the Reference NP Surface after attachment of
 \end{tabular}
 \end{table}
 
-The uncertainty associated to the protein corona thicknes t = 6.6 nm is determined by uncertainty propagation in $ t = K \left( \frac{1}{q^{\star}}-\frac{1}{q_0^{\star}} \right) $, where $K$ is a factor which depends slightly on the particle poydispersity (typically $K = 4.493$), $q^{\star}$ is the position of the isoscattering point and $q_0^{\star}=0.09$ nm$^{-1}$ is the position of the isoscattering point for the Reference NP Surface experiment:
+The uncertainty associated to the protein corona thicknes $t = 6.6$ nm is determined by uncertainty propagation in $ t = K \left( \frac{1}{q^{\star}}-\frac{1}{q_0^{\star}} \right) $, where $K$ is a factor which depends slightly on the particle poydispersity (typically $K = 4.493$), $q^{\star}$ is the position of the isoscattering point and $q_0^{\star}=0.09$ nm$^{-1}$ is the position of the isoscattering point for the Reference NP Surface experiment:
 
 \begin{table}[]
 \centering

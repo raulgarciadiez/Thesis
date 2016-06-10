@@ -93,13 +93,14 @@
 \contentsline {section}{\numberline {6.3}Osmotic effects in liposomes}{60}{section.6.3}
 \contentsline {subsection}{\numberline {6.3.1}Application to drug-stabilized liposomes}{60}{subsection.6.3.1}
 \contentsline {subsection}{\numberline {6.3.2}Osmotic activity in lipid vesicles}{64}{subsection.6.3.2}
-\contentsline {subsubsection}{Contrast variation}{65}{section*.61}
+\contentsline {subsubsection}{Information from single-contrast SAXS}{65}{section*.59}
+\contentsline {subsubsection}{Contrast variation}{67}{section*.62}
 \contentsline {section}{\numberline {6.4}Application to blood plasma componenents}{69}{section.6.4}
-\contentsline {subsection}{\numberline {6.4.1}HDL}{69}{subsection.6.4.1}
-\contentsline {subsection}{\numberline {6.4.2}LDL}{70}{subsection.6.4.2}
-\contentsline {subsection}{\numberline {6.4.3}Literature comparison}{70}{subsection.6.4.3}
-\contentsline {section}{\numberline {6.5}Protein-coated low-density nanoparticles}{70}{section.6.5}
-\contentsline {subsection}{\numberline {6.5.1}Singe-contrast SAXS}{70}{subsection.6.5.1}
-\contentsline {subsection}{\numberline {6.5.2}Contrast variation}{70}{subsection.6.5.2}
-\contentsline {subsubsection}{Uncertainty analysis}{72}{section*.69}
-\contentsline {section}{\numberline {6.6}Summary}{73}{section.6.6}
+\contentsline {subsection}{\numberline {6.4.1}HDL}{71}{subsection.6.4.1}
+\contentsline {subsection}{\numberline {6.4.2}LDL}{71}{subsection.6.4.2}
+\contentsline {subsection}{\numberline {6.4.3}Literature comparison}{71}{subsection.6.4.3}
+\contentsline {section}{\numberline {6.5}Protein-coated low-density nanoparticles}{71}{section.6.5}
+\contentsline {subsection}{\numberline {6.5.1}Singe-contrast SAXS}{71}{subsection.6.5.1}
+\contentsline {subsection}{\numberline {6.5.2}Contrast variation}{71}{subsection.6.5.2}
+\contentsline {subsubsection}{Uncertainty analysis}{73}{section*.70}
+\contentsline {section}{\numberline {6.6}Summary}{75}{section.6.6}
