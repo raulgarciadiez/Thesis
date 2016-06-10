@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/TeX Live for SUSE Linux) (format=pdflatex 2015.3.4)  10 JUN 2016 08:54
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/TeX Live for SUSE Linux) (format=pdflatex 2015.3.4)  10 JUN 2016 11:03
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1207,15 +1207,30 @@ File: Figures/CaelyxIsopointComparison.pdf Graphic file (type pdf)
 Package pdftex.def Info: Figures/CaelyxIsopointComparison.pdf used on input lin
 e 109.
 (pdftex.def)             Requested size: 284.06053pt x 226.84694pt.
+) (./Figures/SSLSingleContrast.tex
+<Figures/SSLSingleContrast.pdf, id=1349, 284.06125pt x 226.8475pt>
+File: Figures/SSLSingleContrast.pdf Graphic file (type pdf)
+
+<use Figures/SSLSingleContrast.pdf>
+Package pdftex.def Info: Figures/SSLSingleContrast.pdf used on input line 121.
+(pdftex.def)             Requested size: 284.06053pt x 226.84694pt.
+) (./Figures/SSLSingleContrastBilayer.tex
+<Figures/SSLSingleContrastBilayer.pdf, id=1350, 284.06125pt x 226.8475pt>
+File: Figures/SSLSingleContrastBilayer.pdf Graphic file (type pdf)
+
+<use Figures/SSLSingleContrastBilayer.pdf>
+Package pdftex.def Info: Figures/SSLSingleContrastBilayer.pdf used on input lin
+e 105.
+(pdftex.def)             Requested size: 284.06053pt x 226.84694pt.
 ) (./Figures/SSLContinuousSAXS.tex
-<Figures/SSLContinuousSAXS.pdf, id=1349, 284.06125pt x 226.8475pt>
+<Figures/SSLContinuousSAXS.pdf, id=1351, 284.06125pt x 226.8475pt>
 File: Figures/SSLContinuousSAXS.pdf Graphic file (type pdf)
 
 <use Figures/SSLContinuousSAXS.pdf>
 Package pdftex.def Info: Figures/SSLContinuousSAXS.pdf used on input line 110.
 (pdftex.def)             Requested size: 284.06053pt x 226.84694pt.
 ) (./Figures/SSLIsopointIntensity.tex
-<Figures/SSLIsopointIntensity.pdf, id=1350, 284.06125pt x 226.8475pt>
+<Figures/SSLIsopointIntensity.pdf, id=1352, 284.06125pt x 226.8475pt>
 File: Figures/SSLIsopointIntensity.pdf Graphic file (type pdf)
 
 <use Figures/SSLIsopointIntensity.pdf>
@@ -1223,56 +1238,48 @@ Package pdftex.def Info: Figures/SSLIsopointIntensity.pdf used on input line 11
 9.
 (pdftex.def)             Requested size: 284.06053pt x 226.84694pt.
 )
-(./Figures/SSLCurveFeatureComparison.tex
-<Figures/SSLCurveFeatureComparison.pdf, id=1351, 284.06125pt x 226.8475pt>
-File: Figures/SSLCurveFeatureComparison.pdf Graphic file (type pdf)
-
-<use Figures/SSLCurveFeatureComparison.pdf>
-Package pdftex.def Info: Figures/SSLCurveFeatureComparison.pdf used on input li
-ne 105.
+(./Figures/SSLContrastCurvesBilayer200SSL.tex
+<Figures/SSLContrastCurvesBilayer200SSL.pdf, id=1353, 284.06125pt x 226.8475pt>
+File: Figures/SSLContrastCurvesBilayer200SSL.pdf Graphic file (type pdf)
+<use Figures/SSLContrastCurvesBilayer200SSL.pdf>
+Package pdftex.def Info: Figures/SSLContrastCurvesBilayer200SSL.pdf used on inp
+ut line 105.
 (pdftex.def)             Requested size: 284.06053pt x 226.84694pt.
 )
-(./Figures/SSLBilayerDeformationChi2.tex
-<Figures/SSLBilayerDeformationChi2.pdf, id=1352, 284.06125pt x 226.8475pt>
-File: Figures/SSLBilayerDeformationChi2.pdf Graphic file (type pdf)
-
-<use Figures/SSLBilayerDeformationChi2.pdf>
-Package pdftex.def Info: Figures/SSLBilayerDeformationChi2.pdf used on input li
-ne 116.
+(./Figures/SSLContrastCurvesBilayer100Plain.tex
+<Figures/SSLContrastCurvesBilayer100Plain.pdf, id=1354, 284.06125pt x 226.8475p
+t>
+File: Figures/SSLContrastCurvesBilayer100Plain.pdf Graphic file (type pdf)
+ <use Figures/SSLContrastCurvesBilayer100Plain.pdf>
+Package pdftex.def Info: Figures/SSLContrastCurvesBilayer100Plain.pdf used on i
+nput line 105.
 (pdftex.def)             Requested size: 284.06053pt x 226.84694pt.
 )
-(./Figures/SSLPoissonOsmoticShrinkage.tex
-<Figures/SSLPoissonOsmoticShrinkage.pdf, id=1353, 284.06125pt x 226.8475pt>
-File: Figures/SSLPoissonOsmoticShrinkage.pdf Graphic file (type pdf)
-
-<use Figures/SSLPoissonOsmoticShrinkage.pdf>
-Package pdftex.def Info: Figures/SSLPoissonOsmoticShrinkage.pdf used on input l
-ine 115.
+(./Figures/SSLContrastVariationChiSquared400SSL.tex
+<Figures/SSLContrastVariationChiSquared400SSL.pdf, id=1355, 284.06125pt x 226.8
+475pt>
+File: Figures/SSLContrastVariationChiSquared400SSL.pdf Graphic file (type pdf)
+ <use Figures/SSLContrastVariationChiSquared400SSL.pdf>
+Package pdftex.def Info: Figures/SSLContrastVariationChiSquared400SSL.pdf used 
+on input line 127.
 (pdftex.def)             Requested size: 284.06053pt x 226.84694pt.
-) (./Figures/SSLPoissonComplete.tex <Figures/SSLPoissonComplete.pdf, id=1354, 2
-84.06125pt x 226.8475pt>
-File: Figures/SSLPoissonComplete.pdf Graphic file (type pdf)
-
-<use Figures/SSLPoissonComplete.pdf>
-Package pdftex.def Info: Figures/SSLPoissonComplete.pdf used on input line 121.
-
-(pdftex.def)             Requested size: 284.06053pt x 226.84694pt.
-) (./Figures/HDLContinuousSAXS.tex
-<Figures/HDLContinuousSAXS.pdf, id=1355, 284.06125pt x 226.8475pt>
+)
+(./Figures/HDLContinuousSAXS.tex
+<Figures/HDLContinuousSAXS.pdf, id=1356, 284.06125pt x 226.8475pt>
 File: Figures/HDLContinuousSAXS.pdf Graphic file (type pdf)
 
 <use Figures/HDLContinuousSAXS.pdf>
 Package pdftex.def Info: Figures/HDLContinuousSAXS.pdf used on input line 104.
 (pdftex.def)             Requested size: 284.06053pt x 226.84694pt.
 ) (./Figures/LDLContinuousSAXS.tex
-<Figures/LDLContinuousSAXS.pdf, id=1356, 284.06125pt x 226.8475pt>
+<Figures/LDLContinuousSAXS.pdf, id=1357, 284.06125pt x 226.8475pt>
 File: Figures/LDLContinuousSAXS.pdf Graphic file (type pdf)
 
 <use Figures/LDLContinuousSAXS.pdf>
 Package pdftex.def Info: Figures/LDLContinuousSAXS.pdf used on input line 104.
 (pdftex.def)             Requested size: 284.06053pt x 226.84694pt.
 ) (./Figures/LipoproteinIsopointComp.tex
-<Figures/LipoproteinIsopointComp.pdf, id=1357, 284.06125pt x 226.8475pt>
+<Figures/LipoproteinIsopointComp.pdf, id=1358, 284.06125pt x 226.8475pt>
 File: Figures/LipoproteinIsopointComp.pdf Graphic file (type pdf)
 
 <use Figures/LipoproteinIsopointComp.pdf>
@@ -1281,7 +1288,7 @@ Package pdftex.def Info: Figures/LipoproteinIsopointComp.pdf used on input line
 (pdftex.def)             Requested size: 284.06053pt x 226.84694pt.
 )
 (./Figures/LipoproteinsAverageDensity.tex
-<Figures/LipoproteinsAverageDensity.pdf, id=1358, 284.06125pt x 226.8475pt>
+<Figures/LipoproteinsAverageDensity.pdf, id=1359, 284.06125pt x 226.8475pt>
 File: Figures/LipoproteinsAverageDensity.pdf Graphic file (type pdf)
 
 <use Figures/LipoproteinsAverageDensity.pdf>
@@ -1290,7 +1297,7 @@ ine 109.
 (pdftex.def)             Requested size: 284.06053pt x 226.84694pt.
 )
 (./Figures/CoatedKiskerIgGSingleContrastSAXS.tex
-<Figures/CoatedKiskerIgGSingleContrastSAXS.pdf, id=1359, 284.06125pt x 226.8475
+<Figures/CoatedKiskerIgGSingleContrastSAXS.pdf, id=1360, 284.06125pt x 226.8475
 pt>
 File: Figures/CoatedKiskerIgGSingleContrastSAXS.pdf Graphic file (type pdf)
  <use Figures/CoatedKiskerIgGSingleContrastSAXS.pdf>
@@ -1299,7 +1306,7 @@ input line 111.
 (pdftex.def)             Requested size: 284.06053pt x 226.84694pt.
 )
 (./Figures/CoatedKiskerAllSingleContrastSAXS.tex
-<Figures/CoatedKiskerAllSingleContrastSAXS.pdf, id=1360, 284.06125pt x 226.8475
+<Figures/CoatedKiskerAllSingleContrastSAXS.pdf, id=1361, 284.06125pt x 226.8475
 pt>
 File: Figures/CoatedKiskerAllSingleContrastSAXS.pdf Graphic file (type pdf)
  <use Figures/CoatedKiskerAllSingleContrastSAXS.pdf>
@@ -1307,32 +1314,32 @@ Package pdftex.def Info: Figures/CoatedKiskerAllSingleContrastSAXS.pdf used on
 input line 105.
 (pdftex.def)             Requested size: 284.06053pt x 226.84694pt.
 ) [63 <./Figures/CaelyxSucroseContinuousWAXS.pdf> <./Figures/CaelyxSucroseConti
-nuousWAXSDiffraction.pdf>] [64 <./Figures/CaelyxIsopointComparison.pdf> <./Figu
-res/SSLContinuousSAXS.pdf> <./Figures/SSLIsopointIntensity.pdf>] [65 <./Figures
-/SSLCurveFeatureComparison.pdf> <./Figures/SSLBilayerDeformationChi2.pdf> <./Fi
-gures/SSLPoissonOsmoticShrinkage.pdf> <./Figures/SSLPoissonComplete.pdf>] [66 <
-./Figures/HDLContinuousSAXS.pdf> <./Figures/LDLContinuousSAXS.pdf> <./Figures/L
-ipoproteinIsopointComp.pdf> <./Figures/LipoproteinsAverageDensity.pdf>]
-(./Figures/CoatedKiskerIsopointComp.tex
-<Figures/CoatedKiskerIsopointComp.pdf, id=1424, 284.06125pt x 226.8475pt>
+nuousWAXSDiffraction.pdf>] (./Figures/CoatedKiskerIsopointComp.tex
+<Figures/CoatedKiskerIsopointComp.pdf, id=1373, 284.06125pt x 226.8475pt>
 File: Figures/CoatedKiskerIsopointComp.pdf Graphic file (type pdf)
 
 <use Figures/CoatedKiskerIsopointComp.pdf>
 Package pdftex.def Info: Figures/CoatedKiskerIsopointComp.pdf used on input lin
 e 99.
 (pdftex.def)             Requested size: 284.06053pt x 226.84694pt.
-) [67 <./Figures/CoatedKiskerIgGSingleContrastSAXS.pdf> <./Figures/CoatedKisker
-AllSingleContrastSAXS.pdf>]) [68 <./Figures/CoatedKiskerIsopointComp.pdf>] [69]
- (./main.bbl [70
+) [64 <./Figures/CaelyxIsopointComparison.pdf>] [65 <./Figures/SSLSingleContras
+t.pdf> <./Figures/SSLSingleContrastBilayer.pdf>] [66 <./Figures/SSLContinuousSA
+XS.pdf> <./Figures/SSLIsopointIntensity.pdf>] [67 <./Figures/SSLContrastCurvesB
+ilayer200SSL.pdf> <./Figures/SSLContrastCurvesBilayer100Plain.pdf> <./Figures/S
+SLContrastVariationChiSquared400SSL.pdf>]) [68 <./Figures/HDLContinuousSAXS.pdf
+> <./Figures/LDLContinuousSAXS.pdf> <./Figures/LipoproteinIsopointComp.pdf> <./
+Figures/LipoproteinsAverageDensity.pdf>] [69 <./Figures/CoatedKiskerIgGSingleCo
+ntrastSAXS.pdf> <./Figures/CoatedKiskerAllSingleContrastSAXS.pdf> <./Figures/Co
+atedKiskerIsopointComp.pdf>]
+(./main.bbl [70
 
 
-] [71] [72] [73]
-[74] [75] [76] [77])
+] [71] [72] [73] [74] [75] [76] [77])
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 66.
  [78]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 66.
- (./main.aux (./abstract.aux)
-(./chapter_introduction.aux) (./chapter_theory_SAXS.aux)
+ (./main.aux
+(./abstract.aux) (./chapter_introduction.aux) (./chapter_theory_SAXS.aux)
 (./chapter_experimental_setup.aux) (./chapter_density_gradient_SAXS.aux)
 (./chapter_simultaneous_size_density.aux) (./chapter_bio_applications.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 66.
@@ -1349,10 +1356,10 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 66.
  ) 
 Here is how much of TeX's memory you used:
- 9226 strings out of 493315
- 147387 string characters out of 6145894
- 258834 words of memory out of 5000000
- 12034 multiletter control sequences out of 15000+600000
+ 9232 strings out of 493315
+ 147800 string characters out of 6145894
+ 261712 words of memory out of 5000000
+ 12037 multiletter control sequences out of 15000+600000
  12368 words of font info for 44 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
  44i,16n,49p,1895b,588s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1372,10 +1379,10 @@ fb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texmf
 /fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texmf/fonts/type1/public/
 amsfonts/cm/cmti10.pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmti12.
 pfb>
-Output written on main.pdf (79 pages, 2345349 bytes).
+Output written on main.pdf (79 pages, 2395808 bytes).
 PDF statistics:
- 1632 PDF objects out of 1728 (max. 8388607)
- 1416 compressed objects within 15 object streams
+ 1635 PDF objects out of 1728 (max. 8388607)
+ 1418 compressed objects within 15 object streams
  360 named destinations out of 1000 (max. 500000)
- 896 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 901 words of extra memory for PDF output out of 10000 (max. 10000000)
 
