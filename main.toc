@@ -98,12 +98,18 @@
 \contentsline {subsubsection}{Information from single-contrast SAXS}{65}{section*.61}
 \contentsline {subsubsection}{Contrast variation}{67}{section*.64}
 \contentsline {section}{\numberline {6.4}Application to blood plasma componenents}{70}{section.6.4}
-\contentsline {subsection}{\numberline {6.4.1}HDL}{72}{subsection.6.4.1}
-\contentsline {subsection}{\numberline {6.4.2}LDL}{74}{subsection.6.4.2}
-\contentsline {subsection}{\numberline {6.4.3}Literature comparison}{75}{subsection.6.4.3}
-\contentsline {section}{\numberline {6.5}Protein-coated low-density nanoparticles}{77}{section.6.5}
-\contentsline {subsection}{\numberline {6.5.1}Single-contrast SAXS}{79}{subsection.6.5.1}
-\contentsline {subsection}{\numberline {6.5.2}Contrast variation}{80}{subsection.6.5.2}
-\contentsline {subsubsection}{Uncertainty analysis}{82}{section*.74}
-\contentsline {subsubsection}{Conclusion}{83}{section*.78}
-\contentsline {section}{\numberline {6.6}Summary}{83}{section.6.6}
+\contentsline {subsubsection}{Gral intro}{70}{section*.68}
+\contentsline {subsubsection}{Lipoprotein definition}{70}{section*.69}
+\contentsline {subsubsection}{Lipopro classification}{71}{section*.70}
+\contentsline {subsubsection}{Why size is important?}{71}{section*.71}
+\contentsline {subsubsection}{Why SAXS?}{72}{section*.72}
+\contentsline {subsection}{\numberline {6.4.1}Human serum lipoproteins}{72}{subsection.6.4.1}
+\contentsline {subsubsection}{HDL}{72}{section*.73}
+\contentsline {subsubsection}{LDL}{73}{section*.77}
+\contentsline {subsection}{\numberline {6.4.2}Literature comparison}{74}{subsection.6.4.2}
+\contentsline {section}{\numberline {6.5}Protein-coated low-density nanoparticles}{76}{section.6.5}
+\contentsline {subsection}{\numberline {6.5.1}Single-contrast SAXS}{78}{subsection.6.5.1}
+\contentsline {subsection}{\numberline {6.5.2}Contrast variation}{79}{subsection.6.5.2}
+\contentsline {subsubsection}{Uncertainty analysis}{80}{section*.81}
+\contentsline {subsubsection}{Conclusion}{82}{section*.85}
+\contentsline {section}{\numberline {6.6}Summary}{82}{section.6.6}

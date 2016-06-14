@@ -1,4 +1,4 @@
-\begin{thebibliography}{102}
+\begin{thebibliography}{104}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 
 \bibitem[Arnold {\em et~al.\/}(2006)Arnold, Green, Hulvat, Stupp \&
@@ -156,6 +156,12 @@
 {\sc Doshi, N. \& {Mitragotri}, S.} 2009 Designer {Biomaterials} for
   {Nanomedicine}. {\em Adv {Funct} {Mater}\/} {\bf 19}, 3843--3854.
 
+\bibitem[Dreon {\em et~al.\/}(1994)Dreon, Fernstrom, Miller \&
+  Krauss]{dreon_low-density_1994}
+{\sc Dreon, D.~M., Fernstrom, H.~A., Miller, B. \& Krauss, R.~M.} 1994
+  Low-density lipoprotein subclass patterns and lipoprotein response to a
+  reduced-fat diet in men. {\em FASEB J\/} {\bf 8}, 121--126.
+
 \bibitem[Euliss {\em et~al.\/}(2006)Euliss, {DuPont}, {Gratton} \&
   {DeSimone}]{euliss_imparting_2006}
 {\sc Euliss, L.~E., {DuPont}, J.~A., {Gratton}, S. \& {DeSimone}, J.} 2006
@@ -239,6 +245,12 @@
 {\sc Guterres, S.~S., {Alves}, M.~P. \& {Pohlmann}, A.~R.} 2007 Polymeric
   {Nanoparticles}, {Nanospheres} and {Nanocapsules}, for {Cutaneous}
   {Applications}. {\em Drug {Target} {Insights}\/} {\bf 2}, 147--157.
+
+\bibitem[Havel {\em et~al.\/}(1955)Havel, Eder \&
+  Bragdon]{havel_distribution_1955}
+{\sc Havel, R.~J., Eder, H.~A. \& Bragdon, J.~H.} 1955 {{THE DISTRIBUTION AND
+  CHEMICAL COMPOSITION OF ULTRACENTRIFUGALLY SEPARATED LIPOPROTEINS IN HUMAN
+  SERUM}}. {\em J Clin Invest\/} {\bf 34}, 1345--1353.
 
 \bibitem[Haynes(2012)]{Haynes2012}
 {\sc Haynes, W.~M.} 2012 {\em {CRC Handbook of Chemistry and Physics}\/}, {93}
