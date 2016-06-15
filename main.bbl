@@ -1,4 +1,4 @@
-\begin{thebibliography}{104}
+\begin{thebibliography}{108}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 
 \bibitem[Arnold {\em et~al.\/}(2006)Arnold, Green, Hulvat, Stupp \&
@@ -6,6 +6,11 @@
 {\sc Arnold, M.~S., Green, A.~A., Hulvat, J.~F., Stupp, S.~I. \& Hersam, M.~C.}
   2006 {Sorting carbon nanotubes by electronic structure using density
   differentiation}. {\em {Nat. Nano.}\/} {\bf {1}}, 60--65.
+
+\bibitem[Assmann \& Brewer(1974)]{assmann_lipid-protein_1974}
+{\sc Assmann, G. \& Brewer, H.~B.} 1974 Lipid-protein interactions in high
+  density lipoproteins. {\em Proceedings of the National Academy of Sciences\/}
+  {\bf 71}, 989--993.
 
 \bibitem[Avdeev(2007{\natexlab{{\em a\/}}})]{Avdeev2007}
 {\sc Avdeev, M.~V.} 2007{\natexlab{{\em a\/}}} {Contrast variation in
@@ -38,6 +43,13 @@
 {\sc Ballauff, M., {Bolze}, J., {Dingenouts}, N., {Hickl}, P. \&
   {P}{\"o}tschke, D.} 1996 Small-angle {X}-ray scattering on latexes. {\em
   Macromol {Chem} {Phys}\/} {\bf 197}, 3043--3066.
+
+\bibitem[Baumstark {\em et~al.\/}(1990)Baumstark, Kreutz, Berg, Frey \&
+  Keul]{baumstark_structure_1990}
+{\sc Baumstark, M.~W., Kreutz, W., Berg, A., Frey, I. \& Keul, J.} 1990
+  Structure of human low-density lipoprotein subfractions determined by
+  {{X}}-ray small-angle scattering. {\em Biochimica et Biophysica Acta
+  (BBA)-Protein Structure and Molecular Enzymology\/} {\bf 1037}, 48--57.
 
 \bibitem[Beija {\em et~al.\/}(2012)Beija, {Salvayre}, {Lauth}-de {Viguerie} \&
   {Marty}]{beija_colloidal_2012}
@@ -420,6 +432,10 @@
   {{Structure}} of {{Human-Plasma Low-Density Lipoprotein B}}. {\em European
   Journal of Biochemistry\/} {\bf 82}, 73--90.
 
+\bibitem[Munro \& Cotran(1988)]{munro_pathogenesis_1988}
+{\sc Munro, J.~M. \& Cotran, R.~S.} 1988 The pathogenesis of atherosclerosis:
+  atherogenesis and inflammation. {\em Lab. Invest.\/} {\bf 58}, 249--261.
+
 \bibitem[Mykhaylyk(2012)]{mykhaylyk_structural_2012}
 {\sc Mykhaylyk, O.~O.} 2012 Structural {Characterization} of {Colloidal}
   {Core}-shell {Polymer}-based {Nanoparticles} {Using} {Small}-angle {X}-ray
@@ -500,6 +516,11 @@
   Vesicles}} by {{Addition}} of a {{Cationic Lipid}} to {{PEGylated Liposomes
   Explored}} with {{Synchrotron Small Angle X}}-ray {{Scattering}}. {\em
   Journal of Physics: Conference Series\/} {\bf 272}, 012011.
+
+\bibitem[Schnitzer \& Lichtenberg(1994)]{schnitzer_re-evaluation_1994}
+{\sc Schnitzer, E. \& Lichtenberg, D.} 1994 Re-evaluation of the structure of
+  low density lipoproteins. {\em Chemistry and Physics of Lipids\/} {\bf 70},
+  63--74.
 
 \bibitem[Silverstein {\em et~al.\/}(1989{\natexlab{{\em a\/}}})Silverstein,
   Talmon \& Narkis]{Silverstein1989}

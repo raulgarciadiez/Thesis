@@ -81,35 +81,30 @@
 \contentsline {subsection}{\numberline {5.4.2}Use for homogenous polymeric colloids}{48}{subsection.5.4.2}
 \contentsline {section}{\numberline {5.5}Summary}{50}{section.5.5}
 \contentsline {chapter}{\numberline {6}Continuous contrast variation applied to relevant bio-materials}{51}{chapter.6}
+\contentsline {subsubsection}{from lipoproteins}{53}{section*.50}
 \contentsline {section}{\numberline {6.1}Materials and methods}{53}{section.6.1}
-\contentsline {subsection}{\numberline {6.1.1}Caelyx: PEGylated liposomal doxorubicin}{54}{subsection.6.1.1}
+\contentsline {subsection}{\numberline {6.1.1}Caelyx: PEGylated liposomal doxorubicin}{55}{subsection.6.1.1}
 \contentsline {subsection}{\numberline {6.1.2}Iso-osmolar contrast agent: Iodixinol}{55}{subsection.6.1.2}
 \contentsline {subsection}{\numberline {6.1.3}Sterically Stabilized Liposomes (SSLs) of different sizes}{55}{subsection.6.1.3}
 \contentsline {subsection}{\numberline {6.1.4}Lipoproteins}{56}{subsection.6.1.4}
-\contentsline {subsubsection}{Lipoprotein, High density (HDL)}{56}{section*.52}
-\contentsline {subsubsection}{Lipoprotien, Low density (LDL)}{57}{section*.53}
+\contentsline {subsubsection}{Lipoprotein, High density (HDL)}{57}{section*.53}
+\contentsline {subsubsection}{Lipoprotien, Low density (LDL)}{57}{section*.54}
 \contentsline {section}{\numberline {6.2}Traceable size determination of a liposomal drug}{57}{section.6.2}
-\contentsline {subsection}{\numberline {6.2.1}Isoscattering point approach}{58}{subsection.6.2.1}
+\contentsline {subsection}{\numberline {6.2.1}Isoscattering point approach}{59}{subsection.6.2.1}
 \contentsline {subsection}{\numberline {6.2.2}Shape factor calculation}{59}{subsection.6.2.2}
-\contentsline {subsection}{\numberline {6.2.3}Average electron density}{60}{subsection.6.2.3}
+\contentsline {subsection}{\numberline {6.2.3}Average electron density}{61}{subsection.6.2.3}
 \contentsline {section}{\numberline {6.3}Osmotic effects in liposomes}{62}{section.6.3}
 \contentsline {subsection}{\numberline {6.3.1}Application to drug-stabilized liposomes}{62}{subsection.6.3.1}
 \contentsline {subsection}{\numberline {6.3.2}Osmotic activity in lipid vesicles}{64}{subsection.6.3.2}
-\contentsline {subsubsection}{Information from single-contrast SAXS}{65}{section*.61}
-\contentsline {subsubsection}{Contrast variation}{67}{section*.64}
+\contentsline {subsubsection}{Information from single-contrast SAXS}{66}{section*.62}
+\contentsline {subsubsection}{Contrast variation}{67}{section*.65}
 \contentsline {section}{\numberline {6.4}Application to blood plasma componenents}{70}{section.6.4}
-\contentsline {subsubsection}{Gral intro}{70}{section*.68}
-\contentsline {subsubsection}{Lipoprotein definition}{70}{section*.69}
-\contentsline {subsubsection}{Lipopro classification}{71}{section*.70}
-\contentsline {subsubsection}{Why size is important?}{71}{section*.71}
-\contentsline {subsubsection}{Why SAXS?}{72}{section*.72}
-\contentsline {subsection}{\numberline {6.4.1}Human serum lipoproteins}{72}{subsection.6.4.1}
-\contentsline {subsubsection}{HDL}{72}{section*.73}
-\contentsline {subsubsection}{LDL}{73}{section*.77}
-\contentsline {subsection}{\numberline {6.4.2}Literature comparison}{74}{subsection.6.4.2}
+\contentsline {subsubsection}{HDL}{71}{section*.69}
+\contentsline {subsubsection}{LDL}{72}{section*.73}
+\contentsline {subsection}{\numberline {6.4.1}Literature comparison}{73}{subsection.6.4.1}
 \contentsline {section}{\numberline {6.5}Protein-coated low-density nanoparticles}{76}{section.6.5}
-\contentsline {subsection}{\numberline {6.5.1}Single-contrast SAXS}{78}{subsection.6.5.1}
-\contentsline {subsection}{\numberline {6.5.2}Contrast variation}{79}{subsection.6.5.2}
-\contentsline {subsubsection}{Uncertainty analysis}{80}{section*.81}
-\contentsline {subsubsection}{Conclusion}{82}{section*.85}
-\contentsline {section}{\numberline {6.6}Summary}{82}{section.6.6}
+\contentsline {subsection}{\numberline {6.5.1}Single-contrast SAXS}{77}{subsection.6.5.1}
+\contentsline {subsection}{\numberline {6.5.2}Contrast variation}{78}{subsection.6.5.2}
+\contentsline {subsubsection}{Uncertainty analysis}{79}{section*.77}
+\contentsline {subsubsection}{Conclusion}{81}{section*.81}
+\contentsline {section}{\numberline {6.6}Summary}{81}{section.6.6}
