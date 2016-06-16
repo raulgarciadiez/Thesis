@@ -16,6 +16,10 @@ Repeated entry---line 87 of file main.bib
  :                                  ,
 I'm skipping whatever remains of this entry
 Database file #3: polymers.bib
+Repeated entry---line 27 of file polymers.bib
+ : @article{minelli_characterization_2014
+ :                                       ,
+I'm skipping whatever remains of this entry
 Database file #4: polymers_patent.bib
 Database file #5: iucr.bib
 Database file #6: bibliography_SSL.bib
@@ -32,45 +36,45 @@ while executing---line 3135 of file meinbst.bst
 `number' is a missing field, not a string, for entry dingenouts_analysis_1999
 while executing---line 3135 of file meinbst.bst
 Warning--can't use both author and editor fields in Feigin1987
-You've used 108 entries,
+You've used 114 entries,
             2851 wiz_defined-function locations,
-            1327 strings with 29499 characters,
-and the built_in function-call counts, 59739 in all, are:
-= -- 5685
-> -- 3428
+            1357 strings with 31169 characters,
+and the built_in function-call counts, 64167 in all, are:
+= -- 6061
+> -- 3800
 < -- 44
-+ -- 1331
-- -- 1202
-* -- 5842
-:= -- 10779
-add.period$ -- 219
-call.type$ -- 108
-change.case$ -- 947
-chr.to.int$ -- 109
-cite$ -- 109
-duplicate$ -- 2357
-empty$ -- 3963
-format.name$ -- 1352
-if$ -- 11552
++ -- 1472
+- -- 1337
+* -- 6320
+:= -- 11596
+add.period$ -- 231
+call.type$ -- 114
+change.case$ -- 1022
+chr.to.int$ -- 115
+cite$ -- 115
+duplicate$ -- 2489
+empty$ -- 4195
+format.name$ -- 1493
+if$ -- 12373
 int.to.chr$ -- 12
 int.to.str$ -- 1
-missing$ -- 111
-newline$ -- 328
-num.names$ -- 436
-pop$ -- 737
+missing$ -- 117
+newline$ -- 346
+num.names$ -- 460
+pop$ -- 800
 preamble$ -- 1
-purify$ -- 832
+purify$ -- 901
 quote$ -- 0
-skip$ -- 1333
+skip$ -- 1405
 stack$ -- 0
-substring$ -- 3676
-swap$ -- 565
+substring$ -- 3922
+swap$ -- 595
 text.length$ -- 3
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 960
+type$ -- 1014
 warning$ -- 1
-while$ -- 526
+while$ -- 556
 width$ -- 0
-write$ -- 1190
-(There were 5 error messages)
+write$ -- 1256
+(There were 6 error messages)

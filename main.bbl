@@ -1,4 +1,4 @@
-\begin{thebibliography}{108}
+\begin{thebibliography}{114}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 
 \bibitem[Arnold {\em et~al.\/}(2006)Arnold, Green, Hulvat, Stupp \&
@@ -118,6 +118,20 @@
   distribution together with density or molecular weight by {2D} analytical
   ultracentrifugation. {\em Nat {Commun}\/} {\bf 2}, 335.
 
+\bibitem[Casals {\em et~al.\/}(2010)Casals, Pfaller, Duschl, Oostingh \&
+  Puntes]{casals_time_2010}
+{\sc Casals, E., Pfaller, T., Duschl, A., Oostingh, G.~J. \& Puntes, V.} 2010
+  Time {{Evolution}} of the {{Nanoparticle Protein Corona}}. {\em ACS Nano\/}
+  {\bf 4}, 3623--3632.
+
+\bibitem[Cedervall {\em et~al.\/}(2007)Cedervall, Lynch, Lindman, Bergg\aa{}rd,
+  Thulin, Nilsson, Dawson \& Linse]{cedervall_understanding_2007}
+{\sc Cedervall, T., Lynch, I., Lindman, S., Bergg\aa{}rd, T., Thulin, E.,
+  Nilsson, H., Dawson, K.~A. \& Linse, S.} 2007 Understanding the
+  nanoparticle\textendash{}protein corona using methods to quantify exchange
+  rates and affinities of proteins for nanoparticles. {\em Proc Natl Acad Sci U
+  S A\/} {\bf 104}, 2050--2055.
+
 \bibitem[Colhoun {\em et~al.\/}(2002)Colhoun, Otvos, Rubens, Taskinen,
   Underwood \& Fuller]{colhoun_lipoprotein_2002}
 {\sc Colhoun, H.~M., Otvos, J.~D., Rubens, M.~B., Taskinen, M.~R., Underwood,
@@ -223,6 +237,12 @@
 {\sc German, J.~B., Smilowitz, J.~T. \& Zivkovic, A.~M.} 2006 Lipoproteins:
   {{When}} size really matters. {\em Curr Opin Colloid Interface Sci\/} {\bf
   11}, 171--183.
+
+\bibitem[Gessner {\em et~al.\/}(2003)Gessner, Lieske, Paulke \&
+  M{\"u}ller]{gessner_functional_2003}
+{\sc Gessner, A., Lieske, A., Paulke, B.-R. \& M{\"u}ller, R.~H.} 2003
+  Functional groups on polystyrene model nanoparticles: {{Influence}} on
+  protein adsorption. {\em J. Biomed. Mater. Res.\/} {\bf 65A}, 319--326.
 
 \bibitem[Giddings {\em et~al.\/}(1981)Giddings, {Karaiskakis} \&
   {Caldwell}]{giddings_density_1981}
@@ -390,6 +410,13 @@
   1952 The {Size} of {Latex} {Particles} by {X}-{Ray} {Scattering}. {\em {J}
   {Appl} {Phys}\/} {\bf 23}, 152--152.
 
+\bibitem[Lundqvist {\em et~al.\/}(2008)Lundqvist, Stigler, Elia, Lynch,
+  Cedervall \& Dawson]{lundqvist_nanoparticle_2008}
+{\sc Lundqvist, M., Stigler, J., Elia, G., Lynch, I., Cedervall, T. \& Dawson,
+  K.~A.} 2008 Nanoparticle size and surface properties determine the protein
+  corona with possible implications for biological impacts. {\em Proceedings of
+  the National Academy of Sciences\/} {\bf 105}, 14265--14270.
+
 \bibitem[Luzzati {\em et~al.\/}(1979)Luzzati, Tardieu \&
   Aggerbeck]{luzzati_structure_1979}
 {\sc Luzzati, V., Tardieu, A. \& Aggerbeck, L.~P.} 1979 Structure of serum
@@ -409,16 +436,24 @@
   sizing techniques}. {\em {Surf. Interface Anal.}\/} {\bf {46}}, 663--667.
 
 \bibitem[Minelli {\em et~al.\/}(2014{\natexlab{{\em b\/}}})Minelli,
-  {Garcia}-{Diez}, {Sikora}, {Gollwitzer}, {Krumrey} \&
-  {Shard}]{minelli_characterization_2014}
-{\sc Minelli, C., {Garcia}-{Diez}, R., {Sikora}, A.~E., {Gollwitzer}, C.,
-  {Krumrey}, M. \& {Shard}, A.~G.} 2014{\natexlab{{\em b\/}}} Characterization
-  of {IgG}-protein-coated polymeric nanoparticles using complementary particle
-  sizing techniques. {\em Surf {Interface} {Anal}\/} {\bf 46}, 663--667.
+  Garcia-Diez, Sikora, Gollwitzer, Krumrey \&
+  Shard]{minelli_characterization_2014}
+{\sc Minelli, C., Garcia-Diez, R., Sikora, A.~E., Gollwitzer, C., Krumrey, M.
+  \& Shard, A.~G.} 2014{\natexlab{{\em b\/}}} Characterization of
+  {{IgG}}-protein-coated polymeric nanoparticles using complementary particle
+  sizing techniques. {\em Surf. Interface Anal.\/} {\bf 46}, 663--667.
 
 \bibitem[Mitragotri \& {Lahann}(2009)]{mitragotri_physical_2009}
 {\sc Mitragotri, S. \& {Lahann}, J.} 2009 Physical approaches to biomaterial
   design. {\em Nat {Mater}\/} {\bf 8}, 15--23.
+
+\bibitem[Monopoli {\em et~al.\/}(2011)Monopoli, Walczyk, Campbell, Elia, Lynch,
+  {Baldelli Bombelli} \& Dawson]{monopoli_physicalchemical_2011}
+{\sc Monopoli, M.~P., Walczyk, D., Campbell, A., Elia, G., Lynch, I., {Baldelli
+  Bombelli}, F. \& Dawson, K.~A.} 2011 Physical-{{Chemical Aspects}} of
+  {{Protein Corona}}: {{Relevance}} to in {{Vitro}} and in {{Vivo Biological
+  Impacts}} of {{Nanoparticles}}. {\em J. Am. Chem. Soc.\/} {\bf 133},
+  2525--2534.
 
 \bibitem[Motzkus(1959)]{motzkus_untersuchung_1959}
 {\sc Motzkus, F.} 1959 Untersuchung kolloider {Systeme} auf
@@ -604,6 +639,15 @@
 {\sc Tardieu, A., Mateu, L., Sardet, C., Weiss, B., Luzzati, V., Aggerbeck, L.
   \& Scanu, A.~M.} 1976 Structure of human serum lipoproteins in solution. {\em
   Journal of Molecular Biology\/} {\bf 101}, 129--153.
+
+\bibitem[Tenzer {\em et~al.\/}(2013)Tenzer, Docter, Kuharev, Musyanovych, Fetz,
+  Hecht, Schlenk, Fischer, Kiouptsi, Reinhardt, Landfester, Schild, Maskos,
+  Knauer \& Stauber]{tenzer_rapid_2013}
+{\sc Tenzer, S., Docter, D., Kuharev, J., Musyanovych, A., Fetz, V., Hecht, R.,
+  Schlenk, F., Fischer, D., Kiouptsi, K., Reinhardt, C., Landfester, K.,
+  Schild, H., Maskos, M., Knauer, S.~K. \& Stauber, R.~H.} 2013 Rapid formation
+  of plasma protein corona critically affects nanoparticle pathophysiology.
+  {\em Nat Nano\/} {\bf 8}, 772--781.
 
 \bibitem[Uedaira \& Uedaira(1985)]{Uedaira1985}
 {\sc Uedaira, H. \& Uedaira, H.} 1985 {Sugar-water interaction from diffusion
