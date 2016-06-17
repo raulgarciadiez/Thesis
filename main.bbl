@@ -1,4 +1,4 @@
-\begin{thebibliography}{114}
+\begin{thebibliography}{116}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 
 \bibitem[Arnold {\em et~al.\/}(2006)Arnold, Green, Hulvat, Stupp \&
@@ -378,10 +378,18 @@
   Ollivon, M. \& Neubert, R.} 2003 Does sucrose influence the properties of
   {{DMPC}} vesicles? {\em Chemistry and Physics of Lipids\/} {\bf 123}, 31--44.
 
-\bibitem[Krumrey \& Ulm(2001)]{Krumrey2001}
-{\sc Krumrey, M. \& Ulm, G.} 2001 {High-accuracy detector calibration at the
-  PTB four-crystal monochromator beamline}. {\em {Nucl. Instrum. Meth. A}\/}
-  {\bf {467{\textendash}468}}, 1175--1178.
+\bibitem[Krumrey \& Ulm(2001{\natexlab{{\em a\/}}})]{Krumrey2001}
+{\sc Krumrey, M. \& Ulm, G.} 2001{\natexlab{{\em a\/}}} {High-accuracy detector
+  calibration at the PTB four-crystal monochromator beamline}. {\em {Nucl.
+  Instrum. Meth. A}\/} {\bf {467{\textendash}468}}, 1175--1178.
+
+\bibitem[Krumrey \& Ulm(2001{\natexlab{{\em
+  b\/}}})]{krumrey_high-accuracy_2001}
+{\sc Krumrey, M. \& Ulm, G.} 2001{\natexlab{{\em b\/}}} High-accuracy detector
+  calibration at the {{PTB}} four-crystal monochromator beamline. {\em Nuclear
+  Instruments and Methods in Physics Research Section A: Accelerators,
+  Spectrometers, Detectors and Associated Equipment\/} {\bf
+  467\textendash{}468, Part 2}, 1175--1178.
 
 \bibitem[Kusaka {\em et~al.\/}(2014)Kusaka, {Nakayama}, {Nakamura}, {Ishimiya},
   {Furusawa} \& {Ogasawara}]{kusaka_effect_2014}
@@ -683,11 +691,17 @@
 {\sc Wang, A.~Z., {Langer}, R. \& {Farokhzad}, O.~C.} 2012 Nanoparticle
   {Delivery} of {Cancer} {Drugs}. {\em Annu {Rev} {Med}\/} {\bf 63}, 185--198.
 
-\bibitem[Wernecke {\em et~al.\/}(2014)Wernecke, Gollwitzer, M\"{u}ller \&
-  Krumrey]{Wernecke2014}
-{\sc Wernecke, J., Gollwitzer, C., M\"{u}ller, P. \& Krumrey, M.} 2014
-  {Characterization of an in-vacuum PILATUS 1M detector}. {\em {J. Synchrotron
-  Radiat.}\/} {\bf {21}}, 529--536.
+\bibitem[Wernecke {\em et~al.\/}(2014{\natexlab{{\em a\/}}})Wernecke,
+  Gollwitzer, M\"{u}ller \& Krumrey]{Wernecke2014}
+{\sc Wernecke, J., Gollwitzer, C., M\"{u}ller, P. \& Krumrey, M.}
+  2014{\natexlab{{\em a\/}}} {Characterization of an in-vacuum PILATUS 1M
+  detector}. {\em {J. Synchrotron Radiat.}\/} {\bf {21}}, 529--536.
+
+\bibitem[Wernecke {\em et~al.\/}(2014{\natexlab{{\em b\/}}})Wernecke,
+  Gollwitzer, M{\"u}ller \& Krumrey]{wernecke_characterization_2014-1}
+{\sc Wernecke, J., Gollwitzer, C., M{\"u}ller, P. \& Krumrey, M.}
+  2014{\natexlab{{\em b\/}}} Characterization of an in-vacuum {{PILATUS 1M}}
+  detector. {\em Journal of Synchrotron Radiation\/} {\bf 21}, 529--536.
 
 \bibitem[Yang {\em et~al.\/}(1983)Yang, {Caldwell} \&
   {Giddings}]{yang_colloid_1983}

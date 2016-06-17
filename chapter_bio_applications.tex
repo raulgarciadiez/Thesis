@@ -378,78 +378,60 @@ The IgG shell thickness obtained for IgG-coated particles with different protein
 
 Although all techniques show an increase of the IgG shell thickness with increasing concentration of the protein, full consistency among them requires further refinements of the SAXS and DCS modelling. For instance, the SAXS evaluation has neglected the possible spatial heterogeneity and hydration of the IgG corona and the model employed for the core particle overstimates the size in almost 10 $\%$ \cite{minelli_characterization_2014, garcia-diez_nanoparticle_2015}.
 
-
 \subsection{Hard protein corona characterization with contrast variation}
-
- the increase of the solvent electron density from 334.2 nm$^{-3}$ at the top edge of the density gradient to 350.8 nm$^{-3}$ at the maximum sucrose concentration.
-
-Although the first isoscattering point is already visible as the intersection of all the scattering curves in Figure 2, a more detailed evaluation can be performed by calculating the relative standard deviation of the 20 measured curves at each q, as depicted in Figure 3. This value becomes minimal at an isoscattering point and has an associated uncertainty of 0.0019 nm$^{-1}$ due to the chosen q-bin size, the correction of the background contributions from the solvent, etc., as described in the Uncertainty Analysis section.
-
-By comparing the relative standard deviation curves of the Reference NP Surface and the IgG-coated sample, it is noticeable that the position of the minima is shifted to smaller q-values after attaching the bioprobe to the surface. This is a consequence of the increase in size due to the target attachment. The diameter increase can be quantified by using Equation 2 at the position of the isoscattering point $q=0.0795\pm0.0019$ nm$^{-1}$, which results in an increase in the diameter of (6.6 $\pm$ 1.9) nm. This result corresponds to the volume inaccessible for the solvent, which can be identified with the hard protein corona surrounding the polymeric Nps.
-
-The calculation of the outer diameter has been calculated as the addition of the shell thickness and the result obtained by fitting a core-shell model to the Reference NP Surface. The size of the core particles is then considered to be  (99.4 $\pm$ 5.6) nm [3], which results in an external diameter of (112.6 $\pm$ 6.7) nm.
 
 \begin{figure}
 	\centering
 		\input{Figures/CoatedKiskerIsopointComp}
-		\caption{Isoscattering point position before and after attaching IgG (4 mg/mL) to the surface of PS-COOH (Kisker) nanoparticles. Quantification of the isoscattering point position $q^{\star}$ by the calculation of the relative standard deviation of all the scattering curves at different solvent electron densities. A clear shift to lower q-values is observed after attaching the biotarget to the Reference NP Surface}
+		\caption{Isoscattering point position before and after attaching IgG (4 mg mL$^{-1}$) to the PS-COOH particles. A shift of the first minimum to lower $q$-values is observed after attaching the biotarget to the nanoparticle.}
 		\label{fig:CoatedKiskerIsopointComp}
 \end{figure}
 
+The possible inaccuracies arising from the previous modelling approach might be prevented by using continuous contrast variation and a model-free evaluation. For this purpose, the protein-coated particle with 4 mg mL$^{-1}$ IgG was introduced in a density gradient with sucrose as contrast agent, resulting in an increase of the solvent electron density until 350.8 nm$^{-3}$ at the maximum sucrose concentration. As \textcolor{red}{DISCUSSED BEFORE}, the isoscattering point position is quantified by calculating the relative standard deviation of the 20 measured curves at each $q$, as depicted in figure \ref{fig:CoatedKiskerIsopointComp}. This value becomes minimal at $q=0.0795\pm0.0019$ nm$^{-1}$.
+
+By comparing the relative standard deviation curves of the bare PS-COOH particle \cite{garcia-diez_nanoparticle_2015} and the IgG-coated sample (figure \ref{fig:CoatedKiskerIsopointComp}), it is noticeable that the position of the minimum is shifted to smaller $q$-values after attaching the bioprobe to the surface as a consequence of the increase in size. The diameter increase $t$ can be quantified by inserting the isoscattering positions before and after the target attachment, $q^{\star}=0.09$ nm$^{-1}$ and $q^{\star}_{IgG}=0.0795$ nm$^{-1}$ respectively, in the equation already discussed in section  \textcolor{red}{EQUATION OF ISOSCATTERING POINT, TANQR=QR}:
+
+
+\begin{equation}
+t = R_{IgG} - R = \frac{K_1}{q^{\star}_{IgG}}-\frac{K_1}{q^{\star}} ,
+\label{eq:IsopointRadiusDifference}
+\end{equation}
+
+where $K_1$ is a factor which depends slightly on the particle poydispersity and sphericity (typically $K_1 = 4.493$), $t$ is the IgG-shell thickness and $R$ and $R_{IgG}$ are the particle radii before and after IgG incubation. This results in a shell thickness of (6.6 $\pm$ 1.7) nm. 
+
+It is important to highlight that this result corresponds to the volume inaccessible for the solvent (section \textcolor{red}{theory contrast variation}) and, thus, it can be identified with the hard protein corona surrounding the polymeric nanoparticle. This assumption agrees with the larger values found with other methods in table \ref{tab:CoatedKiskerSingleContrast}, which probe the permeable part of the IgG shell as well. The hard corona has a thickness of (6.6 $\pm$ 1.7) nm, around 2 nm thinner than the complete protein layer.
+
 \subsubsection{Uncertainty analysis}
-
-The isoscattering point position of the Reference NP Surface after attachment of a target is  $q=0.0795$ nm$^{-1}$. The determination of the uncertainty of the $q^{\star}$ position is given by:
-
-\begin{table}[]
-\centering
-\caption{Uncertainty of the $q^{\star}$ position.}
-\label{tab:uncertainty}
-\begin{tabular}{|l|c|c|c|c|}
-\hline
-\multicolumn{1}{|c|}{\textbf{Input quantity}} & \textbf{Distribution} & \textbf{Input uncertainty} & \textbf{Relative uncertainty} & \multicolumn{1}{l|}{\textbf{Uncertainty contribution / nm$^{-1}$}} \\ \hline
-\textbf{Photon Energy $E$}                      & normal                & 0.8 eV                     & 10$^{-4}$                          & 0.000008                                                      \\ \hline
-\textbf{Sample-detector distance $L$}           & normal                & 5 mm                       & 10$^{-3}$                          & 0.00008                                                       \\ \hline
-\textbf{Pixel size $d$}                         & normal                & 0.2 $\mu$m                     & 10$^{-3}$                          & 0.00008                                                       \\ \hline
-\textbf{Center determination}                 & normal                & n.a.                       & n.a.                          & 0.0008                                                        \\ \hline
-\textbf{$q$-bin size}                           & normal                & 0.00015 nm$^{-1}$              & $2\cdot 10^{-2}$                        & 0.0015                                                        \\ \hline
-\textbf{Solvent background}                   & normal                & n.a.                       & n.a.                          & 0.0009                                                        \\ \hline
-\multicolumn{4}{|l|}{\textit{\begin{tabular}[c]{@{}l@{}}Combined standard\\ uncertainty\end{tabular}}}                             & 0.0019                                                        \\ \hline
-\end{tabular}
-\end{table}
-
-The uncertainty associated to the protein corona thicknes $t = 6.6$ nm is determined by uncertainty propagation in $ t = K \left( \frac{1}{q^{\star}}-\frac{1}{q_0^{\star}} \right) $, where $K$ is a factor which depends slightly on the particle poydispersity (typically $K = 4.493$), $q^{\star}$ is the position of the isoscattering point and $q_0^{\star}=0.09$ nm$^{-1}$ is the position of the isoscattering point for the Reference NP Surface experiment:
+The associated uncertainty to the isoscattering point position $q^{\star}$ of 0.0019 nm$^{-1}$ depends on the chosen $q$-bin size, the correction of the background contributions from the solvent \cite{garcia-diez_nanoparticle_2015}, the energy resolution of the photon beam \cite{krumrey_high-accuracy_2001}, the accuracy of the distance between the irradiated sample and the scattering detector, the detector pixel size \cite{wernecke_characterization_2014-1} or the determination of the scattering center. Each contribution to the uncertainty budget has been detailled in table \ref{tab:IsopointUncertainty}, where the contribution of the selected $q$-bin size is the largest. The uncertainties given are standard uncertainties ($k = 1$)
 
 \begin{table}[]
 \centering
-\caption{Uncertainty of the protein shell thickness determination}
-\label{my-label}
-\begin{tabular}{|l|c|c|c|c|}
+\caption{Uncertainty contributions associated to the isoscattering point $q^{\star}$ position, where $u_I$ and $u_r$ correspond to the input uncertainty and relative uncertainty respectively.}
+\label{tab:IsopointUncertainty}
+\begin{tabular}{|l|c|c|c|}
 \hline
-\multicolumn{1}{|c|}{\textbf{Input quantity}} & \textbf{Distribution} & \textbf{Input uncertainty} & \textbf{Relative uncertainty} & \multicolumn{1}{l|}{\textbf{Uncertainty contribution}} \\ \hline
-\textbf{Polydispersity shift}                 & normal                & 10 $\%$                 & 10$^{-1}$                          & n.a.                                                   \\ \hline
-\textbf{$q^{\star}$ position}                       & normal                & 0.0019 nm$^{-1}$                & $2 \cdot 10^{-2}$                        & n.a.                                                   \\ \hline
-\multicolumn{4}{|l|}{\textit{\begin{tabular}[c]{@{}l@{}}Combined standard\\ uncertainty\end{tabular}}}                             & 1.9 nm                                                 \\ \hline
+\multicolumn{1}{|c|}{\textbf{Input quantity}} & \textbf{$u_I$} & \textbf{$u_r$} & \multicolumn{1}{l|}{\textbf{Contribution}} \\ \hline
+Photon Energy                   & 0.8 eV                     & 10$^{-4}$                          & 0.000008 nm$^{-1}$                                                      \\ \hline
+Sample-detector distance           & 5 mm                       & 10$^{-3}$                          & 0.00008 nm$^{-1}$                                                       \\ \hline
+Pixel size                      & 0.2 $\mu$m                     & 10$^{-3}$                          & 0.00008 nm$^{-1}$                                                       \\ \hline
+Center determination               & n.a.                       & n.a.                          & 0.0008 nm$^{-1}$                                                        \\ \hline
+$q$-bin size                      & 0.00015 nm$^{-1}$              & $2\cdot 10^{-2}$                        & 0.0015 nm$^{-1}$                                                        \\ \hline
+Solvent background              & n.a.                       & n.a.                          & 0.0009 nm$^{-1}$                                                        \\ \hline
+\multicolumn{3}{|l|}{\textbf{\begin{tabular}[c]{@{}l@{}}Combined standard uncertainty\end{tabular}}}                             & \textbf{0.0019 nm$^{-1}$}                                                        \\ \hline
 \end{tabular}
 \end{table}
 
-The associated uncertainty of the thickness of the protein layer produces a limit of detection of 1.9 nm according to this uncertainty budget.
+The uncertainty associated to the thickness of the protein layer $t$ produces a limit of detection of 1.7 nm, which arises from the previously discussed $q^{\star}$ uncertainty and an uncertainty of 10 $\%$ associated with the particle polydispersity and reflected in $K_1$. From the expression \ref{eq:IsopointRadiusDifference}, the thicknes uncertainty $\delta t$ can be derived:
 
-The diameter of the particle in following the attachment of the target of 112.6 nm has an associated uncertainty which is derived as follows:
+\begin{equation}
+\delta t^2 = \left( t \frac{\delta K_1}{K_1} \right)^2 + \left( \frac{K_1}{\left(q^{\star}_{IgG}\right)^2} \delta q^{\star}_{IgG} \right)^2 + \left( \frac{K_1}{\left(q^{\star}\right)^2} \delta q^{\star}\right)^2
+\label{eq:IsopointRadiusDifference}
+\end{equation}
 
-\begin{table}[]
-\centering
-\caption{Uncertainty associated to the external size of the coated particle}
-\label{my-label}
-\begin{tabular}{|l|c|c|c|c|}
-\hline
-\multicolumn{1}{|c|}{\textbf{Input quantity}} & \textbf{Distribution} & \textbf{Input uncertainty} & \textbf{Relative uncertainty} & \multicolumn{1}{l|}{\textbf{Uncertainty contribution}} \\ \hline
-\textbf{Core NP size}                         & normal                & 5.6 nm                     & $6 \cdot10^{-2}$                        & 5.6 nm                                                 \\ \hline
-\textbf{Thickness}                            & normal                & 1.9 nm                     & $3\cdot 10^{-1}$                        & 3.8 nm                                                 \\ \hline
-\multicolumn{4}{|l|}{\textit{\begin{tabular}[c]{@{}l@{}}Combined standard\\ uncertainty\end{tabular}}}                             & 6.7 nm                                                 \\ \hline
-\end{tabular}
-\end{table}
+where $\delta q^{\star}_{IgG}=\delta q^{\star}=0.0019$ nm$^{-1}$.
 
-The uncertainties given are standard uncertainties ($k = 1$)
+
+
 
 \subsubsection{Conclusion}
 

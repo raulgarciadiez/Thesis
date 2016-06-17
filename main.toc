@@ -103,5 +103,5 @@
 \contentsline {section}{\numberline {6.5}Protein-coated low-density nanoparticles}{74}{section.6.5}
 \contentsline {subsection}{\numberline {6.5.1}Hard protein corona characterization with contrast variation}{76}{subsection.6.5.1}
 \contentsline {subsubsection}{Uncertainty analysis}{78}{section*.75}
-\contentsline {subsubsection}{Conclusion}{79}{section*.79}
+\contentsline {subsubsection}{Conclusion}{79}{section*.77}
 \contentsline {section}{\numberline {6.6}Summary}{79}{section.6.6}

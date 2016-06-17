@@ -31,6 +31,10 @@ Repeated entry---line 2 of file bibliography_SSL.bib
  : @article{garcia-diez_nanoparticle_2015
  :                                       ,
 I'm skipping whatever remains of this entry
+Repeated entry---line 14 of file bibliography_SSL.bib
+ : @article{krumrey_high-accuracy_2001
+ :                                    ,
+I'm skipping whatever remains of this entry
 Repeated entry---line 123 of file bibliography_SSL.bib
  : @article{kiselev_sucrose_2001
  :                              ,
@@ -40,45 +44,45 @@ while executing---line 3135 of file meinbst.bst
 `number' is a missing field, not a string, for entry dingenouts_analysis_1999
 while executing---line 3135 of file meinbst.bst
 Warning--can't use both author and editor fields in Feigin1987
-You've used 114 entries,
+You've used 116 entries,
             2851 wiz_defined-function locations,
-            1358 strings with 31193 characters,
-and the built_in function-call counts, 64167 in all, are:
-= -- 6061
-> -- 3800
-< -- 44
-+ -- 1472
-- -- 1337
-* -- 6320
-:= -- 11596
-add.period$ -- 231
-call.type$ -- 114
-change.case$ -- 1022
+            1368 strings with 31736 characters,
+and the built_in function-call counts, 65250 in all, are:
+= -- 6168
+> -- 3852
+< -- 45
++ -- 1494
+- -- 1355
+* -- 6437
+:= -- 11786
+add.period$ -- 235
+call.type$ -- 116
+change.case$ -- 1038
 chr.to.int$ -- 115
-cite$ -- 115
-duplicate$ -- 2489
-empty$ -- 4195
-format.name$ -- 1493
-if$ -- 12373
-int.to.chr$ -- 12
+cite$ -- 117
+duplicate$ -- 2532
+empty$ -- 4270
+format.name$ -- 1515
+if$ -- 12582
+int.to.chr$ -- 14
 int.to.str$ -- 1
-missing$ -- 117
-newline$ -- 346
-num.names$ -- 460
-pop$ -- 800
+missing$ -- 119
+newline$ -- 352
+num.names$ -- 468
+pop$ -- 808
 preamble$ -- 1
-purify$ -- 901
+purify$ -- 915
 quote$ -- 0
-skip$ -- 1405
+skip$ -- 1423
 stack$ -- 0
-substring$ -- 3922
-swap$ -- 595
+substring$ -- 4000
+swap$ -- 612
 text.length$ -- 3
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 1014
+type$ -- 1032
 warning$ -- 1
-while$ -- 556
+while$ -- 566
 width$ -- 0
-write$ -- 1256
-(There were 7 error messages)
+write$ -- 1278
+(There were 8 error messages)
