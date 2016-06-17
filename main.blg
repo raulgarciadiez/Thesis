@@ -20,6 +20,10 @@ Repeated entry---line 27 of file polymers.bib
  : @article{minelli_characterization_2014
  :                                       ,
 I'm skipping whatever remains of this entry
+Repeated entry---line 505 of file polymers.bib
+ : @article{garcia-diez_nanoparticle_2015
+ :                                       ,
+I'm skipping whatever remains of this entry
 Database file #4: polymers_patent.bib
 Database file #5: iucr.bib
 Database file #6: bibliography_SSL.bib
@@ -38,7 +42,7 @@ while executing---line 3135 of file meinbst.bst
 Warning--can't use both author and editor fields in Feigin1987
 You've used 114 entries,
             2851 wiz_defined-function locations,
-            1357 strings with 31169 characters,
+            1358 strings with 31193 characters,
 and the built_in function-call counts, 64167 in all, are:
 = -- 6061
 > -- 3800
@@ -77,4 +81,4 @@ warning$ -- 1
 while$ -- 556
 width$ -- 0
 write$ -- 1256
-(There were 6 error messages)
+(There were 7 error messages)
