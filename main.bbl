@@ -1,4 +1,4 @@
-\begin{thebibliography}{129}
+\begin{thebibliography}{130}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 
 \bibitem[Arnold {\em et~al.\/}(2006)Arnold, Green, Hulvat, Stupp \&
@@ -728,6 +728,12 @@
 {\sc Varga, Z., Wacha, A. \& B{\'o}ta, A.} 2014 Osmotic shrinkage of sterically
   stabilized liposomes as revealed by time-resolved small-angle {{X}}-ray
   scattering. {\em Journal of Applied Crystallography\/} {\bf 47}, 35--40.
+
+\bibitem[Varga {\em et~al.\/}(2012)Varga, Wacha, Vainio, Gummel \&
+  B{\'o}ta]{varga_characterization_2012}
+{\sc Varga, Z., Wacha, A., Vainio, U., Gummel, J. \& B{\'o}ta, A.} 2012
+  Characterization of the {{PEG}} layer of sterically stabilized liposomes: a
+  {{SAXS}} study. {\em Chemistry and Physics of Lipids\/} {\bf 165}, 387--392.
 
 \bibitem[Vauthier {\em et~al.\/}(1999)Vauthier, Schmidt \&
   Couvreur]{Vauthier1999}
