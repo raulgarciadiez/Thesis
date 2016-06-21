@@ -20,69 +20,60 @@ Repeated entry---line 27 of file polymers.bib
  : @article{minelli_characterization_2014
  :                                       ,
 I'm skipping whatever remains of this entry
+Repeated entry---line 66 of file polymers.bib
+ : @article{kiselev_sucrose_2001
+ :                              ,
+I'm skipping whatever remains of this entry
 Repeated entry---line 505 of file polymers.bib
  : @article{garcia-diez_nanoparticle_2015
  :                                       ,
 I'm skipping whatever remains of this entry
 Database file #4: polymers_patent.bib
 Database file #5: iucr.bib
-Database file #6: bibliography_SSL.bib
-Repeated entry---line 2 of file bibliography_SSL.bib
- : @article{garcia-diez_nanoparticle_2015
- :                                       ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 14 of file bibliography_SSL.bib
- : @article{krumrey_high-accuracy_2001
- :                                    ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 123 of file bibliography_SSL.bib
- : @article{kiselev_sucrose_2001
- :                              ,
-I'm skipping whatever remains of this entry
 `number' is a missing field, not a string, for entry Dingenouts1999
 while executing---line 3135 of file meinbst.bst
 `number' is a missing field, not a string, for entry dingenouts_analysis_1999
 while executing---line 3135 of file meinbst.bst
 Warning--can't use both author and editor fields in Feigin1987
-You've used 116 entries,
+You've used 129 entries,
             2851 wiz_defined-function locations,
-            1368 strings with 31736 characters,
-and the built_in function-call counts, 65250 in all, are:
-= -- 6168
-> -- 3852
-< -- 45
-+ -- 1494
-- -- 1355
-* -- 6437
-:= -- 11786
-add.period$ -- 235
-call.type$ -- 116
-change.case$ -- 1038
-chr.to.int$ -- 115
-cite$ -- 117
-duplicate$ -- 2532
-empty$ -- 4270
-format.name$ -- 1515
-if$ -- 12582
+            1436 strings with 34747 characters,
+and the built_in function-call counts, 72427 in all, are:
+= -- 6862
+> -- 4254
+< -- 49
++ -- 1650
+- -- 1496
+* -- 7135
+:= -- 13081
+add.period$ -- 261
+call.type$ -- 129
+change.case$ -- 1150
+chr.to.int$ -- 128
+cite$ -- 130
+duplicate$ -- 2814
+empty$ -- 4748
+format.name$ -- 1675
+if$ -- 13967
 int.to.chr$ -- 14
 int.to.str$ -- 1
-missing$ -- 119
-newline$ -- 352
-num.names$ -- 468
-pop$ -- 808
+missing$ -- 132
+newline$ -- 391
+num.names$ -- 520
+pop$ -- 894
 preamble$ -- 1
-purify$ -- 915
+purify$ -- 1014
 quote$ -- 0
-skip$ -- 1423
+skip$ -- 1580
 stack$ -- 0
-substring$ -- 4000
-swap$ -- 612
+substring$ -- 4473
+swap$ -- 673
 text.length$ -- 3
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 1032
+type$ -- 1149
 warning$ -- 1
-while$ -- 566
+while$ -- 631
 width$ -- 0
-write$ -- 1278
-(There were 8 error messages)
+write$ -- 1421
+(There were 6 error messages)

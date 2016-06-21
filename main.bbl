@@ -1,4 +1,4 @@
-\begin{thebibliography}{116}
+\begin{thebibliography}{129}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 
 \bibitem[Arnold {\em et~al.\/}(2006)Arnold, Green, Hulvat, Stupp \&
@@ -43,6 +43,10 @@
 {\sc Ballauff, M., {Bolze}, J., {Dingenouts}, N., {Hickl}, P. \&
   {P}{\"o}tschke, D.} 1996 Small-angle {X}-ray scattering on latexes. {\em
   Macromol {Chem} {Phys}\/} {\bf 197}, 3043--3066.
+
+\bibitem[Barenholz(2001)]{barenholz_liposome_2001}
+{\sc Barenholz, Y.} 2001 Liposome application: problems and prospects. {\em
+  Current Opinion in Colloid \& Interface Science\/} {\bf 6}, 66--77.
 
 \bibitem[Baumstark {\em et~al.\/}(1990)Baumstark, Kreutz, Berg, Frey \&
   Keul]{baumstark_structure_1990}
@@ -144,6 +148,14 @@
   specific gravity of fish eggs, with particular reference to eggs of the
   mackerel Scomber scombrus}. {\em {Mar. Biol.}\/} {\bf {63}}, 101--106.
 
+\bibitem[Dem{\'e} {\em et~al.\/}(2002)Dem{\'e}, Dubois, Gulik-Krzywicki \&
+  Zemb]{deme_giant_2002}
+{\sc Dem{\'e}, B., Dubois, M., Gulik-Krzywicki, T. \& Zemb, T.} 2002 Giant
+  {{Collective Fluctuations}} of {{Charged Membranes}} at the
+  {{Lamellar}}-to-{{Vesicle Unbinding Transition}}. 1. {{Characterization}} of
+  a {{New Lipid Morphology}} by {{SANS}}, {{SAXS}}, and {{Electron
+  Microscopy}}. {\em Langmuir\/} {\bf 18}, 997--1004.
+
 \bibitem[Dingenouts {\em et~al.\/}(1999{\natexlab{{\em a\/}}})Dingenouts,
   Bolze, P\"{o}tschke \& Ballauff]{Dingenouts1999}
 {\sc Dingenouts, N., Bolze, J., P\"{o}tschke, D. \& Ballauff, M.}
@@ -219,6 +231,11 @@
   particle size analysis of particles of lower density than their suspension
   medium. US Patent 5786898 A.
 
+\bibitem[Gabizon \& Martin(1997)]{gabizon_polyethylene_1997}
+{\sc Gabizon, A. \& Martin, F.} 1997 Polyethylene glycol-coated (pegylated)
+  liposomal doxorubicin. {{Rationale}} for use in solid tumours. {\em Drugs\/}
+  {\bf 54 Suppl 4}, 15--21.
+
 \bibitem[Garcia-Diez {\em et~al.\/}(2015)Garcia-Diez, Gollwitzer \&
   Krumrey]{garcia-diez_nanoparticle_2015}
 {\sc Garcia-Diez, R., Gollwitzer, C. \& Krumrey, M.} 2015 Nanoparticle
@@ -277,6 +294,10 @@
 {\sc Guterres, S.~S., {Alves}, M.~P. \& {Pohlmann}, A.~R.} 2007 Polymeric
   {Nanoparticles}, {Nanospheres} and {Nanocapsules}, for {Cutaneous}
   {Applications}. {\em Drug {Target} {Insights}\/} {\bf 2}, 147--157.
+
+\bibitem[Harris \& Chess(2003)]{harris_effect_2003}
+{\sc Harris, J.~M. \& Chess, R.~B.} 2003 Effect of pegylation on
+  pharmaceuticals. {\em Nature Reviews Drug Discovery\/} {\bf 2}, 214--221.
 
 \bibitem[Havel {\em et~al.\/}(1955)Havel, Eder \&
   Bragdon]{havel_distribution_1955}
@@ -350,6 +371,13 @@
   studies of some nonionic detergent micelles. {\em {J} {Colloid} {Interf}
   {Sci}\/} {\bf 96}, 437--453.
 
+\bibitem[Kenworthy {\em et~al.\/}(1995)Kenworthy, Hristova, Needham \&
+  McIntosh]{kenworthy_range_1995}
+{\sc Kenworthy, A.~K., Hristova, K., Needham, D. \& McIntosh, T.~J.} 1995 Range
+  and magnitude of the steric pressure between bilayers containing
+  phospholipids with covalently attached poly(ethylene glycol). {\em Biophys
+  J\/} {\bf 68}, 1921--1936.
+
 \bibitem[Kiselev {\em et~al.\/}(2001{\natexlab{{\em a\/}}})Kiselev, Lesieur,
   Kisselev, Lombardo, Killany \& Lesieur]{kiselev_sucrose_2001-1}
 {\sc Kiselev, M.~A., Lesieur, P., Kisselev, A.~M., Lombardo, D., Killany, M. \&
@@ -364,13 +392,13 @@
   application to the study of model biological membranes}. {\em {Nucl. Instrum.
   Meth. A}\/} {\bf {470}}, 409--416.
 
-\bibitem[Kiselev {\em et~al.\/}(2001{\natexlab{{\em c\/}}})Kiselev, {Lesieur},
-  {Kisselev}, {Lombardo}, {Killany}, {Lesieur} \&
-  {Ollivon}]{kiselev_sucrose_2001}
-{\sc Kiselev, M.~A., {Lesieur}, P., {Kisselev}, A.~M., {Lombardo}, D.,
-  {Killany}, M., {Lesieur}, S. \& {Ollivon}, M.} 2001{\natexlab{{\em c\/}}} {A}
-  sucrose solutions application to the study of model biological membranes.
-  {\em Nucl. {Instrum}. {Meth}. {A}\/} {\bf 470}, 409--416.
+\bibitem[Kiselev {\em et~al.\/}(2001{\natexlab{{\em c\/}}})Kiselev, Lesieur,
+  Kisselev, Lombardo, Killany, Lesieur \& Ollivon]{kiselev_sucrose_2001}
+{\sc Kiselev, M.~A., Lesieur, P., Kisselev, A.~M., Lombardo, D., Killany, M.,
+  Lesieur, S. \& Ollivon, M.} 2001{\natexlab{{\em c\/}}} A sucrose solutions
+  application to the study of model biological membranes. {\em Nuclear
+  Instruments and Methods in Physics Research Section A: Accelerators,
+  Spectrometers, Detectors and Associated Equipment\/} {\bf 470}, 409--416.
 
 \bibitem[Kiselev {\em et~al.\/}(2003)Kiselev, Wartewig, Janich, Lesieur,
   Kiselev, Ollivon \& Neubert]{kiselev_does_2003}
@@ -404,6 +432,12 @@
   human serum low density lipoproteins. {\em Hoppe-Seyler's Z. Physiol.
   Chem.\/} {\bf 358}, 771--778.
 
+\bibitem[Lee \& Pastor(2011)]{lee_coarse-grained_2011}
+{\sc Lee, H. \& Pastor, R.~W.} 2011 Coarse-{{Grained Model}} for {{PEGylated
+  Lipids}}: {{Effect}} of {{PEGylation}} on the {{Size}} and {{Shape}} of
+  {{Self-Assembled Structures}}. {\em J. Phys. Chem. B\/} {\bf 115},
+  7830--7837.
+
 \bibitem[Lefebvre {\em et~al.\/}(2000)Lefebvre, {Keeler}, {Sobie} \&
   {White}]{lefebvre_propagation_2000}
 {\sc Lefebvre, M., {Keeler}, R.~K., {Sobie}, R. \& {White}, J.} 2000
@@ -417,6 +451,12 @@
 {\sc Leonard~{Jr}, B.~R., {Anderegg}, J.~W., {Kaesberg}, P. \& {Beeman}, W.~W.}
   1952 The {Size} of {Latex} {Particles} by {X}-{Ray} {Scattering}. {\em {J}
   {Appl} {Phys}\/} {\bf 23}, 152--152.
+
+\bibitem[Liang {\em et~al.\/}(2005)Liang, Mao \& Ng]{liang_effect_2005}
+{\sc Liang, X., Mao, G. \& Ng, K. Y.~S.} 2005 Effect of chain lengths of
+  {{PEO\textendash{}PPO\textendash{}PEO}} on small unilamellar liposome
+  morphology and stability: an {{AFM}} investigation. {\em Journal of Colloid
+  and Interface Science\/} {\bf 285}, 360--372.
 
 \bibitem[Lundqvist {\em et~al.\/}(2008)Lundqvist, Stigler, Elia, Lynch,
   Cedervall \& Dawson]{lundqvist_nanoparticle_2008}
@@ -589,6 +629,20 @@
   2001 {Biodegradable polymeric nanoparticles as drug delivery devices}. {\em
   {J. Control. Release}\/} {\bf {70}}, 1--20.
 
+\bibitem[Sou {\em et~al.\/}(2000)Sou, Endo, Takeoka \&
+  Tsuchida]{sou_polyethylene_2000}
+{\sc Sou, K., Endo, T., Takeoka, S. \& Tsuchida, E.} 2000 Poly(ethylene
+  glycol)-{{Modification}} of the {{Phospholipid Vesicles}} by {{Using}} the
+  {{Spontaneous Incorporation}} of {{Poly}}(ethylene glycol)-{{Lipid}} into the
+  {{Vesicles}}. {\em Bioconjugate Chem.\/} {\bf 11}, 372--379.
+
+\bibitem[Spyratou {\em et~al.\/}(2009)Spyratou, Mourelatou, Makropoulou \&
+  Demetzos]{spyratou_atomic_2009}
+{\sc Spyratou, E., Mourelatou, E.~A., Makropoulou, M. \& Demetzos, C.} 2009
+  Atomic force microscopy: a tool to study the structure, dynamics and
+  stability of liposomal drug delivery systems. {\em Expert Opinion on Drug
+  Delivery\/} {\bf 6}, 305--317.
+
 \bibitem[Stuhrmann(2007)]{Stuhrmann2007}
 {\sc Stuhrmann, H.~B.} 2007 {Contrast variation in X-ray and neutron
   scattering}. {\em {J. Appl. Cryst.}\/} {\bf {40}}, s23--s27.
@@ -657,9 +711,23 @@
   of plasma protein corona critically affects nanoparticle pathophysiology.
   {\em Nat Nano\/} {\bf 8}, 772--781.
 
+\bibitem[Terreno {\em et~al.\/}(2009)Terreno, Delli\hspace{0.25em}Castelli,
+  Violante, Sanders, Sommerdijk \& Aime]{terreno_osmotically_2009}
+{\sc Terreno, E., Delli\hspace{0.25em}Castelli, D., Violante, E., Sanders,
+  H.~M., Sommerdijk, N.~A. \& Aime, S.} 2009 Osmotically {{Shrunken LIPOCEST
+  Agents}}: {{An Innovative Class}} of {{Magnetic Resonance Imaging Contrast
+  Media Based}} on {{Chemical Exchange Saturation Transfer}}. {\em Chem. Eur.
+  J.\/} {\bf 15}, 1440--1448.
+
 \bibitem[Uedaira \& Uedaira(1985)]{Uedaira1985}
 {\sc Uedaira, H. \& Uedaira, H.} 1985 {Sugar-water interaction from diffusion
   measurements}. {\em {J. Solution. Chem.}\/} {\bf {14}}, 27--34.
+
+\bibitem[Varga {\em et~al.\/}(2014)Varga, Wacha \&
+  B{\'o}ta]{varga_osmotic_2014}
+{\sc Varga, Z., Wacha, A. \& B{\'o}ta, A.} 2014 Osmotic shrinkage of sterically
+  stabilized liposomes as revealed by time-resolved small-angle {{X}}-ray
+  scattering. {\em Journal of Applied Crystallography\/} {\bf 47}, 35--40.
 
 \bibitem[Vauthier {\em et~al.\/}(1999)Vauthier, Schmidt \&
   Couvreur]{Vauthier1999}
@@ -702,6 +770,20 @@
 {\sc Wernecke, J., Gollwitzer, C., M{\"u}ller, P. \& Krumrey, M.}
   2014{\natexlab{{\em b\/}}} Characterization of an in-vacuum {{PILATUS 1M}}
   detector. {\em Journal of Synchrotron Radiation\/} {\bf 21}, 529--536.
+
+\bibitem[Wolfram {\em et~al.\/}(2014)Wolfram, Suri, Yang, Shen, Celia, Fresta,
+  Zhao, Shen \& Ferrari]{wolfram_shrinkage_2014}
+{\sc Wolfram, J., Suri, K., Yang, Y., Shen, J., Celia, C., Fresta, M., Zhao,
+  Y., Shen, H. \& Ferrari, M.} 2014 Shrinkage of pegylated and non-pegylated
+  liposomes in serum. {\em Colloids and Surfaces B: Biointerfaces\/} {\bf 114},
+  294--300.
+
+\bibitem[Yamaoka {\em et~al.\/}(1994)Yamaoka, Tabata \&
+  Ikada]{yamaoka_distribution_1994}
+{\sc Yamaoka, T., Tabata, Y. \& Ikada, Y.} 1994 Distribution and tissue uptake
+  of poly(ethylene glycol) with different molecular weights after intravenous
+  administration to mice. {\em Journal of pharmaceutical sciences\/} {\bf 83},
+  601--606.
 
 \bibitem[Yang {\em et~al.\/}(1983)Yang, {Caldwell} \&
   {Giddings}]{yang_colloid_1983}

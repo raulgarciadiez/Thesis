@@ -35,3 +35,7 @@ p 'HSPC_PEG_80_May.dat' u 1:($2*1.3*2-1) w l ls 4 t '102.7','HSPC_PEG_200_May.da
 #p 'HSPC_PEG_50_Oct.dat' w l ls 6 t '81.4', 'HSPC_PEG_80_Oct.dat' u 1:($2*1.5) w l ls 5 t '86.8', 'HSPC_PEG_80_May.dat' u 1:($2*1.3*2) w l ls 4 t '102.7','HSPC_PEG_100_Oct.dat' u 1:($2*1.35*3) w l ls 3 t '105.2','HSPC_PEG_200_May.dat' u 1:($2*1.4*4) w l ls 2 t '178.9', 'HSPC_PEG_400_May.dat' u 1:($2*1.6*5) w l ls 1 t '274.1', 'HSPC_50_Oct.dat' u 1:($2*50) w l ls 7 t '88.77', 'HSPC_80_Oct.dat' u 1:($2*1.5*50) w l ls 8 t '116.0', 'HSPC_100_Oct.dat' u 1:($2*1.5*2*50) w l ls 9 t '127.7'
 
 
+
+#set term postscript enhanced eps color solid "Times" 18 size 3,5
+
+#set size ratio 2
