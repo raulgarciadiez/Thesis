@@ -27,7 +27,7 @@ set style line 8 lc rgb '#8A0808' lt 1 lw 3 #      .
 set style line 9 lc rgb '#190707' lt 1 lw 3 # --- black
 
 
-p 'DEF_HSPC_PEG_50_Oct.dat' w l ls 6 t '81.4', 'DEF_HSPC_PEG_80_Oct.dat' u 1:($2*1.5) w l ls 5 t '86.8', 'HSPC_PEG_80_May.dat' u 1:($2*1.3*2) w l ls 4 t '102.7','HSPC_PEG_200_May.dat' u 1:($2*1.4*4) w l ls 2 t '178.9', 'HSPC_PEG_400_May.dat' u 1:($2*1.6*5) w l ls 1 t '274.1', 'DEF_HSPC_50_Oct.dat' u 1:($2*50) w l ls 7 t '88.77', 'HSPC_80_Oct.dat' u 1:($2*1.5*50) w l ls 8 t '116.0', 'DEF_HSPC_100_Oct.dat' u 1:($2*1.5*2*50) w l ls 9 t '127.7'
+p 'DEF_HSPC_PEG_50_Oct.dat' w l ls 6 t '81.4 nm', 'DEF_HSPC_PEG_80_Oct.dat' u 1:($2*1.5) w l ls 5 t '86.8 nm', 'HSPC_PEG_80_May.dat' u 1:($2*1.3*2) w l ls 4 t '102.7 nm','HSPC_PEG_200_May.dat' u 1:($2*1.4*4) w l ls 2 t '178.9 nm', 'HSPC_PEG_400_May.dat' u 1:($2*1.6*5) w l ls 1 t '274.1 nm', 'DEF_HSPC_50_Oct.dat' u 1:($2*50) w l ls 7 t '88.77 nm', 'HSPC_80_Oct.dat' u 1:($2*1.5*50) w l ls 8 t '116.0 nm', 'DEF_HSPC_100_Oct.dat' u 1:($2*1.5*2*50) w l ls 9 t '127.7 nm'
 
 #p 'HSPC_PEG_50_Oct.dat' w l ls 6 t '81.4', 'HSPC_PEG_80_Oct.dat' u 1:($2*1.5) w l ls 5 t '86.8', 'HSPC_PEG_80_May.dat' u 1:($2*1.3*2) w l ls 4 t '102.7','HSPC_PEG_100_Oct.dat' u 1:($2*1.35*3) w l ls 3 t '105.2','HSPC_PEG_200_May.dat' u 1:($2*1.4*4) w l ls 2 t '178.9', 'HSPC_PEG_400_May.dat' u 1:($2*1.6*5) w l ls 1 t '274.1', 'HSPC_50_Oct.dat' u 1:($2*50) w l ls 7 t '88.77', 'HSPC_80_Oct.dat' u 1:($2*1.5*50) w l ls 8 t '116.0', 'HSPC_100_Oct.dat' u 1:($2*1.5*2*50) w l ls 9 t '127.7'
 
