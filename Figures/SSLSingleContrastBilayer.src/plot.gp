@@ -1,3 +1,9 @@
+set terminal epslatex size 7cm,11cm color colortext
+
+
+
+
+
 set log
 set grid
 set xlabel '$q$ / nm$^{-1}$' 
@@ -39,3 +45,7 @@ p 'HSPC_PEG_80_May.dat' u 1:($2*1.3*2-1) w l ls 4 t '102.7 nm','HSPC_PEG_200_May
 #set term postscript enhanced eps color solid "Times" 18 size 3,5
 
 #set size ratio 2
+
+
+
+

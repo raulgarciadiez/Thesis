@@ -1,3 +1,5 @@
+set terminal epslatex size 7cm,11cm color colortext
+
 
 set log
 unset log cb
