@@ -1,4 +1,4 @@
-\begin{thebibliography}{130}
+\begin{thebibliography}{131}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 
 \bibitem[Arnold {\em et~al.\/}(2006)Arnold, Green, Hulvat, Stupp \&
@@ -353,6 +353,11 @@
   globular solute particles measured by the contrast-variation method: the
   influence of additive penetration into the solute particles}. {\em {J. Appl.
   Cryst.}\/} {\bf {26}}, 214--218.
+
+\bibitem[Kawaguchi(2004)]{kawaguchi_application_2004}
+{\sc Kawaguchi, T.} 2004 Application of isoscattering points to the analysis of
+  globular solute structures. {\em Crystallography Reviews\/} {\bf 10},
+  233--246.
 
 \bibitem[Kawaguchi \& {Hamanaka}(1992)]{kawaguchi_isoscattering_1992}
 {\sc Kawaguchi, T. \& {Hamanaka}, T.} 1992 The isoscattering point in {X}-ray

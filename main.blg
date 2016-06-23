@@ -35,45 +35,45 @@ while executing---line 3135 of file meinbst.bst
 `number' is a missing field, not a string, for entry dingenouts_analysis_1999
 while executing---line 3135 of file meinbst.bst
 Warning--can't use both author and editor fields in Feigin1987
-You've used 130 entries,
+You've used 131 entries,
             2851 wiz_defined-function locations,
-            1442 strings with 35036 characters,
-and the built_in function-call counts, 73040 in all, are:
-= -- 6918
-> -- 4296
-< -- 49
-+ -- 1666
-- -- 1511
-* -- 7198
-:= -- 13193
-add.period$ -- 263
-call.type$ -- 130
-change.case$ -- 1160
-chr.to.int$ -- 129
-cite$ -- 131
-duplicate$ -- 2836
-empty$ -- 4785
-format.name$ -- 1691
-if$ -- 14083
+            1448 strings with 35194 characters,
+and the built_in function-call counts, 73467 in all, are:
+= -- 6964
+> -- 4306
+< -- 50
++ -- 1670
+- -- 1514
+* -- 7232
+:= -- 13269
+add.period$ -- 265
+call.type$ -- 131
+change.case$ -- 1166
+chr.to.int$ -- 130
+cite$ -- 132
+duplicate$ -- 2857
+empty$ -- 4821
+format.name$ -- 1695
+if$ -- 14169
 int.to.chr$ -- 14
 int.to.str$ -- 1
-missing$ -- 133
-newline$ -- 394
-num.names$ -- 524
-pop$ -- 902
+missing$ -- 134
+newline$ -- 397
+num.names$ -- 528
+pop$ -- 906
 preamble$ -- 1
-purify$ -- 1023
+purify$ -- 1028
 quote$ -- 0
-skip$ -- 1592
+skip$ -- 1605
 stack$ -- 0
-substring$ -- 4509
-swap$ -- 678
+substring$ -- 4545
+swap$ -- 682
 text.length$ -- 3
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 1158
+type$ -- 1167
 warning$ -- 1
-while$ -- 636
+while$ -- 641
 width$ -- 0
-write$ -- 1432
+write$ -- 1443
 (There were 6 error messages)
