@@ -103,6 +103,6 @@
 \contentsline {section}{\numberline {6.4}Application to blood plasma componenents}{75}{section.6.4}
 \contentsline {section}{\numberline {6.5}Protein-coated low-density nanoparticles}{79}{section.6.5}
 \contentsline {subsection}{\numberline {6.5.1}Hard protein corona characterization with contrast variation}{81}{subsection.6.5.1}
-\contentsline {subsubsection}{Uncertainty analysis}{82}{section*.76}
+\contentsline {subsubsection}{Uncertainty analysis}{83}{section*.76}
 \contentsline {section}{\numberline {6.6}Summary}{83}{section.6.6}
 \contentsline {subsubsection}{Conclusion from protein-coated Kisker}{84}{section*.78}
