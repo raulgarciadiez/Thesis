@@ -23,4 +23,4 @@ set x2range [osm(concmin):osm(concmax)]
 #set yrange [concmax:concmin]
 
 
-p 'chisquared_SSL_400.dat' u 1:2 w lp ls 1 t 'In buffer', '' u 1:3 w lp ls 2 t 'Max. sucrose'
+p 'chisquared_SSL_400.dat' u 1:2 w lp ls 1 not# 'Deviation from liposome in buffer'#, '' u 1:3 w lp ls 2 t 'Max. sucrose'

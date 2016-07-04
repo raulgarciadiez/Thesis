@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/TeX Live for SUSE Linux) (format=pdflatex 2015.3.4)  4 JUL 2016 13:24
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/TeX Live for SUSE Linux) (format=pdflatex 2015.3.4)  4 JUL 2016 16:22
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1264,40 +1264,34 @@ File: Figures/SSLContrastCurvesBilayer100Plain.pdf Graphic file (type pdf)
 Package pdftex.def Info: Figures/SSLContrastCurvesBilayer100Plain.pdf used on i
 nput line 105.
 (pdftex.def)             Requested size: 198.742pt x 312.16548pt.
-) [72 <./Figures/SSLIsopointIntensity.pdf>] (./Figures/SSLContrastVariationChiS
-quared400SSL.tex
-<Figures/SSLContrastVariationChiSquared400SSL.pdf, id=1482, 284.06125pt x 226.8
+) [72 <./Figures/SSLIsopointIntensity.pdf>] [73 <./Figures/SSLContrastCurvesBil
+ayer200SSL.pdf> <./Figures/SSLContrastCurvesBilayer100Plain.pdf>]
+(./Figures/SSLContrastVariationChiSquared400SSL.tex
+<Figures/SSLContrastVariationChiSquared400SSL.pdf, id=1495, 284.06125pt x 226.8
 475pt>
 File: Figures/SSLContrastVariationChiSquared400SSL.pdf Graphic file (type pdf)
  <use Figures/SSLContrastVariationChiSquared400SSL.pdf>
 Package pdftex.def Info: Figures/SSLContrastVariationChiSquared400SSL.pdf used 
-on input line 127.
+on input line 121.
 (pdftex.def)             Requested size: 284.06053pt x 226.84694pt.
-) [73 <./Figures/SSLContrastCurvesBilayer200SSL.pdf> <./Figures/SSLContrastCurv
-esBilayer100Plain.pdf>]
-Overfull \hbox (1.04648pt too wide) in paragraph at lines 306--307
-\OT1/cmr/m/n/12 ser-va-tion was re-ported for li-po-somes com-posed of dipalmit
-oyl-phosphocholine/DSPE-
- []
-
-[74 <./Figures/SSLContrastVariationChiSquared400SSL.pdf>] [75]
-(./Figures/HDLContinuousSAXS.tex
-<Figures/HDLContinuousSAXS.pdf, id=1547, 284.06125pt x 226.8475pt>
+) [74 <./Figures/SSLContrastVariationChiSquared400SSL.pdf>] (./Figures/HDLConti
+nuousSAXS.tex
+<Figures/HDLContinuousSAXS.pdf, id=1540, 284.06125pt x 226.8475pt>
 File: Figures/HDLContinuousSAXS.pdf Graphic file (type pdf)
 
 <use Figures/HDLContinuousSAXS.pdf>
 Package pdftex.def Info: Figures/HDLContinuousSAXS.pdf used on input line 104.
 (pdftex.def)             Requested size: 284.06053pt x 226.84694pt.
 ) (./Figures/LDLContinuousSAXS.tex
-<Figures/LDLContinuousSAXS.pdf, id=1548, 284.06125pt x 226.8475pt>
+<Figures/LDLContinuousSAXS.pdf, id=1541, 284.06125pt x 226.8475pt>
 File: Figures/LDLContinuousSAXS.pdf Graphic file (type pdf)
 
 <use Figures/LDLContinuousSAXS.pdf>
 Package pdftex.def Info: Figures/LDLContinuousSAXS.pdf used on input line 104.
 (pdftex.def)             Requested size: 284.06053pt x 226.84694pt.
-) [76 <./Figures/HDLContinuousSAXS.pdf> <./Figures/LDLContinuousSAXS.pdf>] (./F
-igures/LipoproteinIsopointComp.tex
-<Figures/LipoproteinIsopointComp.pdf, id=1584, 284.06125pt x 226.8475pt>
+) [75]
+(./Figures/LipoproteinIsopointComp.tex
+<Figures/LipoproteinIsopointComp.pdf, id=1573, 284.06125pt x 226.8475pt>
 File: Figures/LipoproteinIsopointComp.pdf Graphic file (type pdf)
 
 <use Figures/LipoproteinIsopointComp.pdf>
@@ -1306,65 +1300,65 @@ Package pdftex.def Info: Figures/LipoproteinIsopointComp.pdf used on input line
 (pdftex.def)             Requested size: 284.06053pt x 226.84694pt.
 )
 (./Figures/LipoproteinsAverageDensity.tex
-<Figures/LipoproteinsAverageDensity.pdf, id=1585, 284.06125pt x 226.8475pt>
+<Figures/LipoproteinsAverageDensity.pdf, id=1574, 284.06125pt x 226.8475pt>
 File: Figures/LipoproteinsAverageDensity.pdf Graphic file (type pdf)
 
 <use Figures/LipoproteinsAverageDensity.pdf>
 Package pdftex.def Info: Figures/LipoproteinsAverageDensity.pdf used on input l
 ine 109.
 (pdftex.def)             Requested size: 284.06053pt x 226.84694pt.
-) [77 <./Figures/LipoproteinIsopointComp.pdf> <./Figures/LipoproteinsAverageDen
-sity.pdf>]
-(./Figures/HDLGuinierRadius.tex
-<Figures/HDLGuinierRadius.pdf, id=1623, 284.06125pt x 226.8475pt>
+) [76 <./Figures/HDLContinuousSAXS.pdf> <./Figures/LDLContinuousSAXS.pdf>] (./F
+igures/HDLGuinierRadius.tex
+<Figures/HDLGuinierRadius.pdf, id=1615, 284.06125pt x 226.8475pt>
 File: Figures/HDLGuinierRadius.pdf Graphic file (type pdf)
 
 <use Figures/HDLGuinierRadius.pdf>
 Package pdftex.def Info: Figures/HDLGuinierRadius.pdf used on input line 107.
 (pdftex.def)             Requested size: 284.06053pt x 226.84694pt.
-) [78 <./Figures/HDLGuinierRadius.pdf>]
-(./Figures/CoatedKiskerIgGSingleContrastSAXS.tex
-<Figures/CoatedKiskerIgGSingleContrastSAXS.pdf, id=1648, 284.06125pt x 226.8475
+) [77 <./Figures/LipoproteinIsopointComp.pdf> <./Figures/LipoproteinsAverageDen
+sity.pdf>] [78 <./Figures/HDLGuinierRadius.pdf>] (./Figures/CoatedKiskerIgGSing
+leContrastSAXS.tex
+<Figures/CoatedKiskerIgGSingleContrastSAXS.pdf, id=1650, 284.06125pt x 226.8475
 pt>
 File: Figures/CoatedKiskerIgGSingleContrastSAXS.pdf Graphic file (type pdf)
  <use Figures/CoatedKiskerIgGSingleContrastSAXS.pdf>
 Package pdftex.def Info: Figures/CoatedKiskerIgGSingleContrastSAXS.pdf used on 
 input line 111.
 (pdftex.def)             Requested size: 284.06053pt x 226.84694pt.
-) [79]
+)
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 416.
+               Default added (so using `tbp') on input line 388.
 
 
-Overfull \hbox (17.62448pt too wide) in paragraph at lines 420--428
+Overfull \hbox (17.62448pt too wide) in paragraph at lines 392--400
  [][] 
  []
 
-[80 <./Figures/CoatedKiskerIgGSingleContrastSAXS.pdf>]
-Overfull \hbox (9.02652pt too wide) in paragraph at lines 434--434
+[79] [80 <./Figures/CoatedKiskerIgGSingleContrastSAXS.pdf>]
+Overfull \hbox (9.02652pt too wide) in paragraph at lines 406--406
 []\OT1/cmr/bx/n/14.4 Hard pro-tein corona char-ac-ter-i-za-tion with con-trast 
 vari-
  []
 
 (./Figures/CoatedKiskerIsopointComp.tex
-<Figures/CoatedKiskerIsopointComp.pdf, id=1677, 284.06125pt x 226.8475pt>
+<Figures/CoatedKiskerIsopointComp.pdf, id=1679, 284.06125pt x 226.8475pt>
 File: Figures/CoatedKiskerIsopointComp.pdf Graphic file (type pdf)
 
 <use Figures/CoatedKiskerIsopointComp.pdf>
 Package pdftex.def Info: Figures/CoatedKiskerIsopointComp.pdf used on input lin
 e 99.
 (pdftex.def)             Requested size: 284.06053pt x 226.84694pt.
-) [81] [82 <./Figures/CoatedKiskerIsopointComp.pdf>]
+) [81 <./Figures/CoatedKiskerIsopointComp.pdf>]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 460.
+               Default added (so using `tbp') on input line 432.
 
-[83]) [84] (./main.bbl [85
+[82] [83]) [84] (./main.bbl [85
 
 
-] [86] [87] [88] [89] [90] [91] [92] [93] [94]
-[95] [96])
+] [86] [87] [88] [89] [90] [91] [92] [93]
+[94] [95] [96])
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 66.
  [97]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 66.
@@ -1386,10 +1380,10 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 66.
  ) 
 Here is how much of TeX's memory you used:
- 9428 strings out of 493315
- 152915 string characters out of 6145894
- 243131 words of memory out of 5000000
- 12165 multiletter control sequences out of 15000+600000
+ 9427 strings out of 493315
+ 152901 string characters out of 6145894
+ 243235 words of memory out of 5000000
+ 12164 multiletter control sequences out of 15000+600000
  12368 words of font info for 44 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
  44i,16n,49p,1895b,666s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1409,10 +1403,10 @@ fb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texmf
 /fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texmf/fonts/type1/public/
 amsfonts/cm/cmti10.pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmti12.
 pfb>
-Output written on main.pdf (98 pages, 2424818 bytes).
+Output written on main.pdf (98 pages, 2422299 bytes).
 PDF statistics:
- 1934 PDF objects out of 2073 (max. 8388607)
- 1694 compressed objects within 17 object streams
+ 1936 PDF objects out of 2073 (max. 8388607)
+ 1696 compressed objects within 17 object streams
  428 named destinations out of 1000 (max. 500000)
  885 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -5,7 +5,7 @@ set log
 unset log cb
 set grid
 set xlabel '$q$ / nm$^{-1}$' 
-set ylabel 'Scattering Intensity / cm$^{-1}$' offset 2,-1
+set ylabel 'Scattering Intensity / a.u.' offset 2,-1
 set autoscale
 set xrange [0.25:2.3]
 set yrange [1.3e-1:4.e0]
