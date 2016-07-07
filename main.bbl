@@ -1,4 +1,4 @@
-\begin{thebibliography}{131}
+\begin{thebibliography}{152}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 
 \bibitem[Arnold {\em et~al.\/}(2006)Arnold, Green, Hulvat, Stupp \&
@@ -21,8 +21,8 @@
 \bibitem[Avdeev(2007{\natexlab{{\em b\/}}})]{avdeev_contrast_2007}
 {\sc Avdeev, M.~V.} 2007{\natexlab{{\em b\/}}} Contrast variation in
   small-angle scattering experiments on polydisperse and superparamagnetic
-  systems: basic functions approach. {\em {J} {Appl} {Crystallogr}\/} {\bf 40},
-  56--70.
+  systems: basic functions approach. {\em Journal of Applied Crystallography\/}
+  {\bf 40}, 56--70.
 
 \bibitem[Ballauff(2001)]{Ballauff2001}
 {\sc Ballauff, M.} 2001 {SAXS and SANS studies of polymer colloids}. {\em
@@ -47,6 +47,11 @@
 \bibitem[Barenholz(2001)]{barenholz_liposome_2001}
 {\sc Barenholz, Y.} 2001 Liposome application: problems and prospects. {\em
   Current Opinion in Colloid \& Interface Science\/} {\bf 6}, 66--77.
+
+\bibitem[Barenholz(2012)]{barenholz_doxil_2012}
+{\sc Barenholz, Y.~C.} 2012 Doxil\textregistered{} \textemdash{} {{The}} first
+  {{FDA}}-approved nano-drug: {{Lessons}} learned. {\em Journal of Controlled
+  Release\/} {\bf 160}, 117--134.
 
 \bibitem[Baumstark {\em et~al.\/}(1990)Baumstark, Kreutz, Berg, Frey \&
   Keul]{baumstark_structure_1990}
@@ -148,6 +153,10 @@
   specific gravity of fish eggs, with particular reference to eggs of the
   mackerel Scomber scombrus}. {\em {Mar. Biol.}\/} {\bf {63}}, 101--106.
 
+\bibitem[{de Gier}(1993)]{de_gier_osmotic_1993}
+{\sc {de Gier}, J.} 1993 Osmotic behaviour and permeability properties of
+  liposomes. {\em Chemistry and Physics of Lipids\/} {\bf 64}, 187--196.
+
 \bibitem[Dem{\'e} {\em et~al.\/}(2002)Dem{\'e}, Dubois, Gulik-Krzywicki \&
   Zemb]{deme_giant_2002}
 {\sc Dem{\'e}, B., Dubois, M., Gulik-Krzywicki, T. \& Zemb, T.} 2002 Giant
@@ -199,6 +208,20 @@
 {\sc Dreon, D.~M., Fernstrom, H.~A., Miller, B. \& Krauss, R.~M.} 1994
   Low-density lipoprotein subclass patterns and lipoprotein response to a
   reduced-fat diet in men. {\em FASEB J\/} {\bf 8}, 121--126.
+
+\bibitem[Egelhaaf {\em et~al.\/}(1996)Egelhaaf, Wehrli, Muller, Adrian \&
+  Schurtenberger]{egelhaaf_determination_1996}
+{\sc Egelhaaf, S.~U., Wehrli, E., Muller, M., Adrian, M. \& Schurtenberger, P.}
+  1996 Determination of the size distribution of lecithin liposomes: a
+  comparative study using freeze fracture, cryoelectron microscopy and dynamic
+  light scattering. {\em Journal of Microscopy\/} {\bf 184}, 214--228.
+
+\bibitem[Etheridge {\em et~al.\/}(2013)Etheridge, Campbell, Erdman, Haynes,
+  Wolf \& McCullough]{etheridge_big_2013}
+{\sc Etheridge, M.~L., Campbell, S.~A., Erdman, A.~G., Haynes, C.~L., Wolf,
+  S.~M. \& McCullough, J.} 2013 The big picture on nanomedicine: the state of
+  investigational and approved nanomedicine products. {\em Nanomedicine:
+  Nanotechnology, Biology and Medicine\/} {\bf 9}, 1--14.
 
 \bibitem[Euliss {\em et~al.\/}(2006)Euliss, {DuPont}, {Gratton} \&
   {DeSimone}]{euliss_imparting_2006}
@@ -295,6 +318,11 @@
   {Nanoparticles}, {Nanospheres} and {Nanocapsules}, for {Cutaneous}
   {Applications}. {\em Drug {Target} {Insights}\/} {\bf 2}, 147--157.
 
+\bibitem[Hallett {\em et~al.\/}(1991)Hallett, Watton \&
+  Krygsman]{hallett_vesicle_1991}
+{\sc Hallett, F.~R., Watton, J. \& Krygsman, P.} 1991 Vesicle sizing. {\em
+  Biophys J\/} {\bf 59}, 357--362.
+
 \bibitem[Harris \& Chess(2003)]{harris_effect_2003}
 {\sc Harris, J.~M. \& Chess, R.~B.} 2003 Effect of pegylation on
   pharmaceuticals. {\em Nature Reviews Drug Discovery\/} {\bf 2}, 214--221.
@@ -317,6 +345,20 @@
 \bibitem[Hinton \& Dobrota(1978)]{Hinton1978}
 {\sc Hinton, R.~J. \& Dobrota, M.} 1978 {\em {Density Gradient
   Centrifugation}\/}. {Amsterdam}: {Elsevier}.
+
+\bibitem[Hoo {\em et~al.\/}(2008)Hoo, Starostin, West \&
+  Mecartney]{hoo_comparison_2008}
+{\sc Hoo, C.~M., Starostin, N., West, P. \& Mecartney, M.~L.} 2008 A comparison
+  of atomic force microscopy ({{AFM}}) and dynamic light scattering ({{DLS}})
+  methods to characterize nanoparticle size distributions. {\em J Nanopart
+  Res\/} {\bf 10}, 89--96.
+
+\bibitem[Jans {\em et~al.\/}(2009)Jans, Liu, Austin, Maes \&
+  Huo]{jans_dynamic_2009}
+{\sc Jans, H., Liu, X., Austin, L., Maes, G. \& Huo, Q.} 2009 Dynamic {{Light
+  Scattering}} as a {{Powerful Tool}} for {{Gold Nanoparticle Bioconjugation}}
+  and {{Biomolecular Binding Studies}}. {\em Anal. Chem.\/} {\bf 81},
+  9425--9432.
 
 \bibitem[Joensson {\em et~al.\/}(1991{\natexlab{{\em a\/}}})Joensson,
   Hassander, Jansson \& Toernell]{Joensson1991}
@@ -359,16 +401,18 @@
   globular solute structures. {\em Crystallography Reviews\/} {\bf 10},
   233--246.
 
-\bibitem[Kawaguchi \& {Hamanaka}(1992)]{kawaguchi_isoscattering_1992}
-{\sc Kawaguchi, T. \& {Hamanaka}, T.} 1992 The isoscattering point in {X}-ray
-  scattering curves of globular solute particles measured by the
-  contrast-variation method. {\em {J} {Appl} {Crystallogr}\/} {\bf 25},
-  778--784.
+\bibitem[Kawaguchi \& Hamanaka(1992{\natexlab{{\em
+  a\/}}})]{kawaguchi_isoscattering_1992}
+{\sc Kawaguchi, T. \& Hamanaka, T.} 1992{\natexlab{{\em a\/}}} The
+  isoscattering point in {{X}}-ray scattering curves of globular solute
+  particles measured by the contrast-variation method. {\em Journal of Applied
+  Crystallography\/} {\bf 25}, 778--784.
 
-\bibitem[Kawaguchi \& Hamanaka(1992)]{Kawaguchi1992}
-{\sc Kawaguchi, T. \& Hamanaka, T.} 1992 {The isoscattering point in X-ray
-  scattering curves of globular solute particles measured by the
-  contrast-variation method}. {\em {J. Appl. Cryst.}\/} {\bf {25}}, 778--784.
+\bibitem[Kawaguchi \& Hamanaka(1992{\natexlab{{\em b\/}}})]{Kawaguchi1992}
+{\sc Kawaguchi, T. \& Hamanaka, T.} 1992{\natexlab{{\em b\/}}} {The
+  isoscattering point in X-ray scattering curves of globular solute particles
+  measured by the contrast-variation method}. {\em {J. Appl. Cryst.}\/} {\bf
+  {25}}, 778--784.
 
 \bibitem[Kawaguchi {\em et~al.\/}(1983)Kawaguchi, {Hamanaka} \&
   {Mitsui}]{kawaguchi_xray_1983}
@@ -382,6 +426,13 @@
   and magnitude of the steric pressure between bilayers containing
   phospholipids with covalently attached poly(ethylene glycol). {\em Biophys
   J\/} {\bf 68}, 1921--1936.
+
+\bibitem[Khorasani {\em et~al.\/}(2014)Khorasani, Weaver \&
+  Salvador-Morales]{khorasani_closing_2014}
+{\sc Khorasani, A.~A., Weaver, J.~L. \& Salvador-Morales, C.} 2014 Closing the
+  gap: accelerating the translational process in nanomedicine by proposing
+  standardized characterization techniques. {\em Int J Nanomedicine\/} {\bf 9},
+  5729--5751.
 
 \bibitem[Kiselev {\em et~al.\/}(2001{\natexlab{{\em a\/}}})Kiselev, Lesieur,
   Kisselev, Lombardo, Killany \& Lesieur]{kiselev_sucrose_2001-1}
@@ -424,6 +475,12 @@
   Spectrometers, Detectors and Associated Equipment\/} {\bf
   467\textendash{}468, Part 2}, 1175--1178.
 
+\bibitem[Ku{\v c}erka {\em et~al.\/}(2006)Ku{\v c}erka, Tristram-Nagle \&
+  Nagle]{kucerka_structure_2006}
+{\sc Ku{\v c}erka, N., Tristram-Nagle, S. \& Nagle, J.~F.} 2006 Structure of
+  {{Fully Hydrated Fluid Phase Lipid Bilayers}} with {{Monounsaturated
+  Chains}}. {\em J Membrane Biol\/} {\bf 208}, 193--202.
+
 \bibitem[Kusaka {\em et~al.\/}(2014)Kusaka, {Nakayama}, {Nakamura}, {Ishimiya},
   {Furusawa} \& {Ogasawara}]{kusaka_effect_2014}
 {\sc Kusaka, T., {Nakayama}, M., {Nakamura}, K., {Ishimiya}, M., {Furusawa}, E.
@@ -436,6 +493,12 @@
   Kostner, G. \& Holasek, A.} 1977 Molecular packing and fluidity of lipids in
   human serum low density lipoproteins. {\em Hoppe-Seyler's Z. Physiol.
   Chem.\/} {\bf 358}, 771--778.
+
+\bibitem[Lasic {\em et~al.\/}(1992)Lasic, Frederik, Stuart, Barenholz \&
+  McIntosh]{lasic_gelation_1992}
+{\sc Lasic, D.~D., Frederik, P.~M., Stuart, M. C.~A., Barenholz, Y. \&
+  McIntosh, T.~J.} 1992 Gelation of liposome interior {{A}} novel method for
+  drug encapsulation. {\em FEBS Letters\/} {\bf 312}, 255--258.
 
 \bibitem[Lee \& Pastor(2011)]{lee_coarse-grained_2011}
 {\sc Lee, H. \& Pastor, R.~W.} 2011 Coarse-{{Grained Model}} for {{PEGylated
@@ -457,6 +520,13 @@
   1952 The {Size} of {Latex} {Particles} by {X}-{Ray} {Scattering}. {\em {J}
   {Appl} {Phys}\/} {\bf 23}, 152--152.
 
+\bibitem[Li {\em et~al.\/}(1998)Li, Hirsh, Cabral-Lilly, Zirkel, Gruner, Janoff
+  \& Perkins]{li_doxorubicin_1998}
+{\sc Li, X., Hirsh, D.~J., Cabral-Lilly, D., Zirkel, A., Gruner, S.~M., Janoff,
+  A.~S. \& Perkins, W.~R.} 1998 Doxorubicin physical state in solution and
+  inside liposomes loaded via a {{pH}} gradient. {\em Biochimica et Biophysica
+  Acta (BBA) - Biomembranes\/} {\bf 1415}, 23--40.
+
 \bibitem[Liang {\em et~al.\/}(2005)Liang, Mao \& Ng]{liang_effect_2005}
 {\sc Liang, X., Mao, G. \& Ng, K. Y.~S.} 2005 Effect of chain lengths of
   {{PEO\textendash{}PPO\textendash{}PEO}} on small unilamellar liposome
@@ -475,6 +545,15 @@
 {\sc Luzzati, V., Tardieu, A. \& Aggerbeck, L.~P.} 1979 Structure of serum
   low-density lipoprotein. {\em Journal of Molecular Biology\/} {\bf 131},
   435--473.
+
+\bibitem[Meli {\em et~al.\/}(2012)Meli, Klein, Buhr, Frase, Gleber, Krumrey,
+  Duta, Duta, Korpelainen, Bellotti, Picotto, Boyd \&
+  Cuenat]{meli_traceable_2012}
+{\sc Meli, F., Klein, T., Buhr, E., Frase, C.~G., Gleber, G., Krumrey, M.,
+  Duta, A., Duta, S., Korpelainen, V., Bellotti, R., Picotto, G.~B., Boyd,
+  R.~D. \& Cuenat, A.} 2012 Traceable size determination of nanoparticles, a
+  comparison among {{European}} metrology institutes. {\em Meas. Sci.
+  Technol.\/} {\bf 23}, 125005.
 
 \bibitem[Mertens \& Svergun(2010)]{Mertens2010}
 {\sc Mertens, H.~D. \& Svergun, D.~I.} 2010 {Structural characterization of
@@ -524,6 +603,11 @@
 {\sc Munro, J.~M. \& Cotran, R.~S.} 1988 The pathogenesis of atherosclerosis:
   atherogenesis and inflammation. {\em Lab. Invest.\/} {\bf 58}, 249--261.
 
+\bibitem[Murphy(1997)]{murphy_static_1997}
+{\sc Murphy, R.~M.} 1997 Static and dynamic light scattering of biological
+  macromolecules: what can we learn? {\em Current Opinion in Biotechnology\/}
+  {\bf 8}, 25--30.
+
 \bibitem[Mykhaylyk(2012)]{mykhaylyk_structural_2012}
 {\sc Mykhaylyk, O.~O.} 2012 Structural {Characterization} of {Colloidal}
   {Core}-shell {Polymer}-based {Nanoparticles} {Using} {Small}-angle {X}-ray
@@ -558,6 +642,12 @@
   review Inter-laboratory comparison on the size and stability of monodisperse
   and bimodal synthetic reference particles for standardization of
   extracellular vesicle measurements. {\em Meas {Sci} {Technol}\/} .
+
+\bibitem[Nie {\em et~al.\/}(2007)Nie, Xing, Kim \&
+  Simons]{nie_nanotechnology_2007}
+{\sc Nie, S., Xing, Y., Kim, G.~J. \& Simons, J.~W.} 2007 Nanotechnology
+  {{Applications}} in {{Cancer}}. {\em Annual Review of Biomedical
+  Engineering\/} {\bf 9}, 257--288.
 
 \bibitem[Ottewill {\em et~al.\/}(1995)Ottewill, {Cole} \&
   {Waters}]{ottewill_characterization_1995}
@@ -596,6 +686,14 @@
   2006 {Binary Mutual Diffusion Coefficients of Aqueous Solutions of Sucrose,
   Lactose, Glucose, and Fructose in the Temperature Range from (298.15 to
   328.15) K}. {\em {J. Chem. Eng. Data}\/} {\bf {51}}, 1836--1840.
+
+\bibitem[Rosen \& Abribat(2005)]{rosen_rise_2005}
+{\sc Rosen, H. \& Abribat, T.} 2005 The rise and rise of drug delivery. {\em
+  Nat Rev Drug Discov\/} {\bf 4}, 381--385.
+
+\bibitem[Sahoo \& Labhasetwar(2003)]{sahoo_nanotech_2003}
+{\sc Sahoo, S.~K. \& Labhasetwar, V.} 2003 Nanotech approaches to drug delivery
+  and imaging. {\em Drug Discovery Today\/} {\bf 8}, 1112--1120.
 
 \bibitem[Sakuragi {\em et~al.\/}(2011)Sakuragi, Koiwai, Nakamura, Masunaga,
   Ogawa \& Sakurai]{sakuragi_transformation_2011}
@@ -695,6 +793,13 @@
   FeCoC and Gold Nanocrystals}. {\em {Angew. Chem. Int. Edit.}\/} {\bf {48}},
   939--942.
 
+\bibitem[Takahashi {\em et~al.\/}(2008)Takahashi, Kato, Saito, Matsuyama \&
+  Kinugasa]{takahashi_precise_2008}
+{\sc Takahashi, K., Kato, H., Saito, T., Matsuyama, S. \& Kinugasa, S.} 2008
+  Precise {{Measurement}} of the {{Size}} of {{Nanoparticles}} by {{Dynamic
+  Light Scattering}} with {{Uncertainty Analysis}}. {\em Particle \& Particle
+  Systems Characterization\/} {\bf 25}, 31--38.
+
 \bibitem[Tao {\em et~al.\/}(2011)Tao, {Hu}, {Liu}, {Huang}, {Sumer} \&
   {Gao}]{tao_shapespecific_2011}
 {\sc Tao, L., {Hu}, W., {Liu}, Y., {Huang}, G., {Sumer}, B.~D. \& {Gao}, J.}
@@ -746,6 +851,11 @@
   Density of Polymeric Nanoparticulate Drug Carriers by Isopycnic
   Centrifugation}. {\em {J. Nanopart. Res.}\/} {\bf {1}}, 411--418.
 
+\bibitem[Venditto \& {Szoka Jr.}(2013)]{venditto_cancer_2013}
+{\sc Venditto, V.~J. \& {Szoka Jr.}, F.~C.} 2013 Cancer nanomedicines: {{So}}
+  many papers and so few drugs! {\em Advanced Drug Delivery Reviews\/} {\bf
+  65}, 80--88.
+
 \bibitem[Vicent \& {Duncan}(2006)]{vicent_polymer_2006}
 {\sc Vicent, M.~J. \& {Duncan}, R.} 2006 Polymer conjugates: nanosized
   medicines for treating cancer. {\em Trends {Biotechnol}\/} {\bf 24}, 39--47.
@@ -782,6 +892,11 @@
   2014{\natexlab{{\em b\/}}} Characterization of an in-vacuum {{PILATUS 1M}}
   detector. {\em Journal of Synchrotron Radiation\/} {\bf 21}, 529--536.
 
+\bibitem[Wickline \& Lanza(2003)]{wickline_nanotechnology_2003}
+{\sc Wickline, S.~A. \& Lanza, G.~M.} 2003 Nanotechnology for {{Molecular
+  Imaging}} and {{Targeted Therapy}}. {\em Circulation\/} {\bf 107},
+  1092--1095.
+
 \bibitem[Wolfram {\em et~al.\/}(2014)Wolfram, Suri, Yang, Shen, Celia, Fresta,
   Zhao, Shen \& Ferrari]{wolfram_shrinkage_2014}
 {\sc Wolfram, J., Suri, K., Yang, Y., Shen, J., Celia, C., Fresta, M., Zhao,
@@ -808,5 +923,17 @@
 {\sc Yang, Z., {Huck}, W. T.~S., {Clarke}, S.~M., {Tajbakhsh}, A.~R. \&
   {Terentjev}, E.~M.} 2005 Shape-memory nanoparticles from inherently
   non-spherical polymer colloids. {\em Nat {Mater}\/} {\bf 4}, 486--490.
+
+\bibitem[Yeh {\em et~al.\/}(2011)Yeh, {Hsin-I Chang} \& {Ming-Yen
+  Cheng}]{yeh_clinical_2011}
+{\sc Yeh, M.-K., {Hsin-I Chang} \& {Ming-Yen Cheng}} 2011 Clinical development
+  of liposome based drugs: formulation, characterization, and therapeutic
+  efficacy. {\em International Journal of Nanomedicine\/} p.~49.
+
+\bibitem[Zhou {\em et~al.\/}(2014)Zhou, Porter, Robinson, Shim \&
+  Guo]{zhou_nano-enabled_2014}
+{\sc Zhou, X., Porter, A.~L., Robinson, D. K.~R., Shim, M.~S. \& Guo, Y.} 2014
+  Nano-enabled drug delivery: {{A}} research profile. {\em Nanomedicine:
+  Nanotechnology, Biology and Medicine\/} {\bf 10}, e889--e896.
 
 \end{thebibliography}

@@ -16,6 +16,14 @@ Repeated entry---line 87 of file main.bib
  :                                  ,
 I'm skipping whatever remains of this entry
 Database file #3: polymers.bib
+Repeated entry---line 2 of file polymers.bib
+ : @article{avdeev_contrast_2007
+ :                              ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 15 of file polymers.bib
+ : @article{kawaguchi_isoscattering_1992
+ :                                      ,
+I'm skipping whatever remains of this entry
 Repeated entry---line 27 of file polymers.bib
  : @article{minelli_characterization_2014
  :                                       ,
@@ -35,45 +43,45 @@ while executing---line 3135 of file meinbst.bst
 `number' is a missing field, not a string, for entry dingenouts_analysis_1999
 while executing---line 3135 of file meinbst.bst
 Warning--can't use both author and editor fields in Feigin1987
-You've used 131 entries,
+You've used 152 entries,
             2851 wiz_defined-function locations,
-            1448 strings with 35194 characters,
-and the built_in function-call counts, 73467 in all, are:
-= -- 6964
-> -- 4306
-< -- 50
-+ -- 1670
-- -- 1514
-* -- 7232
-:= -- 13269
-add.period$ -- 265
-call.type$ -- 131
-change.case$ -- 1166
-chr.to.int$ -- 130
-cite$ -- 132
-duplicate$ -- 2857
-empty$ -- 4821
-format.name$ -- 1695
-if$ -- 14169
-int.to.chr$ -- 14
+            1558 strings with 39677 characters,
+and the built_in function-call counts, 85240 in all, are:
+= -- 8079
+> -- 5004
+< -- 58
++ -- 1944
+- -- 1760
+* -- 8383
+:= -- 15404
+add.period$ -- 307
+call.type$ -- 152
+change.case$ -- 1353
+chr.to.int$ -- 150
+cite$ -- 153
+duplicate$ -- 3317
+empty$ -- 5583
+format.name$ -- 1970
+if$ -- 16433
+int.to.chr$ -- 15
 int.to.str$ -- 1
-missing$ -- 134
-newline$ -- 397
-num.names$ -- 528
-pop$ -- 906
+missing$ -- 155
+newline$ -- 460
+num.names$ -- 612
+pop$ -- 1053
 preamble$ -- 1
-purify$ -- 1028
+purify$ -- 1194
 quote$ -- 0
-skip$ -- 1605
+skip$ -- 1862
 stack$ -- 0
-substring$ -- 4545
-swap$ -- 682
-text.length$ -- 3
+substring$ -- 5270
+swap$ -- 788
+text.length$ -- 4
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 1167
+type$ -- 1356
 warning$ -- 1
-while$ -- 641
+while$ -- 744
 width$ -- 0
-write$ -- 1443
-(There were 6 error messages)
+write$ -- 1674
+(There were 8 error messages)
