@@ -2871,3 +2871,47 @@ correlation matrix of the fit parameters:
 
                a      
 a               1.000 
+
+
+*******************************************************************************
+Thu Jul  7 17:21:55 2016
+
+
+FIT:    data read from 'SSL_isopoint.dat' u (2./$1):2
+        format = x:z
+        x range restricted to [0.0190000 : 0.0250000]
+        #datapoints = 3
+        residuals are weighted equally (unit weight)
+
+function used for fitting: g(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 146288            delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 0.0223948
+
+initial set of free parameter values
+
+a               = 1
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 96.8295
+rel. change during last iteration : -1.15795e-12
+
+degrees of freedom    (FIT_NDF)                        : 2
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 6.95807
+variance of residuals (reduced chisquare) = WSSR/ndf   : 48.4148
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+a               = 9858.17          +/- 179.4        (1.82%)
+
+
+correlation matrix of the fit parameters:
+
+               a      
+a               1.000 
