@@ -38,51 +38,50 @@ Repeated entry---line 505 of file polymers.bib
 I'm skipping whatever remains of this entry
 Database file #4: polymers_patent.bib
 Database file #5: iucr.bib
-Warning--I didn't find a database entry for ""
 `number' is a missing field, not a string, for entry Dingenouts1999
 while executing---line 3135 of file meinbst.bst
 `number' is a missing field, not a string, for entry dingenouts_analysis_1999
 while executing---line 3135 of file meinbst.bst
 Warning--can't use both author and editor fields in Feigin1987
-You've used 152 entries,
+You've used 155 entries,
             2851 wiz_defined-function locations,
-            1558 strings with 39677 characters,
-and the built_in function-call counts, 85240 in all, are:
-= -- 8079
-> -- 5004
+            1573 strings with 40245 characters,
+and the built_in function-call counts, 86911 in all, are:
+= -- 8237
+> -- 5106
 < -- 58
-+ -- 1944
-- -- 1760
-* -- 8383
-:= -- 15404
-add.period$ -- 307
-call.type$ -- 152
-change.case$ -- 1353
-chr.to.int$ -- 150
-cite$ -- 153
-duplicate$ -- 3317
-empty$ -- 5583
-format.name$ -- 1970
-if$ -- 16433
++ -- 1983
+- -- 1796
+* -- 8550
+:= -- 15709
+add.period$ -- 313
+call.type$ -- 155
+change.case$ -- 1380
+chr.to.int$ -- 153
+cite$ -- 156
+duplicate$ -- 3383
+empty$ -- 5690
+format.name$ -- 2009
+if$ -- 16752
 int.to.chr$ -- 15
 int.to.str$ -- 1
-missing$ -- 155
-newline$ -- 460
-num.names$ -- 612
-pop$ -- 1053
+missing$ -- 158
+newline$ -- 469
+num.names$ -- 624
+pop$ -- 1074
 preamble$ -- 1
-purify$ -- 1194
+purify$ -- 1218
 quote$ -- 0
-skip$ -- 1862
+skip$ -- 1898
 stack$ -- 0
-substring$ -- 5270
-swap$ -- 788
+substring$ -- 5366
+swap$ -- 803
 text.length$ -- 4
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 1356
+type$ -- 1383
 warning$ -- 1
-while$ -- 744
+while$ -- 759
 width$ -- 0
-write$ -- 1674
+write$ -- 1707
 (There were 8 error messages)

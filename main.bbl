@@ -1,4 +1,4 @@
-\begin{thebibliography}{152}
+\begin{thebibliography}{155}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 
 \bibitem[Arnold {\em et~al.\/}(2006)Arnold, Green, Hulvat, Stupp \&
@@ -546,6 +546,12 @@
   low-density lipoprotein. {\em Journal of Molecular Biology\/} {\bf 131},
   435--473.
 
+\bibitem[Mathai {\em et~al.\/}(2008)Mathai, Tristram-Nagle, Nagle \&
+  Zeidel]{mathai_structural_2008}
+{\sc Mathai, J.~C., Tristram-Nagle, S., Nagle, J.~F. \& Zeidel, M.~L.} 2008
+  Structural {{Determinants}} of {{Water Permeability}} through the {{Lipid
+  Membrane}}. {\em J Gen Physiol\/} {\bf 131}, 69--76.
+
 \bibitem[Meli {\em et~al.\/}(2012)Meli, Klein, Buhr, Frase, Gleber, Krumrey,
   Duta, Duta, Korpelainen, Bellotti, Picotto, Boyd \&
   Cuenat]{meli_traceable_2012}
@@ -621,6 +627,12 @@
   The application of distance distribution functions to structural analysis of
   core-shell particles. {\em {J} {Appl} {Crystallogr}\/} {\bf 40}, s506--s511.
 
+\bibitem[Nagle {\em et~al.\/}(2008)Nagle, Mathai, Zeidel \&
+  Tristram-Nagle]{nagle_theory_2008}
+{\sc Nagle, J.~F., Mathai, J.~C., Zeidel, M.~L. \& Tristram-Nagle, S.} 2008
+  Theory of {{Passive Permeability}} through {{Lipid Bilayers}}. {\em J Gen
+  Physiol\/} {\bf 131}, 77--85.
+
 \bibitem[Neumann {\em et~al.\/}(2013)Neumann, {Hoyer}, {Wolff}, {Reichl},
   {Pfitzner} \& {Roth}]{neumann_new_2013}
 {\sc Neumann, A., {Hoyer}, W., {Wolff}, M.~W., {Reichl}, U., {Pfitzner}, A. \&
@@ -648,6 +660,12 @@
 {\sc Nie, S., Xing, Y., Kim, G.~J. \& Simons, J.~W.} 2007 Nanotechnology
   {{Applications}} in {{Cancer}}. {\em Annual Review of Biomedical
   Engineering\/} {\bf 9}, 257--288.
+
+\bibitem[Olbrich {\em et~al.\/}(2000)Olbrich, Rawicz, Needham \&
+  Evans]{olbrich_water_2000}
+{\sc Olbrich, K., Rawicz, W., Needham, D. \& Evans, E.} 2000 Water
+  {{Permeability}} and {{Mechanical Strength}} of {{Polyunsaturated Lipid
+  Bilayers}}. {\em Biophysical Journal\/} {\bf 79}, 321--327.
 
 \bibitem[Ottewill {\em et~al.\/}(1995)Ottewill, {Cole} \&
   {Waters}]{ottewill_characterization_1995}

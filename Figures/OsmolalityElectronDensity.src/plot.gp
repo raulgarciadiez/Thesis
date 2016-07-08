@@ -3,8 +3,8 @@ set grid
 #set autoscale
 
 set xlabel 'Sucrose Mass Fraction / $\%$'
-set ylabel 'Electron Density / nm$^{-3}$' offset 2
-set y2label 'Osmolality / mOsm kg$^{-1}$' rotate by 270
+set ylabel 'Electron Density / nm$^{-3}$' offset 1
+set y2label 'Osmolality / mOsm kg$^{-1}$' rotate by 270 offset -1
 
 concmin=0.0001
 concmax=35.

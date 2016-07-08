@@ -101,9 +101,9 @@
 \contentsline {section}{\numberline {6.3}Osmotic effects in liposomes}{64}{section.6.3}
 \contentsline {subsection}{\numberline {6.3.1}Application to drug-stabilized liposomes}{66}{subsection.6.3.1}
 \contentsline {subsection}{\numberline {6.3.2}Does PEGylation affect the osmotic activity of liposomes?}{69}{subsection.6.3.2}
-\contentsline {section}{\numberline {6.4}Application to blood plasma componenents}{77}{section.6.4}
+\contentsline {section}{\numberline {6.4}Application to blood plasma componenents}{76}{section.6.4}
 \contentsline {section}{\numberline {6.5}Protein-coated low-density nanoparticles}{80}{section.6.5}
 \contentsline {subsection}{\numberline {6.5.1}Hard protein corona characterization with contrast variation}{82}{subsection.6.5.1}
 \contentsline {subsubsection}{Uncertainty analysis}{84}{section*.75}
-\contentsline {section}{\numberline {6.6}Summary}{85}{section.6.6}
+\contentsline {section}{\numberline {6.6}Summary}{84}{section.6.6}
 \contentsline {subsubsection}{Conclusion from protein-coated Kisker}{85}{section*.77}
