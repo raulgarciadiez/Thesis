@@ -1,4 +1,4 @@
-\begin{thebibliography}{155}
+\begin{thebibliography}{156}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 
 \bibitem[Arnold {\em et~al.\/}(2006)Arnold, Green, Hulvat, Stupp \&
@@ -152,6 +152,10 @@
 {\sc Coombs, S.~H.} 1981 {A density-gradient column for determining the
   specific gravity of fish eggs, with particular reference to eggs of the
   mackerel Scomber scombrus}. {\em {Mar. Biol.}\/} {\bf {63}}, 101--106.
+
+\bibitem[Cullity \& Stock(2001)]{cullity_elements_2001}
+{\sc Cullity, B.~D. \& Stock, S.~R.} 2001 {\em Elements of {{X-Ray
+  Diffraction}}\/}, 3rd edn. Upper Saddle River, NJ: {Pearson}.
 
 \bibitem[{de Gier}(1993)]{de_gier_osmotic_1993}
 {\sc {de Gier}, J.} 1993 Osmotic behaviour and permeability properties of

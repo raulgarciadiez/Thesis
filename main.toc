@@ -88,22 +88,20 @@
 \contentsline {section}{\numberline {6.1}Materials and methods}{54}{section.6.1}
 \contentsline {subsection}{\numberline {6.1.1}Caelyx: PEGylated liposomal doxorubicin}{54}{subsection.6.1.1}
 \contentsline {subsection}{\numberline {6.1.2}Lipid vesicles: PEGylated and plain liposomes}{56}{subsection.6.1.2}
-\contentsline {subsubsection}{DLS size measurements}{57}{section*.52}
 \contentsline {subsection}{\numberline {6.1.3}PS-COOH particles coated with IgG}{57}{subsection.6.1.3}
-\contentsline {subsection}{\numberline {6.1.4}Lipoproteins}{58}{subsection.6.1.4}
-\contentsline {subsubsection}{Lipoprotein, High density (HDL)}{58}{section*.53}
-\contentsline {subsubsection}{Lipoprotien, Low density (LDL)}{58}{section*.54}
+\contentsline {subsection}{\numberline {6.1.4}Lipoproteins}{57}{subsection.6.1.4}
+\contentsline {subsubsection}{Lipoprotein, High density (HDL)}{57}{section*.52}
+\contentsline {subsubsection}{Lipoprotien, Low density (LDL)}{57}{section*.53}
 \contentsline {section}{\numberline {6.2}Traceable size determination of a liposomal drug}{58}{section.6.2}
-\contentsline {subsection}{\numberline {6.2.1}Isoscattering point approach}{61}{subsection.6.2.1}
-\contentsline {subsection}{\numberline {6.2.2}Shape factor calculation}{62}{subsection.6.2.2}
-\contentsline {subsection}{\numberline {6.2.3}Average electron density}{63}{subsection.6.2.3}
-\contentsline {subsection}{\numberline {6.2.4}Summary}{63}{subsection.6.2.4}
-\contentsline {section}{\numberline {6.3}Osmotic effects in liposomes}{64}{section.6.3}
-\contentsline {subsection}{\numberline {6.3.1}Application to drug-stabilized liposomes}{66}{subsection.6.3.1}
-\contentsline {subsection}{\numberline {6.3.2}Does PEGylation affect the osmotic activity of liposomes?}{69}{subsection.6.3.2}
-\contentsline {section}{\numberline {6.4}Application to blood plasma componenents}{76}{section.6.4}
-\contentsline {section}{\numberline {6.5}Protein-coated low-density nanoparticles}{80}{section.6.5}
-\contentsline {subsection}{\numberline {6.5.1}Hard protein corona characterization with contrast variation}{82}{subsection.6.5.1}
-\contentsline {subsubsection}{Uncertainty analysis}{84}{section*.75}
-\contentsline {section}{\numberline {6.6}Summary}{84}{section.6.6}
-\contentsline {subsubsection}{Conclusion from protein-coated Kisker}{85}{section*.77}
+\contentsline {subsection}{\numberline {6.2.1}Isoscattering point approach}{60}{subsection.6.2.1}
+\contentsline {subsection}{\numberline {6.2.2}Shape factor calculation}{61}{subsection.6.2.2}
+\contentsline {subsection}{\numberline {6.2.3}Average electron density}{62}{subsection.6.2.3}
+\contentsline {section}{\numberline {6.3}Osmotic effects in liposomes}{63}{section.6.3}
+\contentsline {subsection}{\numberline {6.3.1}Application to drug-stabilized liposomes}{65}{subsection.6.3.1}
+\contentsline {subsection}{\numberline {6.3.2}Does PEGylation affect the osmotic activity of liposomes?}{68}{subsection.6.3.2}
+\contentsline {section}{\numberline {6.4}Application to blood plasma componenents}{75}{section.6.4}
+\contentsline {section}{\numberline {6.5}Protein-coated low-density nanoparticles}{79}{section.6.5}
+\contentsline {subsection}{\numberline {6.5.1}Hard protein corona characterization with contrast variation}{81}{subsection.6.5.1}
+\contentsline {subsubsection}{Uncertainty analysis}{82}{section*.74}
+\contentsline {section}{\numberline {6.6}Summary}{83}{section.6.6}
+\contentsline {subsubsection}{Conclusion from protein-coated Kisker}{84}{section*.76}
