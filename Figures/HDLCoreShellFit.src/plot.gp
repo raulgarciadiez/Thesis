@@ -10,8 +10,8 @@ set xtics (0.3,0.5,1, 3, 5)
 N=1.e16
 
 
-unset key 
+#unset key 
 
-p 'hdlfit.dat' u 1:($2/N) w p ls 1, '' u 1:($3/N) w l ls 2
+p 'hdlfit.dat' u 1:($2/N) w p ls 1 t 'Experimental', '' u 1:($3/N) w l ls 2 t 'Model Fit'
 
 

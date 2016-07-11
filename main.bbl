@@ -1,4 +1,4 @@
-\begin{thebibliography}{156}
+\begin{thebibliography}{157}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 
 \bibitem[Arnold {\em et~al.\/}(2006)Arnold, Green, Hulvat, Stupp \&
@@ -269,6 +269,13 @@
   characterization by continuous contrast variation in small-angle {{X}}-ray
   scattering with a solvent density gradient. {\em Journal of Applied
   Crystallography\/} {\bf 48}, 20--28.
+
+\bibitem[Garcia-Diez {\em et~al.\/}(2016)Garcia-Diez, Gollwitzer, Krumrey \&
+  Varga]{garcia-diez_size_2016}
+{\sc Garcia-Diez, R., Gollwitzer, C., Krumrey, M. \& Varga, Z.} 2016 Size
+  {{Determination}} of a {{Liposomal Drug}} by {{Small-Angle X}}-ray
+  {{Scattering Using Continuous Contrast Variation}}. {\em Langmuir\/} {\bf
+  32}, 772--778.
 
 \bibitem[{Gardner CD} {\em et~al.\/}(1996){Gardner CD}, {Fortmann SP} \&
   {Krauss RM}]{gardner_cd_association_1996}
