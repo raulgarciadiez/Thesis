@@ -102,4 +102,5 @@
 \contentsline {subsection}{\numberline {6.5.1}Hard protein corona characterization with contrast variation}{80}{subsection.6.5.1}
 \contentsline {subsubsection}{Uncertainty analysis}{82}{section*.71}
 \contentsline {section}{\numberline {6.6}Summary}{83}{section.6.6}
-\contentsline {subsubsection}{Conclusion from protein-coated Kisker}{83}{section*.73}
+\contentsline {subsubsection}{Lipoproteins}{84}{section*.73}
+\contentsline {subsubsection}{Conclusion from protein-coated Kisker}{84}{section*.74}
