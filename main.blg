@@ -32,53 +32,48 @@ Warning--I didn't find a database entry for "Guinier1955"
 Warning--I didn't find a database entry for "Feigin1987"
 Warning--I didn't find a database entry for "Stuhrmann2008"
 Warning--I didn't find a database entry for "Avdeev2007"
-Warning--I didn't find a database entry for "Krumrey2001"
-Warning--I didn't find a database entry for "Henke1993"
-Warning--I didn't find a database entry for "Wernecke2014"
-Warning--I didn't find a database entry for "Haynes2012"
-Warning--I didn't find a database entry for "Pedersen1997"
 `number' is a missing field, not a string, for entry dingenouts_analysis_1999
 while executing---line 3135 of file meinbst.bst
 Warning--can't use both author and editor fields in feigin_structure_1987
-You've used 140 entries,
+You've used 145 entries,
             2851 wiz_defined-function locations,
-            1462 strings with 36118 characters,
-and the built_in function-call counts, 79280 in all, are:
-= -- 7472
-> -- 4759
-< -- 47
-+ -- 1853
-- -- 1678
-* -- 7806
-:= -- 14362
-add.period$ -- 281
-call.type$ -- 140
-change.case$ -- 1264
-chr.to.int$ -- 142
-cite$ -- 141
-duplicate$ -- 3059
-empty$ -- 5136
-format.name$ -- 1866
-if$ -- 15240
-int.to.chr$ -- 8
+            1475 strings with 36734 characters,
+and the built_in function-call counts, 81775 in all, are:
+= -- 7724
+> -- 4860
+< -- 53
++ -- 1893
+- -- 1711
+* -- 8039
+:= -- 14794
+add.period$ -- 291
+call.type$ -- 145
+change.case$ -- 1301
+chr.to.int$ -- 154
+cite$ -- 146
+duplicate$ -- 3173
+empty$ -- 5322
+format.name$ -- 1906
+if$ -- 15741
+int.to.chr$ -- 10
 int.to.str$ -- 1
-missing$ -- 142
-newline$ -- 424
-num.names$ -- 562
-pop$ -- 994
+missing$ -- 148
+newline$ -- 439
+num.names$ -- 582
+pop$ -- 1020
 preamble$ -- 1
-purify$ -- 1119
+purify$ -- 1150
 quote$ -- 0
-skip$ -- 1721
+skip$ -- 1785
 stack$ -- 0
-substring$ -- 4872
-swap$ -- 707
+substring$ -- 5040
+swap$ -- 742
 text.length$ -- 3
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 1251
+type$ -- 1293
 warning$ -- 1
-while$ -- 686
+while$ -- 710
 width$ -- 0
-write$ -- 1542
+write$ -- 1597
 (There were 3 error messages)

@@ -1,4 +1,4 @@
-\begin{thebibliography}{140}
+\begin{thebibliography}{145}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 
 \bibitem[Arnold {\em et~al.\/}(2006)Arnold, Green, Hulvat, Stupp \&
@@ -315,6 +315,16 @@
   CHEMICAL COMPOSITION OF ULTRACENTRIFUGALLY SEPARATED LIPOPROTEINS IN HUMAN
   SERUM}}. {\em J Clin Invest\/} {\bf 34}, 1345--1353.
 
+\bibitem[Haynes(2012)]{haynes_crc_2012}
+{\sc Haynes, W.~M.} 2012 {\em {{CRC Handbook}} of {{Chemistry}} and
+  {{Physics}}\/}, 93rd edn. Philadelphia: {Taylor \& Francis Ltd.}
+
+\bibitem[Henke {\em et~al.\/}(1993)Henke, Gullikson \& Davis]{henke_x-ray_1993}
+{\sc Henke, B., Gullikson, E. \& Davis, J.} 1993 X-{{Ray Interactions}}:
+  {{Photoabsorption}}, {{Scattering}}, {{Transmission}}, and {{Reflection}} at
+  {{E}} = 50-30,000 {{eV}}, {{Z}} = 1-92. {\em Atom. Data Nucl. Data\/} {\bf
+  54}, 181--342.
+
 \bibitem[Hinton \& Dobrota(1978)]{hinton_density_1978}
 {\sc Hinton, R.~J. \& Dobrota, M.} 1978 {\em Density {{Gradient
   Centrifugation}}\/}. Amsterdam: {Elsevier}.
@@ -429,11 +439,19 @@
   Ollivon, M. \& Neubert, R.} 2003 Does sucrose influence the properties of
   {{DMPC}} vesicles? {\em Chemistry and Physics of Lipids\/} {\bf 123}, 31--44.
 
-\bibitem[Krumrey \& Ulm(2001)]{krumrey_high-accuracy_2001}
-{\sc Krumrey, M. \& Ulm, G.} 2001 High-accuracy detector calibration at the
-  {{PTB}} four-crystal monochromator beamline. {\em Nuclear Instruments and
-  Methods in Physics Research Section A: Accelerators, Spectrometers, Detectors
-  and Associated Equipment\/} {\bf 467\textendash{}468, Part 2}, 1175--1178.
+\bibitem[Krumrey \& Ulm(2001{\natexlab{{\em
+  a\/}}})]{krumrey_high-accuracy_2001-2}
+{\sc Krumrey, M. \& Ulm, G.} 2001{\natexlab{{\em a\/}}} High-accuracy detector
+  calibration at the {{PTB}} four-crystal monochromator beamline. {\em Nucl
+  Instrum Meth A\/} {\bf 467\textendash{}468}, 1175--1178.
+
+\bibitem[Krumrey \& Ulm(2001{\natexlab{{\em
+  b\/}}})]{krumrey_high-accuracy_2001}
+{\sc Krumrey, M. \& Ulm, G.} 2001{\natexlab{{\em b\/}}} High-accuracy detector
+  calibration at the {{PTB}} four-crystal monochromator beamline. {\em Nuclear
+  Instruments and Methods in Physics Research Section A: Accelerators,
+  Spectrometers, Detectors and Associated Equipment\/} {\bf
+  467\textendash{}468, Part 2}, 1175--1178.
 
 \bibitem[Ku{\v c}erka {\em et~al.\/}(2006)Ku{\v c}erka, Tristram-Nagle \&
   Nagle]{kucerka_structure_2006}
@@ -638,6 +656,11 @@
   scattering data for systems with effective hard-sphere interactions. {\em J.
   Appl. Cryst.\/} {\bf 27}, 595--608.
 
+\bibitem[Pedersen(1997)]{pedersen_analysis_1997}
+{\sc Pedersen, J.~S.} 1997 Analysis of small-angle scattering data from
+  colloids and polymer solutions: modeling and least-squares fitting. {\em Adv.
+  Colloid Interfac.\/} {\bf 70}, 171--210.
+
 \bibitem[Powers {\em et~al.\/}(2006)Powers, Brown, Krishna, Wasdo, Moudgil \&
   Roberts]{powers_research_2006}
 {\sc Powers, K.~W., Brown, S.~C., Krishna, V.~B., Wasdo, S.~C., Moudgil, B.~M.
@@ -816,11 +839,17 @@
 {\sc Wang, A.~Z., Langer, R. \& Farokhzad, O.~C.} 2012 Nanoparticle
   {{Delivery}} of {{Cancer Drugs}}. {\em Annu Rev Med\/} {\bf 63}, 185--198.
 
-\bibitem[Wernecke {\em et~al.\/}(2014)Wernecke, Gollwitzer, M{\"u}ller \&
-  Krumrey]{wernecke_characterization_2014-1}
-{\sc Wernecke, J., Gollwitzer, C., M{\"u}ller, P. \& Krumrey, M.} 2014
-  Characterization of an in-vacuum {{PILATUS 1M}} detector. {\em Journal of
-  Synchrotron Radiation\/} {\bf 21}, 529--536.
+\bibitem[Wernecke {\em et~al.\/}(2014{\natexlab{{\em a\/}}})Wernecke,
+  Gollwitzer, M{\"u}ller \& Krumrey]{wernecke_characterization_2014}
+{\sc Wernecke, J., Gollwitzer, C., M{\"u}ller, P. \& Krumrey, M.}
+  2014{\natexlab{{\em a\/}}} Characterization of an in-vacuum {{PILATUS 1M}}
+  detector. {\em J Synchrotron Radiat\/} {\bf 21}, 529--536.
+
+\bibitem[Wernecke {\em et~al.\/}(2014{\natexlab{{\em b\/}}})Wernecke,
+  Gollwitzer, M{\"u}ller \& Krumrey]{wernecke_characterization_2014-1}
+{\sc Wernecke, J., Gollwitzer, C., M{\"u}ller, P. \& Krumrey, M.}
+  2014{\natexlab{{\em b\/}}} Characterization of an in-vacuum {{PILATUS 1M}}
+  detector. {\em Journal of Synchrotron Radiation\/} {\bf 21}, 529--536.
 
 \bibitem[Wickline \& Lanza(2003)]{wickline_nanotechnology_2003}
 {\sc Wickline, S.~A. \& Lanza, G.~M.} 2003 Nanotechnology for {{Molecular
