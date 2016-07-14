@@ -11,57 +11,74 @@ A level-1 auxiliary file: chapter_simultaneous_size_density.aux
 A level-1 auxiliary file: chapter_bio_applications.aux
 Database file #1: thesis.bib
 Warning--entry type for "fitzpatrick_structure_1998" isn't style-file defined
---line 1800 of file thesis.bib
+--line 2117 of file thesis.bib
 Database file #2: main.bib
+Repeated entry---line 28 of file main.bib
+ : @article{ballauff_saxs_2001-1
+ :                              ,
+I'm skipping whatever remains of this entry
 Repeated entry---line 87 of file main.bib
  : @article{colhoun_lipoprotein_2002
  :                                  ,
 I'm skipping whatever remains of this entry
-Database file #3: iucr.bib
-`number' is a missing field, not a string, for entry Dingenouts1999
-while executing---line 3135 of file meinbst.bst
+Warning--I didn't find a database entry for "Stuhrmann1965"
+Warning--I didn't find a database entry for "Stuhrmann1967"
+Warning--I didn't find a database entry for "Kawaguchi1992"
+Warning--I didn't find a database entry for "Beurten1981"
+Warning--I didn't find a database entry for "Mertens2010"
+Warning--I didn't find a database entry for "Sim2012"
+Warning--I didn't find a database entry for "Guinier1939"
+Warning--I didn't find a database entry for "Guinier1955"
+Warning--I didn't find a database entry for "Feigin1987"
+Warning--I didn't find a database entry for "Stuhrmann2008"
+Warning--I didn't find a database entry for "Avdeev2007"
+Warning--I didn't find a database entry for "Krumrey2001"
+Warning--I didn't find a database entry for "Henke1993"
+Warning--I didn't find a database entry for "Wernecke2014"
+Warning--I didn't find a database entry for "Haynes2012"
+Warning--I didn't find a database entry for "Pedersen1997"
 `number' is a missing field, not a string, for entry dingenouts_analysis_1999
 while executing---line 3135 of file meinbst.bst
-Warning--can't use both author and editor fields in Feigin1987
-You've used 157 entries,
+Warning--can't use both author and editor fields in feigin_structure_1987
+You've used 140 entries,
             2851 wiz_defined-function locations,
-            1574 strings with 39366 characters,
-and the built_in function-call counts, 88021 in all, are:
-= -- 8339
-> -- 5160
-< -- 61
-+ -- 2005
-- -- 1814
-* -- 8667
-:= -- 15900
-add.period$ -- 316
-call.type$ -- 157
-change.case$ -- 1396
-chr.to.int$ -- 159
-cite$ -- 158
-duplicate$ -- 3428
-empty$ -- 5773
-format.name$ -- 2031
-if$ -- 16975
-int.to.chr$ -- 17
+            1462 strings with 36118 characters,
+and the built_in function-call counts, 79280 in all, are:
+= -- 7472
+> -- 4759
+< -- 47
++ -- 1853
+- -- 1678
+* -- 7806
+:= -- 14362
+add.period$ -- 281
+call.type$ -- 140
+change.case$ -- 1264
+chr.to.int$ -- 142
+cite$ -- 141
+duplicate$ -- 3059
+empty$ -- 5136
+format.name$ -- 1866
+if$ -- 15240
+int.to.chr$ -- 8
 int.to.str$ -- 1
-missing$ -- 161
-newline$ -- 475
-num.names$ -- 632
-pop$ -- 1086
+missing$ -- 142
+newline$ -- 424
+num.names$ -- 562
+pop$ -- 994
 preamble$ -- 1
-purify$ -- 1232
+purify$ -- 1119
 quote$ -- 0
-skip$ -- 1920
+skip$ -- 1721
 stack$ -- 0
-substring$ -- 5433
-swap$ -- 823
-text.length$ -- 4
+substring$ -- 4872
+swap$ -- 707
+text.length$ -- 3
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 1398
+type$ -- 1251
 warning$ -- 1
-while$ -- 769
+while$ -- 686
 width$ -- 0
-write$ -- 1729
+write$ -- 1542
 (There were 3 error messages)
