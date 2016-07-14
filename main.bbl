@@ -1,4 +1,4 @@
-\begin{thebibliography}{145}
+\begin{thebibliography}{144}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 
 \bibitem[Arnold {\em et~al.\/}(2006)Arnold, Green, Hulvat, Stupp \&
@@ -12,17 +12,10 @@
   density lipoproteins. {\em Proceedings of the National Academy of Sciences\/}
   {\bf 71}, 989--993.
 
-\bibitem[Avdeev(2007{\natexlab{{\em a\/}}})]{avdeev_contrast_2007-1}
-{\sc Avdeev, M.~V.} 2007{\natexlab{{\em a\/}}} Contrast variation in
-  small-angle scattering experiments on polydisperse and superparamagnetic
-  systems: basic functions approach. {\em J Appl Crystallogr\/} {\bf 40},
-  56--70.
-
-\bibitem[Avdeev(2007{\natexlab{{\em b\/}}})]{avdeev_contrast_2007}
-{\sc Avdeev, M.~V.} 2007{\natexlab{{\em b\/}}} Contrast variation in
-  small-angle scattering experiments on polydisperse and superparamagnetic
-  systems: basic functions approach. {\em Journal of Applied Crystallography\/}
-  {\bf 40}, 56--70.
+\bibitem[Avdeev(2007)]{avdeev_contrast_2007}
+{\sc Avdeev, M.~V.} 2007 Contrast variation in small-angle scattering
+  experiments on polydisperse and superparamagnetic systems: basic functions
+  approach. {\em Journal of Applied Crystallography\/} {\bf 40}, 56--70.
 
 \bibitem[Ballauff(2001)]{ballauff_saxs_2001-1}
 {\sc Ballauff, M.} 2001 {{SAXS}} and {{SANS}} studies of polymer colloids. {\em
@@ -294,6 +287,15 @@
   latex particles with core-shell morphology. {\em Colloid Polym Sci\/} {\bf
   271}, 563--572.
 
+\bibitem[Guinier(1939)]{guinier_diffraction_1939}
+{\sc Guinier, A.} 1939 Diffraction of {{X}}-rays of very small
+  angles-application to the study of ultramicroscopic phenomena. {\em Ann.
+  Phys.(Paris)\/} {\bf 12}, 161--237.
+
+\bibitem[Guinier \& Fournet(1955)]{guinier_small-angle_1955}
+{\sc Guinier, A. \& Fournet, G.} 1955 {\em Small-angle scattering of
+  {{X}}-rays\/}. New York: {Wiley}.
+
 \bibitem[Guterres {\em et~al.\/}(2007)Guterres, Alves \&
   Pohlmann]{guterres_polymeric_2007}
 {\sc Guterres, S.~S., Alves, M.~P. \& Pohlmann, A.~R.} 2007 Polymeric
@@ -377,19 +379,11 @@
   globular solute structures. {\em Crystallography Reviews\/} {\bf 10},
   233--246.
 
-\bibitem[Kawaguchi \& Hamanaka(1992{\natexlab{{\em
-  a\/}}})]{kawaguchi_isoscattering_1992-1}
-{\sc Kawaguchi, T. \& Hamanaka, T.} 1992{\natexlab{{\em a\/}}} The
-  isoscattering point in {{X}}-ray scattering curves of globular solute
-  particles measured by the contrast-variation method. {\em J Appl
-  Crystallogr\/} {\bf 25}, 778--784.
-
-\bibitem[Kawaguchi \& Hamanaka(1992{\natexlab{{\em
-  b\/}}})]{kawaguchi_isoscattering_1992}
-{\sc Kawaguchi, T. \& Hamanaka, T.} 1992{\natexlab{{\em b\/}}} The
-  isoscattering point in {{X}}-ray scattering curves of globular solute
-  particles measured by the contrast-variation method. {\em Journal of Applied
-  Crystallography\/} {\bf 25}, 778--784.
+\bibitem[Kawaguchi \& Hamanaka(1992)]{kawaguchi_isoscattering_1992}
+{\sc Kawaguchi, T. \& Hamanaka, T.} 1992 The isoscattering point in {{X}}-ray
+  scattering curves of globular solute particles measured by the
+  contrast-variation method. {\em Journal of Applied Crystallography\/} {\bf
+  25}, 778--784.
 
 \bibitem[Kawaguchi {\em et~al.\/}(1983)Kawaguchi, Hamanaka \&
   Mitsui]{kawaguchi_x-ray_1983-1}
@@ -419,16 +413,9 @@
   Journal of Alloys and Compounds\/} {\bf 328}, 71--76.
 
 \bibitem[Kiselev {\em et~al.\/}(2001{\natexlab{{\em b\/}}})Kiselev, Lesieur,
-  Kisselev, Lombardo, Killany, Lesieur \& Ollivon]{kiselev_sucrose_2001-2}
-{\sc Kiselev, M.~A., Lesieur, P., Kisselev, A.~M., Lombardo, D., Killany, M.,
-  Lesieur, S. \& Ollivon, M.} 2001{\natexlab{{\em b\/}}} A sucrose solutions
-  application to the study of model biological membranes. {\em Nucl. Instrum.
-  Meth. A\/} {\bf 470}, 409--416.
-
-\bibitem[Kiselev {\em et~al.\/}(2001{\natexlab{{\em c\/}}})Kiselev, Lesieur,
   Kisselev, Lombardo, Killany, Lesieur \& Ollivon]{kiselev_sucrose_2001}
 {\sc Kiselev, M.~A., Lesieur, P., Kisselev, A.~M., Lombardo, D., Killany, M.,
-  Lesieur, S. \& Ollivon, M.} 2001{\natexlab{{\em c\/}}} A sucrose solutions
+  Lesieur, S. \& Ollivon, M.} 2001{\natexlab{{\em b\/}}} A sucrose solutions
   application to the study of model biological membranes. {\em Nuclear
   Instruments and Methods in Physics Research Section A: Accelerators,
   Spectrometers, Detectors and Associated Equipment\/} {\bf 470}, 409--416.
@@ -439,19 +426,11 @@
   Ollivon, M. \& Neubert, R.} 2003 Does sucrose influence the properties of
   {{DMPC}} vesicles? {\em Chemistry and Physics of Lipids\/} {\bf 123}, 31--44.
 
-\bibitem[Krumrey \& Ulm(2001{\natexlab{{\em
-  a\/}}})]{krumrey_high-accuracy_2001-2}
-{\sc Krumrey, M. \& Ulm, G.} 2001{\natexlab{{\em a\/}}} High-accuracy detector
-  calibration at the {{PTB}} four-crystal monochromator beamline. {\em Nucl
-  Instrum Meth A\/} {\bf 467\textendash{}468}, 1175--1178.
-
-\bibitem[Krumrey \& Ulm(2001{\natexlab{{\em
-  b\/}}})]{krumrey_high-accuracy_2001}
-{\sc Krumrey, M. \& Ulm, G.} 2001{\natexlab{{\em b\/}}} High-accuracy detector
-  calibration at the {{PTB}} four-crystal monochromator beamline. {\em Nuclear
-  Instruments and Methods in Physics Research Section A: Accelerators,
-  Spectrometers, Detectors and Associated Equipment\/} {\bf
-  467\textendash{}468, Part 2}, 1175--1178.
+\bibitem[Krumrey \& Ulm(2001)]{krumrey_high-accuracy_2001}
+{\sc Krumrey, M. \& Ulm, G.} 2001 High-accuracy detector calibration at the
+  {{PTB}} four-crystal monochromator beamline. {\em Nuclear Instruments and
+  Methods in Physics Research Section A: Accelerators, Spectrometers, Detectors
+  and Associated Equipment\/} {\bf 467\textendash{}468, Part 2}, 1175--1178.
 
 \bibitem[Ku{\v c}erka {\em et~al.\/}(2006)Ku{\v c}erka, Tristram-Nagle \&
   Nagle]{kucerka_structure_2006}
@@ -538,21 +517,17 @@
   comparison among {{European}} metrology institutes. {\em Meas. Sci.
   Technol.\/} {\bf 23}, 125005.
 
-\bibitem[Minelli {\em et~al.\/}(2014{\natexlab{{\em a\/}}})Minelli,
-  Garcia-Diez, Sikora, Gollwitzer, Krumrey \&
-  Shard]{minelli_characterization_2014-1}
-{\sc Minelli, C., Garcia-Diez, R., Sikora, A.~E., Gollwitzer, C., Krumrey, M.
-  \& Shard, A.~G.} 2014{\natexlab{{\em a\/}}} Characterization of
-  {{IgG}}-protein-coated polymeric nanoparticles using complementary particle
-  sizing techniques. {\em Surf Interface Anal\/} {\bf 46}, 663--667.
+\bibitem[Mertens \& Svergun(2010)]{mertens_structural_2010}
+{\sc Mertens, H.~D. \& Svergun, D.~I.} 2010 Structural characterization of
+  proteins and complexes using small-angle {{X}}-ray solution scattering. {\em
+  J. Struc. Biol.\/} {\bf 172}, 128--141.
 
-\bibitem[Minelli {\em et~al.\/}(2014{\natexlab{{\em b\/}}})Minelli,
-  Garcia-Diez, Sikora, Gollwitzer, Krumrey \&
-  Shard]{minelli_characterization_2014}
+\bibitem[Minelli {\em et~al.\/}(2014)Minelli, Garcia-Diez, Sikora, Gollwitzer,
+  Krumrey \& Shard]{minelli_characterization_2014}
 {\sc Minelli, C., Garcia-Diez, R., Sikora, A.~E., Gollwitzer, C., Krumrey, M.
-  \& Shard, A.~G.} 2014{\natexlab{{\em b\/}}} Characterization of
-  {{IgG}}-protein-coated polymeric nanoparticles using complementary particle
-  sizing techniques. {\em Surf. Interface Anal.\/} {\bf 46}, 663--667.
+  \& Shard, A.~G.} 2014 Characterization of {{IgG}}-protein-coated polymeric
+  nanoparticles using complementary particle sizing techniques. {\em Surf.
+  Interface Anal.\/} {\bf 46}, 663--667.
 
 \bibitem[Mitragotri \& Lahann(2009)]{mitragotri_physical_2009}
 {\sc Mitragotri, S. \& Lahann, J.} 2009 Physical approaches to biomaterial
@@ -705,6 +680,13 @@
   polyacrylate/polystyrene two-stage latices. {\em Polymer\/} {\bf 30},
   416--424.
 
+\bibitem[Sim {\em et~al.\/}(2012)Sim, Lipfert, Herschlag \&
+  Doniach]{sim_salt_2012}
+{\sc Sim, A. Y.~L., Lipfert, J., Herschlag, D. \& Doniach, S.} 2012 Salt
+  dependence of the radius of gyration and flexibility of single-stranded
+  {{DNA}} in solution probed by small-angle x-ray scattering. {\em Phys. Rev.
+  E\/} {\bf 86}, 021901.
+
 \bibitem[Soppimath {\em et~al.\/}(2001)Soppimath, Aminabhavi, Kulkarni \&
   Rudzinski]{soppimath_biodegradable_2001}
 {\sc Soppimath, K.~S., Aminabhavi, T.~M., Kulkarni, A.~R. \& Rudzinski, W.~E.}
@@ -800,6 +782,11 @@
 {\sc Uedaira, H. \& Uedaira, H.} 1985 Sugar-water interaction from diffusion
   measurements. {\em J. Solution. Chem.\/} {\bf 14}, 27--34.
 
+\bibitem[{van Beurten} \& Vrij(1981)]{beurten_polydispersity_1981}
+{\sc {van Beurten}, P. \& Vrij, A.} 1981 Polydispersity effects in the
+  small-angle scattering of concentrated solutions of colloidal spheres. {\em
+  J. Chem. Phys.\/} {\bf 74}, 2744--2748.
+
 \bibitem[Varga {\em et~al.\/}(2014)Varga, Wacha \&
   B{\'o}ta]{varga_osmotic_2014}
 {\sc Varga, Z., Wacha, A. \& B{\'o}ta, A.} 2014 Osmotic shrinkage of sterically
@@ -839,17 +826,11 @@
 {\sc Wang, A.~Z., Langer, R. \& Farokhzad, O.~C.} 2012 Nanoparticle
   {{Delivery}} of {{Cancer Drugs}}. {\em Annu Rev Med\/} {\bf 63}, 185--198.
 
-\bibitem[Wernecke {\em et~al.\/}(2014{\natexlab{{\em a\/}}})Wernecke,
-  Gollwitzer, M{\"u}ller \& Krumrey]{wernecke_characterization_2014}
-{\sc Wernecke, J., Gollwitzer, C., M{\"u}ller, P. \& Krumrey, M.}
-  2014{\natexlab{{\em a\/}}} Characterization of an in-vacuum {{PILATUS 1M}}
-  detector. {\em J Synchrotron Radiat\/} {\bf 21}, 529--536.
-
-\bibitem[Wernecke {\em et~al.\/}(2014{\natexlab{{\em b\/}}})Wernecke,
-  Gollwitzer, M{\"u}ller \& Krumrey]{wernecke_characterization_2014-1}
-{\sc Wernecke, J., Gollwitzer, C., M{\"u}ller, P. \& Krumrey, M.}
-  2014{\natexlab{{\em b\/}}} Characterization of an in-vacuum {{PILATUS 1M}}
-  detector. {\em Journal of Synchrotron Radiation\/} {\bf 21}, 529--536.
+\bibitem[Wernecke {\em et~al.\/}(2014)Wernecke, Gollwitzer, M{\"u}ller \&
+  Krumrey]{wernecke_characterization_2014}
+{\sc Wernecke, J., Gollwitzer, C., M{\"u}ller, P. \& Krumrey, M.} 2014
+  Characterization of an in-vacuum {{PILATUS 1M}} detector. {\em J Synchrotron
+  Radiat\/} {\bf 21}, 529--536.
 
 \bibitem[Wickline \& Lanza(2003)]{wickline_nanotechnology_2003}
 {\sc Wickline, S.~A. \& Lanza, G.~M.} 2003 Nanotechnology for {{Molecular

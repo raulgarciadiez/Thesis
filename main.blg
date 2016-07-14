@@ -12,68 +12,48 @@ A level-1 auxiliary file: chapter_bio_applications.aux
 Database file #1: thesis.bib
 Warning--entry type for "fitzpatrick_structure_1998" isn't style-file defined
 --line 2117 of file thesis.bib
-Database file #2: main.bib
-Repeated entry---line 28 of file main.bib
- : @article{ballauff_saxs_2001-1
- :                              ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 87 of file main.bib
- : @article{colhoun_lipoprotein_2002
- :                                  ,
-I'm skipping whatever remains of this entry
-Warning--I didn't find a database entry for "Stuhrmann1965"
-Warning--I didn't find a database entry for "Stuhrmann1967"
-Warning--I didn't find a database entry for "Kawaguchi1992"
-Warning--I didn't find a database entry for "Beurten1981"
-Warning--I didn't find a database entry for "Mertens2010"
-Warning--I didn't find a database entry for "Sim2012"
-Warning--I didn't find a database entry for "Guinier1939"
-Warning--I didn't find a database entry for "Guinier1955"
-Warning--I didn't find a database entry for "Feigin1987"
-Warning--I didn't find a database entry for "Stuhrmann2008"
-Warning--I didn't find a database entry for "Avdeev2007"
 `number' is a missing field, not a string, for entry dingenouts_analysis_1999
 while executing---line 3135 of file meinbst.bst
 Warning--can't use both author and editor fields in feigin_structure_1987
-You've used 145 entries,
+You've used 144 entries,
             2851 wiz_defined-function locations,
-            1475 strings with 36734 characters,
-and the built_in function-call counts, 81775 in all, are:
-= -- 7724
-> -- 4860
-< -- 53
-+ -- 1893
-- -- 1711
-* -- 8039
-:= -- 14794
-add.period$ -- 291
-call.type$ -- 145
-change.case$ -- 1301
-chr.to.int$ -- 154
-cite$ -- 146
-duplicate$ -- 3173
-empty$ -- 5322
-format.name$ -- 1906
-if$ -- 15741
-int.to.chr$ -- 10
+            1469 strings with 37035 characters,
+and the built_in function-call counts, 80756 in all, are:
+= -- 7639
+> -- 4770
+< -- 54
++ -- 1849
+- -- 1678
+* -- 7883
+:= -- 14616
+add.period$ -- 289
+call.type$ -- 144
+change.case$ -- 1284
+chr.to.int$ -- 159
+cite$ -- 145
+duplicate$ -- 3147
+empty$ -- 5283
+format.name$ -- 1874
+if$ -- 15570
+int.to.chr$ -- 4
 int.to.str$ -- 1
 missing$ -- 148
-newline$ -- 439
-num.names$ -- 582
-pop$ -- 1020
+newline$ -- 436
+num.names$ -- 578
+pop$ -- 1021
 preamble$ -- 1
-purify$ -- 1150
+purify$ -- 1135
 quote$ -- 0
-skip$ -- 1785
+skip$ -- 1789
 stack$ -- 0
-substring$ -- 5040
-swap$ -- 742
+substring$ -- 4974
+swap$ -- 713
 text.length$ -- 3
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 1293
+type$ -- 1281
 warning$ -- 1
-while$ -- 710
+while$ -- 702
 width$ -- 0
-write$ -- 1597
-(There were 3 error messages)
+write$ -- 1585
+(There was 1 error message)
