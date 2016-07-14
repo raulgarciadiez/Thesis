@@ -34,15 +34,15 @@
   Eng. Mater.}\/} {\bf {13}}, 793--802.
 
 \bibitem[Ballauff(2011{\natexlab{{\em b\/}}})]{ballauff_analysis_2011}
-{\sc Ballauff, M.} 2011{\natexlab{{\em b\/}}} Analysis of {Polymer} {Colloids}
-  by {Small}-{Angle} {X}-{Ray} and {Neutron} {Scattering}: {Contrast}
-  {Variation}. {\em Adv {Eng} {Mater}\/} {\bf 13}, 793--802.
+{\sc Ballauff, M.} 2011{\natexlab{{\em b\/}}} Analysis of {{Polymer Colloids}}
+  by {{Small-Angle X-Ray}} and {{Neutron Scattering}}: {{Contrast Variation}}.
+  {\em Adv Eng Mater\/} {\bf 13}, 793--802.
 
-\bibitem[Ballauff {\em et~al.\/}(1996)Ballauff, {Bolze}, {Dingenouts}, {Hickl}
-  \& {P}{\"o}tschke]{ballauff_smallangle_1996}
-{\sc Ballauff, M., {Bolze}, J., {Dingenouts}, N., {Hickl}, P. \&
-  {P}{\"o}tschke, D.} 1996 Small-angle {X}-ray scattering on latexes. {\em
-  Macromol {Chem} {Phys}\/} {\bf 197}, 3043--3066.
+\bibitem[Ballauff {\em et~al.\/}(1996)Ballauff, Bolze, Dingenouts, Hickl \&
+  P{\"o}tschke]{ballauff_small-angle_1996}
+{\sc Ballauff, M., Bolze, J., Dingenouts, N., Hickl, P. \& P{\"o}tschke, D.}
+  1996 Small-angle {{X}}-ray scattering on latexes. {\em Macromol Chem Phys\/}
+  {\bf 197}, 3043--3066.
 
 \bibitem[Barenholz(2001)]{barenholz_liposome_2001}
 {\sc Barenholz, Y.} 2001 Liposome application: problems and prospects. {\em
@@ -60,17 +60,17 @@
   {{X}}-ray small-angle scattering. {\em Biochimica et Biophysica Acta
   (BBA)-Protein Structure and Molecular Enzymology\/} {\bf 1037}, 48--57.
 
-\bibitem[Beija {\em et~al.\/}(2012)Beija, {Salvayre}, {Lauth}-de {Viguerie} \&
-  {Marty}]{beija_colloidal_2012}
-{\sc Beija, M., {Salvayre}, R., {Lauth}-de {Viguerie}, N. \& {Marty}, J.-D.}
-  2012 Colloidal systems for drug delivery: from design to therapy. {\em Trends
-  {Biotechnol}\/} {\bf 30}, 485--496.
+\bibitem[Beija {\em et~al.\/}(2012)Beija, Salvayre, {Lauth-de Viguerie} \&
+  Marty]{beija_colloidal_2012}
+{\sc Beija, M., Salvayre, R., {Lauth-de Viguerie}, N. \& Marty, J.-D.} 2012
+  Colloidal systems for drug delivery: from design to therapy. {\em Trends
+  Biotechnol\/} {\bf 30}, 485--496.
 
-\bibitem[Bell {\em et~al.\/}(2012)Bell, {Minelli}, {Tompkins}, {Stevens} \&
-  {Shard}]{bell_emerging_2012}
-{\sc Bell, N.~C., {Minelli}, C., {Tompkins}, J., {Stevens}, M.~M. \& {Shard},
-  A.~G.} 2012 Emerging {Techniques} for {Submicrometer} {Particle} {Sizing}
-  {Applied} to {St}{\"o}ber {Silica}. {\em Langmuir\/} {\bf 28}, 10860--10872.
+\bibitem[Bell {\em et~al.\/}(2012)Bell, Minelli, Tompkins, Stevens \&
+  Shard]{bell_emerging_2012}
+{\sc Bell, N.~C., Minelli, C., Tompkins, J., Stevens, M.~M. \& Shard, A.~G.}
+  2012 Emerging {{Techniques}} for {{Submicrometer Particle Sizing Applied}} to
+  {{St{\"o}ber Silica}}. {\em Langmuir\/} {\bf 28}, 10860--10872.
 
 \bibitem[Berberan-Santos {\em et~al.\/}(1997)Berberan-Santos, Bodunov \&
   Pogliani]{Berberan-Santos1997}
@@ -82,11 +82,10 @@
   small-angle scattering of concentrated solutions of colloidal spheres}. {\em
   {J. Chem. Phys.}\/} {\bf {74}}, 2744--2748.
 
-\bibitem[Beyer {\em et~al.\/}(1990)Beyer, {Lebek}, {Hergeth} \&
-  {Schmutzler}]{beyer_saxs_1990}
-{\sc Beyer, D., {Lebek}, W., {Hergeth}, W.-D. \& {Schmutzler}, K.} 1990 {SAXS}
-  study of core-shell colloids. {\em Colloid {Polym} {Sci}\/} {\bf 268},
-  744--748.
+\bibitem[Beyer {\em et~al.\/}(1990)Beyer, Lebek, Hergeth \&
+  Schmutzler]{beyer_saxs_1990}
+{\sc Beyer, D., Lebek, W., Hergeth, W.-D. \& Schmutzler, K.} 1990 {{SAXS}}
+  study of core-shell colloids. {\em Colloid Polym Sci\/} {\bf 268}, 744--748.
 
 \bibitem[Bolze {\em et~al.\/}(2003)Bolze, Ballauff, Kijlstra \&
   Rudhardt]{Bolze2003}
@@ -95,37 +94,36 @@
   Industrial Polymer Dispersions}. {\em {Macromol. Mater. Eng.}\/} {\bf {288}},
   495--502.
 
-\bibitem[Bolze {\em et~al.\/}(2004)Bolze, {Ballauff}, {Rische}, {Rudhardt} \&
-  {Meixner}]{bolze_situ_2004}
-{\sc Bolze, J., {Ballauff}, M., {Rische}, T., {Rudhardt}, D. \& {Meixner}, J.}
-  2004 In situ {Structural} {Characterization} of {Semi}-{Crystalline}
-  {Polymer} {Latex} {Particles} by {Small}-{Angle} {X}-{Ray} {Scattering}. {\em
-  Macromol {Chem} {Phys}\/} {\bf 205}, 165--172.
+\bibitem[Bolze {\em et~al.\/}(2004)Bolze, Ballauff, Rische, Rudhardt \&
+  Meixner]{bolze_situ_2004}
+{\sc Bolze, J., Ballauff, M., Rische, T., Rudhardt, D. \& Meixner, J.} 2004 In
+  situ {{Structural Characterization}} of {{Semi-Crystalline Polymer Latex
+  Particles}} by {{Small-Angle X-Ray Scattering}}. {\em Macromol Chem Phys\/}
+  {\bf 205}, 165--172.
 
-\bibitem[Bolze {\em et~al.\/}(1997)Bolze, {H}{\"o}rner \&
-  {Ballauff}]{bolze_smallangle_1997}
-{\sc Bolze, J., {H}{\"o}rner, K.~D. \& {Ballauff}, M.} 1997 Small-angle {X}-ray
+\bibitem[Bolze {\em et~al.\/}(1997)Bolze, H{\"o}rner \&
+  Ballauff]{bolze_small-angle_1997}
+{\sc Bolze, J., H{\"o}rner, K.~D. \& Ballauff, M.} 1997 Small-angle {{X}}-ray
   scattering analysis of the radial structure of latex particles swollen by a
   nonpolar monomer. {\em Langmuir\/} {\bf 13}, 2960--2964.
 
-\bibitem[Cabral \& {Kataoka}(2014)]{cabral_progress_2014}
-{\sc Cabral, H. \& {Kataoka}, K.} 2014 Progress of drug-loaded polymeric
-  micelles into clinical studies. {\em {J} {Control} {Release}\/} {\bf 190},
-  465--476.
+\bibitem[Cabral \& Kataoka(2014)]{cabral_progress_2014}
+{\sc Cabral, H. \& Kataoka, K.} 2014 Progress of drug-loaded polymeric micelles
+  into clinical studies. {\em J Control Release\/} {\bf 190}, 465--476.
 
-\bibitem[Caldwell {\em et~al.\/}(1986)Caldwell, {Jones} \&
-  {Giddings}]{caldwell_measurement_1986}
-{\sc Caldwell, K.~D., {Jones}, H.~K. \& {Giddings}, J.~C.} 1986 Measurement of
-  the size and density of colloidal particles by combining sedimentation
-  field-flow fractionation and quasi-elastic light scattering. {\em Colloid
-  {Surface}\/} {\bf 18}, 123--131.
+\bibitem[Caldwell {\em et~al.\/}(1986)Caldwell, Jones \&
+  Giddings]{caldwell_measurement_1986}
+{\sc Caldwell, K.~D., Jones, H.~K. \& Giddings, J.~C.} 1986 Measurement of the
+  size and density of colloidal particles by combining sedimentation field-flow
+  fractionation and quasi-elastic light scattering. {\em Colloid Surface\/}
+  {\bf 18}, 123--131.
 
-\bibitem[Carney {\em et~al.\/}(2011)Carney, {Kim}, {Qian}, {Jin}, {Mehenni},
-  {Stellacci} \& {Bakr}]{carney_determination_2011}
-{\sc Carney, R.~P., {Kim}, J.~Y., {Qian}, H., {Jin}, R., {Mehenni}, H.,
-  {Stellacci}, F. \& {Bakr}, O.~M.} 2011 Determination of nanoparticle size
-  distribution together with density or molecular weight by {2D} analytical
-  ultracentrifugation. {\em Nat {Commun}\/} {\bf 2}, 335.
+\bibitem[Carney {\em et~al.\/}(2011)Carney, Kim, Qian, Jin, Mehenni, Stellacci
+  \& Bakr]{carney_determination_2011}
+{\sc Carney, R.~P., Kim, J.~Y., Qian, H., Jin, R., Mehenni, H., Stellacci, F.
+  \& Bakr, O.~M.} 2011 Determination of nanoparticle size distribution together
+  with density or molecular weight by {{2D}} analytical ultracentrifugation.
+  {\em Nat Commun\/} {\bf 2}, 335.
 
 \bibitem[Casals {\em et~al.\/}(2010)Casals, Pfaller, Duschl, Oostingh \&
   Puntes]{casals_time_2010}
@@ -177,18 +175,18 @@
   (ed. A.~Abe), pp. 1--47. {Berlin-Heidelberg}: {Springer Verlag}.
 
 \bibitem[Dingenouts {\em et~al.\/}(1999{\natexlab{{\em b\/}}})Dingenouts,
-  {Bolze}, {P}{\"o}tschke \& {Ballauff}]{dingenouts_analysis_1999}
-{\sc Dingenouts, N., {Bolze}, J., {P}{\"o}tschke, D. \& {Ballauff}, M.}
-  1999{\natexlab{{\em b\/}}} Analysis of {Polymer} {Latexes} by {Small}-{Angle}
-  {X}-{Ray} {Scattering}. In {\em Polymer {Latexes} - {Epoxide} {Resins} -
-  {Polyampholytes}\/} (ed. A.~Abe), pp. 1--47. Berlin-{Heidelberg}: Springer
-  {Verlag}.
+  Bolze, P{\"o}tschke \& Ballauff]{dingenouts_analysis_1999}
+{\sc Dingenouts, N., Bolze, J., P{\"o}tschke, D. \& Ballauff, M.}
+  1999{\natexlab{{\em b\/}}} Analysis of {{Polymer Latexes}} by {{Small-Angle
+  X-Ray Scattering}}. In {\em Polymer {{Latexes}} - {{Epoxide Resins}} -
+  {{Polyampholytes}}\/} (ed. A.~Abe), pp. 1--47. Berlin-Heidelberg: {Springer
+  Verlag}.
 
-\bibitem[Dingenouts {\em et~al.\/}(1994{\natexlab{{\em a\/}}})Dingenouts, {Kim}
-  \& {Ballauff}]{dingenouts_radial_1994}
-{\sc Dingenouts, N., {Kim}, Y.-S. \& {Ballauff}, M.} 1994{\natexlab{{\em a\/}}}
+\bibitem[Dingenouts {\em et~al.\/}(1994{\natexlab{{\em a\/}}})Dingenouts, Kim
+  \& Ballauff]{dingenouts_radial_1994}
+{\sc Dingenouts, N., Kim, Y.-S. \& Ballauff, M.} 1994{\natexlab{{\em a\/}}}
   Radial density distribution in core-shell latexes as revealed by small-angle
-  {X}-ray scattering. {\em Macromol {Rapid} {Comm}\/} {\bf 15}, 613--617.
+  {{X}}-ray scattering. {\em Macromol Rapid Comm\/} {\bf 15}, 613--617.
 
 \bibitem[Dingenouts {\em et~al.\/}(1994{\natexlab{{\em b\/}}})Dingenouts, Kim
   \& Ballauff]{Dingenouts1994}
@@ -198,14 +196,14 @@
   {Colloid Polym. Sci.}\/} {\bf {272}}, 1380--1387.
 
 \bibitem[Dingenouts {\em et~al.\/}(1994{\natexlab{{\em c\/}}})Dingenouts,
-  {Pulina} \& {Ballauff}]{dingenouts_structure_1994}
-{\sc Dingenouts, N., {Pulina}, T. \& {Ballauff}, M.} 1994{\natexlab{{\em c\/}}}
-  Structure of carboxylated latices as revealed by small-angle {X}-ray
+  Pulina \& Ballauff]{dingenouts_structure_1994}
+{\sc Dingenouts, N., Pulina, T. \& Ballauff, M.} 1994{\natexlab{{\em c\/}}}
+  Structure of carboxylated latices as revealed by small-angle {{X}}-ray
   scattering. {\em Macromolecules\/} {\bf 27}, 6133--6136.
 
-\bibitem[Doshi \& {Mitragotri}(2009)]{doshi_designer_2009}
-{\sc Doshi, N. \& {Mitragotri}, S.} 2009 Designer {Biomaterials} for
-  {Nanomedicine}. {\em Adv {Funct} {Mater}\/} {\bf 19}, 3843--3854.
+\bibitem[Doshi \& Mitragotri(2009)]{doshi_designer_2009}
+{\sc Doshi, N. \& Mitragotri, S.} 2009 Designer {{Biomaterials}} for
+  {{Nanomedicine}}. {\em Adv Funct Mater\/} {\bf 19}, 3843--3854.
 
 \bibitem[Dreon {\em et~al.\/}(1994)Dreon, Fernstrom, Miller \&
   Krauss]{dreon_low-density_1994}
@@ -227,11 +225,11 @@
   investigational and approved nanomedicine products. {\em Nanomedicine:
   Nanotechnology, Biology and Medicine\/} {\bf 9}, 1--14.
 
-\bibitem[Euliss {\em et~al.\/}(2006)Euliss, {DuPont}, {Gratton} \&
-  {DeSimone}]{euliss_imparting_2006}
-{\sc Euliss, L.~E., {DuPont}, J.~A., {Gratton}, S. \& {DeSimone}, J.} 2006
-  Imparting size, shape, and composition control of materials for nanomedicine.
-  {\em Chem {Soc} {Rev}\/} {\bf 35}, 1095.
+\bibitem[Euliss {\em et~al.\/}(2006)Euliss, DuPont, Gratton \&
+  DeSimone]{euliss_imparting_2006}
+{\sc Euliss, L.~E., DuPont, J.~A., Gratton, S. \& DeSimone, J.} 2006 Imparting
+  size, shape, and composition control of materials for nanomedicine. {\em Chem
+  Soc Rev\/} {\bf 35}, 1095.
 
 \bibitem[Feigin \& Svergun(1987)]{Feigin1987}
 {\sc Feigin, L.~A. \& Svergun, D.~I.} 1987 {\em {Structure Analysis by
@@ -245,18 +243,18 @@
   optical microscopy. {\em Biochimica et Biophysica Acta (BBA) -
   Biomembranes\/} {\bf 1778}, 907--916.
 
-\bibitem[Fielding {\em et~al.\/}(2012)Fielding, {Mykhaylyk}, {Armes}, {Fowler},
-  {Mittal} \& {Fitzpatrick}]{fielding_correcting_2012}
-{\sc Fielding, L.~A., {Mykhaylyk}, O.~O., {Armes}, S.~P., {Fowler}, P.~W.,
-  {Mittal}, V. \& {Fitzpatrick}, S.} 2012 Correcting for a {Density}
-  {Distribution}: {Particle} {Size} {Analysis} of {Core}{\textendash}{Shell}
-  {Nanocomposite} {Particles} {Using} {Disk} {Centrifuge}
-  {Photosedimentometry}. {\em Langmuir\/} {\bf 28}, 2536--2544.
+\bibitem[Fielding {\em et~al.\/}(2012)Fielding, Mykhaylyk, Armes, Fowler,
+  Mittal \& Fitzpatrick]{fielding_correcting_2012}
+{\sc Fielding, L.~A., Mykhaylyk, O.~O., Armes, S.~P., Fowler, P.~W., Mittal, V.
+  \& Fitzpatrick, S.} 2012 Correcting for a {{Density Distribution}}:
+  {{Particle Size Analysis}} of {{Core\textendash{}Shell Nanocomposite
+  Particles Using Disk Centrifuge Photosedimentometry}}. {\em Langmuir\/} {\bf
+  28}, 2536--2544.
 
 \bibitem[Fitzpatrick(1998)]{fitzpatrick_structure_1998}
-{\sc Fitzpatrick, S.} 1998 Structure and method for centrifugal sedimentation
-  particle size analysis of particles of lower density than their suspension
-  medium. US Patent 5786898 A.
+{\sc Fitzpatrick, S.~T.} 1998 Structure and method for centrifugal
+  sedimentation particle size analysis of particles of lower density than their
+  suspension medium.
 
 \bibitem[Gabizon \& Martin(1997)]{gabizon_polyethylene_1997}
 {\sc Gabizon, A. \& Martin, F.} 1997 Polyethylene glycol-coated (pegylated)
@@ -295,24 +293,24 @@
   Functional groups on polystyrene model nanoparticles: {{Influence}} on
   protein adsorption. {\em J. Biomed. Mater. Res.\/} {\bf 65A}, 319--326.
 
-\bibitem[Giddings {\em et~al.\/}(1981)Giddings, {Karaiskakis} \&
-  {Caldwell}]{giddings_density_1981}
-{\sc Giddings, J.~C., {Karaiskakis}, G. \& {Caldwell}, K.~D.} 1981 Density and
-  {Particle} {Size} of {Colloidal} {Materials} {Measured} by {Carrier}
-  {Density} {Variations} in {Sedimentation} of {Field}-{Flow} {Fractionation}.
-  {\em Separ {Sci} {Technol}\/} {\bf 16}.
+\bibitem[Giddings {\em et~al.\/}(1981)Giddings, Karaiskakis \&
+  Caldwell]{giddings_density_1981}
+{\sc Giddings, J.~C., Karaiskakis, G. \& Caldwell, K.~D.} 1981 Density and
+  {{Particle Size}} of {{Colloidal Materials Measured}} by {{Carrier Density
+  Variations}} in {{Sedimentation}} of {{Field-Flow Fractionation}}. {\em Separ
+  Sci Technol\/} {\bf 16}.
 
-\bibitem[Grunder {\em et~al.\/}(1991)Grunder, {Kim}, {Ballauff}, {Kranz} \&
-  {M}{\"u}ller]{grunder_analysis_1991}
-{\sc Grunder, R., {Kim}, Y.~S., {Ballauff}, M., {Kranz}, D. \& {M}{\"u}ller,
-  H.-G.} 1991 Analysis of {Polymer} {Latices} by {Small}-{Angle} {X}-{Ray}
-  {Scattering}. {\em Angew {Chem} {Int} {Edit}\/} {\bf 30}, 1650--1652.
+\bibitem[Grunder {\em et~al.\/}(1991)Grunder, Kim, Ballauff, Kranz \&
+  M{\"u}ller]{grunder_analysis_1991}
+{\sc Grunder, R., Kim, Y.~S., Ballauff, M., Kranz, D. \& M{\"u}ller, H.-G.}
+  1991 Analysis of {{Polymer Latices}} by {{Small-Angle X-Ray Scattering}}.
+  {\em Angew Chem Int Edit\/} {\bf 30}, 1650--1652.
 
-\bibitem[Grunder {\em et~al.\/}(1993)Grunder, {Urban} \&
-  {Ballauff}]{grunder_smallangle_1993}
-{\sc Grunder, R., {Urban}, G. \& {Ballauff}, M.} 1993 Small-angle x-ray
-  analysis of latex particles with core-shell morphology. {\em Colloid {Polym}
-  {Sci}\/} {\bf 271}, 563--572.
+\bibitem[Grunder {\em et~al.\/}(1993)Grunder, Urban \&
+  Ballauff]{grunder_small-angle_1993}
+{\sc Grunder, R., Urban, G. \& Ballauff, M.} 1993 Small-angle x-ray analysis of
+  latex particles with core-shell morphology. {\em Colloid Polym Sci\/} {\bf
+  271}, 563--572.
 
 \bibitem[Guinier(1939)]{Guinier1939}
 {\sc Guinier, A.} 1939 {Diffraction of X-rays of very small angles-application
@@ -323,11 +321,11 @@
 {\sc Guinier, A. \& Fournet, G.} 1955 {\em {Small-angle scattering of
   X-rays}\/}. {New York}: {Wiley}.
 
-\bibitem[Guterres {\em et~al.\/}(2007)Guterres, {Alves} \&
-  {Pohlmann}]{guterres_polymeric_2007}
-{\sc Guterres, S.~S., {Alves}, M.~P. \& {Pohlmann}, A.~R.} 2007 Polymeric
-  {Nanoparticles}, {Nanospheres} and {Nanocapsules}, for {Cutaneous}
-  {Applications}. {\em Drug {Target} {Insights}\/} {\bf 2}, 147--157.
+\bibitem[Guterres {\em et~al.\/}(2007)Guterres, Alves \&
+  Pohlmann]{guterres_polymeric_2007}
+{\sc Guterres, S.~S., Alves, M.~P. \& Pohlmann, A.~R.} 2007 Polymeric
+  {{Nanoparticles}}, {{Nanospheres}} and {{Nanocapsules}}, for {{Cutaneous
+  Applications}}. {\em Drug Target Insights\/} {\bf 2}, 147--157.
 
 \bibitem[Hallett {\em et~al.\/}(1991)Hallett, Watton \&
   Krygsman]{hallett_vesicle_1991}
@@ -379,18 +377,18 @@
   conditions}. {\em {Macromolecules}\/} {\bf {24}}, 126--131.
 
 \bibitem[Joensson {\em et~al.\/}(1991{\natexlab{{\em b\/}}})Joensson,
-  {Hassander}, {Jansson} \& {Toernell}]{joensson_morphology_1991}
-{\sc Joensson, J. E.~L., {Hassander}, H., {Jansson}, L.~H. \& {Toernell}, B.}
+  Hassander, Jansson \& Toernell]{joensson_morphology_1991}
+{\sc Joensson, J. E.~L., Hassander, H., Jansson, L.~H. \& Toernell, B.}
   1991{\natexlab{{\em b\/}}} Morphology of two-phase polystyrene/poly(methyl
   methacrylate) latex particles prepared under different polymerization
   conditions. {\em Macromolecules\/} {\bf 24}, 126--131.
 
-\bibitem[Kamiti {\em et~al.\/}(2012)Kamiti, {Boldridge}, {Ndoping} \&
-  {Remsen}]{kamiti_simultaneous_2012}
-{\sc Kamiti, M., {Boldridge}, D., {Ndoping}, L.~M. \& {Remsen}, E.~E.} 2012
-  Simultaneous {Absolute} {Determination} of {Particle} {Size} and {Effective}
-  {Density} of {Submicron} {Colloids} by {Disc} {Centrifuge}
-  {Photosedimentometry}. {\em Anal {Chem}\/} {\bf 84}, 10526--10530.
+\bibitem[Kamiti {\em et~al.\/}(2012)Kamiti, Boldridge, Ndoping \&
+  Remsen]{kamiti_simultaneous_2012}
+{\sc Kamiti, M., Boldridge, D., Ndoping, L.~M. \& Remsen, E.~E.} 2012
+  Simultaneous {{Absolute Determination}} of {{Particle Size}} and {{Effective
+  Density}} of {{Submicron Colloids}} by {{Disc Centrifuge
+  Photosedimentometry}}. {\em Anal Chem\/} {\bf 84}, 10526--10530.
 
 \bibitem[Kattan {\em et~al.\/}(1992)Kattan, Droz, Couvreur, Marino,
   Boutan-Laroze, Rougier, Brault, Vranckx, Grognet, Morge \&
@@ -425,11 +423,11 @@
   measured by the contrast-variation method}. {\em {J. Appl. Cryst.}\/} {\bf
   {25}}, 778--784.
 
-\bibitem[Kawaguchi {\em et~al.\/}(1983)Kawaguchi, {Hamanaka} \&
-  {Mitsui}]{kawaguchi_xray_1983}
-{\sc Kawaguchi, T., {Hamanaka}, T. \& {Mitsui}, T.} 1983 {X}-ray structural
-  studies of some nonionic detergent micelles. {\em {J} {Colloid} {Interf}
-  {Sci}\/} {\bf 96}, 437--453.
+\bibitem[Kawaguchi {\em et~al.\/}(1983)Kawaguchi, Hamanaka \&
+  Mitsui]{kawaguchi_x-ray_1983-1}
+{\sc Kawaguchi, T., Hamanaka, T. \& Mitsui, T.} 1983 X-ray structural studies
+  of some nonionic detergent micelles. {\em J Colloid Interf Sci\/} {\bf 96},
+  437--453.
 
 \bibitem[Kenworthy {\em et~al.\/}(1995)Kenworthy, Hristova, Needham \&
   McIntosh]{kenworthy_range_1995}
@@ -492,11 +490,11 @@
   {{Fully Hydrated Fluid Phase Lipid Bilayers}} with {{Monounsaturated
   Chains}}. {\em J Membrane Biol\/} {\bf 208}, 193--202.
 
-\bibitem[Kusaka {\em et~al.\/}(2014)Kusaka, {Nakayama}, {Nakamura}, {Ishimiya},
-  {Furusawa} \& {Ogasawara}]{kusaka_effect_2014}
-{\sc Kusaka, T., {Nakayama}, M., {Nakamura}, K., {Ishimiya}, M., {Furusawa}, E.
-  \& {Ogasawara}, K.} 2014 Effect of {Silica} {Particle} {Size} on {Macrophage}
-  {Inflammatory} {Responses}. {\em {PLoS} {ONE}\/} {\bf 9}, e92634.
+\bibitem[Kusaka {\em et~al.\/}(2014)Kusaka, Nakayama, Nakamura, Ishimiya,
+  Furusawa \& Ogasawara]{kusaka_effect_2014}
+{\sc Kusaka, T., Nakayama, M., Nakamura, K., Ishimiya, M., Furusawa, E. \&
+  Ogasawara, K.} 2014 Effect of {{Silica Particle Size}} on {{Macrophage
+  Inflammatory Responses}}. {\em PLoS ONE\/} {\bf 9}, e92634.
 
 \bibitem[Laggner {\em et~al.\/}(1977)Laggner, Degovics, M{\"u}ller, Glatter,
   Kratky, Kostner \& Holasek]{laggner_molecular_1977}
@@ -517,19 +515,18 @@
   {{Self-Assembled Structures}}. {\em J. Phys. Chem. B\/} {\bf 115},
   7830--7837.
 
-\bibitem[Lefebvre {\em et~al.\/}(2000)Lefebvre, {Keeler}, {Sobie} \&
-  {White}]{lefebvre_propagation_2000}
-{\sc Lefebvre, M., {Keeler}, R.~K., {Sobie}, R. \& {White}, J.} 2000
-  Propagation of errors for matrix inversion. {\em Nuclear {Instruments} and
-  {Methods} in {Physics} {Research} {Section} {A}: {Accelerators},
-  {Spectrometers}, {Detectors} and {Associated} {Equipment}\/} {\bf 451},
-  520--528.
+\bibitem[Lefebvre {\em et~al.\/}(2000)Lefebvre, Keeler, Sobie \&
+  White]{lefebvre_propagation_2000}
+{\sc Lefebvre, M., Keeler, R.~K., Sobie, R. \& White, J.} 2000 Propagation of
+  errors for matrix inversion. {\em Nuclear Instruments and Methods in Physics
+  Research Section A: Accelerators, Spectrometers, Detectors and Associated
+  Equipment\/} {\bf 451}, 520--528.
 
-\bibitem[Leonard~{Jr} {\em et~al.\/}(1952)Leonard~{Jr}, {Anderegg}, {Kaesberg}
-  \& {Beeman}]{leonardjr_size_1952}
-{\sc Leonard~{Jr}, B.~R., {Anderegg}, J.~W., {Kaesberg}, P. \& {Beeman}, W.~W.}
-  1952 The {Size} of {Latex} {Particles} by {X}-{Ray} {Scattering}. {\em {J}
-  {Appl} {Phys}\/} {\bf 23}, 152--152.
+\bibitem[{Leonard Jr} {\em et~al.\/}(1952){Leonard Jr}, Anderegg, Kaesberg \&
+  Beeman]{leonard_jr_size_1952}
+{\sc {Leonard Jr}, B.~R., Anderegg, J.~W., Kaesberg, P. \& Beeman, W.~W.} 1952
+  The {{Size}} of {{Latex Particles}} by {{X-Ray Scattering}}. {\em J Appl
+  Phys\/} {\bf 23}, 152--152.
 
 \bibitem[Li {\em et~al.\/}(1998)Li, Hirsh, Cabral-Lilly, Zirkel, Gruner, Janoff
   \& Perkins]{li_doxorubicin_1998}
@@ -592,9 +589,9 @@
   {{IgG}}-protein-coated polymeric nanoparticles using complementary particle
   sizing techniques. {\em Surf. Interface Anal.\/} {\bf 46}, 663--667.
 
-\bibitem[Mitragotri \& {Lahann}(2009)]{mitragotri_physical_2009}
-{\sc Mitragotri, S. \& {Lahann}, J.} 2009 Physical approaches to biomaterial
-  design. {\em Nat {Mater}\/} {\bf 8}, 15--23.
+\bibitem[Mitragotri \& Lahann(2009)]{mitragotri_physical_2009}
+{\sc Mitragotri, S. \& Lahann, J.} 2009 Physical approaches to biomaterial
+  design. {\em Nat Mater\/} {\bf 8}, 15--23.
 
 \bibitem[Monopoli {\em et~al.\/}(2011)Monopoli, Walczyk, Campbell, Elia, Lynch,
   {Baldelli Bombelli} \& Dawson]{monopoli_physicalchemical_2011}
@@ -605,9 +602,9 @@
   2525--2534.
 
 \bibitem[Motzkus(1959)]{motzkus_untersuchung_1959}
-{\sc Motzkus, F.} 1959 Untersuchung kolloider {Systeme} auf
-  {Partikelgr}{\"o}sse und {Polydisperit}{\"a}t mit {Hilfe} der
-  {R}{\"o}ntgenkleinwinkelstreuung. {\em Acta {Crystallogr}\/} {\bf 12},
+{\sc Motzkus, F.} 1959 Untersuchung kolloider {{Systeme}} auf
+  {{Partikelgr{\"o}sse}} und {{Polydisperit{\"a}t}} mit {{Hilfe}} der
+  {{R{\"o}ntgenkleinwinkelstreuung}}. {\em Acta Crystallogr\/} {\bf 12},
   773--786.
 
 \bibitem[M{\"u}ller {\em et~al.\/}(1978)M{\"u}ller, Laggner, Glatter \&
@@ -626,17 +623,17 @@
   {\bf 8}, 25--30.
 
 \bibitem[Mykhaylyk(2012)]{mykhaylyk_structural_2012}
-{\sc Mykhaylyk, O.~O.} 2012 Structural {Characterization} of {Colloidal}
-  {Core}-shell {Polymer}-based {Nanoparticles} {Using} {Small}-angle {X}-ray
-  {Scattering}. In {\em Proceedings of the {International} {Conference}
-  {Nanomaterials}: {Applications} and {Properties}\/}, p. 01PCN04. Sumy {State}
-  {University} {Publishing}.
+{\sc Mykhaylyk, O.~O.} 2012 Structural {{Characterization}} of {{Colloidal
+  Core}}-shell {{Polymer}}-based {{Nanoparticles Using Small}}-angle {{X}}-ray
+  {{Scattering}}. In {\em Proceedings of the {{International Conference
+  Nanomaterials}}: {{Applications}} and {{Properties}}\/}, p. 01PCN04. {Sumy
+  State University Publishing}.
 
-\bibitem[{Mykhaylyk} {\em et~al.\/}(2007){Mykhaylyk}, {Ryan}, {Tzokova} \&
-  {Williams}]{mykhaylyk_application_2007-1}
-{\sc {Mykhaylyk}, O.~O., {Ryan}, A.~J., {Tzokova}, N. \& {Williams}, N.} 2007
-  The application of distance distribution functions to structural analysis of
-  core-shell particles. {\em {J} {Appl} {Crystallogr}\/} {\bf 40}, s506--s511.
+\bibitem[Mykhaylyk {\em et~al.\/}(2007)Mykhaylyk, Ryan, Tzokova \&
+  Williams]{mykhaylyk_application_2007}
+{\sc Mykhaylyk, O.~O., Ryan, A.~J., Tzokova, N. \& Williams, N.} 2007 The
+  application of distance distribution functions to structural analysis of
+  core-shell particles. {\em J Appl Crystallogr\/} {\bf 40}, s506--s511.
 
 \bibitem[Nagle {\em et~al.\/}(2008)Nagle, Mathai, Zeidel \&
   Tristram-Nagle]{nagle_theory_2008}
@@ -644,27 +641,26 @@
   Theory of {{Passive Permeability}} through {{Lipid Bilayers}}. {\em J Gen
   Physiol\/} {\bf 131}, 77--85.
 
-\bibitem[Neumann {\em et~al.\/}(2013)Neumann, {Hoyer}, {Wolff}, {Reichl},
-  {Pfitzner} \& {Roth}]{neumann_new_2013}
-{\sc Neumann, A., {Hoyer}, W., {Wolff}, M.~W., {Reichl}, U., {Pfitzner}, A. \&
-  {Roth}, B.} 2013 New method for density determination of nanoparticles using
-  a {CPS} disc centrifuge{\texttrademark}. {\em Colloid {Surface} {B}\/} {\bf
-  104}, 27--31.
+\bibitem[Neumann {\em et~al.\/}(2013)Neumann, Hoyer, Wolff, Reichl, Pfitzner \&
+  Roth]{neumann_new_2013}
+{\sc Neumann, A., Hoyer, W., Wolff, M.~W., Reichl, U., Pfitzner, A. \& Roth,
+  B.} 2013 New method for density determination of nanoparticles using a
+  {{CPS}} disc centrifuge\texttrademark{}. {\em Colloid Surface B\/} {\bf 104},
+  27--31.
 
-\bibitem[Nichols \& {Flowers}(1950)]{nichols_prediction_1950}
-{\sc Nichols, F.~S. \& {Flowers}, R.~G.} 1950 Prediction of {Shrinkage} in
-  {Addition} {Polymerizations}. {\em Ind {Eng} {Chem}\/} {\bf 42}, 292--295.
+\bibitem[Nichols \& Flowers(1950)]{nichols_prediction_1950}
+{\sc Nichols, F.~S. \& Flowers, R.~G.} 1950 Prediction of {{Shrinkage}} in
+  {{Addition Polymerizations}}. {\em Ind Eng Chem\/} {\bf 42}, 292--295.
 
-\bibitem[Nicolet {\em et~al.\/}(2015, under review)Nicolet, {Meli}, {Van}~der
-  {Pol}, {Yuana}, {Gollwitzer}, {Krumrey}, {Cizmar}, {Buhr}, {Petry},
-  {Sebaihi}, {de Boeck}, {Fokkema}, {Bergmans} \&
-  {Nieuwland}]{nicolet_interlaboratory_2015}
-{\sc Nicolet, A., {Meli}, F., {Van}~der {Pol}, E., {Yuana}, Y., {Gollwitzer},
-  C., {Krumrey}, M., {Cizmar}, P., {Buhr}, E., {Petry}, J., {Sebaihi}, N., {de
-  Boeck}, B., {Fokkema}, V., {Bergmans}, R. \& {Nieuwland}, R.} 2015, under
-  review Inter-laboratory comparison on the size and stability of monodisperse
-  and bimodal synthetic reference particles for standardization of
-  extracellular vesicle measurements. {\em Meas {Sci} {Technol}\/} .
+\bibitem[Nicolet {\em et~al.\/}(2016)Nicolet, Meli, {van der Pol}, Yuana,
+  Gollwitzer, Krumrey, {Petr Cizmar}, Buhr, P{\'e}try, Sebaihi, {de Boeck},
+  Fokkema, Bergmans \& {Rienk Nieuwland}]{nicolet_inter-laboratory_2016}
+{\sc Nicolet, A., Meli, F., {van der Pol}, E., Yuana, Y., Gollwitzer, C.,
+  Krumrey, M., {Petr Cizmar}, Buhr, E., P{\'e}try, J., Sebaihi, N., {de Boeck},
+  B., Fokkema, V., Bergmans, R. \& {Rienk Nieuwland}} 2016 Inter-laboratory
+  comparison on the size and stability of monodisperse and bimodal synthetic
+  reference particles for standardization of extracellular vesicle
+  measurements. {\em Meas. Sci. Technol.\/} {\bf 27}, 035701.
 
 \bibitem[Nie {\em et~al.\/}(2007)Nie, Xing, Kim \&
   Simons]{nie_nanotechnology_2007}
@@ -678,17 +674,17 @@
   {{Permeability}} and {{Mechanical Strength}} of {{Polyunsaturated Lipid
   Bilayers}}. {\em Biophysical Journal\/} {\bf 79}, 321--327.
 
-\bibitem[Ottewill {\em et~al.\/}(1995)Ottewill, {Cole} \&
-  {Waters}]{ottewill_characterization_1995}
-{\sc Ottewill, R.~H., {Cole}, S.~J. \& {Waters}, J.~A.} 1995 Characterization
-  of particle morphology by scattering techniques. {\em Macromol {Symp}\/} {\bf
-  92}, 97--107.
+\bibitem[Ottewill {\em et~al.\/}(1995)Ottewill, Cole \&
+  Waters]{ottewill_characterization_1995}
+{\sc Ottewill, R.~H., Cole, S.~J. \& Waters, J.~A.} 1995 Characterization of
+  particle morphology by scattering techniques. {\em Macromol Symp\/} {\bf 92},
+  97--107.
 
-\bibitem[Patel {\em et~al.\/}(2012)Patel, {Zhou}, {Piepmeier} \&
-  {Saltzman}]{patel_polymeric_2012}
-{\sc Patel, T., {Zhou}, J., {Piepmeier}, J.~M. \& {Saltzman}, W.~M.} 2012
-  Polymeric nanoparticles for drug delivery to the central nervous system. {\em
-  Adv {Drug} {Deliver} {Rev}\/} {\bf 64}, 701--705.
+\bibitem[Patel {\em et~al.\/}(2012)Patel, Zhou, Piepmeier \&
+  Saltzman]{patel_polymeric_2012}
+{\sc Patel, T., Zhou, J., Piepmeier, J.~M. \& Saltzman, W.~M.} 2012 Polymeric
+  nanoparticles for drug delivery to the central nervous system. {\em Adv Drug
+  Deliver Rev\/} {\bf 64}, 701--705.
 
 \bibitem[Pedersen(1994)]{Pedersen1994}
 {\sc Pedersen, J.~S.} 1994 {Determination of size distribution from small-angle
@@ -700,13 +696,13 @@
   colloids and polymer solutions: modeling and least-squares fitting}. {\em
   {Adv. Colloid Interfac.}\/} {\bf {70}}, 171--210.
 
-\bibitem[Powers {\em et~al.\/}(2006)Powers, {Brown}, {Krishna}, {Wasdo},
-  {Moudgil} \& {Roberts}]{powers_research_2006}
-{\sc Powers, K.~W., {Brown}, S.~C., {Krishna}, V.~B., {Wasdo}, S.~C.,
-  {Moudgil}, B.~M. \& {Roberts}, S.~M.} 2006 Research {Strategies} for {Safety}
-  {Evaluation} of {Nanomaterials}. {Part} {VI}. {Characterization} of
-  {Nanoscale} {Particles} for {Toxicological} {Evaluation}. {\em Toxicol
-  {Sci}\/} {\bf 90}, 296--303.
+\bibitem[Powers {\em et~al.\/}(2006)Powers, Brown, Krishna, Wasdo, Moudgil \&
+  Roberts]{powers_research_2006}
+{\sc Powers, K.~W., Brown, S.~C., Krishna, V.~B., Wasdo, S.~C., Moudgil, B.~M.
+  \& Roberts, S.~M.} 2006 Research {{Strategies}} for {{Safety Evaluation}} of
+  {{Nanomaterials}}. {{Part VI}}. {{Characterization}} of {{Nanoscale
+  Particles}} for {{Toxicological Evaluation}}. {\em Toxicol Sci\/} {\bf 90},
+  296--303.
 
 \bibitem[Ribeiro {\em et~al.\/}(2006)Ribeiro, Ortona, Sim\~{o}es, Santos,
   Prazeres, Valente, Lobo \& Burrows]{Ribeiro2006}
@@ -744,10 +740,10 @@
   {Polymer}\/} {\bf {30}}, 416--424.
 
 \bibitem[Silverstein {\em et~al.\/}(1989{\natexlab{{\em b\/}}})Silverstein,
-  {Talmon} \& {Narkis}]{silverstein_microstructure_1989}
-{\sc Silverstein, M.~S., {Talmon}, Y. \& {Narkis}, M.} 1989{\natexlab{{\em
-  b\/}}} Microstructure of polyacrylate/polystyrene two-stage latices. {\em
-  Polymer\/} {\bf 30}, 416--424.
+  Talmon \& Narkis]{silverstein_microstructure_1989}
+{\sc Silverstein, M.~S., Talmon, Y. \& Narkis, M.} 1989{\natexlab{{\em b\/}}}
+  Microstructure of polyacrylate/polystyrene two-stage latices. {\em Polymer\/}
+  {\bf 30}, 416--424.
 
 \bibitem[Sim {\em et~al.\/}(2012)Sim, Lipfert, Herschlag \& Doniach]{Sim2012}
 {\sc Sim, A. Y.~L., Lipfert, J., Herschlag, D. \& Doniach, S.} 2012 {Salt
@@ -784,29 +780,31 @@
   crystallography, contrast variation in SAXS and SANS}. {\em {Acta
   Crystallogr. A Found. Cryst.}\/} {\bf {64}}, 181--191.
 
-\bibitem[Stuhrmann \& Kirste(1965)]{Stuhrmann1965}
-{\sc Stuhrmann, H.~B. \& Kirste, R.~G.} 1965 {Elimination der
-  intrapartikul\"{a}ren Untergrundstreuung bei der
+\bibitem[Stuhrmann \& Kirste(1965{\natexlab{{\em a\/}}})]{Stuhrmann1965}
+{\sc Stuhrmann, H.~B. \& Kirste, R.~G.} 1965{\natexlab{{\em a\/}}} {Elimination
+  der intrapartikul\"{a}ren Untergrundstreuung bei der
   R\"{o}ntgenkleinwinkelstreuung an kompakten Teilchen (Proteinen)}. {\em {Z.
   Phys. Chem.}\/} {\bf {46}}, 247--250.
 
-\bibitem[Stuhrmann \& {Kirste}(1965)]{stuhrmann_elimination_1965}
-{\sc Stuhrmann, H.~B. \& {Kirste}, R.~G.} 1965 Elimination der
-  intrapartikul{\"a}ren {Untergrundstreuung} bei der
-  {R}{\"o}ntgenkleinwinkelstreuung an kompakten {Teilchen} ({Proteinen}). {\em
-  {Z} {Phys} {Chem}\/} {\bf 46}, 247--250.
+\bibitem[Stuhrmann \& Kirste(1965{\natexlab{{\em
+  b\/}}})]{stuhrmann_elimination_1965}
+{\sc Stuhrmann, H.~B. \& Kirste, R.~G.} 1965{\natexlab{{\em b\/}}} Elimination
+  der intrapartikul{\"a}ren {{Untergrundstreuung}} bei der
+  {{R{\"o}ntgenkleinwinkelstreuung}} an kompakten {{Teilchen}} ({{Proteinen}}).
+  {\em Z Phys Chem\/} {\bf 46}, 247--250.
 
-\bibitem[Stuhrmann \& Kirste(1967)]{Stuhrmann1967}
-{\sc Stuhrmann, H.~B. \& Kirste, R.~G.} 1967 {Elimination der
-  intrapartikul\"{a}ren Untergrundstreuung bei der
+\bibitem[Stuhrmann \& Kirste(1967{\natexlab{{\em a\/}}})]{Stuhrmann1967}
+{\sc Stuhrmann, H.~B. \& Kirste, R.~G.} 1967{\natexlab{{\em a\/}}} {Elimination
+  der intrapartikul\"{a}ren Untergrundstreuung bei der
   R\"{o}ntgenkleinwinkelstreuung an kompakten Teilchen. II}. {\em {Z. Phys.
   Chem.}\/} {\bf {56}}, 334--337.
 
-\bibitem[Stuhrmann \& {Kirste}(1967)]{stuhrmann_elimination_1967}
-{\sc Stuhrmann, H.~B. \& {Kirste}, R.~G.} 1967 Elimination der
-  intrapartikul{\"a}ren {Untergrundstreuung} bei der
-  {R}{\"o}ntgenkleinwinkelstreuung an kompakten {Teilchen}. {II}. {\em {Z}
-  {Phys} {Chem}\/} {\bf 56}, 334--337.
+\bibitem[Stuhrmann \& Kirste(1967{\natexlab{{\em
+  b\/}}})]{stuhrmann_elimination_1967}
+{\sc Stuhrmann, H.~B. \& Kirste, R.~G.} 1967{\natexlab{{\em b\/}}} Elimination
+  der intrapartikul{\"a}ren {{Untergrundstreuung}} bei der
+  {{R{\"o}ntgenkleinwinkelstreuung}} an kompakten {{Teilchen}}. {{II}}. {\em Z
+  Phys Chem\/} {\bf 56}, 334--337.
 
 \bibitem[Stuhrmann {\em et~al.\/}(1975)Stuhrmann, Tardieu, Mateu, Sardet,
   Luzzati, Aggerbeck \& Scanu]{stuhrmann_neutron_1975}
@@ -829,11 +827,11 @@
   Light Scattering}} with {{Uncertainty Analysis}}. {\em Particle \& Particle
   Systems Characterization\/} {\bf 25}, 31--38.
 
-\bibitem[Tao {\em et~al.\/}(2011)Tao, {Hu}, {Liu}, {Huang}, {Sumer} \&
-  {Gao}]{tao_shapespecific_2011}
-{\sc Tao, L., {Hu}, W., {Liu}, Y., {Huang}, G., {Sumer}, B.~D. \& {Gao}, J.}
-  2011 Shape-specific polymeric nanomedicine: emerging opportunities and
-  challenges. {\em Exp {Biol} {Med}\/} {\bf 236}, 20--29.
+\bibitem[Tao {\em et~al.\/}(2011)Tao, Hu, Liu, Huang, Sumer \&
+  Gao]{tao_shape-specific_2011}
+{\sc Tao, L., Hu, W., Liu, Y., Huang, G., Sumer, B.~D. \& Gao, J.} 2011
+  Shape-specific polymeric nanomedicine: emerging opportunities and challenges.
+  {\em Exp Biol Med\/} {\bf 236}, 20--29.
 
 \bibitem[Tardieu {\em et~al.\/}(1976)Tardieu, Mateu, Sardet, Weiss, Luzzati,
   Aggerbeck \& Scanu]{tardieu_structure_1976}
@@ -885,9 +883,9 @@
   many papers and so few drugs! {\em Advanced Drug Delivery Reviews\/} {\bf
   65}, 80--88.
 
-\bibitem[Vicent \& {Duncan}(2006)]{vicent_polymer_2006}
-{\sc Vicent, M.~J. \& {Duncan}, R.} 2006 Polymer conjugates: nanosized
-  medicines for treating cancer. {\em Trends {Biotechnol}\/} {\bf 24}, 39--47.
+\bibitem[Vicent \& Duncan(2006)]{vicent_polymer_2006}
+{\sc Vicent, M.~J. \& Duncan, R.} 2006 Polymer conjugates: nanosized medicines
+  for treating cancer. {\em Trends Biotechnol\/} {\bf 24}, 39--47.
 
 \bibitem[Vittaz {\em et~al.\/}(1996{\natexlab{{\em a\/}}})Vittaz, Bazile,
   Spenlehauer, Verrecchia, Veillard, Puisieux \& Labarre]{Vittaz1996}
@@ -896,18 +894,17 @@
   surface density on long-circulating PLA-PEO nanoparticles which are very low
   complement activators}. {\em {Biomaterials}\/} {\bf {17}}, 1575--1581.
 
-\bibitem[Vittaz {\em et~al.\/}(1996{\natexlab{{\em b\/}}})Vittaz, {Bazile},
-  {Spenlehauer}, {Verrecchia}, {Veillard}, {Puisieux} \&
-  {Labarre}]{vittaz_effect_1996}
-{\sc Vittaz, M., {Bazile}, D., {Spenlehauer}, G., {Verrecchia}, T., {Veillard},
-  M., {Puisieux}, F. \& {Labarre}, D.} 1996{\natexlab{{\em b\/}}} Effect of
-  {PEO} surface density on long-circulating {PLA}-{PEO} nanoparticles which are
-  very low complement activators. {\em Biomaterials\/} {\bf 17}, 1575--1581.
+\bibitem[Vittaz {\em et~al.\/}(1996{\natexlab{{\em b\/}}})Vittaz, Bazile,
+  Spenlehauer, Verrecchia, Veillard, Puisieux \& Labarre]{vittaz_effect_1996}
+{\sc Vittaz, M., Bazile, D., Spenlehauer, G., Verrecchia, T., Veillard, M.,
+  Puisieux, F. \& Labarre, D.} 1996{\natexlab{{\em b\/}}} Effect of {{PEO}}
+  surface density on long-circulating {{PLA-PEO}} nanoparticles which are very
+  low complement activators. {\em Biomaterials\/} {\bf 17}, 1575--1581.
 
-\bibitem[Wang {\em et~al.\/}(2012)Wang, {Langer} \&
-  {Farokhzad}]{wang_nanoparticle_2012}
-{\sc Wang, A.~Z., {Langer}, R. \& {Farokhzad}, O.~C.} 2012 Nanoparticle
-  {Delivery} of {Cancer} {Drugs}. {\em Annu {Rev} {Med}\/} {\bf 63}, 185--198.
+\bibitem[Wang {\em et~al.\/}(2012)Wang, Langer \&
+  Farokhzad]{wang_nanoparticle_2012}
+{\sc Wang, A.~Z., Langer, R. \& Farokhzad, O.~C.} 2012 Nanoparticle
+  {{Delivery}} of {{Cancer Drugs}}. {\em Annu Rev Med\/} {\bf 63}, 185--198.
 
 \bibitem[Wernecke {\em et~al.\/}(2014{\natexlab{{\em a\/}}})Wernecke,
   Gollwitzer, M\"{u}ller \& Krumrey]{Wernecke2014}
@@ -940,18 +937,18 @@
   administration to mice. {\em Journal of pharmaceutical sciences\/} {\bf 83},
   601--606.
 
-\bibitem[Yang {\em et~al.\/}(1983)Yang, {Caldwell} \&
-  {Giddings}]{yang_colloid_1983}
-{\sc Yang, F.-S., {Caldwell}, K.~D. \& {Giddings}, J.~C.} 1983 Colloid
-  characterization by sedimentation field-flow fractionation: {II}.
-  {Particle}-size distribution. {\em {J} {Colloid} {Interf} {Sci}\/} {\bf 92},
+\bibitem[Yang {\em et~al.\/}(1983)Yang, Caldwell \&
+  Giddings]{yang_colloid_1983}
+{\sc Yang, F.-S., Caldwell, K.~D. \& Giddings, J.~C.} 1983 Colloid
+  characterization by sedimentation field-flow fractionation: {{II}}.
+  {{Particle}}-size distribution. {\em J Colloid Interf Sci\/} {\bf 92},
   81--91.
 
-\bibitem[Yang {\em et~al.\/}(2005)Yang, {Huck}, {Clarke}, {Tajbakhsh} \&
-  {Terentjev}]{yang_shapememory_2005}
-{\sc Yang, Z., {Huck}, W. T.~S., {Clarke}, S.~M., {Tajbakhsh}, A.~R. \&
-  {Terentjev}, E.~M.} 2005 Shape-memory nanoparticles from inherently
-  non-spherical polymer colloids. {\em Nat {Mater}\/} {\bf 4}, 486--490.
+\bibitem[Yang {\em et~al.\/}(2005)Yang, Huck, Clarke, Tajbakhsh \&
+  Terentjev]{yang_shape-memory_2005}
+{\sc Yang, Z., Huck, W. T.~S., Clarke, S.~M., Tajbakhsh, A.~R. \& Terentjev,
+  E.~M.} 2005 Shape-memory nanoparticles from inherently non-spherical polymer
+  colloids. {\em Nat Mater\/} {\bf 4}, 486--490.
 
 \bibitem[Yeh {\em et~al.\/}(2011)Yeh, {Hsin-I Chang} \& {Ming-Yen
   Cheng}]{yeh_clinical_2011}
