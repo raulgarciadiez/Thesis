@@ -3,13 +3,185 @@
 
 \section{BESSY II}
 
-\section{FCM Beamline}
-\subsection{Transmission measurements}
-calibrated diodes, SYRES II????
+\subsubsection{Electron Accelerator}
 
-\section{Small-angle X-ray scattering}
-The measurements were performed at the four-crystal monochromator beamline in the PTB laboratory at the electron storage ring BESSY II (Berlin, \emph{Germany}), which provides highly intense, collimated synchrotron radiation focused on the sample and collimated into a \(0.5\) mm circular spot by Ge pinholes situated between the sample and the monochromator with an energy resolving
-power \( E/\Delta E \) of \( 10^4 \). To measure the total flux and sample transmission, photodiodes were used which were calibrated against a cryogenic electric substitution radiometer with a relative uncertainty of \( 1\,\% \) \cite{krumrey_high-accuracy_2001}.
+The electron beam creates the free electrons: a hot thermionic cathode emits electrons which are accelerated with a high voltage to the anode until they reach energies up to 70 keV. The free electrons are transferred to a linear pre-accelerator which accelerates electrons to relativistic velocities up to 0.99c via an electric field. The electrons are then inserted into the microtron, which further accelerates the electrons to 50 MeV, at which point they are injected into the synchrotron. The acceleration process takes 50 ms and can be repeated with a repetition rate of 10 Hz with successive injection of electrons. Inside the synchrotron, a set of magnets are disposed in such a way as to lead the electrons in circular trajectories, whilst high frequency (HF) resonators in linear paths of the synchrotron, temporally coupled with the magnets, further accelerate the electrons to 1.72 GeV 18 .
+
+\subsubsection{Storage ring}
+
+The threshold energy is reached when a high electron flux with high temporal stability is achieved. At this point the electrons are injected into the storage ring, where bending magnets are implemented to maintain the circular trajectory of the electron, as shown in Figure \ref{fig:BessyScheme}. The storage ring has a circumference of 240 meters and the successive injection of electrons from the synchrotron leads to currents of approximately 290 mA in the initial stage (after injection).
+
+\begin{figure}%[htbp]
+	\centering
+		\resizebox{0.4\linewidth}{!}{\includegraphics{Figures/BessyScheme.png}}
+		\caption{A scheme of BESSY II. From the master thesis.}
+		\label{fig:BessyScheme}
+\end{figure}
+
+\subsection{Insertion devices}
+
+\subsubsection{Bending magent and bremsstrahlung radiation}
+It is known that relativistic electrons lose kinetic energy due to the Bremsstrahlung process\citep{blumenthal_bremsstrahlung_1970} when they are accelerated or deaccelerated. This energy loss in the storage ring is compensated by high frequency resonators situated on a short linear section. In the case of a storage ring with circular shape, the electron bunches are accelerated radially (a perp v) and emit synchrotron radiation tangentially to the bunch trajectory. The power emitted
+
+
+Total radiated power:
+\begin{equation}
+        P=\frac{e^2\gamma^4}{6\pi\epsilon_0c}\left( \dot{\beta}^2 + \frac{(\dot{\vec{\beta}} \cdot \vec{\beta})^2}{1-\beta^2} \right)
+\end{equation}
+where $\vec{\beta}=\frac{\vec{v}}{c}$ and $\gamma=\frac{1}{\sqrt{1-\beta^2}}$ is the Lorentz factor.
+
+If the trajectory of the electrons and the acceleration are perpendicular, for circular particle trajectories:
+\begin{equation}
+        P_{a \bot v}=\frac{e^2\gamma^4}{6\pi\epsilon_0c}\dot{\beta}^2=\frac{e^2\gamma^4a^2}{6\pi\epsilon_0c^3}
+\end{equation}
+
+\subsubsection{Other devices: Wigglers and undulators}
+
+ High photon flux
+ 
+The energy range is also different.
+
+Deflection parameter $K$. The difference between both types of devices is K. Normally you can vary K by increasing the space in the magnetic field (gap).
+
+\begin{equation}
+        K=\frac{eB_0\lambda_0}{m_0 2\pi c}
+\end{equation}
+
+
+\section{FCM Beamline}
+
+Talk a little bit about design with mirrors and collimation
+
+focused on the sample and collimated into a \(0.5\) mm circular spot by Ge pinholes situated between the sample and the monochromator
+
+\begin{figure}%[htbp]
+	\centering
+		\resizebox{0.8\linewidth}{!}{\includegraphics{Figures/FCMScheme.png}}
+		\caption{A scheme of BESSY II. From the master thesis.}
+		\label{fig:FCMScheme}
+\end{figure}
+
+\subsection{Four-crystal monochromator}
+
+energy resolving power \( E/\Delta E \) of \( 10^4 \)
+
+Energy resolution
+
+Typical flux on the sample
+
+Difference between Si and InSb
+
+Beam size on the sample, divergence (talk to Mika)
+
+\subsection{Monitor diode: Flux monitor}
+
+Continuous measurement of the incoming photon flux with a semitransparent silicon diode 8 $\mu$m thick. It can be used down until 3 keV approx.
+
+Avoiding possible fluctuations on the flux. TopUp mode should improve this but still there are variation between 297 and 299 mA which are around 1$\%$
+
+\subsection{Reflectometry chamber in vacuum: NewRef}
+
+goniometer allowing us to move with high precision
+
+The rectangular capillary is placed in a sample holder which allows the movement with micrometer precision in the directions perpendicular to the incoming beam, as depicted in figure \ref{fig:DensityGradientCapillarySetup}.
+
+\subsubsection{Transmission measurements}
+
+calibrated diodes, SYRES II???? Calibrated agains cryo-radiometer every 3 years.
+
+To measure the total flux and sample transmission, photodiodes were used which were calibrated against a cryogenic electric substitution radiometer with a relative uncertainty of \( 1\,\% \) \cite{krumrey_high-accuracy_2001}.
+
+very thick silicon diodes
+
+around 0.5 $\%$ uncertainty
+
+\subsection{Pilatus detector}
+high dynamic range
+
+noise free
+
+\subsection{HZB SAXS instrument}
+
+Collaboration with HZB
+
+Continuos distance movement between 1.5 and 3.7 m (or so)
+
+Possibility to extract the bellows (WAXS)
+
+Which q-range are available for each distance and energy? Small table for high and low energy
+
+
+\subsubsection{Calibration of the distance}
+
+10-4 uncertainty
+
+Optical encoder with micrometer precision
+
+Using AgBehe to triangulate the sample-detector distance
+
+Before it was done only with the position of the AgBehe but we realized that the crystal lattice depended on the chemical preparation (image comparing Alfa Aesar and MTA silver benehate)
+
+Another reference standard such as BLABLA was used for calibration at long distances (larger periodic distance, Eike material???)
+
+\subsection{Sample environment}
+
+\subsubsection{Round capillaries}
+
+where to buy them and sizes
+
+\subsubsection{Hilgenberg capillaries}
+
+where to buy them and sizes
+
+very homogenous glass thicknes (borosilicate glass)\ref{fig:HilgenbergHomogeneity}
+
+very homogenous sample thickness \ref{fig:WaterHomogeneity}
+
+perfect for precise measurement
+
+\begin{figure}%[htbp]
+	\centering
+		\subfloat[Deviation from glass transmission (thickness of the capillary)]{\resizebox{0.44\linewidth}{!}{\input{Figures/HilgenbergHomogeneity}}\label{fig:HilgenbergHomogeneity}}
+		\subfloat[Sample thickness with water. Tranmission divided by glass in order to get water transmission and mu]{\resizebox{0.44\linewidth}{!}{\input{Figures/WaterHomogeneity}}\label{fig:WaterHomogeneity}}
+		\caption{Hilgenberg capillaries homogeneity}
+\end{figure}
+
+the uncertainty is even smaller when using the main vertical axis of the rectangular capillaries
+
+\begin{figure}%[htbp]
+	\centering
+		\input{Figures/GaldenCalibration}
+		\caption{Transmissoin along the y-axis at x=-0.15 mm}
+		\label{fig:GaldenCalibration}
+\end{figure}
+
+\subsubsection{Prototype cell from zoltan}
+
+by a dedicated sample cell with thin silicon nitride windows. 
+
+silicon nitride windows. Low scattering and low absorbance. 
+
+where to buy them and sizes? 500 nm thickness, spacer cut with microtome in Hungary (which thickness?)
+
+Used to increase the q-range as it enables the measurement until energies around 3 eV. We achieve much smaller q values (cite zoltans paper with the PEG-vesicle???)
+
+\subsection{Obtention of the scattering curves}
+
+The obtained scattering curve was normalized to the exposure time, the measured suspension transmittance and the incident photon flux, measured by means of a calibrated transparent silicon diode. 
+
+Radial integration and error propagation
+
+\subsection{Absolute intensity calibration}
+use the knowledge from the innanopart project??????
+\subsubsection{Flux monitor}
+thin diode
+\subsubsection{Detector efficiceny}
+pilatus and thin diode
+
+
+\textcolor{red}{-----------------------THIS SHOULD ALL GO TO THE NEXT CHAPTER-----------------------}
+\section{Small-angle X-ray scattering: DIRECT FROM PAPER}
+The measurements were performed at the four-crystal monochromator beamline in the PTB laboratory at the electron storage ring BESSY II (Berlin, \emph{Germany}), which provides highly intense, collimated synchrotron radiation focused on the sample and collimated into a \(0.5\) mm circular spot by Ge pinholes situated between the sample and the monochromator with an energy resolving power \( E/\Delta E \) of \( 10^4 \). To measure the total flux and sample transmission, photodiodes were used which were calibrated against a cryogenic electric substitution radiometer with a relative uncertainty of \( 1\,\% \) \cite{krumrey_high-accuracy_2001}.
 
 
 \begin{figure}%[htbp]
@@ -26,39 +198,11 @@ The sample was moved in steps of 0.5 mm along the central vertical capillary axi
 q=\frac{4\pi E}{hc}\sin\theta ,
 \end{equation}
 where \(\theta\) is half of the scattering angle, \(h\) is the Planck constant and \(c\) is the speed of light. The incident photon energy \(E = \left(8800.0  \pm 0.8\right)\) eV was chosen to be higher than the photon energy for the transmission measurements to improve the recorded statistics, due to a ca. \(150\) higher transmission \cite{henke_x-ray_1993}. The scattered X-ray photons were collected with a vacuum-compatible Pilatus 1M hybrid-pixel detector (Dectris Ltd, (Baden, \emph{Switzerland})) with a pixel size of \(d = \left(172.1  \pm 0.2\right) \; \mu \)m at a distance \(L = \left(4540.2  \pm 0.8\right)\) mm from the capillaries, determined by triangulation using a calibrated length measurement system \cite{wernecke_characterization_2014}. The obtained scattering curve was normalized to the exposure time and the incident intensity, measured by means of a calibrated transparent silicon diode.  In total, 40 scattering curves with different solvent electron densities were measured at two different times \(t_1=\)78 min and \(t_2=\)156 min after filling the capillaries.
-\subsection{Pilatus detector}
-high dynamic range
-noise free
-\subsection{HZB SAXS setup}
-\subsubsection{distance calibration}
-10-4 uncertainty
 
-\subsection{Radial integration and error propagation}
-\subsection{Absolute intensity calibration}
-\subsubsection{Flux monitor}
-thin diode
-\subsubsection{Detector efficiceny}
-pilatus and thin diode
 
-\section{Continuous contrast variation}
 \subsection{Filling of capilaries}
 galden at bottom, reference layer
-\subsubsection{Capillary homogeneity}
-Hilgenberg
-\begin{figure}%[htbp]
-	\centering
-		\input{Figures/GaldenCalibration}
-		\caption{Transmissoin along the y-axis at x=-0.15 mm}
-		\label{fig:GaldenCalibration}
-\end{figure}
 
-
-\begin{figure}%[htbp]
-	\centering
-		\subfloat[Deviation from glass transmission (thickness of the capillary)]{\resizebox{0.44\linewidth}{!}{\input{Figures/HilgenbergHomogeneity}}\label{fig:HilgenbergHomogeneity}}
-		\subfloat[Sample thickness with water. Tranmission divided by glass in order to get water transmission and mu]{\resizebox{0.44\linewidth}{!}{\input{Figures/WaterHomogeneity}}\label{fig:WaterHomogeneity}}
-		\caption{Hilgenberg capillaries homogeneity}
-\end{figure}
 
 \subsection{Calibration of solvent density and finding of main axis}
 The transmitted intensity through the sample is recorded at a photon energy of \(E = (5500.0 \pm  0.5)\) eV for 10 seconds at each position. The measurement consists of 20 points spaced 0.5 mm along the central vertical axis of the capillary. The overall X-ray transmission measurement requires approximately 5 minutes, which is within the calculated diffusion timescale of the aqueous sucrose solution. The solvent electron density profile within the density gradient capillary derived from this measurement is depicted in figure \textcolor{red}{NO IMAGE CORRESPONDING TO THIS MEASUREMENT HAS BEEN ADDED}. A uniform thickness of the capillary within $0.5\,\%$ along this axis was determined by measuring the X-ray transmission of an empty capillary. The associated uncertainty in the sample transmission measurement is below $4\,\%$. The sample thickness is assumed to be constant. This transmission measurement is performed both immediately before and after recording the scattering patterns, which takes 15 minutes to complete. The transmittance values used for the density calibration are then linearly interpolated between both data sets taking into account the time-dependence. These values can be converted to solvent electron densities via the Beer-Lambert law, which relates the density of the solution with the transmitted intensity:
@@ -90,9 +234,6 @@ X-ray transmission measurements at the aqueous sucrose gradient were performed a
 	\caption{Statistics in the transmission measurement depending on the incoming energy. For lower energies, the transmission differences are larger and hence the statistics better. This was measured using only aqueous sucrose $65\%$ in plain water (no colloids on it) Nov 2014}
 \end{figure}
 
-\subsection{Obtention of the scattering curves}
-
-The obtained scattering curve was normalized to the exposure time, the measured suspension transmittance and the incident photon flux, measured by means of a calibrated transparent silicon diode. 
 
 \subsection{Limitations}
 \subsubsection{Density range}

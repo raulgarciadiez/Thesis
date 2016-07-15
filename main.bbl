@@ -1,4 +1,4 @@
-\begin{thebibliography}{144}
+\begin{thebibliography}{145}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 
 \bibitem[Arnold {\em et~al.\/}(2006)Arnold, Green, Hulvat, Stupp \&
@@ -69,6 +69,11 @@
   Schmutzler]{beyer_saxs_1990}
 {\sc Beyer, D., Lebek, W., Hergeth, W.-D. \& Schmutzler, K.} 1990 {{SAXS}}
   study of core-shell colloids. {\em Colloid Polym Sci\/} {\bf 268}, 744--748.
+
+\bibitem[BLUMENTHAL \& GOULD(1970)]{blumenthal_bremsstrahlung_1970}
+{\sc BLUMENTHAL, G.~R. \& GOULD, R.~J.} 1970 Bremsstrahlung, {{Synchrotron
+  Radiation}}, and {{Compton Scattering}} of {{High-Energy Electrons Traversing
+  Dilute Gases}}. {\em Rev. Mod. Phys.\/} {\bf 42}, 237--270.
 
 \bibitem[Bolze {\em et~al.\/}(2003)Bolze, Ballauff, Kijlstra \&
   Rudhardt]{bolze_application_2003}
