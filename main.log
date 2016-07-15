@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/TeX Live for SUSE Linux) (format=pdflatex 2015.3.4)  14 JUL 2016 15:13
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/TeX Live for SUSE Linux) (format=pdflatex 2015.3.4)  15 JUL 2016 12:26
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1666,7 +1666,7 @@ ic/amsfonts/cm/cmr8.pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmsy10
 mf/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texmf/fonts/type1/publi
 c/amsfonts/cm/cmsy8.pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmti10
 .pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on main.pdf (99 pages, 2432501 bytes).
+Output written on main.pdf (99 pages, 2432486 bytes).
 PDF statistics:
  2139 PDF objects out of 2487 (max. 8388607)
  1875 compressed objects within 19 object streams
