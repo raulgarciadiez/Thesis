@@ -51,16 +51,16 @@
 \contentsline {subsubsection}{Hilgenberg capillaries}{18}{section*.20}
 \contentsline {subsubsection}{Prototype cell from zoltan}{19}{section*.23}
 \contentsline {subsection}{\numberline {3.2.7}Obtention of the scattering curves}{19}{subsection.3.2.7}
-\contentsline {subsection}{\numberline {3.2.8}Absolute intensity calibration}{19}{subsection.3.2.8}
+\contentsline {subsection}{\numberline {3.2.8}Absolute intensity calibration}{20}{subsection.3.2.8}
 \contentsline {subsubsection}{Flux monitor}{20}{section*.24}
 \contentsline {subsubsection}{Detector efficiceny}{20}{section*.25}
 \contentsline {section}{\numberline {3.3}Small-angle X-ray scattering: DIRECT FROM PAPER}{20}{section.3.3}
 \contentsline {subsection}{\numberline {3.3.1}Filling of capilaries}{21}{subsection.3.3.1}
-\contentsline {subsection}{\numberline {3.3.2}Calibration of solvent density and finding of main axis}{21}{subsection.3.3.2}
+\contentsline {subsection}{\numberline {3.3.2}Calibration of solvent density and finding of main axis}{22}{subsection.3.3.2}
 \contentsline {subsection}{\numberline {3.3.3}Limitations}{22}{subsection.3.3.3}
 \contentsline {subsubsection}{Density range}{22}{section*.30}
-\contentsline {subsubsection}{Challenges with different contrast agents}{22}{section*.31}
-\contentsline {subsubsection}{Comparison to other contrast variation scattering techinques}{22}{section*.32}
+\contentsline {subsubsection}{Challenges with different contrast agents}{24}{section*.31}
+\contentsline {subsubsection}{Comparison to other contrast variation scattering techinques}{24}{section*.32}
 \contentsline {chapter}{\numberline {4}Contrast variation in SAXS with the density gradient technique}{25}{chapter.4}
 \contentsline {section}{\numberline {4.1}Materials and Methods}{27}{section.4.1}
 \contentsline {subsection}{\numberline {4.1.1}Particles and chemicals}{27}{subsection.4.1.1}
@@ -108,6 +108,6 @@
 \contentsline {subsection}{\numberline {6.3.2}Does PEGylation affect the osmotic activity of liposomes?}{71}{subsection.6.3.2}
 \contentsline {section}{\numberline {6.4}Sizing of blood plasma componenents}{79}{section.6.4}
 \contentsline {section}{\numberline {6.5}Protein-coated low-density nanoparticles}{82}{section.6.5}
-\contentsline {subsection}{\numberline {6.5.1}Hard protein corona characterization with contrast variation}{84}{subsection.6.5.1}
+\contentsline {subsection}{\numberline {6.5.1}Hard protein corona characterization with contrast variation}{85}{subsection.6.5.1}
 \contentsline {subsubsection}{Uncertainty analysis}{86}{section*.81}
 \contentsline {section}{\numberline {6.6}Summary}{87}{section.6.6}
