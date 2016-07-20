@@ -61,6 +61,13 @@ focused on the sample and collimated into a \(0.5\) mm circular spot by Ge pinho
 		\label{fig:FCMScheme}
 \end{figure}
 
+\begin{figure}%[htbp]
+	\centering
+		\resizebox{0.7\linewidth}{!}{\includegraphics{Figures/FCMBeamlineFlux.png}}
+		\caption{Typical flux scheme of the FCM Beamline}
+		\label{fig:FCMBeamlineFlux}
+\end{figure}
+
 \subsection{Four-crystal monochromator}
 
 energy resolving power \( E/\Delta E \) of \( 10^4 \)
@@ -79,7 +86,7 @@ Continuous measurement of the incoming photon flux with a semitransparent silico
 
 Avoiding possible fluctuations on the flux. TopUp mode should improve this but still there are variation between 297 and 299 mA which are around 1$\%$
 
-\subsection{Reflectometry chamber in vacuum: NewRef}
+\subsection{Reflectometer in vacuum: NewRef}
 
 goniometer allowing us to move with high precision
 
@@ -95,25 +102,49 @@ very thick silicon diodes
 
 around 0.5 $\%$ uncertainty
 
+\section{SAXS Setup}
+
+How do we measure small-angle x-ray scattering?
+
 \subsection{Pilatus detector}
 high dynamic range
 
 noise free
 
+A vacuum-compatible Pilatus 1 M hybrid pixel detector (Dectris Ltd, Baden, Switzerland) with a pixel size of $d = (172.1 \pm 0.2)$ $\mu$m collected the scattered X-ray photons
+
 \subsection{HZB SAXS instrument}
 
-Collaboration with HZB
+Collaboration with HZB (the SAXS setup of the Helmholtz-Zentrum Berlin (HZB))
 
 Continuos distance movement between 1.5 and 3.7 m (or so)
+
+The distance variability is provided by bellows which allow a travel range of about 2.3 m. 
 
 Possibility to extract the bellows (WAXS)
 
 Which q-range are available for each distance and energy? Small table for high and low energy
 
+\begin{table}[]
+\centering
+\caption{$q$-range available for the different experimental setups at extreme conditions. \textcolor{red}{CHECK FOR TRUE VALUES}}
+\label{tab:qrange}
+\begin{tabular}{|l|c|c|}
+\hline
+              & \textbf{SAXS} & \textbf{WAXS} \\ \hline
+Distance (mm) & 4500          & 700           \\ \hline
+Energy (eV)   & 3500          & 10000         \\ \hline
+$q_{min}$ (nm$^{-1}$)   & 0.015         & 0.5           \\ \hline
+$q_{max}$ (nm$^{-1}$)   & 1             & 7             \\ \hline
+\end{tabular}
+\end{table}
+
 
 \subsubsection{Calibration of the distance}
 
-10-4 uncertainty
+Typically 10-4 uncertainty
+
+Typically 30 seconds measurement at every 50 mm, forwards and backwards to increase accuracy.
 
 Optical encoder with micrometer precision
 
@@ -121,15 +152,42 @@ Using AgBehe to triangulate the sample-detector distance
 
 Before it was done only with the position of the AgBehe but we realized that the crystal lattice depended on the chemical preparation (image comparing Alfa Aesar and MTA silver benehate)
 
-Another reference standard such as BLABLA was used for calibration at long distances (larger periodic distance, Eike material???)
+Another reference standard such as SBA (mesoporous silica, SBA-15) was used for calibration at long distances (larger periodic distance, Eike material???)
 
-\subsection{Sample environment}
+Using a distance range of 1300 mm, moving every 50 mm and with a measurement time of 15 s with an energy of 9000 eV, the AgBehe sample achieve a relative uncertainty in the distance of 0.2 $\%$, although the result is almost 0.2 $\%$ off. If we limit the distance range to that where the diffraction circle is completely visible (see \ref{fig:AgBeheSAXSLongDistance}), the accuracy increase until reaching a uncertainty of 0.02 $\%$. This deviations at long distances are visible in the inset of figure \ref{fig:DistanceCalibrationSAXS}.
 
-\subsubsection{Round capillaries}
+In figure \ref{fig:DistanceCalibrationSAXS}, it can be also observed how this deviations dissappears at long distances for SBA-15. In this case, the uncertainty is 0.004 $\%$
+
+The position of the peak of AgBehe is 1.0765 nm$^{-1}$ (FHWM 0.06 nm$^{-1}$, ratio is 5.5 $\%$), while the peak position of SBA is 0.681 nm$^{-1}$ (FHWM 0.018 nm$^{-1}$, ratio is 2.6 $\%$). The peak of SBA-15 obviously narrower, that is why the uncertainty is also smaller.
+
+
+
+\begin{figure}
+	\centering
+		\subfloat[AgBehe at large distance]{\resizebox{0.44\linewidth}{!}{\includegraphics{Figures/AgBeheSAXSLongDistance.png}}\label{fig:AgBeheSAXSLongDistance}}
+		\subfloat[Distance Calibration]{\resizebox{0.44\linewidth}{!}{\input{Figures/DistanceCalibrationSAXS}}\label{fig:DistanceCalibrationSAXS}}
+		\caption{Sample-to-detector distance calibration by triangulation: a) Problems of the AgBehe sample for large distances (measured at 9 keV and a distance of 895.5 mm), b) Comparison between AgBehe and SBA. The challenges of AgBehe for large distances is highlighted in the inset.}
+\end{figure}
+
+\section{Sample environment}
+
+\subsection{Round capillaries}
 
 where to buy them and sizes
 
-\subsubsection{Hilgenberg capillaries}
+Borosilicate glass 3.3
+
+We used capillaries with a nominal inner diameter of 1 mm and a wall thickness of 0.05 mm. A length of 100 mm is typical. WJM Glass (Berlin, Germany)
+
+The sample is filled into it with an medical syringe with a long thin injection needle. 
+
+
+\subsection{Hilgenberg capillaries}
+
+
+vacuum-proof borosilicate glass capillaries from Hilgenberg (Malsfeld, Germany) with a rectangular cross section of (4.2 $\pm$ 0.2) x (1.25 $\pm$ 0.05) mm$^2$ , a length of (80 $\pm$ 0.5) mm and a wall thickness of ca. 120 $\mu$m. (nominal values)
+
+
 
 where to buy them and sizes
 
@@ -148,6 +206,12 @@ perfect for precise measurement
 
 the uncertainty is even smaller when using the main vertical axis of the rectangular capillaries
 
+we can see how the glass thickness (grey line) is very regular along the main axis, with a transmission of around 0.2 +- 0.01
+
+the same for the water transmission (black line)
+
+\textcolor{red}{cut the part of the galden. Is not giving us any extra information}
+
 \begin{figure}%[htbp]
 	\centering
 		\input{Figures/GaldenCalibration}
@@ -155,7 +219,7 @@ the uncertainty is even smaller when using the main vertical axis of the rectang
 		\label{fig:GaldenCalibration}
 \end{figure}
 
-\subsubsection{Prototype cell from zoltan}
+\subsection{Prototype cell from zoltan}
 
 In the first setup, used to access the q-range describing the overall size of the vesicles, the sample-to-detector distance was 4.4 m and the energy of the incoming X-ray beam was set to 4 keV (wavelength 0.31 nm). Due to the short penetration length of X-rays at this energy, a custom-made sample holder was used utilizing silicon-nitride windows (NX7150E, Norcada Inc., Edmonton,Canada)
 
@@ -167,7 +231,7 @@ where to buy them and sizes? 500 nm thickness, spacer cut with microtome in Hung
 
 Used to increase the q-range as it enables the measurement until energies around 3 eV. We achieve much smaller q values (cite zoltans paper with the PEG-vesicle???)
 
-\subsection{Obtention of the scattering curves}
+\section{Obtention of the scattering curves}
 
 The obtained scattering curve was normalized to the exposure time, the measured suspension transmittance and the incident photon flux, measured by means of a calibrated transparent silicon diode. 
 
@@ -181,7 +245,37 @@ thin diode
 pilatus and thin diode
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 \textcolor{red}{-----------------------THIS SHOULD ALL GO TO THE NEXT CHAPTER-----------------------}
+
+
+
+
+
+
+
+
+
+
+
 \section{Small-angle X-ray scattering: DIRECT FROM PAPER}
 The measurements were performed at the four-crystal monochromator beamline in the PTB laboratory at the electron storage ring BESSY II (Berlin, \emph{Germany}), which provides highly intense, collimated synchrotron radiation focused on the sample and collimated into a \(0.5\) mm circular spot by Ge pinholes situated between the sample and the monochromator with an energy resolving power \( E/\Delta E \) of \( 10^4 \). To measure the total flux and sample transmission, photodiodes were used which were calibrated against a cryogenic electric substitution radiometer with a relative uncertainty of \( 1\,\% \) \cite{krumrey_high-accuracy_2001}.
 

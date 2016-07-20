@@ -41,73 +41,74 @@
 \contentsline {section}{\numberline {3.2}FCM Beamline}{16}{section.3.2}
 \contentsline {subsection}{\numberline {3.2.1}Four-crystal monochromator}{16}{subsection.3.2.1}
 \contentsline {subsection}{\numberline {3.2.2}Monitor diode: Flux monitor}{17}{subsection.3.2.2}
-\contentsline {subsection}{\numberline {3.2.3}Reflectometry chamber in vacuum: NewRef}{17}{subsection.3.2.3}
-\contentsline {subsubsection}{Transmission measurements}{17}{section*.17}
-\contentsline {subsection}{\numberline {3.2.4}Pilatus detector}{17}{subsection.3.2.4}
-\contentsline {subsection}{\numberline {3.2.5}HZB SAXS instrument}{17}{subsection.3.2.5}
-\contentsline {subsubsection}{Calibration of the distance}{17}{section*.18}
-\contentsline {subsection}{\numberline {3.2.6}Sample environment}{18}{subsection.3.2.6}
-\contentsline {subsubsection}{Round capillaries}{18}{section*.19}
-\contentsline {subsubsection}{Hilgenberg capillaries}{18}{section*.20}
-\contentsline {subsubsection}{Prototype cell from zoltan}{19}{section*.23}
-\contentsline {subsection}{\numberline {3.2.7}Obtention of the scattering curves}{19}{subsection.3.2.7}
-\contentsline {subsection}{\numberline {3.2.8}Absolute intensity calibration}{20}{subsection.3.2.8}
-\contentsline {subsubsection}{Flux monitor}{20}{section*.24}
-\contentsline {subsubsection}{Detector efficiceny}{20}{section*.25}
-\contentsline {section}{\numberline {3.3}Small-angle X-ray scattering: DIRECT FROM PAPER}{20}{section.3.3}
-\contentsline {subsection}{\numberline {3.3.1}Filling of capilaries}{21}{subsection.3.3.1}
-\contentsline {subsection}{\numberline {3.3.2}Calibration of solvent density and finding of main axis}{22}{subsection.3.3.2}
-\contentsline {subsection}{\numberline {3.3.3}Limitations}{22}{subsection.3.3.3}
-\contentsline {subsubsection}{Density range}{22}{section*.30}
-\contentsline {subsubsection}{Challenges with different contrast agents}{24}{section*.31}
-\contentsline {subsubsection}{Comparison to other contrast variation scattering techinques}{24}{section*.32}
-\contentsline {chapter}{\numberline {4}Contrast variation in SAXS with the density gradient technique}{25}{chapter.4}
-\contentsline {section}{\numberline {4.1}Materials and Methods}{27}{section.4.1}
-\contentsline {subsection}{\numberline {4.1.1}Particles and chemicals}{27}{subsection.4.1.1}
-\contentsline {subsection}{\numberline {4.1.2}Diffusion time and calibration height}{27}{subsection.4.1.2}
-\contentsline {section}{\numberline {4.2}Continuous contrast variation in SAXS on PS-COOH colloids}{28}{section.4.2}
-\contentsline {section}{\numberline {4.3}Model dependent evaluation}{30}{section.4.3}
-\contentsline {subsection}{\numberline {4.3.1}Core-shell form factor fit}{30}{subsection.4.3.1}
-\contentsline {section}{\numberline {4.4}Model-free approach to contrast variation data}{32}{section.4.4}
-\contentsline {subsection}{\numberline {4.4.1}Isoscattering point}{32}{subsection.4.4.1}
-\contentsline {subsubsection}{Quantification: Relative standard deviation}{32}{section*.36}
-\contentsline {subsection}{\numberline {4.4.2}Guinier region}{34}{subsection.4.4.2}
-\contentsline {subsubsection}{Average electron density}{35}{section*.40}
-\contentsline {section}{\numberline {4.5}Summary}{35}{section.4.5}
-\contentsline {chapter}{\numberline {5}Simultaneous size and density determination of polymeric colloids}{38}{chapter.5}
-\contentsline {section}{\numberline {5.1}Materials and methods}{41}{section.5.1}
-\contentsline {subsection}{\numberline {5.1.1}Particles and chemicals}{41}{subsection.5.1.1}
-\contentsline {subsection}{\numberline {5.1.2}Differential Centrifuge Sedimentation (DCS)}{42}{subsection.5.1.2}
-\contentsline {subsubsection}{Stokes equations}{43}{section*.45}
-\contentsline {subsubsection}{Combined analysis}{43}{section*.46}
-\contentsline {section}{\numberline {5.2}Technique validation for the determination of the particle size distribution}{44}{section.5.2}
-\contentsline {subsection}{\numberline {5.2.1}Inter-laboratory comparison of the mean particle size}{46}{subsection.5.2.1}
-\contentsline {subsection}{\numberline {5.2.2}Colloidal size distribution}{48}{subsection.5.2.2}
-\contentsline {section}{\numberline {5.3}Considerations about contrast variation data evaluation}{50}{section.5.3}
-\contentsline {subsection}{\numberline {5.3.1}Shape factor formalism}{50}{subsection.5.3.1}
-\contentsline {subsubsection}{Advantages and disadvatages}{51}{section*.53}
-\contentsline {subsection}{\numberline {5.3.2}Isoscattering point approach}{51}{subsection.5.3.2}
-\contentsline {subsubsection}{Advantages and disadvatages}{53}{section*.56}
-\contentsline {section}{\numberline {5.4}Determination of the particle physical density}{53}{section.5.4}
-\contentsline {subsection}{\numberline {5.4.1}Validation through comparison with DCS}{54}{subsection.5.4.1}
-\contentsline {subsubsection}{Uncertainties}{54}{section*.59}
-\contentsline {subsection}{\numberline {5.4.2}Use for homogenous polymeric colloids}{54}{subsection.5.4.2}
-\contentsline {section}{\numberline {5.5}Summary}{56}{section.5.5}
-\contentsline {chapter}{\numberline {6}Continuous contrast variation applied to relevant bio-materials}{57}{chapter.6}
-\contentsline {section}{\numberline {6.1}Materials and methods}{58}{section.6.1}
-\contentsline {subsection}{\numberline {6.1.1}Caelyx$\textregistered $: PEGylated liposomal doxorubicin}{58}{subsection.6.1.1}
-\contentsline {subsection}{\numberline {6.1.2}Lipid vesicles: PEGylated and plain liposomes}{60}{subsection.6.1.2}
-\contentsline {subsection}{\numberline {6.1.3}Human lipoproteins}{60}{subsection.6.1.3}
-\contentsline {subsection}{\numberline {6.1.4}PS-COOH particles coated with IgG}{61}{subsection.6.1.4}
-\contentsline {section}{\numberline {6.2}Traceable size determination of a liposomal drug}{62}{section.6.2}
-\contentsline {subsection}{\numberline {6.2.1}Isoscattering point approach}{63}{subsection.6.2.1}
-\contentsline {subsection}{\numberline {6.2.2}Shape factor calculation}{64}{subsection.6.2.2}
-\contentsline {subsection}{\numberline {6.2.3}Average electron density}{66}{subsection.6.2.3}
-\contentsline {section}{\numberline {6.3}Osmotic effects in liposomes}{67}{section.6.3}
-\contentsline {subsection}{\numberline {6.3.1}Application to drug-stabilized liposomes}{68}{subsection.6.3.1}
-\contentsline {subsection}{\numberline {6.3.2}Does PEGylation affect the osmotic activity of liposomes?}{71}{subsection.6.3.2}
-\contentsline {section}{\numberline {6.4}Sizing of blood plasma componenents}{79}{section.6.4}
-\contentsline {section}{\numberline {6.5}Protein-coated low-density nanoparticles}{82}{section.6.5}
-\contentsline {subsection}{\numberline {6.5.1}Hard protein corona characterization with contrast variation}{85}{subsection.6.5.1}
-\contentsline {subsubsection}{Uncertainty analysis}{86}{section*.81}
-\contentsline {section}{\numberline {6.6}Summary}{87}{section.6.6}
+\contentsline {subsection}{\numberline {3.2.3}Reflectometer in vacuum: NewRef}{17}{subsection.3.2.3}
+\contentsline {subsubsection}{Transmission measurements}{17}{section*.18}
+\contentsline {section}{\numberline {3.3}SAXS Setup}{18}{section.3.3}
+\contentsline {subsection}{\numberline {3.3.1}Pilatus detector}{18}{subsection.3.3.1}
+\contentsline {subsection}{\numberline {3.3.2}HZB SAXS instrument}{18}{subsection.3.3.2}
+\contentsline {subsubsection}{Calibration of the distance}{18}{section*.20}
+\contentsline {section}{\numberline {3.4}Sample environment}{20}{section.3.4}
+\contentsline {subsection}{\numberline {3.4.1}Round capillaries}{20}{subsection.3.4.1}
+\contentsline {subsection}{\numberline {3.4.2}Hilgenberg capillaries}{20}{subsection.3.4.2}
+\contentsline {subsection}{\numberline {3.4.3}Prototype cell from zoltan}{21}{subsection.3.4.3}
+\contentsline {section}{\numberline {3.5}Obtention of the scattering curves}{22}{section.3.5}
+\contentsline {subsection}{\numberline {3.5.1}Absolute intensity calibration}{22}{subsection.3.5.1}
+\contentsline {subsubsection}{Flux monitor}{22}{section*.24}
+\contentsline {subsubsection}{Detector efficiceny}{22}{section*.25}
+\contentsline {section}{\numberline {3.6}Small-angle X-ray scattering: DIRECT FROM PAPER}{22}{section.3.6}
+\contentsline {subsection}{\numberline {3.6.1}Filling of capilaries}{24}{subsection.3.6.1}
+\contentsline {subsection}{\numberline {3.6.2}Calibration of solvent density and finding of main axis}{24}{subsection.3.6.2}
+\contentsline {subsection}{\numberline {3.6.3}Limitations}{26}{subsection.3.6.3}
+\contentsline {subsubsection}{Density range}{26}{section*.30}
+\contentsline {subsubsection}{Challenges with different contrast agents}{26}{section*.31}
+\contentsline {subsubsection}{Comparison to other contrast variation scattering techinques}{26}{section*.32}
+\contentsline {chapter}{\numberline {4}Contrast variation in SAXS with the density gradient technique}{27}{chapter.4}
+\contentsline {section}{\numberline {4.1}Materials and Methods}{29}{section.4.1}
+\contentsline {subsection}{\numberline {4.1.1}Particles and chemicals}{29}{subsection.4.1.1}
+\contentsline {subsection}{\numberline {4.1.2}Diffusion time and calibration height}{29}{subsection.4.1.2}
+\contentsline {section}{\numberline {4.2}Continuous contrast variation in SAXS on PS-COOH colloids}{30}{section.4.2}
+\contentsline {section}{\numberline {4.3}Model dependent evaluation}{32}{section.4.3}
+\contentsline {subsection}{\numberline {4.3.1}Core-shell form factor fit}{32}{subsection.4.3.1}
+\contentsline {section}{\numberline {4.4}Model-free approach to contrast variation data}{34}{section.4.4}
+\contentsline {subsection}{\numberline {4.4.1}Isoscattering point}{34}{subsection.4.4.1}
+\contentsline {subsubsection}{Quantification: Relative standard deviation}{34}{section*.36}
+\contentsline {subsection}{\numberline {4.4.2}Guinier region}{36}{subsection.4.4.2}
+\contentsline {subsubsection}{Average electron density}{37}{section*.40}
+\contentsline {section}{\numberline {4.5}Summary}{37}{section.4.5}
+\contentsline {chapter}{\numberline {5}Simultaneous size and density determination of polymeric colloids}{40}{chapter.5}
+\contentsline {section}{\numberline {5.1}Materials and methods}{43}{section.5.1}
+\contentsline {subsection}{\numberline {5.1.1}Particles and chemicals}{43}{subsection.5.1.1}
+\contentsline {subsection}{\numberline {5.1.2}Differential Centrifuge Sedimentation (DCS)}{44}{subsection.5.1.2}
+\contentsline {subsubsection}{Stokes equations}{45}{section*.45}
+\contentsline {subsubsection}{Combined analysis}{45}{section*.46}
+\contentsline {section}{\numberline {5.2}Technique validation for the determination of the particle size distribution}{46}{section.5.2}
+\contentsline {subsection}{\numberline {5.2.1}Inter-laboratory comparison of the mean particle size}{48}{subsection.5.2.1}
+\contentsline {subsection}{\numberline {5.2.2}Colloidal size distribution}{50}{subsection.5.2.2}
+\contentsline {section}{\numberline {5.3}Considerations about contrast variation data evaluation}{52}{section.5.3}
+\contentsline {subsection}{\numberline {5.3.1}Shape factor formalism}{52}{subsection.5.3.1}
+\contentsline {subsubsection}{Advantages and disadvatages}{53}{section*.53}
+\contentsline {subsection}{\numberline {5.3.2}Isoscattering point approach}{53}{subsection.5.3.2}
+\contentsline {subsubsection}{Advantages and disadvatages}{55}{section*.56}
+\contentsline {section}{\numberline {5.4}Determination of the particle physical density}{55}{section.5.4}
+\contentsline {subsection}{\numberline {5.4.1}Validation through comparison with DCS}{56}{subsection.5.4.1}
+\contentsline {subsubsection}{Uncertainties}{56}{section*.59}
+\contentsline {subsection}{\numberline {5.4.2}Use for homogenous polymeric colloids}{56}{subsection.5.4.2}
+\contentsline {section}{\numberline {5.5}Summary}{58}{section.5.5}
+\contentsline {chapter}{\numberline {6}Continuous contrast variation applied to relevant bio-materials}{59}{chapter.6}
+\contentsline {section}{\numberline {6.1}Materials and methods}{60}{section.6.1}
+\contentsline {subsection}{\numberline {6.1.1}Caelyx$\textregistered $: PEGylated liposomal doxorubicin}{60}{subsection.6.1.1}
+\contentsline {subsection}{\numberline {6.1.2}Lipid vesicles: PEGylated and plain liposomes}{62}{subsection.6.1.2}
+\contentsline {subsection}{\numberline {6.1.3}Human lipoproteins}{62}{subsection.6.1.3}
+\contentsline {subsection}{\numberline {6.1.4}PS-COOH particles coated with IgG}{63}{subsection.6.1.4}
+\contentsline {section}{\numberline {6.2}Traceable size determination of a liposomal drug}{64}{section.6.2}
+\contentsline {subsection}{\numberline {6.2.1}Isoscattering point approach}{65}{subsection.6.2.1}
+\contentsline {subsection}{\numberline {6.2.2}Shape factor calculation}{66}{subsection.6.2.2}
+\contentsline {subsection}{\numberline {6.2.3}Average electron density}{68}{subsection.6.2.3}
+\contentsline {section}{\numberline {6.3}Osmotic effects in liposomes}{69}{section.6.3}
+\contentsline {subsection}{\numberline {6.3.1}Application to drug-stabilized liposomes}{70}{subsection.6.3.1}
+\contentsline {subsection}{\numberline {6.3.2}Does PEGylation affect the osmotic activity of liposomes?}{73}{subsection.6.3.2}
+\contentsline {section}{\numberline {6.4}Sizing of blood plasma componenents}{81}{section.6.4}
+\contentsline {section}{\numberline {6.5}Protein-coated low-density nanoparticles}{84}{section.6.5}
+\contentsline {subsection}{\numberline {6.5.1}Hard protein corona characterization with contrast variation}{87}{subsection.6.5.1}
+\contentsline {subsubsection}{Uncertainty analysis}{88}{section*.81}
+\contentsline {section}{\numberline {6.6}Summary}{89}{section.6.6}
