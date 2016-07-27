@@ -11,49 +11,49 @@ A level-1 auxiliary file: chapter_simultaneous_size_density.aux
 A level-1 auxiliary file: chapter_bio_applications.aux
 Database file #1: thesis.bib
 Warning--entry type for "fitzpatrick_structure_1998" isn't style-file defined
---line 2128 of file thesis.bib
+--line 2213 of file thesis.bib
 `number' is a missing field, not a string, for entry dingenouts_analysis_1999
 while executing---line 3135 of file meinbst.bst
 Warning--can't use both author and editor fields in feigin_structure_1987
-You've used 145 entries,
+You've used 152 entries,
             2851 wiz_defined-function locations,
-            1475 strings with 37256 characters,
-and the built_in function-call counts, 81236 in all, are:
-= -- 7690
-> -- 4788
-< -- 55
-+ -- 1856
-- -- 1684
-* -- 7925
-:= -- 14701
-add.period$ -- 291
-call.type$ -- 145
-change.case$ -- 1291
-chr.to.int$ -- 160
-cite$ -- 146
-duplicate$ -- 3168
-empty$ -- 5319
-format.name$ -- 1883
-if$ -- 15666
+            1511 strings with 38813 characters,
+and the built_in function-call counts, 85453 in all, are:
+= -- 8076
+> -- 5082
+< -- 57
++ -- 1968
+- -- 1789
+* -- 8352
+:= -- 15477
+add.period$ -- 305
+call.type$ -- 152
+change.case$ -- 1361
+chr.to.int$ -- 167
+cite$ -- 153
+duplicate$ -- 3320
+empty$ -- 5568
+format.name$ -- 1999
+if$ -- 16464
 int.to.chr$ -- 4
 int.to.str$ -- 1
-missing$ -- 149
-newline$ -- 439
-num.names$ -- 582
-pop$ -- 1026
+missing$ -- 156
+newline$ -- 460
+num.names$ -- 610
+pop$ -- 1082
 preamble$ -- 1
-purify$ -- 1141
+purify$ -- 1204
 quote$ -- 0
-skip$ -- 1801
+skip$ -- 1885
 stack$ -- 0
-substring$ -- 5010
-swap$ -- 717
+substring$ -- 5238
+swap$ -- 750
 text.length$ -- 3
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 1290
+type$ -- 1353
 warning$ -- 1
-while$ -- 707
+while$ -- 742
 width$ -- 0
-write$ -- 1596
+write$ -- 1673
 (There was 1 error message)

@@ -1,5 +1,12 @@
-\begin{thebibliography}{145}
+\begin{thebibliography}{152}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
+
+\bibitem[Amenitsch {\em et~al.\/}(1997)Amenitsch, Bernstorff, Kriechbaum,
+  Lombardo, Mio, Rappolt \& Laggner]{amenitsch_performance_1997}
+{\sc Amenitsch, H., Bernstorff, S., Kriechbaum, M., Lombardo, D., Mio, H.,
+  Rappolt, M. \& Laggner, P.} 1997 Performance and {{First Results}} of the
+  {{ELETTRA High-Flux Beamline}} for {{Small-Angle X}}-ray {{Scattering}}. {\em
+  Journal of Applied Crystallography\/} {\bf 30}, 872--876.
 
 \bibitem[Arnold {\em et~al.\/}(2006)Arnold, Green, Hulvat, Stupp \&
   Hersam]{arnold_sorting_2006}
@@ -69,6 +76,16 @@
   Schmutzler]{beyer_saxs_1990}
 {\sc Beyer, D., Lebek, W., Hergeth, W.-D. \& Schmutzler, K.} 1990 {{SAXS}}
   study of core-shell colloids. {\em Colloid Polym Sci\/} {\bf 268}, 744--748.
+
+\bibitem[Blanton {\em et~al.\/}(1995)Blanton, Huang, Toraya, Hubbard, Robie,
+  Lou{\"e}r, G{\"o}bel, Will, Gilles \&
+  Raftery]{blanton_jcpdsinternational_1995}
+{\sc Blanton, T.~N., Huang, T.~C., Toraya, H., Hubbard, C.~R., Robie, S.~B.,
+  Lou{\"e}r, D., G{\"o}bel, H.~E., Will, G., Gilles, R. \& Raftery, T.} 1995
+  {{JCPDS}}\textemdash{}{{International Centre}} for {{Diffraction Data}} round
+  robin study of silver behenate. {{A}} possible low-angle {{X}}-ray
+  diffraction calibration standard. {\em Powder Diffraction\/} {\bf 10},
+  91--95.
 
 \bibitem[BLUMENTHAL \& GOULD(1970)]{blumenthal_bremsstrahlung_1970}
 {\sc BLUMENTHAL, G.~R. \& GOULD, R.~J.} 1970 Bremsstrahlung, {{Synchrotron
@@ -431,6 +448,12 @@
   Ollivon, M. \& Neubert, R.} 2003 Does sucrose influence the properties of
   {{DMPC}} vesicles? {\em Chemistry and Physics of Lipids\/} {\bf 123}, 31--44.
 
+\bibitem[Kratky {\em et~al.\/}(1966)Kratky, Pilz \&
+  Schmitz]{kratky_absolute_1966}
+{\sc Kratky, O., Pilz, I. \& Schmitz, P.~J.} 1966 Absolute intensity
+  measurement of small angle x-ray scattering by means of a standard sample.
+  {\em Journal of Colloid and Interface Science\/} {\bf 21}, 24--34.
+
 \bibitem[Krumrey \& Ulm(2001)]{krumrey_high-accuracy_2001}
 {\sc Krumrey, M. \& Ulm, G.} 2001 High-accuracy detector calibration at the
   {{PTB}} four-crystal monochromator beamline. {\em Nuclear Instruments and
@@ -493,6 +516,10 @@
   {{PEO\textendash{}PPO\textendash{}PEO}} on small unilamellar liposome
   morphology and stability: an {{AFM}} investigation. {\em Journal of Colloid
   and Interface Science\/} {\bf 285}, 360--372.
+
+\bibitem[Liu {\em et~al.\/}(2006)Liu, Lu, Zhang \& Cao]{liu_thermal_2006}
+{\sc Liu, X., Lu, S., Zhang, J. \& Cao, W.} 2006 Thermal decomposition process
+  of silver behenate. {\em Thermochimica Acta\/} {\bf 440}, 1--6.
 
 \bibitem[Lundqvist {\em et~al.\/}(2008)Lundqvist, Stigler, Elia, Lynch,
   Cedervall \& Dawson]{lundqvist_nanoparticle_2008}
@@ -641,6 +668,11 @@
   colloids and polymer solutions: modeling and least-squares fitting. {\em Adv.
   Colloid Interfac.\/} {\bf 70}, 171--210.
 
+\bibitem[Perret \& Ruland(1972)]{perret_glassy_1972}
+{\sc Perret, R. \& Ruland, W.} 1972 Glassy carbon as standard for the
+  normalization of small-angle scattering intensities. {\em Journal of Applied
+  Crystallography\/} {\bf 5}, 116--119.
+
 \bibitem[Powers {\em et~al.\/}(2006)Powers, Brown, Krishna, Wasdo, Moudgil \&
   Roberts]{powers_research_2006}
 {\sc Powers, K.~W., Brown, S.~C., Krishna, V.~B., Wasdo, S.~C., Moudgil, B.~M.
@@ -678,6 +710,11 @@
 {\sc Schnitzer, E. \& Lichtenberg, D.} 1994 Re-evaluation of the structure of
   low density lipoproteins. {\em Chemistry and Physics of Lipids\/} {\bf 70},
   63--74.
+
+\bibitem[Shaffer \& Hendricks(1974)]{shaffer_calibration_1974}
+{\sc Shaffer, L.~B. \& Hendricks, R.~W.} 1974 Calibration of polyethylene
+  (lupolen) as a wavelength-independent absolute intensity standard. {\em
+  Journal of Applied Crystallography\/} {\bf 7}, 159--163.
 
 \bibitem[Silverstein {\em et~al.\/}(1989)Silverstein, Talmon \&
   Narkis]{silverstein_microstructure_1989}
@@ -874,6 +911,13 @@
 {\sc Yeh, M.-K., {Hsin-I Chang} \& {Ming-Yen Cheng}} 2011 Clinical development
   of liposome based drugs: formulation, characterization, and therapeutic
   efficacy. {\em International Journal of Nanomedicine\/} p.~49.
+
+\bibitem[Zhao {\em et~al.\/}(1998)Zhao, Feng, Huo, Melosh, Fredrickson, Chmelka
+  \& Stucky]{zhao_triblock_1998}
+{\sc Zhao, D., Feng, J., Huo, Q., Melosh, N., Fredrickson, G.~H., Chmelka,
+  B.~F. \& Stucky, G.~D.} 1998 Triblock {{Copolymer Syntheses}} of {{Mesoporous
+  Silica}} with {{Periodic}} 50 to 300 {{Angstrom Pores}}. {\em Science\/} {\bf
+  279}, 548--552.
 
 \bibitem[Zhou {\em et~al.\/}(2014)Zhou, Porter, Robinson, Shim \&
   Guo]{zhou_nano-enabled_2014}

@@ -152,13 +152,32 @@ Using AgBehe to triangulate the sample-detector distance
 
 Before it was done only with the position of the AgBehe but we realized that the crystal lattice depended on the chemical preparation (image comparing Alfa Aesar and MTA silver benehate)
 
-Another reference standard such as SBA (mesoporous silica, SBA-15) was used for calibration at long distances (larger periodic distance, Eike material???)
+Another reference standard such as SBA (mesoporous silica, SBA-15 \cite{zhao_triblock_1998}) was used for calibration at long distances (larger periodic distance, Eike material???)
 
-Using a distance range of 1300 mm, moving every 50 mm and with a measurement time of 15 s with an energy of 9000 eV, the AgBehe sample achieve a relative uncertainty in the distance of 0.2 $\%$, although the result is almost 0.2 $\%$ off. If we limit the distance range to that where the diffraction circle is completely visible (see \ref{fig:AgBeheSAXSLongDistance}), the accuracy increase until reaching a uncertainty of 0.02 $\%$. This deviations at long distances are visible in the inset of figure \ref{fig:DistanceCalibrationSAXS}.
+Using a distance range of 1300 mm, moving every 50 mm and with a measurement time of 15 s with an energy of 9000 eV, the AgBehe sample achieve a relative uncertainty in the distance of 0.02 $\%$. This deviations at long distances are visible in the inset of figure \ref{fig:DistanceCalibrationSAXS}.
 
 In figure \ref{fig:DistanceCalibrationSAXS}, it can be also observed how this deviations dissappears at long distances for SBA-15. In this case, the uncertainty is 0.004 $\%$
 
+REAL MEASUREMENT, WHOLE DISTANCE
+
+Using a distance range of 2200 mm, moving every 100 mm and with a measurement time of 10 s with an energy of 8000 eV, the AgBehe sample achieve a relative uncertainty in the distance of 0.03 $\%$ (1.5 mm). This deviations at long distances are visible in the inset of figure \ref{fig:DistanceCalibrationSAXS}, by looking at the residuals for short distance. We just used the region for distances larger than 1000 mm.
+
+In figure \ref{fig:DistanceCalibrationSAXS}, it can be also observed how this deviations dissappears at long distances for SBA-15. In this case, the uncertainty is 0.007 $\%$ (0.3 mm)
+
+There is always a factor 5 between the uncertainties of SBA-15 and AgBehe. The best uncertainty achieved is with SBA and moving every 50 mm and longer exposure times (0.004 $\%$ (0.2 mm))
+
+In figure \ref{fig:AgBeheSAXSLongDistance} we can see how AgBehe has problems at long distances. We can only use it for Pilatus Pos larger than 1000 mm.
+
+
+
+
+The uncertainty of the fit (around 0.2 mm and 0.8 mm for AgBehe) is smaller than the difference between the 2 measurements (0.5 mm). Besides, the thickness of the sample is only approx in 0.5 mm. Therefore, the overal uncertainty that we can give is exactly 0.5 mm, which corresponds to 0.5 mm/4630 mm, 0.01 $\%$
+
 The position of the peak of AgBehe is 1.0765 nm$^{-1}$ (FHWM 0.06 nm$^{-1}$, ratio is 5.5 $\%$), while the peak position of SBA is 0.681 nm$^{-1}$ (FHWM 0.018 nm$^{-1}$, ratio is 2.6 $\%$). The peak of SBA-15 obviously narrower, that is why the uncertainty is also smaller.
+
+Good from AgBehe is that the position of the peak is always at 1.0766 nm-1 \cite{blanton_jcpdsinternational_1995} (with a crystal parameter of 58.36 angstroms, giving 1.07553 nm-1)  and varies only 0.5 $\%$. Nevertheless, by radiation it can create small silver nanoparticles which increase the background \cite{liu_thermal_2006} thermal decomposition of AgBehe.
+
+On the other hand, SBA-15 has a narrower peak which is visible along a wider distance range and gives better statistics for the fit. However, the position of the peak is strongly dependent on the preparation (e.g. calcination time, mesopores size is tunable as explained in paper from zhao...), and can vary until 1 $\%$ (the shape also depends on the chemical preparation). Radiation damage effects are visible for short calcination times.
 
 
 
@@ -166,8 +185,14 @@ The position of the peak of AgBehe is 1.0765 nm$^{-1}$ (FHWM 0.06 nm$^{-1}$, rat
 	\centering
 		\subfloat[AgBehe at large distance]{\resizebox{0.44\linewidth}{!}{\includegraphics{Figures/AgBeheSAXSLongDistance.png}}\label{fig:AgBeheSAXSLongDistance}}
 		\subfloat[Distance Calibration]{\resizebox{0.44\linewidth}{!}{\input{Figures/DistanceCalibrationSAXS}}\label{fig:DistanceCalibrationSAXS}}
-		\caption{Sample-to-detector distance calibration by triangulation: a) Problems of the AgBehe sample for large distances (measured at 9 keV and a distance of 895.5 mm), b) Comparison between AgBehe and SBA. The challenges of AgBehe for large distances is highlighted in the inset.}
+		\caption{Sample-to-detector distance calibration by triangulation: a) Problems of the AgBehe sample for large distances (measured at 8 keV and a distance of 995.5 mm, file "messung kmc daten 2015 1Q pilatus 201501 0394.tif"), b) Comparison between AgBehe and SBA. The challenges of AgBehe for large distances is highlighted in the inset.}
 \end{figure}
+
+\subsubsection{Other standard materials}
+
+dry rat tail tendon collagen with a d-spacing of 6.5 angstroms \cite{amenitsch_performance_1997}
+
+rat tail tendon collagen fibres. Features from three hierarchical levels are recognized simultaneously, i.e. the meridional helix diffraction peak at 2.9 angstroms from the triple helical molecules (1), the equatorial ordering peak from the lateral order of the collagen fibrils at 11.5 angstroms (2) and the third-order reflection from the lateral staggering of the collagen molecules at 217 angstroms (3) [see e.g. Wess (2005)
 
 \section{Sample environment}
 
@@ -210,6 +235,27 @@ we can see how the glass thickness (grey line) is very regular along the main ax
 
 the same for the water transmission (black line)
 
+By fitting a line to the glass transmission, the relative error of the transmission is 0.04 $\%$. The relative uncertainty of the glass thickness is calculated by $\delta_r d = \frac{\delta_r T}{log(T)}$ and gives 0.03 $\%$
+
+Dividing the measured transmission in water (ur 0.05$\%$) over the air transmission (ur 0.04$\%$) (Twater = 35 $\%$), we obtain the tranmission of only water and with that, the thickness of the sample. The uncertainty of the water transmission is 0.06$\%$ and the sample thicknes has an uncertainty of 0.06$\%$, by calculating $\delta_r d = \frac{\delta_r T}{log(T)}$.
+
+Summary: When measuring along the main axis of the capillary, the glass thickness has an associated uncertainty of 0.03 $\%$ and the sample thicknes of 0.06 $\%$.
+
+
+MORE CONSERVATIVE UNCERTAINTY
+
+the uncertainty is even smaller when using the main vertical axis of the rectangular capillaries
+
+we can see how the glass thickness (grey line) is very regular along the main axis, with a transmission of around 0.201 +- 0.001
+
+the same for the water transmission (black line)
+
+By fitting a line to the glass transmission, the relative error of the transmission is 0.6 $\%$. The relative uncertainty of the glass thickness is calculated by $\delta_r d = \frac{\delta_r T}{log(T)}$ and gives 0.4 $\%$
+
+Dividing the measured transmission in water (ur 0.7$\%$) over the air transmission (ur 0.6$\%$) (Twater = 35 $\%$), we obtain the tranmission of only water and with that, the thickness of the sample. The uncertainty of the water transmission is 0.9 $\%$ and the sample thicknes has an uncertainty of 0.9$\%$, by calculating $\delta_r d = \frac{\delta_r T}{log(T)}$.
+
+Summary: When measuring along the main axis of the capillary, the glass thickness has an associated uncertainty of 0.4 $\%$ and the sample thicknes of 0.9 $\%$.
+
 \textcolor{red}{cut the part of the galden. Is not giving us any extra information}
 
 \begin{figure}%[htbp]
@@ -238,6 +284,11 @@ The obtained scattering curve was normalized to the exposure time, the measured 
 Radial integration and error propagation
 
 \subsection{Absolute intensity calibration}
+
+lupolen as standard material \cite{kratky_absolute_1966,shaffer_calibration_1974}
+
+glassy carbon \cite{perret_glassy_1972}
+
 use the knowledge from the innanopart project??????
 \subsubsection{Flux monitor}
 thin diode
