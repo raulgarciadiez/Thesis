@@ -1,5 +1,10 @@
 set multiplot
 
+D=4633.7
+
+dmin=2400
+dmax=4600
+
 set tmargin 0
 set bmargin 0
 set lmargin 3
@@ -12,10 +17,10 @@ set autoscale
 #set xlabel 'Measured distance / mm'
 unset xlabel
 set ylabel 'Radius size / pixel' offset 2
-set xrange [10:2250]
+set xrange [dmin:dmax]
 set yrange [220:720]
 #set key spacing 1.5
-#set key 1500,245
+set key 3200,600
 #set xtics (0.02,0.03,0.05,0.1,0.2,0.3,0.5)
 set xtics format ""
 set ytics (300, 400, 500, 600, 700)
@@ -32,11 +37,11 @@ g(x)=c*x+d
 #fit f(x) 'distancefit_78.dat' u 6:2 via a,b
 ###fit [1000:3000] f(x) 'distancefit_78.dat' u 6:2 via a,b
 
-fit g(x) 'distancefit_102_SBA_Jan2015.dat' u 6:2 via c,d
-fit f(x) 'distancefit_126_AgBehe_Jan2015.dat' u 6:2 via a,b
+fit g(x) 'distancefit_102_SBA_Jan2015.dat' u (D-$6):2 via c,d
+fit f(x) 'distancefit_126_AgBehe_Jan2015.dat' u (D-$6):2 via a,b
 
   
-p 'distancefit_126_AgBehe_Jan2015.dat' u 6:2 w p ls 2 t 'AgBehe', 'distancefit_102_SBA_Jan2015.dat' u 6:2 w p ls 1 t 'SBA', g(x) not ls 1, f(x) ls 2 not
+p 'distancefit_126_AgBehe_Jan2015.dat' u (D-$6):2 w p ls 2 t 'AgBehe', 'distancefit_102_SBA_Jan2015.dat' u (D-$6):2 w p ls 1 t 'SBA', g(x) not ls 1, f(x) ls 2 not
 #p 'distancefit_78.dat' u 6:2 w p ls 2 t 'AgBehe', 'distancefit_91_inner.dat' u 6:2 w p ls 1 t 'SBA', g(x) not ls 1, f(x) ls 2 not
 
 
@@ -58,7 +63,7 @@ set xlabel 'Measured distance / mm'
 set autoscale
 #set yrange [490.:515.]
 #set xrange [870.:1005.]
-set xrange [10:2250]
+set xrange [dmin:dmax]
 set yrange [-3.5:1.9]
 set xtics format "%g"
 set ytics (-3,-2,-1,0,1.)
@@ -73,6 +78,6 @@ unset key
 
 #p 'distancefit_78.dat' u 6:2 w p ls 2 not, f(x) ls 2 not
 
-p 'distancefit_126_AgBehe_Jan2015.dat' u 6:(f($6)-$2) w p ls 2 not, 'distancefit_102_SBA_Jan2015.dat' u 6:(g($6)-$2) w p ls 1 not
+p 'distancefit_126_AgBehe_Jan2015.dat' u (D-$6):(f((D-$6))-$2) w p ls 2 not, 'distancefit_102_SBA_Jan2015.dat' u (D-$6):(g((D-$6))-$2) w p ls 1 not
  
 unset multiplot

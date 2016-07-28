@@ -1,4 +1,4 @@
-\begin{thebibliography}{152}
+\begin{thebibliography}{153}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 
 \bibitem[Amenitsch {\em et~al.\/}(1997)Amenitsch, Bernstorff, Kriechbaum,
@@ -359,6 +359,12 @@
   of atomic force microscopy ({{AFM}}) and dynamic light scattering ({{DLS}})
   methods to characterize nanoparticle size distributions. {\em J Nanopart
   Res\/} {\bf 10}, 89--96.
+
+\bibitem[Huang {\em et~al.\/}(1993)Huang, Toraya, Blanton \&
+  Wu]{huang_x-ray_1993}
+{\sc Huang, T.~C., Toraya, H., Blanton, T.~N. \& Wu, Y.} 1993 X-ray powder
+  diffraction analysis of silver behenate, a possible low-angle diffraction
+  standard. {\em Journal of Applied Crystallography\/} {\bf 26}, 180--184.
 
 \bibitem[Jans {\em et~al.\/}(2009)Jans, Liu, Austin, Maes \&
   Huo]{jans_dynamic_2009}

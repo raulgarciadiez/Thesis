@@ -1,4 +1,4 @@
-\chapter{Experimental setup for SAXS measurements}
+\chapter{Instrumentation and experimental setup for SAXS measurements}
 \label{chap:experimental_setup}
 
 \section{BESSY II}
@@ -69,6 +69,7 @@ focused on the sample and collimated into a \(0.5\) mm circular spot by Ge pinho
 \end{figure}
 
 \subsection{Four-crystal monochromator}
+\label{sec:fcm}
 
 energy resolving power \( E/\Delta E \) of \( 10^4 \)
 
@@ -79,6 +80,11 @@ Typical flux on the sample
 Difference between Si and InSb
 
 Beam size on the sample, divergence (talk to Mika)
+
+The Four Crystal Monochromator consists of two times four crystals, where one set consists of InSb(111) and one of Si(111). The arrangement of the four crystals (see fig. 3.2) per set provides a stable beam position behind the monochromator, when changing the photon energy. This prevents a time consuming realignment as well as a change of the measured sample area. In SAXS, this enables double-checking a measurement result by changing the q area without moving the sample or the detector.
+
+In the energy range from 1.75 keV up to 10 keV, this monochromator provides a spectral purity of 10-4, for energies higher than 2.5 keV even 3x10-5 . Behind the FCM at 27.5 m distance from the dipole, a plane bendable mirror reflects the beam back to horizontal direction and collimates it in vertical direction. This mirror has two different coating areas (Pt and MgF2 ) to enable the different energy ranges (see fig. 3.3). The flux reached at the beamline for the different energies and the different setups of the monochromator is shown in fig. 3.3. A slit downstream of the plane mirror reduces the beam size. Behind this, a thin photodiode can be placed to measure the photon flux in transmission [55].
+
 
 \subsection{Monitor diode: Flux monitor}
 
@@ -91,6 +97,9 @@ Avoiding possible fluctuations on the flux. TopUp mode should improve this but s
 goniometer allowing us to move with high precision
 
 The rectangular capillary is placed in a sample holder which allows the movement with micrometer precision in the directions perpendicular to the incoming beam, as depicted in figure \ref{fig:DensityGradientCapillarySetup}.
+
+About 10 m behind the monochromator, the UHV X-ray Reflectometer [53] is located as sample chamber. The pressure in the reflectometer can be reduced to 10-7 mbar. Additionally, it provides devices to move and tilt samples in all directions, which allows to place up to 15 SAXS sample capillaries at once, without the need of breaking the vacuum and re-evacuate the chamber for changing the sample. Another important feature consists in the diodes which can be placed in the beam and are used to record the actual flux hitting the sample and to measure the transmission of the sample at the actual photon energy. Both are parameters required for the analysis of SAXS data.
+
 
 \subsubsection{Transmission measurements}
 
@@ -113,7 +122,16 @@ noise free
 
 A vacuum-compatible Pilatus 1 M hybrid pixel detector (Dectris Ltd, Baden, Switzerland) with a pixel size of $d = (172.1 \pm 0.2)$ $\mu$m collected the scattered X-ray photons
 
+\subsubsection{Beam-stop}
+
+In order to avoid saturation effects in the center
+
+diode in beamstop to see variation of the transmission during the measurement
+
 \subsection{HZB SAXS instrument}
+
+A very capable setup providing a large range for the sample-detector distance, a high resolution and high dynamic range detector, and a vacuum of about 10-4 mbar between sample chamber and detector is the SAXS setup of the Helmholtz-Zentrum Berlin (HZB). The distance variability is provided by bellows which allow a travel range of about 2.3 m. Additionally, one of these bellows can be removed to further decrease the sample-detector distance.
+
 
 Collaboration with HZB (the SAXS setup of the Helmholtz-Zentrum Berlin (HZB))
 
@@ -123,7 +141,7 @@ The distance variability is provided by bellows which allow a travel range of ab
 
 Possibility to extract the bellows (WAXS)
 
-Which q-range are available for each distance and energy? Small table for high and low energy
+Which q-range are available for each distance and energy? Small table for high and low energy \ref{tab:qrange}
 
 \begin{table}[]
 \centering
@@ -139,60 +157,28 @@ $q_{max}$ (nm$^{-1}$)   & 1             & 7             \\ \hline
 \end{tabular}
 \end{table}
 
+\newpage
 
-\subsubsection{Calibration of the distance}
+\subsubsection{Calibration of the sample-detector distance}
 
-Typically 10-4 uncertainty
+In small-angle scattering experiments, it is crucial to know precisely the distance between the irradiated sample and the detector, in order to calibrate the momentum transfer $q$. Typically, a calibration standard material with a well-known crystal lattice parameter is employed, which produces well-defined diffraction rings in the low-angle region. A material extensively used is dry rat-tail tendon collagen, with a $d$-spacing of 650 \AA \citep{amenitsch_performance_1997}, corresponding to $q=0.097$ nm$^{-1}$. The degradation of this material upon prolonged radiation suggested the use of harder calibrants such as silver behenate (CH$_3$(CH$_2$)$_{20}$COO$\cdot$Ag) \citep{huang_x-ray_1993}.
 
-Typically 30 seconds measurement at every 50 mm, forwards and backwards to increase accuracy.
-
-Optical encoder with micrometer precision
-
-Using AgBehe to triangulate the sample-detector distance
-
-Before it was done only with the position of the AgBehe but we realized that the crystal lattice depended on the chemical preparation (image comparing Alfa Aesar and MTA silver benehate)
-
-Another reference standard such as SBA (mesoporous silica, SBA-15 \cite{zhao_triblock_1998}) was used for calibration at long distances (larger periodic distance, Eike material???)
-
-Using a distance range of 1300 mm, moving every 50 mm and with a measurement time of 15 s with an energy of 9000 eV, the AgBehe sample achieve a relative uncertainty in the distance of 0.02 $\%$. This deviations at long distances are visible in the inset of figure \ref{fig:DistanceCalibrationSAXS}.
-
-In figure \ref{fig:DistanceCalibrationSAXS}, it can be also observed how this deviations dissappears at long distances for SBA-15. In this case, the uncertainty is 0.004 $\%$
-
-REAL MEASUREMENT, WHOLE DISTANCE
-
-Using a distance range of 2200 mm, moving every 100 mm and with a measurement time of 10 s with an energy of 8000 eV, the AgBehe sample achieve a relative uncertainty in the distance of 0.03 $\%$ (1.5 mm). This deviations at long distances are visible in the inset of figure \ref{fig:DistanceCalibrationSAXS}, by looking at the residuals for short distance. We just used the region for distances larger than 1000 mm.
-
-In figure \ref{fig:DistanceCalibrationSAXS}, it can be also observed how this deviations dissappears at long distances for SBA-15. In this case, the uncertainty is 0.007 $\%$ (0.3 mm)
-
-There is always a factor 5 between the uncertainties of SBA-15 and AgBehe. The best uncertainty achieved is with SBA and moving every 50 mm and longer exposure times (0.004 $\%$ (0.2 mm))
-
-In figure \ref{fig:AgBeheSAXSLongDistance} we can see how AgBehe has problems at long distances. We can only use it for Pilatus Pos larger than 1000 mm.
-
-
-
-
-The uncertainty of the fit (around 0.2 mm and 0.8 mm for AgBehe) is smaller than the difference between the 2 measurements (0.5 mm). Besides, the thickness of the sample is only approx in 0.5 mm. Therefore, the overal uncertainty that we can give is exactly 0.5 mm, which corresponds to 0.5 mm/4630 mm, 0.01 $\%$
-
-The position of the peak of AgBehe is 1.0765 nm$^{-1}$ (FHWM 0.06 nm$^{-1}$, ratio is 5.5 $\%$), while the peak position of SBA is 0.681 nm$^{-1}$ (FHWM 0.018 nm$^{-1}$, ratio is 2.6 $\%$). The peak of SBA-15 obviously narrower, that is why the uncertainty is also smaller.
-
-Good from AgBehe is that the position of the peak is always at 1.0766 nm-1 \cite{blanton_jcpdsinternational_1995} (with a crystal parameter of 58.36 angstroms, giving 1.07553 nm-1)  and varies only 0.5 $\%$. Nevertheless, by radiation it can create small silver nanoparticles which increase the background \cite{liu_thermal_2006} thermal decomposition of AgBehe.
-
-On the other hand, SBA-15 has a narrower peak which is visible along a wider distance range and gives better statistics for the fit. However, the position of the peak is strongly dependent on the preparation (e.g. calcination time, mesopores size is tunable as explained in paper from zhao...), and can vary until 1 $\%$ (the shape also depends on the chemical preparation). Radiation damage effects are visible for short calcination times.
-
-
+AgBehe has a very narrow diffraction ring at $q=1.0763$ nm$^{-1}$, arising from a long-period spacing ($d_{001]}$) value of 58.36 \AA \citep{blanton_jcpdsinternational_1995}, although this value depends slightly on the synthesis. A deviation of 0.5 $\%$ in the diffraction peak position could be observed for different sample preparations. In order to increase the accuracy of the calibration, the sample-detector distance was determined by the detection of the scattering pattern of AgBehe at different positions of the HZB SAXS instrument, measured with the built-in 3 m long Heidenhain optical encoder with an uncertainty of 20 $\mu$m. By triangulating the radius of the diffraction ring to the source point, as depicted in figure \ref{fig:DistanceCalibrationSAXS}, the sample-detector distance is obtained in a traceable way.
 
 \begin{figure}
 	\centering
+	        \subfloat[Distance Calibration]{\resizebox{0.44\linewidth}{!}{\input{Figures/DistanceCalibrationSAXS}}\label{fig:DistanceCalibrationSAXS}}
 		\subfloat[AgBehe at large distance]{\resizebox{0.44\linewidth}{!}{\includegraphics{Figures/AgBeheSAXSLongDistance.png}}\label{fig:AgBeheSAXSLongDistance}}
-		\subfloat[Distance Calibration]{\resizebox{0.44\linewidth}{!}{\input{Figures/DistanceCalibrationSAXS}}\label{fig:DistanceCalibrationSAXS}}
-		\caption{Sample-to-detector distance calibration by triangulation: a) Problems of the AgBehe sample for large distances (measured at 8 keV and a distance of 995.5 mm, file "messung kmc daten 2015 1Q pilatus 201501 0394.tif"), b) Comparison between AgBehe and SBA. The challenges of AgBehe for large distances is highlighted in the inset.}
+		\caption{Sample-to-detector distance calibration: a) Radius of the diffraction ring of AgBehe and SBA-15 as a function of the sample-detector distance. A linear function is fitted to obtain the source point distance. The residuals of the fitting are shown in the bottom plot. b) Scattering pattern of AgBehe measured at a distance of 3638.2 mm. The diffraction rings exceeds the detector area. (file "messung kmc daten 2015 1Q pilatus 201501 0394.tif")}
 \end{figure}
 
-\subsubsection{Other standard materials}
+By measuring the AgBehe pattern along a distance range of 2200 mm with 100 mm steps at 8000 eV, the relative uncertainty associated to the linear fitting is 0.03 $\%$, corresponding to 1.5 mm. As observed in the residuals of the fitting in figure \ref{fig:DistanceCalibrationSAXS}, the deviation increases for long distances, due to the relatively small $d$-spacing of AgBehe, disabling the use of distances larger than $\sim 3600$ mm. In figure \ref{fig:AgBeheSAXSLongDistance}, it is visible how the diffraction ring surpasses the surface of the detector and, thus, diminishes the accuracy of the peak determination.
 
-dry rat tail tendon collagen with a d-spacing of 6.5 angstroms \cite{amenitsch_performance_1997}
+By using a material with lower $q$-value, such as the templated mesoporous silica SBA-15 \citep{zhao_triblock_1998} ($q=0.681$ nm$^{-1}$), this limitation can be mitigated as shown in figure \ref{fig:DistanceCalibrationSAXS}, where the residuals of SBA are minimal for the entire distance range. By using SBA and increasing the accessible distance range, the relative uncertainty of the fit decreases in a factor 5, reaching an uncertainty of 0.004 $\%$ (0.2 mm) when measuring with 50 mm steps. This improvement is also related with the narrower diffraction peak of SBA-15 (FWHM/$q=2.6\%$) in comparison to AgBehe ($5.5\%$).
 
-rat tail tendon collagen fibres. Features from three hierarchical levels are recognized simultaneously, i.e. the meridional helix diffraction peak at 2.9 angstroms from the triple helical molecules (1), the equatorial ordering peak from the lateral order of the collagen fibrils at 11.5 angstroms (2) and the third-order reflection from the lateral staggering of the collagen molecules at 217 angstroms (3) [see e.g. Wess (2005)
+Although the fit uncertainty is smaller in the SBA case, the position and shape of diffraction peak depend strongly on the sample preparation (e.g. template pore size). For the same polymer template, the $q$-value of the ring can vary until 1 $\%$ for different thermal treatments and radiation damage effects are visible for short calcination times. On the other side, prolonged beam exposure of AgBehe can damage the sample as well and create small silver nanoparticles, which increase the scattering background \cite{liu_thermal_2006}. The choice of the calibration standard depends strictly on the needs of the experiment. Besides, the largest contributions to the sample-detector distance uncertainty come from the thickness of the sample (ca. 0.5 mm) and from the difference between the calibration with AgBehe and SBA-15 (also 0.5 mm). Normally the uncertainty associated with the distance calibration is $10^{-4}$, similar to the energy resolving power described in section \ref{sec:fcm}.
+
+\newpage
 
 \section{Sample environment}
 
