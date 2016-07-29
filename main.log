@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/TeX Live for SUSE Linux) (format=pdflatex 2015.3.4)  28 JUL 2016 16:38
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/TeX Live for SUSE Linux) (format=pdflatex 2015.3.4)  29 JUL 2016 15:52
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -744,7 +744,7 @@ LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 146.
 
 [19] (./Figures/DistanceCalibrationSAXS.tex
-<Figures/DistanceCalibrationSAXS.pdf, id=628, 284.06125pt x 226.8475pt>
+<Figures/DistanceCalibrationSAXS.pdf, id=629, 284.06125pt x 226.8475pt>
 File: Figures/DistanceCalibrationSAXS.pdf Graphic file (type pdf)
 
 <use Figures/DistanceCalibrationSAXS.pdf>
@@ -752,15 +752,24 @@ Package pdftex.def Info: Figures/DistanceCalibrationSAXS.pdf used on input line
  132.
 (pdftex.def)             Requested size: 284.06053pt x 226.84694pt.
 )
-<Figures/AgBeheSAXSLongDistance.png, id=629, 621.522pt x 578.16pt>
+<Figures/AgBeheSAXSLongDistance.png, id=630, 621.522pt x 578.16pt>
 File: Figures/AgBeheSAXSLongDistance.png Graphic file (type png)
 
 <use Figures/AgBeheSAXSLongDistance.png>
 Package pdftex.def Info: Figures/AgBeheSAXSLongDistance.png used on input line 
-171.
+169.
 (pdftex.def)             Requested size: 621.5205pt x 578.15858pt.
- [20] [21 <./Figures/DistanceCalibrationSAXS.pdf> <./Figures/AgBeheSAXSLongDist
-ance.png>]
+ [20 <./Figures/DistanceCalibrationSAXS.pdf> <./Figures/AgBeheSAXSLongDistance.
+png>] [21]
+
+LaTeX Warning: Command \textregistered invalid in math mode on input line 193.
+
+
+LaTeX Warning: Command \textcircled invalid in math mode on input line 193.
+
+
+LaTeX Warning: Command \textcircled invalid in math mode on input line 193.
+
 (./Figures/HilgenbergHomogeneity.tex
 <Figures/HilgenbergHomogeneity.pdf, id=661, 284.06125pt x 226.8475pt>
 File: Figures/HilgenbergHomogeneity.pdf Graphic file (type pdf)
@@ -770,7 +779,7 @@ Package pdftex.def Info: Figures/HilgenbergHomogeneity.pdf used on input line 1
 12.
 (pdftex.def)             Requested size: 284.06053pt x 226.84694pt.
 )
-Underfull \hbox (badness 5345) in paragraph at lines 213--213
+Underfull \hbox (badness 5345) in paragraph at lines 217--217
 []\OT1/cmr/m/n/10 (a) |De-vi-a-tion from glass trans-mis-sion
  []
 
@@ -781,30 +790,30 @@ File: Figures/WaterHomogeneity.pdf Graphic file (type pdf)
 <use Figures/WaterHomogeneity.pdf>
 Package pdftex.def Info: Figures/WaterHomogeneity.pdf used on input line 108.
 (pdftex.def)             Requested size: 284.06053pt x 226.84694pt.
-) [22 <./Figures/HilgenbergHomogeneity.pdf> <./Figures/WaterHomogeneity.pdf>] (
-./Figures/GaldenCalibration.tex
-<Figures/GaldenCalibration.pdf, id=674, 284.06125pt x 226.8475pt>
+) [22] [23 <./Figures/HilgenbergHomogeneity.pdf> <./Figures/WaterHomogeneity.pd
+f>] (./Figures/GaldenCalibration.tex
+<Figures/GaldenCalibration.pdf, id=679, 284.06125pt x 226.8475pt>
 File: Figures/GaldenCalibration.pdf Graphic file (type pdf)
 
 <use Figures/GaldenCalibration.pdf>
 Package pdftex.def Info: Figures/GaldenCalibration.pdf used on input line 102.
 (pdftex.def)             Requested size: 284.06053pt x 226.84694pt.
-) [23] [24 <./Figures/GaldenCalibration.pdf>]
-Overfull \hbox (6.22107pt too wide) in paragraph at lines 316--316
+) [24 <./Figures/GaldenCalibration.pdf>]
+Overfull \hbox (6.22107pt too wide) in paragraph at lines 320--320
 []\OT1/cmr/bx/n/17.28 Small-angle X-ray scat-ter-ing: DI-RECT FROM
  []
 
 (./Figures/DensityGradientCapillarySetup.pdf_tex
-<Figures/DensityGradientCapillarySetup.pdf, id=699, 371.04448pt x 160.96472pt>
+<Figures/DensityGradientCapillarySetup.pdf, id=696, 371.04448pt x 160.96472pt>
 File: Figures/DensityGradientCapillarySetup.pdf Graphic file (type pdf)
 
 <use Figures/DensityGradientCapillarySetup.pdf>
 Package pdftex.def Info: Figures/DensityGradientCapillarySetup.pdf used on inpu
 t line 52.
 (pdftex.def)             Requested size: 371.04448pt x 160.96921pt.
-) [25 <./Figures/DensityGradientCapillarySetup.pdf>] [26] (./Figures/LudoxHS40T
-ransmissionCalibration.tex
-<Figures/LudoxHS40TransmissionCalibration.pdf, id=760, 284.06125pt x 226.8475pt
+) [25] [26 <./Figures/DensityGradientCapillarySetup.pdf>] [27] (./Figures/Ludox
+HS40TransmissionCalibration.tex
+<Figures/LudoxHS40TransmissionCalibration.pdf, id=766, 284.06125pt x 226.8475pt
 >
 File: Figures/LudoxHS40TransmissionCalibration.pdf Graphic file (type pdf)
  <use Figures/LudoxHS40TransmissionCalibration.pdf>
@@ -813,7 +822,7 @@ nput line 126.
 (pdftex.def)             Requested size: 284.06053pt x 226.84694pt.
 )
 (./Figures/KiskerTransmissionCalibration.tex
-<Figures/KiskerTransmissionCalibration.pdf, id=761, 284.06125pt x 226.8475pt>
+<Figures/KiskerTransmissionCalibration.pdf, id=767, 284.06125pt x 226.8475pt>
 File: Figures/KiskerTransmissionCalibration.pdf Graphic file (type pdf)
 
 <use Figures/KiskerTransmissionCalibration.pdf>
@@ -822,7 +831,7 @@ t line 120.
 (pdftex.def)             Requested size: 284.06053pt x 226.84694pt.
 )
 (./Figures/EnergiesTransmissionCalibration.tex
-<Figures/EnergiesTransmissionCalibration.pdf, id=762, 284.06125pt x 226.8475pt>
+<Figures/EnergiesTransmissionCalibration.pdf, id=768, 284.06125pt x 226.8475pt>
 File: Figures/EnergiesTransmissionCalibration.pdf Graphic file (type pdf)
 <use Figures/EnergiesTransmissionCalibration.pdf>
 Package pdftex.def Info: Figures/EnergiesTransmissionCalibration.pdf used on in
@@ -830,17 +839,16 @@ put line 123.
 (pdftex.def)             Requested size: 284.06053pt x 226.84694pt.
 )
 (./Figures/SucroseTransmissionCalibration.tex
-<Figures/SucroseTransmissionCalibration.pdf, id=763, 284.06125pt x 226.8475pt>
+<Figures/SucroseTransmissionCalibration.pdf, id=769, 284.06125pt x 226.8475pt>
 File: Figures/SucroseTransmissionCalibration.pdf Graphic file (type pdf)
 
 <use Figures/SucroseTransmissionCalibration.pdf>
 Package pdftex.def Info: Figures/SucroseTransmissionCalibration.pdf used on inp
 ut line 115.
 (pdftex.def)             Requested size: 284.06053pt x 226.84694pt.
-)) [27] [28 <./Figures/LudoxHS40TransmissionCalibration.pdf> <./Figures/KiskerT
-ransmissionCalibration.pdf>]
-[29 <./Figures/EnergiesTransmissionCalibration.pdf> <./Figures/SucroseTransmiss
-ionCalibration.pdf>]
+)) [28 <./Figures/LudoxHS40TransmissionCalibration.pdf>] [29 <./Figures/KiskerT
+ransmissionCalibration.pdf> <./Figures/EnergiesTransmissionCalibration.pdf> <./
+Figures/SucroseTransmissionCalibration.pdf>]
 \openout2 = `chapter_density_gradient_SAXS.aux'.
 
  (./chapter_density_gradient_SAXS.tex
@@ -1693,10 +1701,10 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 68.
  ) 
 Here is how much of TeX's memory you used:
- 9600 strings out of 493315
- 159046 string characters out of 6145894
+ 9601 strings out of 493315
+ 159060 string characters out of 6145894
  248808 words of memory out of 5000000
- 12275 multiletter control sequences out of 15000+600000
+ 12276 multiletter control sequences out of 15000+600000
  12623 words of font info for 45 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
  44i,16n,49p,1806b,707s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1717,7 +1725,7 @@ mf/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texmf/fonts/type1/publi
 c/amsfonts/cm/cmsy7.pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmsy8.
 pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/tex
 mf/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on main.pdf (109 pages, 2900299 bytes).
+Output written on main.pdf (109 pages, 2902665 bytes).
 PDF statistics:
  2289 PDF objects out of 2487 (max. 8388607)
  2005 compressed objects within 21 object streams

@@ -47,22 +47,22 @@
 \contentsline {subsection}{\numberline {3.3.1}Pilatus detector}{18}{subsection.3.3.1}
 \contentsline {subsubsection}{Beam-stop}{19}{section*.19}
 \contentsline {subsection}{\numberline {3.3.2}HZB SAXS instrument}{19}{subsection.3.3.2}
-\contentsline {subsubsection}{Calibration of the sample-detector distance}{20}{section*.21}
-\contentsline {section}{\numberline {3.4}Sample environment}{22}{section.3.4}
+\contentsline {subsubsection}{Calibration of the sample-detector distance}{19}{section*.21}
+\contentsline {section}{\numberline {3.4}Sample environment}{21}{section.3.4}
 \contentsline {subsection}{\numberline {3.4.1}Round capillaries}{22}{subsection.3.4.1}
 \contentsline {subsection}{\numberline {3.4.2}Hilgenberg capillaries}{22}{subsection.3.4.2}
-\contentsline {subsection}{\numberline {3.4.3}Prototype cell from zoltan}{23}{subsection.3.4.3}
-\contentsline {section}{\numberline {3.5}Obtention of the scattering curves}{24}{section.3.5}
-\contentsline {subsection}{\numberline {3.5.1}Absolute intensity calibration}{24}{subsection.3.5.1}
+\contentsline {subsection}{\numberline {3.4.3}Prototype cell from zoltan}{24}{subsection.3.4.3}
+\contentsline {section}{\numberline {3.5}Obtention of the scattering curves}{25}{section.3.5}
+\contentsline {subsection}{\numberline {3.5.1}Absolute intensity calibration}{25}{subsection.3.5.1}
 \contentsline {subsubsection}{Flux monitor}{25}{section*.25}
 \contentsline {subsubsection}{Detector efficiceny}{25}{section*.26}
 \contentsline {section}{\numberline {3.6}Small-angle X-ray scattering: DIRECT FROM PAPER}{25}{section.3.6}
-\contentsline {subsection}{\numberline {3.6.1}Filling of capilaries}{26}{subsection.3.6.1}
-\contentsline {subsection}{\numberline {3.6.2}Calibration of solvent density and finding of main axis}{26}{subsection.3.6.2}
-\contentsline {subsection}{\numberline {3.6.3}Limitations}{27}{subsection.3.6.3}
-\contentsline {subsubsection}{Density range}{27}{section*.31}
-\contentsline {subsubsection}{Challenges with different contrast agents}{27}{section*.32}
-\contentsline {subsubsection}{Comparison to other contrast variation scattering techinques}{27}{section*.33}
+\contentsline {subsection}{\numberline {3.6.1}Filling of capilaries}{27}{subsection.3.6.1}
+\contentsline {subsection}{\numberline {3.6.2}Calibration of solvent density and finding of main axis}{27}{subsection.3.6.2}
+\contentsline {subsection}{\numberline {3.6.3}Limitations}{28}{subsection.3.6.3}
+\contentsline {subsubsection}{Density range}{28}{section*.31}
+\contentsline {subsubsection}{Challenges with different contrast agents}{28}{section*.32}
+\contentsline {subsubsection}{Comparison to other contrast variation scattering techinques}{28}{section*.33}
 \contentsline {chapter}{\numberline {4}Contrast variation in SAXS with the density gradient technique}{30}{chapter.4}
 \contentsline {section}{\numberline {4.1}Materials and Methods}{32}{section.4.1}
 \contentsline {subsection}{\numberline {4.1.1}Particles and chemicals}{32}{subsection.4.1.1}
