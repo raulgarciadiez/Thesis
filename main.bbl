@@ -1,4 +1,4 @@
-\begin{thebibliography}{154}
+\begin{thebibliography}{155}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 
 \bibitem[Amenitsch {\em et~al.\/}(1997)Amenitsch, Bernstorff, Kriechbaum,
@@ -844,17 +844,26 @@
   small-angle scattering of concentrated solutions of colloidal spheres. {\em
   J. Chem. Phys.\/} {\bf 74}, 2744--2748.
 
-\bibitem[Varga {\em et~al.\/}(2014)Varga, Wacha \&
+\bibitem[Varga {\em et~al.\/}(2014{\natexlab{{\em a\/}}})Varga, Wacha \&
   B{\'o}ta]{varga_osmotic_2014}
-{\sc Varga, Z., Wacha, A. \& B{\'o}ta, A.} 2014 Osmotic shrinkage of sterically
-  stabilized liposomes as revealed by time-resolved small-angle {{X}}-ray
-  scattering. {\em Journal of Applied Crystallography\/} {\bf 47}, 35--40.
+{\sc Varga, Z., Wacha, A. \& B{\'o}ta, A.} 2014{\natexlab{{\em a\/}}} Osmotic
+  shrinkage of sterically stabilized liposomes as revealed by time-resolved
+  small-angle {{X}}-ray scattering. {\em Journal of Applied Crystallography\/}
+  {\bf 47}, 35--40.
 
 \bibitem[Varga {\em et~al.\/}(2012)Varga, Wacha, Vainio, Gummel \&
   B{\'o}ta]{varga_characterization_2012}
 {\sc Varga, Z., Wacha, A., Vainio, U., Gummel, J. \& B{\'o}ta, A.} 2012
   Characterization of the {{PEG}} layer of sterically stabilized liposomes: a
   {{SAXS}} study. {\em Chemistry and Physics of Lipids\/} {\bf 165}, 387--392.
+
+\bibitem[Varga {\em et~al.\/}(2014{\natexlab{{\em b\/}}})Varga, Yuana,
+  Grootemaat, {van der Pol}, Gollwitzer, Krumrey \&
+  Nieuwland]{varga_towards_2014}
+{\sc Varga, Z., Yuana, Y., Grootemaat, A.~E., {van der Pol}, E., Gollwitzer,
+  C., Krumrey, M. \& Nieuwland, R.} 2014{\natexlab{{\em b\/}}} Towards
+  traceable size determination of extracellular vesicles. {\em J Extracell
+  Vesicles\/} {\bf 3}.
 
 \bibitem[Vauthier {\em et~al.\/}(1999)Vauthier, Schmidt \&
   Couvreur]{vauthier_measurement_1999}

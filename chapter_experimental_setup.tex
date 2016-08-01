@@ -150,10 +150,10 @@ Which q-range are available for each distance and energy? Small table for high a
 \begin{tabular}{|l|c|c|}
 \hline
               & \textbf{SAXS} & \textbf{WAXS} \\ \hline
-Distance (mm) & 4500          & 700           \\ \hline
-Energy (eV)   & 3500          & 10000         \\ \hline
-$q_{min}$ (nm$^{-1}$)   & 0.015         & 0.5           \\ \hline
-$q_{max}$ (nm$^{-1}$)   & 1             & 7             \\ \hline
+Distance (mm) & 4540          & 700           \\ \hline
+Energy (eV)   & 4000          & 10000         \\ \hline
+$q_{min}$ (nm$^{-1}$)   & \textbf{0.015}         & 0.5           \\ \hline
+$q_{max}$ (nm$^{-1}$)   & 0.56             & \textbf{7}             \\ \hline
 \end{tabular}
 \end{table}
 
@@ -183,7 +183,7 @@ The sample consists normally of a few microliters of nanoparticles in solution w
 \begin{itemize}
         \item The container's material should minimize the innecessary absorption of the X-ray photon flux by the sample environment.
         \item The container volume should be small enough to enable the measurement of valuable, limited samples.
-        \item The optimal sample thickness for a transmission diffraction experiment is the inverse of its attenuation coefficient $\mu(E)$, which reduces the incoming intensity to $\sim37\%$. For example, the optimal thicknes of water at 8000 eV is around 1 mm.
+        \item The optimal sample thickness for a transmission diffraction experiment is the inverse of its attenuation coefficient $\mu(E)$, which reduces the incoming intensity to $\sim37\%$. For example, the optimal thickness of water at 8000 eV is around 1 mm.
 \end{itemize}
 
 Typically, the samples are introduced in thin glass capillaries which maintain the temperature and pressure of the sample close to the ambient conditions. However, there are different sample environments which can be used depending on the requirements of the experiment. In this work, only nanoparticles suspended in aqueous media have been employed, allowing the use of a similar attenuation coefficient for almost all experiments.
@@ -220,15 +220,16 @@ These rectangular capillaries are a very suitable sample environment for measure
 
 \subsection{Cell for low-energies}
 
-In the first setup, used to access the q-range describing the overall size of the vesicles, the sample-to-detector distance was 4.4 m and the energy of the incoming X-ray beam was set to 4 keV (wavelength 0.31 nm). Due to the short penetration length of X-rays at this energy, a custom-made sample holder was used utilizing silicon-nitride windows (NX7150E, Norcada Inc., Edmonton,Canada)
+Samples with larger structures require the measurement of scattering curves at lower $q$-values. To extend the measurable $q$-range, one possibility is to reduce the photon beam energy, though this involves reducing the sample thickness, due to the short penetration length of X-rays at low energies. Therefore, a custom-made sample holder is used utilizing silicon-nitride windows (NX7150E, Norcada Inc., Edmonton,Canada). The 500 nm thickness windows produce very low scattering and have a negligable absorbance ($<5\;\%$) for energies above 4000 eV.
 
-by a dedicated sample cell with thin silicon nitride windows. 
+A polymeric 100 $\mu$m ring cut with a microtome is used as spacer between the 2 windows, in order to achieve the desired 120 $\mu$m sample thickness which optimizes the intensity attenuation at 4000 eV. The acces to smaller $q$-values using this cell is shown in \cite{varga_towards_2014}, where a value of $q=0.015$ nm$^{-1}$ is achieved.
 
-silicon nitride windows. Low scattering and low absorbance. 
-
-where to buy them and sizes? 500 nm thickness, spacer cut with microtome in Hungary (which thickness?)
-
-Used to increase the q-range as it enables the measurement until energies around 3 eV. We achieve much smaller q values (cite zoltans paper with the PEG-vesicle???)
+\begin{figure}%[htbp]
+	\centering
+		\resizebox{0.7\linewidth}{!}{\includegraphics{Figures/SampleEnvironment.jpg}}
+		\caption{Different sample environments: Round and rectangular capillaries and disassembled cell with the two silicon-nitride windows, the polymeric spacer and the metallic holder.}
+		\label{fig:SampleEnvironment}
+\end{figure}
 
 \section{Obtention of the scattering curves}
 
