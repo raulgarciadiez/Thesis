@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/TeX Live for SUSE Linux) (format=pdflatex 2015.3.4)  1 AUG 2016 17:26
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/TeX Live for SUSE Linux) (format=pdflatex 2015.3.4)  1 AUG 2016 18:05
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -752,15 +752,15 @@ Package pdftex.def Info: Figures/DistanceCalibrationSAXS.pdf used on input line
  132.
 (pdftex.def)             Requested size: 284.06053pt x 226.84694pt.
 )
-<Figures/AgBeheSAXSLongDistance.png, id=630, 621.522pt x 578.16pt>
-File: Figures/AgBeheSAXSLongDistance.png Graphic file (type png)
+<Figures/AgBeheSAXSLongDistance_edit.png, id=630, 457.4691pt x 486.3771pt>
+File: Figures/AgBeheSAXSLongDistance_edit.png Graphic file (type png)
 
-<use Figures/AgBeheSAXSLongDistance.png>
-Package pdftex.def Info: Figures/AgBeheSAXSLongDistance.png used on input line 
-169.
-(pdftex.def)             Requested size: 621.5205pt x 578.15858pt.
- [20 <./Figures/DistanceCalibrationSAXS.pdf> <./Figures/AgBeheSAXSLongDistance.
-png>] [21]
+<use Figures/AgBeheSAXSLongDistance_edit.png>
+Package pdftex.def Info: Figures/AgBeheSAXSLongDistance_edit.png used on input 
+line 169.
+(pdftex.def)             Requested size: 457.46799pt x 486.37592pt.
+ [20 <./Figures/DistanceCalibrationSAXS.pdf> <./Figures/AgBeheSAXSLongDistance_
+edit.png>] [21]
 
 LaTeX Warning: Command \textregistered invalid in math mode on input line 193.
 
@@ -786,7 +786,7 @@ File: Figures/WaterHomogeneity.pdf Graphic file (type pdf)
 Package pdftex.def Info: Figures/WaterHomogeneity.pdf used on input line 108.
 (pdftex.def)             Requested size: 284.06053pt x 226.84694pt.
 ) [22] (./Figures/GaldenCalibration.tex
-<Figures/GaldenCalibration.pdf, id=670, 284.06125pt x 226.8475pt>
+<Figures/GaldenCalibration.pdf, id=671, 284.06125pt x 226.8475pt>
 File: Figures/GaldenCalibration.pdf Graphic file (type pdf)
 
 <use Figures/GaldenCalibration.pdf>
@@ -1704,8 +1704,8 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 68.
  ) 
 Here is how much of TeX's memory you used:
  9619 strings out of 493315
- 159482 string characters out of 6145894
- 250330 words of memory out of 5000000
+ 159507 string characters out of 6145894
+ 249330 words of memory out of 5000000
  12287 multiletter control sequences out of 15000+600000
  12623 words of font info for 45 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
@@ -1727,7 +1727,7 @@ mf/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texmf/fonts/type1/publi
 c/amsfonts/cm/cmsy7.pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmsy8.
 pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/tex
 mf/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on main.pdf (111 pages, 5375301 bytes).
+Output written on main.pdf (111 pages, 5337191 bytes).
 PDF statistics:
  2307 PDF objects out of 2487 (max. 8388607)
  2020 compressed objects within 21 object streams
