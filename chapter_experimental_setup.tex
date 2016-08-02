@@ -18,6 +18,8 @@ The threshold energy is reached when a high electron flux with high temporal sta
 		\label{fig:BessyScheme}
 \end{figure}
 
+Topup mode sinde 2013 producing 300 mA current.
+
 \subsection{Insertion devices}
 
 \subsubsection{Bending magent and bremsstrahlung radiation}
@@ -85,42 +87,51 @@ The Four Crystal Monochromator consists of two times four crystals, where one se
 
 In the energy range from 1.75 keV up to 10 keV, this monochromator provides a spectral purity of 10-4, for energies higher than 2.5 keV even 3x10-5 . Behind the FCM at 27.5 m distance from the dipole, a plane bendable mirror reflects the beam back to horizontal direction and collimates it in vertical direction. This mirror has two different coating areas (Pt and MgF2 ) to enable the different energy ranges (see fig. 3.3). The flux reached at the beamline for the different energies and the different setups of the monochromator is shown in fig. 3.3. A slit downstream of the plane mirror reduces the beam size. Behind this, a thin photodiode can be placed to measure the photon flux in transmission [55].
 
+1st generation Pinholes Incotec Scatterfree Ge 520 $\mu$m beam defining pinholes (SCATEX - Incoatec's scatterless pinholes), 
 
-\subsection{Monitor diode: Flux monitor}
+
+\subsection{Flux monitor diode}
 
 Continuous measurement of the incoming photon flux with a semitransparent silicon diode 8 $\mu$m thick. It can be used down until 3 keV approx.
 
 Avoiding possible fluctuations on the flux. TopUp mode should improve this but still there are variation between 297 and 299 mA which are around 1$\%$
 
-\subsection{Reflectometer in vacuum: NewRef}
-
-goniometer allowing us to move with high precision
-
-The rectangular capillary is placed in a sample holder which allows the movement with micrometer precision in the directions perpendicular to the incoming beam, as depicted in figure \ref{fig:DensityGradientCapillarySetup}.
-
-About 10 m behind the monochromator, the UHV X-ray Reflectometer [53] is located as sample chamber. The pressure in the reflectometer can be reduced to 10-7 mbar. Additionally, it provides devices to move and tilt samples in all directions, which allows to place up to 15 SAXS sample capillaries at once, without the need of breaking the vacuum and re-evacuate the chamber for changing the sample. Another important feature consists in the diodes which can be placed in the beam and are used to record the actual flux hitting the sample and to measure the transmission of the sample at the actual photon energy. Both are parameters required for the analysis of SAXS data.
 
 
-\subsubsection{Transmission measurements}
 
-calibrated diodes, SYRES II???? Calibrated agains cryo-radiometer every 3 years.
+\subsection{UHV X-ray Reflectometer}
 
-To measure the total flux and sample transmission, photodiodes were used which were calibrated against a cryogenic electric substitution radiometer with a relative uncertainty of \( 1\,\% \) \cite{krumrey_high-accuracy_2001}.
+The sample chamber is situated 37 m away from the insertion device, right behind the flux monitor diode. The UHV X-ray Reflectometer disposes of a large volume (60 cm diameter and 70 cm length) which is fully evacuated to reach pressures of approximately $10^{-7}$ mbar. High vacuum is needed to perform experiments at the low energies accessible at the FCM beamline, as the attenuation length of air at energies below 2 keV is less than 1 cm. A smaller lock chamber connected to the sample chamber by a small flange is used to exchange samples without breaking the vacuum of the larger UHV X-ray reflectometer.
 
-very thick silicon diodes
+The motors of the sample holder can be moved linearly along 3 axes perpendicular to the incoming beam and with very high precision and reproducibility. The broad range of the $x$-motor (160 mm) permits the measurement of different sample capillaries (ca. 20) at once without ventilating the chamber for exchanging the sample.
 
-around 0.5 $\%$ uncertainty
+The large volume of the reflectometer permits the allocation of other components close to the sample holder. For example, about 10 cm before the sample position, a 1 mm circular guard pinhole (Incoatec, Geesthacht, Germany) is equipped to remove the parasitic scattering resulting from the collimating system. Behind the sample, the transmitted radiation is measured with a (10 x 10) mm$^2$ silicon photodiode. The thick Can500C diode (Canberra, Meriden, USA) is capable of measuring along the entire beamline energy range, from 1.75 keV to 10 keV, and is calibrated against a cryogenic electric substitution radiometer with a relative uncertainty of \( 1\,\% \) \cite{krumrey_high-accuracy_2001}.
 
 \section{SAXS Setup}
 
 How do we measure small-angle x-ray scattering?
 
-\subsection{Pilatus detector}
+HZB SAXS setup long and short: Coming from the storage ring the photons pass the samples in the UHV X-ray reflectometer (see section 3.2.2). Behind this, the SAXS setup of the HZB is placed. It allows a variation of the distance between the samples and the detector of about 2.3 m, which results at the FCM beamline in a total sample-detector distance of about 2.0 m to 4.3 m without breaking the vacuum.
+
+
+\subsection{X-ray area detector}
 high dynamic range
 
 noise free
 
 A vacuum-compatible Pilatus 1 M hybrid pixel detector (Dectris Ltd, Baden, Switzerland) with a pixel size of $d = (172.1 \pm 0.2)$ $\mu$m collected the scattered X-ray photons
+
+a semiconductor pixel matrix with a readout chip providing an amplifier, comparator and digital counter for every single pixel. This is appealing especially for scattering and diffraction experiments, where the photon flux on individual pixels may vary over many orders of magnitude. As opposed to dose-proportional detectors, photon counting can provide very low darkcount rates, and consequently huge dynamic ranges, signal-to-noise ratios close to the quantum limit, and negligible crosstalk between neighbouring pixels resulting in a nearly perfect
+
+The commercially available large-area hybrid pixel detectors of 1 Mpx and above are operated in air and the radiation enters through a thin window. This window limits the detectable photon energy range to energies above approximately 5 keV due to absorption of the window material. Yet, the absorption edges of technologically and biologically relevant elements such as silicon, phosphorus, sulphur, chlorine, or calcium are situated below 5 keV. To overcome this limitation, windowless operation in vacuum with a direct connection to the sample chamber is necessary. The suitability and performance of a PILATUS 100k detector under such conditions has been shown previously.[144,145] Moreover, extensive testing and characterisation of detector modules in vacuum[50] has been carried out in collaboration with Dectris Ltd. at the FCM beamline. The setups were preliminary experiments using a single module as a proof of concept at that time, a fully operational multi-module large-area in-vacuum PILATUS 1M has not been realised up to then. From August 2011 to June 2012, a standard PILATUS 1M detector was modified together with Dectris Ltd. to operate under vacuum. This widened the experimentally accessible energy range downwards to a photon energy Eph of 1.75 keV. The in-vacuum PILATUS 1M detector, Fig. 3.7, was delivered in June 2012 and is in regular operation at the FCM beamline since then.
+
+With the development of the in-vacuum PILATUS 1M, a detector is available that is capable to cover the full energy range of the beamline, which brings important K-absorption edges (Si, P, S, Cl, Ca) into reach for resonant scattering imaging. The narrow point-spread function of the detector and the increase of q resolution at lower E ph is beneficial for nanodimensional metrological GISAXS measurements on
+
+efficiency? pixel size?
+
+sensitive detector area 179 x 169 mm2
+
+in vacuumm cooled down at 5 to 10 deg
 
 \subsubsection{Beam-stop}
 
@@ -156,6 +167,9 @@ $q_{min}$ (nm$^{-1}$)   & \textbf{0.015}         & 0.5           \\ \hline
 $q_{max}$ (nm$^{-1}$)   & 0.56             & \textbf{7}             \\ \hline
 \end{tabular}
 \end{table}
+
+For small-angle X-ray scattering experiments in transmission (SAXS) and under grazing incidence reflection (GISAXS), a two-dimensional X-ray detector is needed to record the intensity distribution of the diffuse scattering behind the sample. At the FCM beamline, such a detector can be mounted on the SAXS instrument of HZB†† as illustrated in Fig. 3.6. The detector is directly connected to the sample chamber via a diam 100 mm flange. It is installed on a stage that moves along xdet as shown in Fig. 3.6. The edge-welded bellow allows any sample-to-detector distance between 1.75 m and 4.5 m, and a vertical tilt angle up to 3degree without breaking the vacuum. Both vertical axes z 1 , z2 as well as the horizontal distance variation axis xdet are equipped with optical encoders (calibrated Heidenhain LC 182 and two LC 483) which measure the displacement with an accuracy of 0.003 mm and 0.005 mm for LC 483 and LC 182, respectively. These encoders establish the traceability of the detector displacement along these axes. The entire setup can also be moved in horizontal direction perpendicular to the direct beam by the motorised axes y1 and y2 that can be used for the correction of any horizontal tilt of the SAXS instrument as well as for a horizontal displacement of the detector with respect to the incoming beam. The detector side of the bellow holds a interchangeable, xy-moveable beamstop to block the intense transmitted or specularly reflected fraction of the beam. As a 2D-detector, a CCD-based pixel detector (MarCCD, 4 Mpx, binned in blocks of 2 x 2, 165 mm diameter of active surface) or, since August 2012, the in-vacuum PILATUS 1M hybrid pixel detector (presented in Section 3.5) can be installed on the detector stage. Since December 2013, there is also a ‘short-distance’ setup available, which is independent from the SAXS instrument. In this configuration, the in-vacuum PILATUS 1M is directly attached to the measurement chamber via an adaptor segment that contains the beamstop. The sample-detector distance can be set in a range of around 55 cm to 80 cm. This facilitates larger scattering angles up to around pm 8deg in horizontal and vertical direction, which is needed for the large scattering angles of very small scattering objects down to around 3 nm. Presented in the next section is the development and characterisation of the in-vacuum PILATUS 1M detector that took place during the course of this work. Section 3.5.3 on the radiometric and geometric characterisation of the in-vacuum PILATUS 1M is published in J. Wernecke, C. Gollwitzer, P. Mueller and M. Krumrey: "Characterization of an in-vacuum PILATUS 1M detector", J. Synchrotron Rad. 21.3 (2014), pp. 529–536.
+
 
 \subsubsection{Calibration of the sample-detector distance}
 
