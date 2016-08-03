@@ -111,62 +111,47 @@ The large volume of the reflectometer provides enough space to allocate other co
 
 \section{SAXS Setup}
 
-How do we measure small-angle x-ray scattering?
-
-HZB SAXS setup long and short: Coming from the storage ring the photons pass the samples in the UHV X-ray reflectometer (see section 3.2.2). Behind this, the SAXS setup of the HZB is placed. It allows a variation of the distance between the samples and the detector of about 2.3 m, which results at the FCM beamline in a total sample-detector distance of about 2.0 m to 4.3 m without breaking the vacuum.
-
+The intensity scattered by the sample is recorded at a certain distance behind the sample (sample-detector distance) with an area X-ray detector mounted on the HZB SAXS instrument and connected to the sample chamber. Typically, long sample-detector distances are required to access the small angles employed in SAXS experiments.
 
 \subsection{X-ray area detector}
 
-The scattered X-ray photons are collected at a certain distance by a large-area hybrid pixel detector. The Pilatus 1M (Dectris Ltd, Baden, Switzerland) has a sensitive surface of (179 x 169) mm$^2$ and consists of a silicon pixel matrix with a pixel size of $d = (172.1 \pm 0.2)$ $\mu$m which operates in single-photon counting mode, providing very low darkcount rates and signal-to-noise ratios and a high dynamic range. For instance, the detector quantum efficiency is about 97 $\%$ at 8 keV using the ultra-high gain mode and almost 86 $\%$ at 4 keV \citep{wernecke_characterization_2014}.
+The scattered X-ray photons are collected by a large-area hybrid pixel detector. The Pilatus 1M (Dectris Ltd, Baden, Switzerland) has a sensitive surface of (179 x 169) mm$^2$ and consists of a silicon pixel matrix with a pixel size of $d = (172.1 \pm 0.2)$ $\mu$m which operates in single-photon counting mode, providing very low darkcount rates and signal-to-noise ratios and a high dynamic range. For instance, the detector quantum efficiency is about 97 $\%$ at 8 keV using the ultra-high gain mode and almost 86 $\%$ at 4 keV \citep{wernecke_characterization_2014}.
 
 Besides, the Pilatus 1M detector was modified to operate under vacuum to cover the full energetic range available at the beamline, down to 1.75 keV. The windowless detector is directly connected to the sample chamber with an evacuated bellow and cooled down at 5-10$^{\circ}$C. The narrow point-spread function of the detector and the available low energies increase the momentum transfer resolution and the accessible $q$-range.
 
 A moveable beamstop mounted at thin wires is installed just in front of the detector to block the intense transmitted photon beam, avoiding saturation effects in the central pixels. The beamstop is constructed within a funnel-like cavity ($\oslash$ 5 mm) to reduce geometrically the reflections on the beamstop surface, which are damped by the cavity. A silicon photodiode with a sensitive area of (2.5 x 2.5) mm$^2$ (S10356-01, Hamamatsu, Shizuoka, Japan) covers the beamstop to monitor the sample transmission during the experiment, revealing the possible radiation damage of the sample.
 
-\subsection{HZB SAXS instrument}
+\subsection{HZB SAXS instrument and WAXS configuration}
 
-A very capable setup providing a large range for the sample-detector distance, a high resolution and high dynamic range detector, and a vacuum of about 10-4 mbar between sample chamber and detector is the SAXS setup of the Helmholtz-Zentrum Berlin (HZB). The distance variability is provided by bellows which allow a travel range of about 2.3 m. Additionally, one of these bellows can be removed to further decrease the sample-detector distance.
+The in-vacuum Pilatus 1M detector is mounted on the SAXS instrument of the Helmholtz-Zentrum Berlin (HZB), which is connected via a $\oslash$100 mm flange to the UHV X-ray Reflectometer. The HZB-SAXS apparatus is equipped with a large below system and a motorized stage that can vary the sample-detector distance continuously between 2.3 m and 4.6 m in vacuum (about $10^{-4}$ mbar) with an uncertainty of 20 $\mu$m. 
 
-
-Collaboration with HZB (the SAXS setup of the Helmholtz-Zentrum Berlin (HZB))
-
-Continuos distance movement between 1.5 and 3.7 m (or so)
-
-The distance variability is provided by bellows which allow a travel range of about 2.3 m. 
-
-Possibility to extract the bellows (WAXS)
-
-Which q-range are available for each distance and energy? Small table for high and low energy \ref{tab:qrange}
+Complementary to the HZB-SAXS instrument, the sample-detector distance can be reduced down to about 760 mm by attaching the X-ray detector directly to the sample chamber, increasing the scattering angles to around $8^{\circ}$. This short-distance setup, or Wide-angle X-ray Scattering (WAXS) configuration, is used for the study of nanoparticles with diameters below 10 nm, whose characteristic features appear beyond 1 nm$^{-1}$. The accessible $q$-range of this setup is summarized in table \ref{tab:qrange} for the high-energy case, which provides the highest $q$-value available. Similarly, the table shows the limit $q$-values achieved with the HZB-SAXS apparatus at low-energy.
 
 \begin{table}[]
 \centering
-\caption{$q$-range available for the different experimental setups at extreme conditions. \textcolor{red}{CHECK FOR TRUE VALUES}}
+\caption{Accessible $q$-range for the different experimental setups at the low and high energy limits.}
 \label{tab:qrange}
 \begin{tabular}{|l|c|c|}
 \hline
               & \textbf{SAXS} & \textbf{WAXS} \\ \hline
-Distance (mm) & 4540          & 700           \\ \hline
+Distance (mm) & 4540          & 760           \\ \hline
 Energy (eV)   & 4000          & 10000         \\ \hline
-$q_{min}$ (nm$^{-1}$)   & \textbf{0.015}         & 0.5           \\ \hline
+$q_{min}$ (nm$^{-1}$)   & \textbf{0.015}         & 0.2          \\ \hline
 $q_{max}$ (nm$^{-1}$)   & 0.56             & \textbf{7}             \\ \hline
 \end{tabular}
 \end{table}
-
-For small-angle X-ray scattering experiments in transmission (SAXS) and under grazing incidence reflection (GISAXS), a two-dimensional X-ray detector is needed to record the intensity distribution of the diffuse scattering behind the sample. At the FCM beamline, such a detector can be mounted on the SAXS instrument of HZB†† as illustrated in Fig. 3.6. The detector is directly connected to the sample chamber via a diam 100 mm flange. It is installed on a stage that moves along xdet as shown in Fig. 3.6. The edge-welded bellow allows any sample-to-detector distance between 1.75 m and 4.5 m, and a vertical tilt angle up to 3degree without breaking the vacuum. Both vertical axes z 1 , z2 as well as the horizontal distance variation axis xdet are equipped with optical encoders (calibrated Heidenhain LC 182 and two LC 483) which measure the displacement with an accuracy of 0.003 mm and 0.005 mm for LC 483 and LC 182, respectively. These encoders establish the traceability of the detector displacement along these axes. The entire setup can also be moved in horizontal direction perpendicular to the direct beam by the motorised axes y1 and y2 that can be used for the correction of any horizontal tilt of the SAXS instrument as well as for a horizontal displacement of the detector with respect to the incoming beam. The detector side of the bellow holds a interchangeable, xy-moveable beamstop to block the intense transmitted or specularly reflected fraction of the beam. As a 2D-detector, a CCD-based pixel detector (MarCCD, 4 Mpx, binned in blocks of 2 x 2, 165 mm diameter of active surface) or, since August 2012, the in-vacuum PILATUS 1M hybrid pixel detector (presented in Section 3.5) can be installed on the detector stage. Since December 2013, there is also a ‘short-distance’ setup available, which is independent from the SAXS instrument. In this configuration, the in-vacuum PILATUS 1M is directly attached to the measurement chamber via an adaptor segment that contains the beamstop. The sample-detector distance can be set in a range of around 55 cm to 80 cm. This facilitates larger scattering angles up to around pm 8deg in horizontal and vertical direction, which is needed for the large scattering angles of very small scattering objects down to around 3 nm. Presented in the next section is the development and characterisation of the in-vacuum PILATUS 1M detector that took place during the course of this work. Section 3.5.3 on the radiometric and geometric characterisation of the in-vacuum PILATUS 1M is published in J. Wernecke, C. Gollwitzer, P. Mueller and M. Krumrey: "Characterization of an in-vacuum PILATUS 1M detector", J. Synchrotron Rad. 21.3 (2014), pp. 529–536.
-
 
 \subsubsection{Calibration of the sample-detector distance}
 
 In small-angle scattering experiments, it is crucial to know precisely the distance between the irradiated sample and the detector, in order to calibrate the momentum transfer $q$. Typically, a calibration standard material with a well-known crystal lattice parameter is employed, which produces well-defined diffraction rings in the low-angle region. A material extensively used is dry rat-tail tendon collagen, with a $d$-spacing of 650 \AA \citep{amenitsch_performance_1997}, corresponding to $q=0.097$ nm$^{-1}$. The degradation of this material upon prolonged radiation suggested the use of harder calibrants such as silver behenate (CH$_3$(CH$_2$)$_{20}$COO$\cdot$Ag) \citep{huang_x-ray_1993}.
 
-AgBehe has a very narrow diffraction ring at $q=1.0763$ nm$^{-1}$, arising from a long-period spacing ($d_{001]}$) value of 58.36 \AA \citep{blanton_jcpdsinternational_1995}, although this value depends slightly on the synthesis. A deviation of 0.5 $\%$ in the diffraction peak position could be observed for different sample preparations. In order to increase the accuracy of the calibration, the sample-detector distance was determined by the detection of the scattering pattern of AgBehe at different positions of the HZB SAXS instrument, measured with the built-in 3 m long Heidenhain optical encoder with an uncertainty of 20 $\mu$m. By triangulating the radius of the diffraction ring to the source point, as depicted in figure \ref{fig:DistanceCalibrationSAXS}, the sample-detector distance is obtained in a traceable way.
+AgBehe has a very narrow diffraction ring at $q=1.0763$ nm$^{-1}$, arising from a long-period spacing ($d_{001]}$) value of 58.36 \AA \citep{blanton_jcpdsinternational_1995}, although this value depends slightly on the synthesis. A deviation of 0.5 $\%$ in the diffraction peak position could be observed for different sample preparations. In order to increase the accuracy of the calibration, the sample-detector distance was determined by the detection of the scattering pattern of AgBehe at different positions of the HZB SAXS instrument, measured with the built-in 3 m long Heidenhain optical encoder. By triangulating the radius of the diffraction ring to the source point, as depicted in figure \ref{fig:DistanceCalibrationSAXS}, the sample-detector distance is obtained in a traceable way.
 
 \begin{figure}
 	\centering
 	        \subfloat[Distance Calibration]{\resizebox{0.5\linewidth}{!}{\input{Figures/DistanceCalibrationSAXS}}\label{fig:DistanceCalibrationSAXS}}
 		\subfloat[AgBehe at large distance]{\resizebox{0.35\linewidth}{!}{\includegraphics{Figures/AgBeheSAXSLongDistance_edit.png}}\label{fig:AgBeheSAXSLongDistance}}
-		\caption{Sample-to-detector distance calibration: a) Radius of the diffraction ring of AgBehe and SBA-15 as a function of the sample-detector distance. A linear function is fitted to obtain the source point distance. The residuals of the fitting are shown in the bottom plot. b) Scattering pattern of AgBehe measured at a distance of 3638.2 mm. The diffraction rings exceeds the detector area. (file "messung kmc daten 2015 1Q pilatus 201501 0394.tif")}
+		\caption{Sample-to-detector distance calibration: a) Radius of the diffraction ring of AgBehe and SBA-15 as a function of the sample-detector distance. A linear function is fitted to obtain the source point distance. The residuals of the fitting are shown in the bottom plot. b) Scattering pattern of AgBehe measured at a distance of 3638.2 mm. The diffraction rings exceeds the detector area. \textcolor{red}{file "messung kmc daten 2015 1Q pilatus 201501 0394.tif"}}
 \end{figure}
 
 By measuring the AgBehe pattern along a distance range of 2200 mm with 100 mm steps at 8000 eV, the relative uncertainty associated to the linear fitting is 0.03 $\%$, corresponding to 1.5 mm. As observed in the residuals of the fitting in figure \ref{fig:DistanceCalibrationSAXS}, the deviation increases for long distances, due to the relatively small $d$-spacing of AgBehe, disabling the use of distances larger than $\sim 3600$ mm. In figure \ref{fig:AgBeheSAXSLongDistance}, it is visible how the diffraction ring surpasses the surface of the detector at a distance of 3638.2 mm and, thus, diminishes the accuracy of the peak determination.
@@ -237,6 +222,10 @@ The obtained scattering curve was normalized to the exposure time, the measured 
 Radial integration and error propagation
 
 brian pauw everything saxs
+
+Data correction from brian pauw
+
+-darkcurrent
 
 \subsection{Absolute intensity calibration}
 
