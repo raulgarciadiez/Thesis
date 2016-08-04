@@ -196,6 +196,47 @@ A polymeric 100 $\mu$m ring cut with a microtome is used as spacer between the 2
 
 \section{Data reduction: The scattering curve}
 
+
+for isotropically scattering samples,  a data reduction step is performed, known as radial "integration", "averaging" or "binning".
+
+2D to 1D: a reduction in dimensionality of the data usually accompanies this procedure (e.g. from 2D images to 1D plots), 
+
+q-binning: by grouping and averaging pixels with similar scattering angle $q$ irrespective of their azimuthal angle on the detector (denoted $\phi$).
+
+advantadge of q-binning: the relative data uncertainties become smaller for the averaged data.
+
+the spacing between the bin edges. Normally, this is chosen either uniform or logarithmically spaced (with more data points at low values).
+
+for radial averaging the many datapoints Ij collected from each pixel on the the detector are reduced into a small number of q-bins Iqbin 
+
+each measured datapoint collected between the bin edges (class limits) qn and qn+1 is averaged 
+
+CALCULATION OF THE EROR IN Q
+
+the standard deviation between similar pixels in a group (c.q. bin) can provide a good estimate for the actual uncertainty on the average value if this standard deviation exceeds the photon counting statistics-based estimate propagated until this step (The photon counting (Poisson) statistics 
+
+sample standard deviation in the bin IS BETTER THAN POISON STATISTICS, IS AN TYPE OF RESIDUALS
+
+USING A MASK TO FIND HOT PIXEL
+
+finding dead pixels (disturbing pixels)
+
+low-pass filter (Nyquist–Shannon sampling theorem) and then it is used a gaussian kernel
+
+masking areas
+
+error in $3\sigma$ or $99.8\%$
+
+FINDING THE CENTER
+
+the error calculation can also be used to find the scattering center
+
+this procedure can be used to find the center, as it minimized the standard deviation error for the best possible mask
+
+typical and easy center fitting: using a standard calibrant such as AgBehe
+
+---------------------------------------------------------------
+
 center fitting: using a standard calibrant such as AgBehe
 
 masking areas
@@ -207,6 +248,7 @@ Spherical projection, i.e. normalize the intensity of the single pixels to their
 Since the pixels solid angles differ, i.e. pixels in the center of the scattering pattern have a larger solid angle than those of the outer areas of the detector, a spherical projection is performed to normalize the intensity of all pixels to the same solid angle (step 7.). For this, the solid angle of each single pixel is determined.
 
 In the first cycle, each pixel Pi is checked for being masked. If the pixel is not masked, its distance RPi to the center is calculated. Since RPi in most cases is not an integer multiple of the pixel size sp , the pixel is distributed between the next lower integer multiple Rn = nxsp < RPi and the next higher multiple Rn+1 = (n + 1) x sp > RPi
+
 
 
 Data binning At some point in the data correction procedure for isotropically scattering samples, a data reduction step is performed, known as "integration", "averaging" or "binning". For isotropically scattering samples, a reduction in dimensionality of the data usually accompanies this procedure (e.g. from 2D images to 1D plots), by grouping and averaging pixels with similar scattering angle $q$ irrespective of their azimuthal angle on the detector (denoted $\phi$).
@@ -242,7 +284,7 @@ Data correction from brian pauw: (itemize?)
 
 -bg correction: suspending medium subtraction, sample environment (if necessary) and ??direct beam?? to see effects on the beamstop or the collimating system
 
--correction for spherical angles
+-correction for spherical angles ---- LOOK GUDRUN EXPLANATIOn
 
 -data binning
 
