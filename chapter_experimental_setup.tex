@@ -51,17 +51,24 @@ Deflection parameter $K$. The difference between both types of devices is K. Nor
 
 
 \section{FCM Beamline}
+\label{sec:fcm}
 
-Talk a little bit about design with mirrors and collimation
-
-focused on the sample and collimated into a \(0.5\) mm circular spot by Ge pinholes situated between the sample and the monochromator
+The four-crystal monochromator beamline operating in the PTB laboratory at BESSY II \citep{krumrey_design_1998, krumrey_high-accuracy_2001} provides a monochromatic beam in the 1.75-10 keV energy range at a fixed sample position with very high photon flux reproducibility and high energy resolving power. A schematic depiction of the bending magnet beamline and its components is shown in figure \ref{fig:FCMScheme}.
 
 \begin{figure}%[htbp]
 	\centering
 		\resizebox{0.8\linewidth}{!}{\includegraphics{Figures/FCMScheme.png}}
-		\caption{A scheme of BESSY II. From the master thesis.}
+		\caption{A scheme of the FCM beamline in the PTB laboratory at BESSY II. The distance of each component to the insertion device is shown.}
 		\label{fig:FCMScheme}
 \end{figure}
+
+At 14 m of the insertion device, a Pt-coated toroidal mirror is located to focus the beam in the horizontal direction and to collimate it in the vertical direction. The radiation coming from the bending magnet is monochromatised further downstream by a set of 4 single crystals which reflect the light according to the Bragg's law for the (1 1 1) reflexion. As the 4 crystals are mounted on two wheels (one on the rotation center and one parallel aligned), the rotation angle of the wheel ($\Theta$) defines the energy of the outgoing photon beam by $E=\frac{\sqrt{3}h c}{2a\sin{\Theta}}$, where $a$ is the lattice constant of the crystal.
+
+Two types of exchangeable crystal sets, Si ($a=0.543$ nm) and InSb ($a=0.648$ nm), are available to cover the energy range from 1.75 keV to 10 keV. The convolution of the 4 Bragg reflections provides a very high energy resolving power ($E/\Delta E = 10^4 $) through the full energy range. Besides, the geometric disposition of the crystals fixes the position of the outgoing radiation. The monochromator is operated under a $10^{-8}$ mbar vacuum.
+
+The energy range is traced back to the well-known lattice constant of Si. The back-reflection of a silicon crystal at different lattice planes is measured at known energies and the energy is calibrated to the dips positions appearing when the Bragg condition is fulfilled. This approach was employed at the sensitive surface of the X-ray detector introduced in section \ref{sec:pilatus} for an energy range between 4 keV and 10 keV \citep{gollwitzer_diffraction_2014}. To check the accuracy of the energy calibration in a standard measurement, a transmission scan around the K-edge of a copper foil (8980.5 eV) can be measured.
+
+About 10 m before the sample chamber, a bendable plane mirror collimates the beam in the vertical direction and focuses it in the horizontal direction. The mirror is coated with two different materials in separated areas. The Pt-coating is employed to maximize the reflectivity at energies above 4 keV, while the MgF$_2$ supresses the higher orders at energies below 4 keV. The photon flux achieved with the different configurations available at the FCM beamline is shown in figure \ref{fig:FCMBeamlineFlux}, although it can vary depending on the precise disposition of the different apertures along the beam path.
 
 \begin{figure}%[htbp]
 	\centering
@@ -70,36 +77,7 @@ focused on the sample and collimated into a \(0.5\) mm circular spot by Ge pinho
 		\label{fig:FCMBeamlineFlux}
 \end{figure}
 
-\subsection{Four-crystal monochromator}
-\label{sec:fcm}
-
-energy resolving power \( E/\Delta E \) of \( 10^4 \)
-
-Energy resolution
-
-Typical flux on the sample
-
-Difference between Si and InSb
-
-Beam size on the sample, divergence (talk to Mika)
-
-the photon flux can be reduced in a factor 4 when introducing the beam defining and guard pinhole!!!!!!!!!!
-
-The Four Crystal Monochromator consists of two times four crystals, where one set consists of InSb(111) and one of Si(111). The arrangement of the four crystals (see fig. 3.2) per set provides a stable beam position behind the monochromator, when changing the photon energy. This prevents a time consuming realignment as well as a change of the measured sample area. In SAXS, this enables double-checking a measurement result by changing the q area without moving the sample or the detector.
-
-In the energy range from 1.75 keV up to 10 keV, this monochromator provides a spectral purity of 10-4, for energies higher than 2.5 keV even 3x10-5 . Behind the FCM at 27.5 m distance from the dipole, a plane bendable mirror reflects the beam back to horizontal direction and collimates it in vertical direction. This mirror has two different coating areas (Pt and MgF2 ) to enable the different energy ranges (see fig. 3.3). The flux reached at the beamline for the different energies and the different setups of the monochromator is shown in fig. 3.3. A slit downstream of the plane mirror reduces the beam size. Behind this, a thin photodiode can be placed to measure the photon flux in transmission [55].
-
-1st generation Pinholes Incotec Scatterfree Ge 520 $\mu$m "beam defining" pinholes (SCATEX - Incoatec's scatterless pinholes), 
-
-
-\subsection{Flux monitor diode}
-
-Continuous measurement of the incoming photon flux with a semitransparent silicon diode 8 $\mu$m thick. It can be used down until 3 keV approx.
-
-Avoiding possible fluctuations on the flux. TopUp mode should improve this but still there are variation between 297 and 299 mA which are around 1$\%$
-
-
-
+The first slit behind the bending magnet is used to limit the acceptance angle of the radiation into the monochromator. Two moveable slits more are employed downstream to block the parasitic scattering. The 8 $\mu$m thick silicon photodiode can be used for energies above 3 keV. A germanium 520 $\mu$m circular pinhole (Scatex, Incoatec, Geesthacht, Germany) situated before the sample chamber shapes the photon beam into a circular spot on the sample and strongly reduces the parasitic radiation. A flux monitor diode is equipped behind these components and can measure continuously the incoming photon flux.
 
 \subsection{UHV X-ray Reflectometer}
 
@@ -114,6 +92,7 @@ The large volume of the reflectometer provides enough space to allocate other co
 The intensity scattered by the sample is recorded at a certain distance behind the sample (sample-detector distance) with an area X-ray detector mounted on the HZB SAXS instrument and connected to the sample chamber. Typically, long sample-detector distances are required to access the small angles employed in SAXS experiments.
 
 \subsection{X-ray area detector}
+\label{sec:pilatus}
 
 The scattered X-ray photons are collected by a large-area hybrid pixel detector. The Pilatus 1M (Dectris Ltd, Baden, Switzerland) has a sensitive surface of (179 x 169) mm$^2$ and consists of a silicon pixel matrix with a pixel size of $d = (172.1 \pm 0.2)$ $\mu$m which operates in single-photon counting mode, providing very low darkcount rates and signal-to-noise ratios and a high dynamic range. For instance, the detector quantum efficiency is about 97 $\%$ at 8 keV using the ultra-high gain mode and almost 86 $\%$ at 4 keV \citep{wernecke_characterization_2014}.
 
@@ -211,11 +190,41 @@ A polymeric 100 $\mu$m ring cut with a microtome is used as spacer between the 2
 \begin{figure}%[htbp]
 	\centering
 		\resizebox{0.7\linewidth}{!}{\includegraphics{Figures/SampleEnvironment.jpg}}
-		\caption{Different sample environments: Round and rectangular capillaries and disassembled cell with the two silicon-nitride windows, the polymeric spacer and the metallic holder.}
+		\caption{Different sample environments: Round and rectangular capillaries and disassembled cell with the two silicon-nitride windows, the polymeric ring spacer and the two parts of the metallic holder.}
 		\label{fig:SampleEnvironment}
 \end{figure}
 
 \section{Data reduction: The scattering curve}
+
+center fitting: using a standard calibrant such as AgBehe
+
+masking areas
+
+finding dead pixels (disturbing pixels)
+
+Spherical projection, i.e. normalize the intensity of the single pixels to their solid angle
+
+Since the pixels solid angles differ, i.e. pixels in the center of the scattering pattern have a larger solid angle than those of the outer areas of the detector, a spherical projection is performed to normalize the intensity of all pixels to the same solid angle (step 7.). For this, the solid angle of each single pixel is determined.
+
+In the first cycle, each pixel Pi is checked for being masked. If the pixel is not masked, its distance RPi to the center is calculated. Since RPi in most cases is not an integer multiple of the pixel size sp , the pixel is distributed between the next lower integer multiple Rn = nxsp < RPi and the next higher multiple Rn+1 = (n + 1) x sp > RPi
+
+
+Data binning At some point in the data correction procedure for isotropically scattering samples, a data reduction step is performed, known as "integration", "averaging" or "binning". For isotropically scattering samples, a reduction in dimensionality of the data usually accompanies this procedure (e.g. from 2D images to 1D plots), by grouping and averaging pixels with similar scattering angle $q$ irrespective of their azimuthal angle on the detector (denoted $\phi$).
+
+The advantages of this step are threefold. Firstly, the data becomes more manageable, allowing for example faster fitting and improved data visualisation. Secondly, the relative data uncertainties become smaller for the averaged data. Lastly, the standard deviation between similar pixels in a group (c.q. bin) can provide a good estimate for the actual uncertainty on the average value if this standard deviation exceeds the photon counting statistics-based estimate propagated until this step (The photon counting (Poisson) statistics defines the  absolute minimum possible uncertainty in any counting procedure. It does not consider other contributors to noise such as the variance between pixel sensitivities or electronic noise.).
+
+for radial averaging the many datapoints Ij collected from each pixel on the the detector are reduced into a small number of q-bins Iqbin before the data analysis procedures. In this reduction step, each measured datapoint collected between the bin edges (class limits) qn and qn+1 is averaged and assumed valid for the mean:
+
+where the summation is over all datapoints j falling within the bin edges, Nqbin the total number of datapoints in the bin. As previously mentioned and evident from equation 32, the maximum value is chosen between the propagated uncertainty and the sample standard deviation in the bin. In other words, if the sample standard deviation of the pixels in the bin exceeds the estimate based on the previously propagated uncertainty, the sample standard deviation is considered a more accurate estimate. This can be further augmented to never have a relative uncertainty estimate less than 1$\%$ of the intensity, as it is (even with the most stringent corrections) challenging to get more accurate than this [76] .
+
+error in $3\sigma$ or $99.8\%$
+
+There is still a choice to be made in this procedure, that is the spacing between the bin edges. Normally, this is chosen either uniform or logarithmically spaced (with more data points at low values).
+
+the error calculation can also be used to find the scattering center
+
+
+
 
 The obtained scattering curve was normalized to the exposure time, the measured suspension transmittance and the incident photon flux, measured by means of a calibrated transparent silicon diode. 
 
@@ -223,9 +232,19 @@ Radial integration and error propagation
 
 brian pauw everything saxs
 
-Data correction from brian pauw
+Data correction from brian pauw: (itemize?)
 
--darkcurrent
+-darkcurrent not needed (pilatus has a photon-counting mode)
+
+-transmission correction
+
+-normalization by time and thickness (??) --- absolute intensity calibration, normalization to the incident photon flux
+
+-bg correction: suspending medium subtraction, sample environment (if necessary) and ??direct beam?? to see effects on the beamstop or the collimating system
+
+-correction for spherical angles
+
+-data binning
 
 \subsection{Absolute intensity calibration}
 

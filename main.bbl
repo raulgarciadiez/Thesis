@@ -1,4 +1,4 @@
-\begin{thebibliography}{155}
+\begin{thebibliography}{157}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 
 \bibitem[Amenitsch {\em et~al.\/}(1997)Amenitsch, Bernstorff, Kriechbaum,
@@ -297,6 +297,10 @@
   Variations}} in {{Sedimentation}} of {{Field-Flow Fractionation}}. {\em Separ
   Sci Technol\/} {\bf 16}.
 
+\bibitem[Gollwitzer \& Krumrey(2014)]{gollwitzer_diffraction_2014}
+{\sc Gollwitzer, C. \& Krumrey, M.} 2014 A diffraction effect in {{X}}-ray area
+  detectors. {\em Journal of Applied Crystallography\/} {\bf 47}, 378--383.
+
 \bibitem[Grunder {\em et~al.\/}(1991)Grunder, Kim, Ballauff, Kranz \&
   M{\"u}ller]{grunder_analysis_1991}
 {\sc Grunder, R., Kim, Y.~S., Ballauff, M., Kranz, D. \& M{\"u}ller, H.-G.}
@@ -468,6 +472,11 @@
 {\sc Kratky, O., Pilz, I. \& Schmitz, P.~J.} 1966 Absolute intensity
   measurement of small angle x-ray scattering by means of a standard sample.
   {\em Journal of Colloid and Interface Science\/} {\bf 21}, 24--34.
+
+\bibitem[Krumrey(1998)]{krumrey_design_1998}
+{\sc Krumrey, M.} 1998 Design of a {{Four-Crystal Monochromator Beamline}} for
+  {{Radiometry}} at {{BESSY II}}. {\em Journal of Synchrotron Radiation\/} {\bf
+  5}, 6--9.
 
 \bibitem[Krumrey \& Ulm(2001)]{krumrey_high-accuracy_2001}
 {\sc Krumrey, M. \& Ulm, G.} 2001 High-accuracy detector calibration at the
