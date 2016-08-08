@@ -196,122 +196,23 @@ A polymeric 100 $\mu$m ring cut with a microtome is used as spacer between the 2
 
 \section{Data reduction: The scattering curve}
 
+For isotropically scattering samples e.g. nanoparticles in suspension, the scattering patterns collected in the area detector consist of concentric rings whose center is the transmitted beam. The dimensionality of the data can be reduced by performing a radial integration of the measured pattern, converting the 2D images into 1D scattering curves. This reduction step is based on the $q$-binning: the grouping of pixels with similar scattering angle $q$ irrespective of their azimuthal angle on the detector \citep{pauw_everything_2013}. By averaging the scattered intensity of the pixels within the same $q$-bin ($I(q)$), the uncertainty of the data decreases in the scattering curve. The size of the bins depends on the requirements of the data evaluation while the bins are typically spaced uniformly, although logarithmic distributions are also extensively used. The difference in solid angle for each pixel due to the spherical projection of the scattering on a flat detector is also considered in this step.
 
-for isotropically scattering samples,  a data reduction step is performed, known as radial "integration", "averaging" or "binning".
+The uncertainty associated to the intensity $I(q)$ is calculated as the standard deviation between each pixel intensity in the $q$-bin, which gives a better estimate than the uncertainty associated to the photon-counting Poisson statistics \citep{pauw_everything_2013}. The pixels discarded (or \emph{masked out}) for the weighted average of the $n$th $q$-bin ($q_n$) are those whose intensity is not comprised within the range $\left[ I_{med}\left( q_{n-1}\right)- 3 \sigma , I_{med}\left( q_{n+1}\right) + 3 \sigma \right]$, where $I_{med}\left( q_{n}\right)$ is the median intensity of the pixels prior to this \emph{masking procedure} and $\sigma$ is the standard deviation. With a confidence level of 99.7 $\%$, the pixels excluded of the reduction process are those pixels whose intensity lies clearly out of the radial average, such as \emph{hot pixels}, anisotropic scattering from the glass capillary or undesired reflexes without radial simmetry.
 
-2D to 1D: a reduction in dimensionality of the data usually accompanies this procedure (e.g. from 2D images to 1D plots), 
+The position of the center of the scattering pattern is of vital importance for the radial integration step. A standard calibrant with very narrow diffraction rings such as AgBehe can be used to locate the center with high precision. Nevertheless, the masking process previously described can be used as well to determine the center position by minimizing the number of masked pixels and the standard deviation uncertainty of the $q$-bins. The accuracy of the center determination is sub-pixel using both approaches, but the masking procedure does not require of a calibration standard material.
 
-q-binning: by grouping and averaging pixels with similar scattering angle $q$ irrespective of their azimuthal angle on the detector (denoted $\phi$).
+The scattering curve obtained by radial integration still requires of some data correction. For instance, $I_{meas}(q)$ (photon counts) must be normalized to the exposure time $\Delta t$, the solid angle $\Delta \Omega$, the measured transmittance of the sample $T$ and the incident photon flux $\Phi_0$, measured by the flux monitor described in section \ref{sec:fcm}. In order to present the scattering cross section per volume $\frac{d\sigma}{d\Omega}/V$ in absolute units (cm$^{-1}$), the measured intensity must be normalized to the sample thickness $t$ and the quantum efficiency of the X-ray detector and the silicon diodes $\eta_{QE}$: 
 
-advantadge of q-binning: the relative data uncertainties become smaller for the averaged data.
+\begin{equation}
+\frac{\frac{d\sigma}{d\Omega}}{V} \left(q\right)=\frac{I_{meas}\left(q\right)}{\Phi_0 \cdot T \cdot \Delta\Omega \cdot \Delta t \cdot \eta_{QE} \cdot t}
+\end{equation}
 
-the spacing between the bin edges. Normally, this is chosen either uniform or logarithmically spaced (with more data points at low values).
+By using the monitor diode on the beamstop as described in section \ref{sec:pilatus}, $T$ and $\Phi_0$ can be measured simultaneously during the experiment, without the necessity of the flux monitor diode.
 
-for radial averaging the many datapoints Ij collected from each pixel on the the detector are reduced into a small number of q-bins Iqbin 
+Alternatively a standard material like lupolen \cite{kratky_absolute_1966,shaffer_calibration_1974} or glassy carbon \cite{perret_glassy_1972} can be employed to scale the measured scattering intensity to the known values of these materials.
 
-each measured datapoint collected between the bin edges (class limits) qn and qn+1 is averaged 
-
-CALCULATION OF THE EROR IN Q
-
-the standard deviation between similar pixels in a group (c.q. bin) can provide a good estimate for the actual uncertainty on the average value if this standard deviation exceeds the photon counting statistics-based estimate propagated until this step (The photon counting (Poisson) statistics 
-
-sample standard deviation in the bin IS BETTER THAN POISON STATISTICS, IS AN TYPE OF RESIDUALS
-
-USING A MASK TO FIND HOT PIXEL
-
-finding dead pixels (disturbing pixels)
-
-low-pass filter (Nyquist–Shannon sampling theorem) and then it is used a gaussian kernel
-
-masking areas
-
-error in $3\sigma$ or $99.8\%$
-
-FINDING THE CENTER
-
-the error calculation can also be used to find the scattering center
-
-this procedure can be used to find the center, as it minimized the standard deviation error for the best possible mask
-
-typical and easy center fitting: using a standard calibrant such as AgBehe
-
----------------------------------------------------------------
-
-center fitting: using a standard calibrant such as AgBehe
-
-masking areas
-
-finding dead pixels (disturbing pixels)
-
-Spherical projection, i.e. normalize the intensity of the single pixels to their solid angle
-
-Since the pixels solid angles differ, i.e. pixels in the center of the scattering pattern have a larger solid angle than those of the outer areas of the detector, a spherical projection is performed to normalize the intensity of all pixels to the same solid angle (step 7.). For this, the solid angle of each single pixel is determined.
-
-In the first cycle, each pixel Pi is checked for being masked. If the pixel is not masked, its distance RPi to the center is calculated. Since RPi in most cases is not an integer multiple of the pixel size sp , the pixel is distributed between the next lower integer multiple Rn = nxsp < RPi and the next higher multiple Rn+1 = (n + 1) x sp > RPi
-
-
-
-Data binning At some point in the data correction procedure for isotropically scattering samples, a data reduction step is performed, known as "integration", "averaging" or "binning". For isotropically scattering samples, a reduction in dimensionality of the data usually accompanies this procedure (e.g. from 2D images to 1D plots), by grouping and averaging pixels with similar scattering angle $q$ irrespective of their azimuthal angle on the detector (denoted $\phi$).
-
-The advantages of this step are threefold. Firstly, the data becomes more manageable, allowing for example faster fitting and improved data visualisation. Secondly, the relative data uncertainties become smaller for the averaged data. Lastly, the standard deviation between similar pixels in a group (c.q. bin) can provide a good estimate for the actual uncertainty on the average value if this standard deviation exceeds the photon counting statistics-based estimate propagated until this step (The photon counting (Poisson) statistics defines the  absolute minimum possible uncertainty in any counting procedure. It does not consider other contributors to noise such as the variance between pixel sensitivities or electronic noise.).
-
-for radial averaging the many datapoints Ij collected from each pixel on the the detector are reduced into a small number of q-bins Iqbin before the data analysis procedures. In this reduction step, each measured datapoint collected between the bin edges (class limits) qn and qn+1 is averaged and assumed valid for the mean:
-
-where the summation is over all datapoints j falling within the bin edges, Nqbin the total number of datapoints in the bin. As previously mentioned and evident from equation 32, the maximum value is chosen between the propagated uncertainty and the sample standard deviation in the bin. In other words, if the sample standard deviation of the pixels in the bin exceeds the estimate based on the previously propagated uncertainty, the sample standard deviation is considered a more accurate estimate. This can be further augmented to never have a relative uncertainty estimate less than 1$\%$ of the intensity, as it is (even with the most stringent corrections) challenging to get more accurate than this [76] .
-
-error in $3\sigma$ or $99.8\%$
-
-There is still a choice to be made in this procedure, that is the spacing between the bin edges. Normally, this is chosen either uniform or logarithmically spaced (with more data points at low values).
-
-the error calculation can also be used to find the scattering center
-
-
-
-
-The obtained scattering curve was normalized to the exposure time, the measured suspension transmittance and the incident photon flux, measured by means of a calibrated transparent silicon diode. 
-
-Radial integration and error propagation
-
-brian pauw everything saxs
-
-Data correction from brian pauw: (itemize?)
-
--darkcurrent not needed (pilatus has a photon-counting mode)
-
--transmission correction
-
--normalization by time and thickness (??) --- absolute intensity calibration, normalization to the incident photon flux
-
--bg correction: suspending medium subtraction, sample environment (if necessary) and ??direct beam?? to see effects on the beamstop or the collimating system
-
--correction for spherical angles ---- LOOK GUDRUN EXPLANATIOn
-
--data binning
-
-\subsection{Absolute intensity calibration}
-
-lupolen as standard material \cite{kratky_absolute_1966,shaffer_calibration_1974}
-
-glassy carbon \cite{perret_glassy_1972}
-
-use the knowledge from the innanopart project??????
-\subsubsection{Flux monitor}
-thin diode
-\subsubsection{Detector efficiceny}
-pilatus and thin diode
-
-
-
-
-
-
-
-
-
-
-
-
-
+The normalized scattering curve requires of an accurate background correction. The scattering of the pure suspending medium and the sample environment can affect the evaluation of the data, specially for low-scatterers, and, therefore, the normalized scattering background must be subtracted to obtain a usable scattering curve.
 
 
 

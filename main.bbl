@@ -1,4 +1,4 @@
-\begin{thebibliography}{157}
+\begin{thebibliography}{158}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 
 \bibitem[Amenitsch {\em et~al.\/}(1997)Amenitsch, Bernstorff, Kriechbaum,
@@ -681,6 +681,11 @@
 {\sc Patel, T., Zhou, J., Piepmeier, J.~M. \& Saltzman, W.~M.} 2012 Polymeric
   nanoparticles for drug delivery to the central nervous system. {\em Adv Drug
   Deliver Rev\/} {\bf 64}, 701--705.
+
+\bibitem[Pauw(2013)]{pauw_everything_2013}
+{\sc Pauw, B.~R.} 2013 Everything {{SAXS}}: small-angle scattering pattern
+  collection and correction. {\em Journal of Physics: Condensed Matter\/} {\bf
+  25}, 383201.
 
 \bibitem[Pedersen(1994)]{pedersen_determination_1994}
 {\sc Pedersen, J.~S.} 1994 Determination of size distribution from small-angle
