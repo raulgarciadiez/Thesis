@@ -1,4 +1,4 @@
-\begin{thebibliography}{158}
+\begin{thebibliography}{162}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 
 \bibitem[Amenitsch {\em et~al.\/}(1997)Amenitsch, Bernstorff, Kriechbaum,
@@ -47,6 +47,14 @@
 {\sc Barenholz, Y.~C.} 2012 Doxil\textregistered{} \textemdash{} {{The}} first
   {{FDA}}-approved nano-drug: {{Lessons}} learned. {\em Journal of Controlled
   Release\/} {\bf 160}, 117--134.
+
+\bibitem[Baumg{\"a}rtel(1984)]{baumgartel_e.-e._1984}
+{\sc Baumg{\"a}rtel, H.} 1984 E.-{{E}}. {{Koch}} ({{Ed}}.): {{Handbook}} on
+  {{Synchrotron Radiation}}, {{Vol}}. 1a und 1b, {{North-Holland Publishing
+  Company}}, {{Amsterdam}}, {{New York}}, {{Oxford}} 1983.
+  {{Gesamtseitenzahl}}: 1296, {{Gesamtpreis}}: {{DM}} 600,\textendash{},
+  {{Preis}} der {{Einzelb{\"a}nde}}: {{DM}} 350,\textendash{}. {\em Berichte
+  der Bunsengesellschaft f{\"u}r physikalische Chemie\/} {\bf 88}, 591--592.
 
 \bibitem[Baumstark {\em et~al.\/}(1990)Baumstark, Kreutz, Berg, Frey \&
   Keul]{baumstark_structure_1990}
@@ -467,6 +475,14 @@
   Ollivon, M. \& Neubert, R.} 2003 Does sucrose influence the properties of
   {{DMPC}} vesicles? {\em Chemistry and Physics of Lipids\/} {\bf 123}, 31--44.
 
+\bibitem[Klein {\em et~al.\/}(2014)Klein, Thornagel \&
+  Ulm]{klein_elektronenspeicherringe_2014}
+{\sc Klein, R., Thornagel, R. \& Ulm, G.} 2014 Die {{Elektronenspeicherringe
+  MLS}} und {{BESSY II}} als prim{\"a}re {{Strahlernormale}}. {\em Fachorgan
+  f{\"u}r Wirtschaft und Wissenschaft Amts-und Mitteilungsblatt der
+  Physikalisch-Technischen Bundesanstalt Braunschweig und Berlin 124. Jahrgang,
+  Heft 3\/} p.~7.
+
 \bibitem[Kratky {\em et~al.\/}(1966)Kratky, Pilz \&
   Schmitz]{kratky_absolute_1966}
 {\sc Kratky, O., Pilz, I. \& Schmitz, P.~J.} 1966 Absolute intensity
@@ -740,6 +756,10 @@
   low density lipoproteins. {\em Chemistry and Physics of Lipids\/} {\bf 70},
   63--74.
 
+\bibitem[Schwinger(1949)]{schwinger_classical_1949}
+{\sc Schwinger, J.} 1949 On the {{Classical Radiation}} of {{Accelerated
+  Electrons}}. {\em Phys. Rev.\/} {\bf 75}, 1912--1925.
+
 \bibitem[Shaffer \& Hendricks(1974)]{shaffer_calibration_1974}
 {\sc Shaffer, L.~B. \& Hendricks, R.~W.} 1974 Calibration of polyethylene
   (lupolen) as a wavelength-independent absolute intensity standard. {\em
@@ -848,6 +868,12 @@
   Agents}}: {{An Innovative Class}} of {{Magnetic Resonance Imaging Contrast
   Media Based}} on {{Chemical Exchange Saturation Transfer}}. {\em Chem. Eur.
   J.\/} {\bf 15}, 1440--1448.
+
+\bibitem[Thornagel {\em et~al.\/}(2001)Thornagel, Klein \&
+  Ulm]{thornagel_electron_2001}
+{\sc Thornagel, R., Klein, R. \& Ulm, G.} 2001 The electron storage ring
+  {{BESSY II}} as a primary source standard from the visible to the the
+  {{X}}-ray range. {\em Metrologia\/} {\bf 38}, 385.
 
 \bibitem[Uedaira \& Uedaira(1985)]{uedaira_sugar-water_1985}
 {\sc Uedaira, H. \& Uedaira, H.} 1985 Sugar-water interaction from diffusion
