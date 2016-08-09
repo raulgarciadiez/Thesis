@@ -52,10 +52,10 @@
 \contentsline {section}{\numberline {3.6}Small-angle X-ray scattering: DIRECT FROM PAPER}{27}{section.3.6}
 \contentsline {subsection}{\numberline {3.6.1}Filling of capilaries}{29}{subsection.3.6.1}
 \contentsline {subsection}{\numberline {3.6.2}Calibration of solvent density and finding of main axis}{29}{subsection.3.6.2}
-\contentsline {subsection}{\numberline {3.6.3}Limitations}{31}{subsection.3.6.3}
-\contentsline {subsubsection}{Density range}{31}{section*.28}
-\contentsline {subsubsection}{Challenges with different contrast agents}{31}{section*.29}
-\contentsline {subsubsection}{Comparison to other contrast variation scattering techinques}{31}{section*.30}
+\contentsline {subsection}{\numberline {3.6.3}Limitations}{30}{subsection.3.6.3}
+\contentsline {subsubsection}{Density range}{30}{section*.28}
+\contentsline {subsubsection}{Challenges with different contrast agents}{30}{section*.29}
+\contentsline {subsubsection}{Comparison to other contrast variation scattering techinques}{30}{section*.30}
 \contentsline {chapter}{\numberline {4}Contrast variation in SAXS with the density gradient technique}{32}{chapter.4}
 \contentsline {section}{\numberline {4.1}Materials and Methods}{34}{section.4.1}
 \contentsline {subsection}{\numberline {4.1.1}Particles and chemicals}{34}{subsection.4.1.1}
