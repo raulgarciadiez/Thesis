@@ -36,14 +36,14 @@
 \contentsline {subsection}{\numberline {3.1.1}The BESSY II Electron Storage Ring}{16}{subsection.3.1.1}
 \contentsline {subsection}{\numberline {3.1.2}Insertion devices}{17}{subsection.3.1.2}
 \contentsline {section}{\numberline {3.2}FCM Beamline}{17}{section.3.2}
-\contentsline {subsection}{\numberline {3.2.1}UHV X-ray Reflectometer}{19}{subsection.3.2.1}
+\contentsline {subsection}{\numberline {3.2.1}UHV X-ray Reflectometer}{20}{subsection.3.2.1}
 \contentsline {section}{\numberline {3.3}SAXS Setup}{20}{section.3.3}
 \contentsline {subsection}{\numberline {3.3.1}X-ray area detector}{20}{subsection.3.3.1}
 \contentsline {subsection}{\numberline {3.3.2}HZB SAXS instrument and WAXS configuration}{21}{subsection.3.3.2}
-\contentsline {subsubsection}{Calibration of the sample-detector distance}{21}{section*.15}
-\contentsline {section}{\numberline {3.4}Sample environment}{23}{section.3.4}
+\contentsline {subsubsection}{Calibration of the sample-detector distance}{22}{section*.15}
+\contentsline {section}{\numberline {3.4}Sample environment}{24}{section.3.4}
 \contentsline {subsection}{\numberline {3.4.1}Round capillaries}{24}{subsection.3.4.1}
-\contentsline {subsection}{\numberline {3.4.2}Rectangular capillaries}{24}{subsection.3.4.2}
+\contentsline {subsection}{\numberline {3.4.2}Rectangular capillaries}{25}{subsection.3.4.2}
 \contentsline {subsection}{\numberline {3.4.3}Cell for low-energies}{26}{subsection.3.4.3}
 \contentsline {section}{\numberline {3.5}Data reduction: The scattering curve}{27}{section.3.5}
 \contentsline {section}{\numberline {3.6}Small-angle X-ray scattering: DIRECT FROM PAPER}{29}{section.3.6}
