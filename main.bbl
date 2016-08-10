@@ -1,4 +1,4 @@
-\begin{thebibliography}{162}
+\begin{thebibliography}{165}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 
 \bibitem[Amenitsch {\em et~al.\/}(1997)Amenitsch, Bernstorff, Kriechbaum,
@@ -23,6 +23,19 @@
 {\sc Avdeev, M.~V.} 2007 Contrast variation in small-angle scattering
   experiments on polydisperse and superparamagnetic systems: basic functions
   approach. {\em Journal of Applied Crystallography\/} {\bf 40}, 56--70.
+
+\bibitem[Bakker {\em et~al.\/}(1998)Bakker, Kr{\"a}mer, Kuske, Kuske,
+  M{\"u}ller \& Weihreter]{bakker_orbit_1998}
+{\sc Bakker, R., Kr{\"a}mer, D., Kuske, B., Kuske, P., M{\"u}ller, R. \&
+  Weihreter, E.} 1998 Orbit {{Response Measurements}} in the {{Commissioning}}
+  of the {{BESSY II Booster Synchrotron}} and {{Storage Ring}}. In {\em
+  Proceedings of the 6th {{European Particle Accelerator Conference}},
+  {{Stockholm}}\/}, , vol. 900.
+
+\bibitem[Bakker(1999)]{bakker_status_1999}
+{\sc Bakker, R.~J.} 1999 Status and commissioning-results of {{BESSY II}}. In
+  {\em Particle {{Accelerator Conference}}, 1999. {{Proceedings}} of the
+  1999\/}, , vol.~1, pp. 197--199. {IEEE}.
 
 \bibitem[Ballauff(2001)]{ballauff_saxs_2001-1}
 {\sc Ballauff, M.} 2001 {{SAXS}} and {{SANS}} studies of polymer colloids. {\em
@@ -163,6 +176,10 @@
 {\sc Coombs, S.~H.} 1981 A density-gradient column for determining the specific
   gravity of fish eggs, with particular reference to eggs of the mackerel
   {{Scomber}} scombrus. {\em Mar. Biol.\/} {\bf 63}, 101--106.
+
+\bibitem[Couprie \& Filhol(2008)]{couprie_x_2008}
+{\sc Couprie, M.-E. \& Filhol, J.-M.} 2008 X radiation sources based on
+  accelerators. {\em Comptes Rendus Physique\/} {\bf 9}, 487--506.
 
 \bibitem[Cullity \& Stock(2001)]{cullity_elements_2001}
 {\sc Cullity, B.~D. \& Stock, S.~R.} 2001 {\em Elements of {{X-Ray
