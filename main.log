@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/TeX Live for SUSE Linux) (format=pdflatex 2015.3.4)  10 AUG 2016 11:56
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/TeX Live for SUSE Linux) (format=pdflatex 2015.3.4)  10 AUG 2016 14:04
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -675,13 +675,13 @@ l.29
 
 ] [4]
 
-LaTeX Warning: Command \textregistered invalid in math mode on input line 92.
+LaTeX Warning: Command \textregistered invalid in math mode on input line 90.
 
 
-LaTeX Warning: Command \textcircled invalid in math mode on input line 92.
+LaTeX Warning: Command \textcircled invalid in math mode on input line 90.
 
 
-LaTeX Warning: Command \textcircled invalid in math mode on input line 92.
+LaTeX Warning: Command \textcircled invalid in math mode on input line 90.
 
 )
 \tf@toc=\write4
@@ -719,40 +719,35 @@ Overfull \hbox (10.8422pt too wide) in paragraph at lines 8--9
 
 
 
-] [15] [16] <Figures/BessyScheme.png, id=609, 581.17125pt x 535.2497pt>
+] [15] <Figures/BessyScheme.png, id=591, 581.17125pt x 535.2497pt>
 File: Figures/BessyScheme.png Graphic file (type png)
 
 <use Figures/BessyScheme.png>
-Package pdftex.def Info: Figures/BessyScheme.png used on input line 60.
+Package pdftex.def Info: Figures/BessyScheme.png used on input line 40.
 (pdftex.def)             Requested size: 581.16983pt x 535.24838pt.
- [17 <./Figures/BessyScheme.png>]
-Overfull \hbox (3.81322pt too wide) in paragraph at lines 91--92
-\OT1/cmr/m/n/12 The four-crystal monochro-ma-tor beam-line op-er-at-ing in the 
-PTB lab-o-ra-tory at BESSY
- []
-
-<Figures/FCMScheme.png, id=620, 341.77687pt x 216.81pt>
+ [16 <./Figures/BessyScheme.png>]
+<Figures/FCMScheme.png, id=615, 341.77687pt x 216.81pt>
 File: Figures/FCMScheme.png Graphic file (type png)
 
 <use Figures/FCMScheme.png>
-Package pdftex.def Info: Figures/FCMScheme.png used on input line 95.
+Package pdftex.def Info: Figures/FCMScheme.png used on input line 69.
 (pdftex.def)             Requested size: 341.77603pt x 216.80946pt.
- [18 <./Figures/FCMScheme.png>]
+ [17] [18 <./Figures/FCMScheme.png>]
 (./Figures/FCMBeamlineFlux.tex
-<Figures/FCMBeamlineFlux.pdf, id=634, 284.06125pt x 226.8475pt>
+<Figures/FCMBeamlineFlux.pdf, id=635, 284.06125pt x 226.8475pt>
 File: Figures/FCMBeamlineFlux.pdf Graphic file (type pdf)
 
 <use Figures/FCMBeamlineFlux.pdf>
 Package pdftex.def Info: Figures/FCMBeamlineFlux.pdf used on input line 111.
 (pdftex.def)             Requested size: 284.06053pt x 226.84694pt.
-) [19] [20 <./Figures/FCMBeamlineFlux.pdf>]
-[21]
+) [19 <./Figures/FCMBeamlineFlux.pdf>]
+[20]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 144.
+               Default added (so using `tbp') on input line 118.
 
-[22] (./Figures/DistanceCalibrationSAXS.tex
-<Figures/DistanceCalibrationSAXS.pdf, id=675, 284.06125pt x 226.8475pt>
+[21] (./Figures/DistanceCalibrationSAXS.tex
+<Figures/DistanceCalibrationSAXS.pdf, id=667, 284.06125pt x 226.8475pt>
 File: Figures/DistanceCalibrationSAXS.pdf Graphic file (type pdf)
 
 <use Figures/DistanceCalibrationSAXS.pdf>
@@ -760,26 +755,26 @@ Package pdftex.def Info: Figures/DistanceCalibrationSAXS.pdf used on input line
  132.
 (pdftex.def)             Requested size: 284.06053pt x 226.84694pt.
 )
-<Figures/AgBeheSAXSLongDistance_edit.png, id=676, 457.4691pt x 486.3771pt>
+<Figures/AgBeheSAXSLongDistance_edit.png, id=668, 457.4691pt x 486.3771pt>
 File: Figures/AgBeheSAXSLongDistance_edit.png Graphic file (type png)
 
 <use Figures/AgBeheSAXSLongDistance_edit.png>
 Package pdftex.def Info: Figures/AgBeheSAXSLongDistance_edit.png used on input 
-line 167.
+line 141.
 (pdftex.def)             Requested size: 457.46799pt x 486.37592pt.
- [23 <./Figures/DistanceCalibrationSAXS.pdf> <./Figures/AgBeheSAXSLongDistance_
-edit.png>]
+ [22] [23 <./Figures/DistanceCalibrationSAXS.pdf> <./Figures/AgBeheSAXSLongDist
+ance_edit.png>]
 
-LaTeX Warning: Command \textregistered invalid in math mode on input line 191.
-
-
-LaTeX Warning: Command \textcircled invalid in math mode on input line 191.
+LaTeX Warning: Command \textregistered invalid in math mode on input line 165.
 
 
-LaTeX Warning: Command \textcircled invalid in math mode on input line 191.
+LaTeX Warning: Command \textcircled invalid in math mode on input line 165.
 
-[24] (./Figures/HilgenbergHomogeneity.tex
-<Figures/HilgenbergHomogeneity.pdf, id=703, 284.06125pt x 226.8475pt>
+
+LaTeX Warning: Command \textcircled invalid in math mode on input line 165.
+
+(./Figures/HilgenbergHomogeneity.tex
+<Figures/HilgenbergHomogeneity.pdf, id=698, 284.06125pt x 226.8475pt>
 File: Figures/HilgenbergHomogeneity.pdf Graphic file (type pdf)
 
 <use Figures/HilgenbergHomogeneity.pdf>
@@ -787,43 +782,43 @@ Package pdftex.def Info: Figures/HilgenbergHomogeneity.pdf used on input line 1
 12.
 (pdftex.def)             Requested size: 284.06053pt x 226.84694pt.
 ) (./Figures/WaterHomogeneity.tex
-<Figures/WaterHomogeneity.pdf, id=704, 284.06125pt x 226.8475pt>
+<Figures/WaterHomogeneity.pdf, id=699, 284.06125pt x 226.8475pt>
 File: Figures/WaterHomogeneity.pdf Graphic file (type pdf)
 
 <use Figures/WaterHomogeneity.pdf>
 Package pdftex.def Info: Figures/WaterHomogeneity.pdf used on input line 108.
 (pdftex.def)             Requested size: 284.06053pt x 226.84694pt.
-) (./Figures/GaldenCalibration.tex
+) [24] (./Figures/GaldenCalibration.tex
 <Figures/GaldenCalibration.pdf, id=709, 284.06125pt x 226.8475pt>
 File: Figures/GaldenCalibration.pdf Graphic file (type pdf)
 
 <use Figures/GaldenCalibration.pdf>
 Package pdftex.def Info: Figures/GaldenCalibration.pdf used on input line 102.
 (pdftex.def)             Requested size: 284.06053pt x 226.84694pt.
-) [25] [26 <./Figures/HilgenbergHomogeneity.pdf> <./Figures/WaterHomogeneity.pd
-f> <./Figures/GaldenCalibration.pdf>]
-<Figures/SampleEnvironment.jpg, id=733, 876.876pt x 688.0104pt>
+) [25 <./Figures/HilgenbergHomogeneity.pdf> <./Figures/WaterHomogeneity.pdf>]
+<Figures/SampleEnvironment.jpg, id=726, 876.876pt x 688.0104pt>
 File: Figures/SampleEnvironment.jpg Graphic file (type jpg)
 
 <use Figures/SampleEnvironment.jpg>
-Package pdftex.def Info: Figures/SampleEnvironment.jpg used on input line 227.
+Package pdftex.def Info: Figures/SampleEnvironment.jpg used on input line 201.
 (pdftex.def)             Requested size: 876.87387pt x 688.00873pt.
- [27] [28 <./Figures/SampleEnvironment.jpg>]
-Overfull \hbox (6.22107pt too wide) in paragraph at lines 277--277
+ [26 <./Figures/GaldenCalibration.pdf>]
+[27 <./Figures/SampleEnvironment.jpg>] [28]
+Overfull \hbox (6.22107pt too wide) in paragraph at lines 251--251
 []\OT1/cmr/bx/n/17.28 Small-angle X-ray scat-ter-ing: DI-RECT FROM
  []
 
 (./Figures/DensityGradientCapillarySetup.pdf_tex
-<Figures/DensityGradientCapillarySetup.pdf, id=760, 371.04448pt x 160.96472pt>
+<Figures/DensityGradientCapillarySetup.pdf, id=765, 371.04448pt x 160.96472pt>
 File: Figures/DensityGradientCapillarySetup.pdf Graphic file (type pdf)
 
 <use Figures/DensityGradientCapillarySetup.pdf>
 Package pdftex.def Info: Figures/DensityGradientCapillarySetup.pdf used on inpu
 t line 52.
 (pdftex.def)             Requested size: 371.04448pt x 160.96921pt.
-) [29] [30 <./Figures/DensityGradientCapillarySetup.pdf>] [31] (./Figures/Ludox
-HS40TransmissionCalibration.tex
-<Figures/LudoxHS40TransmissionCalibration.pdf, id=830, 284.06125pt x 226.8475pt
+) [29 <./Figures/DensityGradientCapillarySetup.pdf>] [30] (./Figures/LudoxHS40T
+ransmissionCalibration.tex
+<Figures/LudoxHS40TransmissionCalibration.pdf, id=824, 284.06125pt x 226.8475pt
 >
 File: Figures/LudoxHS40TransmissionCalibration.pdf Graphic file (type pdf)
  <use Figures/LudoxHS40TransmissionCalibration.pdf>
@@ -832,7 +827,7 @@ nput line 126.
 (pdftex.def)             Requested size: 284.06053pt x 226.84694pt.
 )
 (./Figures/KiskerTransmissionCalibration.tex
-<Figures/KiskerTransmissionCalibration.pdf, id=831, 284.06125pt x 226.8475pt>
+<Figures/KiskerTransmissionCalibration.pdf, id=825, 284.06125pt x 226.8475pt>
 File: Figures/KiskerTransmissionCalibration.pdf Graphic file (type pdf)
 
 <use Figures/KiskerTransmissionCalibration.pdf>
@@ -841,7 +836,7 @@ t line 120.
 (pdftex.def)             Requested size: 284.06053pt x 226.84694pt.
 )
 (./Figures/EnergiesTransmissionCalibration.tex
-<Figures/EnergiesTransmissionCalibration.pdf, id=832, 284.06125pt x 226.8475pt>
+<Figures/EnergiesTransmissionCalibration.pdf, id=826, 284.06125pt x 226.8475pt>
 File: Figures/EnergiesTransmissionCalibration.pdf Graphic file (type pdf)
 <use Figures/EnergiesTransmissionCalibration.pdf>
 Package pdftex.def Info: Figures/EnergiesTransmissionCalibration.pdf used on in
@@ -849,16 +844,16 @@ put line 123.
 (pdftex.def)             Requested size: 284.06053pt x 226.84694pt.
 )
 (./Figures/SucroseTransmissionCalibration.tex
-<Figures/SucroseTransmissionCalibration.pdf, id=833, 284.06125pt x 226.8475pt>
+<Figures/SucroseTransmissionCalibration.pdf, id=827, 284.06125pt x 226.8475pt>
 File: Figures/SucroseTransmissionCalibration.pdf Graphic file (type pdf)
 
 <use Figures/SucroseTransmissionCalibration.pdf>
 Package pdftex.def Info: Figures/SucroseTransmissionCalibration.pdf used on inp
 ut line 115.
 (pdftex.def)             Requested size: 284.06053pt x 226.84694pt.
-)) [32 <./Figures/LudoxHS40TransmissionCalibration.pdf>] [33 <./Figures/KiskerT
-ransmissionCalibration.pdf> <./Figures/EnergiesTransmissionCalibration.pdf> <./
-Figures/SucroseTransmissionCalibration.pdf>]
+) [31 <./Figures/LudoxHS40TransmissionCalibration.pdf>] [32 <./Figures/KiskerTr
+ansmissionCalibration.pdf> <./Figures/EnergiesTransmissionCalibration.pdf> <./F
+igures/SucroseTransmissionCalibration.pdf>]) [33]
 \openout2 = `chapter_density_gradient_SAXS.aux'.
 
  (./chapter_density_gradient_SAXS.tex
@@ -1065,7 +1060,7 @@ Package pdftex.def Info: Figures/PSPlainAverageDensity.pdf used on input line 1
 07.
 (pdftex.def)             Requested size: 284.06053pt x 226.84694pt.
 ) [62 <./Figures/PSPlainAverageDensity.pdf>] (./Figures/DensityComparison.tex
-<Figures/DensityComparison.pdf, id=1362, 284.06125pt x 226.8475pt>
+<Figures/DensityComparison.pdf, id=1361, 284.06125pt x 226.8475pt>
 File: Figures/DensityComparison.pdf Graphic file (type pdf)
 
 <use Figures/DensityComparison.pdf>
@@ -1706,7 +1701,7 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 68.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 68.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 68.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: E88834DC188B77817BABB6389326A1BD;6847.
+(rerunfilecheck)             Checksum: 994CC1D5D20B273B987A3CFF7E6F7907;6822.
 
 
 LaTeX Warning: There were undefined references.
@@ -1717,13 +1712,13 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 68.
  ) 
 Here is how much of TeX's memory you used:
- 9658 strings out of 493315
- 160666 string characters out of 6145894
- 251047 words of memory out of 5000000
- 12316 multiletter control sequences out of 15000+600000
+ 9660 strings out of 493315
+ 160749 string characters out of 6145894
+ 251072 words of memory out of 5000000
+ 12319 multiletter control sequences out of 15000+600000
  12623 words of font info for 45 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
- 44i,16n,49p,1806b,729s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 44i,16n,49p,1806b,731s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texmf/fonts/type1/public/amsfonts/cm/cmbsy10.pfb></usr/share/texm
 f/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texmf/fonts/type1/publi
 c/amsfonts/cm/cmbx12.pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmcsc
@@ -1741,10 +1736,10 @@ mf/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texmf/fonts/type1/publi
 c/amsfonts/cm/cmsy7.pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmsy8.
 pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/tex
 mf/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on main.pdf (114 pages, 5334006 bytes).
+Output written on main.pdf (114 pages, 5333123 bytes).
 PDF statistics:
  2357 PDF objects out of 2487 (max. 8388607)
  2068 compressed objects within 21 object streams
- 492 named destinations out of 1000 (max. 500000)
+ 491 named destinations out of 1000 (max. 500000)
  968 words of extra memory for PDF output out of 10000 (max. 10000000)
 

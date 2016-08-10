@@ -1,4 +1,4 @@
-\begin{thebibliography}{165}
+\begin{thebibliography}{166}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 
 \bibitem[Amenitsch {\em et~al.\/}(1997)Amenitsch, Bernstorff, Kriechbaum,
@@ -751,6 +751,12 @@
   {{Sucrose}}, {{Lactose}}, {{Glucose}}, and {{Fructose}} in the {{Temperature
   Range}} from (298.15 to 328.15) {{K}}. {\em J. Chem. Eng. Data\/} {\bf 51},
   1836--1840.
+
+\bibitem[Ries(2014)]{ries_nonlinear_2014}
+{\sc Ries, M.} 2014 Nonlinear momentum compaction and coherent synchrotron
+  radiation at the {{Metrology Light Source}}. PhD thesis,
+  Humboldt-Universit{\"a}t zu Berlin, Mathematisch-Naturwissenschaftliche
+  Fakult{\"a}t I.
 
 \bibitem[Rosen \& Abribat(2005)]{rosen_rise_2005}
 {\sc Rosen, H. \& Abribat, T.} 2005 The rise and rise of drug delivery. {\em
