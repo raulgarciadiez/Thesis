@@ -1,4 +1,4 @@
-\begin{thebibliography}{166}
+\begin{thebibliography}{167}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 
 \bibitem[Amenitsch {\em et~al.\/}(1997)Amenitsch, Bernstorff, Kriechbaum,
@@ -372,6 +372,12 @@
 {\sc Haynes, W.~M.} 2012 {\em {{CRC Handbook}} of {{Chemistry}} and
   {{Physics}}\/}, 93rd edn. Philadelphia: {Taylor \& Francis Ltd.}
 
+\bibitem[Hellsing {\em et~al.\/}(2012)Hellsing, Rennie, Heenan \&
+  Rogers]{hellsing_structure_2012}
+{\sc Hellsing, M.~S., Rennie, A.~R., Heenan, R.~K. \& Rogers, S.~E.} 2012
+  Structure of a large colloidal crystal \textendash{} controlling orientation
+  and three-dimensional order. {\em RSC Adv.\/} {\bf 2}, 7091--7098.
+
 \bibitem[Henke {\em et~al.\/}(1993)Henke, Gullikson \& Davis]{henke_x-ray_1993}
 {\sc Henke, B., Gullikson, E. \& Davis, J.} 1993 X-{{Ray Interactions}}:
   {{Photoabsorption}}, {{Scattering}}, {{Transmission}}, and {{Reflection}} at
@@ -472,19 +478,19 @@
   5729--5751.
 
 \bibitem[Kiselev {\em et~al.\/}(2001{\natexlab{{\em a\/}}})Kiselev, Lesieur,
-  Kisselev, Lombardo, Killany \& Lesieur]{kiselev_sucrose_2001-1}
-{\sc Kiselev, M.~A., Lesieur, P., Kisselev, A.~M., Lombardo, D., Killany, M. \&
-  Lesieur, S.} 2001{\natexlab{{\em a\/}}} Sucrose solutions as prospective
-  medium to study the vesicle structure: {{SAXS}} and {{SANS}} study. {\em
-  Journal of Alloys and Compounds\/} {\bf 328}, 71--76.
+  Kisselev, Lombardo, Killany, Lesieur \& Ollivon]{kiselev_sucrose_2001-1}
+{\sc Kiselev, M.~A., Lesieur, P., Kisselev, A.~M., Lombardo, D., Killany, M.,
+  Lesieur, S. \& Ollivon, M.} 2001{\natexlab{{\em a\/}}} A sucrose solutions
+  application to the study of model biological membranes. {\em Nuclear
+  Instruments and Methods in Physics Research Section A: Accelerators,
+  Spectrometers, Detectors and Associated Equipment\/} {\bf 470}, 409--416.
 
 \bibitem[Kiselev {\em et~al.\/}(2001{\natexlab{{\em b\/}}})Kiselev, Lesieur,
   Kisselev, Lombardo, Killany, Lesieur \& Ollivon]{kiselev_sucrose_2001}
 {\sc Kiselev, M.~A., Lesieur, P., Kisselev, A.~M., Lombardo, D., Killany, M.,
   Lesieur, S. \& Ollivon, M.} 2001{\natexlab{{\em b\/}}} A sucrose solutions
-  application to the study of model biological membranes. {\em Nuclear
-  Instruments and Methods in Physics Research Section A: Accelerators,
-  Spectrometers, Detectors and Associated Equipment\/} {\bf 470}, 409--416.
+  application to the study of model biological membranes. {\em Nucl. Instrum.
+  Meth. A\/} {\bf 470}, 409--416.
 
 \bibitem[Kiselev {\em et~al.\/}(2003)Kiselev, Wartewig, Janich, Lesieur,
   Kiselev, Ollivon \& Neubert]{kiselev_does_2003}
@@ -615,8 +621,8 @@
   Krumrey \& Shard]{minelli_characterization_2014}
 {\sc Minelli, C., Garcia-Diez, R., Sikora, A.~E., Gollwitzer, C., Krumrey, M.
   \& Shard, A.~G.} 2014 Characterization of {{IgG}}-protein-coated polymeric
-  nanoparticles using complementary particle sizing techniques. {\em Surf.
-  Interface Anal.\/} {\bf 46}, 663--667.
+  nanoparticles using complementary particle sizing techniques. {\em Surf
+  Interface Anal\/} {\bf 46}, 663--667.
 
 \bibitem[Mitragotri \& Lahann(2009)]{mitragotri_physical_2009}
 {\sc Mitragotri, S. \& Lahann, J.} 2009 Physical approaches to biomaterial
