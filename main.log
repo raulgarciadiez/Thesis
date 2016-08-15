@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/TeX Live for SUSE Linux) (format=pdflatex 2015.3.4)  11 AUG 2016 16:18
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/TeX Live for SUSE Linux) (format=pdflatex 2015.3.4)  15 AUG 2016 17:52
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -833,20 +833,20 @@ t line 52.
 (pdftex.def)             Requested size: 371.04448pt x 160.96921pt.
 ) [33 <./Figures/DensityGradientCapillarySetup.pdf>] (./Figures/KiskerTransmiss
 ionCalibration.tex
-<Figures/KiskerTransmissionCalibration.pdf, id=892, 284.06125pt x 226.8475pt>
+<Figures/KiskerTransmissionCalibration.pdf, id=892, 426.59375pt x 226.8475pt>
 File: Figures/KiskerTransmissionCalibration.pdf Graphic file (type pdf)
 
 <use Figures/KiskerTransmissionCalibration.pdf>
 Package pdftex.def Info: Figures/KiskerTransmissionCalibration.pdf used on inpu
 t line 122.
-(pdftex.def)             Requested size: 284.06053pt x 226.84694pt.
+(pdftex.def)             Requested size: 426.5927pt x 226.84694pt.
 )
 (./Figures/EnergiesTransmissionCalibration.tex
 <Figures/EnergiesTransmissionCalibration.pdf, id=895, 284.06125pt x 226.8475pt>
 File: Figures/EnergiesTransmissionCalibration.pdf Graphic file (type pdf)
 <use Figures/EnergiesTransmissionCalibration.pdf>
 Package pdftex.def Info: Figures/EnergiesTransmissionCalibration.pdf used on in
-put line 123.
+put line 127.
 (pdftex.def)             Requested size: 284.06053pt x 226.84694pt.
 )
 (./Figures/SucroseTransmissionCalibration.tex
@@ -895,7 +895,7 @@ Package pdftex.def Info: Figures/KiskerSAXSCoreshellFit.pdf used on input line
 133.
 (pdftex.def)             Requested size: 284.06053pt x 226.84694pt.
 ) [40 <./Figures/KiskerBackgroundSubtraction.pdf>]
-Overfull \hbox (3.04314pt too wide) in paragraph at lines 174--174
+Overfull \hbox (3.04314pt too wide) in paragraph at lines 178--178
 []\OT1/cmr/bx/n/17.28 Model-free ap-proach to con-trast vari-a-tion data 
  []
 
@@ -1709,7 +1709,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 68.
 Here is how much of TeX's memory you used:
  9672 strings out of 493315
  160998 string characters out of 6145894
- 251515 words of memory out of 5000000
+ 250515 words of memory out of 5000000
  12326 multiletter control sequences out of 15000+600000
  12623 words of font info for 45 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
@@ -1731,7 +1731,7 @@ mf/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texmf/fonts/type1/publi
 c/amsfonts/cm/cmsy7.pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmsy8.
 pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/tex
 mf/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on main.pdf (116 pages, 5336173 bytes).
+Output written on main.pdf (116 pages, 5336520 bytes).
 PDF statistics:
  2380 PDF objects out of 2487 (max. 8388607)
  2089 compressed objects within 21 object streams

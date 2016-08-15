@@ -1,3 +1,6 @@
+set terminal epslatex size 15cm,8cm color colortext
+
+
 set ytics nomirror
 set y2tics nomirror
 
