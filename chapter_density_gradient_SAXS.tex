@@ -39,36 +39,31 @@ The rectangular capillary is placed in the sample holder inside the UHV Reflecto
 The transmitted intensity through the sample is recorded at a photon energy of \(E = (5500.0 \pm  0.5)\) eV for 10 seconds at each position. The measurement points are spaced 0.5 mm along the central vertical axis of the capillary, starting at the bottom reference interface with Galden\(\textregistered\)PFPE SV90. The overall X-ray transmission measurement requires approximately 5 minutes, which is within the calculated diffusion timescale of the aqueous sucrose solution. This transmission measurement is performed both immediately before and after recording the scattering patterns, which should not take much longer than the sucrose diffusion timescale (15-20 min). The transmittance values used for the density calibration are then linearly interpolated between both data sets taking into account the time-dependence. 
 
 These values can be converted to solvent electron densities via the Beer-Lambert law introduced in section \ref{sec:BeerLambert}, which relates the density of the solution with the transmitted intensity:
+
 \begin{equation}
   \rho(z) = A \left( \ln{I_0} - \ln{I(z)} \right) .
 \end{equation}
-Here \(\rho\) is the electron density of the suspending medium, $I$ and $I_0$ are the transmitted and incoming intensities respectively and $A$ is a factor determined by the reference values of the solvent electron density at the vertical limits of the capillary at the initial time. The sucrose concentration in solution expressed as the mass fraction \( M \) at these reference points can be converted to electron densities with the empirical formula \( \rho=1.2681M+333.19 \) nm\(^{-3}\) \citep{haynes_crc_2012}. The solvent electron density profile within the density gradient capillary derived from this measurement is depicted in figure \ref{fig:KiskerTransmissionCalibration} for 100 nm polystyrene particles. The suspending medium electron density shows a maximum uncertainty of 1 nm$^{-3}$ at the interface between the two mixtures associated with the vertical size of the focused X-ray beam.
+
+Here \(\rho\) is the electron density of the suspending medium, $I$ and $I_0$ are the transmitted and incoming intensities respectively and $A$ is a factor determined by the reference values of the solvent electron density at the vertical limits of the capillary at the initial time. The sucrose concentration in solution expressed as the mass fraction \( M \) at these reference points can be converted to electron densities with the empirical formula \( \rho=1.2681M+333.19 \) nm\(^{-3}\) \citep{haynes_crc_2012}. The solvent electron density profile within the density gradient capillary derived from this measurement is depicted in figure \ref{fig:KiskerTransmissionCalibration} for 100 nm polystyrene particles at different diffusion times. The suspending medium electron density shows a maximum uncertainty of 1 nm$^{-3}$ at the interface between the two mixtures associated with the vertical size of the focused X-ray beam.
 
 \begin{figure}%[htbp]
 	\centering
 		\input{Figures/KiskerTransmissionCalibration}
-		\caption{Solvent density along the gradient capillary vertical axis, calculated from the transmission measurements at 5.5 eV of 100 nm polystyrene particles. The corresponding X-ray transmission is also shown, revealing the low transmittances of the capillary at low energies.}
+		\caption{Solvent density along the gradient capillary vertical axis, calculated from the transmission measurements at 5500 eV of 100 nm polystyrene particles. The corresponding X-ray transmission is also shown, revealing the low transmittances of the capillary at low energies.}
 		\label{fig:KiskerTransmissionCalibration}
 \end{figure}
 
-X-ray transmission measurements at the aqueous sucrose gradient were performed at a lower incident photon energy $E = 5500$ eV to increase the transmittance differences for the less absorbing sucrose solution by a factor of 2.5 \ref{fig:EnergiesTransmissionCalibration}. \textcolor{red}{The enhancement of the calibration curve when measured at low energies is evident, as shown in figure \ref{fig:SucroseTransmissionCalibration} for an aqueous sucrose solution measured at two different energies.}
-
-%\newcommand{\Energy}{$E=5500$}
-
-%\Energy was ist das
-
-\textcolor{red}{LONGER EXPLANATION}
+The X-ray transmission measurements are performed at a low incident photon energy of $E = 5500$ eV to increase the transmittance differences for the less absorbing sucrose solution by, at least, a factor of 2.5. In figure \ref{fig:EnergiesTransmissionCalibration}, the calculated transmittances of a 65 $\%$ concentrated sucrose mixture and water (0 $\%$) are depicted, along with the ratio between both transmissions. This ratio decreases for higher energies, shadowing the tranmission differences between both components of the density gradient column. This fact is revealed in figure \ref{fig:SucroseTransmissionCalibration}, where the X-ray transmittance of an aqueous sucrose density gradient measured at 5500 eV shows a better signal-to-noise ratio than the measurement at 10000 eV.
 
 \begin{figure}%[htbp]
 	\centering
-		\subfloat[Transmission calculation]{\resizebox{0.44\linewidth}{!}{\input{Figures/EnergiesTransmissionCalibration}}\label{fig:EnergiesTransmissionCalibration}}
+		\subfloat[Calculated transmittance]{\resizebox{0.44\linewidth}{!}{\input{Figures/EnergiesTransmissionCalibration}}\label{fig:EnergiesTransmissionCalibration}}
 		\subfloat[Calibrated sucrose concentration]{\resizebox{0.44\linewidth}{!}{\input{Figures/SucroseTransmissionCalibration}}\label{fig:SucroseTransmissionCalibration}}
-	\caption{Statistics in the transmission measurement depending on the incoming energy. For lower energies, the transmission differences are larger and hence the statistics better. This was measured using only aqueous sucrose $65\%$ in plain water (no colloids on it) Nov 2014. The integration time for the X-ray transmission measurements was 2 seconds for each case}
+	\caption{X-ray transmittance as a function of the incoming energy. a) Calculated transmittances \cite{henke_x-ray_1993} of an empty capillary, water and an aqueous sucrose mixture with 65 $\%$ mass fraction. The ratio between the water and the sucrose mixture transmittances is shown in the right axis. b) Sucrose mass fraction derived from an experimental transmittance measurement of a 65 $\%$ sucrose density gradient measured at two different energies under similiar experimental conditions. The absorbance differences are smaller for the higher energy.}
+
 \end{figure}
 
-\textcolor{red}{BEAMSTOP DIODE}
-
-\textcolor{blue}{Since the equipment of the monitor diode on the beamstop in April 2016, the transmittance can be recorded simultaneously with the scattering patterns. Due to the longer integration times required for the scattering experiments (around 1 min), the statistics of the X-ray transmission measurement are increased whithin the diffusion time-scale. Therefore, the }
+However, the calculated transmission of the empty rectangular capillary is less than 1 $\%$ below 6000 eV as shown in figure \ref{fig:EnergiesTransmissionCalibration} and the filled capillary transmits 0.03 $\%$ of the incoming photon flux at 5500 eV, as observed in figure \ref{fig:KiskerTransmissionCalibration}. Therefore, a compromise between the absorbance ratio and the capillary transmittance is taken at a photon energy of 5500 eV. 
 
 \subsection{SAXS measurements}
 \label{sec:DensityGradientSAXS}
@@ -78,6 +73,10 @@ The sample is moved in steps of 0.5 mm along the central vertical capillary axis
 The incident photon energy \(E = \left(8800.0  \pm 0.8\right)\) eV was chosen to be higher than the photon energy for the transmission measurements to improve the recorded statistics, due to a ca. \(150\) higher transmission \cite{henke_x-ray_1993}. \textcolor{red}{Compromise between the beamline flux and the transmission statistics.} \ref{fig:EnergiesTransmissionCalibration}
 
 The best q-range must be chosen, depending on the size of the investigated particles, as discussed in \ref{sec:SAXS_experimental}. Typically, the sample-detector distance is around 4.5 m, which give a miminum q value of 0.03 nm-1 at 8000 eV.
+
+\textcolor{red}{BEAMSTOP DIODE}
+
+\textcolor{blue}{Since the equipment of the monitor diode on the beamstop in April 2016, the transmittance can be recorded simultaneously with the scattering patterns. Due to the longer integration times required for the scattering experiments (around 1 min), the statistics of the X-ray transmission measurement are increased whithin the diffusion time-scale. Therefore, the }
 
 \subsection{Applicability of the technique}
 \subsubsection{Density range}
