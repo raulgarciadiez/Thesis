@@ -57,15 +57,15 @@
 \contentsline {subsubsection}{Comparison to other contrast variation scattering techinques}{36}{section*.25}
 \contentsline {subsubsection}{Other applications}{36}{section*.26}
 \contentsline {section}{\numberline {4.2}Continuous contrast variation in SAXS on PS-COOH colloids: Proof of concept/principle}{37}{section.4.2}
-\contentsline {subsection}{\numberline {4.2.1}Particles and chemicals}{37}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {4.2.1}Particles and chemicals}{38}{subsection.4.2.1}
 \contentsline {subsection}{\numberline {4.2.2}Results}{38}{subsection.4.2.2}
 \contentsline {section}{\numberline {4.3}Data evaluation}{39}{section.4.3}
-\contentsline {subsection}{\numberline {4.3.1}Core-shell form factor fit}{39}{subsection.4.3.1}
+\contentsline {subsection}{\numberline {4.3.1}Core-shell form factor fit}{40}{subsection.4.3.1}
 \contentsline {subsection}{\numberline {4.3.2}Isoscattering point}{42}{subsection.4.3.2}
 \contentsline {subsubsection}{Quantification: Relative standard deviation}{42}{section*.31}
-\contentsline {subsection}{\numberline {4.3.3}Guinier region}{43}{subsection.4.3.3}
+\contentsline {subsection}{\numberline {4.3.3}Guinier region}{44}{subsection.4.3.3}
 \contentsline {subsubsection}{Average electron density}{45}{section*.35}
-\contentsline {section}{\numberline {4.4}Summary}{46}{section.4.4}
+\contentsline {section}{\numberline {4.4}Summary}{45}{section.4.4}
 \contentsline {chapter}{\numberline {5}Simultaneous size and density determination of polymeric colloids}{48}{chapter.5}
 \contentsline {section}{\numberline {5.1}Materials and methods}{51}{section.5.1}
 \contentsline {subsection}{\numberline {5.1.1}Particles and chemicals}{51}{subsection.5.1.1}
