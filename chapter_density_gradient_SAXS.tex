@@ -76,21 +76,16 @@ The dimensions of the investigated particle defines the required $q$-range of th
 
 Since the equipment of the monitor diode on the beamstop in April 2016, the sample transmittance can be recorded simultaneously with the scattering patterns. The longer integration times required for the scattering experiments (around 60 s) increase the statistics of the simultaneous X-ray transmission measurement by a factor of ca. 6, improving the quality of the transmittance data. The possibility to collect the scattering data at the same photon energy that the solution transmittances improves the normalization of the scattering curve and the calibration of the solvent electron densities. Unfortunately, all the results presented in this work were recorded before the commissioning of the beamstop diode.
 
-\section{Continuous contrast variation in SAXS on PS-COOH colloids: Proof of concept/principle}
+\section{Proof of principle with PS-COOH colloids: Experimental results}
 \label{sec:KiskerResults}
 
 In order to demonstrate the proposed technique, latex nanoparticles with a core-shell structure were measured. The particles have a narrow size distribution and consist of a spherical polystyrene (PS) core enclosed by a thin shell of a denser polymer, most likely poly(methyl methacrylate) (PMMA).
 
-\subsection{Particles and chemicals}
 Carboxylated polystyrene nanoparticles with a nominal size of 105 nm suspended in water were purchased from Kisker Biotech (Steinfurt, \emph{Germany}). The synthesis by multi-addition emulsion polymerization suggests that the assumption made in \(\S\)\textcolor{red}{GUINIER SECTION WHEN DESCRIBING THE POLYDISPERSITY IN THE FORMULA} is correct and the average density of the particle is not altered by the size polydispersity.
 
-\textcolor{red}{HOW MUCH SUCROSE AND PARTICLE CONCENTRATION}
 
  particle concentration of \(12.6 \mbox{ mg/ml} \) . The dense aqueous solution was prepared with \( 21.23\,\%\) sucrose mass fraction (Sigma-Aldrich (Missouri, \emph{USA})) with a physical density of \(\rho_1=1.088 \) g/cm\(^3\), whereas a lighter one was produced without sucrose (\(\rho_2=0.997 \) g/cm\(^3\)).
- 
-\textcolor{red}{MAYBE NO SUB-SECTIONS.... THE CHEMICALS CAN BE DESCRIBED IN THE INTRO, BEFORE EXPLAINING THE RESULTS} 
 
-\subsection{Results}
 
 In total, 40 scattering curves with different solvent electron densities were measured at two different times \(t_1=\)78 min and \(t_2=\)156 min after filling the capillaries.
 
@@ -114,7 +109,7 @@ Upon increasing the solvent density, the position of the first minimum shifts fr
 
 The presence of the clearly visible isoscattering point around \(q=0.09\) nm\(^{-1}\) confirms the existence of an inner structure. This heterogeneous composition was previously reported for the same colloids by \citet{minelli_characterization_2014}, who observed methacrylic acid (MAA) and methylmethacrylate (MMA) at the particle surface, both monomer precursors of PMMA polymerization. A more detailed insight into the radial morphology is presented subsequently, using the theoretical framework already introduced.
 
-\section{Data evaluation}
+\section{Results and data evaluation}
 %\section{Model dependent evaluation}
 \label{sec:KiskerResultsEvaluation}
 
@@ -253,28 +248,21 @@ Although the contrast variation approach presented in this work presents certain
 
 \subsubsection{Other applications of the density gradient capillary}
 
-
-
-
-
-The diffusion time depends mainly on the radius of the diffusive agent $R$. Stokes-Einstein formula. The diffusion constant is defined by:
+The diffusion time of a particle depends mainly on its size, as described by the Stokes-Einstein expression of the diffusion constant \citep{einstein_uber_1905}:
 
 \begin{equation}
         D=\frac{K_B T}{6\pi \eta R}
 \end{equation}
 
-where $K_B$ is the Boltzmann constant, $T$ is the solvent temperature, $\eta$ is the dynamic viscosity and $R$ is the radius of the particle.
-
-
-The larger the particles, the slower the diffusion.
+where $K_B$ is the Boltzmann constant, $T$ is the solvent temperature, $\eta$ is the dynamic viscosity and $R$ is the radius of the particle. For example, the small size of ions (below 200 pm) decrease the diffussion timescale in a factor 5 in comparison with a disaccharide molecule like sucrose. On the opposite side, colloids can be considered diffusive agents which multiply the diffusion time up to 100 times. 
 
 \begin{figure}%[htbp]
 	\centering
 		\input{Figures/LudoxHS40TransmissionCalibration}
-		\caption{Concentration gradient of 12 nm silica particles (Ludox HS40, Sigma-Aldrich, Missouri, USA) mesaured at 8000 eV. The large size of the colloids provides a long diffusion time.}
+		\caption{Concentration gradient of 12 nm silica particles mesaured at 8000 eV. The large size of the colloids provides a long diffusion time.}
 		\label{fig:LudoxHS40TransmissionCalibration}
 \end{figure}
 
-The large difference in transmission for high-concentrated particles (7 to 1.2 is a ratio of ca. 6) is due to the high density of the sample 1.3 g cm-3
+Therefore, table-top X-ray sources can be an alternative to high photon flux synchrotron radiation sources due to the extended experimental timescale achieved when using colloids as diffusing agent. In figure \ref{fig:LudoxHS40TransmissionCalibration}, the calibrated transmittance of a density gradient capillary of aqueous 12 nm silica nanoparticles (Ludox HS40, Sigma-Aldrich, Missouri, USA) is depicted, where the particle concentration is a function of the capillary height. The large density difference between water and the high concentrated particle suspension (ca. 1.3 g cm$^{-3}$) and the slower evolution of the concentration gradient compared with sucrose in figure \ref{fig:KiskerTransmissionCalibration} improve the quality of the X-ray transmission data and provide an alternative application of the \emph{density gradient} technique in SAXS.
 
-Possibility to make in-situ concentration series. and study the possible interaction between colloids depending on the interparticle distance or even study the crystallization of colloids\citep{hellsing_structure_2012}.
+A colloidal concentration gradient as presented in figure \ref{fig:LudoxHS40TransmissionCalibration} can be used to study the effects of concentration on the diffusion constant of the particles or investigate the inter-particle interactions as a function of the colloidal concentration. In fact, time-consuming dilution series can be performed \emph{in situ} with this approach and examine the crystallization of the particles under gravitational forces \citep{hellsing_structure_2012}. 
