@@ -1,4 +1,4 @@
-\begin{thebibliography}{171}
+\begin{thebibliography}{172}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 
 \bibitem[Amenitsch {\em et~al.\/}(1997)Amenitsch, Bernstorff, Kriechbaum,
@@ -636,6 +636,13 @@
   \& Shard, A.~G.} 2014 Characterization of {{IgG}}-protein-coated polymeric
   nanoparticles using complementary particle sizing techniques. {\em Surf
   Interface Anal\/} {\bf 46}, 663--667.
+
+\bibitem[Mitchell {\em et~al.\/}(2006)Mitchell, Landes, Lyons, Kern, Devon,
+  Koprinarov, Gullikson \& Kortright]{mitchell_molecular_2006}
+{\sc Mitchell, G.~E., Landes, B.~G., Lyons, J., Kern, B.~J., Devon, M.~J.,
+  Koprinarov, I., Gullikson, E.~M. \& Kortright, J.~B.} 2006 Molecular bond
+  selective x-ray scattering for nanoscale analysis of soft matter. {\em
+  Applied Physics Letters\/} {\bf 89}, 044101.
 
 \bibitem[Mitragotri \& Lahann(2009)]{mitragotri_physical_2009}
 {\sc Mitragotri, S. \& Lahann, J.} 2009 Physical approaches to biomaterial

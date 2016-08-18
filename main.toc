@@ -60,43 +60,43 @@
 \contentsline {subsubsection}{Quantification: Relative standard deviation}{41}{section*.26}
 \contentsline {subsection}{\numberline {4.3.3}Guinier region}{42}{subsection.4.3.3}
 \contentsline {subsubsection}{Average electron density}{44}{section*.30}
-\contentsline {section}{\numberline {4.4}Summary}{45}{section.4.4}
+\contentsline {section}{\numberline {4.4}Summary and outlook}{45}{section.4.4}
 \contentsline {subsubsection}{Applicability of the technique}{46}{section*.33}
-\contentsline {subsubsection}{Future outlook: Other applications}{47}{section*.34}
-\contentsline {chapter}{\numberline {5}Simultaneous size and density determination of polymeric colloids}{49}{chapter.5}
-\contentsline {section}{\numberline {5.1}Materials and methods}{52}{section.5.1}
-\contentsline {subsection}{\numberline {5.1.1}Particles and chemicals}{52}{subsection.5.1.1}
-\contentsline {subsection}{\numberline {5.1.2}Differential Centrifuge Sedimentation (DCS)}{53}{subsection.5.1.2}
-\contentsline {subsubsection}{Stokes equations}{54}{section*.38}
-\contentsline {subsubsection}{Combined analysis}{54}{section*.39}
-\contentsline {section}{\numberline {5.2}Technique validation for the determination of the particle size distribution}{55}{section.5.2}
-\contentsline {subsection}{\numberline {5.2.1}Inter-laboratory comparison of the mean particle size}{57}{subsection.5.2.1}
-\contentsline {subsection}{\numberline {5.2.2}Colloidal size distribution}{59}{subsection.5.2.2}
-\contentsline {section}{\numberline {5.3}Considerations about contrast variation data evaluation}{61}{section.5.3}
-\contentsline {subsection}{\numberline {5.3.1}Shape factor formalism}{61}{subsection.5.3.1}
-\contentsline {subsubsection}{Advantages and disadvatages}{62}{section*.46}
-\contentsline {subsection}{\numberline {5.3.2}Isoscattering point approach}{62}{subsection.5.3.2}
-\contentsline {subsubsection}{Advantages and disadvatages}{64}{section*.49}
-\contentsline {section}{\numberline {5.4}Determination of the particle physical density}{64}{section.5.4}
-\contentsline {subsection}{\numberline {5.4.1}Validation through comparison with DCS}{65}{subsection.5.4.1}
-\contentsline {subsubsection}{Uncertainties}{65}{section*.52}
-\contentsline {subsection}{\numberline {5.4.2}Use for homogenous polymeric colloids}{65}{subsection.5.4.2}
-\contentsline {section}{\numberline {5.5}Summary}{67}{section.5.5}
-\contentsline {chapter}{\numberline {6}Continuous contrast variation applied to relevant bio-materials}{68}{chapter.6}
-\contentsline {section}{\numberline {6.1}Materials and methods}{69}{section.6.1}
-\contentsline {subsection}{\numberline {6.1.1}Caelyx$\textregistered $: PEGylated liposomal doxorubicin}{69}{subsection.6.1.1}
-\contentsline {subsection}{\numberline {6.1.2}Lipid vesicles: PEGylated and plain liposomes}{71}{subsection.6.1.2}
-\contentsline {subsection}{\numberline {6.1.3}Human lipoproteins}{71}{subsection.6.1.3}
-\contentsline {subsection}{\numberline {6.1.4}PS-COOH particles coated with IgG}{72}{subsection.6.1.4}
-\contentsline {section}{\numberline {6.2}Traceable size determination of a liposomal drug}{73}{section.6.2}
-\contentsline {subsection}{\numberline {6.2.1}Isoscattering point approach}{74}{subsection.6.2.1}
-\contentsline {subsection}{\numberline {6.2.2}Shape factor calculation}{75}{subsection.6.2.2}
-\contentsline {subsection}{\numberline {6.2.3}Average electron density}{77}{subsection.6.2.3}
-\contentsline {section}{\numberline {6.3}Osmotic effects in liposomes}{78}{section.6.3}
-\contentsline {subsection}{\numberline {6.3.1}Application to drug-stabilized liposomes}{79}{subsection.6.3.1}
-\contentsline {subsection}{\numberline {6.3.2}Does PEGylation affect the osmotic activity of liposomes?}{82}{subsection.6.3.2}
-\contentsline {section}{\numberline {6.4}Sizing of blood plasma componenents}{90}{section.6.4}
-\contentsline {section}{\numberline {6.5}Protein-coated low-density nanoparticles}{93}{section.6.5}
-\contentsline {subsection}{\numberline {6.5.1}Hard protein corona characterization with contrast variation}{96}{subsection.6.5.1}
-\contentsline {subsubsection}{Uncertainty analysis}{97}{section*.74}
-\contentsline {section}{\numberline {6.6}Summary}{98}{section.6.6}
+\contentsline {subsubsection}{Future outlook: Other applications}{48}{section*.34}
+\contentsline {chapter}{\numberline {5}Simultaneous size and density determination of polymeric colloids}{50}{chapter.5}
+\contentsline {section}{\numberline {5.1}Materials and methods}{53}{section.5.1}
+\contentsline {subsection}{\numberline {5.1.1}Particles and chemicals}{53}{subsection.5.1.1}
+\contentsline {subsection}{\numberline {5.1.2}Differential Centrifuge Sedimentation (DCS)}{54}{subsection.5.1.2}
+\contentsline {subsubsection}{Stokes equations}{55}{section*.38}
+\contentsline {subsubsection}{Combined analysis}{55}{section*.39}
+\contentsline {section}{\numberline {5.2}Technique validation for the determination of the particle size distribution}{56}{section.5.2}
+\contentsline {subsection}{\numberline {5.2.1}Inter-laboratory comparison of the mean particle size}{58}{subsection.5.2.1}
+\contentsline {subsection}{\numberline {5.2.2}Colloidal size distribution}{60}{subsection.5.2.2}
+\contentsline {section}{\numberline {5.3}Considerations about contrast variation data evaluation}{62}{section.5.3}
+\contentsline {subsection}{\numberline {5.3.1}Shape factor formalism}{62}{subsection.5.3.1}
+\contentsline {subsubsection}{Advantages and disadvatages}{63}{section*.46}
+\contentsline {subsection}{\numberline {5.3.2}Isoscattering point approach}{63}{subsection.5.3.2}
+\contentsline {subsubsection}{Advantages and disadvatages}{65}{section*.49}
+\contentsline {section}{\numberline {5.4}Determination of the particle physical density}{65}{section.5.4}
+\contentsline {subsection}{\numberline {5.4.1}Validation through comparison with DCS}{66}{subsection.5.4.1}
+\contentsline {subsubsection}{Uncertainties}{66}{section*.52}
+\contentsline {subsection}{\numberline {5.4.2}Use for homogenous polymeric colloids}{66}{subsection.5.4.2}
+\contentsline {section}{\numberline {5.5}Summary}{68}{section.5.5}
+\contentsline {chapter}{\numberline {6}Continuous contrast variation applied to relevant bio-materials}{69}{chapter.6}
+\contentsline {section}{\numberline {6.1}Materials and methods}{70}{section.6.1}
+\contentsline {subsection}{\numberline {6.1.1}Caelyx$\textregistered $: PEGylated liposomal doxorubicin}{70}{subsection.6.1.1}
+\contentsline {subsection}{\numberline {6.1.2}Lipid vesicles: PEGylated and plain liposomes}{72}{subsection.6.1.2}
+\contentsline {subsection}{\numberline {6.1.3}Human lipoproteins}{72}{subsection.6.1.3}
+\contentsline {subsection}{\numberline {6.1.4}PS-COOH particles coated with IgG}{73}{subsection.6.1.4}
+\contentsline {section}{\numberline {6.2}Traceable size determination of a liposomal drug}{74}{section.6.2}
+\contentsline {subsection}{\numberline {6.2.1}Isoscattering point approach}{75}{subsection.6.2.1}
+\contentsline {subsection}{\numberline {6.2.2}Shape factor calculation}{76}{subsection.6.2.2}
+\contentsline {subsection}{\numberline {6.2.3}Average electron density}{78}{subsection.6.2.3}
+\contentsline {section}{\numberline {6.3}Osmotic effects in liposomes}{79}{section.6.3}
+\contentsline {subsection}{\numberline {6.3.1}Application to drug-stabilized liposomes}{80}{subsection.6.3.1}
+\contentsline {subsection}{\numberline {6.3.2}Does PEGylation affect the osmotic activity of liposomes?}{83}{subsection.6.3.2}
+\contentsline {section}{\numberline {6.4}Sizing of blood plasma componenents}{91}{section.6.4}
+\contentsline {section}{\numberline {6.5}Protein-coated low-density nanoparticles}{94}{section.6.5}
+\contentsline {subsection}{\numberline {6.5.1}Hard protein corona characterization with contrast variation}{97}{subsection.6.5.1}
+\contentsline {subsubsection}{Uncertainty analysis}{98}{section*.74}
+\contentsline {section}{\numberline {6.6}Summary}{99}{section.6.6}
