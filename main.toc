@@ -51,33 +51,33 @@
 \contentsline {subsection}{\numberline {4.1.1}Preparation of the density gradient capillaries}{32}{subsection.4.1.1}
 \contentsline {subsection}{\numberline {4.1.2}Calibration of the solvent density: X-ray transmission}{32}{subsection.4.1.2}
 \contentsline {subsection}{\numberline {4.1.3}SAXS measurements}{35}{subsection.4.1.3}
-\contentsline {section}{\numberline {4.2}Proof of principle with PS-COOH colloids: Experimental results}{36}{section.4.2}
+\contentsline {section}{\numberline {4.2}Proof of principle: Experimental results of PS-COOH colloids}{36}{section.4.2}
 \contentsline {section}{\numberline {4.3}Results and data evaluation}{38}{section.4.3}
 \contentsline {subsection}{\numberline {4.3.1}Core-shell form factor fit}{39}{subsection.4.3.1}
 \contentsline {subsection}{\numberline {4.3.2}Isoscattering point}{40}{subsection.4.3.2}
 \contentsline {subsubsection}{Quantification: Relative standard deviation}{40}{section*.26}
 \contentsline {subsection}{\numberline {4.3.3}Guinier region}{42}{subsection.4.3.3}
-\contentsline {subsubsection}{Average electron density}{43}{section*.30}
+\contentsline {subsubsection}{Average electron density}{43}{section*.31}
 \contentsline {section}{\numberline {4.4}Summary and outlook}{44}{section.4.4}
-\contentsline {subsubsection}{Applicability of the technique}{46}{section*.33}
-\contentsline {subsubsection}{Other applications of the density gradient capillary}{48}{section*.34}
+\contentsline {subsubsection}{Applicability of the technique}{46}{section*.34}
+\contentsline {subsubsection}{Other applications of the density gradient capillary}{48}{section*.35}
 \contentsline {chapter}{\numberline {5}Simultaneous size and density determination of polymeric colloids}{50}{chapter.5}
 \contentsline {section}{\numberline {5.1}Materials and methods}{53}{section.5.1}
 \contentsline {subsection}{\numberline {5.1.1}Particles and chemicals}{53}{subsection.5.1.1}
 \contentsline {subsection}{\numberline {5.1.2}Differential Centrifuge Sedimentation (DCS)}{54}{subsection.5.1.2}
-\contentsline {subsubsection}{Stokes equations}{55}{section*.38}
-\contentsline {subsubsection}{Combined analysis}{55}{section*.39}
+\contentsline {subsubsection}{Stokes equations}{55}{section*.39}
+\contentsline {subsubsection}{Combined analysis}{55}{section*.40}
 \contentsline {section}{\numberline {5.2}Technique validation for the determination of the particle size distribution}{56}{section.5.2}
 \contentsline {subsection}{\numberline {5.2.1}Inter-laboratory comparison of the mean particle size}{58}{subsection.5.2.1}
 \contentsline {subsection}{\numberline {5.2.2}Colloidal size distribution}{60}{subsection.5.2.2}
 \contentsline {section}{\numberline {5.3}Considerations about contrast variation data evaluation}{62}{section.5.3}
 \contentsline {subsection}{\numberline {5.3.1}Shape factor formalism}{62}{subsection.5.3.1}
-\contentsline {subsubsection}{Advantages and disadvatages}{63}{section*.46}
+\contentsline {subsubsection}{Advantages and disadvatages}{63}{section*.47}
 \contentsline {subsection}{\numberline {5.3.2}Isoscattering point approach}{63}{subsection.5.3.2}
-\contentsline {subsubsection}{Advantages and disadvatages}{65}{section*.49}
+\contentsline {subsubsection}{Advantages and disadvatages}{65}{section*.50}
 \contentsline {section}{\numberline {5.4}Determination of the particle physical density}{65}{section.5.4}
 \contentsline {subsection}{\numberline {5.4.1}Validation through comparison with DCS}{66}{subsection.5.4.1}
-\contentsline {subsubsection}{Uncertainties}{66}{section*.52}
+\contentsline {subsubsection}{Uncertainties}{66}{section*.53}
 \contentsline {subsection}{\numberline {5.4.2}Use for homogenous polymeric colloids}{66}{subsection.5.4.2}
 \contentsline {section}{\numberline {5.5}Summary}{68}{section.5.5}
 \contentsline {chapter}{\numberline {6}Continuous contrast variation applied to relevant bio-materials}{69}{chapter.6}
@@ -96,5 +96,5 @@
 \contentsline {section}{\numberline {6.4}Sizing of blood plasma componenents}{91}{section.6.4}
 \contentsline {section}{\numberline {6.5}Protein-coated low-density nanoparticles}{94}{section.6.5}
 \contentsline {subsection}{\numberline {6.5.1}Hard protein corona characterization with contrast variation}{97}{subsection.6.5.1}
-\contentsline {subsubsection}{Uncertainty analysis}{98}{section*.74}
+\contentsline {subsubsection}{Uncertainty analysis}{98}{section*.75}
 \contentsline {section}{\numberline {6.6}Summary}{99}{section.6.6}
