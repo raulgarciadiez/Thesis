@@ -29,6 +29,7 @@ The rectangular capillary is placed in the sample holder inside the UHV Reflecto
 
 \begin{figure}%[htbp]
 	\centering
+        	\def\svgwidth{0.75\linewidth}
 		\input{Figures/DensityGradientCapillarySetup.pdf_tex}
 		\caption{The rectangular density gradient capillary is placed in the X-ray beam and can be moved by sample motors in both directions perpendicular to the incoming beam.}
 		\label{fig:DensityGradientCapillarySetup}
@@ -47,7 +48,7 @@ Here \(\rho\) is the electron density of the suspending medium, $I$ and $I_0$ ar
 \begin{figure}%[htbp]
 	\centering
 		\input{Figures/KiskerTransmissionCalibration}
-		\caption{Solvent density along the gradient capillary vertical axis, calculated from the transmission measurements at 5500 eV of 100 nm polystyrene particles. The corresponding X-ray transmission is also shown, revealing the low transmittances of the capillary at low energies.}
+		\caption{Solvent density along the gradient capillary vertical axis at different diffusion times, calculated from the transmission measurements at 5500 eV of 100 nm polystyrene particles. The corresponding X-ray transmission is also shown, revealing the low transmittances of the capillary at low energies.}
 		\label{fig:KiskerTransmissionCalibration}
 \end{figure}
 
@@ -186,10 +187,7 @@ As described in \(\S\)\textcolor{red}{GUINIER THEORY CHAPTER}, the radius of gyr
 The positive value of \(\tilde\alpha\) validates the hypothesis that a more dense polymer (probably PMMA) surrounds a lighter core (PS) \cite{stuhrmann_small-angle_2008}. The calculated average electron density of the particle \(\rho_0\) suggests a very thin layer of PMMA shell around the PS core, due to the proximity of its value to the polystyrene electron density (339.7 nm\(^{-3}\) ). The value of \( \tilde\beta=0\) proves a concentric model, where core and shell share the same centre. Using the same polydispersity value of \(22.8\,\%\) obtained in the fitting process, the value for the particle shape radius of gyration results in \(R_{g,c}=36.9\) nm and the external radius of the particle can be calculated assuming the particle as a spherical object (\( R_g^2=\frac{3}{5}R^2 \)). This calculation gives \( R=47.6\) nm, which is only 2.1 nm smaller than the calculated external radius \(R=49.7\) nm, though it might be underestimated due to the choice of a possibly inflated polydispersity. 
 
 \subsubsection{Average electron density}
-Using the same set of 40 scattering curves, the behaviour of the zero-angle intensity under the contrast variation is also investigated by fitting equation \eqref{eq:I0} to the experimental \(I(0)\), as depicted in figure \ref{fig:KiskerIntensityParabola}. A minimum in the curve is observed at \(\rho_{solv}=346.0\) nm\(^{-3}\), which corresponds to the value of the average electron density of the particle. This value is in very good agreement with the result obtained by fitting the core-shell form factor. It is also noticeable that the minimum intensity is approximately 0, which means that the effective average density of the ensemble is equal to the average density of the particle \cite{avdeev_contrast_2007}. This result further legitimates the previously made assumption that the ratio between the particle components' volumes is constant independent of the polydispersity and hence \(  \tilde \rho_0 = \rho_0  \).
-
-
-\textcolor{blue}{The synthesis by multi-addition emulsion polymerization suggests that the assumption made in \(\S\)\textcolor{red}{GUINIER SECTION WHEN DESCRIBING THE POLYDISPERSITY IN THE FORMULA} is correct and the average density of the particle is not altered by the size polydispersity.}
+Using the same set of 40 scattering curves, the behaviour of the zero-angle intensity under the contrast variation is also investigated by fitting equation \eqref{eq:I0} to the experimental \(I(0)\), as depicted in figure \ref{fig:KiskerIntensityParabola}. A minimum in the curve is observed at \(\rho_{solv}=346.0\) nm\(^{-3}\), which corresponds to the value of the average electron density of the particle. This value is in very good agreement with the result obtained by fitting the core-shell form factor. It is also noticeable that the minimum intensity is approximately 0, which means that the effective average density of the ensemble is equal to the average density of the particle \cite{avdeev_contrast_2007}. This result further legitimates the assumption made previously in section \ref{sec:TheoryGuinier} that the ratio between the particle components' volumes is constant independent of the polydispersity and hence \(  \tilde \rho_0 = \rho_0  \), i.e. the average density of the particle is not altered by the size polydispersity.
 
 \begin{figure}%[htbp]
 	\centering
@@ -200,13 +198,8 @@ Using the same set of 40 scattering curves, the behaviour of the zero-angle inte
 
 
 
-\begin{itemize}
-	\item [First point] Comparison of accuracy
-	\item [Extrapolatio] Using just the Guinier region or extrapolating from first minimum
-\end{itemize}
 
-\section{Summary and outlook}
-\label{sec:KiskerResultsSummary}
+\section{Consistency of the results}
 Table \ref{tab:comparison_results_Kisker} summarizes the results of all three presented methods. From the first two isoscattering points, values for the external radius and an upper bound to the polydispersity degree have been derived. Focusing on the Guinier region of the scattering curves, a value for the average electron density of the particles is found using the radius of gyration as well as the zero-angle intensity, the values of which differ by 2.3 nm\(^{-3}\). By fitting a core-shell model, an external radius of \(R=49.7\) nm and an average electron density \(\rho_0=345.9\) nm\(^{-3}\) have been obtained, which are in considerable agreement with the previous results, i.e., the values determined by the other methods are included in their confidence ranges, except for the \(\rho_0\) calculated with the radii of gyration.
 
 \begin{table}
@@ -224,17 +217,17 @@ Table \ref{tab:comparison_results_Kisker} summarizes the results of all three pr
 \label{tab:comparison_results_Kisker}
 \end{table}
 
-From these results, it is evident that the radius of gyration interpretation produces the most deviant values. This might be founded in the complicated function fitted to the data and the reduced availability of $q$-range employed to obtain \( R_g \).
-
-The resulting polydispersity degree of the measured particles from the model fit is in agreement with the upper limit obtained with the radii of gyration. Nevertheless the polydispersity is the parameter determined with the largest uncertainty in the fitting process and therefore this result must be considered with care.
+From these results, it is evident that the radius of gyration interpretation produces the most deviant values. This might be founded in the complicated function fitted to the data and the reduced availability of $q$-range employed to obtain \( R_g \). The resulting polydispersity degree of the measured particles from the model fit is in agreement with the upper limit obtained with the radii of gyration. Nevertheless the polydispersity is the parameter determined with the largest uncertainty in the fitting process and therefore this result must be considered with care.
 
 It can be concluded that the different approaches show consistent and complementary results about the size distribution of nanoparticles with radial inner structure, especially for the external radius of the particle and its average electron density. A precise value for the polydispersity degree could not be obtained as explained previously, although a credible upper limit to the polydispersity degree of $24\,\%$ could be given.
 
+\section{Summary and outlook}
+\label{sec:KiskerResultsSummary}
 This article demonstrates that it is possible to perform continuous contrast variation for light nanoparticles by means of a density gradient and to collect a large quantity of SAXS curves, which can be analyzed with complementary approaches to reveal a consistent insight into the size distribution and the inner structure of the suspended nanoparticles. 
 
 By means of a model-free analysis of the experimental data based on the isoscattering point theory, an average particle diameter of 101 nm was obtained. The analysis of the Guinier region of the scattering curves shows that the radial inner structure of the particles consists of a thin, more dense layer coating the polystyrene core. Complementing these results, a core-shell model fit showed that the core component of the particle had exactly the same electron density expected for polystyrene and the shell was composed of a compound with a density below that of PMMA. This core-shell structure was expected for chemical reasons due to the different hydrophobicity of PS compared to MMA and MAA.
 
-\textcolor{blue}{Considering the similar electronic composition of these polymers and the average electron density of the particle $\rho_0=346$ nm\(^{-3}\), an average physical density of the particles of $\rho=1.07$ g/cm\(^{3}\) can be calculated. The precision in the determination of this density proves this technique as a useful tool and an alternative to other techniques like isopycnic centrifugation \cite{vauthier_measurement_1999,arnold_sorting_2006,sun_separation_2009}, widely used with biomacromolecules.}
+The precision in the determination of the electron density by different approaches proves this technique as a useful tool and an alternative to other techniques like isopycnic centrifugation \cite{vauthier_measurement_1999,arnold_sorting_2006,sun_separation_2009}, widely used with biomacromolecules. A more comprehensive discussion about the suitability of the proposed method for density measurements is enclosed in the following chapter \ref{chap:simultaneous_size_density}.
 
 \subsubsection{Applicability of the technique}
 

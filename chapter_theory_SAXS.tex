@@ -1,16 +1,74 @@
 \chapter{Theoretical Background}
 \label{chap:theory_SAXS}
 
-\section{Interaction of light and matter}
-\subsection{Beer-Lamber Law}
+\section{Interaction of light/X-ray and matter}
+
+X-rays can be considered a wave in vacuum with a wave vector 
+
+\begin{equation}
+        k=\abs{\vec{k}} = \frac{2\pi}{\lambda}
+\end{equation}
+
+The photon energy can be related to this wave length by using the following formula, which uses the quantisation of light/electromagneti radiation as an ensemble of quanta or photons
+
+\begin{equation}
+        \lambda = \frac{h c}{E_{ph}}
+\end{equation}
+
+The x-rays are an electromagnetic wave. The primary wave irradiating the sample is assumed plane and monochromatic
+
+\begin{equation}
+        \vec{E_i}\left( \vec{r},t \right)=\vec{E_i}e^{-i\left( \omega t - \vec{k_i}\vec{r} \right)}
+\end{equation}
+
+\subsection{Beer-Lambert law}
 \label{sec:BeerLambert}
-\subsection{X-ray cross sections}
-\subsection{Thompson scattering}
-Elastic scattering by a single electron
-\subsection{Rayleight and Mie scattering}
+
+the attenuation of light to the properties of the material 
+
+When the X-ray beam passes through the material, it transfers energy to the absorbing matter, attenuating its original intensity depending on the volume of the absorbing element. The decrease in the intensity is directly proportional to the concentration of the absorber C and the path length of the X-ray inside the sample dx.
+
+\begin{equation}
+        dI\left( x \right)=-\mu I dx
+\end{equation}
+where $\mu$ is the linear absorption coefficient.
+\begin{equation}
+        I\left( x \right)=I_0e^{-\mu x}
+\end{equation}
+
+The X-ray can interact in 3 different ways with the electron. 3 mechanisms.
+
+- Photoelectron absorption
+
+- Inelastic scattering (compton scattering): in this case, it can be neglected because $E_{ph}<<< m_ec^2$ . We are not treating it, because we are just using X-ray
+
+- Elastic scattering
+
+\begin{equation}
+        \mu = \tau_{abs}+\sigma_{scat, el}+\sigma_{scat, inel}
+\end{equation}
+
+\begin{equation}
+        \mu = \Sigma \mu_i
+\end{equation}
+
+\subsection{Photoelectron absorption}
+
+Fluorescence, Auger electorn
+
+\subsection{Elastic scattering}
+
+\subsubsection{Thompson scattering}
+Elastic scattering by a free electron
+
+\begin{equation}
+        \mu = \tau_{abs}+\sigma_{scat, el}+\sigma_{scat, inel}
+\end{equation}
+
+\subsubsection{Rayleight scattering}
 Scattered by an ensemble of electrons.
 
-Differences depend on wavelength and size of the object
+Mie scattering: Differences depend on wavelength and size of the object
 
 \section{Small-angle X-ray scattering}
 \subsection{Physical process}
@@ -102,11 +160,15 @@ I(q)=I_c(q)+\Delta\eta I_{sc}(q)+(\Delta\eta)^2 I_{s}(q)
 \end{equation}
 The $I_c$ function contains the contributions from the density fluctuations inside the particle, the contribution $I_s$ is the so-called \emph{resonant term} and $I_{sc}$ is the cross-term function.
 
+
 \subsubsection{Shape factor}
 The $I_s(q)$ function, also known as \emph{shape factor}, corresponds to the scattering contributions from particles with homogenous density and a size equivalent to the volume inaccessible to the solvent. By modelling the shape factor function, the shape and size distribution of the polymeric colloids can be determined independently of their inner structure.
 
 For this purpose, a spherical form factor for homogeneous colloids with a gaussian size distribution was utilized, similarly to the PMMA-COOH example. In order to obtain the particle sphericity, an ellipsoid model was employed.
+
+
 \subsubsection{Guinier law}
+\label{sec:TheoryGuinier}
 Gyration radius
 
 The radius of gyration \( R_g\) is systematically employed in small-angle scattering as an evaluation tool \cite{mertens_structural_2010,sim_salt_2012}. It can be calculated using the Guinier approximation \cite{guinier_diffraction_1939,guinier_small-angle_1955}, which assumes that the scattering intensity behaves in the limit of small \(q\) as
