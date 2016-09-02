@@ -64,6 +64,8 @@ The X-ray can interact in 3 different ways with the electron. 3 mechanisms.
         \lambda_{scat}-\lambda = \frac{h}{m_e c}\left( 1 - \cos{\Theta} \right) \simeq \frac{h}{2m_e c} \Theta ^ 2
 \end{equation}
 
+\textcolor{red}{maybe that is not the reason. Look at cross-sections in x-ray data booklet}
+
 - Elastic scattering: Is the intersting part for SAXS
 
 The attenuation of light in matter is a combination of these 3 effects, as seen here: $\mu$ linear attenuation coefficient $\tau_{abs}$ photoelectron absorption cross-section $\sigma_{scat}$ scattering cross-section
@@ -121,6 +123,8 @@ Dominates in VUV
 
 \subsection{Elastic scattering}
 
+Coherence scattering means that the scattering amplitudes are added and the intensity is the absolute square of the resultiting amplitude.
+
 \subsubsection{Thompson scattering}
 Elastic scattering by a free electron
 
@@ -148,6 +152,8 @@ The differential scattering cross section is defined by (energy radiated per tim
 
 \subsubsection{Rayleigh scattering}
 Scattered by an ensemble of electrons.
+
+atom is an ensemble of weak bounded electrons
 
 From the Time-independent Schrodinger equation, we can write the scattered spherical wave at a point D at a distance $r$ (considering an incident plan wave) which is scattered by a potential $\phi(\vec{r})$
 
@@ -181,9 +187,35 @@ Analogously to equation \ref{eq:thomson_cross_section}, it can be wirtten:
         \label{eq:rayleigh_cross_section}
         \frac{d\sigma}{d\Omega}= \frac{\abs{\Psi_{scat}}^2 \cdot \left(r^2 \Delta \Omega \right)}{\abs{\Psi_{0}}^2\Delta \Omega}=r_e^2 \abs{f(\vec{q},\vec{r})}^2
 \end{equation}
-where $f(\vec{q},\vec{r})=\int e^{ i \vec{q}\vec{r}' }  \phi(\vec{r}')  d\vec{r}'^3$ is the scattering amplitude of the field $\phi(\vec{r})$
+where $f(\vec{q},\vec{r})=\int e^{ i \vec{q}\vec{r}' }  \phi(\vec{r}')  d\vec{r}'^3$ is the scattering amplitude of the field $\phi(\vec{r})$ and is basically its Fourier transform
 
 Mie scattering: Differences depend on wavelength and size of the object
+
+\subsubsection{Anomalous scattering}
+
+In the of an atom, the scattering amplitued of an atom is $f=Z$
+
+This is valid when the incident radiation energy is much greater than the energy corresponding to the an energy excitation of the K, L shell of the atom
+
+The scattering amplitued depends on the wavelength of the X-ray
+\begin{equation}
+        f(E) = f_0 + f'(E) + i f'' (E)
+\end{equation}
+
+$f''$ is related with attenuation coefficient by
+
+\begin{equation}
+        \mu_m=\mu \rho = \frac{2 N_A}{A} \lambda r_0 f''
+\end{equation}
+
+and f' with kramers-kronig relation ship:
+
+\begin{equation}
+        f'(\omega) = \frac{2}{\pi} \int_0^{\infty} \frac{\omega'f''(\omega')d\omega'}{\omega^2-\omega'^2}
+\end{equation}
+
+where $\lambda$ and $\omega$ are related to  photon energy
+
 
 \section{Small-angle X-ray scattering}
 
