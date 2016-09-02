@@ -20,6 +20,10 @@ The x-rays are an electromagnetic wave. The primary wave irradiating the sample 
 \begin{equation}
         \vec{E_i}\left( \vec{r},t \right)=\vec{E_i}e^{-i\left( \omega t - \vec{k_i}\vec{r} \right)}
 \end{equation}
+which can be described using the wave function of a plane wave:
+\begin{equation}
+        \Psi_0\left( \vec{r} \right)=A_0 e^{i \vec{k_0}\vec{r} }
+\end{equation}
 
 \subsection{Beer-Lambert law}
 \label{sec:BeerLambert}
@@ -44,6 +48,12 @@ For x-rays, the refractive index is very close to 1 because $\delta\simeq10^{-5}
         n = 1 - \delta +i \beta
 \end{equation}
 
+$\beta$ is called the extintion coefficient and is related to the linear attenuation coefficient by:
+
+\begin{equation}
+        \mu (E) = \frac{4\pi}{hc} E \beta(E)
+\end{equation}
+
 The X-ray can interact in 3 different ways with the electron. 3 mechanisms.
 
 - Photoelectron absorption
@@ -62,6 +72,7 @@ The attenuation of light in matter is a combination of these 3 effects, as seen 
         \mu = \rho_e (\tau_{abs}+\sigma_{scat, el}+\sigma_{scat, inel})
 \end{equation}
 
+\subsubsection{Multi-element material}
 If there is more than one element inside
 
 \begin{equation}
@@ -80,12 +91,22 @@ The electron density is related to the mass density
         \rho_e = \rho N_A \frac{Z}{A}
 \end{equation}
 \begin{equation}
-        \mu = \sum_i \sigma_i \rho_i =\sigma_i \frac{C_i}{N_A}
+        \mu = \sum_i \sigma_i \rho_i =\sum_i \sigma_i \frac{C_i}{N_A}
 \end{equation}
 where $C_I$ is the concentration of scatteres. Therefore, the Beer-Lambert law for different elements in the solution (for example, water and solute):
 
 \begin{equation}
-        I = = I_0 e^{\mu}=e^{\mu_solv}e^{\mu_solute}
+        I = I_0 e^{-\mu} = I_0e^{-\mu_{solv}}e^{-\mu_{solute}}
+\end{equation}
+
+\begin{equation}
+        I(x) = I_0 e^{-\sum_i \sigma_i \frac{C_i}{N_A} x} =  I_0e^{-C_{solv} \frac{\sigma_i}{N_A}x}e^{-C_{solute} \frac{\sigma_i}{N_A}x}
+\end{equation}
+
+For a position like $x=d$, where $I(d)=I$
+
+\begin{equation}
+        C_{solute}=\frac{N_A}{\sigma_{solute}d}\left( \log(I_0) - \log(I) \right) - C_{solvent} \frac{\sigma_{solvent}}{\sigma_{solute}}=A \left( \log(I_0) - \log(I) \right) + B
 \end{equation}
 
 \subsection{Photoelectron absorption}
@@ -95,6 +116,8 @@ xray photon is absorbed by an atom and the excess energy is transferred to an el
 Photon completely absorbed
 
 Fluorescence, Auger electorn
+
+Dominates in VUV
 
 \subsection{Elastic scattering}
 
@@ -113,9 +136,10 @@ where the Thomson radius, classical electron radius is $2.82\cdot10^{-15}$ m is 
         r_e= \frac{e^2}{4\pi\epsilon_0 m c^2}
 \end{equation}
 
-The differential scattering cross section is defined by:
+The differential scattering cross section is defined by (energy radiated per time per solid angle / incident energy per time per area):
 
 \begin{equation}
+        \label{eq:thomson_cross_section}
         \frac{d\sigma}{d\Omega}= \frac{I_{scat} \cdot \left(r^2 \Delta \Omega \right)}{I_0\Delta \Omega}=r_e^2\left( \frac{1+\cos^2{2\Theta}}{2} \right)
 \end{equation}
 
@@ -125,26 +149,85 @@ The differential scattering cross section is defined by:
 \subsubsection{Rayleigh scattering}
 Scattered by an ensemble of electrons.
 
-Fraunhoffer approximation where the detection point is at a distance L which is much larger than the scattering object size d $d<<<L$ and therefore $\abs{\vec{r}-\vec{r'}}=r$
+From the Time-independent Schrodinger equation, we can write the scattered spherical wave at a point D at a distance $r$ (considering an incident plan wave) which is scattered by a potential $\phi(\vec{r})$
 
-\textcolor{red}{GRAPH WITH SCATTERING ANGLE AND CONTINUUM OBJECT WHERE THE POSITIONS ARE DEFINED: R AND R'}
+\begin{equation}
+       \Psi\left( \vec{r} \right)= \Psi_0\left( \vec{r} \right) +  \Psi_{scat}\left( \vec{r} \right)
+\end{equation}
+
+where the scattered wave can be considered as a perturbation by the weak potential
+
+\begin{equation}
+       \Psi_{scat}\left( \vec{r} \right)=C \int \frac{e^{ i \vec{k_0}\abs{\vec{r}-\vec{r}'} } } {\abs{\vec{r}-\vec{r}'}} \phi(\vec{r}')   \Psi\left( \vec{r}' \right) d\vec{r}'^3
+\end{equation}
+
+Fraunhoffer approximation where the detection point is at a distance L which is much larger than the scattering object size d $d<<<L$ and therefore $\abs{\vec{r}-\vec{r'}}=r$. It can be rewritten like
+
+\begin{equation}
+       \Psi_{scat}\left( \vec{r} \right)=C \frac{e^{i k_0 r}}{r} \int e^{ -i \vec{k_0}\vec{r}' }  \phi(\vec{r}')   \Psi\left( \vec{r}' \right) d\vec{r}'^3
+\end{equation}
+
+using the first born approximation, assuming that there are no multiple-scattering events and the potential is weak (potential doesn't alter wave function)  $ \Psi\left( \vec{r} \right) \simeq \Psi_0\left( \vec{r} \right)$
+
+\begin{equation}
+       \Psi_{scat}\left( \vec{r} \right)=C A_0 \frac{e^{i k_0 r}}{r} \int e^{ i \vec{q}\vec{r}' }  \phi(\vec{r}')  d\vec{r}'^3
+\end{equation}
+
+where $\vec{q}=\vec{k} - \vec{k_0}$ \textcolor{red}{GRAPH WITH SCATTERING ANGLE AND CONTINUUM OBJECT WHERE THE POSITIONS ARE DEFINED: R AND R'}
+
+Analogously to equation \ref{eq:thomson_cross_section}, it can be wirtten:
+
+\begin{equation}
+        \label{eq:rayleigh_cross_section}
+        \frac{d\sigma}{d\Omega}= \frac{\abs{\Psi_{scat}}^2 \cdot \left(r^2 \Delta \Omega \right)}{\abs{\Psi_{0}}^2\Delta \Omega}=r_e^2 \abs{f(\vec{q},\vec{r})}^2
+\end{equation}
+where $f(\vec{q},\vec{r})=\int e^{ i \vec{q}\vec{r}' }  \phi(\vec{r}')  d\vec{r}'^3$ is the scattering amplitude of the field $\phi(\vec{r})$
 
 Mie scattering: Differences depend on wavelength and size of the object
 
 \section{Small-angle X-ray scattering}
-\subsection{Physical process}
-\subsection{Evaluation of the scattering intensity}
-Form factor * S(q)
-Electron density
-Number of colloids
-\subsubsection{What is $q$?}
-The momentum transfer \(q\) of the scattering curves was calculated using
-\begin{equation}
-q=\frac{4\pi E}{hc}\sin\theta ,
-\end{equation}
-where \(\theta\) is half of the scattering angle, \(h\) is the Planck constant and \(c\) is the speed of light.
 
-\subsubsection{Modelling of the scattering curve}
+In the case of SAXS, the scatterers are electrons and therefore the field can be considered to be the electron distribution within the object
+\begin{equation}
+       \phi(\vec{r})=\rho_e(\vec{r})
+\end{equation}
+The electron density is related to the mass density
+\begin{equation}
+        \rho_e = \rho N_A \frac{Z}{A}
+\end{equation}
+fulfilling the condition of the number of electrons in the material:
+\begin{equation}
+        \int \rho_e(\vec{r}')  d\vec{r}'^3 = Z
+\end{equation}
+
+\subsection{Spherical symmetry and the momentum transfer $q$}
+
+If we consider that the object has spherical symmetry $\rho_e(\vec{r})=\rho_e(r)$ then
+
+\begin{equation}
+       f(q,r)=\frac{4\pi}{q} \int_0^{\infty} \rho_e(r') r \sin(qr')  dr'
+\end{equation}
+
+The modulus of the momentum transfer vector $q$ is defined by
+\begin{equation}
+       q=\abs{q}=\abs{\vec{k} - \vec{k}_0}
+\end{equation}
+
+considering elastic scattering $\abs{\vec{k}}=\abs{\vec{k}_0}=\frac{2\pi}{\lambda}$
+
+\begin{equation}
+q=\frac{2\pi }{\lambda}\sin\theta=\frac{4\pi E}{h c}\sin\theta ,
+\end{equation}
+
+where \(\theta\) is half of the scattering angle, \(h\) is the Planck constant and \(c\) is the speed of light. \textcolor{red}{GRAPH WITH SCATTERING ANGLE AND CONTINUUM OBJECT WHERE THE POSITIONS ARE DEFINED: R AND R'}
+\subsubsection{Sphere form factor}
+For the simple case of a solid sphere with uniform density $\rho_e(r>R)=0$ and $\rho_e(r<R)=\rho$, the integral is limited to the radius of the particle $R$
+
+\begin{equation}
+       f_{sph}(q,R)=\frac{4}{3}\pi R^3 \rho \left( 3\frac{\sin(qR)-qR\cos(qR)}{\left( qR \right)^3} \right)
+\end{equation}
+
+\subsection{Modelling of the scattering curve}
 What about size distributions? Log-normal, gaussian, Monte-carlo free number of sizes (Pauw)
 
 The scattering intensity of an ensemble of randomly oriented nanoparticles in suspension can be expressed as a function of the momentum transfer \( q \), modulus of the scattering vector \(\vec q\), as
