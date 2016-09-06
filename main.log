@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/TeX Live for SUSE Linux) (format=pdflatex 2015.3.4)  2 SEP 2016 16:06
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/TeX Live for SUSE Linux) (format=pdflatex 2015.3.4)  6 SEP 2016 19:01
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -216,6 +216,307 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 \Hy@SectionHShift=\skip48
 )
+(/usr/share/texmf/tex/latex/l3packages/xfrac/xfrac.sty
+(/usr/share/texmf/tex/latex/graphics/graphicx.sty
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texmf/tex/latex/graphics/graphics.sty
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texmf/tex/latex/graphics/trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+(/usr/share/texmf/tex/latex/latexconfig/graphics.cfg
+File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
+)
+Package graphics Info: Driver file: pdftex.def on input line 91.
+
+(/usr/share/texmf/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+\Gread@gobject=\count112
+))
+\Gin@req@height=\dimen116
+\Gin@req@width=\dimen117
+)
+(/usr/share/texmf/tex/latex/l3packages/l3keys2e/l3keys2e.sty
+(/usr/share/texmf/tex/latex/l3kernel/expl3.sty
+(/usr/share/texmf/tex/latex/l3kernel/l3names.sty
+(/usr/share/texmf/tex/latex/l3kernel/l3bootstrap.sty
+Package: l3bootstrap 2013/01/08 v4420 L3 Experimental bootstrap code
+)
+Package: l3names 2012/12/07 v4346 L3 Namespace for primitives
+)
+(/usr/share/texmf/tex/latex/etex-pkg/etex.sty
+Package: etex 1998/03/26 v2.0 eTeX basic definition package (PEB)
+\et@xins=\count113
+)
+Package: expl3 2013/03/14 v4469 L3 Experimental code bundle wrapper
+
+(/usr/share/texmf/tex/latex/l3kernel/l3basics.sty
+Package: l3basics 2013/01/10 v4428 L3 Basic definitions
+)
+(/usr/share/texmf/tex/latex/l3kernel/l3expan.sty
+Package: l3expan 2013/02/03 v4458 L3 Argument expansion
+)
+(/usr/share/texmf/tex/latex/l3kernel/l3tl.sty
+Package: l3tl 2013/01/08 v4415 L3 Token lists
+)
+(/usr/share/texmf/tex/latex/l3kernel/l3seq.sty
+Package: l3seq 2013/01/12 v4434 L3 Sequences and stacks
+)
+(/usr/share/texmf/tex/latex/l3kernel/l3int.sty
+Package: l3int 2013/01/13 v4444 L3 Integers
+\c_max_int=\count114
+\l_tmpa_int=\count115
+\l_tmpb_int=\count116
+\g_tmpa_int=\count117
+\g_tmpb_int=\count118
+)
+(/usr/share/texmf/tex/latex/l3kernel/l3quark.sty
+Package: l3quark 2012/11/04 v4268 L3 Quarks
+)
+(/usr/share/texmf/tex/latex/l3kernel/l3prg.sty
+Package: l3prg 2013/02/13 v4459 L3 Control structures
+\g__prg_map_int=\count119
+)
+(/usr/share/texmf/tex/latex/l3kernel/l3clist.sty
+Package: l3clist 2013/01/08 v4414 L3 Comma separated lists
+)
+(/usr/share/texmf/tex/latex/l3kernel/l3token.sty
+Package: l3token 2013/01/10 v4428 L3 Experimental token manipulation
+)
+(/usr/share/texmf/tex/latex/l3kernel/l3prop.sty
+Package: l3prop 2013/01/09 v4423 L3 Property lists
+)
+(/usr/share/texmf/tex/latex/l3kernel/l3msg.sty
+Package: l3msg 2013/01/08 v4412 L3 Messages
+)
+(/usr/share/texmf/tex/latex/l3kernel/l3file.sty
+Package: l3file 2013/01/14 v4446 L3 File and I/O operations
+\l_iow_line_count_int=\count120
+\l__iow_target_count_int=\count121
+\l__iow_current_line_int=\count122
+\l__iow_current_word_int=\count123
+\l__iow_current_indentation_int=\count124
+)
+(/usr/share/texmf/tex/latex/l3kernel/l3skip.sty
+Package: l3skip 2013/01/13 v4444 L3 Dimensions and skips
+\c_zero_dim=\dimen118
+\c_max_dim=\dimen119
+\l_tmpa_dim=\dimen120
+\l_tmpb_dim=\dimen121
+\g_tmpa_dim=\dimen122
+\g_tmpb_dim=\dimen123
+\c_zero_skip=\skip49
+\c_max_skip=\skip50
+\l_tmpa_skip=\skip51
+\l_tmpb_skip=\skip52
+\g_tmpa_skip=\skip53
+\g_tmpb_skip=\skip54
+\c_zero_muskip=\muskip12
+\c_max_muskip=\muskip13
+\l_tmpa_muskip=\muskip14
+\l_tmpb_muskip=\muskip15
+\g_tmpa_muskip=\muskip16
+\g_tmpb_muskip=\muskip17
+)
+(/usr/share/texmf/tex/latex/l3kernel/l3keys.sty
+Package: l3keys 2013/02/24 v4461 L3 Experimental key-value interfaces
+\g__keyval_level_int=\count125
+\l_keys_choice_int=\count126
+)
+(/usr/share/texmf/tex/latex/l3kernel/l3fp.sty
+Package: l3fp 2013/01/19 v4449 L3 Floating points
+\c__fp_leading_shift_int=\count127
+\c__fp_middle_shift_int=\count128
+\c__fp_trailing_shift_int=\count129
+\c__fp_big_leading_shift_int=\count130
+\c__fp_big_middle_shift_int=\count131
+\c__fp_big_trailing_shift_int=\count132
+\c__fp_Bigg_leading_shift_int=\count133
+\c__fp_Bigg_middle_shift_int=\count134
+\c__fp_Bigg_trailing_shift_int=\count135
+)
+(/usr/share/texmf/tex/latex/l3kernel/l3box.sty
+Package: l3box 2013/01/08 v4411 L3 Experimental boxes
+\c_empty_box=\box30
+\l_tmpa_box=\box31
+\l_tmpb_box=\box32
+\g_tmpa_box=\box33
+\g_tmpb_box=\box34
+)
+(/usr/share/texmf/tex/latex/l3kernel/l3coffins.sty
+Package: l3coffins 2012/09/09 v4212 L3 Coffin code layer
+\l__coffin_internal_box=\box35
+\l__coffin_internal_dim=\dimen124
+\l__coffin_offset_x_dim=\dimen125
+\l__coffin_offset_y_dim=\dimen126
+\l__coffin_x_dim=\dimen127
+\l__coffin_y_dim=\dimen128
+\l__coffin_x_prime_dim=\dimen129
+\l__coffin_y_prime_dim=\dimen130
+\c_empty_coffin=\box36
+\l__coffin_aligned_coffin=\box37
+\l__coffin_aligned_internal_coffin=\box38
+\l_tmpa_coffin=\box39
+\l_tmpb_coffin=\box40
+\l__coffin_display_coffin=\box41
+\l__coffin_display_coord_coffin=\box42
+\l__coffin_display_pole_coffin=\box43
+\l__coffin_display_offset_dim=\dimen131
+\l__coffin_display_x_dim=\dimen132
+\l__coffin_display_y_dim=\dimen133
+)
+(/usr/share/texmf/tex/latex/l3kernel/l3color.sty
+Package: l3color 2012/08/29 v4156 L3 Experimental color support
+)
+(/usr/share/texmf/tex/latex/l3kernel/l3luatex.sty
+Package: l3luatex 2012/08/03 v4049 L3 Experimental LuaTeX-specific functions
+\g__cctab_allocate_int=\count136
+\g__cctab_stack_int=\count137
+)
+(/usr/share/texmf/tex/latex/l3kernel/l3candidates.sty
+Package: l3candidates 2013/03/14 v4468 L3 Experimental additions to l3kernel
+\l__box_top_dim=\dimen134
+\l__box_bottom_dim=\dimen135
+\l__box_left_dim=\dimen136
+\l__box_right_dim=\dimen137
+\l__box_top_new_dim=\dimen138
+\l__box_bottom_new_dim=\dimen139
+\l__box_left_new_dim=\dimen140
+\l__box_right_new_dim=\dimen141
+\l__box_internal_box=\box44
+\l__coffin_bounding_shift_dim=\dimen142
+\l__coffin_left_corner_dim=\dimen143
+\l__coffin_right_corner_dim=\dimen144
+\l__coffin_bottom_corner_dim=\dimen145
+\l__coffin_top_corner_dim=\dimen146
+\l__coffin_scaled_total_height_dim=\dimen147
+\l__coffin_scaled_width_dim=\dimen148
+))
+Package: l3keys2e 2013/03/12 v4467 LaTeX2e option processing using LaTeX3 keys
+)
+(/usr/share/texmf/tex/latex/base/textcomp.sty
+Package: textcomp 2005/09/27 v1.99g Standard LaTeX package
+Package textcomp Info: Sub-encoding information:
+(textcomp)               5 = only ISO-Adobe without \textcurrency
+(textcomp)               4 = 5 + \texteuro
+(textcomp)               3 = 4 + \textohm
+(textcomp)               2 = 3 + \textestimated + \textcurrency
+(textcomp)               1 = TS1 - \textcircled - \t
+(textcomp)               0 = TS1 (full)
+(textcomp)             Font families with sub-encoding setting implement
+(textcomp)             only a restricted character set as indicated.
+(textcomp)             Family '?' is the default used for unknown fonts.
+(textcomp)             See the documentation for details.
+Package textcomp Info: Setting ? sub-encoding to TS1/1 on input line 71.
+
+(/usr/share/texmf/tex/latex/base/ts1enc.def
+File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
+)
+LaTeX Info: Redefining \oldstylenums on input line 266.
+Package textcomp Info: Setting cmr sub-encoding to TS1/0 on input line 281.
+Package textcomp Info: Setting cmss sub-encoding to TS1/0 on input line 282.
+Package textcomp Info: Setting cmtt sub-encoding to TS1/0 on input line 283.
+Package textcomp Info: Setting cmvtt sub-encoding to TS1/0 on input line 284.
+Package textcomp Info: Setting cmbr sub-encoding to TS1/0 on input line 285.
+Package textcomp Info: Setting cmtl sub-encoding to TS1/0 on input line 286.
+Package textcomp Info: Setting ccr sub-encoding to TS1/0 on input line 287.
+Package textcomp Info: Setting ptm sub-encoding to TS1/4 on input line 288.
+Package textcomp Info: Setting pcr sub-encoding to TS1/4 on input line 289.
+Package textcomp Info: Setting phv sub-encoding to TS1/4 on input line 290.
+Package textcomp Info: Setting ppl sub-encoding to TS1/3 on input line 291.
+Package textcomp Info: Setting pag sub-encoding to TS1/4 on input line 292.
+Package textcomp Info: Setting pbk sub-encoding to TS1/4 on input line 293.
+Package textcomp Info: Setting pnc sub-encoding to TS1/4 on input line 294.
+Package textcomp Info: Setting pzc sub-encoding to TS1/4 on input line 295.
+Package textcomp Info: Setting bch sub-encoding to TS1/4 on input line 296.
+Package textcomp Info: Setting put sub-encoding to TS1/5 on input line 297.
+Package textcomp Info: Setting uag sub-encoding to TS1/5 on input line 298.
+Package textcomp Info: Setting ugq sub-encoding to TS1/5 on input line 299.
+Package textcomp Info: Setting ul8 sub-encoding to TS1/4 on input line 300.
+Package textcomp Info: Setting ul9 sub-encoding to TS1/4 on input line 301.
+Package textcomp Info: Setting augie sub-encoding to TS1/5 on input line 302.
+Package textcomp Info: Setting dayrom sub-encoding to TS1/3 on input line 303.
+Package textcomp Info: Setting dayroms sub-encoding to TS1/3 on input line 304.
+
+Package textcomp Info: Setting pxr sub-encoding to TS1/0 on input line 305.
+Package textcomp Info: Setting pxss sub-encoding to TS1/0 on input line 306.
+Package textcomp Info: Setting pxtt sub-encoding to TS1/0 on input line 307.
+Package textcomp Info: Setting txr sub-encoding to TS1/0 on input line 308.
+Package textcomp Info: Setting txss sub-encoding to TS1/0 on input line 309.
+Package textcomp Info: Setting txtt sub-encoding to TS1/0 on input line 310.
+Package textcomp Info: Setting lmr sub-encoding to TS1/0 on input line 311.
+Package textcomp Info: Setting lmdh sub-encoding to TS1/0 on input line 312.
+Package textcomp Info: Setting lmss sub-encoding to TS1/0 on input line 313.
+Package textcomp Info: Setting lmssq sub-encoding to TS1/0 on input line 314.
+Package textcomp Info: Setting lmvtt sub-encoding to TS1/0 on input line 315.
+Package textcomp Info: Setting qhv sub-encoding to TS1/0 on input line 316.
+Package textcomp Info: Setting qag sub-encoding to TS1/0 on input line 317.
+Package textcomp Info: Setting qbk sub-encoding to TS1/0 on input line 318.
+Package textcomp Info: Setting qcr sub-encoding to TS1/0 on input line 319.
+Package textcomp Info: Setting qcs sub-encoding to TS1/0 on input line 320.
+Package textcomp Info: Setting qpl sub-encoding to TS1/0 on input line 321.
+Package textcomp Info: Setting qtm sub-encoding to TS1/0 on input line 322.
+Package textcomp Info: Setting qzc sub-encoding to TS1/0 on input line 323.
+Package textcomp Info: Setting qhvc sub-encoding to TS1/0 on input line 324.
+Package textcomp Info: Setting futs sub-encoding to TS1/4 on input line 325.
+Package textcomp Info: Setting futx sub-encoding to TS1/4 on input line 326.
+Package textcomp Info: Setting futj sub-encoding to TS1/4 on input line 327.
+Package textcomp Info: Setting hlh sub-encoding to TS1/3 on input line 328.
+Package textcomp Info: Setting hls sub-encoding to TS1/3 on input line 329.
+Package textcomp Info: Setting hlst sub-encoding to TS1/3 on input line 330.
+Package textcomp Info: Setting hlct sub-encoding to TS1/5 on input line 331.
+Package textcomp Info: Setting hlx sub-encoding to TS1/5 on input line 332.
+Package textcomp Info: Setting hlce sub-encoding to TS1/5 on input line 333.
+Package textcomp Info: Setting hlcn sub-encoding to TS1/5 on input line 334.
+Package textcomp Info: Setting hlcw sub-encoding to TS1/5 on input line 335.
+Package textcomp Info: Setting hlcf sub-encoding to TS1/5 on input line 336.
+Package textcomp Info: Setting pplx sub-encoding to TS1/3 on input line 337.
+Package textcomp Info: Setting pplj sub-encoding to TS1/3 on input line 338.
+Package textcomp Info: Setting ptmx sub-encoding to TS1/4 on input line 339.
+Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 340.
+)
+(/usr/share/texmf/tex/latex/l3packages/xparse/xparse.sty
+Package: xparse 2013/03/12 v4467 L3 Experimental document command parser
+\l__xparse_current_arg_int=\count138
+\l__xparse_m_args_int=\count139
+\l__xparse_mandatory_args_int=\count140
+\l__xparse_processor_int=\count141
+\l__xparse_v_nesting_int=\count142
+)
+(/usr/share/texmf/tex/latex/l3packages/xtemplate/xtemplate.sty
+Package: xtemplate 2013/03/12 v4467 L3 Experimental prototype document function
+s
+\l__xtemplate_tmp_dim=\dimen149
+\l__xtemplate_tmp_int=\count143
+\l__xtemplate_tmp_muskip=\muskip18
+\l__xtemplate_tmp_skip=\skip55
+Variant \prop_get:NoNTF already defined; not changing it on line 106
+Variant \prop_get:NoNT already defined; not changing it on line 107
+Variant \prop_get:NoNF already defined; not changing it on line 108
+)
+Package: xfrac 2012/11/09 v4299 L3 Experimental split-level fractions
+\l__xfrac_slash_box=\box45
+\l__xfrac_tmp_box=\box46
+\l__xfrac_denominator_bot_sep_dim=\dimen150
+\l__xfrac_numerator_bot_sep_dim=\dimen151
+\l__xfrac_numerator_top_sep_dim=\dimen152
+\l__xfrac_slash_left_sep_dim=\dimen153
+\l__xfrac_slash_right_sep_dim=\dimen154
+\l__xfrac_slash_left_muskip=\muskip19
+\l__xfrac_slash_right_muskip=\muskip20
+.................................................
+. xtemplate info: "declare-object-type"
+. 
+. Declaring object type 'xfrac' taking 3 argument(s) on line 96.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \sfrac with arg. spec. 'omom' on line 436.
+.................................................
+)
 (/usr/share/texmf/tex/latex/commath/commath.sty
 (/usr/share/texmf/tex/latex/base/ifthen.sty
 Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
@@ -432,6 +733,81 @@ Now handling font encoding U ...
 ... no UTF-8 mapping file for font encoding U
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
+Now handling font encoding TS1 ...
+... processing UTF-8 mapping file for font encoding TS1
+
+(/usr/share/texmf/tex/latex/base/ts1enc.dfu
+File: ts1enc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
+   defining Unicode char U+00A2 (decimal 162)
+   defining Unicode char U+00A3 (decimal 163)
+   defining Unicode char U+00A4 (decimal 164)
+   defining Unicode char U+00A5 (decimal 165)
+   defining Unicode char U+00A6 (decimal 166)
+   defining Unicode char U+00A7 (decimal 167)
+   defining Unicode char U+00A8 (decimal 168)
+   defining Unicode char U+00A9 (decimal 169)
+   defining Unicode char U+00AA (decimal 170)
+   defining Unicode char U+00AC (decimal 172)
+   defining Unicode char U+00AE (decimal 174)
+   defining Unicode char U+00AF (decimal 175)
+   defining Unicode char U+00B0 (decimal 176)
+   defining Unicode char U+00B1 (decimal 177)
+   defining Unicode char U+00B2 (decimal 178)
+   defining Unicode char U+00B3 (decimal 179)
+   defining Unicode char U+00B4 (decimal 180)
+   defining Unicode char U+00B5 (decimal 181)
+   defining Unicode char U+00B6 (decimal 182)
+   defining Unicode char U+00B7 (decimal 183)
+   defining Unicode char U+00B9 (decimal 185)
+   defining Unicode char U+00BA (decimal 186)
+   defining Unicode char U+00BC (decimal 188)
+   defining Unicode char U+00BD (decimal 189)
+   defining Unicode char U+00BE (decimal 190)
+   defining Unicode char U+00D7 (decimal 215)
+   defining Unicode char U+00F7 (decimal 247)
+   defining Unicode char U+0192 (decimal 402)
+   defining Unicode char U+02C7 (decimal 711)
+   defining Unicode char U+02D8 (decimal 728)
+   defining Unicode char U+02DD (decimal 733)
+   defining Unicode char U+0E3F (decimal 3647)
+   defining Unicode char U+2016 (decimal 8214)
+   defining Unicode char U+2020 (decimal 8224)
+   defining Unicode char U+2021 (decimal 8225)
+   defining Unicode char U+2022 (decimal 8226)
+   defining Unicode char U+2030 (decimal 8240)
+   defining Unicode char U+2031 (decimal 8241)
+   defining Unicode char U+203B (decimal 8251)
+   defining Unicode char U+203D (decimal 8253)
+   defining Unicode char U+2044 (decimal 8260)
+   defining Unicode char U+204E (decimal 8270)
+   defining Unicode char U+2052 (decimal 8274)
+   defining Unicode char U+20A1 (decimal 8353)
+   defining Unicode char U+20A4 (decimal 8356)
+   defining Unicode char U+20A6 (decimal 8358)
+   defining Unicode char U+20A9 (decimal 8361)
+   defining Unicode char U+20AB (decimal 8363)
+   defining Unicode char U+20AC (decimal 8364)
+   defining Unicode char U+20B1 (decimal 8369)
+   defining Unicode char U+2103 (decimal 8451)
+   defining Unicode char U+2116 (decimal 8470)
+   defining Unicode char U+2117 (decimal 8471)
+   defining Unicode char U+211E (decimal 8478)
+   defining Unicode char U+2120 (decimal 8480)
+   defining Unicode char U+2122 (decimal 8482)
+   defining Unicode char U+2126 (decimal 8486)
+   defining Unicode char U+2127 (decimal 8487)
+   defining Unicode char U+212E (decimal 8494)
+   defining Unicode char U+2190 (decimal 8592)
+   defining Unicode char U+2191 (decimal 8593)
+   defining Unicode char U+2192 (decimal 8594)
+   defining Unicode char U+2193 (decimal 8595)
+   defining Unicode char U+2329 (decimal 9001)
+   defining Unicode char U+232A (decimal 9002)
+   defining Unicode char U+2422 (decimal 9250)
+   defining Unicode char U+25E6 (decimal 9702)
+   defining Unicode char U+25EF (decimal 9711)
+   defining Unicode char U+266A (decimal 9834)
+)
    defining Unicode char U+00A9 (decimal 169)
    defining Unicode char U+00AA (decimal 170)
    defining Unicode char U+00AE (decimal 174)
@@ -444,10 +820,10 @@ Now handling font encoding PD1 ...
    defining Unicode char U+2423 (decimal 9251)
 ))
 (/usr/share/texmf/tex/latex/wrapfig/wrapfig.sty
-\wrapoverhang=\dimen116
-\WF@size=\dimen117
-\c@WF@wrappedlines=\count112
-\WF@box=\box30
+\wrapoverhang=\dimen155
+\WF@size=\dimen156
+\c@WF@wrappedlines=\count144
+\WF@box=\box47
 \WF@everypar=\toks24
 Package: wrapfig 2003/01/31  v 3.6
 )
@@ -460,67 +836,46 @@ Package: caption 2013/05/02 v3.3-89 Customizing captions (AR)
 (/usr/share/texmf/tex/latex/caption/caption3.sty
 Package: caption3 2013/05/02 v1.6-88 caption3 kernel (AR)
 Package caption3 Info: TeX engine: e-TeX on input line 57.
-\captionmargin=\dimen118
-\captionmargin@=\dimen119
-\captionwidth=\dimen120
-\caption@tempdima=\dimen121
-\caption@indent=\dimen122
-\caption@parindent=\dimen123
-\caption@hangindent=\dimen124
+\captionmargin=\dimen157
+\captionmargin@=\dimen158
+\captionwidth=\dimen159
+\caption@tempdima=\dimen160
+\caption@indent=\dimen161
+\caption@parindent=\dimen162
+\caption@hangindent=\dimen163
 )
-\c@ContinuedFloat=\count113
+\c@ContinuedFloat=\count145
 Package caption Info: float package is loaded.
 Package caption Info: hyperref package is loaded.
 Package caption Info: wrapfig package is loaded.
 )
-\c@KVtest=\count114
-\sf@farskip=\skip49
-\sf@captopadj=\dimen125
-\sf@capskip=\skip50
-\sf@nearskip=\skip51
-\c@subfigure=\count115
-\c@subfigure@save=\count116
-\c@lofdepth=\count117
-\c@subtable=\count118
-\c@subtable@save=\count119
-\c@lotdepth=\count120
-\sf@top=\skip52
-\sf@bottom=\skip53
-)
-(/usr/share/texmf/tex/latex/graphics/graphicx.sty
-Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
-
-(/usr/share/texmf/tex/latex/graphics/graphics.sty
-Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
-
-(/usr/share/texmf/tex/latex/graphics/trig.sty
-Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
-)
-(/usr/share/texmf/tex/latex/latexconfig/graphics.cfg
-File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
-)
-Package graphics Info: Driver file: pdftex.def on input line 91.
-
-(/usr/share/texmf/tex/latex/pdftex-def/pdftex.def
-File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
-\Gread@gobject=\count121
-))
-\Gin@req@height=\dimen126
-\Gin@req@width=\dimen127
+\c@KVtest=\count146
+\sf@farskip=\skip56
+\sf@captopadj=\dimen164
+\sf@capskip=\skip57
+\sf@nearskip=\skip58
+\c@subfigure=\count147
+\c@subfigure@save=\count148
+\c@lofdepth=\count149
+\c@subtable=\count150
+\c@subtable@save=\count151
+\c@lotdepth=\count152
+\sf@top=\skip59
+\sf@bottom=\skip60
 )
 (/usr/share/texmf/tex/latex/geometry/geometry.sty
 Package: geometry 2010/09/12 v5.6 Page Geometry
-\Gm@cnth=\count122
-\Gm@cntv=\count123
-\c@Gm@tempcnt=\count124
-\Gm@bindingoffset=\dimen128
-\Gm@wd@mp=\dimen129
-\Gm@odd@mp=\dimen130
-\Gm@even@mp=\dimen131
-\Gm@layoutwidth=\dimen132
-\Gm@layoutheight=\dimen133
-\Gm@layouthoffset=\dimen134
-\Gm@layoutvoffset=\dimen135
+\Gm@cnth=\count153
+\Gm@cntv=\count154
+\c@Gm@tempcnt=\count155
+\Gm@bindingoffset=\dimen165
+\Gm@wd@mp=\dimen166
+\Gm@odd@mp=\dimen167
+\Gm@even@mp=\dimen168
+\Gm@layoutwidth=\dimen169
+\Gm@layoutheight=\dimen170
+\Gm@layouthoffset=\dimen171
+\Gm@layoutvoffset=\dimen172
 \Gm@dimlist=\toks25
 )
 (/usr/share/texmf/tex/latex/graphics/color.sty
@@ -542,27 +897,34 @@ LaTeX Warning: Label `eq:ff_cs' multiply defined.
 ) (./chapter_simultaneous_size_density.aux) (./chapter_bio_applications.aux))
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Try loading font information for OT1+ppl on input line 47.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 51.
+LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 51.
+LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 51.
+LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 51.
+LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 51.
+LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 51.
+LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 51.
+LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 51.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 51.
+
+(/usr/share/texmf/tex/latex/base/ts1cmr.fd
+File: ts1cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Try loading font information for OT1+ppl on input line 51.
 
 (/usr/share/texmf/tex/latex/psnfss/ot1ppl.fd
 File: ot1ppl.fd 2001/06/04 font definitions for OT1/ppl.
 )
-\AtBeginShipoutBox=\box31
-Package hyperref Info: Link coloring OFF on input line 47.
+\AtBeginShipoutBox=\box48
+Package hyperref Info: Link coloring OFF on input line 51.
 
 (/usr/share/texmf/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
@@ -570,31 +932,28 @@ Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 (/usr/share/texmf/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
-\c@section@level=\count125
+\c@section@level=\count156
 )
-LaTeX Info: Redefining \ref on input line 47.
-LaTeX Info: Redefining \pageref on input line 47.
-LaTeX Info: Redefining \nameref on input line 47.
+LaTeX Info: Redefining \ref on input line 51.
+LaTeX Info: Redefining \pageref on input line 51.
+LaTeX Info: Redefining \nameref on input line 51.
  (./main.out)
 (./main.out)
 \@outlinefile=\write3
 \openout3 = `main.out'.
 
-Package caption Info: Begin \AtBeginDocument code.
-Package caption Info: subfig package v1.3 is loaded.
-Package caption Info: End \AtBeginDocument code.
  (/usr/share/texmf/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count126
-\scratchdimen=\dimen136
-\scratchbox=\box32
-\nofMPsegments=\count127
-\nofMParguments=\count128
+\scratchcounter=\count157
+\scratchdimen=\dimen173
+\scratchbox=\box49
+\nofMPsegments=\count158
+\nofMParguments=\count159
 \everyMPshowfont=\toks26
-\MPscratchCnt=\count129
-\MPscratchDim=\dimen137
-\MPnumerator=\count130
-\makeMPintoPDFobject=\count131
+\MPscratchCnt=\count160
+\MPscratchDim=\dimen174
+\MPnumerator=\count161
+\makeMPintoPDFobject=\count162
 \everyMPtoPDFconversion=\toks27
 ) (/usr/share/texmf/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
@@ -611,6 +970,10 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: subfig package v1.3 is loaded.
+Package caption Info: End \AtBeginDocument code.
+
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -645,24 +1008,24 @@ e
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Font Info:    Try loading font information for OML+zplm on input line 50.
+LaTeX Font Info:    Try loading font information for OML+zplm on input line 54.
 
 (/usr/share/texmf/tex/latex/psnfss/omlzplm.fd
 File: omlzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OML/zplm.
 )
-LaTeX Font Info:    Try loading font information for OMS+zplm on input line 50.
+LaTeX Font Info:    Try loading font information for OMS+zplm on input line 54.
 
 
 (/usr/share/texmf/tex/latex/psnfss/omszplm.fd
 File: omszplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMS/zplm.
 )
-LaTeX Font Info:    Try loading font information for OMX+zplm on input line 50.
+LaTeX Font Info:    Try loading font information for OMX+zplm on input line 54.
 
 
 (/usr/share/texmf/tex/latex/psnfss/omxzplm.fd
 File: omxzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMX/zplm.
 )
-LaTeX Font Info:    Try loading font information for OT1+zplm on input line 50.
+LaTeX Font Info:    Try loading font information for OT1+zplm on input line 54.
 
 
 (/usr/share/texmf/tex/latex/psnfss/ot1zplm.fd
@@ -681,30 +1044,23 @@ LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <14.4> not available
 
 LaTeX Warning: Command \textregistered invalid in math mode on input line 20.
 
-
-LaTeX Warning: Command \textcircled invalid in math mode on input line 20.
-
-LaTeX Font Info:    Try loading font information for OMS+ppl on input line 20.
-(/usr/share/texmf/tex/latex/psnfss/omsppl.fd
-File: omsppl.fd 
+LaTeX Font Info:    Try loading font information for TS1+ppl on input line 20.
+(/usr/share/texmf/tex/latex/psnfss/ts1ppl.fd
+File: ts1ppl.fd 2001/06/04 font definitions for TS1/ppl.
 )
-LaTeX Font Info:    Font shape `OMS/ppl/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 20.
 
+LaTeX Warning: Command \textregistered invalid in math mode on input line 20.
 
-LaTeX Warning: Command \textcircled invalid in math mode on input line 20.
-
+Missing character: There is no ® in font pplr7t!
 LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <12> not available
 (Font)              Font shape `OT1/ppl/b/n' tried instead on input line 22.
 
 LaTeX Warning: Command \textregistered invalid in math mode on input line 26.
 
 
-LaTeX Warning: Command \textcircled invalid in math mode on input line 26.
+LaTeX Warning: Command \textregistered invalid in math mode on input line 26.
 
-
-LaTeX Warning: Command \textcircled invalid in math mode on input line 26.
-
+Missing character: There is no ® in font pplr7t!
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
 been already used, duplicate ignored
 <to be read again> 
@@ -717,20 +1073,18 @@ LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <10> not available
 (Font)              Font shape `OT1/ppl/b/n' tried instead on input line 34.
 ) [2]
 LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <24.88> not available
-(Font)              Font shape `OT1/ppl/b/n' tried instead on input line 51.
+(Font)              Font shape `OT1/ppl/b/n' tried instead on input line 55.
  (./main.toc [3
 
 
 ] [4]
 
-LaTeX Warning: Command \textregistered invalid in math mode on input line 88.
+LaTeX Warning: Command \textregistered invalid in math mode on input line 86.
 
 
-LaTeX Warning: Command \textcircled invalid in math mode on input line 88.
+LaTeX Warning: Command \textregistered invalid in math mode on input line 86.
 
-
-LaTeX Warning: Command \textcircled invalid in math mode on input line 88.
-
+Missing character: There is no ® in font pplr7t!
 )
 \tf@toc=\write4
 \openout4 = `main.toc'.
@@ -748,12 +1102,22 @@ Chapter 1.
 
  (./chapter_theory_SAXS.tex
 Chapter 2.
+LaTeX Font Info:    Calculating math sizes for size <8.76114> on input line 13.
+
 [8
 
 
 
-] [9] [10] [11]
-Overfull \hbox (14.04703pt too wide) in paragraph at lines 176--177
+] (./Figures/BeerLambertScheme.pdf_tex
+<Figures/BeerLambertScheme.pdf, id=462, 767.97713pt x 392.68585pt>
+File: Figures/BeerLambertScheme.pdf Graphic file (type pdf)
+
+<use Figures/BeerLambertScheme.pdf>
+Package pdftex.def Info: Figures/BeerLambertScheme.pdf used on input line 52.
+(pdftex.def)             Requested size: 322.50346pt x 164.90295pt.
+) [9 <./Figures/BeerLambertScheme.pdf>]
+[10] [11]
+Overfull \hbox (14.04703pt too wide) in paragraph at lines 137--138
 []\OT1/ppl/m/n/12 using the first born ap-prox-i-ma-tion, as-sum-ing that there
  are no multiple-scattering
  []
@@ -761,11 +1125,11 @@ Overfull \hbox (14.04703pt too wide) in paragraph at lines 176--177
 [12]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 235.
+(hyperref)                removing `math shift' on input line 196.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 235.
+(hyperref)                removing `math shift' on input line 196.
 
 [13] [14] [15] [16] [17]) [18]
 \openout2 = `chapter_experimental_setup.aux'.
@@ -782,7 +1146,7 @@ Overfull \hbox (4.80774pt too wide) in paragraph at lines 6--7
 
 
 
-] [20] <Figures/BessyScheme.png, id=639, 581.17125pt x 535.2497pt>
+] [20] <Figures/BessyScheme.png, id=631, 581.17125pt x 535.2497pt>
 File: Figures/BessyScheme.png Graphic file (type png)
 
 <use Figures/BessyScheme.png>
@@ -794,7 +1158,7 @@ Overfull \hbox (4.72675pt too wide) in paragraph at lines 69--70
 Ulm[] []2001[]) pro-vides a monochro-
  []
 
-[22] <Figures/FCMScheme.png, id=669, 341.77687pt x 216.81pt>
+[22] <Figures/FCMScheme.png, id=661, 341.77687pt x 216.81pt>
 File: Figures/FCMScheme.png Graphic file (type png)
 
 <use Figures/FCMScheme.png>
@@ -802,7 +1166,7 @@ Package pdftex.def Info: Figures/FCMScheme.png used on input line 73.
 (pdftex.def)             Requested size: 341.77603pt x 216.80946pt.
  [23 <./Figures/FCMScheme.png>]
 (./Figures/FCMBeamlineFlux.tex
-<Figures/FCMBeamlineFlux.pdf, id=681, 284.06125pt x 226.8475pt>
+<Figures/FCMBeamlineFlux.pdf, id=673, 284.06125pt x 226.8475pt>
 File: Figures/FCMBeamlineFlux.pdf Graphic file (type pdf)
 
 <use Figures/FCMBeamlineFlux.pdf>
@@ -815,7 +1179,7 @@ LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 123.
 
 (./Figures/DistanceCalibrationSAXS.tex
-<Figures/DistanceCalibrationSAXS.pdf, id=712, 284.06125pt x 226.8475pt>
+<Figures/DistanceCalibrationSAXS.pdf, id=704, 284.06125pt x 226.8475pt>
 File: Figures/DistanceCalibrationSAXS.pdf Graphic file (type pdf)
 
 <use Figures/DistanceCalibrationSAXS.pdf>
@@ -823,7 +1187,7 @@ Package pdftex.def Info: Figures/DistanceCalibrationSAXS.pdf used on input line
  132.
 (pdftex.def)             Requested size: 284.06053pt x 226.84694pt.
 )
-<Figures/AgBeheSAXSLongDistance_edit.png, id=713, 457.4691pt x 486.3771pt>
+<Figures/AgBeheSAXSLongDistance_edit.png, id=705, 457.4691pt x 486.3771pt>
 File: Figures/AgBeheSAXSLongDistance_edit.png Graphic file (type png)
 
 <use Figures/AgBeheSAXSLongDistance_edit.png>
@@ -836,11 +1200,9 @@ ance_edit.png>]
 LaTeX Warning: Command \textregistered invalid in math mode on input line 171.
 
 
-LaTeX Warning: Command \textcircled invalid in math mode on input line 171.
+LaTeX Warning: Command \textregistered invalid in math mode on input line 171.
 
-
-LaTeX Warning: Command \textcircled invalid in math mode on input line 171.
-
+Missing character: There is no ® in font pplr7t!
 [29]
 Overfull \hbox (12.8381pt too wide) in paragraph at lines 177--178
 \OT1/ppl/m/n/12 The cap-il-lar-ies used for the con-trast vari-a-tion ex-per-i-
@@ -848,7 +1210,7 @@ ments are vacuum-proof borosil-
  []
 
 (./Figures/HilgenbergHomogeneity.tex
-<Figures/HilgenbergHomogeneity.pdf, id=750, 284.06125pt x 226.8475pt>
+<Figures/HilgenbergHomogeneity.pdf, id=742, 284.06125pt x 226.8475pt>
 File: Figures/HilgenbergHomogeneity.pdf Graphic file (type pdf)
 
 <use Figures/HilgenbergHomogeneity.pdf>
@@ -856,7 +1218,7 @@ Package pdftex.def Info: Figures/HilgenbergHomogeneity.pdf used on input line 1
 12.
 (pdftex.def)             Requested size: 284.06053pt x 226.84694pt.
 ) (./Figures/WaterHomogeneity.tex
-<Figures/WaterHomogeneity.pdf, id=751, 284.06125pt x 226.8475pt>
+<Figures/WaterHomogeneity.pdf, id=743, 284.06125pt x 226.8475pt>
 File: Figures/WaterHomogeneity.pdf Graphic file (type pdf)
 
 <use Figures/WaterHomogeneity.pdf>
@@ -864,21 +1226,20 @@ Package pdftex.def Info: Figures/WaterHomogeneity.pdf used on input line 108.
 (pdftex.def)             Requested size: 284.06053pt x 226.84694pt.
 ) [30 <./Figures/HilgenbergHomogeneity.pdf> <./Figures/WaterHomogeneity.pdf>] (
 ./Figures/GaldenCalibration.tex
-<Figures/GaldenCalibration.pdf, id=768, 284.06125pt x 226.8475pt>
+<Figures/GaldenCalibration.pdf, id=760, 284.06125pt x 226.8475pt>
 File: Figures/GaldenCalibration.pdf Graphic file (type pdf)
 
 <use Figures/GaldenCalibration.pdf>
 Package pdftex.def Info: Figures/GaldenCalibration.pdf used on input line 102.
 (pdftex.def)             Requested size: 284.06053pt x 226.84694pt.
 ) [31 <./Figures/GaldenCalibration.pdf>]
-<Figures/SampleEnvironment.jpg, id=780, 876.876pt x 688.0104pt>
+<Figures/SampleEnvironment.jpg, id=772, 876.876pt x 688.0104pt>
 File: Figures/SampleEnvironment.jpg Graphic file (type jpg)
 
 <use Figures/SampleEnvironment.jpg>
 Package pdftex.def Info: Figures/SampleEnvironment.jpg used on input line 207.
 (pdftex.def)             Requested size: 876.87387pt x 688.00873pt.
- [32 <./Figures/SampleEnvironment.jpg>]
-[33]) [34]
+ [32] [33 <./Figures/SampleEnvironment.jpg>]) [34]
 \openout2 = `chapter_density_gradient_SAXS.aux'.
 
  (./chapter_density_gradient_SAXS.tex
@@ -892,13 +1253,11 @@ Chapter 4.
 LaTeX Warning: Command \textregistered invalid in math mode on input line 19.
 
 
-LaTeX Warning: Command \textcircled invalid in math mode on input line 19.
+LaTeX Warning: Command \textregistered invalid in math mode on input line 19.
 
-
-LaTeX Warning: Command \textcircled invalid in math mode on input line 19.
-
+Missing character: There is no ® in font pplr7t!
 [37] (./Figures/DensityGradientCapillarySetup.pdf_tex
-<Figures/DensityGradientCapillarySetup.pdf, id=881, 247.43704pt x 185.05473pt>
+<Figures/DensityGradientCapillarySetup.pdf, id=873, 247.43704pt x 185.05473pt>
 File: Figures/DensityGradientCapillarySetup.pdf Graphic file (type pdf)
 
 <use Figures/DensityGradientCapillarySetup.pdf>
@@ -910,11 +1269,9 @@ t line 52.
 LaTeX Warning: Command \textregistered invalid in math mode on input line 38.
 
 
-LaTeX Warning: Command \textcircled invalid in math mode on input line 38.
+LaTeX Warning: Command \textregistered invalid in math mode on input line 38.
 
-
-LaTeX Warning: Command \textcircled invalid in math mode on input line 38.
-
+Missing character: There is no ® in font pplr7t!
 
 Overfull \hbox (5.20319pt too wide) in paragraph at lines 40--41
 []\OT1/ppl/m/n/12 These val-ues can be con-verted to sol-vent elec-tron den-si-
@@ -923,7 +1280,7 @@ ties via the Beer-Lambert
 
 [38 <./Figures/DensityGradientCapillarySetup.pdf>]
 (./Figures/KiskerTransmissionCalibration.tex
-<Figures/KiskerTransmissionCalibration.pdf, id=929, 426.59375pt x 226.8475pt>
+<Figures/KiskerTransmissionCalibration.pdf, id=921, 426.59375pt x 226.8475pt>
 File: Figures/KiskerTransmissionCalibration.pdf Graphic file (type pdf)
 
 <use Figures/KiskerTransmissionCalibration.pdf>
@@ -932,7 +1289,7 @@ t line 122.
 (pdftex.def)             Requested size: 426.5927pt x 226.84694pt.
 ) [39 <./Figures/KiskerTransmissionCalibration.pdf>] (./Figures/EnergiesTransmi
 ssionCalibration.tex
-<Figures/EnergiesTransmissionCalibration.pdf, id=942, 284.06125pt x 226.8475pt>
+<Figures/EnergiesTransmissionCalibration.pdf, id=934, 284.06125pt x 226.8475pt>
 File: Figures/EnergiesTransmissionCalibration.pdf Graphic file (type pdf)
 <use Figures/EnergiesTransmissionCalibration.pdf>
 Package pdftex.def Info: Figures/EnergiesTransmissionCalibration.pdf used on in
@@ -940,7 +1297,7 @@ put line 123.
 (pdftex.def)             Requested size: 284.06053pt x 226.84694pt.
 )
 (./Figures/SucroseTransmissionCalibration.tex
-<Figures/SucroseTransmissionCalibration.pdf, id=943, 284.06125pt x 226.8475pt>
+<Figures/SucroseTransmissionCalibration.pdf, id=935, 284.06125pt x 226.8475pt>
 File: Figures/SucroseTransmissionCalibration.pdf Graphic file (type pdf)
 
 <use Figures/SucroseTransmissionCalibration.pdf>
@@ -961,7 +1318,7 @@ Overfull \hbox (23.17737pt too wide) in paragraph at lines 78--78
  []
 
 [41] (./Figures/KiskerContinuousSAXS.tex
-<Figures/KiskerContinuousSAXS.pdf, id=974, 284.06125pt x 226.8475pt>
+<Figures/KiskerContinuousSAXS.pdf, id=965, 284.06125pt x 226.8475pt>
 File: Figures/KiskerContinuousSAXS.pdf Graphic file (type pdf)
 
 <use Figures/KiskerContinuousSAXS.pdf>
@@ -970,7 +1327,7 @@ Package pdftex.def Info: Figures/KiskerContinuousSAXS.pdf used on input line 11
 (pdftex.def)             Requested size: 284.06053pt x 226.84694pt.
 ) [42 <./Figures/KiskerContinuousSAXS.pdf>] (./Figures/KiskerBackgroundSubtract
 ion.tex
-<Figures/KiskerBackgroundSubtraction.pdf, id=985, 284.06125pt x 226.8475pt>
+<Figures/KiskerBackgroundSubtraction.pdf, id=977, 284.06125pt x 226.8475pt>
 File: Figures/KiskerBackgroundSubtraction.pdf Graphic file (type pdf)
 
 <use Figures/KiskerBackgroundSubtraction.pdf>
@@ -979,7 +1336,7 @@ line 103.
 (pdftex.def)             Requested size: 284.06053pt x 226.84694pt.
 ) [43 <./Figures/KiskerBackgroundSubtraction.pdf>] (./Figures/KiskerSAXSCoreshe
 llFit.tex
-<Figures/KiskerSAXSCoreshellFit.pdf, id=1000, 284.06125pt x 226.8475pt>
+<Figures/KiskerSAXSCoreshellFit.pdf, id=992, 284.06125pt x 226.8475pt>
 File: Figures/KiskerSAXSCoreshellFit.pdf Graphic file (type pdf)
 
 <use Figures/KiskerSAXSCoreshellFit.pdf>
@@ -988,7 +1345,7 @@ Package pdftex.def Info: Figures/KiskerSAXSCoreshellFit.pdf used on input line
 (pdftex.def)             Requested size: 284.06053pt x 226.84694pt.
 ) [44] [45 <./Figures/KiskerSAXSCoreshellFit.pdf>] (./Figures/KiskerIsopoint.te
 x
-<Figures/KiskerIsopoint.pdf, id=1026, 284.06125pt x 226.8475pt>
+<Figures/KiskerIsopoint.pdf, id=1018, 284.06125pt x 226.8475pt>
 File: Figures/KiskerIsopoint.pdf Graphic file (type pdf)
 
 <use Figures/KiskerIsopoint.pdf>
@@ -996,7 +1353,7 @@ Package pdftex.def Info: Figures/KiskerIsopoint.pdf used on input line 99.
 (pdftex.def)             Requested size: 284.06053pt x 226.84694pt.
 ) [46 <./Figures/KiskerIsopoint.pdf>] [47]
 (./Figures/KiskerIntensityComparison.tex
-<Figures/KiskerIntensityComparison.pdf, id=1054, 284.06125pt x 226.8475pt>
+<Figures/KiskerIntensityComparison.pdf, id=1046, 284.06125pt x 226.8475pt>
 File: Figures/KiskerIntensityComparison.pdf Graphic file (type pdf)
 
 <use Figures/KiskerIntensityComparison.pdf>
@@ -1005,7 +1362,7 @@ ne 111.
 (pdftex.def)             Requested size: 284.06053pt x 226.84694pt.
 ) [48 <./Figures/KiskerIntensityComparison.pdf>] (./Figures/KiskerGuinierRadius
 .tex
-<Figures/KiskerGuinierRadius.pdf, id=1066, 284.06125pt x 226.8475pt>
+<Figures/KiskerGuinierRadius.pdf, id=1058, 284.06125pt x 226.8475pt>
 File: Figures/KiskerGuinierRadius.pdf Graphic file (type pdf)
 
 <use Figures/KiskerGuinierRadius.pdf>
@@ -1014,7 +1371,7 @@ Package pdftex.def Info: Figures/KiskerGuinierRadius.pdf used on input line 113
 (pdftex.def)             Requested size: 284.06053pt x 226.84694pt.
 ) [49 <./Figures/KiskerGuinierRadius.pdf>] (./Figures/KiskerIntensityParabola.t
 ex
-<Figures/KiskerIntensityParabola.pdf, id=1080, 284.06125pt x 226.8475pt>
+<Figures/KiskerIntensityParabola.pdf, id=1072, 284.06125pt x 226.8475pt>
 File: Figures/KiskerIntensityParabola.pdf Graphic file (type pdf)
 
 <use Figures/KiskerIntensityParabola.pdf>
@@ -1040,7 +1397,7 @@ for the ex-per-i-men-tal needs,
  []
 
 [53] (./Figures/LudoxHS40TransmissionCalibration.tex
-<Figures/LudoxHS40TransmissionCalibration.pdf, id=1139, 426.59375pt x 226.8475p
+<Figures/LudoxHS40TransmissionCalibration.pdf, id=1131, 426.59375pt x 226.8475p
 t>
 File: Figures/LudoxHS40TransmissionCalibration.pdf Graphic file (type pdf)
  <use Figures/LudoxHS40TransmissionCalibration.pdf>
@@ -1067,11 +1424,9 @@ plat-forms for drug-delivery([]Wang
 LaTeX Warning: Command \textregistered invalid in math mode on input line 31.
 
 
-LaTeX Warning: Command \textcircled invalid in math mode on input line 31.
+LaTeX Warning: Command \textregistered invalid in math mode on input line 31.
 
-
-LaTeX Warning: Command \textcircled invalid in math mode on input line 31.
-
+Missing character: There is no ® in font pplr7t!
 
 Overfull \hbox (6.65779pt too wide) in paragraph at lines 31--32
 \OT1/ppl/m/n/12 Carboxylated polystyrene nanopar-ti-cles (PS-COOH) syn-the-size
@@ -1085,7 +1440,7 @@ d plain polystyrene
  []
 
 [58] (./Figures/PSPlainSingleContrastSAXS.tex
-<Figures/PSPlainSingleContrastSAXS.pdf, id=1289, 284.06125pt x 226.8475pt>
+<Figures/PSPlainSingleContrastSAXS.pdf, id=1281, 284.06125pt x 226.8475pt>
 File: Figures/PSPlainSingleContrastSAXS.pdf Graphic file (type pdf)
 
 <use Figures/PSPlainSingleContrastSAXS.pdf>
@@ -1103,7 +1458,7 @@ Overfull \hbox (19.79466pt too wide) in paragraph at lines 53--61
  []
 
 [60] [61] (./Figures/DCSCombinedStokes.tex
-<Figures/DCSCombinedStokes.pdf, id=1318, 284.06125pt x 226.8475pt>
+<Figures/DCSCombinedStokes.pdf, id=1310, 284.06125pt x 226.8475pt>
 File: Figures/DCSCombinedStokes.pdf Graphic file (type pdf)
 
 <use Figures/DCSCombinedStokes.pdf>
@@ -1111,7 +1466,7 @@ Package pdftex.def Info: Figures/DCSCombinedStokes.pdf used on input line 109.
 (pdftex.def)             Requested size: 284.06053pt x 226.84694pt.
 ) [62 <./Figures/DCSCombinedStokes.pdf>]
 (./Figures/PSPlainContinuousSAXS.tex
-<Figures/PSPlainContinuousSAXS.pdf, id=1332, 284.06125pt x 226.8475pt>
+<Figures/PSPlainContinuousSAXS.pdf, id=1324, 284.06125pt x 226.8475pt>
 File: Figures/PSPlainContinuousSAXS.pdf Graphic file (type pdf)
 
 <use Figures/PSPlainContinuousSAXS.pdf>
@@ -1120,7 +1475,7 @@ Package pdftex.def Info: Figures/PSPlainContinuousSAXS.pdf used on input line 1
 (pdftex.def)             Requested size: 284.06053pt x 226.84694pt.
 )
 (./Figures/PSPlainContinuousSAXSIsopoint.tex
-<Figures/PSPlainContinuousSAXSIsopoint.pdf, id=1333, 284.06125pt x 226.8475pt>
+<Figures/PSPlainContinuousSAXSIsopoint.pdf, id=1325, 284.06125pt x 226.8475pt>
 File: Figures/PSPlainContinuousSAXSIsopoint.pdf Graphic file (type pdf)
 
 <use Figures/PSPlainContinuousSAXSIsopoint.pdf>
@@ -1130,7 +1485,7 @@ t line 99.
 ) [63 <./Figures/PSPlainContinuousSAXS.pdf> <./Figures/PSPlainContinuousSAXSIso
 point.pdf>]
 (./Figures/PSPlainResonantTerm.tex
-<Figures/PSPlainResonantTerm.pdf, id=1358, 284.06125pt x 226.8475pt>
+<Figures/PSPlainResonantTerm.pdf, id=1349, 284.06125pt x 226.8475pt>
 File: Figures/PSPlainResonantTerm.pdf Graphic file (type pdf)
 
 <use Figures/PSPlainResonantTerm.pdf>
@@ -1150,7 +1505,7 @@ M[]etrologie-Metrologische
  []
 
 (./Figures/PSPlainSizeComparison.tex
-<Figures/PSPlainSizeComparison.pdf, id=1370, 284.06125pt x 226.8475pt>
+<Figures/PSPlainSizeComparison.pdf, id=1362, 284.06125pt x 226.8475pt>
 File: Figures/PSPlainSizeComparison.pdf Graphic file (type pdf)
 
 <use Figures/PSPlainSizeComparison.pdf>
@@ -1165,7 +1520,7 @@ Overfull \hbox (9.54736pt too wide) in paragraph at lines 183--184
 
 [66 <./Figures/PSPlainSizeComparison.pdf>]
 (./Figures/PSPlainSizeDistribution.tex
-<Figures/PSPlainSizeDistribution.pdf, id=1390, 284.06125pt x 226.8475pt>
+<Figures/PSPlainSizeDistribution.pdf, id=1382, 284.06125pt x 226.8475pt>
 File: Figures/PSPlainSizeDistribution.pdf Graphic file (type pdf)
 
 <use Figures/PSPlainSizeDistribution.pdf>
@@ -1174,7 +1529,7 @@ Package pdftex.def Info: Figures/PSPlainSizeDistribution.pdf used on input line
 (pdftex.def)             Requested size: 284.06053pt x 226.84694pt.
 ) [67 <./Figures/PSPlainSizeDistribution.pdf>] (./Figures/ResonantTermSimulatio
 nNumber.tex
-<Figures/ResonantTermSimulationNumber.pdf, id=1410, 284.06125pt x 226.8475pt>
+<Figures/ResonantTermSimulationNumber.pdf, id=1402, 284.06125pt x 226.8475pt>
 File: Figures/ResonantTermSimulationNumber.pdf Graphic file (type pdf)
 
 <use Figures/ResonantTermSimulationNumber.pdf>
@@ -1183,7 +1538,7 @@ Package pdftex.def Info: Figures/ResonantTermSimulationNumber.pdf used on input
 (pdftex.def)             Requested size: 284.06053pt x 226.84694pt.
 ) [68 <./Figures/ResonantTermSimulationNumber.pdf>] [69] (./Figures/IsopointSim
 ulationRange.tex
-<Figures/IsopointSimulationRange.pdf, id=1433, 284.06125pt x 226.8475pt>
+<Figures/IsopointSimulationRange.pdf, id=1425, 284.06125pt x 226.8475pt>
 File: Figures/IsopointSimulationRange.pdf Graphic file (type pdf)
 
 <use Figures/IsopointSimulationRange.pdf>
@@ -1192,7 +1547,7 @@ Package pdftex.def Info: Figures/IsopointSimulationRange.pdf used on input line
 (pdftex.def)             Requested size: 284.06053pt x 226.84694pt.
 )
 (./Figures/IsopointSimulationPolydispersity.tex
-<Figures/IsopointSimulationPolydispersity.pdf, id=1434, 284.06125pt x 226.8475p
+<Figures/IsopointSimulationPolydispersity.pdf, id=1426, 284.06125pt x 226.8475p
 t>
 File: Figures/IsopointSimulationPolydispersity.pdf Graphic file (type pdf)
  <use Figures/IsopointSimulationPolydispersity.pdf>
@@ -1202,7 +1557,7 @@ nput line 127.
 ) [70 <./Figures/IsopointSimulationRange.pdf> <./Figures/IsopointSimulationPoly
 dispersity.pdf>]
 (./Figures/PSPlainAverageDensity.tex
-<Figures/PSPlainAverageDensity.pdf, id=1451, 284.06125pt x 226.8475pt>
+<Figures/PSPlainAverageDensity.pdf, id=1443, 284.06125pt x 226.8475pt>
 File: Figures/PSPlainAverageDensity.pdf Graphic file (type pdf)
 
 <use Figures/PSPlainAverageDensity.pdf>
@@ -1217,7 +1572,7 @@ re, a typ-i-cal value of $\OML/zplm/m/it/12 Z\OT1/zplm/m/n/12 /\OML/zplm/m/it/1
  []
 
 [71] (./Figures/DensityComparison.tex
-<Figures/DensityComparison.pdf, id=1469, 284.06125pt x 226.8475pt>
+<Figures/DensityComparison.pdf, id=1460, 284.06125pt x 226.8475pt>
 File: Figures/DensityComparison.pdf Graphic file (type pdf)
 
 <use Figures/DensityComparison.pdf>
@@ -1240,20 +1595,16 @@ length scale, such as lipopro-
 LaTeX Warning: Command \textregistered invalid in math mode on input line 6.
 
 
-LaTeX Warning: Command \textcircled invalid in math mode on input line 6.
+LaTeX Warning: Command \textregistered invalid in math mode on input line 6.
 
-
-LaTeX Warning: Command \textcircled invalid in math mode on input line 6.
-
+Missing character: There is no ® in font pplr7t!
 
 LaTeX Warning: Command \textregistered invalid in math mode on input line 12.
 
 
-LaTeX Warning: Command \textcircled invalid in math mode on input line 12.
+LaTeX Warning: Command \textregistered invalid in math mode on input line 12.
 
-
-LaTeX Warning: Command \textcircled invalid in math mode on input line 12.
-
+Missing character: There is no ® in font pplr7t!
 [76
 
 
@@ -1263,28 +1614,18 @@ LaTeX Warning: Command \textcircled invalid in math mode on input line 12.
 LaTeX Warning: Command \textregistered invalid in math mode on input line 17.
 
 
-LaTeX Warning: Command \textcircled invalid in math mode on input line 17.
+LaTeX Warning: Command \textregistered invalid in math mode on input line 17.
 
-
-LaTeX Warning: Command \textcircled invalid in math mode on input line 17.
-
+Missing character: There is no ® in font pplr7t!
 
 LaTeX Warning: Command \textregistered invalid in math mode on input line 19.
 
+LaTeX Font Info:    Font shape `TS1/ppl/bx/n' in size <14.4> not available
+(Font)              Font shape `TS1/ppl/b/n' tried instead on input line 19.
 
-LaTeX Warning: Command \textcircled invalid in math mode on input line 19.
+LaTeX Warning: Command \textregistered invalid in math mode on input line 19.
 
-
-LaTeX Font Warning: Font shape `OMS/ppl/bx/n' undefined
-(Font)              using `OMS/ppl/m/n' instead on input line 19.
-
-LaTeX Font Info:    Font shape `OMS/ppl/m/n' in size <14.4> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 19.
-
-LaTeX Warning: Command \textcircled invalid in math mode on input line 19.
-
-LaTeX Font Info:    Font shape `OMS/ppl/bx/n' in size <14.4> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 19.
+Missing character: There is no ® in font pplr7t!
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 19.
@@ -1297,52 +1638,38 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 LaTeX Warning: Command \textregistered invalid in math mode on input line 21.
 
 
-LaTeX Warning: Command \textcircled invalid in math mode on input line 21.
+LaTeX Warning: Command \textregistered invalid in math mode on input line 21.
 
-
-LaTeX Warning: Command \textcircled invalid in math mode on input line 21.
-
+Missing character: There is no ® in font pplr7t!
 
 LaTeX Warning: Command \textregistered invalid in math mode on input line 21.
 
 
-LaTeX Warning: Command \textcircled invalid in math mode on input line 21.
+LaTeX Warning: Command \textregistered invalid in math mode on input line 21.
 
-
-LaTeX Warning: Command \textcircled invalid in math mode on input line 21.
-
+Missing character: There is no ® in font pplr7t!
 
 LaTeX Warning: Command \textregistered invalid in math mode on input line 21.
 
 
-LaTeX Warning: Command \textcircled invalid in math mode on input line 21.
+LaTeX Warning: Command \textregistered invalid in math mode on input line 21.
 
-
-LaTeX Warning: Command \textcircled invalid in math mode on input line 21.
-
+Missing character: There is no ® in font pplr7t!
 
 LaTeX Warning: Command \textregistered invalid in math mode on input line 21.
 
 
-LaTeX Warning: Command \textcircled invalid in math mode on input line 21.
+LaTeX Warning: Command \textregistered invalid in math mode on input line 21.
 
-
-LaTeX Warning: Command \textcircled invalid in math mode on input line 21.
-
-
-Overfull \hbox (14.01472pt too wide) in paragraph at lines 21--22
-\OT1/ppl/m/n/12 choline (HSPC), choles-terol, and DSPE-PEG2000 (N-(carbonyl-met
-hoxypolyethylene
- []
-
-<Figures/CaelyxCryoTEM.png, id=1539, 243.91125pt x 245.91875pt>
+Missing character: There is no ® in font pplr7t!
+<Figures/CaelyxCryoTEM.png, id=1531, 243.91125pt x 245.91875pt>
 File: Figures/CaelyxCryoTEM.png Graphic file (type png)
 
 <use Figures/CaelyxCryoTEM.png>
 Package pdftex.def Info: Figures/CaelyxCryoTEM.png used on input line 25.
 (pdftex.def)             Requested size: 243.91064pt x 245.91814pt.
  (./Figures/CaelyxScheme.pdf_tex
-<Figures/CaelyxScheme.pdf, id=1540, 966.9253pt x 435.88487pt>
+<Figures/CaelyxScheme.pdf, id=1532, 966.9253pt x 435.88487pt>
 File: Figures/CaelyxScheme.pdf Graphic file (type pdf)
 
 <use Figures/CaelyxScheme.pdf>
@@ -1357,95 +1684,73 @@ Overfull \hbox (42.9994pt too wide) in paragraph at lines 25--27
 LaTeX Warning: Command \textregistered invalid in math mode on input line 27.
 
 
-LaTeX Warning: Command \textcircled invalid in math mode on input line 27.
+LaTeX Warning: Command \textregistered invalid in math mode on input line 27.
 
-LaTeX Font Info:    Font shape `OMS/ppl/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 27.
-
-LaTeX Warning: Command \textcircled invalid in math mode on input line 27.
-
+Missing character: There is no ® in font pplr7t!
 
 LaTeX Warning: Command \textregistered invalid in math mode on input line 27.
 
 
-LaTeX Warning: Command \textcircled invalid in math mode on input line 27.
+LaTeX Warning: Command \textregistered invalid in math mode on input line 27.
 
-
-LaTeX Warning: Command \textcircled invalid in math mode on input line 27.
-
+Missing character: There is no ® in font pplr7t!
 
 LaTeX Warning: Command \textregistered invalid in math mode on input line 30.
 
 
-LaTeX Warning: Command \textcircled invalid in math mode on input line 30.
+LaTeX Warning: Command \textregistered invalid in math mode on input line 30.
 
-
-LaTeX Warning: Command \textcircled invalid in math mode on input line 30.
-
+Missing character: There is no ® in font pplr7t!
 
 LaTeX Warning: Command \textregistered invalid in math mode on input line 30.
 
 
-LaTeX Warning: Command \textcircled invalid in math mode on input line 30.
+LaTeX Warning: Command \textregistered invalid in math mode on input line 30.
 
-
-LaTeX Warning: Command \textcircled invalid in math mode on input line 30.
-
+Missing character: There is no ® in font pplr7t!
 
 LaTeX Warning: Command \textregistered invalid in math mode on input line 30.
 
 
-LaTeX Warning: Command \textcircled invalid in math mode on input line 30.
+LaTeX Warning: Command \textregistered invalid in math mode on input line 30.
 
-
-LaTeX Warning: Command \textcircled invalid in math mode on input line 30.
-
+Missing character: There is no ® in font pplr7t!
 
 LaTeX Warning: Command \textregistered invalid in math mode on input line 30.
 
 
-LaTeX Warning: Command \textcircled invalid in math mode on input line 30.
+LaTeX Warning: Command \textregistered invalid in math mode on input line 30.
 
-
-LaTeX Warning: Command \textcircled invalid in math mode on input line 30.
-
+Missing character: There is no ® in font pplr7t!
 
 LaTeX Warning: Command \textregistered invalid in math mode on input line 30.
 
 
-LaTeX Warning: Command \textcircled invalid in math mode on input line 30.
+LaTeX Warning: Command \textregistered invalid in math mode on input line 30.
 
-
-LaTeX Warning: Command \textcircled invalid in math mode on input line 30.
-
+Missing character: There is no ® in font pplr7t!
 
 LaTeX Warning: Command \textregistered invalid in math mode on input line 30.
 
 
-LaTeX Warning: Command \textcircled invalid in math mode on input line 30.
+LaTeX Warning: Command \textregistered invalid in math mode on input line 30.
 
-
-LaTeX Warning: Command \textcircled invalid in math mode on input line 30.
-
+Missing character: There is no ® in font pplr7t!
 [77]
 
 LaTeX Warning: Command \textregistered invalid in math mode on input line 32.
 
 
-LaTeX Warning: Command \textcircled invalid in math mode on input line 32.
+LaTeX Warning: Command \textregistered invalid in math mode on input line 32.
 
-
-LaTeX Warning: Command \textcircled invalid in math mode on input line 32.
-
+Missing character: There is no ® in font pplr7t!
 
 LaTeX Warning: Command \textregistered invalid in math mode on input line 46.
 
 
-LaTeX Warning: Command \textcircled invalid in math mode on input line 46.
+LaTeX Warning: Command \textregistered invalid in math mode on input line 46.
 
-
-LaTeX Warning: Command \textcircled invalid in math mode on input line 46.
-
+Missing character: There is no ® in font pplr7t!
 [78 <./Figures/CaelyxCryoTEM.png> <./Figures/CaelyxScheme.pdf>]
 Overfull \hbox (1.76022pt too wide) in paragraph at lines 48--49
 []\OT1/ppl/m/n/12 The DLS size mea-sure-ments were per-formed on a W130i ap-pa-
@@ -1453,7 +1758,7 @@ ra-tus (Avid Nano
  []
 
 (./Figures/HDLCoreShellFit.tex
-<Figures/HDLCoreShellFit.pdf, id=1686, 284.06125pt x 226.8475pt>
+<Figures/HDLCoreShellFit.pdf, id=1678, 284.06125pt x 226.8475pt>
 File: Figures/HDLCoreShellFit.pdf Graphic file (type pdf)
 
 <use Figures/HDLCoreShellFit.pdf>
@@ -1464,19 +1769,21 @@ Package pdftex.def Info: Figures/HDLCoreShellFit.pdf used on input line 103.
 LaTeX Warning: Command \textregistered invalid in math mode on input line 75.
 
 
-LaTeX Warning: Command \textcircled invalid in math mode on input line 75.
+LaTeX Warning: Command \textregistered invalid in math mode on input line 75.
 
-
-LaTeX Warning: Command \textcircled invalid in math mode on input line 75.
-
+Missing character: There is no ® in font pplr7t!
 
 LaTeX Warning: Command \textregistered invalid in math mode on input line 75.
 
 
-LaTeX Warning: Command \textcircled invalid in math mode on input line 75.
+LaTeX Warning: Command \textregistered invalid in math mode on input line 75.
 
+Missing character: There is no ® in font pplr7t!
 
-LaTeX Warning: Command \textcircled invalid in math mode on input line 75.
+Overfull \hbox (9.57607pt too wide) in paragraph at lines 75--76
+\OT1/ppl/m/it/12 et al.[] \OT1/ppl/m/n/12 ([]2011[]); []Baren-holz[] ([]2012[])
+. Nowa-days there are ap-prox-i-mately 250 nanomedicine
+ []
 
 [80 <./Figures/HDLCoreShellFit.pdf>]
 Overfull \hbox (23.35931pt too wide) in paragraph at lines 79--80
@@ -1488,13 +1795,11 @@ Overfull \hbox (23.35931pt too wide) in paragraph at lines 79--80
 LaTeX Warning: Command \textregistered invalid in math mode on input line 83.
 
 
-LaTeX Warning: Command \textcircled invalid in math mode on input line 83.
+LaTeX Warning: Command \textregistered invalid in math mode on input line 83.
 
-
-LaTeX Warning: Command \textcircled invalid in math mode on input line 83.
-
+Missing character: There is no ® in font pplr7t!
 [81] (./Figures/CaelyxIodixanolContinuousSAXS.tex
-<Figures/CaelyxIodixanolContinuousSAXS.pdf, id=1753, 284.06125pt x 226.8475pt>
+<Figures/CaelyxIodixanolContinuousSAXS.pdf, id=1744, 284.06125pt x 226.8475pt>
 File: Figures/CaelyxIodixanolContinuousSAXS.pdf Graphic file (type pdf)
 
 <use Figures/CaelyxIodixanolContinuousSAXS.pdf>
@@ -1503,7 +1808,7 @@ t line 110.
 (pdftex.def)             Requested size: 284.06053pt x 226.84694pt.
 )
 (./Figures/CaelyxIodixanolIsopoint.tex
-<Figures/CaelyxIodixanolIsopoint.pdf, id=1754, 284.06125pt x 226.8475pt>
+<Figures/CaelyxIodixanolIsopoint.pdf, id=1745, 284.06125pt x 226.8475pt>
 File: Figures/CaelyxIodixanolIsopoint.pdf Graphic file (type pdf)
 
 <use Figures/CaelyxIodixanolIsopoint.pdf>
@@ -1515,11 +1820,9 @@ Package pdftex.def Info: Figures/CaelyxIodixanolIsopoint.pdf used on input line
 LaTeX Warning: Command \textregistered invalid in math mode on input line 94.
 
 
-LaTeX Warning: Command \textcircled invalid in math mode on input line 94.
+LaTeX Warning: Command \textregistered invalid in math mode on input line 94.
 
-
-LaTeX Warning: Command \textcircled invalid in math mode on input line 94.
-
+Missing character: There is no ® in font pplr7t!
 
 Overfull \hbox (5.4193pt too wide) in paragraph at lines 94--95
 []\OT1/ppl/m/n/12 The sol-vent back-ground has been sub-tracted by mea-sur-ing 
@@ -1530,42 +1833,34 @@ the scat-ter-ing curves
 LaTeX Warning: Command \textregistered invalid in math mode on input line 97.
 
 
-LaTeX Warning: Command \textcircled invalid in math mode on input line 97.
+LaTeX Warning: Command \textregistered invalid in math mode on input line 97.
 
-
-LaTeX Warning: Command \textcircled invalid in math mode on input line 97.
-
+Missing character: There is no ® in font pplr7t!
 [82 <./Figures/CaelyxIodixanolContinuousSAXS.pdf> <./Figures/CaelyxIodixanolIso
 point.pdf>]
 
 LaTeX Warning: Command \textregistered invalid in math mode on input line 99.
 
 
-LaTeX Warning: Command \textcircled invalid in math mode on input line 99.
+LaTeX Warning: Command \textregistered invalid in math mode on input line 99.
 
-
-LaTeX Warning: Command \textcircled invalid in math mode on input line 99.
-
+Missing character: There is no ® in font pplr7t!
 
 LaTeX Warning: Command \textregistered invalid in math mode on input line 102.
 
 
-LaTeX Warning: Command \textcircled invalid in math mode on input line 102.
+LaTeX Warning: Command \textregistered invalid in math mode on input line 102.
 
-
-LaTeX Warning: Command \textcircled invalid in math mode on input line 102.
-
+Missing character: There is no ® in font pplr7t!
 
 LaTeX Warning: Command \textregistered invalid in math mode on input line 102.
 
 
-LaTeX Warning: Command \textcircled invalid in math mode on input line 102.
+LaTeX Warning: Command \textregistered invalid in math mode on input line 102.
 
-
-LaTeX Warning: Command \textcircled invalid in math mode on input line 102.
-
+Missing character: There is no ® in font pplr7t!
 [83] (./Figures/CaelyxIodixanolResonantTerm.tex
-<Figures/CaelyxIodixanolResonantTerm.pdf, id=1778, 284.06125pt x 226.8475pt>
+<Figures/CaelyxIodixanolResonantTerm.pdf, id=1770, 284.06125pt x 226.8475pt>
 File: Figures/CaelyxIodixanolResonantTerm.pdf Graphic file (type pdf)
 
 <use Figures/CaelyxIodixanolResonantTerm.pdf>
@@ -1574,7 +1869,7 @@ line 105.
 (pdftex.def)             Requested size: 284.06053pt x 226.84694pt.
 ) [84 <./Figures/CaelyxIodixanolResonantTerm.pdf>] (./Figures/CaelyxAverageDens
 ity.tex
-<Figures/CaelyxAverageDensity.pdf, id=1790, 284.06125pt x 226.8475pt>
+<Figures/CaelyxAverageDensity.pdf, id=1781, 284.06125pt x 226.8475pt>
 File: Figures/CaelyxAverageDensity.pdf Graphic file (type pdf)
 
 <use Figures/CaelyxAverageDensity.pdf>
@@ -1583,7 +1878,7 @@ Package pdftex.def Info: Figures/CaelyxAverageDensity.pdf used on input line 10
 (pdftex.def)             Requested size: 284.06053pt x 226.84694pt.
 ) [85]
 (./Figures/OsmolalityElectronDensity.tex
-<Figures/OsmolalityElectronDensity.pdf, id=1811, 284.06125pt x 226.8475pt>
+<Figures/OsmolalityElectronDensity.pdf, id=1802, 284.06125pt x 226.8475pt>
 File: Figures/OsmolalityElectronDensity.pdf Graphic file (type pdf)
 
 <use Figures/OsmolalityElectronDensity.pdf>
@@ -1595,32 +1890,26 @@ ne 126.
 LaTeX Warning: Command \textregistered invalid in math mode on input line 140.
 
 
-LaTeX Warning: Command \textcircled invalid in math mode on input line 140.
+LaTeX Warning: Command \textregistered invalid in math mode on input line 140.
 
-
-LaTeX Warning: Command \textcircled invalid in math mode on input line 140.
-
+Missing character: There is no ® in font pplr7t!
 [86 <./Figures/CaelyxAverageDensity.pdf>]
 
 LaTeX Warning: Command \textregistered invalid in math mode on input line 142.
 
 
-LaTeX Warning: Command \textcircled invalid in math mode on input line 142.
+LaTeX Warning: Command \textregistered invalid in math mode on input line 142.
 
-
-LaTeX Warning: Command \textcircled invalid in math mode on input line 142.
-
+Missing character: There is no ® in font pplr7t!
 
 LaTeX Warning: Command \textregistered invalid in math mode on input line 142.
 
 
-LaTeX Warning: Command \textcircled invalid in math mode on input line 142.
+LaTeX Warning: Command \textregistered invalid in math mode on input line 142.
 
-
-LaTeX Warning: Command \textcircled invalid in math mode on input line 142.
-
+Missing character: There is no ® in font pplr7t!
 (./Figures/CaelyxSucroseContinuousSAXS.tex
-<Figures/CaelyxSucroseContinuousSAXS.pdf, id=1827, 284.06125pt x 226.8475pt>
+<Figures/CaelyxSucroseContinuousSAXS.pdf, id=1818, 284.06125pt x 226.8475pt>
 File: Figures/CaelyxSucroseContinuousSAXS.pdf Graphic file (type pdf)
 
 <use Figures/CaelyxSucroseContinuousSAXS.pdf>
@@ -1629,7 +1918,7 @@ line 111.
 (pdftex.def)             Requested size: 284.06053pt x 226.84694pt.
 )
 (./Figures/CaelyxSucroseContinuousSAXSIsopoint.tex
-<Figures/CaelyxSucroseContinuousSAXSIsopoint.pdf, id=1828, 284.06125pt x 226.84
+<Figures/CaelyxSucroseContinuousSAXSIsopoint.pdf, id=1819, 284.06125pt x 226.84
 75pt>
 File: Figures/CaelyxSucroseContinuousSAXSIsopoint.pdf Graphic file (type pdf)
  <use Figures/CaelyxSucroseContinuousSAXSIsopoint.pdf>
@@ -1641,33 +1930,27 @@ n input line 124.
 LaTeX Warning: Command \textregistered invalid in math mode on input line 156.
 
 
-LaTeX Warning: Command \textcircled invalid in math mode on input line 156.
+LaTeX Warning: Command \textregistered invalid in math mode on input line 156.
 
-
-LaTeX Warning: Command \textcircled invalid in math mode on input line 156.
-
+Missing character: There is no ® in font pplr7t!
 
 LaTeX Warning: Command \textregistered invalid in math mode on input line 158.
 
 
-LaTeX Warning: Command \textcircled invalid in math mode on input line 158.
+LaTeX Warning: Command \textregistered invalid in math mode on input line 158.
 
-
-LaTeX Warning: Command \textcircled invalid in math mode on input line 158.
-
+Missing character: There is no ® in font pplr7t!
 [88 <./Figures/CaelyxSucroseContinuousSAXS.pdf> <./Figures/CaelyxSucroseContinu
 ousSAXSIsopoint.pdf>]
 
 LaTeX Warning: Command \textregistered invalid in math mode on input line 160.
 
 
-LaTeX Warning: Command \textcircled invalid in math mode on input line 160.
+LaTeX Warning: Command \textregistered invalid in math mode on input line 160.
 
-
-LaTeX Warning: Command \textcircled invalid in math mode on input line 160.
-
+Missing character: There is no ® in font pplr7t!
 (./Figures/CaelyxSucroseContinuousWAXS.tex
-<Figures/CaelyxSucroseContinuousWAXS.pdf, id=1854, 284.06125pt x 226.8475pt>
+<Figures/CaelyxSucroseContinuousWAXS.pdf, id=1845, 284.06125pt x 226.8475pt>
 File: Figures/CaelyxSucroseContinuousWAXS.pdf Graphic file (type pdf)
 
 <use Figures/CaelyxSucroseContinuousWAXS.pdf>
@@ -1676,7 +1959,7 @@ line 110.
 (pdftex.def)             Requested size: 284.06053pt x 226.84694pt.
 )
 (./Figures/CaelyxSucroseContinuousWAXSDiffraction.tex
-<Figures/CaelyxSucroseContinuousWAXSDiffraction.pdf, id=1855, 284.06125pt x 226
+<Figures/CaelyxSucroseContinuousWAXSDiffraction.pdf, id=1846, 284.06125pt x 226
 .8475pt>
 File: Figures/CaelyxSucroseContinuousWAXSDiffraction.pdf Graphic file (type pdf
 )
@@ -1686,7 +1969,7 @@ d on input line 139.
 (pdftex.def)             Requested size: 284.06053pt x 226.84694pt.
 ) [89 <./Figures/CaelyxSucroseContinuousWAXS.pdf> <./Figures/CaelyxSucroseConti
 nuousWAXSDiffraction.pdf>] (./Figures/CaelyxIsopointComparison.tex
-<Figures/CaelyxIsopointComparison.pdf, id=1874, 284.06125pt x 226.8475pt>
+<Figures/CaelyxIsopointComparison.pdf, id=1864, 284.06125pt x 226.8475pt>
 File: Figures/CaelyxIsopointComparison.pdf Graphic file (type pdf)
 
 <use Figures/CaelyxIsopointComparison.pdf>
@@ -1698,11 +1981,9 @@ e 109.
 LaTeX Warning: Command \textregistered invalid in math mode on input line 178.
 
 
-LaTeX Warning: Command \textcircled invalid in math mode on input line 178.
+LaTeX Warning: Command \textregistered invalid in math mode on input line 178.
 
-
-LaTeX Warning: Command \textcircled invalid in math mode on input line 178.
-
+Missing character: There is no ® in font pplr7t!
 
 Overfull \hbox (3.35847pt too wide) in paragraph at lines 184--185
 \OT1/ppl/m/n/12 Typically, unil-amel-lar li-po-somes present a very nar-row siz
@@ -1710,7 +1991,7 @@ e dis-tri-bu-tion and spher-
  []
 
 [90 <./Figures/CaelyxIsopointComparison.pdf>] (./Figures/SSLSingleContrast.tex
-<Figures/SSLSingleContrast.pdf, id=1906, 284.06125pt x 226.8475pt>
+<Figures/SSLSingleContrast.pdf, id=1897, 284.06125pt x 226.8475pt>
 File: Figures/SSLSingleContrast.pdf Graphic file (type pdf)
 
 <use Figures/SSLSingleContrast.pdf>
@@ -1722,7 +2003,7 @@ LaTeX Warning: Reference `sec:materials_SSL' on page 91 undefined on input line
  195.
 
 (./Figures/SSLSingleContrastBilayer.tex
-<Figures/SSLSingleContrastBilayer.pdf, id=1908, 198.7425pt x 312.16624pt>
+<Figures/SSLSingleContrastBilayer.pdf, id=1899, 198.7425pt x 312.16624pt>
 File: Figures/SSLSingleContrastBilayer.pdf Graphic file (type pdf)
 
 <use Figures/SSLSingleContrastBilayer.pdf>
@@ -1730,7 +2011,7 @@ Package pdftex.def Info: Figures/SSLSingleContrastBilayer.pdf used on input lin
 e 105.
 (pdftex.def)             Requested size: 198.742pt x 312.16548pt.
 ) [91] [92 <./Figures/SSLSingleContrast.pdf>] (./Figures/SSLContinuousSAXS.tex
-<Figures/SSLContinuousSAXS.pdf, id=1939, 284.06125pt x 226.8475pt>
+<Figures/SSLContinuousSAXS.pdf, id=1930, 284.06125pt x 226.8475pt>
 File: Figures/SSLContinuousSAXS.pdf Graphic file (type pdf)
 
 <use Figures/SSLContinuousSAXS.pdf>
@@ -1738,7 +2019,7 @@ Package pdftex.def Info: Figures/SSLContinuousSAXS.pdf used on input line 111.
 (pdftex.def)             Requested size: 284.06053pt x 226.84694pt.
 ) [93 <./Figures/SSLSingleContrastBilayer.pdf>] (./Figures/SSLIsopointIntensity
 .tex
-<Figures/SSLIsopointIntensity.pdf, id=1948, 284.06125pt x 226.8475pt>
+<Figures/SSLIsopointIntensity.pdf, id=1939, 284.06125pt x 226.8475pt>
 File: Figures/SSLIsopointIntensity.pdf Graphic file (type pdf)
 
 <use Figures/SSLIsopointIntensity.pdf>
@@ -1747,7 +2028,7 @@ Package pdftex.def Info: Figures/SSLIsopointIntensity.pdf used on input line 10
 (pdftex.def)             Requested size: 284.06053pt x 226.84694pt.
 ) [94 <./Figures/SSLContinuousSAXS.pdf>]
 (./Figures/SSLContrastCurvesBilayer200SSL.tex
-<Figures/SSLContrastCurvesBilayer200SSL.pdf, id=1965, 198.7425pt x 312.16624pt>
+<Figures/SSLContrastCurvesBilayer200SSL.pdf, id=1956, 198.7425pt x 312.16624pt>
 File: Figures/SSLContrastCurvesBilayer200SSL.pdf Graphic file (type pdf)
 <use Figures/SSLContrastCurvesBilayer200SSL.pdf>
 Package pdftex.def Info: Figures/SSLContrastCurvesBilayer200SSL.pdf used on inp
@@ -1755,7 +2036,7 @@ ut line 105.
 (pdftex.def)             Requested size: 198.742pt x 312.16548pt.
 )
 (./Figures/SSLContrastCurvesBilayer100Plain.tex
-<Figures/SSLContrastCurvesBilayer100Plain.pdf, id=1966, 198.7425pt x 312.16624p
+<Figures/SSLContrastCurvesBilayer100Plain.pdf, id=1957, 198.7425pt x 312.16624p
 t>
 File: Figures/SSLContrastCurvesBilayer100Plain.pdf Graphic file (type pdf)
  <use Figures/SSLContrastCurvesBilayer100Plain.pdf>
@@ -1765,7 +2046,7 @@ nput line 105.
 ) [95 <./Figures/SSLIsopointIntensity.pdf>] [96 <./Figures/SSLContrastCurvesBil
 ayer200SSL.pdf> <./Figures/SSLContrastCurvesBilayer100Plain.pdf>]
 (./Figures/SSLContrastVariationChiSquared400SSL.tex
-<Figures/SSLContrastVariationChiSquared400SSL.pdf, id=1996, 284.06125pt x 226.8
+<Figures/SSLContrastVariationChiSquared400SSL.pdf, id=1987, 284.06125pt x 226.8
 475pt>
 File: Figures/SSLContrastVariationChiSquared400SSL.pdf Graphic file (type pdf)
  <use Figures/SSLContrastVariationChiSquared400SSL.pdf>
@@ -1773,7 +2054,7 @@ Package pdftex.def Info: Figures/SSLContrastVariationChiSquared400SSL.pdf used
 on input line 121.
 (pdftex.def)             Requested size: 284.06053pt x 226.84694pt.
 ) [97 <./Figures/SSLContrastVariationChiSquared400SSL.pdf>] [98] (./Figures/HDL
-ContinuousSAXS.tex <Figures/HDLContinuousSAXS.pdf, id=2054, 284.06125pt x 226.8
+ContinuousSAXS.tex <Figures/HDLContinuousSAXS.pdf, id=2045, 284.06125pt x 226.8
 475pt>
 File: Figures/HDLContinuousSAXS.pdf Graphic file (type pdf)
 
@@ -1781,7 +2062,7 @@ File: Figures/HDLContinuousSAXS.pdf Graphic file (type pdf)
 Package pdftex.def Info: Figures/HDLContinuousSAXS.pdf used on input line 104.
 (pdftex.def)             Requested size: 284.06053pt x 226.84694pt.
 ) (./Figures/LDLContinuousSAXS.tex
-<Figures/LDLContinuousSAXS.pdf, id=2055, 284.06125pt x 226.8475pt>
+<Figures/LDLContinuousSAXS.pdf, id=2046, 284.06125pt x 226.8475pt>
 File: Figures/LDLContinuousSAXS.pdf Graphic file (type pdf)
 
 <use Figures/LDLContinuousSAXS.pdf>
@@ -1789,7 +2070,7 @@ Package pdftex.def Info: Figures/LDLContinuousSAXS.pdf used on input line 104.
 (pdftex.def)             Requested size: 284.06053pt x 226.84694pt.
 ) [99 <./Figures/HDLContinuousSAXS.pdf> <./Figures/LDLContinuousSAXS.pdf>] (./F
 igures/LipoproteinIsopointComp.tex
-<Figures/LipoproteinIsopointComp.pdf, id=2089, 284.06125pt x 226.8475pt>
+<Figures/LipoproteinIsopointComp.pdf, id=2080, 284.06125pt x 226.8475pt>
 File: Figures/LipoproteinIsopointComp.pdf Graphic file (type pdf)
 
 <use Figures/LipoproteinIsopointComp.pdf>
@@ -1798,7 +2079,7 @@ Package pdftex.def Info: Figures/LipoproteinIsopointComp.pdf used on input line
 (pdftex.def)             Requested size: 284.06053pt x 226.84694pt.
 )
 (./Figures/LipoproteinsAverageDensity.tex
-<Figures/LipoproteinsAverageDensity.pdf, id=2090, 284.06125pt x 226.8475pt>
+<Figures/LipoproteinsAverageDensity.pdf, id=2081, 284.06125pt x 226.8475pt>
 File: Figures/LipoproteinsAverageDensity.pdf Graphic file (type pdf)
 
 <use Figures/LipoproteinsAverageDensity.pdf>
@@ -1808,7 +2089,7 @@ ine 109.
 ) [100 <./Figures/LipoproteinIsopointComp.pdf> <./Figures/LipoproteinsAverageDe
 nsity.pdf>]
 (./Figures/HDLGuinierRadius.tex
-<Figures/HDLGuinierRadius.pdf, id=2128, 284.06125pt x 226.8475pt>
+<Figures/HDLGuinierRadius.pdf, id=2119, 284.06125pt x 226.8475pt>
 File: Figures/HDLGuinierRadius.pdf Graphic file (type pdf)
 
 <use Figures/HDLGuinierRadius.pdf>
@@ -1816,7 +2097,7 @@ Package pdftex.def Info: Figures/HDLGuinierRadius.pdf used on input line 107.
 (pdftex.def)             Requested size: 284.06053pt x 226.84694pt.
 ) [101 <./Figures/HDLGuinierRadius.pdf>]
 (./Figures/CoatedKiskerIgGSingleContrastSAXS.tex
-<Figures/CoatedKiskerIgGSingleContrastSAXS.pdf, id=2153, 284.06125pt x 226.8475
+<Figures/CoatedKiskerIgGSingleContrastSAXS.pdf, id=2144, 284.06125pt x 226.8475
 pt>
 File: Figures/CoatedKiskerIgGSingleContrastSAXS.pdf Graphic file (type pdf)
  <use Figures/CoatedKiskerIgGSingleContrastSAXS.pdf>
@@ -1837,7 +2118,7 @@ LaTeX Warning: No positions in optional float specifier.
 
 [103 <./Figures/CoatedKiskerIgGSingleContrastSAXS.pdf>]
 (./Figures/CoatedKiskerIsopointComp.tex
-<Figures/CoatedKiskerIsopointComp.pdf, id=2183, 284.06125pt x 226.8475pt>
+<Figures/CoatedKiskerIsopointComp.pdf, id=2174, 284.06125pt x 226.8475pt>
 File: Figures/CoatedKiskerIsopointComp.pdf Graphic file (type pdf)
 
 <use Figures/CoatedKiskerIsopointComp.pdf>
@@ -1853,51 +2134,50 @@ LaTeX Warning: No positions in optional float specifier.
 LaTeX Warning: Command \textregistered invalid in math mode on input line 415.
 
 
-LaTeX Warning: Command \textcircled invalid in math mode on input line 415.
+LaTeX Warning: Command \textregistered invalid in math mode on input line 415.
 
+Missing character: There is no ® in font pplr7t!
 
-LaTeX Warning: Command \textcircled invalid in math mode on input line 415.
+Overfull \hbox (2.71036pt too wide) in paragraph at lines 415--416
+\OT1/ppl/m/n/12 Caelyx$$, empty li-po-so-mal nanocar-ri-ers, hu-man lipopro-tei
+ns or protein-coated poly-
+ []
 
 [106]
 
 LaTeX Warning: Command \textregistered invalid in math mode on input line 417.
 
 
-LaTeX Warning: Command \textcircled invalid in math mode on input line 417.
+LaTeX Warning: Command \textregistered invalid in math mode on input line 417.
 
-
-LaTeX Warning: Command \textcircled invalid in math mode on input line 417.
-
+Missing character: There is no ® in font pplr7t!
 [107]) [108] (./main.bbl [109
 
 
 ] [110] [111] [112] [113] [114]
-Underfull \hbox (badness 2418) in paragraph at lines 386--389
+Underfull \hbox (badness 2418) in paragraph at lines 387--390
 []\OT1/ppl/m/sc/12 Havel, R. J., Eder, H. A. & Brag-don, J. H. \OT1/ppl/m/n/12 
 1955 THE DIS-TRI-BU-
  []
 
 [115] [116] [117] [118]
-Underfull \hbox (badness 1122) in paragraph at lines 659--664
+Underfull \hbox (badness 1122) in paragraph at lines 660--665
 []\OT1/ppl/m/sc/12 Monopoli, M. P., Wal-czyk, D., Camp-bell, A., Elia, G., Lync
 h, I.,
  []
 
 [119] [120] [121] [122] [123] [124])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 72.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 76.
  [125]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 72.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 76.
  (./main.aux (./abstract.aux)
 (./chapter_introduction.aux) (./chapter_theory_SAXS.aux)
 (./chapter_experimental_setup.aux) (./chapter_density_gradient_SAXS.aux)
 (./chapter_simultaneous_size_density.aux) (./chapter_bio_applications.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 72.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 72.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 76.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 76.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 1BD193CCC81190B182DC16D4D0697619;6546.
-
-
-LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+(rerunfilecheck)             Checksum: 6205394A40C5256BDD9A79C53A7293DF;6463.
 
 
 LaTeX Warning: There were undefined references.
@@ -1905,16 +2185,16 @@ LaTeX Warning: There were undefined references.
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 72.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 76.
  ) 
 Here is how much of TeX's memory you used:
- 10082 strings out of 493315
- 166415 string characters out of 6145894
- 252114 words of memory out of 5000000
- 12607 multiletter control sequences out of 15000+600000
- 51524 words of font info for 134 fonts, out of 8000000 for 9000
+ 16213 strings out of 493315
+ 285643 string characters out of 6145894
+ 362345 words of memory out of 5000000
+ 18643 multiletter control sequences out of 15000+600000
+ 70005 words of font info for 180 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
- 44i,16n,49p,1693b,755s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 44i,16n,49p,1693b,756s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/base/8r.enc}</usr/share/texmf/fonts/type1/p
 ublic/amsfonts/cm/cmex10.pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/c
 mmi10.pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/shar
@@ -1923,10 +2203,10 @@ e/texmf/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf/fonts/type1
 .pfb></usr/share/texmf/fonts/type1/urw/palatino/uplb8a.pfb></usr/share/texmf/fo
 nts/type1/urw/palatino/uplr8a.pfb></usr/share/texmf/fonts/type1/urw/palatino/up
 lri8a.pfb>
-Output written on main.pdf (126 pages, 5236035 bytes).
+Output written on main.pdf (126 pages, 5237640 bytes).
 PDF statistics:
- 2449 PDF objects out of 2487 (max. 8388607)
- 2157 compressed objects within 22 object streams
- 544 named destinations out of 1000 (max. 500000)
- 941 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2437 PDF objects out of 2487 (max. 8388607)
+ 2144 compressed objects within 22 object streams
+ 533 named destinations out of 1000 (max. 500000)
+ 938 words of extra memory for PDF output out of 10000 (max. 10000000)
 

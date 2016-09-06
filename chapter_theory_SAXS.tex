@@ -1,62 +1,73 @@
 \chapter{Theoretical Background}
 \label{chap:theory_SAXS}
+In this chapter, the basic phyisical principles underlying the operation of small-angle X-ray scattering are presented, focusing principally on the interaction between X-rays and matter and the elastic scattering of X-rays by an ensemble of electrons. An entire section is devoted to the theoretical framework used in contrast variation experiments in SAXS, where concepts suchs as the isoscattering point and the Guinier radius are introduced.
 
-\section{Interaction of light/X-ray and matter}
+\section{Interaction of X-rays and matter}
 
-X-rays can be considered a wave in vacuum with a wave vector 
+X-rays are electromagnetic radiation which propagates in vacuum along the direction of the wavevector $\vec{k}$. The incident X-ray radiation can be described by the wave function of a monochromatic plane wave:
 
 \begin{equation}
-        k=\abs{\vec{k}} = \frac{2\pi}{\lambda}
+        \Psi_0\left( \vec{r} \right)=A_0 e^{i \vec{k}\vec{r} }
 \end{equation}
 
-The photon energy can be related to this wave length by using the following formula, which uses the quantisation of light/electromagneti radiation as an ensemble of quanta or photons
+where the wavenumber $k=\abs{\vec{k}}$ is related to the X-ray wavelength by $k=\sfrac{2\pi}{\lambda}$. Conventially, X-ray wavelengths ranges between 0.01 and 10 nm, although SAXS experiments are conducted normally at the hard X-ray range, e.g. at wavelenghts between 0.02 and 0.8 nm. Due to the wave-particle duality of electromagnetic radiation, X-rays possess a particle nature as well, represented by the quantisation of light into an ensemble of photons with an energy $\hbar \omega$. The photon energy is related to the X-ray wavelength by\textcolor{red}{REF}
 
 \begin{equation}
         \lambda = \frac{h c}{E_{ph}}
 \end{equation}
 
-The x-rays are an electromagnetic wave. The primary wave irradiating the sample is assumed plane and monochromatic
-
-\begin{equation}
-        \vec{E_i}\left( \vec{r},t \right)=\vec{E_i}e^{-i\left( \omega t - \vec{k_i}\vec{r} \right)}
-\end{equation}
-which can be described using the wave function of a plane wave:
-\begin{equation}
-        \Psi_0\left( \vec{r} \right)=A_0 e^{i \vec{k_0}\vec{r} }
-\end{equation}
+where $h=2\pi\hbar$ is the Planck's constant and $c$ is the speed of light in vacuum. The photon energies employed typically in SAXS experiments stretch between the silicon K-edge at 1.7 keV and some dozens of keV, including the classical copper K$_{\alpha}$ emission line at 8 keV.
 
 \subsection{Beer-Lambert law}
 \label{sec:BeerLambert}
 
-the attenuation of light to the properties of the material 
+\begin{figure}%[htbp]
+	\centering
+	        \def\svgwidth{0.75\linewidth}
+		\input{Figures/BeerLambertScheme.pdf_tex}
+		\caption{The Beer-Lamber law: The attenuation of X-rays through a medium of thickness $d$ is depicted.}
+		\label{fig:BeerLambertScheme}
+\end{figure}
 
-When the X-ray beam passes through the material, it transfers energy to the absorbing matter, attenuating its original intensity depending on the volume of the absorbing element. The decrease in the intensity is directly proportional to the concentration of the absorber C and the path length of the X-ray inside the sample dx.
+The interaction of X-ray photons and matter produce an attenuation of the incident radiation intensity $I_0$ which is related to the properties and volume of the material. The decrease of the intensity through a medium is schematically depicted in figure \ref{fig:BeerLambertScheme} and described by the Beer-Lambert law\textcolor{red}{REF}:
 
-intensity through the sample
-
-\begin{equation}
-        dI\left( x \right)=-\mu I dx
-\end{equation}
-where $\mu$ is the linear absorption coefficient.
 \begin{equation}
         I\left( x \right)=I_0e^{-\mu x}
 \end{equation}
 
-For x-rays, the refractive index is very close to 1 because $\delta\simeq10^{-5}$. Refraction can be neglected and we can focus on the scattering experimetns
-
-\begin{equation}
-        n = 1 - \delta +i \beta
-\end{equation}
-
-$\beta$ is called the extintion coefficient and is related to the linear attenuation coefficient by:
+where $\mu$ is the linear attenuation coefficient and $x$ is the radiation path length. The attenuation coefficient is dependent on the material composition and the photon energy and is directly related to the extinction coefficient $\beta$, e.g. the imaginary part of the refraction index $n$, by\textcolor{red}{REF} 
 
 \begin{equation}
         \mu (E) = \frac{4\pi}{hc} E \beta(E)
 \end{equation}
 
+Considering that the refractive index is expressed generally by $n = 1 - \delta +i \beta$\textcolor{red}{REF} and $\delta<10^{-3}$ in the X-ray regime \textcolor{red}{REF}, refraction effects can be neglected in scattering experiments because $\Re(n)$ is very close but smaller than unity.
+
+When the attenuating medium is composed of different atomic species, $\mu$ can be expressed as the summation of each component attenuation coefficient:
+
+\begin{equation}
+        \mu = \sum_i \mu^i = \sum_i \rho_e^i \sigma^i  =N_A\sum_1  \frac{Z^i}{A^i} \rho^i \sigma^i
+\end{equation}
+
+where $N_A$ is the Avogadro constant, $\sigma$ is the attenuation cross-section and $\rho_e$ is the number density of absorbing centers. In the X-ray regime, photons interact principally with the atomic electrons, thus the electron density $\rho_e$ is directly proportional to the atomic number $Z$, the atomic mass number $A$ and the physical density $\rho$ of the component $i$. 
+
+In fact, the attenuation cross-section $\sigma$ is dependent upon the several different mechanisms in which a X-ray photon interacts with the atomic electrons. The 3 most relevant effects are the photoelectron absorption, the coherent scattering and the incoherent scattering, which sum up to the total attenuation coefficient:
+
+\begin{equation}
+        \mu = \rho_e (\tau_{abs}+\sigma_{scat, el}+\sigma_{scat, inel})
+\end{equation}
+
 The X-ray can interact in 3 different ways with the electron. 3 mechanisms.
 
 - Photoelectron absorption
+
+xray photon is absorbed by an atom and the excess energy is transferred to an electron, whih is expelled from the atom, leaving it ionized.
+
+Photon completely absorbed
+
+Fluorescence, Auger electorn
+
+Dominates in VUV
 
 - Inelastic scattering (compton scattering): in this case, it can be neglected because $E_{ph}<<< m_ec^2$ . We are not treating it, because we are just using X-ray. Compton scattering is almost negligible at low angles , where the scattered photon has a different wavelength than the incident photon $\lambda$
 
@@ -68,58 +79,8 @@ The X-ray can interact in 3 different ways with the electron. 3 mechanisms.
 
 - Elastic scattering: Is the intersting part for SAXS
 
-The attenuation of light in matter is a combination of these 3 effects, as seen here: $\mu$ linear attenuation coefficient $\tau_{abs}$ photoelectron absorption cross-section $\sigma_{scat}$ scattering cross-section
+We will focus principally in the the elastic e.g. coherent scattering for the goals of the work presented here
 
-\begin{equation}
-        \mu = \rho_e (\tau_{abs}+\sigma_{scat, el}+\sigma_{scat, inel})
-\end{equation}
-
-\subsubsection{Multi-element material}
-If there is more than one element inside
-
-\begin{equation}
-        \mu = \sum_i \mu_i
-\end{equation}
-
-In the case of electrons, 
-\begin{equation}
-        \mu_i = \rho_{e} \sigma_a
-\end{equation}
-
-where $\rho_{at}$ is the atomic/ELECTRON number density and $\sigma_a$ the corresponding atomic cross-section
-
-The electron density is related to the mass density
-\begin{equation}
-        \rho_e = \rho N_A \frac{Z}{A}
-\end{equation}
-\begin{equation}
-        \mu = \sum_i \sigma_i \rho_i =\sum_i \sigma_i \frac{C_i}{N_A}
-\end{equation}
-where $C_I$ is the concentration of scatteres. Therefore, the Beer-Lambert law for different elements in the solution (for example, water and solute):
-
-\begin{equation}
-        I = I_0 e^{-\mu} = I_0e^{-\mu_{solv}}e^{-\mu_{solute}}
-\end{equation}
-
-\begin{equation}
-        I(x) = I_0 e^{-\sum_i \sigma_i \frac{C_i}{N_A} x} =  I_0e^{-C_{solv} \frac{\sigma_i}{N_A}x}e^{-C_{solute} \frac{\sigma_i}{N_A}x}
-\end{equation}
-
-For a position like $x=d$, where $I(d)=I$
-
-\begin{equation}
-        C_{solute}=\frac{N_A}{\sigma_{solute}d}\left( \log(I_0) - \log(I) \right) - C_{solvent} \frac{\sigma_{solvent}}{\sigma_{solute}}=A \left( \log(I_0) - \log(I) \right) + B
-\end{equation}
-
-\subsection{Photoelectron absorption}
-
-xray photon is absorbed by an atom and the excess energy is transferred to an electron, whih is expelled from the atom, leaving it ionized.
-
-Photon completely absorbed
-
-Fluorescence, Auger electorn
-
-Dominates in VUV
 
 \subsection{Elastic scattering}
 

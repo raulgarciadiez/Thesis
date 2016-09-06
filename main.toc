@@ -12,11 +12,9 @@
 \contentsline {subsubsection}{Single-particle method}{7}{section*.2}
 \contentsline {subsubsection}{Ensemble methods}{7}{section*.3}
 \contentsline {chapter}{\numberline {2}Theoretical Background}{8}{chapter.2}
-\contentsline {section}{\numberline {2.1}Interaction of light/X-ray and matter}{8}{section.2.1}
-\contentsline {subsection}{\numberline {2.1.1}Beer-Lambert law}{8}{subsection.2.1.1}
-\contentsline {subsubsection}{Multi-element material}{10}{section*.4}
-\contentsline {subsection}{\numberline {2.1.2}Photoelectron absorption}{10}{subsection.2.1.2}
-\contentsline {subsection}{\numberline {2.1.3}Elastic scattering}{11}{subsection.2.1.3}
+\contentsline {section}{\numberline {2.1}Interaction of X-rays and matter}{8}{section.2.1}
+\contentsline {subsection}{\numberline {2.1.1}Beer-Lambert law}{9}{subsection.2.1.1}
+\contentsline {subsection}{\numberline {2.1.2}Elastic scattering}{11}{subsection.2.1.2}
 \contentsline {subsubsection}{Thompson scattering}{11}{section*.5}
 \contentsline {subsubsection}{Rayleigh scattering}{11}{section*.6}
 \contentsline {subsubsection}{Anomalous scattering}{12}{section*.7}
@@ -47,7 +45,7 @@
 \contentsline {subsection}{\numberline {3.4.1}Round capillaries}{29}{subsection.3.4.1}
 \contentsline {subsection}{\numberline {3.4.2}Rectangular capillaries}{30}{subsection.3.4.2}
 \contentsline {subsection}{\numberline {3.4.3}Cell for low-energies}{32}{subsection.3.4.3}
-\contentsline {section}{\numberline {3.5}Data reduction: The scattering curve}{33}{section.3.5}
+\contentsline {section}{\numberline {3.5}Data reduction: The scattering curve}{32}{section.3.5}
 \contentsline {chapter}{\numberline {4}Continuous contrast variation in SAXS: the density gradient technique}{35}{chapter.4}
 \contentsline {section}{\numberline {4.1}Experimental proceeding}{36}{section.4.1}
 \contentsline {subsection}{\numberline {4.1.1}Preparation of the density gradient capillaries}{37}{subsection.4.1.1}

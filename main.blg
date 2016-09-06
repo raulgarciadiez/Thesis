@@ -11,7 +11,7 @@ A level-1 auxiliary file: chapter_simultaneous_size_density.aux
 A level-1 auxiliary file: chapter_bio_applications.aux
 Database file #1: thesis.bib
 Warning--entry type for "fitzpatrick_structure_1998" isn't style-file defined
---line 2482 of file thesis.bib
+--line 2410 of file thesis.bib
 `number' is a missing field, not a string, for entry dingenouts_analysis_1999
 while executing---line 3135 of file meinbst.bst
 Warning--can't use both author and editor fields in feigin_structure_1987
@@ -19,7 +19,7 @@ Warning--can't use both author and editor fields in feigin_structure_1987
 while executing---line 3135 of file meinbst.bst
 You've used 173 entries,
             2851 wiz_defined-function locations,
-            1614 strings with 43355 characters,
+            1614 strings with 43459 characters,
 and the built_in function-call counts, 96528 in all, are:
 = -- 9121
 > -- 5675
