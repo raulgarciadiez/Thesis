@@ -16,86 +16,86 @@
 \contentsline {subsection}{\numberline {2.1.1}Beer-Lambert law}{9}{subsection.2.1.1}
 \contentsline {subsection}{\numberline {2.1.2}Elastic scattering}{11}{subsection.2.1.2}
 \contentsline {subsubsection}{Thomson scattering}{11}{section*.6}
-\contentsline {subsubsection}{Rayleigh scattering}{12}{section*.7}
-\contentsline {subsubsection}{Anomalous scattering}{13}{section*.8}
-\contentsline {section}{\numberline {2.2}Small-angle X-ray scattering}{13}{section.2.2}
+\contentsline {subsubsection}{Scattering by an ensemble of electrons}{12}{section*.7}
+\contentsline {subsubsection}{Anomalous scattering}{13}{section*.9}
+\contentsline {section}{\numberline {2.2}Small-angle X-ray scattering}{14}{section.2.2}
 \contentsline {subsection}{\numberline {2.2.1}Spherical symmetry and the momentum transfer $q$}{14}{subsection.2.2.1}
-\contentsline {subsubsection}{Sphere form factor}{14}{section*.9}
-\contentsline {subsection}{\numberline {2.2.2}Modelling of the scattering curve}{14}{subsection.2.2.2}
-\contentsline {subsubsection}{Guinier approximation}{16}{section*.10}
-\contentsline {section}{\numberline {2.3}Contrast variation}{16}{section.2.3}
-\contentsline {subsection}{\numberline {2.3.1}Isoscattering point}{16}{subsection.2.3.1}
-\contentsline {subsubsection}{Possible deviations}{17}{section*.11}
-\contentsline {subsection}{\numberline {2.3.2}Basic functions approach}{17}{subsection.2.3.2}
-\contentsline {subsubsection}{Shape factor}{17}{section*.12}
-\contentsline {subsubsection}{Guinier law}{18}{section*.13}
-\contentsline {subsubsection}{$I(0)$}{19}{section*.14}
-\contentsline {section}{\numberline {2.4}Dynamic Light Scattering}{19}{section.2.4}
-\contentsline {chapter}{\numberline {3}Instrumentation and experimental setup for SAXS measurements}{20}{chapter.3}
-\contentsline {section}{\numberline {3.1}Synchrotron radiation at BESSY II}{21}{section.3.1}
-\contentsline {subsection}{\numberline {3.1.1}The BESSY II Electron Storage Ring}{22}{subsection.3.1.1}
-\contentsline {subsection}{\numberline {3.1.2}Insertion devices}{23}{subsection.3.1.2}
-\contentsline {section}{\numberline {3.2}FCM Beamline}{24}{section.3.2}
-\contentsline {subsection}{\numberline {3.2.1}UHV X-ray Reflectometer}{26}{subsection.3.2.1}
-\contentsline {section}{\numberline {3.3}SAXS Setup}{26}{section.3.3}
-\contentsline {subsection}{\numberline {3.3.1}X-ray area detector}{27}{subsection.3.3.1}
-\contentsline {subsection}{\numberline {3.3.2}HZB SAXS instrument and WAXS configuration}{27}{subsection.3.3.2}
-\contentsline {subsubsection}{Calibration of the sample-detector distance}{28}{section*.19}
-\contentsline {section}{\numberline {3.4}Sample environment}{30}{section.3.4}
-\contentsline {subsection}{\numberline {3.4.1}Round capillaries}{30}{subsection.3.4.1}
-\contentsline {subsection}{\numberline {3.4.2}Rectangular capillaries}{31}{subsection.3.4.2}
-\contentsline {subsection}{\numberline {3.4.3}Cell for low-energies}{33}{subsection.3.4.3}
-\contentsline {section}{\numberline {3.5}Data reduction: The scattering curve}{33}{section.3.5}
-\contentsline {chapter}{\numberline {4}Continuous contrast variation in SAXS: the density gradient technique}{36}{chapter.4}
-\contentsline {section}{\numberline {4.1}Experimental proceeding}{37}{section.4.1}
-\contentsline {subsection}{\numberline {4.1.1}Preparation of the density gradient capillaries}{38}{subsection.4.1.1}
-\contentsline {subsection}{\numberline {4.1.2}Calibration of the solvent density: X-ray transmission}{38}{subsection.4.1.2}
-\contentsline {subsection}{\numberline {4.1.3}SAXS measurements}{41}{subsection.4.1.3}
-\contentsline {section}{\numberline {4.2}Proof of principle: Experimental results of PS-COOH colloids}{42}{section.4.2}
-\contentsline {section}{\numberline {4.3}Results and data evaluation}{45}{section.4.3}
-\contentsline {subsection}{\numberline {4.3.1}Core-shell form factor fit}{45}{subsection.4.3.1}
-\contentsline {subsection}{\numberline {4.3.2}Isoscattering point}{47}{subsection.4.3.2}
-\contentsline {subsubsection}{Quantification: Relative standard deviation}{47}{section*.30}
-\contentsline {subsection}{\numberline {4.3.3}Guinier region}{49}{subsection.4.3.3}
-\contentsline {subsubsection}{Average electron density}{51}{section*.35}
-\contentsline {section}{\numberline {4.4}Consistency of the results}{52}{section.4.4}
-\contentsline {section}{\numberline {4.5}Summary and outlook}{53}{section.4.5}
-\contentsline {subsubsection}{Applicability of the technique}{53}{section*.38}
-\contentsline {subsubsection}{Other applications of the density gradient capillary}{55}{section*.39}
-\contentsline {chapter}{\numberline {5}Simultaneous size and density determination of polymeric colloids}{57}{chapter.5}
-\contentsline {section}{\numberline {5.1}Materials and methods}{60}{section.5.1}
-\contentsline {subsection}{\numberline {5.1.1}Particles and chemicals}{60}{subsection.5.1.1}
-\contentsline {subsection}{\numberline {5.1.2}Differential Centrifuge Sedimentation (DCS)}{61}{subsection.5.1.2}
-\contentsline {subsubsection}{Stokes equations}{62}{section*.43}
-\contentsline {subsubsection}{Combined analysis}{62}{section*.44}
-\contentsline {section}{\numberline {5.2}Technique validation for the determination of the particle size distribution}{64}{section.5.2}
-\contentsline {subsection}{\numberline {5.2.1}Inter-laboratory comparison of the mean particle size}{66}{subsection.5.2.1}
-\contentsline {subsection}{\numberline {5.2.2}Colloidal size distribution}{67}{subsection.5.2.2}
-\contentsline {section}{\numberline {5.3}Considerations about contrast variation data evaluation}{69}{section.5.3}
-\contentsline {subsection}{\numberline {5.3.1}Shape factor formalism}{69}{subsection.5.3.1}
-\contentsline {subsubsection}{Advantages and disadvatages}{70}{section*.51}
-\contentsline {subsection}{\numberline {5.3.2}Isoscattering point approach}{70}{subsection.5.3.2}
-\contentsline {subsubsection}{Advantages and disadvatages}{72}{section*.54}
-\contentsline {section}{\numberline {5.4}Determination of the particle physical density}{72}{section.5.4}
-\contentsline {subsection}{\numberline {5.4.1}Validation through comparison with DCS}{72}{subsection.5.4.1}
-\contentsline {subsubsection}{Uncertainties}{74}{section*.57}
-\contentsline {subsection}{\numberline {5.4.2}Use for heavier polymeric colloids}{74}{subsection.5.4.2}
-\contentsline {section}{\numberline {5.5}Summary}{75}{section.5.5}
-\contentsline {chapter}{\numberline {6}Continuous contrast variation applied to relevant bio-materials}{77}{chapter.6}
-\contentsline {section}{\numberline {6.1}Materials and methods}{78}{section.6.1}
-\contentsline {subsection}{\numberline {6.1.1}Caelyx$\textregistered $: PEGylated liposomal doxorubicin}{78}{subsection.6.1.1}
-\contentsline {subsection}{\numberline {6.1.2}Lipid vesicles: PEGylated and plain liposomes}{80}{subsection.6.1.2}
-\contentsline {subsection}{\numberline {6.1.3}Human lipoproteins}{80}{subsection.6.1.3}
-\contentsline {subsection}{\numberline {6.1.4}PS-COOH particles coated with IgG}{81}{subsection.6.1.4}
-\contentsline {section}{\numberline {6.2}Traceable size determination of a liposomal drug}{82}{section.6.2}
-\contentsline {subsection}{\numberline {6.2.1}Isoscattering point approach}{84}{subsection.6.2.1}
-\contentsline {subsection}{\numberline {6.2.2}Shape factor calculation}{84}{subsection.6.2.2}
-\contentsline {subsection}{\numberline {6.2.3}Average electron density}{86}{subsection.6.2.3}
-\contentsline {section}{\numberline {6.3}Osmotic effects in liposomes}{86}{section.6.3}
-\contentsline {subsection}{\numberline {6.3.1}Application to drug-stabilized liposomes}{88}{subsection.6.3.1}
-\contentsline {subsection}{\numberline {6.3.2}Does PEGylation affect the osmotic activity of liposomes?}{92}{subsection.6.3.2}
-\contentsline {section}{\numberline {6.4}Sizing of blood plasma componenents}{99}{section.6.4}
-\contentsline {section}{\numberline {6.5}Protein-coated low-density nanoparticles}{103}{section.6.5}
-\contentsline {subsection}{\numberline {6.5.1}Hard protein corona characterization with contrast variation}{105}{subsection.6.5.1}
-\contentsline {subsubsection}{Uncertainty analysis}{107}{section*.79}
-\contentsline {section}{\numberline {6.6}Summary}{108}{section.6.6}
+\contentsline {subsubsection}{Sphere form factor}{15}{section*.10}
+\contentsline {subsection}{\numberline {2.2.2}Modelling of the scattering curve}{15}{subsection.2.2.2}
+\contentsline {subsubsection}{Guinier approximation}{17}{section*.11}
+\contentsline {section}{\numberline {2.3}Contrast variation}{17}{section.2.3}
+\contentsline {subsection}{\numberline {2.3.1}Isoscattering point}{17}{subsection.2.3.1}
+\contentsline {subsubsection}{Possible deviations}{18}{section*.12}
+\contentsline {subsection}{\numberline {2.3.2}Basic functions approach}{18}{subsection.2.3.2}
+\contentsline {subsubsection}{Shape factor}{18}{section*.13}
+\contentsline {subsubsection}{Guinier law}{18}{section*.14}
+\contentsline {subsubsection}{$I(0)$}{19}{section*.15}
+\contentsline {section}{\numberline {2.4}Dynamic Light Scattering}{20}{section.2.4}
+\contentsline {chapter}{\numberline {3}Instrumentation and experimental setup for SAXS measurements}{21}{chapter.3}
+\contentsline {section}{\numberline {3.1}Synchrotron radiation at BESSY II}{22}{section.3.1}
+\contentsline {subsection}{\numberline {3.1.1}The BESSY II Electron Storage Ring}{23}{subsection.3.1.1}
+\contentsline {subsection}{\numberline {3.1.2}Insertion devices}{24}{subsection.3.1.2}
+\contentsline {section}{\numberline {3.2}FCM Beamline}{25}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}UHV X-ray Reflectometer}{27}{subsection.3.2.1}
+\contentsline {section}{\numberline {3.3}SAXS Setup}{27}{section.3.3}
+\contentsline {subsection}{\numberline {3.3.1}X-ray area detector}{28}{subsection.3.3.1}
+\contentsline {subsection}{\numberline {3.3.2}HZB SAXS instrument and WAXS configuration}{28}{subsection.3.3.2}
+\contentsline {subsubsection}{Calibration of the sample-detector distance}{29}{section*.20}
+\contentsline {section}{\numberline {3.4}Sample environment}{31}{section.3.4}
+\contentsline {subsection}{\numberline {3.4.1}Round capillaries}{31}{subsection.3.4.1}
+\contentsline {subsection}{\numberline {3.4.2}Rectangular capillaries}{32}{subsection.3.4.2}
+\contentsline {subsection}{\numberline {3.4.3}Cell for low-energies}{34}{subsection.3.4.3}
+\contentsline {section}{\numberline {3.5}Data reduction: The scattering curve}{34}{section.3.5}
+\contentsline {chapter}{\numberline {4}Continuous contrast variation in SAXS: the density gradient technique}{37}{chapter.4}
+\contentsline {section}{\numberline {4.1}Experimental proceeding}{38}{section.4.1}
+\contentsline {subsection}{\numberline {4.1.1}Preparation of the density gradient capillaries}{39}{subsection.4.1.1}
+\contentsline {subsection}{\numberline {4.1.2}Calibration of the solvent density: X-ray transmission}{39}{subsection.4.1.2}
+\contentsline {subsection}{\numberline {4.1.3}SAXS measurements}{42}{subsection.4.1.3}
+\contentsline {section}{\numberline {4.2}Proof of principle: Experimental results of PS-COOH colloids}{43}{section.4.2}
+\contentsline {section}{\numberline {4.3}Results and data evaluation}{46}{section.4.3}
+\contentsline {subsection}{\numberline {4.3.1}Core-shell form factor fit}{46}{subsection.4.3.1}
+\contentsline {subsection}{\numberline {4.3.2}Isoscattering point}{48}{subsection.4.3.2}
+\contentsline {subsubsection}{Quantification: Relative standard deviation}{48}{section*.31}
+\contentsline {subsection}{\numberline {4.3.3}Guinier region}{50}{subsection.4.3.3}
+\contentsline {subsubsection}{Average electron density}{52}{section*.36}
+\contentsline {section}{\numberline {4.4}Consistency of the results}{53}{section.4.4}
+\contentsline {section}{\numberline {4.5}Summary and outlook}{54}{section.4.5}
+\contentsline {subsubsection}{Applicability of the technique}{54}{section*.39}
+\contentsline {subsubsection}{Other applications of the density gradient capillary}{56}{section*.40}
+\contentsline {chapter}{\numberline {5}Simultaneous size and density determination of polymeric colloids}{58}{chapter.5}
+\contentsline {section}{\numberline {5.1}Materials and methods}{61}{section.5.1}
+\contentsline {subsection}{\numberline {5.1.1}Particles and chemicals}{61}{subsection.5.1.1}
+\contentsline {subsection}{\numberline {5.1.2}Differential Centrifuge Sedimentation (DCS)}{62}{subsection.5.1.2}
+\contentsline {subsubsection}{Stokes equations}{63}{section*.44}
+\contentsline {subsubsection}{Combined analysis}{63}{section*.45}
+\contentsline {section}{\numberline {5.2}Technique validation for the determination of the particle size distribution}{65}{section.5.2}
+\contentsline {subsection}{\numberline {5.2.1}Inter-laboratory comparison of the mean particle size}{67}{subsection.5.2.1}
+\contentsline {subsection}{\numberline {5.2.2}Colloidal size distribution}{68}{subsection.5.2.2}
+\contentsline {section}{\numberline {5.3}Considerations about contrast variation data evaluation}{70}{section.5.3}
+\contentsline {subsection}{\numberline {5.3.1}Shape factor formalism}{70}{subsection.5.3.1}
+\contentsline {subsubsection}{Advantages and disadvatages}{71}{section*.52}
+\contentsline {subsection}{\numberline {5.3.2}Isoscattering point approach}{71}{subsection.5.3.2}
+\contentsline {subsubsection}{Advantages and disadvatages}{73}{section*.55}
+\contentsline {section}{\numberline {5.4}Determination of the particle physical density}{73}{section.5.4}
+\contentsline {subsection}{\numberline {5.4.1}Validation through comparison with DCS}{73}{subsection.5.4.1}
+\contentsline {subsubsection}{Uncertainties}{75}{section*.58}
+\contentsline {subsection}{\numberline {5.4.2}Use for heavier polymeric colloids}{75}{subsection.5.4.2}
+\contentsline {section}{\numberline {5.5}Summary}{76}{section.5.5}
+\contentsline {chapter}{\numberline {6}Continuous contrast variation applied to relevant bio-materials}{78}{chapter.6}
+\contentsline {section}{\numberline {6.1}Materials and methods}{79}{section.6.1}
+\contentsline {subsection}{\numberline {6.1.1}Caelyx$\textregistered $: PEGylated liposomal doxorubicin}{79}{subsection.6.1.1}
+\contentsline {subsection}{\numberline {6.1.2}Lipid vesicles: PEGylated and plain liposomes}{81}{subsection.6.1.2}
+\contentsline {subsection}{\numberline {6.1.3}Human lipoproteins}{81}{subsection.6.1.3}
+\contentsline {subsection}{\numberline {6.1.4}PS-COOH particles coated with IgG}{82}{subsection.6.1.4}
+\contentsline {section}{\numberline {6.2}Traceable size determination of a liposomal drug}{83}{section.6.2}
+\contentsline {subsection}{\numberline {6.2.1}Isoscattering point approach}{85}{subsection.6.2.1}
+\contentsline {subsection}{\numberline {6.2.2}Shape factor calculation}{85}{subsection.6.2.2}
+\contentsline {subsection}{\numberline {6.2.3}Average electron density}{87}{subsection.6.2.3}
+\contentsline {section}{\numberline {6.3}Osmotic effects in liposomes}{87}{section.6.3}
+\contentsline {subsection}{\numberline {6.3.1}Application to drug-stabilized liposomes}{89}{subsection.6.3.1}
+\contentsline {subsection}{\numberline {6.3.2}Does PEGylation affect the osmotic activity of liposomes?}{93}{subsection.6.3.2}
+\contentsline {section}{\numberline {6.4}Sizing of blood plasma componenents}{100}{section.6.4}
+\contentsline {section}{\numberline {6.5}Protein-coated low-density nanoparticles}{104}{section.6.5}
+\contentsline {subsection}{\numberline {6.5.1}Hard protein corona characterization with contrast variation}{106}{subsection.6.5.1}
+\contentsline {subsubsection}{Uncertainty analysis}{108}{section*.80}
+\contentsline {section}{\numberline {6.6}Summary}{109}{section.6.6}
