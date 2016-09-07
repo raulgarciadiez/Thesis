@@ -46,60 +46,42 @@ Considering that the refractive index is expressed generally by $n = 1 - \delta 
 When the attenuating medium is composed of different atomic species, $\mu$ can be expressed as the summation of each component attenuation coefficient:
 
 \begin{equation}
-        \mu = \sum_i \mu^i = \sum_i \rho_e^i \sigma^i  =N_A\sum_1  \frac{Z^i}{A^i} \rho^i \sigma^i
+        \mu = \sum_i \mu^i = \sum_i \rho_e^i \sigma^i  =N_A\sum_i  \frac{Z^i}{A^i} \rho^i \sigma^i
 \end{equation}
 
-where $N_A$ is the Avogadro constant, $\sigma$ is the attenuation cross-section and $\rho_e$ is the number density of absorbing centers. In the X-ray regime, photons interact principally with the atomic electrons, thus the electron density $\rho_e$ is directly proportional to the atomic number $Z$, the atomic mass number $A$ and the physical density $\rho$ of the component $i$. 
+where $N_A$ is the Avogadro constant, $\sigma$ is the attenuation cross-section and $\rho_e$ is the number density of absorbing centers. The cross-section $\sigma$ is defined as the effective area in which photon-matter events occur. In the X-ray regime, photons interact principally with the atomic electrons, thus $\rho_e$ is the electron density and is directly proportional to the atomic number $Z$, the atomic mass number $A$ and the physical density $\rho$ of the component $i$. 
+
+\begin{figure}%[htbp]
+	\centering
+		\input{Figures/AttenuationWater}
+		\caption{The different contributions to the attenuation of water at room temperature and the total attenuation.}
+		\label{fig:AttenuationWater}
+\end{figure}
 
 In fact, the attenuation cross-section $\sigma$ is dependent upon the several different mechanisms in which a X-ray photon interacts with the atomic electrons. The 3 most relevant effects are the photoelectron absorption, the coherent scattering and the incoherent scattering, which sum up to the total attenuation coefficient:
 
 \begin{equation}
-        \mu = \rho_e (\tau_{abs}+\sigma_{scat, el}+\sigma_{scat, inel})
+        \mu = \rho_e (\tau_{\text{abs}}+\sigma_{\text{scat, coh}}+\sigma_{\text{scat, incoh}})
 \end{equation}
 
-The X-ray can interact in 3 different ways with the electron. 3 mechanisms.
+When the X-ray photon is completely absorbed by the atom, the event is called photoelectron absorption because a photoelectron with the excess energy is expelled from an inner atomic shell, leaving the atom ionized. The created core-hole is consequently filled by an electron from an outer shell either by a radiative process, i.e. \emph{fluorescence}, or by a non-radiative mechanism emitting a secondary electron, i.e. Auger effect. The photoelectric effect is the predominant contribution to the attenuation principally at low X-ray energies and the ultraviolet regime, as shown in figure \ref{fig:AttenuationWater}. 
 
-- Photoelectron absorption
-
-xray photon is absorbed by an atom and the excess energy is transferred to an electron, whih is expelled from the atom, leaving it ionized.
-
-Photon completely absorbed
-
-Fluorescence, Auger electorn
-
-Dominates in VUV
-
-- Inelastic scattering (compton scattering): in this case, it can be neglected because $E_{ph}<<< m_ec^2$ . We are not treating it, because we are just using X-ray. Compton scattering is almost negligible at low angles , where the scattered photon has a different wavelength than the incident photon $\lambda$
-
-\begin{equation}
-        \lambda_{scat}-\lambda = \frac{h}{m_e c}\left( 1 - \cos{\Theta} \right) \simeq \frac{h}{2m_e c} \Theta ^ 2
-\end{equation}
-
-\textcolor{red}{maybe that is not the reason. Look at cross-sections in x-ray data booklet}
-
-- Elastic scattering: Is the intersting part for SAXS
-
-We will focus principally in the the elastic e.g. coherent scattering for the goals of the work presented here
-
+The other relevant contributions at the X-ray range are related to scattering processes. In an inelastic scattering event, the energy of the incident photon is partially transfered to a loosely bond electron resulting in a scattered photon with a lower frequency, according to the Compton relation $\Delta\lambda = \sfrac{h}{m_e c}\left( 1 - \cos{\Theta} \right) $, where $\Theta$ is the scattering angle. The Compton scattering is incoherent and contributes generally less than the elastic scattering at energies below 10 keV, as observed in figure \ref{fig:AttenuationWater}. Besides, the coherent scattering signal is the summation of the constructive interferences of the electromagnetic wave, which produces a higher scattered intensity than the inelastic scattering. In fact, the elastic scattering of X-rays is the main proccess used in material investigations and the pyhsical principle behind SAXS.
 
 \subsection{Elastic scattering}
 
-Coherence scattering means that the scattering amplitudes are added and the intensity is the absolute square of the resultiting amplitude.
+When the wavelength of the scattered wave is the same than that of the incident one, the proccess is named elastic scattering or coherent scattering and the resulting intensity is the absolute square of the sum of the scattering amplitudes. In the following sections, the elastic scattering theory will be presented for the classical case and for an ensemble of electrons.
 
-\subsubsection{Thompson scattering}
-Elastic scattering by a free electron
+\subsubsection{Thomson scattering}
 
-Intensity of the secondary/scattered wave by classical theory (for an unpolarized light)
-
-\begin{equation}
-        I_{scat}\left( r \right)= I_0 \left( \frac{e^2}{4\pi \epsilon_0 m c^2} \right)^2 \frac{1}{r^2} \left( \frac{1+\cos^2{2\Theta}}{2} \right)
-\end{equation}
-
-where the Thomson radius, classical electron radius is $2.82\cdot10^{-15}$ m is defined by:
+Classically, the elastic scattering of a photon by a free electron is described by the conservation of the photon energy, i.e. the wavenumber of the scattered wave is the same than the incident one ($\abs{\vec{k_{\text{s}}}}=\abs{\vec{k}}$). Consequently for unpolarized incident radiation, the intensity of the scattered wave at a distance $r$ and with a scattering angle $2\Theta$ is defined by:
 
 \begin{equation}
-        r_e= \frac{e^2}{4\pi\epsilon_0 m c^2}
+        I_{\text{scat}}\left( r,\Theta \right)= I_0 \left( \frac{r_e}{r} \right) ^2 \left( \frac{1+\cos^2{2\Theta}}{2} \right)
 \end{equation}
+
+where $I_0$ is the incident intensity and $r_e= \sfrac{e^2}{4\pi\epsilon_0 m c^2}=2.82\cdot10^{-15}$ m is the Thomson or classical electron radius.
+
 
 The differential scattering cross section is defined by (energy radiated per time per solid angle / incident energy per time per area):
 
