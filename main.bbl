@@ -1,4 +1,4 @@
-\begin{thebibliography}{177}
+\begin{thebibliography}{181}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 
 \bibitem[Als-Nielsen \& McMorrow(2011)]{als-nielsen_elements_2011}
@@ -208,6 +208,11 @@
 \bibitem[{de Gier}(1993)]{de_gier_osmotic_1993}
 {\sc {de Gier}, J.} 1993 Osmotic behaviour and permeability properties of
   liposomes. {\em Chemistry and Physics of Lipids\/} {\bf 64}, 187--196.
+
+\bibitem[{de L. Kronig}(1926)]{de_l._kronig_theory_1926}
+{\sc {de L. Kronig}, R.} 1926 On the {{Theory}} of {{Dispersion}} of
+  {{X}}-{{Rays}}. {\em Journal of the Optical Society of America\/} {\bf 12},
+  547.
 
 \bibitem[Dem{\'e} {\em et~al.\/}(2002)Dem{\'e}, Dubois, Gulik-Krzywicki \&
   Zemb]{deme_giant_2002}
@@ -538,6 +543,9 @@
   Physikalisch-Technischen Bundesanstalt Braunschweig und Berlin 124. Jahrgang,
   Heft 3\/} p.~7.
 
+\bibitem[Kramers(1927)]{kramers_diffusion_1927}
+{\sc Kramers, H.~A.} 1927 {\em La Diffusion de La Lumiere Par Les Atomes\/}.
+
 \bibitem[Kratky {\em et~al.\/}(1966)Kratky, Pilz \&
   Schmitz]{kratky_absolute_1966}
 {\sc Kratky, O., Pilz, I. \& Schmitz, P.~J.} 1966 Absolute intensity
@@ -764,6 +772,13 @@
 {\sc Pauw, B.~R.} 2013 Everything {{SAXS}}: Small-angle scattering pattern
   collection and correction. {\em Journal of Physics: Condensed Matter\/} {\bf
   25}, 383201.
+
+\bibitem[Pauw {\em et~al.\/}(2013)Pauw, Pedersen, Tardif, Takata \&
+  Iversen]{pauw_improvements_2013}
+{\sc Pauw, B.~R., Pedersen, J.~S., Tardif, S., Takata, M. \& Iversen, B.~B.}
+  2013 Improvements and considerations for size distribution retrieval from
+  small-angle scattering data by {{Monte Carlo}} methods. {\em Journal of
+  Applied Crystallography\/} {\bf 46}, 365--371.
 
 \bibitem[Pedersen(1994)]{pedersen_determination_1994}
 {\sc Pedersen, J.~S.} 1994 Determination of size distribution from small-angle
@@ -1017,6 +1032,9 @@
   Farokhzad]{wang_nanoparticle_2012}
 {\sc Wang, A.~Z., Langer, R. \& Farokhzad, O.~C.} 2012 Nanoparticle
   {{Delivery}} of {{Cancer Drugs}}. {\em Annu Rev Med\/} {\bf 63}, 185--198.
+
+\bibitem[Warren(1969)]{warren_x-ray_1969}
+{\sc Warren, B.~E.} 1969 {\em X-Ray {{Diffraction}}\/}. {Courier Corporation}.
 
 \bibitem[Wernecke {\em et~al.\/}(2014)Wernecke, Gollwitzer, M{\"u}ller \&
   Krumrey]{wernecke_characterization_2014}

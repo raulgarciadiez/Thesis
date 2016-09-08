@@ -76,7 +76,7 @@ When the wavelength of the scattered wave is the same than that of the incident 
 
 \subsubsection{Thomson scattering}
 
-Classically, the elastic scattering of a photon by a free electron is described by the conservation of the photon energy, i.e. the wavenumber of the scattered wave is the same than the incident one ($\abs{\vec{k_{\text{s}}}}=\abs{\vec{k}}$). Consequently for unpolarized incident radiation, the intensity of the scattered wave at a distance $r$ and with a scattering angle $2\Theta$ is defined by:
+Classically, the elastic scattering of a photon by a free electron is described by the conservation of the photon energy, i.e. the wavenumber of the scattered wave is the same than the incident one ($\abs{\vec{k_{\text{s}}}}=\abs{\vec{k}}$). Consequently for unpolarized incident radiation, the intensity of the scattered wave at a distance $r$ and with a scattering angle $2\Theta$ is defined by \citep{warren_x-ray_1969}:
 
 \begin{equation}
         I_{\text{scat}}\left( r,\Theta \right)= I_0 \left( \frac{r_e}{r} \right) ^2 \left( \frac{1+\cos^2{2\Theta}}{2} \right)
@@ -137,13 +137,13 @@ This type of scattering mechanism is called Rayleigh-Gans-Debye when the refract
 
 \subsubsection{Anomalous scattering}
 
-In X-ray scattering experiments, the scattering centers are the electrons of the atom and the scattering field is the electron charge density about the nucleous, so $\phi(\vec{r})=\rho_e(\vec{r})$. The electron density is related to the atomic properties as observed in equation \ref{eq:AttenuationMultiComponent} and therefore the scattering amplitude increases with the atomic number $Z$ by calculating equation \ref{eq:rayleigh_cross_section} at the limit $\vec{q} \rightarrow 0$
+In X-ray scattering experiments, the scattering centers are the electrons of the atom and the scattering field is the electron charge density about the nucleous, so $\phi(\vec{r})=\rho_e(\vec{r})$. The electron density is related to the atomic properties as introduced in equation \ref{eq:AttenuationMultiComponent} and therefore the scattering amplitude increases with the atomic number $Z$ by calculating equation \ref{eq:rayleigh_cross_section} at the limit $\vec{q} \rightarrow 0$
 
 \begin{equation}
         f(\vec{q} \rightarrow 0) = \int \rho_e(\vec{r}')  d\vec{r}'^3 = Z
 \end{equation}
 
-This is valid when the incident radiation energy is much greater than the energy corresponding to the resonant excitation. When the X-ray energy is close to an absorption edge, anomalous dispersions becomes relevant and the scattering amplitude depends on the energy of the X-ray by adding the anomalous corrections \citep{als-nielsen_elements_2011}:
+This is valid when the incident radiation energy is much greater than the energy corresponding to a resonant excitation. When the X-ray energy is close to an absorption edge, anomalous dispersions becomes relevant and the scattering amplitude depends on the energy of the X-ray by adding the anomalous corrections \citep{als-nielsen_elements_2011}:
 
 \begin{equation}
         f(E) = f_0 + f'(E) + i f'' (E)
@@ -163,58 +163,56 @@ where $A$ is the atomic mass of the resonant atom and $\rho$ its physical densit
 
 The values of the anomalous scattering amplitude $f(E)$ are usually calculated using the experimentally measured attenuation coefficient $\mu(E)$.
 
-
 \section{Small-angle X-ray scattering}
 
-In the case of SAXS, the scatterers are electrons and therefore the field can be considered to be the electron distribution within the object
-\begin{equation}
-       \phi(\vec{r})=\rho_e(\vec{r})
-\end{equation}
-The electron density is related to the mass density
-\begin{equation}
-        \rho_e = \rho N_A \frac{Z}{A}
-\end{equation}
-fulfilling the condition of the number of electrons in the material:
-\begin{equation}
-        \int \rho_e(\vec{r}')  d\vec{r}'^3 = Z
-\end{equation}
-
-\subsection{Spherical symmetry and the momentum transfer $q$}
-
-If we consider that the object has spherical symmetry $\rho_e(\vec{r})=\rho_e(r)$ then
+Small-angle X-ray scattering is a powerful technique that can elucidate the structural features of particles with sizes ranging from about 2 nm up to 400 nm. By investigating the photons elastically scattered by the electron density distribution of the particle, the resulting patterns can be analysed according to equation \ref{eq:rayleigh_cross_section} to obtain information about the particle size, shape and composition. The fundamental quantities in a SAXS experiment are the scattering intensity $I(\vec{q}) = \abs{f(\vec{q})}^2$ and the scattering amplitude or \emph{form factor} $f(\vec{q})$, that for objects with spherical symmetry ($\rho_e(\vec{r})=\rho_e(r)$) is expressed by
 
 \begin{equation}
-       f(q,r)=\frac{4\pi}{q} \int_0^{\infty} \rho_e(r') r \sin(qr')  dr'
+        \label{eq:FormFactorSpherical}
+        f(q)=4\pi \int_0^{\infty} r'^2 \rho_e(r')  \frac{\sin(qr')}{qr'}  dr'
 \end{equation}
 
-The modulus of the momentum transfer vector $q$ is defined by
-\begin{equation}
-       q=\abs{q}=\abs{\vec{k} - \vec{k}_0}
-\end{equation}
-
-considering elastic scattering $\abs{\vec{k}}=\abs{\vec{k}_0}=\frac{2\pi}{\lambda}$
+where the modulus of the momentum transfer vector is defined by $q=\abs{\vec{q}}=\abs{\vec{k_s} - \vec{k}}$. Considering that SAXS is an elastic scattering proccess ($\abs{\vec{k_s}}=\abs{\vec{k}}=\sfrac{2\pi}{\lambda}$), the momentum transfer is expressed as
 
 \begin{equation}
 q=\frac{2\pi }{\lambda}\sin\theta=\frac{4\pi E}{h c}\sin\theta ,
 \end{equation}
 
-where \(\theta\) is half of the scattering angle, \(h\) is the Planck constant and \(c\) is the speed of light. \textcolor{red}{GRAPH WITH SCATTERING ANGLE AND CONTINUUM OBJECT WHERE THE POSITIONS ARE DEFINED: R AND R'}
-\subsubsection{Sphere form factor}
+where \(\theta\) is half of the scattering angle as depicted in figure \ref{fig:FraunhoferScheme}, \(h\) is the Planck constant and \(c\) is the speed of light.
+
+The systems studied by SAXS in this work consist of particles suspended in a uniform medium, e.g. water or buffer, with a different electron density $\rho_{\text{medium}}$ than the studied particle. In fact, the measured scattering amplitude is the addition of the medium and the particle contributions. Therefore, the scattering of the studied object is expressed in terms of the \emph{contrast}, $\Delta \rho (\vec{r}) = \rho_e(\vec{r}) - \rho_{\text{medium}}$, the electron density difference between the particle and the embedded matrix or surrounding medium. This leads to a slight modification of equation \ref{eq:FormFactorSpherical}, where $\rho_e(r)$ can be substituted by the contrast $\Delta\rho(r)$ to distinguish the contribution from the investigated particle from the medium.
+
+\subsection{Scattering by an ensemble of particles}
+
+For diluted systems with low particle concentration, the wave scattered by a particle does not interfere coherently with the neighboring particles and the scattering intensity can be expressed as a sum of the individual scattering. Therefore, the scattering intensity of an ensemble of randomly oriented nanoparticles in suspension can be expressed as
+
+\begin{equation}
+\label{eq:intensity}
+I(q)=N\int_{0}^{\infty} g(R)\left|f(q,R) \right|^2 dR,
+\end{equation}
+
+where \(N\) is the number of scatterers i.e particles, \(g(R)\) is their size distribution function and \(f(q,R)\) is the particle form factor, which depends on the radial structure of the particle as determined in equation \ref{eq:FormFactorSpherical}. Generally, the particles in suspension are not monodisperse show a certain size distribution which is directly related with their chemical preparation. For systems of relatively low size polydispersity, a gaussian size distribution is typically a good choice, which is expressed by:
+
+\begin{equation}
+       g_{\text{Gauss}}(R)=\frac{1}{\sigma \sqrt{2\pi}} e^{ - \frac{\left( R - \mu \right)^2}{2\sigma^2} }
+\end{equation}
+
+where $\mu$ is the mean size of the particles and $\sigma$ is the standard deviation of the size distribution. For smaller particles or higher polydispersity degrees, a log-normal distribution is preferred, defined as
+
+\begin{equation}
+       g_{\text{LN}}(R)=\frac{1}{\sigma \sqrt{2\pi}} e^{ - \frac{\left( \ln(R) - \ln(\mu) \right)^2}{2\sigma^2} }
+\end{equation}
+
+whose mean size is given by $\mu e^{\frac{\sigma^2}{2}}$ and the variance is $\mu^2 e^{\sigma^2} (e^{\sigma^2} - 1)$. Other approaches to the size distribution of particles in solution are based in numerical techniques, like the Monte-Carlo approach to form-free particle size distributions \citep{pauw_improvements_2013}.
+
+\subsection{Modelling of the scattering amplitude: Form factors}
 For the simple case of a solid sphere with uniform density $\rho_e(r>R)=0$ and $\rho_e(r<R)=\rho$, the integral is limited to the radius of the particle $R$
 
 \begin{equation}
        f_{sph}(q,R)=\frac{4}{3}\pi R^3 \rho \left( 3\frac{\sin(qR)-qR\cos(qR)}{\left( qR \right)^3} \right)
 \end{equation}
 
-\subsection{Modelling of the scattering curve}
-What about size distributions? Log-normal, gaussian, Monte-carlo free number of sizes (Pauw)
-
-The scattering intensity of an ensemble of randomly oriented nanoparticles in suspension can be expressed as a function of the momentum transfer \( q \), modulus of the scattering vector \(\vec q\), as
-\begin{equation}
-\label{eq:intensity}
-I(q)=N\int_{0}^{\infty} g(R)\left|F(q,R) \right|^2 dR,
-\end{equation}
-where \(N\) is the number of scatterers, \(g(R)\) is the size distribution function and \(F(R)\) is the particle form factor, which depends on the inner radial structure of the particle. If the particle shows a heterogeneous morphology, the form factor differs qualitatively for different suspending medium densities.  For sufficiently monodisperse particle suspensions, the Fourier region of the scattering curve shows pronounced minima that characterize the particle structure. 
+ 
 
 For a typical morphology with sharp interfaces between the radial symmetric components of the particle with radius \(R_i\) the form factor is
 \begin{equation}

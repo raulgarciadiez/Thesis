@@ -12,52 +12,51 @@ A level-1 auxiliary file: chapter_bio_applications.aux
 Database file #1: thesis.bib
 Warning--entry type for "fitzpatrick_structure_1998" isn't style-file defined
 --line 2410 of file thesis.bib
-Warning--I didn't find a database entry for "de_l._kronig_theory_1926"
-Warning--I didn't find a database entry for "kramers_diffusion_1927"
 `number' is a missing field, not a string, for entry dingenouts_analysis_1999
 while executing---line 3135 of file meinbst.bst
 Warning--can't use both author and editor fields in feigin_structure_1987
+Warning--empty publisher in kramers_diffusion_1927
 `number' is a missing field, not a string, for entry stuhrmann_resonance_1985
 while executing---line 3135 of file meinbst.bst
-You've used 177 entries,
+You've used 181 entries,
             2851 wiz_defined-function locations,
-            1633 strings with 43967 characters,
-and the built_in function-call counts, 98038 in all, are:
-= -- 9262
-> -- 5731
-< -- 76
-+ -- 2224
-- -- 2013
-* -- 9489
-:= -- 17745
-add.period$ -- 357
-call.type$ -- 177
-change.case$ -- 1562
-chr.to.int$ -- 191
-cite$ -- 178
-duplicate$ -- 3867
-empty$ -- 6475
-format.name$ -- 2256
-if$ -- 18956
+            1649 strings with 44466 characters,
+and the built_in function-call counts, 99697 in all, are:
+= -- 9415
+> -- 5803
+< -- 79
++ -- 2252
+- -- 2037
+* -- 9624
+:= -- 18052
+add.period$ -- 364
+call.type$ -- 181
+change.case$ -- 1588
+chr.to.int$ -- 195
+cite$ -- 183
+duplicate$ -- 3946
+empty$ -- 6609
+format.name$ -- 2284
+if$ -- 19286
 int.to.chr$ -- 5
 int.to.str$ -- 1
-missing$ -- 184
-newline$ -- 535
-num.names$ -- 712
-pop$ -- 1260
+missing$ -- 190
+newline$ -- 547
+num.names$ -- 728
+pop$ -- 1288
 preamble$ -- 1
-purify$ -- 1378
+purify$ -- 1402
 quote$ -- 0
-skip$ -- 2229
+skip$ -- 2283
 stack$ -- 0
-substring$ -- 5919
-swap$ -- 881
+substring$ -- 5997
+swap$ -- 896
 text.length$ -- 8
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 1566
-warning$ -- 1
-while$ -- 850
+type$ -- 1596
+warning$ -- 2
+while$ -- 865
 width$ -- 0
-write$ -- 1949
+write$ -- 1990
 (There were 2 error messages)
