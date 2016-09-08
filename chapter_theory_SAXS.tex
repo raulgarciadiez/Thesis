@@ -205,52 +205,43 @@ where $\mu$ is the mean size of the particles and $\sigma$ is the standard devia
 
 whose mean size is given by $\mu e^{\frac{\sigma^2}{2}}$ and the variance is $\mu^2 e^{\sigma^2} (e^{\sigma^2} - 1)$. Other approaches to the size distribution of particles in solution are based in numerical techniques, like the Monte-Carlo approach to form-free particle size distributions \citep{pauw_improvements_2013}.
 
-\subsection{Modelling of the scattering amplitude: Form factors}
-For the simple case of a solid sphere with uniform density $\rho_e(r>R)=0$ and $\rho_e(r<R)=\rho$, the integral is limited to the radius of the particle $R$
+\subsection{Modelling of the scattering intensity: Form factors}
+
+Besides the information from the size distribution of the particle ensemble, the modelling of the scattering intensity $I(q)$ provides very precise information about the shape and composition of the particles by modelling the form factor or scattering amplitude. In the simple case of a solid sphere with uniform density $\rho_0$, the radial electron density profile is described by $\rho_e(r>R)=0$ and $\rho_e(r<R)=\rho_0$, whilst the integral is limited to the radius of the particle $R$. The form factor of a homogenous solid sphere is 
 
 \begin{equation}
-       f_{sph}(q,R)=\frac{4}{3}\pi R^3 \rho \left( 3\frac{\sin(qR)-qR\cos(qR)}{\left( qR \right)^3} \right)
+       f_{\text{sph}}(q,R)=\frac{4}{3}\pi R^3 \left( \rho_0 - \rho_{\text{medium}} \right) \left( 3\frac{\sin(qR)-qR\cos(qR)}{\left( qR \right)^3} \right) = \Delta \rho_0 \cdot F_{\text{sph}}(q,R)
 \end{equation}
 
- 
+where $\Delta \rho_0$ is the excess electron density or contrast and $ F_{\text{sph}}(q,R)$ is defined for convenience. 
 
-For a typical morphology with sharp interfaces between the radial symmetric components of the particle with radius \(R_i\) the form factor is
+Generally, nanoparticles show an internal heterogeneity and an inner electron density distribution. If the components are radially distinguishable, the form factor of a typical morphology with sharp interfaces between the radial symmetric components of the particle with radius \(R_i\) is
+
 \begin{equation}
 \label{eq:multicore-shell}
-F\left(q,R \right)= \Delta \eta f_{sph}(q,R)+\sum_{i=1}^{n-1} \Delta\rho_i \left( f_{sph}(q,R_{i+1})-f_{sph}(q,R_{i}) \right) ,
+f\left(q,R \right)= \Delta \eta F_{\text{sph}}(q,R)+\sum_{i=1}^{n-1} \Delta\rho_i \left( F_{\text{sph}}(q,R_{i+1})-F_{\text{sph}}(q,R_{i}) \right) ,
 \end{equation}
-where \(R\) is the external radius of the particle, \( n \) is the number of concentric shells and \(f_{sph}\) is the form factor of a homogeneous solid sphere given by
-\begin{equation}
-f_{sph}(q,R)=\frac{4}{3} \pi R^3  \left( 3\frac{\sin{qR}-qR\sin{qR}}{(qR)^3}\right).
-\label{eq:ff_sph}
-\end{equation}
-\begin{itemize}
-	\item [Sphere] Gudrun polymeric colloids???
-	
-	In the case of the PMMA-COOH colloids, the form factor is calculated for a homogeneous solid sphere with electron density $\rho_0$:
-\begin{equation}
-f_{sph}(q,R)=\frac{4}{3} \pi R^3  \left( 3\frac{\sin{qR}-qR\cos{qR}}{(qR)^3}\right)=\frac{F(q,R)}{\rho_0}.
-\label{eq:ff_sph}
-\end{equation}
-	\item [Core-shell] Interface effects???
-	
-	The model represents a radially symmetric particle with a sharp interface between the outer shell and the inner core. The form factor is described by
+
+where \(R\) is the external radius of the particle and \( n \) is the number of concentric shells. The excess of electron density of each component is $\Delta\rho_i = \rho_i - \rho_{\text{core}}$ and the contrast is defined in this case as $\Delta \eta = \rho_{\text{core}} - \rho_{\text{medium}}$ in order to isolate the solvent electron density in one term.
+
+The simplest case of expression \ref{eq:multicore-shell} arises for core-shell particles. This model represents a radially symmetric particle with a sharp interface between the outer shell and the inner core. The form factor is described by
 
 \begin{equation}
-	\begin{split}
-	F(q,R)= & \Delta\eta f_{sph}(q,R)+ \\
-	& \Delta\rho\left[ f_{sph}(q,R)-f_{sph}(q,R_{core}) \right] ,
-	\end{split}
+	f(q,R)=  \Delta\eta F_{\text{sph}}(q,R) +  \Delta\rho\left[ F_{\text{sph}}(q,R)-F_{\text{sph}}(q,R_{\text{core}}) \right] ,
 \label{eq:ff_cs}
 \end{equation}
 
-where \(R \) and \(R_{core} \)  are the outer shell and inner core radii respectively, the excess of electron density is \(\Delta\rho=\rho_{shell}-\rho_{core}\) and the contrast is expressed as \(\Delta\eta=\rho_{core}-\rho_{solv}\), where $\rho_{solv}$ is the electron density of the suspending medium.
+where \(R \) and \(R_{\text{core}} \)  are the outer shell and inner core radii respectively, the excess of electron density is \(\Delta\rho=\rho_{\text{shell}}-\rho_{\text{core}}\) and the contrast is expressed as \(\Delta\eta=\rho_{\text{core}}-\rho_{\text{solv}}\), where $\rho_{\text{solv}}$ is the electron density of the suspending medium.
 
-	\item [Onion model] It can be used for single-SAXS experiment maybe
-	\item [Vesicle] 5 gaussian????
-	\item [Inclusion of background] a+b*q-4
-	\item [Double shell model] Used in the protein-coated Kisker NPs (last chapter)
-\end{itemize}
+Depending on the synthesis of the particles, the interface between the different phases might show a linear gradient of the electron densities of the components. Analogoulsy to expression \ref{eq:multicore-shell}, the form factor of a multicomponent spherical particle with a linear gradient interface is
+
+\begin{equation}
+f\left(q,R \right)=\sum_{\left[0,N-1\right]}\left[m_i \left( F_{\text{lin}}(q,R_{i+1})-F_{\text{lin}}(q,R_{i}) \right) +b_i \left( F_{\text{sph}}(q,R_{i+1})-F_{\text{sph}}(q,R_{i}) \right) \right]
+\end{equation}
+where $m_i=\sfrac{\rho_{i+1}-\rho_{i}}{R_{i+1}-R_{i}}$ and $b_i=\left( \rho_i-\rho_{\text{solv}} \right)-R_im_i$ and the linear form factor is defined by
+\begin{equation}
+F_{\text{lin}}(R,q)=4\pi\frac{ \left( 2qR\sin(qR)+2\cos(qR)-(qR)^2\cos(qR) \right)}{q^4}
+\end{equation}
 
 \subsubsection{Guinier approximation}
 deviation when using too few point

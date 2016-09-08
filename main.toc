@@ -20,12 +20,12 @@
 \contentsline {subsubsection}{Anomalous scattering}{14}{section*.9}
 \contentsline {section}{\numberline {2.2}Small-angle X-ray scattering}{14}{section.2.2}
 \contentsline {subsection}{\numberline {2.2.1}Scattering by an ensemble of particles}{15}{subsection.2.2.1}
-\contentsline {subsection}{\numberline {2.2.2}Modelling of the scattering amplitude: Form factors}{16}{subsection.2.2.2}
+\contentsline {subsection}{\numberline {2.2.2}Modelling of the scattering intensity: Form factors}{16}{subsection.2.2.2}
 \contentsline {subsubsection}{Guinier approximation}{17}{section*.10}
-\contentsline {section}{\numberline {2.3}Contrast variation}{17}{section.2.3}
+\contentsline {section}{\numberline {2.3}Contrast variation}{18}{section.2.3}
 \contentsline {subsection}{\numberline {2.3.1}Isoscattering point}{18}{subsection.2.3.1}
 \contentsline {subsubsection}{Possible deviations}{18}{section*.11}
-\contentsline {subsection}{\numberline {2.3.2}Basic functions approach}{18}{subsection.2.3.2}
+\contentsline {subsection}{\numberline {2.3.2}Basic functions approach}{19}{subsection.2.3.2}
 \contentsline {subsubsection}{Shape factor}{19}{section*.12}
 \contentsline {subsubsection}{Guinier law}{19}{section*.13}
 \contentsline {subsubsection}{$I(0)$}{20}{section*.14}
@@ -53,14 +53,14 @@
 \contentsline {section}{\numberline {4.2}Proof of principle: Experimental results of PS-COOH colloids}{43}{section.4.2}
 \contentsline {section}{\numberline {4.3}Results and data evaluation}{46}{section.4.3}
 \contentsline {subsection}{\numberline {4.3.1}Core-shell form factor fit}{46}{subsection.4.3.1}
-\contentsline {subsection}{\numberline {4.3.2}Isoscattering point}{48}{subsection.4.3.2}
-\contentsline {subsubsection}{Quantification: Relative standard deviation}{48}{section*.30}
-\contentsline {subsection}{\numberline {4.3.3}Guinier region}{50}{subsection.4.3.3}
-\contentsline {subsubsection}{Average electron density}{52}{section*.35}
-\contentsline {section}{\numberline {4.4}Consistency of the results}{53}{section.4.4}
-\contentsline {section}{\numberline {4.5}Summary and outlook}{54}{section.4.5}
+\contentsline {subsection}{\numberline {4.3.2}Isoscattering point}{47}{subsection.4.3.2}
+\contentsline {subsubsection}{Quantification: Relative standard deviation}{47}{section*.30}
+\contentsline {subsection}{\numberline {4.3.3}Guinier region}{49}{subsection.4.3.3}
+\contentsline {subsubsection}{Average electron density}{51}{section*.35}
+\contentsline {section}{\numberline {4.4}Consistency of the results}{52}{section.4.4}
+\contentsline {section}{\numberline {4.5}Summary and outlook}{53}{section.4.5}
 \contentsline {subsubsection}{Applicability of the technique}{54}{section*.38}
-\contentsline {subsubsection}{Other applications of the density gradient capillary}{56}{section*.39}
+\contentsline {subsubsection}{Other applications of the density gradient capillary}{55}{section*.39}
 \contentsline {chapter}{\numberline {5}Simultaneous size and density determination of polymeric colloids}{58}{chapter.5}
 \contentsline {section}{\numberline {5.1}Materials and methods}{61}{section.5.1}
 \contentsline {subsection}{\numberline {5.1.1}Particles and chemicals}{61}{subsection.5.1.1}
