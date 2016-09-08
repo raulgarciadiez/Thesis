@@ -1,5 +1,9 @@
-\begin{thebibliography}{173}
+\begin{thebibliography}{177}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
+
+\bibitem[Als-Nielsen \& McMorrow(2011)]{als-nielsen_elements_2011}
+{\sc Als-Nielsen, J. \& McMorrow, D.} 2011 {\em Elements of {{Modern X}}-Ray
+  {{Physics}}\/}. {John Wiley \& Sons}.
 
 \bibitem[Amenitsch {\em et~al.\/}(1997)Amenitsch, Bernstorff, Kriechbaum,
   Lombardo, Mio, Rappolt \& Laggner]{amenitsch_performance_1997}
@@ -59,6 +63,11 @@
 {\sc Ballauff, M., Bolze, J., Dingenouts, N., Hickl, P. \& P{\"o}tschke, D.}
   1996 Small-angle {{X}}-ray scattering on latexes. {\em Macromol Chem Phys\/}
   {\bf 197}, 3043--3066.
+
+\bibitem[Barber \& Wang(1978)]{barber_rayleigh-gans-debye_1978}
+{\sc Barber, P.~W. \& Wang, D.-S.} 1978 Rayleigh-{{Gans}}-{{Debye}}
+  applicability to scattering by nonspherical particles. {\em Applied Optics\/}
+  {\bf 17}, 797.
 
 \bibitem[Barenholz(2001)]{barenholz_liposome_2001}
 {\sc Barenholz, Y.} 2001 Liposome application: Problems and prospects. {\em
@@ -188,6 +197,9 @@
 \bibitem[Couprie \& Filhol(2008)]{couprie_x_2008}
 {\sc Couprie, M.-E. \& Filhol, J.-M.} 2008 X radiation sources based on
   accelerators. {\em Comptes Rendus Physique\/} {\bf 9}, 487--506.
+
+\bibitem[Cowley(1995)]{cowley_diffraction_1995}
+{\sc Cowley, J.~M.} 1995 {\em Diffraction {{Physics}}\/}. {Elsevier}.
 
 \bibitem[Cullity \& Stock(2001)]{cullity_elements_2001}
 {\sc Cullity, B.~D. \& Stock, S.~R.} 2001 {\em Elements of {{X}}-{{Ray
@@ -953,6 +965,10 @@
 {\sc {van Beurten}, P. \& Vrij, A.} 1981 Polydispersity effects in the
   small-angle scattering of concentrated solutions of colloidal spheres. {\em
   J. Chem. Phys.\/} {\bf 74}, 2744--2748.
+
+\bibitem[{van de Hulst}(1957)]{hulst_light_1957}
+{\sc {van de Hulst}, H.~C.} 1957 {\em Light {{Scattering}} by {{Small
+  Particles}}\/}. {Courier Corporation}.
 
 \bibitem[Varga {\em et~al.\/}(2014{\natexlab{{\em a\/}}})Varga, Wacha \&
   B{\'o}ta]{varga_osmotic_2014}

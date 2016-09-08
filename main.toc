@@ -17,19 +17,19 @@
 \contentsline {subsection}{\numberline {2.1.2}Elastic scattering}{11}{subsection.2.1.2}
 \contentsline {subsubsection}{Thomson scattering}{11}{section*.6}
 \contentsline {subsubsection}{Scattering by an ensemble of electrons}{12}{section*.7}
-\contentsline {subsubsection}{Anomalous scattering}{13}{section*.9}
+\contentsline {subsubsection}{Anomalous scattering}{14}{section*.9}
 \contentsline {section}{\numberline {2.2}Small-angle X-ray scattering}{14}{section.2.2}
-\contentsline {subsection}{\numberline {2.2.1}Spherical symmetry and the momentum transfer $q$}{14}{subsection.2.2.1}
+\contentsline {subsection}{\numberline {2.2.1}Spherical symmetry and the momentum transfer $q$}{15}{subsection.2.2.1}
 \contentsline {subsubsection}{Sphere form factor}{15}{section*.10}
-\contentsline {subsection}{\numberline {2.2.2}Modelling of the scattering curve}{15}{subsection.2.2.2}
+\contentsline {subsection}{\numberline {2.2.2}Modelling of the scattering curve}{16}{subsection.2.2.2}
 \contentsline {subsubsection}{Guinier approximation}{17}{section*.11}
 \contentsline {section}{\numberline {2.3}Contrast variation}{17}{section.2.3}
 \contentsline {subsection}{\numberline {2.3.1}Isoscattering point}{17}{subsection.2.3.1}
 \contentsline {subsubsection}{Possible deviations}{18}{section*.12}
 \contentsline {subsection}{\numberline {2.3.2}Basic functions approach}{18}{subsection.2.3.2}
-\contentsline {subsubsection}{Shape factor}{18}{section*.13}
-\contentsline {subsubsection}{Guinier law}{18}{section*.14}
-\contentsline {subsubsection}{$I(0)$}{19}{section*.15}
+\contentsline {subsubsection}{Shape factor}{19}{section*.13}
+\contentsline {subsubsection}{Guinier law}{19}{section*.14}
+\contentsline {subsubsection}{$I(0)$}{20}{section*.15}
 \contentsline {section}{\numberline {2.4}Dynamic Light Scattering}{20}{section.2.4}
 \contentsline {chapter}{\numberline {3}Instrumentation and experimental setup for SAXS measurements}{21}{chapter.3}
 \contentsline {section}{\numberline {3.1}Synchrotron radiation at BESSY II}{22}{section.3.1}

@@ -47,6 +47,7 @@ Considering that the refractive index is expressed generally by $n = 1 - \delta 
 When the attenuating medium is composed of different atomic species, $\mu$ can be expressed as the summation of each component attenuation coefficient:
 
 \begin{equation}
+        \label{eq:AttenuationMultiComponent}
         \mu = \sum_i \mu^i = \sum_i \rho_e^i \sigma^i  =N_A\sum_i  \frac{Z^i}{A^i} \rho^i \sigma^i
 \end{equation}
 
@@ -106,25 +107,25 @@ The scattering of a photon by an ensemble of weak bounded electrons can be studi
        \Psi\left( \vec{r} \right)= \Psi_0\left( \vec{r} \right) +  \Psi_{\text{scat}}\left( \vec{r} \right)
 \end{equation}
 
-Introducing this expression at the time-independent Schrodinger equation and considering the scattering wave as a perturbation produced by the scattering density function $\phi(\vec{r})$ \textcolor{red}{REF}, it can derived that
+Introducing this expression at the time-independent Schrödinger equation and considering the scattering wave as a perturbation produced by the scattering density function $\phi(\vec{r})$ \citep{cowley_diffraction_1995}, it can derived that
 
 \begin{equation}
        \Psi_{\text{scat}}\left( \vec{r} \right)=C \int \frac{e^{ i \vec{k}\abs{\vec{r}-\vec{r}'} } } {\abs{\vec{r}-\vec{r}'}} \phi(\vec{r}')   \Psi\left( \vec{r}' \right) d\vec{r}'^3
 \end{equation}
 
-where $C$ is the so-called \emph{scattering length}. If the detection position $\vec{r}$ is at distance much larger than the scattering object size, as outlined in figure \ref{fig:FraunhoferScheme}, the Fraunhoffer approximation\textcolor{red}{REF} applies and $\abs{\vec{r}-\vec{r'}}=r$, resulting in
+where $C$ is the so-called \emph{scattering length}. If the detection position $\vec{r}$ is at distance much larger than the scattering object size, as outlined in figure \ref{fig:FraunhoferScheme}, the Fraunhoffer approximation applies and $\abs{\vec{r}-\vec{r'}}=r$ \citep{feigin_structure_1987}, resulting in
 
 \begin{equation}
        \Psi_{\text{scat}}\left( \vec{r} \right)=C \frac{e^{i k r}}{r} \int e^{ -i \vec{k}\vec{r}' }  \phi(\vec{r}')   \Psi\left( \vec{r}' \right) d\vec{r}'^3
 \end{equation}
 
-Assuming that there are no multiple scattering events due to the low concentration of scatterers and that the potential field is weak, the first Born approximation\textcolor{red}{REF} can be employed ($ \Psi\left( \vec{r} \right) \simeq \Psi_0\left( \vec{r} \right)$), leading to
+Assuming that there are no multiple scattering events due to the low concentration of scatterers and that the potential field is weak, the first Born approximation can be employed ($ \Psi\left( \vec{r} \right) \simeq \Psi_0\left( \vec{r} \right)$) \citep{cowley_diffraction_1995}, leading to
 
 \begin{equation}
        \Psi_{\text{scat}}\left( \vec{r} \right)=C A_0 \frac{e^{i k r}}{r} \int e^{ i \vec{q}\vec{r}' }  \phi(\vec{r}')  d\vec{r}'^3
 \end{equation}
 
-where $\vec{q}=\vec{k_s} - \vec{k}$ is the momentum transfer vector. Analogously to equation \ref{eq:thomson_cross_section}, the differential scattering cross-section is:
+where $\vec{q}=\vec{k_s} - \vec{k}$ is the momentum transfer vector and $\vec{k_s}$ the scattered wavevector. Analogously to equation \ref{eq:thomson_cross_section}, the differential scattering cross-section is:
 
 \begin{equation}
         \label{eq:rayleigh_cross_section}
@@ -132,32 +133,35 @@ where $\vec{q}=\vec{k_s} - \vec{k}$ is the momentum transfer vector. Analogously
 \end{equation}
 where $f(\vec{q})=\int e^{ i \vec{q}\vec{r}' }  \phi(\vec{r}')  d\vec{r}'^3$ is the scattering amplitude and the scattering length is the classical electron radius $r_e$. The scattering amplitude is simply the Fourier transform of the scattering potential field $\phi(\vec{r})$. 
 
-This type of scattering mechanism is called Rayleigh-Gans-Debye when the refractive index of the object ($n_{\text{obj}}$) is close to unity and the condition $\sfrac{2\pi}{\lambda} \cdot a \cdot n_{\text{med}} \cdot \abs{1-\sfrac{n_{\text{obj}}}{n_{\text{med}}}}\ll1$ is fulfilled, being $a$ the size of the object. For X-ray photons with wavelenghts $\lambda$ in the Angstrom range and colloidal objects in the nanoscale, this approximation can be employed. In the case of optical radiation on colloids, the Mie scattering framework is used, while the Rayleigh scattering corresponts to light wavelengths much larger than the scattering object.
+This type of scattering mechanism is called Rayleigh-Gans-Debye when the refractive index of the object ($n_{\text{obj}}$) is close to unity and the condition $\sfrac{2\pi}{\lambda} \cdot a \cdot n_{\text{med}} \cdot \abs{1-\sfrac{n_{\text{obj}}}{n_{\text{med}}}}\ll1$ is fulfilled, being $a$ the size of the object. For X-ray photons with wavelenghts $\lambda$ in the Angstrom range and colloidal objects in the nanoscale, this approximation can be employed and it can be assumed that the same electromagnetic wave impinges each part of the object \citep{hulst_light_1957, barber_rayleigh-gans-debye_1978}. In the case of optical radiation on colloids, the Mie scattering framework is used, while the Rayleigh scattering corresponts to light wavelengths much larger than the scattering object.
 
 \subsubsection{Anomalous scattering}
 
-In the of an atom, the scattering amplitued of an atom is $f=Z$
+In X-ray scattering experiments, the scattering centers are the electrons of the atom and the scattering field is the electron charge density about the nucleous, so $\phi(\vec{r})=\rho_e(\vec{r})$. The electron density is related to the atomic properties as observed in equation \ref{eq:AttenuationMultiComponent} and therefore the scattering amplitude increases with the atomic number $Z$ by calculating equation \ref{eq:rayleigh_cross_section} at the limit $\vec{q} \rightarrow 0$
 
-This is valid when the incident radiation energy is much greater than the energy corresponding to the an energy excitation of the K, L shell of the atom
+\begin{equation}
+        f(\vec{q} \rightarrow 0) = \int \rho_e(\vec{r}')  d\vec{r}'^3 = Z
+\end{equation}
 
-The scattering amplitued depends on the wavelength of the X-ray
+This is valid when the incident radiation energy is much greater than the energy corresponding to the resonant excitation. When the X-ray energy is close to an absorption edge, anomalous dispersions becomes relevant and the scattering amplitude depends on the energy of the X-ray by adding the anomalous corrections \citep{als-nielsen_elements_2011}:
+
 \begin{equation}
         f(E) = f_0 + f'(E) + i f'' (E)
 \end{equation}
 
-$f''$ is related with attenuation coefficient by
+where the imaginary part $f''$ is related with the attenuation coefficient $\mu$ by\citep{feigin_structure_1987}
 
 \begin{equation}
-        \mu_m=\mu \rho = \frac{2 N_A}{A} \lambda r_0 f''
+        f'' (E) = \frac{A\rho}{2N_A r_0 h c} E \mu(E)
 \end{equation}
 
-and f' with kramers-kronig relation ship:
+where $A$ is the atomic mass of the resonant atom and $\rho$ its physical density. The term $f'$ is related to the imaginary part by the Kramers-Kronig relationship \citep{de_l._kronig_theory_1926,kramers_diffusion_1927}:
 
 \begin{equation}
-        f'(\omega) = \frac{2}{\pi} \int_0^{\infty} \frac{\omega'f''(\omega')d\omega'}{\omega^2-\omega'^2}
+        f'(E) = \frac{2}{\pi} \int_0^{\infty} \frac{E'f''(E')dE'}{E^2 - E'^2}
 \end{equation}
 
-where $\lambda$ and $\omega$ are related to  photon energy
+The values of the anomalous scattering amplitude $f(E)$ are usually calculated using the experimentally measured attenuation coefficient $\mu(E)$.
 
 
 \section{Small-angle X-ray scattering}
