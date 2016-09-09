@@ -34,7 +34,7 @@
      showgrid="false"
      inkscape:zoom="1.1092985"
      inkscape:cx="357.63507"
-     inkscape:cy="151.46805"
+     inkscape:cy="151.91879"
      inkscape:window-x="1597"
      inkscape:window-y="32"
      inkscape:window-maximized="1"
@@ -1915,22 +1915,7 @@
      inkscape:label="image"
      inkscape:groupmode="layer"
      id="g10"><g
-       id="g4150" /><text
-       xml:space="preserve"
-       style="font-size:32px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
-       x="720.27802"
-       y="-531.28558"
-       id="text4160"
-       sodipodi:linespacing="125%"
-       transform="scale(1,-1)"
-       inkscape:transform-center-x="-129.81177"
-       inkscape:transform-center-y="79.329415"><tspan
-         sodipodi:role="line"
-         id="tspan4162"
-         x="720.27802"
-         y="-531.28558"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;font-family:Carlito;-inkscape-font-specification:Carlito">\shortstack{PEG\\chains}</tspan></text>
-<g
+       id="g4150" /><g
        sodipodi:type="inkscape:box3d"
        style="fill:#917c6f;fill-opacity:1;stroke:#917c6f;stroke-width:2;stroke-linecap:round;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
        id="g3714"
@@ -1997,17 +1982,17 @@
          id="path10091-7"
          inkscape:connector-curvature="0" /></g><text
        xml:space="preserve"
-       style="font-size:32px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
-       x="1060.5747"
+       style="font-size:32px;font-style:normal;font-weight:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="937.25354"
        y="-331.81268"
        id="text4160-3-5"
        sodipodi:linespacing="125%"
        transform="scale(1,-1)"><tspan
          sodipodi:role="line"
          id="tspan4162-3-1"
-         x="1060.5747"
+         x="937.25354"
          y="-331.81268"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;font-family:Carlito;-inkscape-font-specification:Carlito">$I=I_0 e^{-\mu d}$</tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;text-anchor:start;font-family:Carlito;-inkscape-font-specification:Carlito">$I=I_0 e^{-\mu d}$</tspan></text>
 <text
        xml:space="preserve"
        style="font-size:32px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
@@ -2038,12 +2023,12 @@
        transform="scale(1,-1)"
        sodipodi:linespacing="125%"
        id="text6827"
-       y="-168.41055"
-       x="742.76038"
-       style="font-size:32px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       y="-157.59291"
+       x="726.18628"
+       style="font-size:32px;font-style:normal;font-weight:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
        xml:space="preserve"><tspan
-         y="-168.41055"
-         x="742.76038"
+         y="-157.59291"
+         x="726.18628"
          id="tspan6829"
          sodipodi:role="line">\textcolor{blue}{$x$}</tspan></text>
 <g
