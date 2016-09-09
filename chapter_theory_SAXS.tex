@@ -71,6 +71,7 @@ When the X-ray photon is completely absorbed by the atom, the event is called ph
 The other relevant contributions at the X-ray range are related to scattering processes. In an inelastic scattering event, the energy of the incident photon is partially transfered to a loosely bond electron resulting in a scattered photon with a lower frequency, according to the Compton relation $\Delta\lambda = \sfrac{h}{m_e c}\left( 1 - \cos{\Theta} \right) $, where $\Theta$ is the scattering angle. The Compton scattering is incoherent and contributes generally less than the elastic scattering at energies below 10 keV, as observed in figure \ref{fig:AttenuationWater}. Besides, the coherent scattering signal is the summation of the constructive interferences of the electromagnetic wave, which produces a higher scattered intensity than the inelastic scattering. In fact, the elastic scattering of X-rays is the main proccess used in material investigations and the pyhsical principle behind SAXS.
 
 \subsection{Elastic scattering}
+\label{sec:ElasticScattering}
 
 When the wavelength of the scattered wave is the same than that of the incident one, the proccess is named elastic scattering or coherent scattering and the resulting intensity is the absolute square of the sum of the scattering amplitudes. In the following sections, the elastic scattering theory will be presented for the classical case and for an ensemble of electrons.
 
@@ -184,7 +185,7 @@ The systems studied by SAXS in this work consist of particles suspended in a uni
 
 \subsection{Scattering by an ensemble of particles}
 
-For diluted systems with low particle concentration, the wave scattered by a particle does not interfere coherently with the neighboring particles and the scattering intensity can be expressed as a sum of the individual scattering. Therefore, the scattering intensity of an ensemble of randomly oriented nanoparticles in suspension can be expressed as
+For diluted systems with low particle concentration, the wave scattered by a particle does not interfere coherently with the neighboring particles and the scattering intensity can be expressed as a sum of the individual scattering, i.e. the structure factor contribution can be neglected because $S(q)=1$\citep{feigin_structure_1987}. Therefore, the scattering intensity of an ensemble of randomly oriented nanoparticles in a diluted suspension can be expressed as
 
 \begin{equation}
 \label{eq:intensity}
@@ -205,9 +206,28 @@ where $\mu$ is the mean size of the particles and $\sigma$ is the standard devia
 
 whose mean size is given by $\mu e^{\frac{\sigma^2}{2}}$ and the variance is $\mu^2 e^{\sigma^2} (e^{\sigma^2} - 1)$. Other approaches to the size distribution of particles in solution are based in numerical techniques, like the Monte-Carlo approach to form-free particle size distributions \citep{pauw_improvements_2013}.
 
+\subsection{What is measured in a scattering experiment?: The scattering curve}
+
+The differential scattering cross-section $\sfrac{d\sigma}{d\Omega}$ is the fundamental measurand in a SAXS experiment, as described in section \ref{sec:ElasticScattering}. Nevertheless, some comparability challenges arise from this quantity as it depends on the sample volume used in the experiment. Therefore, the differential scattering cross-section per volume is introduced, historically given in cm$^{-1}$. The expression of this quantity is derived from equations \ref{eq:rayleigh_cross_section} and \ref{eq:intensity} and leads to:
+
+\begin{equation}
+        \frac{d\Sigma}{d\Omega} (q) = \frac{\sfrac{d\sigma}{d\Omega}}{V} (q) = r_e^2 \cdot \frac{N}{V} \cdot \int_0^{\infty} g(R) \abs{ f(q,R) }^2 dR
+\end{equation}
+
+where $\sfrac{N}{V} = C$ is the concentration of scatterers, i.e. particles
+
+The scattering curve is the typical form to present the experimental data, which displays the differential scattering cross-section per volume versus the momentum transfer $q$ in a log–log graph. Three different regions can be distinguished in a scattering curve \citep{schnablegger_practical_2006}: 
+
+\begin{itemize}
+        \item The \textbf{Guinier region} comprises the low-$q$ region where $qD<1.3$\citep{feigin_structure_1987}, being $d$ the characteristic length of the investigated object. This region provides principally information about the size of the particle
+        \item The high-$q$ region is called the \textbf{Porod region}, where information about the surface-to-volume ratio of the particles can be derived. For a smooth particle surface, the scattering intensity decays as $q^{-4}$, while for rough or fractal surfaces the slope is a function of $q^{-b}$ with $2<b<4$ \citep{walenta_small_1985-1}.
+        \item For sufficiently monodisperse particle suspensions, the \textbf{Fourier region} or middle-$q$ region of the scattering curve shows pronounced minima that characterize the particle structure and shape.
+
+\end{itemize}
+
 \subsection{Modelling of the scattering intensity: Form factors}
 
-Besides the information from the size distribution of the particle ensemble, the modelling of the scattering intensity $I(q)$ provides very precise information about the shape and composition of the particles by modelling the form factor or scattering amplitude. In the simple case of a solid sphere with uniform density $\rho_0$, the radial electron density profile is described by $\rho_e(r>R)=0$ and $\rho_e(r<R)=\rho_0$, whilst the integral is limited to the radius of the particle $R$. The form factor of a homogenous solid sphere is 
+Besides the information from the size distribution of the particle ensemble, the modelling of the scattering intensity $I(q)$ provides very precise information about the shape and composition of the particles by modelling the form factor or scattering amplitude. In the simple case of a solid sphere with uniform density $\rho_0$, the radial electron density profile is described by $\rho_e(r>R)=0$ and $\rho_e(r<R)=\rho_0$, whilst the integral of expression \ref{eq:FormFactorSpherical} is limited to the radius of the particle $R$. The form factor of a homogenous solid sphere is 
 
 \begin{equation}
        f_{\text{sph}}(q,R)=\frac{4}{3}\pi R^3 \left( \rho_0 - \rho_{\text{medium}} \right) \left( 3\frac{\sin(qR)-qR\cos(qR)}{\left( qR \right)^3} \right) = \Delta \rho_0 \cdot F_{\text{sph}}(q,R)
@@ -227,41 +247,54 @@ where \(R\) is the external radius of the particle and \( n \) is the number of 
 The simplest case of expression \ref{eq:multicore-shell} arises for core-shell particles. This model represents a radially symmetric particle with a sharp interface between the outer shell and the inner core. The form factor is described by
 
 \begin{equation}
-	f(q,R)=  \Delta\eta F_{\text{sph}}(q,R) +  \Delta\rho\left[ F_{\text{sph}}(q,R)-F_{\text{sph}}(q,R_{\text{core}}) \right] ,
-\label{eq:ff_cs}
+        \label{eq:ff_cs}
+	f_{\text{CS}}(q,R)=  \Delta\eta F_{\text{sph}}(q,R) +  \Delta\rho\left[ F_{\text{sph}}(q,R)-F_{\text{sph}}(q,R_{\text{core}}) \right] ,
 \end{equation}
 
 where \(R \) and \(R_{\text{core}} \)  are the outer shell and inner core radii respectively, the excess of electron density is \(\Delta\rho=\rho_{\text{shell}}-\rho_{\text{core}}\) and the contrast is expressed as \(\Delta\eta=\rho_{\text{core}}-\rho_{\text{solv}}\), where $\rho_{\text{solv}}$ is the electron density of the suspending medium.
 
-Depending on the synthesis of the particles, the interface between the different phases might show a linear gradient of the electron densities of the components. Analogoulsy to expression \ref{eq:multicore-shell}, the form factor of a multicomponent spherical particle with a linear gradient interface is
+Depending on the synthesis of the particles, the interface between the different phases might show a linear gradient of the electron densities of the components. Analogously to expression \ref{eq:multicore-shell}, the form factor of a multicomponent spherical particle with a linear gradient interface is
 
 \begin{equation}
-f\left(q,R \right)=\sum_{\left[0,N-1\right]}\left[m_i \left( F_{\text{lin}}(q,R_{i+1})-F_{\text{lin}}(q,R_{i}) \right) +b_i \left( F_{\text{sph}}(q,R_{i+1})-F_{\text{sph}}(q,R_{i}) \right) \right]
+f\left(q,R \right) = \sum_{i=0}^{n-1}\left[m_i \left( F_{\text{lin}}(q,R_{i+1})-F_{\text{lin}}(q,R_{i}) \right) +b_i \left( F_{\text{sph}}(q,R_{i+1})-F_{\text{sph}}(q,R_{i}) \right) \right]
 \end{equation}
-where $m_i=\sfrac{\rho_{i+1}-\rho_{i}}{R_{i+1}-R_{i}}$ and $b_i=\left( \rho_i-\rho_{\text{solv}} \right)-R_im_i$ and the linear form factor is defined by
+where $m_i=\sfrac{\left( \rho_{i+1}-\rho_{i} \right)}{\left( R_{i+1}-R_{i} \right)}$ and $b_i=\left( \rho_i-\rho_{\text{solv}} \right)-R_im_i$ and the linear form factor is defined by
 \begin{equation}
-F_{\text{lin}}(R,q)=4\pi\frac{ \left( 2qR\sin(qR)+2\cos(qR)-(qR)^2\cos(qR) \right)}{q^4}
+F_{\text{lin}}(q,R) = 4\pi\frac{ \left( 2qR\sin(qR)+2\cos(qR)-(qR)^2\cos(qR) \right)}{q^4}
 \end{equation}
 
-\subsubsection{Guinier approximation}
-deviation when using too few point
-Polydispersity effects
+The presented form factors result from the models used in this work to analyze the experimental SAXS data of polymeric colloids in suspension presented in chapters \ref{chap:density_gradient_SAXS} and \ref{chap:simultaneous_size_density}.
 
 \section{Contrast variation}
-Solvent variation
 
-ASAXS
+In the contrast variation method, the electron density of the particle or the surrounding medium is systematically altered in order to obtain independent scattering curves with different contrasts $\Delta \rho (r)$. This technique is useful to characterize the different components of a heterogenous particle, due to the complementary data that can be collected with this approach. In the work presented in this thesis, only the electron density of the suspendin medium is varied, using the so-called \emph{solvent contrast variation} method.
 
-When analyzing contrast variation data, a widespread theoretical approach is based in the non-interacting model proposed by Stuhrmann $\&$ Kirste \citeyear{stuhrmann_elimination_1965,stuhrmann_elimination_1967} for monodisperse particles. The so-called \emph{basic functions} formulation differentiates, independently of the particle inner structure, the contributions which depend on the varying solvent density or contrast (\(\Delta\eta=\rho_{core}-\rho_{solv}\)) and on the excess of electron density of each component \(\Delta \rho_i =\rho_i-\rho_{core}\). 
+\begin{figure}%[htbp]
+	\centering
+	        \def\svgwidth{0.75\linewidth}
+		\input{Figures/BeerLambertScheme.pdf_tex}
+		\caption{Schematic representation of the variation of the solvent electron denstiy until matching the electron density of one of the particle's components}
+		\label{fig:ContrastScheme}
+\end{figure}
+
+By means of the solvent contrast variation approach, the electron density of a single phase of the investigated particle can be matched, resulting in a increased scattering amplitude of the other components of the object, as depicted in figure \ref{fig:ContrastScheme}. This effect is called the \emph{match point} and enables a much more detailed study of the different contributions of the particle's components to the scattering intensity. In the following paragraphs, the theoretical framework needed to interpret a SAXS contrast variation experiment will be presented, focusing mainly on the variation of the solvent electron density $\rho_{\text{solv}}$.
+
+ 
 \subsection{Isoscattering point}
 One of the best known features appearing in a contrast variation experiment is the existence of \emph{isoscattering points}. At these specific \( q\)-values, the scattering intensity is independent of the adjusted solvent contrast, i.e. all scattering curves intersect in the isoscattering points regardless of the contrast. The isoscattering points \(q^{\star}\) are particularly interesting because they emerge for any spherical particle with an inner structure and a sufficiently narrow size distribution. From the contrast-depending part of equation \eqref{eq:multicore-shell}, a model-free expression can be derived which relates the position of the isoscattering points \(q^{\star}_i\) with the external radius of the particle \( R \), independent of its radial structure \cite{kawaguchi_isoscattering_1992}:
+
 \begin{equation}
-\label{eq:isoscattering}
-\tan(q^{\star}_iR)=q^{\star}_iR
+        \label{eq:isoscattering}
+        \tan(q^{\star}_iR)=q^{\star}_iR
 \end{equation}
-The positions of the isoscattering points correspond to the minima positions of the scattering intensity of a compact spherical particle with radius \( R \). Although this expression is derived for the monodisperse case, it can still be applied up to a moderate degree of polydispersity, if care is taken regarding the shift of the minima position due to polydispersity \cite{beurten_polydispersity_1981}. If defining the polydispersity degree \( p_d\) as the full width half maximum of the particle size distribution divided by its average value, for size distributions with \( p_d\) larger than \( \approx 30\,\% \), the isoscattering point is not well defined and the intersection point of the curves is smeared out, showing a diffuseness in the isoscattering point position \cite{kawaguchi_isoscattering_1992}.
-\subsubsection{Possible deviations}
-Polydispersity and ellipticity smearing (simulation, calculation)
+
+The solutions for this equation fullfill $q^{\star} R =4.493, 7.725, 10.904, ...$, where the positions of the isoscattering points correspond to the minima positions of the scattering intensity of a compact spherical particle with radius \( R \). 
+
+Although this expression is derived for the monodisperse case, it can still be applied up to a moderate degree of polydispersity, if care is taken regarding the shift of the minima position due to polydispersity \cite{beurten_polydispersity_1981}. If defining the polydispersity degree \( p_d\) as the full width half maximum of the particle size distribution divided by its average value, for size distributions with \( p_d\) larger than \( \approx 30\,\% \), the isoscattering point is not well defined and the intersection point of the curves is smeared out, showing a diffuseness in the isoscattering point position \cite{kawaguchi_isoscattering_1992}.
+
+Similarly, any deviation from the spherical shape produces a diffuseness in the $q^{\star}$ position. Unfortunately, this effect cannot be distinguished from the smearing produced by the size polydispersity and the investigation of the particle shape needs to be perfomed by other means.
+
+
 \subsection{Basic functions approach}
 When analyzing contrast variation data, a widespread theoretical approach is based in the non-interacting model proposed by Stuhrmann $\&$ Kirste (\citeyear{stuhrmann_elimination_1965,stuhrmann_elimination_1967}) for monodisperse particles. The so-called \emph{basic functions} formulation differentiates, independently of the particle inner structure, the contributions which depend on the varying solvent density or contrast (\(\Delta\eta\)) and on the excess of electron density of each component of the particle. 
 
@@ -274,23 +307,42 @@ The $I_c$ function contains the contributions from the density fluctuations insi
 
 
 \subsubsection{Shape factor}
-The $I_s(q)$ function, also known as \emph{shape factor}, corresponds to the scattering contributions from particles with homogenous density and a size equivalent to the volume inaccessible to the solvent. By modelling the shape factor function, the shape and size distribution of the polymeric colloids can be determined independently of their inner structure.
+The $I_s(q)$ function, also known as \emph{shape factor}, corresponds to the scattering contributions from particles with homogenous density and a size equivalent to the volume inaccessible to the solvent. By modelling the shape factor function, the shape and size distribution of the particles can be determined independently of their inner structure.
 
-For this purpose, a spherical form factor for homogeneous colloids with a gaussian size distribution was utilized, similarly to the PMMA-COOH example. In order to obtain the particle sphericity, an ellipsoid model was employed.
+For different solvent densities
 
+\begin{equation}
+        A_{m,n} = 
+ \begin{pmatrix}
+  1 & \Delta \eta_1 &  \left( \Delta \eta_1 \right)^2 \\
+  \vdots  & \vdots  & \vdots  \\
+  1 & \Delta \eta_N &  \left( \Delta \eta_N \right)^2 
+ \end{pmatrix}
+        \cdot A      
+ 
+\end{equation}
 
-\subsubsection{Guinier law}
+\subsubsection{Guinier approximation}
 \label{sec:TheoryGuinier}
-Gyration radius
 
-The radius of gyration \( R_g\) is systematically employed in small-angle scattering as an evaluation tool \cite{mertens_structural_2010,sim_salt_2012}. It can be calculated using the Guinier approximation \cite{guinier_diffraction_1939,guinier_small-angle_1955}, which assumes that the scattering intensity behaves in the limit of small \(q\) as
+The radius of gyration of a particle about its center of mass $R_g$ is defined as the second moment of the electron density distribution and can be calculated by 
+
+\begin{equation}
+        R_g^2 = \frac{\int \rho (r) r^2 dr}{\int \rho (r)  dr}
+\end{equation}
+
+The radius of gyration is systematically employed in small-angle scattering as an evaluation tool, due to its applicability to a large diversity of sample, e.g. proteins, colloids, suprastructures \cite{mertens_structural_2010,sim_salt_2012}. If the object is spherical, the gyration radius is directly related with its external radius by $R_g^2 = \sfrac{3}{5}R^2$.
+
+In SAXS, $R_g$ can be calculated using the Guinier approximation \cite{guinier_diffraction_1939,guinier_small-angle_1955}, which assumes that the scattering intensity behaves in the limit of small \(q\) as
+
 \begin{equation}
 \label{eq:guinier}
-I(q)=I(0)\,\mbox{exp}\left(-\frac{R_g^2}{3}q^2\right),
+I(q) \simeq I(0)\,\mbox{exp}\left(-\frac{R_g^2}{3}q^2\right),
 \end{equation}
-where \( I(0)\) is known as forward scattering or intensity at zero angle. Using the basic functions approach, the radius of gyration of a monodisperse, heterogeneous particle can be expressed as a function of the solvent electron density \( \rho_{solv} \) and the average electron density of the particle \( \rho_0 \) \cite{feigin_structure_1987}
+
+where \( I(0)\) is known as forward scattering or intensity at zero angle. Using the basic functions approach, the radius of gyration of a monodisperse, heterogeneous particle can be expressed as a function of the solvent electron density \( \rho_{\text{solv}} \) and the average electron density of the particle \( \rho_0 \) \cite{feigin_structure_1987}
 \begin{equation}
-R_g^2=R_{g,c}^{\,2}+\frac{\alpha}{\rho_0-\rho_{solv}}-\frac{\beta}{(\rho_0-\rho_{solv})^2},
+R_g^2=R_{g,c}^{\,2}+\frac{\alpha}{\rho_0-\rho_{\text{solv}}}-\frac{\beta}{(\rho_0-\rho_{\text{solv}})^2},
 \label{eq:gyration}
 \end{equation}
 where \(R_{g,c}\) is the radius of gyration of the particle shape corresponding to the volume inaccessible for the solvent \( V_c \), \( \alpha \) characterizes the distribution of different phases inside the particle and \( \beta>0 \) considers the eccentricity of the different scattering contributions \cite{stuhrmann_small-angle_2008}. Nevertheless, particle aggregation influences the scattering curves especially in the Guinier region and must be explicitly avoided.
@@ -300,14 +352,11 @@ where \(R_{g,c}\) is the radius of gyration of the particle shape corresponding 
 Assuming the same premise, the intensity at zero angle is given by
 \begin{equation}
 \label{eq:I0}
-I(0)\propto N \left( \rho_0-\rho_{solv} \right)^2 ,
+I(0)\propto N \left( \rho_0-\rho_{\text{solv}} \right)^2 ,
 \end{equation}
-with a minimum at \( \rho_{solv}=\rho_0 \). Therefore, by analyzing the Guinier region of the scattering curves, the average electron density of the particle can be obtained without assuming an \emph{a priori} inner structure.
+with a minimum at \( \rho_{\text{solv}}=\rho_0 \). Therefore, by analyzing the Guinier region of the scattering curves, the average electron density of the particle can be obtained without assuming an \emph{a priori} inner structure.
 
 Using the models presented above, it is possible to obtain by independent means the external radius and the average electron density of the particle in suspension.
 \subsubsection{$I(0)$}
 what happens in polydisperse systems?
 
-\section{Dynamic Light Scattering}
-
-The technique was used extensively in this thesis.

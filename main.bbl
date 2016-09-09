@@ -1,4 +1,4 @@
-\begin{thebibliography}{181}
+\begin{thebibliography}{183}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 
 \bibitem[Als-Nielsen \& McMorrow(2011)]{als-nielsen_elements_2011}
@@ -841,6 +841,10 @@
   Explored}} with {{Synchrotron Small Angle X}}-ray {{Scattering}}. {\em
   Journal of Physics: Conference Series\/} {\bf 272}, 012011.
 
+\bibitem[Schnablegger \& Singh(2006)]{schnablegger_practical_2006}
+{\sc Schnablegger, H. \& Singh, Y.} 2006 A practical guide to {{SAXS}}. {\em
+  Anton Paar, Graz, Austria\/} .
+
 \bibitem[Schnitzer \& Lichtenberg(1994)]{schnitzer_re-evaluation_1994}
 {\sc Schnitzer, E. \& Lichtenberg, D.} 1994 Re-evaluation of the structure of
   low density lipoproteins. {\em Chemistry and Physics of Lipids\/} {\bf 70},
@@ -1027,6 +1031,12 @@
   Puisieux, F. \& Labarre, D.} 1996 Effect of {{PEO}} surface density on
   long-circulating {{PLA}}-{{PEO}} nanoparticles which are very low complement
   activators. {\em Biomaterials\/} {\bf 17}, 1575--1581.
+
+\bibitem[Walenta(1985)]{walenta_small_1985-1}
+{\sc Walenta, E.} 1985 Small angle x-ray scattering. {{Von O}}. {{GLATTER}} und
+  {{O}}. {{KRATKY}}. {{London}}: {{Academic Press Inc}}. {{Ltd}}. 1982.
+  {{ISBN}} 0-12-286280-5. {{X}}, 515 {{Seiten}}, geb. \textsterling 43,60;
+  {{US}} \$ 81.00. {\em Acta Polym.\/} {\bf 36}, 296--296.
 
 \bibitem[Wang {\em et~al.\/}(2012)Wang, Langer \&
   Farokhzad]{wang_nanoparticle_2012}
