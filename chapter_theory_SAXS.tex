@@ -309,18 +309,28 @@ The $I_c$ function contains the contributions from the density fluctuations insi
 \subsubsection{Shape factor}
 The $I_s(q)$ function, also known as \emph{shape factor}, corresponds to the scattering contributions from particles with homogenous density and a size equivalent to the volume inaccessible to the solvent. By modelling the shape factor function, the shape and size distribution of the particles can be determined independently of their inner structure.
 
-For different solvent densities
+In a system measured at $N$ different solvent electron densities i.e. contrasts, the shape factor at each $q$-value can be calculated by solving the following matrix equation:
 
 \begin{equation}
-        A_{m,n} = 
+  \begin{pmatrix}
+  I_1(q) \\
+  \vdots \\
+  I_N(q) \\
+ \end{pmatrix}
+  = 
  \begin{pmatrix}
   1 & \Delta \eta_1 &  \left( \Delta \eta_1 \right)^2 \\
   \vdots  & \vdots  & \vdots  \\
   1 & \Delta \eta_N &  \left( \Delta \eta_N \right)^2 
  \end{pmatrix}
-        \cdot A      
- 
+ \begin{pmatrix}
+  I_c(q) \\
+  I_{sc}(q) \\
+  I_s(q) \\
+ \end{pmatrix}
 \end{equation}
+
+where $I_i (q)$ is the measured scattering intensity at each solvent electron density and $\Delta \eta _i$ is the contrast corresponding to each suspending medium density.
 
 \subsubsection{Guinier approximation}
 \label{sec:TheoryGuinier}
@@ -345,18 +355,15 @@ where \( I(0)\) is known as forward scattering or intensity at zero angle. Using
 R_g^2=R_{g,c}^{\,2}+\frac{\alpha}{\rho_0-\rho_{\text{solv}}}-\frac{\beta}{(\rho_0-\rho_{\text{solv}})^2},
 \label{eq:gyration}
 \end{equation}
-where \(R_{g,c}\) is the radius of gyration of the particle shape corresponding to the volume inaccessible for the solvent \( V_c \), \( \alpha \) characterizes the distribution of different phases inside the particle and \( \beta>0 \) considers the eccentricity of the different scattering contributions \cite{stuhrmann_small-angle_2008}. Nevertheless, particle aggregation influences the scattering curves especially in the Guinier region and must be explicitly avoided.
+where \(R_{g,c}\) is the radius of gyration of the particle shape corresponding to the volume inaccessible for the solvent \( V_c \), \( \alpha \) characterizes the distribution of different phases inside the particle and \( \beta>0 \) considers the eccentricity of the different scattering contributions \cite{stuhrmann_small-angle_2008}. Particle aggregation influences the scattering curves especially in the Guinier region and must be explicitly avoided.
 
 \cite{avdeev_contrast_2007} proposed an extended version to equation \eqref{eq:gyration} for the case of a polydisperse particle ensemble by introducing the \emph{effective} values \( \tilde R^2_{g,c} \), \( \tilde \alpha \) and \( \tilde \beta \), which are the intensity-weighted averages of the corresponding parameters over the polydispersity. The observed average electron density is not affected by the polydispersity (\( \tilde\rho_0=\rho_0 \)) if the volume ratio between the different particle components is constant for all particles in the ensemble.
 
-Assuming the same premise, the intensity at zero angle is given by
+Assuming the premise of a constant average electron density for all the particles, the intensity at zero angle for a polydisperse system can be expressed as
 \begin{equation}
 \label{eq:I0}
 I(0)\propto N \left( \rho_0-\rho_{\text{solv}} \right)^2 ,
 \end{equation}
 with a minimum at \( \rho_{\text{solv}}=\rho_0 \). Therefore, by analyzing the Guinier region of the scattering curves, the average electron density of the particle can be obtained without assuming an \emph{a priori} inner structure.
 
-Using the models presented above, it is possible to obtain by independent means the external radius and the average electron density of the particle in suspension.
-\subsubsection{$I(0)$}
-what happens in polydisperse systems?
-
+Using the models presented above, it is possible to obtain by independent means the external radius and the average electron density of the particles in suspension.

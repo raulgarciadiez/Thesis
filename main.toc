@@ -27,7 +27,6 @@
 \contentsline {subsection}{\numberline {2.3.2}Basic functions approach}{20}{subsection.2.3.2}
 \contentsline {subsubsection}{Shape factor}{20}{section*.11}
 \contentsline {subsubsection}{Guinier approximation}{21}{section*.12}
-\contentsline {subsubsection}{$I(0)$}{22}{section*.13}
 \contentsline {chapter}{\numberline {3}Instrumentation and experimental setup for SAXS measurements}{23}{chapter.3}
 \contentsline {section}{\numberline {3.1}Synchrotron radiation at BESSY II}{24}{section.3.1}
 \contentsline {subsection}{\numberline {3.1.1}The BESSY II Electron Storage Ring}{25}{subsection.3.1.1}
@@ -37,7 +36,7 @@
 \contentsline {section}{\numberline {3.3}SAXS Setup}{29}{section.3.3}
 \contentsline {subsection}{\numberline {3.3.1}X-ray area detector}{30}{subsection.3.3.1}
 \contentsline {subsection}{\numberline {3.3.2}HZB SAXS instrument and WAXS configuration}{30}{subsection.3.3.2}
-\contentsline {subsubsection}{Calibration of the sample-detector distance}{31}{section*.18}
+\contentsline {subsubsection}{Calibration of the sample-detector distance}{31}{section*.17}
 \contentsline {section}{\numberline {3.4}Sample environment}{33}{section.3.4}
 \contentsline {subsection}{\numberline {3.4.1}Round capillaries}{33}{subsection.3.4.1}
 \contentsline {subsection}{\numberline {3.4.2}Rectangular capillaries}{34}{subsection.3.4.2}
@@ -52,30 +51,30 @@
 \contentsline {section}{\numberline {4.3}Results and data evaluation}{48}{section.4.3}
 \contentsline {subsection}{\numberline {4.3.1}Core-shell form factor fit}{48}{subsection.4.3.1}
 \contentsline {subsection}{\numberline {4.3.2}Isoscattering point}{49}{subsection.4.3.2}
-\contentsline {subsubsection}{Quantification: Relative standard deviation}{49}{section*.29}
+\contentsline {subsubsection}{Quantification: Relative standard deviation}{49}{section*.28}
 \contentsline {subsection}{\numberline {4.3.3}Guinier region}{51}{subsection.4.3.3}
-\contentsline {subsubsection}{Average electron density}{53}{section*.34}
+\contentsline {subsubsection}{Average electron density}{53}{section*.33}
 \contentsline {section}{\numberline {4.4}Consistency of the results}{54}{section.4.4}
 \contentsline {section}{\numberline {4.5}Summary and outlook}{55}{section.4.5}
-\contentsline {subsubsection}{Applicability of the technique}{56}{section*.37}
-\contentsline {subsubsection}{Other applications of the density gradient capillary}{57}{section*.38}
+\contentsline {subsubsection}{Applicability of the technique}{56}{section*.36}
+\contentsline {subsubsection}{Other applications of the density gradient capillary}{57}{section*.37}
 \contentsline {chapter}{\numberline {5}Simultaneous size and density determination of polymeric colloids}{60}{chapter.5}
 \contentsline {section}{\numberline {5.1}Materials and methods}{63}{section.5.1}
 \contentsline {subsection}{\numberline {5.1.1}Particles and chemicals}{63}{subsection.5.1.1}
 \contentsline {subsection}{\numberline {5.1.2}Differential Centrifuge Sedimentation (DCS)}{64}{subsection.5.1.2}
-\contentsline {subsubsection}{Stokes equations}{65}{section*.42}
-\contentsline {subsubsection}{Combined analysis}{65}{section*.43}
+\contentsline {subsubsection}{Stokes equations}{65}{section*.41}
+\contentsline {subsubsection}{Combined analysis}{65}{section*.42}
 \contentsline {section}{\numberline {5.2}Technique validation for the determination of the particle size distribution}{67}{section.5.2}
 \contentsline {subsection}{\numberline {5.2.1}Inter-laboratory comparison of the mean particle size}{69}{subsection.5.2.1}
 \contentsline {subsection}{\numberline {5.2.2}Colloidal size distribution}{70}{subsection.5.2.2}
 \contentsline {section}{\numberline {5.3}Considerations about contrast variation data evaluation}{72}{section.5.3}
 \contentsline {subsection}{\numberline {5.3.1}Shape factor formalism}{72}{subsection.5.3.1}
-\contentsline {subsubsection}{Advantages and disadvatages}{73}{section*.50}
+\contentsline {subsubsection}{Advantages and disadvatages}{73}{section*.49}
 \contentsline {subsection}{\numberline {5.3.2}Isoscattering point approach}{73}{subsection.5.3.2}
-\contentsline {subsubsection}{Advantages and disadvatages}{75}{section*.53}
+\contentsline {subsubsection}{Advantages and disadvatages}{75}{section*.52}
 \contentsline {section}{\numberline {5.4}Determination of the particle physical density}{75}{section.5.4}
 \contentsline {subsection}{\numberline {5.4.1}Validation through comparison with DCS}{75}{subsection.5.4.1}
-\contentsline {subsubsection}{Uncertainties}{77}{section*.56}
+\contentsline {subsubsection}{Uncertainties}{77}{section*.55}
 \contentsline {subsection}{\numberline {5.4.2}Use for heavier polymeric colloids}{77}{subsection.5.4.2}
 \contentsline {section}{\numberline {5.5}Summary}{78}{section.5.5}
 \contentsline {chapter}{\numberline {6}Continuous contrast variation applied to relevant bio-materials}{80}{chapter.6}
@@ -94,5 +93,5 @@
 \contentsline {section}{\numberline {6.4}Sizing of blood plasma componenents}{102}{section.6.4}
 \contentsline {section}{\numberline {6.5}Protein-coated low-density nanoparticles}{106}{section.6.5}
 \contentsline {subsection}{\numberline {6.5.1}Hard protein corona characterization with contrast variation}{108}{subsection.6.5.1}
-\contentsline {subsubsection}{Uncertainty analysis}{110}{section*.78}
+\contentsline {subsubsection}{Uncertainty analysis}{110}{section*.77}
 \contentsline {section}{\numberline {6.6}Summary}{111}{section.6.6}
