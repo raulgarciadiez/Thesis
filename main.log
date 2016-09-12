@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/TeX Live for SUSE Linux) (format=pdflatex 2015.3.4)  9 SEP 2016 16:00
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/TeX Live for SUSE Linux) (format=pdflatex 2015.3.4)  12 SEP 2016 12:02
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1140,14 +1140,14 @@ V$ \OT1/ppl/m/n/12 by([]Feigin
  []
 
 [14] [15] [16] [17] (./Figures/ContrastScheme.pdf_tex
-<Figures/ContrastScheme.pdf, id=611, 873.18022pt x 374.56741pt>
+<Figures/ContrastScheme.pdf, id=611, 873.18028pt x 374.56122pt>
 File: Figures/ContrastScheme.pdf Graphic file (type pdf)
 
 <use Figures/ContrastScheme.pdf>
 Package pdftex.def Info: Figures/ContrastScheme.pdf used on input line 52.
-(pdftex.def)             Requested size: 873.18022pt x 374.58934pt.
+(pdftex.def)             Requested size: 873.18025pt x 374.58316pt.
 ) (./Figures/MatchPointScheme.pdf_tex
-<Figures/MatchPointScheme.pdf, id=612, 630.76872pt x 374.56741pt>
+<Figures/MatchPointScheme.pdf, id=612, 630.76866pt x 374.56741pt>
 File: Figures/MatchPointScheme.pdf Graphic file (type pdf)
 
 <use Figures/MatchPointScheme.pdf>
@@ -2209,12 +2209,15 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 
 LaTeX Warning: There were undefined references.
 
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 76.
  ) 
 Here is how much of TeX's memory you used:
  16306 strings out of 493315
  288039 string characters out of 6145894
- 363415 words of memory out of 5000000
+ 363412 words of memory out of 5000000
  18698 multiletter control sequences out of 15000+600000
  73232 words of font info for 191 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
@@ -2227,7 +2230,7 @@ e/texmf/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf/fonts/type1
 .pfb></usr/share/texmf/fonts/type1/urw/palatino/uplb8a.pfb></usr/share/texmf/fo
 nts/type1/urw/palatino/uplr8a.pfb></usr/share/texmf/fonts/type1/urw/palatino/up
 lri8a.pfb>
-Output written on main.pdf (131 pages, 5338579 bytes).
+Output written on main.pdf (131 pages, 5338560 bytes).
 PDF statistics:
  2542 PDF objects out of 2984 (max. 8388607)
  2237 compressed objects within 23 object streams

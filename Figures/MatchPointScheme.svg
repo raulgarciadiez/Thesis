@@ -13,8 +13,8 @@
    id="svg2"
    version="1.1"
    inkscape:version="0.48.5 r10040"
-   width="688.63861"
-   height="531.06757"
+   width="563.53906"
+   height="485.06"
    xml:space="preserve"
    sodipodi:docname="MatchPointScheme.svg"
    inkscape:export-filename="/home/rgarciad/pc/Langmuir/Graphical Abstract/image.png"
@@ -29,12 +29,12 @@
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
      inkscape:window-width="1920"
-     inkscape:window-height="1145"
+     inkscape:window-height="1110"
      id="namedview4"
      showgrid="false"
-     inkscape:zoom="3.13757"
-     inkscape:cx="450.93697"
-     inkscape:cy="273.66874"
+     inkscape:zoom="1.1092985"
+     inkscape:cx="673.26337"
+     inkscape:cy="279.12636"
      inkscape:window-x="1597"
      inkscape:window-y="32"
      inkscape:window-maximized="1"
@@ -52,14 +52,15 @@
      id="defs6"><marker
        inkscape:stockid="DiamondS"
        orient="auto"
-       refY="0.0"
-       refX="0.0"
+       refY="0"
+       refX="0"
        id="DiamondS"
        style="overflow:visible"><path
          id="path4733"
-         d="M 0,-7.0710768 L -7.0710894,0 L 0,7.0710589 L 7.0710462,0 L 0,-7.0710768 z "
-         style="fill-rule:evenodd;stroke:#000000;stroke-width:1.0pt"
-         transform="scale(0.2)" /></marker><inkscape:perspective
+         d="M 0,-7.0710768 -7.0710894,0 0,7.0710589 7.0710462,0 0,-7.0710768 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt"
+         transform="scale(0.2,0.2)"
+         inkscape:connector-curvature="0" /></marker><inkscape:perspective
        sodipodi:type="inkscape:persp3d"
        inkscape:vp_x="489.78195 : 272.95658 : 1"
        inkscape:vp_y="-5.1549886 : -1073.516 : 0"
@@ -1860,7 +1861,7 @@
        style="overflow:visible"><path
          inkscape:connector-curvature="0"
          id="path6075"
-         style="stroke-linejoin:round;stroke:#808080;stroke-width:0.625;fill:#808080;fill-rule:evenodd"
+         style="fill:#808080;fill-rule:evenodd;stroke:#808080;stroke-width:0.625;stroke-linejoin:round"
          d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
          transform="scale(-0.6,-0.6)" /></marker><marker
        inkscape:stockid="Arrow2Mend-2kz"
@@ -1871,7 +1872,7 @@
        style="overflow:visible"><path
          inkscape:connector-curvature="0"
          id="path7576"
-         style="stroke-linejoin:round;fill-rule:evenodd;stroke:#0000ff;stroke-width:0.625;fill:#0000ff"
+         style="fill:#0000ff;fill-rule:evenodd;stroke:#0000ff;stroke-width:0.625;stroke-linejoin:round"
          d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
          transform="scale(-0.6,-0.6)" /></marker><marker
        inkscape:stockid="DiamondS"
@@ -1896,7 +1897,7 @@
          d="M 0,-7.0710768 -7.0710894,0 0,7.0710589 7.0710462,0 0,-7.0710768 z"
          style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt"
          transform="scale(0.2,0.2)" /></marker></defs><g
-     transform="matrix(1.25,0,0,-1.25,-557.0446,702.81754)"
+     transform="matrix(1.25,0,0,-1.25,-596.30177,688.27759)"
      inkscape:label="image"
      inkscape:groupmode="layer"
      id="g10"><g
@@ -1930,7 +1931,7 @@
        y="-347.26233"
        transform="scale(1,-1)" /><path
        sodipodi:type="arc"
-       style="fill:#999999;fill-opacity:1;stroke:#000000;stroke-width:1.63626486;stroke-miterlimit:4;stroke-dasharray:3.27252972,3.27252972;stroke-dashoffset:0"
+       style="fill:#999999;fill-opacity:1;stroke:#000000;stroke-width:1.6362648;stroke-miterlimit:4;stroke-dasharray:3.27252972, 3.27252972;stroke-dashoffset:0"
        id="path3738-8"
        sodipodi:cx="-316.4162"
        sodipodi:cy="72.219025"
@@ -1942,7 +1943,7 @@
        sodipodi:end="9.4200543"
        sodipodi:open="true" /><path
        sodipodi:type="arc"
-       style="fill:#de8787;fill-opacity:1;stroke:#000000;stroke-width:2.97502698999999993;stroke-miterlimit:4;stroke-dasharray:none"
+       style="fill:#de8787;fill-opacity:1;stroke:#000000;stroke-width:2.97502708;stroke-miterlimit:4;stroke-dasharray:none"
        id="path3738"
        sodipodi:cx="-316.4162"
        sodipodi:cy="72.219025"
@@ -1990,7 +1991,7 @@
          x="522.43018"
          y="-478.84677">Solvent</tspan></text>
 <path
-       style="fill:none;stroke:#000000;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow1Send);marker-start:none"
+       style="fill:none;stroke:#000000;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-start:none;marker-end:url(#Arrow1Send)"
        d="m 593.4529,488.99679 -503.574426,0 0,-233.93901"
        id="path3806"
        inkscape:connector-curvature="0"
@@ -2012,7 +2013,7 @@
        id="path3698"
        inkscape:connector-curvature="0"
        transform="matrix(0.8,0,0,-0.8,445.63568,562.25403)" /><path
-       style="fill:none;stroke:#000000;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:6,6;stroke-dashoffset:0"
+       style="fill:none;stroke:#000000;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:6, 6;stroke-dashoffset:0"
        d="m 242.94633,355.2808 0,133.41765"
        id="path3700"
        inkscape:connector-curvature="0"
@@ -2021,7 +2022,7 @@
        d="m 798.49393,277.66881 0,-106.73412"
        id="path3700-8"
        inkscape:connector-curvature="0" /><path
-       style="fill:#808080;stroke:#000000;stroke-width:1.6;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-start:url(#DiamondS-8);marker-end:url(#DiamondS-8)"
+       style="fill:#808080;stroke:#000000;stroke-width:1.60000002;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-start:url(#DiamondS-8);marker-end:url(#DiamondS-8)"
        d="m 770.09115,282.83184 0,63.34412"
        id="path3696"
        inkscape:connector-curvature="0" /><text
