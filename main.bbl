@@ -1,4 +1,4 @@
-\begin{thebibliography}{183}
+\begin{thebibliography}{187}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 
 \bibitem[Als-Nielsen \& McMorrow(2011)]{als-nielsen_elements_2011}
@@ -78,13 +78,23 @@
   {{FDA}}-approved nano-drug: {{Lessons}} learned. {\em Journal of Controlled
   Release\/} {\bf 160}, 117--134.
 
-\bibitem[Baumg{\"a}rtel(1984)]{baumgartel_e.-e._1984}
-{\sc Baumg{\"a}rtel, H.} 1984 E.-{{E}}. {{Koch}} ({{Ed}}.): {{Handbook}} on
-  {{Synchrotron Radiation}}, {{Vol}}. 1a und 1b, {{North}}-{{Holland Publishing
-  Company}}, {{Amsterdam}}, {{New York}}, {{Oxford}} 1983.
-  {{Gesamtseitenzahl}}: 1296, {{Gesamtpreis}}: {{DM}} 600,\textendash,
-  {{Preis}} der {{Einzelb{\"a}nde}}: {{DM}} 350,\textendash. {\em Berichte der
-  Bunsengesellschaft f{\"u}r physikalische Chemie\/} {\bf 88}, 591--592.
+\bibitem[Baumg{\"a}rtel(1984{\natexlab{{\em a\/}}})]{baumgartel_e.-e._1984-1}
+{\sc Baumg{\"a}rtel, H.} 1984{\natexlab{{\em a\/}}} E.-{{E}}. {{Koch}}
+  ({{Ed}}.): {{Handbook}} on {{Synchrotron Radiation}}, {{Vol}}. 1a und 1b,
+  {{North}}-{{Holland Publishing Company}}, {{Amsterdam}}, {{New York}},
+  {{Oxford}} 1983. {{Gesamtseitenzahl}}: 1296, {{Gesamtpreis}}: {{DM}}
+  600,\textendash, {{Preis}} der {{Einzelb{\"a}nde}}: {{DM}} 350,\textendash.
+  {\em Berichte der Bunsengesellschaft f{\"u}r physikalische Chemie\/} {\bf
+  88}, 591--592.
+
+\bibitem[Baumg{\"a}rtel(1984{\natexlab{{\em b\/}}})]{baumgartel_e.-e._1984}
+{\sc Baumg{\"a}rtel, H.} 1984{\natexlab{{\em b\/}}} E.-{{E}}. {{Koch}}
+  ({{Ed}}.): {{Handbook}} on {{Synchrotron Radiation}}, {{Vol}}. 1a und 1b,
+  {{North}}-{{Holland Publishing Company}}, {{Amsterdam}}, {{New York}},
+  {{Oxford}} 1983. {{Gesamtseitenzahl}}: 1296, {{Gesamtpreis}}: {{DM}}
+  600,\textendash, {{Preis}} der {{Einzelb{\"a}nde}}: {{DM}} 350,\textendash.
+  {\em Berichte der Bunsengesellschaft f{\"u}r physikalische Chemie\/} {\bf
+  88}, 591--592.
 
 \bibitem[Baumstark {\em et~al.\/}(1990)Baumstark, Kreutz, Berg, Frey \&
   Keul]{baumstark_structure_1990}
@@ -575,6 +585,11 @@
   Ogasawara, K.} 2014 Effect of {{Silica Particle Size}} on {{Macrophage
   Inflammatory Responses}}. {\em PLoS ONE\/} {\bf 9}, e92634.
 
+\bibitem[Lages {\em et~al.\/}(2013)Lages, Goerigk \& Huber]{lages_saxs_2013}
+{\sc Lages, S., Goerigk, G. \& Huber, K.} 2013 {{SAXS}} and {{ASAXS}} on
+  {{Dilute Sodium Polyacrylate Chains Decorated}} with {{Lead Ions}}. {\em
+  Macromolecules\/} {\bf 46}, 3570--3580.
+
 \bibitem[Laggner {\em et~al.\/}(1977)Laggner, Degovics, M{\"u}ller, Glatter,
   Kratky, Kostner \& Holasek]{laggner_molecular_1977}
 {\sc Laggner, P., Degovics, G., M{\"u}ller, K.~W., Glatter, O., Kratky, O.,
@@ -670,6 +685,11 @@
   Koprinarov, I., Gullikson, E.~M. \& Kortright, J.~B.} 2006 Molecular bond
   selective x-ray scattering for nanoscale analysis of soft matter. {\em
   Applied Physics Letters\/} {\bf 89}, 044101.
+
+\bibitem[Mitchell \& Heckert(2010)]{mitchell_setup_2010}
+{\sc Mitchell, J.~S. \& Heckert, A.~B.} 2010 The setup, use and efficacy of
+  sodium polytungstate separation methodology with respect to microvertebrate
+  remains. {\em Journal of Paleontological Techniques\/} {\bf 7}, 1--12.
 
 \bibitem[Mitragotri \& Lahann(2009)]{mitragotri_physical_2009}
 {\sc Mitragotri, S. \& Lahann, J.} 2009 Physical approaches to biomaterial
@@ -802,6 +822,10 @@
   {{Nanomaterials}}. {{Part VI}}. {{Characterization}} of {{Nanoscale
   Particles}} for {{Toxicological Evaluation}}. {\em Toxicol Sci\/} {\bf 90},
   296--303.
+
+\bibitem[Rhodes \& Miles(1991)]{rhodes_fine_1991}
+{\sc Rhodes, D. \& Miles, N.~J.} 1991 Fine coal characterization. {\em Minerals
+  Engineering\/} {\bf 4}, 503--510.
 
 \bibitem[Ribeiro {\em et~al.\/}(2006)Ribeiro, Ortona, Sim{\~o}es, Santos,
   Prazeres, Valente, Lobo \& Burrows]{ribeiro_binary_2006}

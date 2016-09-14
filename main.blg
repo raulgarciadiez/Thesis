@@ -2,13 +2,16 @@ This is BibTeX, Version 0.99d (TeX Live 2013/TeX Live for SUSE Linux)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: main.aux
 The style file: meinbst.bst
-A level-1 auxiliary file: abstract.aux
+A level-1 auxiliary file: abbreviations.aux
+A level-1 auxiliary file: symbols.aux
 A level-1 auxiliary file: chapter_introduction.aux
 A level-1 auxiliary file: chapter_theory_SAXS.aux
 A level-1 auxiliary file: chapter_experimental_setup.aux
 A level-1 auxiliary file: chapter_density_gradient_SAXS.aux
 A level-1 auxiliary file: chapter_simultaneous_size_density.aux
 A level-1 auxiliary file: chapter_bio_applications.aux
+A level-1 auxiliary file: thanksgiving.aux
+A level-1 auxiliary file: tub-eidesstattliche.aux
 Database file #1: thesis.bib
 Warning--entry type for "fitzpatrick_structure_1998" isn't style-file defined
 --line 2410 of file thesis.bib
@@ -18,45 +21,45 @@ Warning--can't use both author and editor fields in feigin_structure_1987
 Warning--empty publisher in kramers_diffusion_1927
 `number' is a missing field, not a string, for entry stuhrmann_resonance_1985
 while executing---line 3135 of file meinbst.bst
-You've used 183 entries,
+You've used 187 entries,
             2851 wiz_defined-function locations,
-            1658 strings with 44842 characters,
-and the built_in function-call counts, 100514 in all, are:
-= -- 9498
-> -- 5831
-< -- 81
-+ -- 2265
-- -- 2046
-* -- 9688
-:= -- 18202
-add.period$ -- 368
-call.type$ -- 183
-change.case$ -- 1601
-chr.to.int$ -- 197
-cite$ -- 185
-duplicate$ -- 3987
-empty$ -- 6672
-format.name$ -- 2297
-if$ -- 19447
-int.to.chr$ -- 5
+            1676 strings with 45410 characters,
+and the built_in function-call counts, 102429 in all, are:
+= -- 9697
+> -- 5903
+< -- 84
++ -- 2296
+- -- 2070
+* -- 9864
+:= -- 18541
+add.period$ -- 376
+call.type$ -- 187
+change.case$ -- 1629
+chr.to.int$ -- 200
+cite$ -- 189
+duplicate$ -- 4072
+empty$ -- 6816
+format.name$ -- 2329
+if$ -- 19825
+int.to.chr$ -- 6
 int.to.str$ -- 1
-missing$ -- 192
-newline$ -- 553
-num.names$ -- 736
-pop$ -- 1300
+missing$ -- 196
+newline$ -- 565
+num.names$ -- 752
+pop$ -- 1318
 preamble$ -- 1
-purify$ -- 1413
+purify$ -- 1437
 quote$ -- 0
-skip$ -- 2308
+skip$ -- 2354
 stack$ -- 0
-substring$ -- 6046
-swap$ -- 903
+substring$ -- 6189
+swap$ -- 924
 text.length$ -- 8
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 1614
+type$ -- 1650
 warning$ -- 2
-while$ -- 873
+while$ -- 893
 width$ -- 0
-write$ -- 2011
+write$ -- 2055
 (There were 2 error messages)

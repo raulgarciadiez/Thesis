@@ -11,7 +11,7 @@ X-rays are electromagnetic radiation which propagates in vacuum along the direct
         \Psi_0\left( \vec{r} \right)=A_0 e^{i \vec{k}\vec{r} }
 \end{equation}
 
-where the wavenumber $k=\abs{\vec{k}}$ is related to the X-ray wavelength by $k=\sfrac{2\pi}{\lambda}$. Conventially, X-ray wavelengths ranges between 0.01 and 10 nm, although SAXS experiments are conducted normally at the hard X-ray range, e.g. at wavelenghts between 0.02 and 0.8 nm. Due to the wave-particle duality of electromagnetic radiation, X-rays possess a particle nature as well, represented by the quantisation of light into an ensemble of photons with an energy $\hbar \omega$. The photon energy is related to the X-ray wavelength by\textcolor{red}{REF}
+where the wavenumber $k=\abs{\vec{k}}$ is related to the X-ray wavelength by $k=\sfrac{2\pi}{\lambda}$. Conventially, X-ray wavelengths ranges between 0.01 and 10 nm, although SAXS experiments are conducted normally at the hard X-ray range, e.g. at wavelenghts between 0.02 and 0.8 nm. Due to the wave-particle duality of electromagnetic radiation, X-rays possess a particle nature as well, represented by the quantisation of light into an ensemble of photons with an energy $\hbar \omega$. The photon energy is related to the X-ray wavelength by \citep{als-nielsen_elements_2011}
 
 \begin{equation}
         \lambda = \frac{h c}{E_{ph}}
@@ -30,19 +30,20 @@ where $h=2\pi\hbar$ is the Planck's constant and $c$ is the speed of light in va
 		\label{fig:BeerLambertScheme}
 \end{figure}
 
-The interaction of X-ray photons and matter produce an attenuation of the incident radiation intensity $I_0$ which is related to the properties and volume of the material. The decrease of the intensity through a medium is schematically depicted in figure \ref{fig:BeerLambertScheme} and described by the Beer-Lambert law\textcolor{red}{REF}:
+The interaction of X-ray photons and matter produce an attenuation of the incident radiation intensity $I_0$ which is related to the properties and volume of the material. The decrease of the intensity through a medium is schematically depicted in figure \ref{fig:BeerLambertScheme} and described by the Beer-Lambert law \citep{als-nielsen_elements_2011}:
 
 \begin{equation}
         I\left( x \right)=I_0e^{-\mu x}
 \end{equation}
 
-where $\mu$ is the linear attenuation coefficient and $x$ is the radiation path length. The attenuation coefficient is dependent on the material composition and the photon energy and is directly related to the extinction coefficient $\beta$, e.g. the imaginary part of the refraction index $n$, by\textcolor{red}{REF} 
+where $\mu$ is the linear attenuation coefficient and $x$ is the radiation path length. The attenuation coefficient is dependent on the material composition and the photon energy and is directly related to the extinction coefficient $\beta$, e.g. the imaginary part of the refraction index $n$, by \citep{baumgartel_e.-e._1984-1}
 
 \begin{equation}
         \mu (E) = \frac{4\pi}{hc} E \beta(E)
 \end{equation}
 
-Considering that the refractive index is expressed generally by $n = 1 - \delta +i \beta$\textcolor{red}{REF} and $\delta<10^{-3}$ in the X-ray regime \textcolor{red}{REF}, refraction effects can be neglected in scattering experiments because $\Re(n)$ is very close but smaller than unity.
+Considering that the refractive index is expressed generally by $n = 1 - \delta +i \beta$ and $\delta<10^{-3}$ in the X-ray regime\citep{henke_x-ray_1993}
+, refraction effects can be neglected in scattering experiments because $\Re(n)$ is very close but smaller than unity.
 
 When the attenuating medium is composed of different atomic species, $\mu$ can be expressed as the summation of each component attenuation coefficient:
 
@@ -68,7 +69,7 @@ In fact, the attenuation cross-section $\sigma$ is dependent upon the several di
 
 When the X-ray photon is completely absorbed by the atom, the event is called photoelectron absorption because a photoelectron with the excess energy is expelled from an inner atomic shell, leaving the atom ionized. The created core-hole is consequently filled by an electron from an outer shell either by a radiative process, i.e. \emph{fluorescence}, or by a non-radiative mechanism emitting a secondary electron, i.e. Auger effect. The photoelectric effect is the predominant contribution to the attenuation principally at low X-ray energies and the ultraviolet regime, as shown in figure \ref{fig:AttenuationWater}. 
 
-The other relevant contributions at the X-ray range are related to scattering processes. In an inelastic scattering event, the energy of the incident photon is partially transfered to a loosely bond electron resulting in a scattered photon with a lower frequency, according to the Compton relation $\Delta\lambda = \sfrac{h}{m_e c}\left( 1 - \cos{\Theta} \right) $, where $\Theta$ is the scattering angle. The Compton scattering is incoherent and contributes generally less than the elastic scattering at energies below 10 keV, as observed in figure \ref{fig:AttenuationWater}. Besides, the coherent scattering signal is the summation of the constructive interferences of the electromagnetic wave, which produces a higher scattered intensity than the inelastic scattering. In fact, the elastic scattering of X-rays is the main proccess used in material investigations and the pyhsical principle behind SAXS.
+The other relevant contributions at the X-ray range are related to scattering processes. In an inelastic scattering event, the energy of the incident photon is partially transfered to a loosely bond electron resulting in a scattered photon with a lower frequency, according to the Compton relation $\Delta\lambda = \sfrac{h}{m_e c}\left( 1 - \cos{\Theta} \right) $ \citep{als-nielsen_elements_2011}, where $\Theta$ is the scattering angle. The Compton scattering is incoherent and contributes generally less than the elastic scattering at energies below 10 keV, as observed in figure \ref{fig:AttenuationWater}. Besides, the coherent scattering signal is the summation of the constructive interferences of the electromagnetic wave, which produces a higher scattered intensity than the inelastic scattering. In fact, the elastic scattering of X-rays is the main proccess used in material investigations and the pyhsical principle behind SAXS.
 
 \subsection{Elastic scattering}
 \label{sec:ElasticScattering}
@@ -165,6 +166,7 @@ where $A$ is the atomic mass of the resonant atom and $\rho$ its physical densit
 The values of the anomalous scattering amplitude $f(E)$ are usually calculated using the experimentally measured attenuation coefficient $\mu(E)$.
 
 \section{Small-angle X-ray scattering}
+\label{sec:SAXS_theory}
 
 Small-angle X-ray scattering is a powerful technique that can elucidate the structural features of particles with sizes ranging from about 2 nm up to 400 nm. By investigating the photons elastically scattered by the electron density distribution of the particle, the resulting patterns can be analysed according to equation \ref{eq:rayleigh_cross_section} to obtain information about the particle size, shape and composition. The fundamental quantities in a SAXS experiment are the scattering intensity $I(\vec{q}) = \abs{f(\vec{q})}^2$ and the scattering amplitude or \emph{form factor} $f(\vec{q})$, that for objects with spherical symmetry ($\rho_e(\vec{r})=\rho_e(r)$) is expressed by
 
@@ -266,6 +268,7 @@ F_{\text{lin}}(q,R) = 4\pi\frac{ \left( 2qR\sin(qR)+2\cos(qR)-(qR)^2\cos(qR) \ri
 The presented form factors result from the models used in this work to analyze the experimental SAXS data of polymeric colloids in suspension presented in chapters \ref{chap:density_gradient_SAXS} and \ref{chap:simultaneous_size_density}.
 
 \section{Contrast variation}
+\label{sec:contrast_variation_theory}
 
 In the contrast variation method, the electron density of the particle or the surrounding medium is systematically altered in order to obtain independent scattering curves with different contrasts $\Delta \rho (r)$. This technique is useful to characterize the different components of a heterogenous particle, due to the complementary data that can be collected with this approach. In the work presented in this thesis, only the electron density of the suspendin medium is varied, using the so-called \emph{solvent contrast variation} method.
 

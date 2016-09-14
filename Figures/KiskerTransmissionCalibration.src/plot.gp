@@ -40,6 +40,7 @@ ed(C)=1.2681*C+333.19
 set log y2
 set y2range [100*Tmax:100*Tmin]
 set y2tics (0.027,0.028,0.0295, 0.0305)
+
 set yrange [ed(concmax):ed(concmin)]
 
 

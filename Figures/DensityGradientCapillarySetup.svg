@@ -28,7 +28,7 @@
      inkscape:pageshadow="2"
      inkscape:zoom="1.979899"
      inkscape:cx="348.71907"
-     inkscape:cy="82.749137"
+     inkscape:cy="83.001675"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -782,6 +782,20 @@
          transform="matrix(-0.3,0,0,-0.3,0.69,0)"
          inkscape:connector-curvature="0" />
     </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow1Sstart-9"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Sstart">
+      <path
+         transform="matrix(0.2,0,0,0.2,1.2,0)"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         id="path4191-9"
+         inkscape:connector-curvature="0" />
+    </marker>
   </defs>
   <metadata
      id="metadata7009">
@@ -791,7 +805,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -1099,6 +1113,24 @@
        style="fill:#0000ff;stroke:#0000ff;stroke-width:3;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:0.60000002;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker-start:url(#Arrow1Sstartx);marker-end:url(#marker7083-7z)"
        d="m -860.92552,762.40947 0.0477,36.54418"
        id="path6408-3-9"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc" />
+    <text
+       sodipodi:linespacing="100%"
+       id="text10218-0"
+       y="761.79047"
+       x="-816.24854"
+       style="font-size:32.1402092px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:URW Palladio L;-inkscape-font-specification:URW Palladio L Medium"
+       xml:space="preserve"><tspan
+         style="font-size:14px;text-align:start;text-anchor:start"
+         y="761.79047"
+         x="-816.24854"
+         sodipodi:role="line"
+         id="tspan6059-1">Galden</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:2.5;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:0.60000002;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker-start:url(#Arrow1Sstart);marker-end:none"
+       d="m -838.66706,758.96213 19.67532,-0.1962"
+       id="path6408-3-00"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cc" />
   </g>
