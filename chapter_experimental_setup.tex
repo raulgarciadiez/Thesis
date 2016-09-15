@@ -1,21 +1,21 @@
 \chapter{Instrumentation and experimental setup for SAXS measurements}
 \label{chap:experimental_setup}
 
-Since the appearance of third generation facilities, synchrotron radiation sources have become of importance in Small-angle X-ray Scattering experiments due to their high brilliance and collimation, favoring the application of SAXS in a wide variety of scientific fields. The most relevant instrumentation required in a small-angle X-ray scattering experiment are the X-ray source, a sample environment and an area detector which collects the elastic scattered photons. 
+Since the appearance of third generation facilities optimized for brightness, synchrotron radiation sources have become of importance in Small-angle X-ray Scattering experiments due to their high brilliance and collimation, favoring the application of SAXS in a wide variety of scientific fields. The most relevant instrumentation required in a small-angle X-ray scattering experiment are the X-ray source, a sample environment and an area detector which collects the elastic scattered photons. 
 
-The first part of this chapter (section \ref{sec:BESSY}) describes the synchrotron X-ray source, the electron storage ring BESSY II. After this short review on synchrotron radiation, the four-crystal monochromator (FCM) beamline operating in the PTB laboratory at BESSY II is introduced (section \ref{sec:fcm}), where the entirety of the reported results were measured. Following this, the area detector mounted on the HZB-SAXS instrument is reviewed (section \ref{sec:SAXS_experimental}), highlighting the newly developed \emph{in-vacuum} Pilatus X-ray detector and the low uncertainty associated to the sample-detector distance that can be achieved with this setup. Finally, section \ref{sec:sample_environment} presents a detailed insight into the different sample environments needed for the nanoparticles in suspension studied in this work. A brief overview of the data reduction is given in section \ref{sec:data_reduction}, emphasizing the \emph{a posteriori} corrections required by the scattering curve.
+The first part of this chapter (section \ref{sec:BESSY}) describes the synchrotron radiation source, the electron storage ring BESSY II. After this short review on synchrotron radiation, the four-crystal monochromator (FCM) beamline operated in the PTB laboratory at BESSY II is introduced (section \ref{sec:fcm}), where the totality of the reported results was measured. Following this, the area detector mounted on the HZB-SAXS instrument is reviewed (section \ref{sec:SAXS_experimental}), highlighting the newly developed \emph{in-vacuum} Pilatus X-ray detector and the low uncertainty associated to the sample-detector distance that can be achieved with this setup. Finally, section \ref{sec:sample_environment} presents a detailed insight into the different sample environments needed for the nanoparticles in suspension studied in this work. A brief overview of the data reduction is given in section \ref{sec:data_reduction}, emphasizing the \emph{a posteriori} corrections required by the scattering curve.
 
 
-\section{Synchrotron radiation at BESSY II}
+\section{Synchrotron radiation}
 \label{sec:BESSY}
 
-Synchrotron radiation is the electromagnetic dipole radiation which is emitted by ultra-relativistic charged particles when are accelerated by an external field. The kinetic energy loss of the charged particles (typically electrons) due to the Bremsstrahlung process \citep{blumenthal_bremsstrahlung_1970} is tangentially radiated in form of a light cone with high brilliance and a wide photon energy range. The radiant power of a single relativistic electron in a homogenous magnetic field is expressed by the Larmor formula:
+Synchrotron radiation is the electromagnetic dipole radiation which is emitted by ultra-relativistic charged particles when they are accelerated by an external field. The kinetic energy loss of the charged particles (typically electrons) due to the Bremsstrahlung process \citep{blumenthal_bremsstrahlung_1970} is tangentially radiated in form of a light cone with high brilliance and a wide photon energy range. The radiant power of a single relativistic electron in a homogenous magnetic field is expressed by the Larmor formula:
 
 \begin{equation}
         P=\frac{e^2}{6\pi\epsilon_0c}\left( \dot{\beta}^2 + \frac{(\dot{\vec{\beta}} \cdot \vec{\beta})^2}{1-\beta^2} \right) \gamma^4
 \end{equation}
 
-where $\vec{\beta}=\frac{\vec{v}}{c}$, the Lorentz factor is $\gamma=\frac{1}{\sqrt{1-\beta^2}}=\frac{E}{m_e c^2}$ and $v$, $m_e$ and $E$ are the velocity, rest mass and energy of the electron respectively.
+where $\vec{\beta}=\frac{\vec{v}}{c}$, the Lorentz factor is $\gamma=\frac{1}{\sqrt{1-\beta^2}}=\frac{E}{m_e c^2}$ and $v$, $m_e$ and $E$ are the velocity, rest mass and energy of the electron, respectively.
 
 The total power emitted by an ultra-relativistic electron accelerated radially ($\vec{a} \bot \vec{v}$) is described by:
 
@@ -25,35 +25,19 @@ The total power emitted by an ultra-relativistic electron accelerated radially (
 
 where $R$ is the radius of the electron trajectory in the circular storage ring and is related to the external magnetic field strength of the bending magnet ($B$) by $R=\frac{E}{ecB}$. The use of light particles (electrons or positrons) in storage rings such as BESSY II is explained by the production of a radiative power $\sim 10^{13}$ times larger than heavier particles like protons.
 
-Synchrotron radiation sources generating X-rays photons have arisen as an important tool in many scientific fields like physical chemistry, life science or physics. The broad spectral range and the high brilliance open new experimental possibilities in materials science as well as in metrology. For instance, the synchrotron radiation can be employed as a primary calibration standard for electromagnetic radiation \citep{thornagel_electron_2001} by means of the Schwinger equation \citep{schwinger_classical_1949} and the determination of the number of electrons per bunch, the electron energy and the magnetic field of the bending magnet.
+Synchrotron radiation sources generating X-rays photons have arisen as an important tool in many scientific fields like physical chemistry, life science or physics. The broad spectral range and the high brilliance open new experimental possibilities in materials science as well as in metrology. For instance, the synchrotron radiation can be employed as a primary calibration standard for electromagnetic radiation \citep{thornagel_electron_2001} by means of the Schwinger equation \citep{schwinger_classical_1949} and the determination of the number of electrons, the electron energy and the magnetic field of the bending magnet.
 
-The two most characteristic features of a synchrotron radiation source are the brilliance and the critical energy or critical wavelength. The brilliance is defined as the number of photons per second, per 100 mA circulating electron current in the storage ring, per electron beam source cross section in mm$^2$, per angular divergence in mrad$^2$, per 0.1 $\% \; \frac{\Delta\lambda}{\lambda}$ \citep{baumgartel_e.-e._1984}, where $\Delta\lambda$ is the bandwidth at a certain wavelength $\lambda$. The critical energy $E_C$ is defined by \citep{schwinger_classical_1949}:
+The two most characteristic features of a synchrotron radiation source are the brilliance and the critical energy or critical wavelength. The spectral brilliance is defined as the number of photons per second, per electron beam source cross section, per angular divergence and per 0.1 $\%$ bandwidth at a certain wavelength $\lambda$\citep{baumgartel_e.-e._1984}. The critical energy $E_C$ is defined by \citep{schwinger_classical_1949}:
 
 \begin{equation}
         E_C=\frac{3hc}{4\pi R}\left(\frac{E}{m_e c}\right)^3
 \end{equation}
 
-The critical energy $E_C$ divides the spectral range into two parts with equal radiated power \citep{baumgartel_e.-e._1984}.
-
-\subsection{The BESSY II Electron Storage Ring}
-
-The facility BESSY II situated in Berlin (Germany) is a synchrotron X-ray and UV light source of third generation. The electrons are accelerated to 1.72 GeV in a booster synchrotron and injected into a storage ring with a 240 m circumference and an electron current of approximately 300 mA \citep{couprie_x_2008}. The following paragraphs describe the creation of X-ray light from the acceleration of the electron beam until the emission of synchrotron radiation on the bending magnets situated along the storage ring \citep{bakker_orbit_1998, bakker_status_1999}.
-
-\begin{figure}%[htbp]
-	\centering
-		\resizebox{0.4\linewidth}{!}{\includegraphics{Figures/BessyScheme.png}}
-		\caption{A scheme of BESSY II. From the master thesis.}
-		\label{fig:BessyScheme}
-\end{figure}
-
-
-The creation of the free electrons on the electron beam is the first step, as depicted schematically in figure \ref{fig:BessyScheme}. A hot thermionic cathode emits electrons which are accelerated with a high voltage to the anode up to a 70 keV energy and inserted into a linear pre-accelerator, which brings the electron beam to relativistic velocities. The electrons are then transferred into a Scanditronix 50 MeV racetrack microtron (3 GHz) and further accelerated in a 10 Hz booster synchrotron. The acceleration process in the rapid-cycling synchrotron takes about 50 ms and is achieved by the disposition of a set of magnets and 500 MHz rf-cavities coupled with the magnets in linear paths that ramp the electron beam to its final operation energy of 1.72 GeV.
-
-At this point the electrons are injected into the storage ring, where 32 bending magnets with a magnetic field strenght of 1.3 T and a bending radius of 4.2 m \citep{klein_elektronenspeicherringe_2014} are equipped to maintain the circular trajectory of the electron beam at 1.25 MHz revolution frequency. The storage ring has a circumference of 240 meters and the successive injection of electrons from the booster synchrotron leads to currents of approximately 300 mA in the TopUp Mode. The characteristic energy $E_C$ of the bending magnets at BESSY II is 2.5 keV. 
+The critical energy $E_C$ divides the spectral range into two parts with equal radiatant power \citep{baumgartel_e.-e._1984}.
 
 \subsection{Insertion devices}
 
-The synchrotron light sources of third generation such as BESSY II are designed with the goal of optimizing the insertion devices and, therefore, enhance the spectral brightness \citep{ries_nonlinear_2014}. The employment of insertion devices, such as wiggles or undulators, on the straight sections of the storage ring can improve the brilliance or produce light polarizations different from that produced by bending magnets.
+The synchrotron radiation sources of the third generation are designed with the goal of optimizing the insertion devices and, therefore, enhance the spectral brightness \citep{ries_nonlinear_2014}. The employment of insertion devices, such as wiggles or undulators, on the straight sections of the storage ring improves the brilliance or produce light polarizations different from that produced by bending magnets.
 
 Both insertion devices consist on the same principle: a large number ($N\sim100$) of equally spaced alternately polarised dipole magnets stimulate the emission of synchrotron radiation on the experiment direction, due to the coherent addition of the contributions from the passage of a single electron. By this approach, the photon flux can be increased  in a factor $N$, the number of magnets separated with a spatial field period ($\lambda_0$) in the range of cm. The distinguishable property between wigglers and undulators is their deflection parameter $K$, defined by \citep{baumgartel_e.-e._1984}:
 
@@ -61,12 +45,29 @@ Both insertion devices consist on the same principle: a large number ($N\sim100$
         K=\frac{e}{m_e 2\pi c}B_0\lambda_0
 \end{equation}
 
-where $B_0$ is the magnetic field amplitude of the dipole magnet. Normally, $K$ can be modified by varying the space between the dipole magnets (\emph{gap}) and, thus, whether the insertion device is  called a wiggler or an undulator depends on its particular configuration. The value of $K$ is rather large in the case of wigglers, emitting radiation in a broad spectral range and increasing the $E_C$ of the storage ring. On the other hand, undulator devices have $K\leq1$, emitting an almost monochromatic and highly intense photon beam.
+where $B_0$ is the magnetic field amplitude of the dipole magnet. Normally, $K$ can be modified by varying the space between the dipole magnets (\emph{gap}) and, thus, whether the insertion device is  called a wiggler or an undulator depends on its particular configuration. The value of $K$ is rather large in the case of wigglers, emitting radiation in a broad spectral range and increasing the $E_C$ of the storage ring. On the other hand, undulator devices have $K\leq1$, emitting an almost monochromatic and highly intense photon beam, due to the sharp harmonic peaks produced by the coherent interference between the different periods radiation.
+
+\section{The BESSY II Electron Storage Ring}
+
+The facility BESSY II situated in Berlin (Germany) is a synchrotron X-ray and UV light source of the third generation. The electrons are accelerated to 1.72 GeV in a booster synchrotron and injected into a storage ring with 240 m circumference and an electron current of approximately 300 mA in the TopUp Mode\citep{couprie_x_2008}. The following paragraphs describe the creation of X-rays from the acceleration of the electron beam until the emission of synchrotron radiation on the bending magnets situated along the storage ring \citep{bakker_orbit_1998, bakker_status_1999}.
+
+\begin{figure}%[htbp]
+	\centering
+		\resizebox{0.4\linewidth}{!}{\includegraphics{Figures/BessyScheme.png}}
+		\caption{A scheme of BESSY II. \textcolor{red}{IMPROVE IMAGE!!! NEW DRAWING MAYBE???}}
+		\label{fig:BessyScheme}
+\end{figure}
+
+
+The creation of the free electrons on the electron beam is the first step, as depicted schematically in figure \ref{fig:BessyScheme}. A standard DC grid cathode emits electrons which are accelerated with a high voltage to the anode up to a 90 keV energy. These electrons are the source of a 50 MeV Linac, which brings the electron beam to relativistic velocities. The 0.4 nC charged electrons bunches are further transported to a 10 Hz booster synchrotron by a long Injection Line. The acceleration process in the rapid-cycling synchrotron takes about 50 ms and is achieved by the disposition of a set of magnets and 500 MHz rf-cavities coupled with the magnets in linear paths that ramp the electron beam to its final operation energy of 1.72 GeV.
+
+At this point the electrons are injected into the storage ring, where 32 bending magnets with a magnetic field strenght of 1.3 T and a bending radius of 4.2 m \citep{klein_elektronenspeicherringe_2014} are equipped to maintain the circular trajectory of the electron beam at 1.25 MHz revolution frequency. The characteristic energy $E_C$ of the bending magnets at BESSY II is 2.5 keV. 
+
 
 \section{FCM Beamline}
 \label{sec:fcm}
 
-The four-crystal monochromator bending magnet beamline operating in the PTB laboratory at BESSY II \citep{krumrey_design_1998, krumrey_high-accuracy_2001} provides a monochromatic beam in the 1.75-10 keV energy range at a fixed sample position with very high photon flux reproducibility and high energy resolving power. A schematic depiction of the beamline and its components is shown in figure \ref{fig:FCMScheme}.
+The four-crystal monochromator bending magnet beamline operating in the PTB laboratory at BESSY II \citep{krumrey_design_1998, krumrey_high-accuracy_2001} provides a monochromatic beam in the 1.75 to 10 keV energy range at a fixed sample position with very high photon flux reproducibility and high energy resolving power. A schematic depiction of the beamline and its components is shown in figure \ref{fig:FCMScheme}.
 
 \begin{figure}%[htbp]
 	\centering
@@ -75,11 +76,11 @@ The four-crystal monochromator bending magnet beamline operating in the PTB labo
 		\label{fig:FCMScheme}
 \end{figure}
 
-At 14 m of the bending magnet, a Pt-coated toroidal mirror is located to focus the beam in the horizontal direction and to collimate it in the vertical direction. The radiation coming from the bending magnet is monochromatised further downstream by a set of 4 single crystals which reflect the light according to the Bragg's law for the (1 1 1) reflexion. As the 4 crystals are mounted on two wheels (one on the rotation center and one parallel aligned), the rotation angle of the wheel ($\Theta$) defines the energy of the outgoing photon beam by $E=\frac{\sqrt{3}h c}{2a\sin{\Theta}}$, where $a$ is the lattice constant of the crystal.
+At 14 m from the bending magnet, a Pt-coated toroidal mirror is located to focus the beam in the horizontal direction and to collimate it in the vertical direction. The radiation coming from the bending magnet is monochromatised further downstream by a set of 4 single crystals which reflect the light according to the Bragg's law for the (1 1 1) reflection. As the 4 crystals are mounted on two wheels (one on the rotation center and one parallelly aligned), the rotation angle of the wheel ($\Theta$) defines the energy of the outgoing photon beam by $E=\frac{\sqrt{3}h c}{2a\sin{\Theta}}$, where $a$ is the lattice constant of the crystal.
 
 Two types of exchangeable crystal sets, Si ($a=0.543$ nm) and InSb ($a=0.648$ nm), are available to cover the energy range from 1.75 keV to 10 keV. The convolution of the 4 Bragg reflections provides a very high energy resolving power ($E/\Delta E = 10^4 $) through the full energy range. Besides, the geometric disposition of the crystals fixes the position of the outgoing radiation. The monochromator is operated under a $10^{-8}$ mbar vacuum.
 
-The energy range is traced back to the well-known lattice constant of Si. The back-reflection of a silicon crystal at different lattice planes is measured at known energies and the energy is calibrated to the dips positions appearing when the Bragg condition is fulfilled. This approach was employed at the sensitive surface of the X-ray detector introduced in section \ref{sec:pilatus} for an energy range between 4 keV and 10 keV \citep{gollwitzer_diffraction_2014}. To check the accuracy of the energy calibration in a standard measurement, a transmission scan around the K-edge of a copper foil (8980.5 eV) can be measured.
+The energy is traced back to the well-known lattice constant of Si. The back-reflection of a silicon crystal at different lattice planes is measured at known energies and the energy is calibrated to the dips positions appearing when the Bragg condition is fulfilled. This approach was employed at the sensitive surface of the X-ray detector introduced in section \ref{sec:pilatus} for an energy range between 4 keV and 10 keV \citep{gollwitzer_diffraction_2014}. To check the accuracy of the energy calibration for daily measurements, a transmission scan around the K-edge of a copper foil (8980.5 eV) can be measured.
 
 About 10 m before the sample chamber, a bendable plane mirror collimates the beam in the vertical direction and focuses it in the horizontal direction. The mirror is coated with two different materials in separated areas. The Pt-coating is employed to maximize the reflectivity at energies above 4 keV, while the MgF$_2$ supresses the higher orders at energies below 4 keV. The photon flux achieved with the different configurations available at the FCM beamline is shown in figure \ref{fig:FCMBeamlineFlux}, although it can vary depending on the precise disposition of the different apertures along the beam path.
 
@@ -90,15 +91,15 @@ About 10 m before the sample chamber, a bendable plane mirror collimates the bea
 		\label{fig:FCMBeamlineFlux}
 \end{figure}
 
-The first slit behind the bending magnet is used to limit the acceptance angle of the radiation into the monochromator. Two moveable slits more are employed downstream to block the parasitic scattering. The 8 $\mu$m thick silicon photodiode can be used for energies above 3 keV. A germanium 520 $\mu$m circular pinhole (Scatex, Incoatec, Geesthacht, Germany) situated before the sample chamber shapes the photon beam into a circular spot on the sample and strongly reduces the parasitic radiation. A flux monitor diode is equipped behind these components and can measure continuously the incoming photon flux.
+The first slit behind the bending magnet is used to limit the acceptance angle of the radiation into the monochromator. Two moveable slits more are employed downstream to block the parasitic scattering. A germanium 520 $\mu$m circular pinhole (Scatex, Incoatec, Geesthacht, Germany) situated before the sample chamber shapes the photon beam into a circular spot on the sample and strongly reduces the parasitic radiation. A 8 $\mu$m thick silicon photodiode diode is equipped behind these components and can monitor continuously the incoming photon flux for energies above 3 keV.
 
 \subsection{UHV X-ray Reflectometer}
 
-The sample chamber is situated 37 m away from the insertion device, right behind the flux monitor diode. The UHV X-ray Reflectometer disposes of a large volume (60 cm diameter and 70 cm length) which is fully evacuated to reach pressures of approximately $10^{-7}$ mbar. High vacuum is needed to perform experiments at the low energies accessible at the FCM beamline, as the attenuation length of air at energies below 2 keV is less than 1 cm. A smaller lock chamber connected to the sample chamber by a small flange is used to exchange samples without breaking the vacuum of the larger UHV X-ray reflectometer.
+The sample chamber is situated 37 m away from the dipole i.e. bending magnet, right behind the flux monitor diode. The UHV X-ray Reflectometer disposes of a large volume (60 cm diameter and 70 cm length) which is fully evacuated to reach pressures of approximately $10^{-7}$ mbar. High vacuum is needed to perform experiments at the low energies accessible at the FCM beamline, as the attenuation length of air at energies below 2 keV is less than 1 cm. A smaller lock chamber connected to the sample chamber by a 200 mm diametere flange is used to exchange samples without breaking the vacuum of the larger UHV X-ray reflectometer.
 
-The motors of the sample holder can be moved linearly along 3 axes perpendicular to the incoming beam and with very high precision and reproducibility. The broad range of the $x$-motor (160 mm) permits the measurement of different sample capillaries (ca. 20) at once without ventilating the chamber for exchanging the sample.
+The motors of the sample holder can be moved along 3 directions perpendicular to the incoming beam and with very high precision and reproducibility. The broad range of the $x$-motor (160 mm) permits the measurement of different sample capillaries (ca. 20) at once without venting the chamber for exchanging the sample.
 
-The large volume of the reflectometer provides enough space to allocate other components close to the sample holder. For example, about 10 cm before the sample position, a 1 mm circular guard pinhole (Incoatec, Geesthacht, Germany) is equipped to remove the parasitic scattering resulting from the collimating system. Behind the sample, the transmitted radiation is measured with a (10 x 10) mm$^2$ silicon photodiode. The thick Can500C diode (Canberra, Meriden, USA) is capable of measuring through the entire beamline energy range, from 1.75 keV to 10 keV, and is calibrated against a cryogenic electric substitution radiometer with a relative uncertainty of \( 1\,\% \) \cite{krumrey_high-accuracy_2001}.
+The large volume of the reflectometer provides enough space to allocate other components close to the sample holder. For example, about 10 cm before the sample position, a 1 mm circular guard pinhole (Incoatec, Geesthacht, Germany) is installed to remove the parasitic scattering resulting from the collimating system. Behind the sample, the transmitted radiation is measured with a (10 x 10) mm$^2$ silicon photodiode. The thick Can500C diode (Canberra, Meriden, USA) is capable of measuring through the entire beamline energy range, from 1.75 keV to 10 keV, and is calibrated against a cryogenic electric substitution radiometer with a relative uncertainty of \( 1\,\% \) \citep{krumrey_high-accuracy_2001}.
 
 \section{SAXS Setup}
 \label{sec:SAXS_experimental}
@@ -108,9 +109,9 @@ The intensity scattered by the sample is recorded at a certain distance behind t
 \subsection{X-ray area detector}
 \label{sec:pilatus}
 
-The scattered X-ray photons are collected by a large-area hybrid pixel detector. The Pilatus 1M (Dectris Ltd, Baden, Switzerland) has a sensitive surface of (179 x 169) mm$^2$ and consists of a silicon pixel matrix with a pixel size of $d = (172.1 \pm 0.2)$ $\mu$m which operates in single-photon counting mode, providing very low darkcount rates and signal-to-noise ratios and a high dynamic range. For instance, the detector quantum efficiency is about 97 $\%$ at 8 keV using the ultra-high gain mode and almost 86 $\%$ at 4 keV \citep{wernecke_characterization_2014}.
+The scattered X-ray photons are collected by a large-area hybrid pixel detector. The Pilatus 1M (Dectris Ltd, Baden, Switzerland) has a sensitive surface of (179 x 169) mm$^2$ and consists of a silicon pixel matrix with a pixel size of $d = (172.1 \pm 0.2)$ $\mu$m which operates in single-photon counting mode, providing very low darkcount rates, very good signal-to-noise ratios and a high dynamic range. For instance, the detector quantum efficiency is about 97 $\%$ at 8 keV using the ultra-high gain mode and almost 86 $\%$ at 4 keV \citep{wernecke_characterization_2014}.
 
-Besides, the Pilatus 1M detector was modified to operate under vacuum to cover the full energetic range available at the beamline, down to 1.75 keV. The windowless detector is directly connected to the sample chamber with an evacuated bellow and cooled down at 5-10$^{\circ}$C. The narrow point-spread function of the detector and the available low energies increase the momentum transfer resolution and the accessible $q$-range.
+Besides, the Pilatus 1M detector was modified to operate under vacuum to cover the full energetic range available at the beamline, down to 1.75 keV. The windowless detector is directly connected to the sample chamber with an evacuated bellow and cooled down at 5 to 10$^{\circ}$C. The narrow point-spread function of the detector and the available low energies increase the momentum transfer resolution and the accessible $q$-range.
 
 A moveable beamstop mounted at thin wires is installed just in front of the detector to block the intense transmitted photon beam, avoiding saturation effects in the central pixels. The beamstop is constructed within a funnel-like cavity ($\oslash$ 5 mm) to reduce geometrically the reflections on the beamstop surface, which are damped by the cavity. Since April 2016, a silicon photodiode with a sensitive area of (2.5 x 2.5) mm$^2$ (S10356-01, Hamamatsu, Shizuoka, Japan) covers the beamstop to monitor the sample transmission during the experiment, revealing the possible radiation damage of the sample.
 
@@ -122,15 +123,15 @@ Complementary to the HZB-SAXS instrument, the sample-detector distance can be re
 
 \begin{table}[]
 \centering
-\caption{Accessible $q$-range for the different experimental setups at the low and high energy limits.}
+\caption{Two different experimental setups which span the accessible $q$-range for almost 3 decades.}
 \label{tab:qrange}
 \begin{tabular}{|l|c|c|}
 \hline
               & \textbf{SAXS} & \textbf{WAXS} \\ \hline
 Distance (mm) & 4540          & 760           \\ \hline
 Energy (eV)   & 4000          & 10000         \\ \hline
-$q_{min}$ (nm$^{-1}$)   & \textbf{0.015}         & 0.2          \\ \hline
-$q_{max}$ (nm$^{-1}$)   & 0.56             & \textbf{7}             \\ \hline
+$q_{\text{min}}$ (nm$^{-1}$)   & \textbf{0.015}         & 0.2          \\ \hline
+$q_{\text{max}}$ (nm$^{-1}$)   & 0.56             & \textbf{7}             \\ \hline
 \end{tabular}
 \end{table}
 
@@ -138,7 +139,7 @@ $q_{max}$ (nm$^{-1}$)   & 0.56             & \textbf{7}             \\ \hline
 
 In small-angle scattering experiments, it is crucial to know precisely the distance between the irradiated sample and the detector, in order to calibrate the momentum transfer $q$. Typically, a calibration standard material with a well-known crystal lattice parameter is employed, which produces well-defined diffraction rings in the low-angle region. A material extensively used is dry rat-tail tendon collagen, with a $d$-spacing of 650 \AA \citep{amenitsch_performance_1997}, corresponding to $q=0.097$ nm$^{-1}$. The degradation of this material upon prolonged radiation suggested the use of harder calibrants such as silver behenate (CH$_3$(CH$_2$)$_{20}$COO$\cdot$Ag) \citep{huang_x-ray_1993}.
 
-AgBehe has a very narrow diffraction ring at $q=1.0763$ nm$^{-1}$, arising from a long-period spacing ($d_{001]}$) value of 58.36 \AA \citep{blanton_jcpdsinternational_1995}, although this value depends slightly on the synthesis. A deviation of 0.5 $\%$ in the diffraction peak position could be observed for different sample preparations. In order to increase the accuracy of the calibration, the sample-detector distance was determined by the detection of the scattering pattern of AgBehe at different positions of the HZB SAXS instrument, measured with the built-in 3 m long Heidenhain optical encoder. By triangulating the radius of the diffraction ring to the source point, as depicted in figure \ref{fig:DistanceCalibrationSAXS}, the sample-detector distance is obtained in a traceable way.
+AgBehe has a very narrow diffraction ring at $q=1.0763$ nm$^{-1}$, arising from a long-period spacing ($d_{001}$) value of 5.836 nm \citep{blanton_jcpdsinternational_1995}, although this value depends slightly on the synthesis. A deviation of 0.5 $\%$ in the diffraction peak position could be observed for different sample preparations. In order to increase the accuracy of the calibration, the sample-detector distance was determined by the detection of the scattering pattern of AgBehe at different positions of the HZB SAXS instrument, measured with the built-in 3 m long Heidenhain optical encoder. By triangulating the radius of the diffraction ring to the source point, as depicted in figure \ref{fig:DistanceCalibrationSAXS}, the sample-detector distance is obtained in a traceable way.
 
 \begin{figure}
 	\centering
@@ -151,7 +152,7 @@ By measuring the AgBehe pattern along a distance range of 2200 mm with 100 mm st
 
 By using a material with lower $q$-value, such as the templated mesoporous silica SBA-15 \citep{zhao_triblock_1998} ($q=0.681$ nm$^{-1}$), this limitation can be mitigated as shown in figure \ref{fig:DistanceCalibrationSAXS}, where the residuals of SBA are minimal for the entire distance range. By using SBA and increasing the accessible distance range, the relative uncertainty of the fit decreases in a factor 5, reaching an uncertainty of 0.004 $\%$ (0.2 mm) when measuring with 50 mm steps. This improvement is also related with the narrower diffraction peak of SBA-15 (FWHM/$q=2.6\%$) in comparison to AgBehe ($5.5\%$).
 
-Although the fit uncertainty is smaller in the SBA case, the position and shape of diffraction peak depend strongly on the sample preparation (e.g. template pore size). For the same polymer template, the $q$-value of the ring can vary until 1 $\%$ for different thermal treatments and radiation damage effects are visible for short calcination times. On the other side, prolonged beam exposure of AgBehe can damage the sample as well and create small silver nanoparticles, which increase the scattering background \cite{liu_thermal_2006}. The choice of the calibration standard depends strictly on the needs of the experiment. Besides, the largest contributions to the sample-detector distance uncertainty come from the thickness of the sample (ca. 0.5 mm) and from the difference between the calibration with AgBehe and SBA-15 (also 0.5 mm). Normally the uncertainty associated with the distance calibration is $10^{-4}$, similar to the energy resolving power described in section \ref{sec:fcm}.
+Although the fit uncertainty is smaller in the SBA case, the position and shape of diffraction peak depend strongly on the sample preparation (e.g. template pore size). For the same polymer template, the $q$-value of the ring can vary until 1 $\%$ for different thermal treatments and radiation damage effects are visible for short calcination times. On the other side, prolonged beam exposure of AgBehe can damage the sample as well and create small silver nanoparticles, which increase the scattering background \citep{liu_thermal_2006}. The choice of the calibration standard depends strictly on the needs of the experiment. Besides, the largest contributions to the sample-detector distance uncertainty come from the thickness of the sample (ca. 0.5 mm) and from the difference between the calibration with AgBehe and SBA-15 (also 0.5 mm). Normally the relative uncertainty associated with the distance calibration is $10^{-4}$, similar to the energy resolving power described in section \ref{sec:fcm}.
 
 \section{Sample environment}
 \label{sec:sample_environment}
@@ -170,7 +171,7 @@ Typically, the samples are introduced in thin glass capillaries which maintain t
 
 For single-contrast SAXS measurements, borosilicate glass 3.3 round capillaries of 100 mm length were used. They were purchased at WJM Glass (Berlin, Germany) and had a nominal inner diameter of 1 mm and a wall thickness of 10 $\mu$m. The sample is filled into the capillary with a long syringe (Sterican$\textregistered$21 x 4 3/4" , Braun, Melsungen, Germany), avoiding the contact of the needle with the capillary walls. The top end of the capillary is closed by welding.
 
-The very narrow glass walls (with a density of about 2.23 g cm$^{-3}$) absorb only 14 $\%$ of the incoming flux at 8000 eV and produce very low incoherent scattering background. Therefore, these capillaries are suitable for standard SAXS measurements. Unfortunately, the capillaries sample thickness shows a significant deviation along the vertical axis and are inappropriate for measurements at different capillary heights, as needed for the continuous contrast variation technique.
+The very narrow glass walls (with a density of about 2.23 g cm$^{-3}$) absorb only 14 $\%$ of the incoming flux at 8000 eV and produce very low scattering background. Therefore, these capillaries are suitable for standard SAXS measurements. Unfortunately, the capillaries sample thickness shows a significant deviation along the vertical axis and are inappropriate for measurements at different capillary heights, as needed for the continuous contrast variation technique.
 
 \subsection{Rectangular capillaries}
 
@@ -194,11 +195,11 @@ The transmission of an empty capillary is mapped in figure \ref{fig:HilgenbergHo
 
 From these figures, it is clear that the homogeneity of the sample environment is even better along the main vertical axis of the capillary. Figure \ref{fig:GaldenCalibration} shows the measured X-ray transmission of a half-filled capillary along its vertical axis (at the horizontal position -0.15 mm). For example, the glass transmission within a 6 mm vertical range is $20.1\%$, with an associated relative uncertainty of $\delta_r T =0.6 \; \%$. By calculating $\delta_r d = \frac{\delta_r T}{log(T)}$ where $T$ is the glass transmission, the relative uncertainty of the glass thickness is $\delta_r d = 0.4 \; \%$. Analogously, the uncertainty of the water transmission is 0.9 $\%$ and the sample thicknes has an uncertainty of 0.9 $\%$ along the vertical axis.
 
-These rectangular capillaries are a very suitable sample environment for measurements which require a high homogeneity along the vertical axis of the capillary. The thickness of the wall varies only 0.4 $\%$ and the sample thickness less than 0.9 $\%$, although the thick glass walls reduce considerably the transmitted intensity and produce larger background scattering than the round capillaries.
+These rectangular capillaries are a very suitable sample environment for measurements which require a high homogeneity along the vertical axis of the capillary. The thickness of the wall varies only by 0.4 $\%$ and the sample thickness less than 0.9 $\%$, although the thick glass walls reduce considerably the transmitted intensity and produce larger background scattering than the round capillaries.
 
 \subsection{Cell for low-energies}
 
-Samples with larger structures require the measurement of scattering curves at lower $q$-values. To extend the measurable $q$-range, one possibility is to reduce the photon beam energy, though this involves reducing the sample thickness, due to the short penetration length of X-rays at low energies. Therefore, a custom-made sample holder is used utilizing silicon-nitride windows (NX7150E, Norcada Inc., Edmonton, Canada). The 500 nm thickness windows produce very low scattering and have a negligable absorbance ($<5\;\%$) for energies above 4000 eV.
+Samples with larger structures require the measurement of scattering curves at lower $q$-values. To extend the measurable $q$-range, one possibility is to reduce the photon energy, though this involves reducing the sample thickness, due to the short penetration length of X-rays at low energies. Therefore, a custom-made sample holder is used utilizing silicon-nitride windows (NX7150E, Norcada Inc., Edmonton, Canada). The 500 nm thickness windows produce very low scattering and have a negligable absorbance ($<5\;\%$) for energies above 4000 eV.
 
 A polymeric 100 $\mu$m ring cut with a microtome is used as spacer between the 2 windows, in order to achieve the desired 120 $\mu$m sample thickness which optimizes the intensity attenuation at 4000 eV. The acces to smaller $q$-values using this cell is shown in \cite{varga_towards_2014}, where a value of $q=0.015$ nm$^{-1}$ is achieved.
 
@@ -217,21 +218,21 @@ For isotropically scattering samples e.g. nanoparticles in suspension, the scatt
 The uncertainty associated to the intensity $I(q)$ is calculated as the standard deviation between each pixel intensity in the $q$-bin, which gives a better estimate than the uncertainty associated to the photon-counting Poisson statistics \citep{pauw_everything_2013}. The pixels discarded (or \emph{masked out}) for the weighted average of the $n$th $q$-bin ($q_n$) are those whose intensity is not comprised within the range 
 
 \begin{equation}
-\left[ \frac{\left|I_{med}\left( q_{n-1}\right)-I_{med}\left( q_{n}\right)\right|}{2} - 3 \sigma , \frac{\left|I_{med}\left( q_{n+1}\right)-I_{med}\left( q_{n}\right)\right|}{2} + 3 \sigma \right], 
+\left[ \frac{\left|I_{\text{med}}\left( q_{n-1}\right)-I_{\text{med}}\left( q_{n}\right)\right|}{2} - 3 \sigma , \frac{\left|I_{\text{med}}\left( q_{n+1}\right)-I_{\text{med}}\left( q_{n}\right)\right|}{2} + 3 \sigma \right], 
 \end{equation}
 
-where $I_{med}\left( q_{n}\right)$ is the median intensity of the pixels prior to this \emph{masking procedure} and $\sigma$ is the standard deviation. With a confidence level of 99.7 $\%$, the pixels excluded of the reduction process are those pixels whose intensity lies clearly out of the radial average, such as \emph{hot pixels}, anisotropic scattering from the glass capillary or undesired reflexes without radial simmetry.
+where $I_{\text{med}}\left( q_{n}\right)$ is the median intensity of the pixels prior to this \emph{masking procedure} and $\sigma$ is the standard deviation. With a confidence level of 99.7 $\%$, the pixels excluded of the reduction process are those pixels whose intensity lies clearly out of the radial average, such as \emph{hot pixels}, anisotropic scattering from the glass capillary or undesired reflexes without radial simmetry.
 
-The position of the center of the scattering pattern is of vital importance for the radial integration step. A standard calibrant with very narrow diffraction rings such as AgBehe can be used to locate the center with high precision. Nevertheless, the masking process previously described can be used as well to determine the center position by minimizing the number of masked pixels and the standard deviation uncertainty of the $q$-bins. The accuracy of the center determination is sub-pixel using both approaches, but the masking procedure does not require of a calibration standard material.
+The position of the center of the scattering pattern is of vital importance for the radial integration step. A standard calibrant with very narrow diffraction rings such as AgBehe can be used to locate the center with high precision. Nevertheless, the masking process previously described can be used as well to determine the center position by minimizing the number of masked pixels and the standard deviation uncertainty of the $q$-bins. The accuracy of the center determination is sub-pixel using both approaches, but the masking procedure does not require a calibration standard material.
 
-The scattering curve obtained by radial integration still requires of some data correction. For instance, $I_{\text{meas}}(q)$ (photon counts) must be normalized to the exposure time $\Delta t$, the solid angle $\Delta \Omega$, the measured transmittance of the sample $T$ and the incident photon flux $\Phi_0$, measured by the flux monitor described in section \ref{sec:fcm}. In order to present the scattering cross section per volume $\frac{d\sigma}{d\Omega}/V$ in absolute units (cm$^{-1}$), the measured intensity must be normalized to the sample thickness $t$ and the quantum efficiencies of the X-ray detector and the silicon diodes $\eta_{QE}$: 
+The scattering curve obtained by radial integration still requires of some data correction. For instance, $I_{\text{meas}}(q)$ (photon counts) must be normalized to the exposure time $\Delta t$, the solid angle $\Delta \Omega$, the measured transmittance of the sample $T$ and the incident photon flux $\Phi_0$, measured by the flux monitor described in section \ref{sec:fcm}. In order to present the scattering cross section per volume $\sfrac{d\Sigma}{d\Omega}$ in absolute units (cm$^{-1}$), the measured intensity must be normalized to the sample thickness $t$ and the quantum efficiencies of the X-ray detector and the silicon diodes $\eta_{QE}$: 
 
 \begin{equation}
-\frac{d\Sigma}{d\Omega} \left(q\right)=\frac{\frac{d\sigma}{d\Omega}}{V} \left(q\right)=\frac{I_{\text{meas}}\left(q\right)}{\Phi_0 \cdot T \cdot \Delta\Omega \cdot \Delta t \cdot \eta_{QE} \cdot t}
+\frac{d\Sigma}{d\Omega} \left(q\right)=\frac{\frac{d\sigma}{d\Omega}\left(q\right)}{V} =\frac{I_{\text{meas}}\left(q\right)}{\Phi_0 \cdot T \cdot \Delta\Omega \cdot \Delta t \cdot \eta_{QE} \cdot t}
 \end{equation}
 
 By using the monitor diode on the beamstop as described in section \ref{sec:pilatus}, $T$ and $\Phi_0$ can be measured simultaneously during the experiment, without the necessity of the flux monitor diode.
 
-Alternatively a standard material like lupolen \cite{kratky_absolute_1966,shaffer_calibration_1974} or glassy carbon \cite{perret_glassy_1972} can be employed to scale the measured scattering intensity to the known values of these materials.
+Alternatively a standard material like lupolen \citep{kratky_absolute_1966,shaffer_calibration_1974} or glassy carbon \citep{perret_glassy_1972} can be employed to scale the measured scattering intensity to the known values of these materials.
 
-The normalized scattering curve requires of an accurate background correction. The scattering of the pure suspending medium and the sample environment can affect the evaluation of the data, specially for low-scatterers, and, therefore, the normalized scattering background must be subtracted to obtain a usable scattering curve.
+The normalized scattering curve requires an accurate background correction. The scattering of the pure suspending medium and the sample environment can affect the evaluation of the data, specially for low-scatterers, and, therefore, the normalized scattering background must be subtracted to obtain a usable scattering curve.

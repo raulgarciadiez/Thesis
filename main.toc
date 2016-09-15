@@ -18,30 +18,30 @@
 \contentsline {subsubsection}{Thomson scattering}{13}{section*.9}
 \contentsline {subsubsection}{Scattering by an ensemble of electrons}{14}{section*.10}
 \contentsline {subsubsection}{Anomalous scattering}{16}{section*.12}
-\contentsline {section}{\numberline {2.2}Small-angle X-ray scattering}{16}{section.2.2}
+\contentsline {section}{\numberline {2.2}Small-angle X-ray scattering}{17}{section.2.2}
 \contentsline {subsection}{\numberline {2.2.1}Scattering by an ensemble of particles}{17}{subsection.2.2.1}
 \contentsline {subsection}{\numberline {2.2.2}What is measured in a scattering experiment?: The scattering curve}{18}{subsection.2.2.2}
 \contentsline {subsection}{\numberline {2.2.3}Modelling of the scattering intensity: Form factors}{19}{subsection.2.2.3}
-\contentsline {section}{\numberline {2.3}Contrast variation}{20}{section.2.3}
-\contentsline {subsection}{\numberline {2.3.1}Isoscattering point}{21}{subsection.2.3.1}
+\contentsline {section}{\numberline {2.3}Contrast variation}{21}{section.2.3}
+\contentsline {subsection}{\numberline {2.3.1}Isoscattering point}{22}{subsection.2.3.1}
 \contentsline {subsection}{\numberline {2.3.2}Basic functions approach}{22}{subsection.2.3.2}
-\contentsline {subsubsection}{Shape factor}{22}{section*.14}
+\contentsline {subsubsection}{Shape factor}{23}{section*.14}
 \contentsline {subsubsection}{Guinier approximation}{23}{section*.15}
 \contentsline {chapter}{\numberline {3}Instrumentation and experimental setup for SAXS measurements}{25}{chapter.3}
-\contentsline {section}{\numberline {3.1}Synchrotron radiation at BESSY II}{26}{section.3.1}
-\contentsline {subsection}{\numberline {3.1.1}The BESSY II Electron Storage Ring}{27}{subsection.3.1.1}
-\contentsline {subsection}{\numberline {3.1.2}Insertion devices}{28}{subsection.3.1.2}
-\contentsline {section}{\numberline {3.2}FCM Beamline}{29}{section.3.2}
-\contentsline {subsection}{\numberline {3.2.1}UHV X-ray Reflectometer}{31}{subsection.3.2.1}
-\contentsline {section}{\numberline {3.3}SAXS Setup}{31}{section.3.3}
-\contentsline {subsection}{\numberline {3.3.1}X-ray area detector}{32}{subsection.3.3.1}
-\contentsline {subsection}{\numberline {3.3.2}HZB SAXS instrument and WAXS configuration}{32}{subsection.3.3.2}
+\contentsline {section}{\numberline {3.1}Synchrotron radiation}{26}{section.3.1}
+\contentsline {subsection}{\numberline {3.1.1}Insertion devices}{27}{subsection.3.1.1}
+\contentsline {section}{\numberline {3.2}The BESSY II Electron Storage Ring}{28}{section.3.2}
+\contentsline {section}{\numberline {3.3}FCM Beamline}{29}{section.3.3}
+\contentsline {subsection}{\numberline {3.3.1}UHV X-ray Reflectometer}{30}{subsection.3.3.1}
+\contentsline {section}{\numberline {3.4}SAXS Setup}{32}{section.3.4}
+\contentsline {subsection}{\numberline {3.4.1}X-ray area detector}{32}{subsection.3.4.1}
+\contentsline {subsection}{\numberline {3.4.2}HZB SAXS instrument and WAXS configuration}{32}{subsection.3.4.2}
 \contentsline {subsubsection}{Calibration of the sample-detector distance}{33}{section*.20}
-\contentsline {section}{\numberline {3.4}Sample environment}{35}{section.3.4}
-\contentsline {subsection}{\numberline {3.4.1}Round capillaries}{35}{subsection.3.4.1}
-\contentsline {subsection}{\numberline {3.4.2}Rectangular capillaries}{36}{subsection.3.4.2}
-\contentsline {subsection}{\numberline {3.4.3}Cell for low-energies}{38}{subsection.3.4.3}
-\contentsline {section}{\numberline {3.5}Data reduction: The scattering curve}{38}{section.3.5}
+\contentsline {section}{\numberline {3.5}Sample environment}{35}{section.3.5}
+\contentsline {subsection}{\numberline {3.5.1}Round capillaries}{36}{subsection.3.5.1}
+\contentsline {subsection}{\numberline {3.5.2}Rectangular capillaries}{36}{subsection.3.5.2}
+\contentsline {subsection}{\numberline {3.5.3}Cell for low-energies}{38}{subsection.3.5.3}
+\contentsline {section}{\numberline {3.6}Data reduction: The scattering curve}{38}{section.3.6}
 \contentsline {chapter}{\numberline {4}Continuous contrast variation in SAXS: the density gradient technique}{41}{chapter.4}
 \contentsline {section}{\numberline {4.1}Experimental proceeding}{42}{section.4.1}
 \contentsline {subsection}{\numberline {4.1.1}Preparation of the density gradient capillaries}{43}{subsection.4.1.1}

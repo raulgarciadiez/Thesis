@@ -1,17 +1,20 @@
+\newcommand{\vect}[1]{\boldsymbol{\mathbf{#1}}}
+
+
 \chapter{Theoretical Background}
 \label{chap:theory_SAXS}
-In this chapter, the basic phyisical principles underlying the operation of small-angle X-ray scattering are presented, focusing principally on the interaction between X-rays and matter and the elastic scattering of X-rays by an ensemble of electrons. An entire section is devoted to the theoretical framework used in contrast variation experiments in SAXS, where concepts suchs as the isoscattering point and the Guinier radius are introduced.
+In this chapter, the basic phyisical principles underlying the operation of small-angle X-ray scattering are presented, focusing principally on the interaction between X-rays and matter and the elastic scattering of X-rays by an ensemble of electrons. The fundamental theoretical background of SAXS is also introduced, jointly with the analytical expressions of the form factors used in this work. An entire section is devoted to the theoretical framework used in contrast variation experiments in SAXS, where concepts such as the isoscattering point and the basic functions approach are introduced.
 
 \section{Interaction of X-rays and matter}
 
-X-rays are electromagnetic radiation which propagates in vacuum along the direction of the wavevector $\vec{k}$. The incident X-ray radiation can be described by the wave function of a monochromatic plane wave:
+X-rays are electromagnetic waves which propagate in vacuum along the direction of the wavevector $\vect{k}$. The incident X-ray radiation can be described by the wave function of a monochromatic plane wave:
 
 \begin{equation}
         \label{eq:IncidentWave}
-        \Psi_0\left( \vec{r} \right)=A_0 e^{i \vec{k}\vec{r} }
+        \Psi_0\left( \vect{r} \right)=A_0 e^{i \vect{k}\vect{r} }
 \end{equation}
 
-where the wavenumber $k=\abs{\vec{k}}$ is related to the X-ray wavelength by $k=\sfrac{2\pi}{\lambda}$. Conventially, X-ray wavelengths ranges between 0.01 and 10 nm, although SAXS experiments are conducted normally at the hard X-ray range, e.g. at wavelenghts between 0.02 and 0.8 nm. Due to the wave-particle duality of electromagnetic radiation, X-rays possess a particle nature as well, represented by the quantisation of light into an ensemble of photons with an energy $\hbar \omega$. The photon energy is related to the X-ray wavelength by \citep{als-nielsen_elements_2011}
+where the wavenumber $k=\abs{\vect{k}}$ is related to the X-ray wavelength by $k=\sfrac{2\pi}{\lambda}$. Conventially, X-ray wavelengths range between 0.01 and 10 nm, although SAXS experiments are conducted normally at the hard X-ray range, e.g. at wavelenghts between 0.02 and 0.8 nm. Due to the wave-particle duality of electromagnetic radiation, X-rays possess a particle nature as well, represented by the quantisation of light into an ensemble of photons with an energy $\hbar \omega$. The photon energy is related to the X-ray wavelength by \citep{als-nielsen_elements_2011}
 
 \begin{equation}
         \lambda = \frac{h c}{E_{ph}}
@@ -26,13 +29,14 @@ where $h=2\pi\hbar$ is the Planck's constant and $c$ is the speed of light in va
 	\centering
 	        \def\svgwidth{0.75\linewidth}
 		\input{Figures/BeerLambertScheme.pdf_tex}
-		\caption{The Beer-Lamber law: The attenuation of X-rays through a medium of thickness $d$ is depicted.}
+		\caption{The Beer-Lambert law is schematically depicted: The attenuation of X-rays through a medium of thickness $d$ and attenuation coefficient $\mu$ behaves accordingly to the expression \ref{eq:BeerLambertLaw}.}
 		\label{fig:BeerLambertScheme}
 \end{figure}
 
 The interaction of X-ray photons and matter produce an attenuation of the incident radiation intensity $I_0$ which is related to the properties and volume of the material. The decrease of the intensity through a medium is schematically depicted in figure \ref{fig:BeerLambertScheme} and described by the Beer-Lambert law \citep{als-nielsen_elements_2011}:
 
 \begin{equation}
+        \label{eq:BeerLambertLaw}
         I\left( x \right)=I_0e^{-\mu x}
 \end{equation}
 
@@ -42,10 +46,9 @@ where $\mu$ is the linear attenuation coefficient and $x$ is the radiation path 
         \mu (E) = \frac{4\pi}{hc} E \beta(E)
 \end{equation}
 
-Considering that the refractive index is expressed generally by $n = 1 - \delta +i \beta$ and $\delta<10^{-3}$ in the X-ray regime\citep{henke_x-ray_1993}
-, refraction effects can be neglected in scattering experiments because $\Re(n)$ is very close but smaller than unity.
+Considering that the refractive index is expressed generally by $n = 1 - \delta +i \beta$ and $\delta<10^{-3}$ in the X-ray regime\citep{henke_x-ray_1993}, refraction effects can be neglected in scattering experiments because $\Re(n)$ is very close but smaller than unity.
 
-When the attenuating medium is composed of different atomic species, $\mu$ can be expressed as the summation of each component attenuation coefficient:
+When the attenuating medium is composed of different atomic species, $\mu$ can be expressed as the summation of each component attenuation coefficient $\mu_i$:
 
 \begin{equation}
         \label{eq:AttenuationMultiComponent}
@@ -57,7 +60,7 @@ where $N_A$ is the Avogadro constant, $\sigma$ is the attenuation cross-section 
 \begin{figure}%[htbp]
 	\centering
 		\input{Figures/AttenuationWater}
-		\caption{The different contributions to the attenuation of water at room temperature and the total attenuation.}
+		\caption{The different contributions to the attenuation of water at room temperature are depicted as a function of the photon energy\citep{henke_x-ray_1993} and the total attenuation is the summation of all the other contributions. The pair production in nuclear and electron field can be neglected at the displayed photon energies.}
 		\label{fig:AttenuationWater}
 \end{figure}
 
@@ -67,9 +70,9 @@ In fact, the attenuation cross-section $\sigma$ is dependent upon the several di
         \mu = \rho_e (\tau_{\text{abs}}+\sigma_{\text{scat, coh}}+\sigma_{\text{scat, incoh}})
 \end{equation}
 
-When the X-ray photon is completely absorbed by the atom, the event is called photoelectron absorption because a photoelectron with the excess energy is expelled from an inner atomic shell, leaving the atom ionized. The created core-hole is consequently filled by an electron from an outer shell either by a radiative process, i.e. \emph{fluorescence}, or by a non-radiative mechanism emitting a secondary electron, i.e. Auger effect. The photoelectric effect is the predominant contribution to the attenuation principally at low X-ray energies and the ultraviolet regime, as shown in figure \ref{fig:AttenuationWater}. 
+When the X-ray photon is completely absorbed by the atom, the event is called photoelectron absorption because a photoelectron with the excess energy is expelled from an inner atomic shell, leaving the atom ionized. The created core-hole is consequently filled by an electron from an outer shell either by a radiative process, i.e. \emph{fluorescence}, or by a non-radiative mechanism emitting a secondary electron, i.e. \emph{Auger effect}. The photoelectric effect is the predominant contribution to the attenuation cross-section principally at low X-ray energies and the ultraviolet regime, as shown in figure \ref{fig:AttenuationWater}. 
 
-The other relevant contributions at the X-ray range are related to scattering processes. In an inelastic scattering event, the energy of the incident photon is partially transfered to a loosely bond electron resulting in a scattered photon with a lower frequency, according to the Compton relation $\Delta\lambda = \sfrac{h}{m_e c}\left( 1 - \cos{\Theta} \right) $ \citep{als-nielsen_elements_2011}, where $\Theta$ is the scattering angle. The Compton scattering is incoherent and contributes generally less than the elastic scattering at energies below 10 keV, as observed in figure \ref{fig:AttenuationWater}. Besides, the coherent scattering signal is the summation of the constructive interferences of the electromagnetic wave, which produces a higher scattered intensity than the inelastic scattering. In fact, the elastic scattering of X-rays is the main proccess used in material investigations and the pyhsical principle behind SAXS.
+The other relevant contributions at the X-ray range are related to scattering processes. In an inelastic scattering event, the energy of the incident photon is partially transfered to a loosely bond electron resulting in a scattered photon with a longer wavelength, according to the Compton relation $\Delta\lambda = \sfrac{h}{m c}\left( 1 - \cos{2\Theta} \right) $ \citep{als-nielsen_elements_2011}, where $2\Theta$ is the scattering angle. The Compton scattering is incoherent and contributes generally less than the elastic scattering at energies below 10 keV, as observed in figure \ref{fig:AttenuationWater}. Besides, the coherent scattering signal is the summation of the constructive interferences of the electromagnetic wave, which produces a higher scattering intensity than the inelastic scattering. In fact, the elastic scattering of X-rays is the main proccess used in material investigations and the pyhsical principle behind SAXS.
 
 \subsection{Elastic scattering}
 \label{sec:ElasticScattering}
@@ -78,20 +81,20 @@ When the wavelength of the scattered wave is the same than that of the incident 
 
 \subsubsection{Thomson scattering}
 
-Classically, the elastic scattering of a photon by a free electron is described by the conservation of the photon energy, i.e. the wavenumber of the scattered wave is the same than the incident one ($\abs{\vec{k_{\text{s}}}}=\abs{\vec{k}}$). Consequently for unpolarized incident radiation, the intensity of the scattered wave at a distance $r$ and with a scattering angle $2\Theta$ is defined by \citep{warren_x-ray_1969}:
+Classically, the elastic scattering of a photon by a free electron is described by the conservation of the photon energy, i.e. the wavenumber of the scattered wave is the same than the incident one ($\abs{\vect{k_s}}=\abs{\vect{k}}$). Consequently for unpolarized incident radiation, the intensity of the scattered wave at a distance $r$ and with a scattering angle $2\Theta$ is defined by \citep{warren_x-ray_1969}:
 
 \begin{equation}
         I_{\text{scat}}\left( r,\Theta \right)= I_0 \left( \frac{r_e}{r} \right) ^2 \left( \frac{1+\cos^2{2\Theta}}{2} \right)
 \end{equation}
 
-where $r_e= \sfrac{e^2}{4\pi\epsilon_0 m c^2}=2.82\cdot10^{-15}$ m is the Thomson or classical electron radius. A relevant quantity in scattering processes is the differential scattering cross-section $\sfrac{d\sigma}{d\Omega}$, which is defined as the the number of scattered photons per time and per solid angle over the incident intensity per time and per area:
+where $r_e= \sfrac{e^2}{4\pi\epsilon_0 m c^2}=2.82\cdot10^{-15}$ m is the Thomson or classical electron radius. A relevant quantity in scattering processes is the differential scattering cross-section $\sfrac{d\sigma}{d\Omega}$, which is defined as the the number of scattered photons per time and per solid angle over the incident intensity per time and per area\citep{als-nielsen_elements_2011}:
 
 \begin{equation}
         \label{eq:thomson_cross_section}
         \frac{d\sigma}{d\Omega}= \frac{I_{\text{scat}} \cdot \left(r^2 \Delta \Omega \right)}{I_0\Delta \Omega}=r_e^2\left( \frac{1+\cos^2{2\Theta}}{2} \right)
 \end{equation}
 
-where $r^2 \Delta \Omega$ is the detector surface in the plane of the impact parameter. The total Thomson scattering cross-section is $\sigma = \sfrac{8\pi r_0^2}{3} = 0.665\cdot10^{-24}$ cm$^2$ and similarly to $\sfrac{d\sigma}{d\Omega}$ is both proportional to $r_e^2$ and independent on the photon energy at the X-ray regime away of a resonant excitation.
+where $r^2 \Delta \Omega$ is the detector surface in the plane of the impact parameter. The total Thomson scattering cross-section is $\sigma = \sfrac{8\pi r_0^2}{3} = 0.665\cdot10^{-24}$ cm$^2$ and similarly to $\sfrac{d\sigma}{d\Omega}$ is proportional to $r_e^2$ and independent on the photon energy if the photon wavelength is distant of an X-ray absorption edge.
 
 \subsubsection{Scattering by an ensemble of electrons}
 
@@ -99,50 +102,51 @@ where $r^2 \Delta \Omega$ is the detector surface in the plane of the impact par
 	\centering
 	        \def\svgwidth{0.75\linewidth}
 		\input{Figures/FraunhoferScheme.pdf_tex}
-		\caption{Scheme of an scattering event at a position $\vec{r}$. Geometrical definition of the momentum transfer vector}
+		\caption{Scheme of an scattering event by an object with a potential $\phi(\vect{r'})$ at a distance $\abs{\vect{r}}=r$. A geometrical definition of the momentum transfer vector is depicted on the right hand side, where $\vect{k}$ and $\vect{k_s}$ are the incident and scattered wavevector respectively.}
 		\label{fig:FraunhoferScheme}
 \end{figure}
 
-The scattering of a photon by an ensemble of weak bounded electrons can be studied by considering the interaction of particles with a three-dimensional weak potential field $\phi(\vec{r})$. The resulting wave can be expressed as a linear combination of the incidient plane wave (see equation \ref{eq:IncidentWave}) and the scattered spherical wave at the position $\vec{r}$:
+The scattering of a photon by an ensemble of weak bounded electrons can be studied by considering the interaction of particles with a three-dimensional weak potential field $\phi(\vect{r})$. The resulting wave can be expressed as a linear combination of the incident plane wave (see equation \ref{eq:IncidentWave}) and the scattered spherical wave at the position $\vect{r}$:
 
 \begin{equation}
-       \Psi\left( \vec{r} \right)= \Psi_0\left( \vec{r} \right) +  \Psi_{\text{scat}}\left( \vec{r} \right)
+       \Psi\left( \vect{r} \right)= \Psi_0\left( \vect{r} \right) +  \Psi_{\text{scat}}\left( \vect{r} \right)
 \end{equation}
 
-Introducing this expression at the time-independent Schrödinger equation and considering the scattering wave as a perturbation produced by the scattering density function $\phi(\vec{r})$ \citep{cowley_diffraction_1995}, it can derived that
+Inserting this expression at the time-independent Schrödinger equation and considering the scattering wave as a perturbation produced by the scattering density function $\phi(\vect{r})$ \citep{cowley_diffraction_1995}, it can be derived that
 
 \begin{equation}
-       \Psi_{\text{scat}}\left( \vec{r} \right)=C \int \frac{e^{ i \vec{k}\abs{\vec{r}-\vec{r}'} } } {\abs{\vec{r}-\vec{r}'}} \phi(\vec{r}')   \Psi\left( \vec{r}' \right) d\vec{r}'^3
+       \Psi_{\text{scat}}\left( \vect{r} \right)=C \int \frac{e^{ i \vect{k}\abs{\vect{r}-\vect{r}'} } } {\abs{\vect{r}-\vect{r}'}} \phi(\vect{r}')   \Psi\left( \vect{r}' \right) d\vect{r}'^3
 \end{equation}
 
-where $C$ is the so-called \emph{scattering length}. If the detection position $\vec{r}$ is at distance much larger than the scattering object size, as outlined in figure \ref{fig:FraunhoferScheme}, the Fraunhoffer approximation applies and $\abs{\vec{r}-\vec{r'}}=r$ \citep{feigin_structure_1987}, resulting in
+where $C$ is the so-called \emph{scattering length}. If the detection position $\vect{r}$ is at distance much larger than the scattering object size, as outlined in figure \ref{fig:FraunhoferScheme}, the Fraunhofer approximation applies and $\abs{\vect{r}-\vect{r'}} \simeq r$ \citep{feigin_structure_1987}, resulting in
 
 \begin{equation}
-       \Psi_{\text{scat}}\left( \vec{r} \right)=C \frac{e^{i k r}}{r} \int e^{ -i \vec{k}\vec{r}' }  \phi(\vec{r}')   \Psi\left( \vec{r}' \right) d\vec{r}'^3
+       \Psi_{\text{scat}}\left( \vect{r} \right)=C \frac{e^{i k r}}{r} \int e^{ -i \vect{k}\vect{r}' }  \phi(\vect{r}')   \Psi\left( \vect{r}' \right) d\vect{r}'^3
 \end{equation}
 
-Assuming that there are no multiple scattering events due to the low concentration of scatterers and that the potential field is weak, the first Born approximation can be employed ($ \Psi\left( \vec{r} \right) \simeq \Psi_0\left( \vec{r} \right)$) \citep{cowley_diffraction_1995}, leading to
+Assuming that there are no multiple scattering events due to the low concentration of scatterers and that the potential field is weak, the first Born approximation can be employed ($ \Psi\left( \vect{r} \right) \simeq \Psi_0\left( \vect{r} \right)$) \citep{cowley_diffraction_1995}, leading to
 
 \begin{equation}
-       \Psi_{\text{scat}}\left( \vec{r} \right)=C A_0 \frac{e^{i k r}}{r} \int e^{ i \vec{q}\vec{r}' }  \phi(\vec{r}')  d\vec{r}'^3
+       \Psi_{\text{scat}}\left( \vect{r} \right)=C A_0 \frac{e^{i k r}}{r} \int e^{ i \vect{q}\vect{r}' }  \phi(\vect{r}')  d\vect{r}'^3
 \end{equation}
 
-where $\vec{q}=\vec{k_s} - \vec{k}$ is the momentum transfer vector and $\vec{k_s}$ the scattered wavevector. Analogously to equation \ref{eq:thomson_cross_section}, the differential scattering cross-section is:
+where $\vect{q}=\vect{k_s} - \vect{k}$ is the momentum transfer vector and $\vect{k_s}$ the scattered wavevector. Analogously to equation \ref{eq:thomson_cross_section}, the differential scattering cross-section is:
 
 \begin{equation}
         \label{eq:rayleigh_cross_section}
-        \frac{d\sigma}{d\Omega}= \frac{\abs{\Psi_{\text{scat}}}^2 \cdot \left(r^2 \Delta \Omega \right)}{\abs{\Psi_{0}}^2\Delta \Omega}=r_e^2 \abs{f(\vec{q})}^2
+        \frac{d\sigma}{d\Omega}= \frac{\abs{\Psi_{\text{scat}}}^2 \cdot \left(r^2 \Delta \Omega \right)}{\abs{\Psi_{0}}^2\Delta \Omega}=r_e^2 \abs{f(\vect{q})}^2
 \end{equation}
-where $f(\vec{q})=\int e^{ i \vec{q}\vec{r}' }  \phi(\vec{r}')  d\vec{r}'^3$ is the scattering amplitude and the scattering length is the classical electron radius $r_e$. The scattering amplitude is simply the Fourier transform of the scattering potential field $\phi(\vec{r})$. 
 
-This type of scattering mechanism is called Rayleigh-Gans-Debye when the refractive index of the object ($n_{\text{obj}}$) is close to unity and the condition $\sfrac{2\pi}{\lambda} \cdot a \cdot n_{\text{med}} \cdot \abs{1-\sfrac{n_{\text{obj}}}{n_{\text{med}}}}\ll1$ is fulfilled, being $a$ the size of the object. For X-ray photons with wavelenghts $\lambda$ in the Angstrom range and colloidal objects in the nanoscale, this approximation can be employed and it can be assumed that the same electromagnetic wave impinges each part of the object \citep{hulst_light_1957, barber_rayleigh-gans-debye_1978}. In the case of optical radiation on colloids, the Mie scattering framework is used, while the Rayleigh scattering corresponts to light wavelengths much larger than the scattering object.
+where $f(\vect{q})=\int e^{ i \vect{q}\vect{r}' }  \phi(\vect{r}')  d\vect{r}'^3$ is the scattering amplitude and the scattering length is the classical electron radius $r_e$. The scattering amplitude  $f(\vect{q})$ is simply the Fourier transform of the scattering potential field $\phi(\vect{r})$. 
+
+This type of scattering mechanism is named Rayleigh-Gans-Debye when the refractive index of the object ($n_{\text{obj}}$) is close to unity and the condition $\sfrac{2\pi}{\lambda} \cdot a \cdot n_{\text{med}} \cdot \abs{1-\sfrac{n_{\text{obj}}}{n_{\text{med}}}}\ll1$ is fulfilled, being $a$ the size of the object. For X-ray photons with wavelenghts $\lambda$ in the Angstrom range and nanoscaled objects, this approximation can be applied and it can be safely assumed that the same electromagnetic wave impinges each part of the object \citep{hulst_light_1957, barber_rayleigh-gans-debye_1978}. In the case of optical radiation scattered by colloids, the Mie scattering framework is used, while the Rayleigh scattering corresponds to light wavelengths much larger than the scattering object.
 
 \subsubsection{Anomalous scattering}
 
-In X-ray scattering experiments, the scattering centers are the electrons of the atom and the scattering field is the electron charge density about the nucleous, so $\phi(\vec{r})=\rho_e(\vec{r})$. The electron density is related to the atomic properties as introduced in equation \ref{eq:AttenuationMultiComponent} and therefore the scattering amplitude increases with the atomic number $Z$ by calculating equation \ref{eq:rayleigh_cross_section} at the limit $\vec{q} \rightarrow 0$
+In X-ray scattering experiments, the scattering centers are the electrons of the atom and the scattering field is the electron charge density about the nucleous, so $\phi(\vect{r})=\rho_e(\vect{r})$. The electron density is related to the atomic properties as introduced in equation \ref{eq:AttenuationMultiComponent} and therefore the scattering amplitude increases with the atomic number $Z$ as can be shown by calculating equation \ref{eq:rayleigh_cross_section} at the limit $\vect{q} \rightarrow 0$
 
 \begin{equation}
-        f(\vec{q} \rightarrow 0) = \int \rho_e(\vec{r}')  d\vec{r}'^3 = Z
+        f(\vect{q} \rightarrow 0) = \int \rho_e(\vect{r}')  d\vect{r}'^3 = Z
 \end{equation}
 
 This is valid when the incident radiation energy is much greater than the energy corresponding to a resonant excitation. When the X-ray energy is close to an absorption edge, anomalous dispersions becomes relevant and the scattering amplitude depends on the energy of the X-ray by adding the anomalous corrections \citep{als-nielsen_elements_2011}:
@@ -151,13 +155,13 @@ This is valid when the incident radiation energy is much greater than the energy
         f(E) = f_0 + f'(E) + i f'' (E)
 \end{equation}
 
-where the imaginary part $f''$ is related with the attenuation coefficient $\mu$ by\citep{feigin_structure_1987}
+where the imaginary part $f''$ is related to the attenuation coefficient $\mu$ by\citep{feigin_structure_1987}
 
 \begin{equation}
         f'' (E) = \frac{A\rho}{2N_A r_0 h c} E \mu(E)
 \end{equation}
 
-where $A$ is the atomic mass of the resonant atom and $\rho$ its physical density. The term $f'$ is related to the imaginary part by the Kramers-Kronig relationship \citep{de_l._kronig_theory_1926,kramers_diffusion_1927}:
+where $A$ is the atomic mass of the resonant atom and $\rho$ its physical density. The term $f'$ is related to the imaginary anomalous coefficient by the Kramers-Kronig relationship \citep{de_l._kronig_theory_1926,kramers_diffusion_1927}:
 
 \begin{equation}
         f'(E) = \frac{2}{\pi} \int_0^{\infty} \frac{E'f''(E')dE'}{E^2 - E'^2}
@@ -168,14 +172,14 @@ The values of the anomalous scattering amplitude $f(E)$ are usually calculated u
 \section{Small-angle X-ray scattering}
 \label{sec:SAXS_theory}
 
-Small-angle X-ray scattering is a powerful technique that can elucidate the structural features of particles with sizes ranging from about 2 nm up to 400 nm. By investigating the photons elastically scattered by the electron density distribution of the particle, the resulting patterns can be analysed according to equation \ref{eq:rayleigh_cross_section} to obtain information about the particle size, shape and composition. The fundamental quantities in a SAXS experiment are the scattering intensity $I(\vec{q}) = \abs{f(\vec{q})}^2$ and the scattering amplitude or \emph{form factor} $f(\vec{q})$, that for objects with spherical symmetry ($\rho_e(\vec{r})=\rho_e(r)$) is expressed by
+Small-angle X-ray scattering is a powerful technique that can elucidate the structural features of particles with sizes ranging from about 2 nm up to 400 nm. By investigating the photons elastically scattered by the electron density distribution of the particle $\rho_e ( \vect{r} )$, the resulting patterns can be analysed employing equation \ref{eq:rayleigh_cross_section} to obtain information about the particle size, shape and composition. The fundamental quantities in a SAXS experiment are the scattering intensity $I(\vect{q}) = \abs{f(\vect{q})}^2$ and the scattering amplitude or \emph{form factor} $f(\vect{q})$. The latter is expressed for objects with spherical symmetry where $\rho_e(\vect{r})=\rho_e(r)$ by
 
 \begin{equation}
         \label{eq:FormFactorSpherical}
         f(q)=4\pi \int_0^{\infty} r'^2 \rho_e(r')  \frac{\sin(qr')}{qr'}  dr'
 \end{equation}
 
-where the modulus of the momentum transfer vector is defined by $q=\abs{\vec{q}}=\abs{\vec{k_s} - \vec{k}}$. Considering that SAXS is an elastic scattering proccess ($\abs{\vec{k_s}}=\abs{\vec{k}}=\sfrac{2\pi}{\lambda}$), the momentum transfer is expressed as
+where the modulus of the momentum transfer vector is defined by $q=\abs{\vect{q}}=\abs{\vect{k_s} - \vect{k}}$. Considering that SAXS is an elastic scattering proccess ($\abs{\vect{k_s}}=\abs{\vect{k}}=\sfrac{2\pi}{\lambda}$), the momentum transfer is expressed as
 
 \begin{equation}
 q=\frac{2\pi }{\lambda}\sin\theta=\frac{4\pi E}{h c}\sin\theta ,
@@ -183,18 +187,18 @@ q=\frac{2\pi }{\lambda}\sin\theta=\frac{4\pi E}{h c}\sin\theta ,
 
 where \(\theta\) is half of the scattering angle as depicted in figure \ref{fig:FraunhoferScheme}, \(h\) is the Planck constant and \(c\) is the speed of light.
 
-The systems studied by SAXS in this work consist of particles suspended in a uniform medium, e.g. water or buffer, with a different electron density $\rho_{\text{medium}}$ than the studied particle. In fact, the measured scattering amplitude is the addition of the medium and the particle contributions. Therefore, the scattering of the studied object is expressed in terms of the \emph{contrast}, $\Delta \rho (\vec{r}) = \rho_e(\vec{r}) - \rho_{\text{medium}}$, the electron density difference between the particle and the embedded matrix or surrounding medium. This leads to a slight modification of equation \ref{eq:FormFactorSpherical}, where $\rho_e(r)$ can be substituted by the contrast $\Delta\rho(r)$ to distinguish the contribution from the investigated particle from the medium.
+The systems studied by SAXS in this work consist of particles suspended in a uniform medium, e.g. water or buffer, with a different electron density $\rho_{\text{medium}}$ than the studied particle. In fact, the measured scattering amplitude is the addition of the medium and the particle contributions. Therefore, the scattering of the studied object is expressed in terms of the \emph{contrast}, $\Delta \eta (\vect{r}) = \rho_e(\vect{r}) - \rho_{\text{medium}}$, the electron density difference between the particle and the embedded matrix or surrounding medium. This leads to a slight modification of equation \ref{eq:FormFactorSpherical}, where $\rho_e(r)$ can be substituted by the contrast $\Delta\eta(r)$ to distinguish the contribution of the investigated particle from that of the medium.
 
 \subsection{Scattering by an ensemble of particles}
 
-For diluted systems with low particle concentration, the wave scattered by a particle does not interfere coherently with the neighboring particles and the scattering intensity can be expressed as a sum of the individual scattering, i.e. the structure factor contribution can be neglected because $S(q)=1$\citep{feigin_structure_1987}. Therefore, the scattering intensity of an ensemble of randomly oriented nanoparticles in a diluted suspension can be expressed as
+For diluted systems with low particle concentration, the wave scattered by a particle does not interfere coherently with the neighboring particles, hence the scattering intensity can be expressed as a sum of the scattering of the individual particles, i.e. the structure factor contribution can be neglected because $S(q)=1$\citep{feigin_structure_1987}. Assuming this premise, the scattering intensity of an ensemble of randomly oriented spherically symmetric nanoparticles in a diluted suspension can be expressed as
 
 \begin{equation}
 \label{eq:intensity}
 I(q)=N\int_{0}^{\infty} g(R)\left|f(q,R) \right|^2 dR,
 \end{equation}
 
-where \(N\) is the number of scatterers i.e particles, \(g(R)\) is their size distribution function and \(f(q,R)\) is the particle form factor, which depends on the radial structure of the particle as determined in equation \ref{eq:FormFactorSpherical}. Generally, the particles in suspension are not monodisperse show a certain size distribution which is directly related with their chemical preparation. For systems of relatively low size polydispersity, a gaussian size distribution is typically a good choice, which is expressed by:
+where \(N\) is the number of scatterers i.e particles, \(g(R)\) is their size distribution function and \(f(q,R)\) is the particle form factor, which depends on the radial structure of the particle as determined in equation \ref{eq:FormFactorSpherical}. Generally, the particles in suspension are not monodisperse and show a certain size distribution which is directly related with their chemical preparation. For systems of relatively low size polydispersity, a gaussian size distribution is typically a good choice, which is expressed by:
 
 \begin{equation}
        g_{\text{Gauss}}(R)=\frac{1}{\sigma \sqrt{2\pi}} e^{ - \frac{\left( R - \mu \right)^2}{2\sigma^2} }
@@ -208,20 +212,22 @@ where $\mu$ is the mean size of the particles and $\sigma$ is the standard devia
 
 whose mean size is given by $\mu e^{\frac{\sigma^2}{2}}$ and the variance is $\mu^2 e^{\sigma^2} (e^{\sigma^2} - 1)$. Other approaches to the size distribution of particles in solution are based in numerical techniques, like the Monte-Carlo approach to form-free particle size distributions \citep{pauw_improvements_2013}.
 
+A useful parameter for comparitive purposes between samples is the polydispersity degree $p_d$, which is defined as the full width at half maximum (FWHM) of the particle size distribution divided by its average value. For a normal size distribution, the FWHM is simply $8\sqrt{2}$ times its standard deviation $\sigma$.
+
 \subsection{What is measured in a scattering experiment?: The scattering curve}
 
-The differential scattering cross-section $\sfrac{d\sigma}{d\Omega}$ is the fundamental measurand in a SAXS experiment, as described in section \ref{sec:ElasticScattering}. Nevertheless, some comparability challenges arise from this quantity as it depends on the sample volume used in the experiment. Therefore, the differential scattering cross-section per volume is introduced, historically given in cm$^{-1}$. The expression of this quantity is derived from equations \ref{eq:rayleigh_cross_section} and \ref{eq:intensity} and leads to:
+The differential scattering cross-section $\sfrac{d\sigma}{d\Omega}$ is the fundamental measurand in a SAXS experiment, as described in section \ref{sec:ElasticScattering}. Nevertheless, some comparability challenges arise from this quantity as it depends on the sample volume used in the experiment. This can be solved by introducing the differential scattering cross-section per volume, historically given in cm$^{-1}$. The expression of this quantity is derived from equations \ref{eq:rayleigh_cross_section} and \ref{eq:intensity} and leads to:
 
 \begin{equation}
-        \frac{d\Sigma}{d\Omega} (q) = \frac{\sfrac{d\sigma}{d\Omega}}{V} (q) = r_e^2 \cdot \frac{N}{V} \cdot \int_0^{\infty} g(R) \abs{ f(q,R) }^2 dR
+        \frac{d\Sigma}{d\Omega} (q) = \frac{\sfrac{d\sigma}{d\Omega}(q)}{V} = r_e^2 \cdot \frac{N}{V} \cdot \int_0^{\infty} g(R) \abs{ f(q,R) }^2 dR
 \end{equation}
 
-where $\sfrac{N}{V} = C$ is the concentration of scatterers, i.e. particles
+where $\sfrac{N}{V}$ is the concentration of scatterers, i.e. particles.
 
-The scattering curve is the typical form to present the experimental data, which displays the differential scattering cross-section per volume versus the momentum transfer $q$ in a log–log graph. Three different regions can be distinguished in a scattering curve \citep{schnablegger_practical_2006}: 
+The scattering curve is the typical form to present the experimental data, which displays the differential scattering cross-section per volume $\sfrac{d\Sigma}{d\Omega}$ versus the momentum transfer $q$ in a log–log graph. Three different regions can be distinguished in a scattering curve \citep{schnablegger_practical_2006}: 
 
 \begin{itemize}
-        \item The \textbf{Guinier region} comprises the low-$q$ region where $qD<1.3$\citep{feigin_structure_1987}, being $d$ the characteristic length of the investigated object. This region provides principally information about the size of the particle
+        \item The \textbf{Guinier region} comprises the low-$q$ region where $qD<1.3$\citep{feigin_structure_1987}, being $D$ the characteristic length of the investigated object. This region provides principally information about the size of the particle.
         \item The high-$q$ region is called the \textbf{Porod region}, where information about the surface-to-volume ratio of the particles can be derived. For a smooth particle surface, the scattering intensity decays as $q^{-4}$, while for rough or fractal surfaces the slope is a function of $q^{-b}$ with $2<b<4$ \citep{walenta_small_1985-1}.
         \item For sufficiently monodisperse particle suspensions, the \textbf{Fourier region} or middle-$q$ region of the scattering curve shows pronounced minima that characterize the particle structure and shape.
 
@@ -229,15 +235,15 @@ The scattering curve is the typical form to present the experimental data, which
 
 \subsection{Modelling of the scattering intensity: Form factors}
 
-Besides the information from the size distribution of the particle ensemble, the modelling of the scattering intensity $I(q)$ provides very precise information about the shape and composition of the particles by modelling the form factor or scattering amplitude. In the simple case of a solid sphere with uniform density $\rho_0$, the radial electron density profile is described by $\rho_e(r>R)=0$ and $\rho_e(r<R)=\rho_0$, whilst the integral of expression \ref{eq:FormFactorSpherical} is limited to the radius of the particle $R$. The form factor of a homogenous solid sphere is 
+Besides the information obtained about the size distribution of the particle ensemble, the scattering intensity $I(q)$ provides very precise information about the shape and composition of the particles, accessible by modelling the form factor. In the simple case of a solid sphere with uniform density $\rho_0$, the radial electron density profile is described by $\rho_e(r>R)=0$ and $\rho_e(r<R)=\rho_0$, whilst the integral of expression \ref{eq:FormFactorSpherical} is limited only to the radius of the particle $R$. The form factor of a homogenous solid sphere is 
 
 \begin{equation}
-       f_{\text{sph}}(q,R)=\frac{4}{3}\pi R^3 \left( \rho_0 - \rho_{\text{medium}} \right) \left( 3\frac{\sin(qR)-qR\cos(qR)}{\left( qR \right)^3} \right) = \Delta \rho_0 \cdot F_{\text{sph}}(q,R)
+       f_{\text{sph}}(q,R)=\frac{4}{3}\pi R^3 \left( \rho_0 - \rho_{\text{medium}} \right) \left( 3\frac{\sin(qR)-qR\cos(qR)}{\left( qR \right)^3} \right) = \Delta \eta \cdot F_{\text{sph}}(q,R)
 \end{equation}
 
-where $\Delta \rho_0$ is the excess electron density or contrast and $ F_{\text{sph}}(q,R)$ is defined for convenience. 
+where $\Delta \eta = \rho_0 - \rho_{\text{medium}}$ is the contrast and $ F_{\text{sph}}(q,R)$ is defined for convenience. 
 
-Generally, nanoparticles show an internal heterogeneity and an inner electron density distribution. If the components are radially distinguishable, the form factor of a typical morphology with sharp interfaces between the radial symmetric components of the particle with radius \(R_i\) is
+Frequently, nanoparticles show an internal heterogeneity, leading to an inner electron density distribution. If the components are radially distinguishable, the form factor corresponding to a morphology defined by sharp interfaces between the radial symmetric components of the particle with radius \(R_i\) is
 
 \begin{equation}
 \label{eq:multicore-shell}
@@ -246,16 +252,16 @@ f\left(q,R \right)= \Delta \eta F_{\text{sph}}(q,R)+\sum_{i=1}^{n-1} \Delta\rho_
 
 where \(R\) is the external radius of the particle and \( n \) is the number of concentric shells. The excess of electron density of each component is $\Delta\rho_i = \rho_i - \rho_{\text{core}}$ and the contrast is defined in this case as $\Delta \eta = \rho_{\text{core}} - \rho_{\text{medium}}$ in order to isolate the solvent electron density in one term.
 
-The simplest case of expression \ref{eq:multicore-shell} arises for core-shell particles. This model represents a radially symmetric particle with a sharp interface between the outer shell and the inner core. The form factor is described by
+The simplest case of expression \ref{eq:multicore-shell} arises for core-shell particles in suspension. This model represents a radially symmetric particle with a sharp interface between the outer shell and the inner core. The form factor is described by
 
 \begin{equation}
         \label{eq:ff_cs}
-	f_{\text{CS}}(q,R)=  \Delta\eta F_{\text{sph}}(q,R) +  \Delta\rho\left[ F_{\text{sph}}(q,R)-F_{\text{sph}}(q,R_{\text{core}}) \right] ,
+	f_{\text{CS}}(q,R)=  \Delta\eta F_{\text{sph}}(q,R) +  \Delta\rho\left( F_{\text{sph}}(q,R)-F_{\text{sph}}(q,R_{\text{core}}) \right) ,
 \end{equation}
 
 where \(R \) and \(R_{\text{core}} \)  are the outer shell and inner core radii respectively, the excess of electron density is \(\Delta\rho=\rho_{\text{shell}}-\rho_{\text{core}}\) and the contrast is expressed as \(\Delta\eta=\rho_{\text{core}}-\rho_{\text{solv}}\), where $\rho_{\text{solv}}$ is the electron density of the suspending medium.
 
-Depending on the synthesis of the particles, the interface between the different phases might show a linear gradient of the electron densities of the components. Analogously to expression \ref{eq:multicore-shell}, the form factor of a multicomponent spherical particle with a linear gradient interface is
+Depending on the synthesis of the particles, the interface between the different phases might show a linear electron density gradient between the particle's components. Analogously to expression \ref{eq:multicore-shell}, the form factor of a multicomponent spherical particle with a linear gradient interface is
 
 \begin{equation}
 f\left(q,R \right) = \sum_{i=0}^{n-1}\left[m_i \left( F_{\text{lin}}(q,R_{i+1})-F_{\text{lin}}(q,R_{i}) \right) +b_i \left( F_{\text{sph}}(q,R_{i+1})-F_{\text{sph}}(q,R_{i}) \right) \right]
@@ -265,26 +271,26 @@ where $m_i=\sfrac{\left( \rho_{i+1}-\rho_{i} \right)}{\left( R_{i+1}-R_{i} \righ
 F_{\text{lin}}(q,R) = 4\pi\frac{ \left( 2qR\sin(qR)+2\cos(qR)-(qR)^2\cos(qR) \right)}{q^4}
 \end{equation}
 
-The presented form factors result from the models used in this work to analyze the experimental SAXS data of polymeric colloids in suspension presented in chapters \ref{chap:density_gradient_SAXS} and \ref{chap:simultaneous_size_density}.
+The presented form factors are the models used in this work to analyze the experimental SAXS data of polymeric colloids in suspension which will be discussed in chapters \ref{chap:density_gradient_SAXS} and \ref{chap:simultaneous_size_density}.
 
 \section{Contrast variation}
 \label{sec:contrast_variation_theory}
 
-In the contrast variation method, the electron density of the particle or the surrounding medium is systematically altered in order to obtain independent scattering curves with different contrasts $\Delta \rho (r)$. This technique is useful to characterize the different components of a heterogenous particle, due to the complementary data that can be collected with this approach. In the work presented in this thesis, only the electron density of the suspendin medium is varied, using the so-called \emph{solvent contrast variation} method.
+In the contrast variation method, the electron density of the particle or the surrounding medium is systematically altered in order to obtain independent scattering curves with different contrasts $\Delta \eta (r)$. This technique is useful to characterize the different components of a heterogenous particle, due to the complementary data that can be collected at each contrast. The work presented in this thesis is focused in the \emph{solvent contrast variation} method, where only the electron density of the suspending medium is varied.
 
 \begin{figure}%[htbp]
 	\centering
 		\subfloat[Core-shell particle in solvent]{\resizebox{0.44\linewidth}{!}{\input{Figures/ContrastScheme.pdf_tex}}\label{fig:ContrastScheme}}
 		\subfloat[Contrast matching of the shell]{\resizebox{0.44\linewidth}{!}{\input{Figures/MatchPointScheme.pdf_tex}}\label{fig:MatchPointScheme}}
-	\caption{Variation of the solvent electron denstiy represented by the electron density profile of a spherical core-shell particle: a) The contrast of both core and shell components is high, while in b) the solvent electron density is increased to match the shell's. The intensity scattering will be produced only be the core, due to the matching condition of the shell.}
+	\caption{Variation of the solvent electron denstiy represented by the electron density profile of a spherical core-shell particle: a) The contrast of both core and shell components is high ($\Delta\eta_{\text{core}} > \Delta\eta_{\text{shell}} > 0$), while in figure b) the solvent electron density is increased to match the shell's ($\Delta\eta_{\text{shell}} = 0$). In this case, the only contribution to the scattering intensity will arise from the core.}
 \end{figure}
 
 
-By means of the solvent contrast variation approach, the electron density of a single phase of the investigated particle can be matched, resulting in a increased scattering amplitude of the other components of the object, as depicted in figure \ref{fig:ContrastScheme}. This effect is called the \emph{match point} and enables a much more detailed study of the different contributions of the particle's components to the scattering intensity. In the following paragraphs, the theoretical framework needed to interpret a SAXS contrast variation experiment will be presented, focusing mainly on the variation of the solvent electron density $\rho_{\text{solv}}$.
+By means of the solvent contrast variation approach, the electron density of a single phase of the investigated particle can be matched (i.e. \emph{match point}), resulting in a increased scattering amplitude of the other components of the object, as depicted in figures \ref{fig:ContrastScheme} and \ref{fig:MatchPointScheme}. This effect enables a much more detailed study of the different contributions of the particle's components to the scattering intensity, which can be isolated by choosing the solvent electron density appropriately. In the following paragraphs, the theoretical framework needed to interpret a SAXS contrast variation experiment will be presented, focusing mainly on the effects produced by the variation of the solvent electron density $\rho_{\text{solv}}$.
 
  
 \subsection{Isoscattering point}
-One of the best known features appearing in a contrast variation experiment is the existence of \emph{isoscattering points}. At these specific \( q\)-values, the scattering intensity is independent of the adjusted solvent contrast, i.e. all scattering curves intersect in the isoscattering points regardless of the contrast. The isoscattering points \(q^{\star}\) are particularly interesting because they emerge for any spherical particle with an inner structure and a sufficiently narrow size distribution. From the contrast-depending part of equation \eqref{eq:multicore-shell}, a model-free expression can be derived which relates the position of the isoscattering points \(q^{\star}_i\) with the external radius of the particle \( R \), independent of its radial structure \cite{kawaguchi_isoscattering_1992}:
+One of the best known features appearing in a contrast variation experiment with heterogenous nanoparticles is the existence of \emph{isoscattering points}. At these specific \( q\)-values, the scattering intensity is independent of the adjusted solvent contrast, i.e. all scattering curves intersect in the isoscattering points regardless of the contrast. The isoscattering points \(q^{\star}\) are particularly interesting because they emerge for any spherical particle with an inner structure and a sufficiently narrow size distribution. From the contrast-depending part of equation \eqref{eq:multicore-shell}, a model-free expression can be derived which relates the position of the isoscattering points \(q^{\star}_i\) with the external radius of the particle \( R \), independent of its radial structure \citep{kawaguchi_isoscattering_1992}:
 
 \begin{equation}
         \label{eq:isoscattering}
@@ -293,7 +299,7 @@ One of the best known features appearing in a contrast variation experiment is t
 
 The solutions for this equation fullfill $q^{\star} R =4.493, 7.725, 10.904, ...$, where the positions of the isoscattering points correspond to the minima positions of the scattering intensity of a compact spherical particle with radius \( R \). 
 
-Although this expression is derived for the monodisperse case, it can still be applied up to a moderate degree of polydispersity, if care is taken regarding the shift of the minima position due to polydispersity \cite{beurten_polydispersity_1981}. If defining the polydispersity degree \( p_d\) as the full width half maximum of the particle size distribution divided by its average value, for size distributions with \( p_d\) larger than \( \approx 30\,\% \), the isoscattering point is not well defined and the intersection point of the curves is smeared out, showing a diffuseness in the isoscattering point position \cite{kawaguchi_isoscattering_1992}.
+Although this expression is derived for the monodisperse case, it can still be applied up to a moderate degree of polydispersity, if care is taken regarding the shift of the minima position due to polydispersity \citep{beurten_polydispersity_1981}. For size distributions with \( p_d\) larger than \( \approx 30\,\% \), the isoscattering point is not well defined and the intersection point of the curves is smeared out, showing a diffuseness in the isoscattering point position \citep{kawaguchi_isoscattering_1992}.
 
 Similarly, any deviation from the spherical shape produces a diffuseness in the $q^{\star}$ position. Unfortunately, this effect cannot be distinguished from the smearing produced by the size polydispersity and the investigation of the particle shape needs to be perfomed by other means.
 
@@ -312,7 +318,7 @@ The $I_c$ function contains the contributions from the density fluctuations insi
 \subsubsection{Shape factor}
 The $I_s(q)$ function, also known as \emph{shape factor}, corresponds to the scattering contributions from particles with homogenous density and a size equivalent to the volume inaccessible to the solvent. By modelling the shape factor function, the shape and size distribution of the particles can be determined independently of their inner structure.
 
-In a system measured at $N$ different solvent electron densities i.e. contrasts, the shape factor at each $q$-value can be calculated by solving the following matrix equation:
+In a system measured at $N$ different solvent electron densities i.e. contrasts, the shape factor $I_s$ at each $q$-value can be calculated by solving the following matrix equation:
 
 \begin{equation}
   \begin{pmatrix}
@@ -341,24 +347,24 @@ where $I_i (q)$ is the measured scattering intensity at each solvent electron de
 The radius of gyration of a particle about its center of mass $R_g$ is defined as the second moment of the electron density distribution and can be calculated by 
 
 \begin{equation}
-        R_g^2 = \frac{\int \rho (r) r^2 dr}{\int \rho (r)  dr}
+        R_g^2 = \frac{\int \rho_e (r) r^2 dr}{\int \rho_e (r)  dr}
 \end{equation}
 
-The radius of gyration is systematically employed in small-angle scattering as an evaluation tool, due to its applicability to a large diversity of sample, e.g. proteins, colloids, suprastructures \cite{mertens_structural_2010,sim_salt_2012}. If the object is spherical, the gyration radius is directly related with its external radius by $R_g^2 = \sfrac{3}{5}R^2$.
+The radius of gyration is systematically employed in small-angle scattering as an evaluation tool, due to its applicability to a large diversity of samples, e.g. proteins, colloids, suprastructures \citep{mertens_structural_2010,sim_salt_2012}. If the object is spherical, the gyration radius is directly related with its external radius by $R_g^2 = \sfrac{3}{5}R^2$.
 
-In SAXS, $R_g$ can be calculated using the Guinier approximation \cite{guinier_diffraction_1939,guinier_small-angle_1955}, which assumes that the scattering intensity behaves in the limit of small \(q\) as
+In SAXS, $R_g$ can be calculated using the Guinier approximation \citep{guinier_diffraction_1939,guinier_small-angle_1955}, which assumes that the scattering intensity behaves in the limit of small \(q\) as
 
 \begin{equation}
 \label{eq:guinier}
 I(q) \simeq I(0)\,\mbox{exp}\left(-\frac{R_g^2}{3}q^2\right),
 \end{equation}
 
-where \( I(0)\) is known as forward scattering or intensity at zero angle. Using the basic functions approach, the radius of gyration of a monodisperse, heterogeneous particle can be expressed as a function of the solvent electron density \( \rho_{\text{solv}} \) and the average electron density of the particle \( \rho_0 \) \cite{feigin_structure_1987}
+where \( I(0)\) is known as forward scattering or intensity at zero angle. Using the basic functions approach, the radius of gyration of a monodisperse, heterogeneous particle can be expressed as a function of the solvent electron density \( \rho_{\text{solv}} \) and the average electron density of the particle \( \rho_0 \) \citep{feigin_structure_1987}
 \begin{equation}
 R_g^2=R_{g,c}^{\,2}+\frac{\alpha}{\rho_0-\rho_{\text{solv}}}-\frac{\beta}{(\rho_0-\rho_{\text{solv}})^2},
 \label{eq:gyration}
 \end{equation}
-where \(R_{g,c}\) is the radius of gyration of the particle shape corresponding to the volume inaccessible for the solvent \( V_c \), \( \alpha \) characterizes the distribution of different phases inside the particle and \( \beta>0 \) considers the eccentricity of the different scattering contributions \cite{stuhrmann_small-angle_2008}. Particle aggregation influences the scattering curves especially in the Guinier region and must be explicitly avoided.
+where \(R_{g,c}\) is the radius of gyration of the particle shape corresponding to the volume inaccessible for the solvent \( V_c \), \( \alpha \) characterizes the distribution of different phases inside the particle and \( \beta>0 \) considers the eccentricity of the different scattering contributions \citep{stuhrmann_small-angle_2008}. Particle aggregation influences the scattering curves especially in the Guinier region and must be explicitly avoided.
 
 \cite{avdeev_contrast_2007} proposed an extended version to equation \eqref{eq:gyration} for the case of a polydisperse particle ensemble by introducing the \emph{effective} values \( \tilde R^2_{g,c} \), \( \tilde \alpha \) and \( \tilde \beta \), which are the intensity-weighted averages of the corresponding parameters over the polydispersity. The observed average electron density is not affected by the polydispersity (\( \tilde\rho_0=\rho_0 \)) if the volume ratio between the different particle components is constant for all particles in the ensemble.
 

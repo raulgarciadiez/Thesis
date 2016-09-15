@@ -58,7 +58,7 @@ set origin 0.,0.1
 #unset xlabel 
 #unset ylabel 
 
-set ylabel 'Residual'
+set ylabel 'Residuals / pixel'
 set xlabel 'Measured distance / mm'
 set autoscale
 #set yrange [490.:515.]
