@@ -1,4 +1,4 @@
-\begin{thebibliography}{187}
+\begin{thebibliography}{186}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 
 \bibitem[Als-Nielsen \& McMorrow(2011)]{als-nielsen_elements_2011}
@@ -211,10 +211,6 @@
 \bibitem[Cowley(1995)]{cowley_diffraction_1995}
 {\sc Cowley, J.~M.} 1995 {\em Diffraction {{Physics}}\/}. {Elsevier}.
 
-\bibitem[Cullity \& Stock(2001)]{cullity_elements_2001}
-{\sc Cullity, B.~D. \& Stock, S.~R.} 2001 {\em Elements of {{X}}-{{Ray
-  Diffraction}}\/}, 3rd edn. Upper Saddle River, NJ: {Pearson}.
-
 \bibitem[{de Gier}(1993)]{de_gier_osmotic_1993}
 {\sc {de Gier}, J.} 1993 Osmotic behaviour and permeability properties of
   liposomes. {\em Chemistry and Physics of Lipids\/} {\bf 64}, 187--196.
@@ -330,13 +326,6 @@
   characterization by continuous contrast variation in small-angle {{X}}-ray
   scattering with a solvent density gradient. {\em Journal of Applied
   Crystallography\/} {\bf 48}, 20--28.
-
-\bibitem[Garcia-Diez {\em et~al.\/}(2016)Garcia-Diez, Gollwitzer, Krumrey \&
-  Varga]{garcia-diez_size_2016}
-{\sc Garcia-Diez, R., Gollwitzer, C., Krumrey, M. \& Varga, Z.} 2016 Size
-  {{Determination}} of a {{Liposomal Drug}} by {{Small}}-{{Angle X}}-ray
-  {{Scattering Using Continuous Contrast Variation}}. {\em Langmuir\/} {\bf
-  32}, 772--778.
 
 \bibitem[{Gardner CD} {\em et~al.\/}(1996){Gardner CD}, {Fortmann SP} \&
   {Krauss RM}]{gardner_cd_association_1996}
@@ -809,6 +798,12 @@
 {\sc Pedersen, J.~S.} 1997 Analysis of small-angle scattering data from
   colloids and polymer solutions: Modeling and least-squares fitting. {\em Adv.
   Colloid Interfac.\/} {\bf 70}, 171--210.
+
+\bibitem[P{\'e}rez-Herrero \&
+  Fern{\'a}ndez-Medarde(2015)]{perez-herrero_advanced_2015}
+{\sc P{\'e}rez-Herrero, E. \& Fern{\'a}ndez-Medarde, A.} 2015 Advanced targeted
+  therapies in cancer: {{Drug}} nanocarriers, the future of chemotherapy. {\em
+  European Journal of Pharmaceutics and Biopharmaceutics\/} {\bf 93}, 52--79.
 
 \bibitem[Perret \& Ruland(1972)]{perret_glassy_1972}
 {\sc Perret, R. \& Ruland, W.} 1972 Glassy carbon as standard for the

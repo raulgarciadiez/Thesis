@@ -21,45 +21,45 @@ Warning--can't use both author and editor fields in feigin_structure_1987
 Warning--empty publisher in kramers_diffusion_1927
 `number' is a missing field, not a string, for entry stuhrmann_resonance_1985
 while executing---line 3135 of file meinbst.bst
-You've used 187 entries,
+You've used 186 entries,
             2851 wiz_defined-function locations,
-            1676 strings with 45410 characters,
-and the built_in function-call counts, 102429 in all, are:
-= -- 9697
-> -- 5903
-< -- 84
-+ -- 2296
-- -- 2070
-* -- 9864
-:= -- 18541
-add.period$ -- 376
-call.type$ -- 187
-change.case$ -- 1629
-chr.to.int$ -- 200
-cite$ -- 189
-duplicate$ -- 4072
-empty$ -- 6816
-format.name$ -- 2329
-if$ -- 19825
+            1670 strings with 45276 characters,
+and the built_in function-call counts, 101850 in all, are:
+= -- 9648
+> -- 5867
+< -- 82
++ -- 2283
+- -- 2058
+* -- 9811
+:= -- 18440
+add.period$ -- 374
+call.type$ -- 186
+change.case$ -- 1619
+chr.to.int$ -- 193
+cite$ -- 188
+duplicate$ -- 4048
+empty$ -- 6775
+format.name$ -- 2316
+if$ -- 19706
 int.to.chr$ -- 6
 int.to.str$ -- 1
-missing$ -- 196
-newline$ -- 565
-num.names$ -- 752
-pop$ -- 1318
+missing$ -- 194
+newline$ -- 562
+num.names$ -- 748
+pop$ -- 1305
 preamble$ -- 1
-purify$ -- 1437
+purify$ -- 1429
 quote$ -- 0
-skip$ -- 2354
+skip$ -- 2338
 stack$ -- 0
-substring$ -- 6189
-swap$ -- 924
+substring$ -- 6168
+swap$ -- 917
 text.length$ -- 8
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 1650
+type$ -- 1644
 warning$ -- 2
-while$ -- 893
+while$ -- 889
 width$ -- 0
-write$ -- 2055
+write$ -- 2044
 (There were 2 error messages)

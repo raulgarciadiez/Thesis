@@ -238,10 +238,19 @@ The scattering curve is the typical form to present the experimental data, which
 Besides the information obtained about the size distribution of the particle ensemble, the scattering intensity $I(q)$ provides very precise information about the shape and composition of the particles, accessible by modelling the form factor. In the simple case of a solid sphere with uniform density $\rho_0$, the radial electron density profile is described by $\rho_e(r>R)=0$ and $\rho_e(r<R)=\rho_0$, whilst the integral of expression \ref{eq:FormFactorSpherical} is limited only to the radius of the particle $R$. The form factor of a homogenous solid sphere is 
 
 \begin{equation}
+        \label{eq:ff_sphere}
        f_{\text{sph}}(q,R)=\frac{4}{3}\pi R^3 \left( \rho_0 - \rho_{\text{medium}} \right) \left( 3\frac{\sin(qR)-qR\cos(qR)}{\left( qR \right)^3} \right) = \Delta \eta \cdot F_{\text{sph}}(q,R)
 \end{equation}
 
 where $\Delta \eta = \rho_0 - \rho_{\text{medium}}$ is the contrast and $ F_{\text{sph}}(q,R)$ is defined for convenience. 
+
+For a revolution ellipsoid with two equal semi-axis $R$ and semi-principal axes $\nu R $, the squared form factor is expressed as an integral over all the available angles:
+
+\begin{equation}
+        \label{eq:ff_ellipsoid}
+       \abs{ f_{\text{ellip}}(q,R) }^2 = \Delta \eta^2 \int_0^1 \abs{F_{\text{sph}}\left( q,R \sqrt{u^2\left( \nu^2 -1 \right) + 1} \right)}^2 du 
+\end{equation}
+
 
 Frequently, nanoparticles show an internal heterogeneity, leading to an inner electron density distribution. If the components are radially distinguishable, the form factor corresponding to a morphology defined by sharp interfaces between the radial symmetric components of the particle with radius \(R_i\) is
 
@@ -290,6 +299,7 @@ By means of the solvent contrast variation approach, the electron density of a s
 
  
 \subsection{Isoscattering point}
+\label{sec:isopoint_theory}
 One of the best known features appearing in a contrast variation experiment with heterogenous nanoparticles is the existence of \emph{isoscattering points}. At these specific \( q\)-values, the scattering intensity is independent of the adjusted solvent contrast, i.e. all scattering curves intersect in the isoscattering points regardless of the contrast. The isoscattering points \(q^{\star}\) are particularly interesting because they emerge for any spherical particle with an inner structure and a sufficiently narrow size distribution. From the contrast-depending part of equation \eqref{eq:multicore-shell}, a model-free expression can be derived which relates the position of the isoscattering points \(q^{\star}_i\) with the external radius of the particle \( R \), independent of its radial structure \citep{kawaguchi_isoscattering_1992}:
 
 \begin{equation}
@@ -305,6 +315,7 @@ Similarly, any deviation from the spherical shape produces a diffuseness in the 
 
 
 \subsection{Basic functions approach}
+\label{sec:basic_functions_theory}
 When analyzing contrast variation data, a widespread theoretical approach is based in the non-interacting model proposed by Stuhrmann $\&$ Kirste (\citeyear{stuhrmann_elimination_1965,stuhrmann_elimination_1967}) for monodisperse particles. The so-called \emph{basic functions} formulation differentiates, independently of the particle inner structure, the contributions which depend on the varying solvent density or contrast (\(\Delta\eta\)) and on the excess of electron density of each component of the particle. 
 
 Deriving from this approach, the scattering intensity can be expressed as the combination of contributions corresponding to different features of the particles:
