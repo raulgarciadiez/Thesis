@@ -21,11 +21,11 @@ set style line 8 lc rgb '#190707' lt 1 lw 3 # --- black
 
 N_list='5.5 19.0'
 files='50 100'
-sizes='88.8 127.7'
+sizes='89 128'
 
 N_list_PEG='10.0 9.0 850. 83.'
 files_PEG='50 80 100 200'
-sizes_PEG='81.4 86.8 102.7 178.9'
+sizes_PEG='81 87 103 179'
 
 p 'isopoint_intensity_plain_50.dat' u 1:(($2-word(N_list,1))/word(N_list,1)) w lp ls (6+1) pt 7 ps 1.5 t 'plain - '.word(sizes,1).' nm', 'isopoint_intensity_80.dat' u 1:(($2-word(N_list_PEG,2))/word(N_list_PEG,2)) w lp ls (7-2) pt 7 ps 1.5 t 'PEG - '.word(sizes_PEG,2).' nm'
 

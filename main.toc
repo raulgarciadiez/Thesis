@@ -92,5 +92,5 @@
 \contentsline {section}{\numberline {6.4}Sizing of blood plasma componenents}{103}{section.6.4}
 \contentsline {section}{\numberline {6.5}Protein-coated low-density nanoparticles}{107}{section.6.5}
 \contentsline {subsection}{\numberline {6.5.1}Hard protein corona characterization with contrast variation}{109}{subsection.6.5.1}
-\contentsline {subsubsection}{Uncertainty analysis}{111}{section*.81}
-\contentsline {section}{\numberline {6.6}Summary}{112}{section.6.6}
+\contentsline {subsubsection}{Uncertainty analysis}{110}{section*.81}
+\contentsline {section}{\numberline {6.6}Summary}{111}{section.6.6}
