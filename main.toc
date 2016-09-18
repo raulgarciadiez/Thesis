@@ -23,10 +23,10 @@
 \contentsline {subsection}{\numberline {2.2.2}What is measured in a scattering experiment?: The scattering curve}{19}{subsection.2.2.2}
 \contentsline {subsection}{\numberline {2.2.3}Modelling of the scattering intensity: Form factors}{20}{subsection.2.2.3}
 \contentsline {section}{\numberline {2.3}Contrast variation}{22}{section.2.3}
-\contentsline {subsection}{\numberline {2.3.1}Isoscattering point}{23}{subsection.2.3.1}
+\contentsline {subsection}{\numberline {2.3.1}Isoscattering point}{22}{subsection.2.3.1}
 \contentsline {subsection}{\numberline {2.3.2}Basic functions approach}{24}{subsection.2.3.2}
 \contentsline {subsubsection}{Shape factor}{24}{section*.14}
-\contentsline {subsubsection}{Guinier approximation}{24}{section*.15}
+\contentsline {subsubsection}{Guinier approximation}{25}{section*.15}
 \contentsline {chapter}{\numberline {3}Instrumentation and experimental setup for SAXS measurements}{27}{chapter.3}
 \contentsline {section}{\numberline {3.1}Synchrotron radiation}{28}{section.3.1}
 \contentsline {subsection}{\numberline {3.1.1}Insertion devices}{29}{subsection.3.1.1}
@@ -89,8 +89,8 @@
 \contentsline {section}{\numberline {6.3}Osmotic effects in liposomes}{91}{section.6.3}
 \contentsline {subsection}{\numberline {6.3.1}Application to drug-stabilized liposomes}{92}{subsection.6.3.1}
 \contentsline {subsection}{\numberline {6.3.2}Does PEGylation affect the osmotic activity of liposomes?}{96}{subsection.6.3.2}
-\contentsline {section}{\numberline {6.4}Sizing of blood plasma componenents}{103}{section.6.4}
-\contentsline {section}{\numberline {6.5}Protein-coated low-density nanoparticles}{107}{section.6.5}
-\contentsline {subsection}{\numberline {6.5.1}Hard protein corona characterization with contrast variation}{109}{subsection.6.5.1}
-\contentsline {subsubsection}{Uncertainty analysis}{110}{section*.81}
+\contentsline {section}{\numberline {6.4}Sizing of blood plasma componenents}{102}{section.6.4}
+\contentsline {section}{\numberline {6.5}\leavevmode {\color {red}Protein-coated low-density nanoparticles}}{106}{section.6.5}
+\contentsline {subsection}{\numberline {6.5.1}\leavevmode {\color {red}Hard protein corona characterization with contrast variation}}{108}{subsection.6.5.1}
+\contentsline {subsubsection}{Uncertainty analysis}{110}{section*.80}
 \contentsline {section}{\numberline {6.6}Summary}{111}{section.6.6}

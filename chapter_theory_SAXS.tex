@@ -242,15 +242,14 @@ Besides the information obtained about the size distribution of the particle ens
        f_{\text{sph}}(q,R)=\frac{4}{3}\pi R^3 \left( \rho_0 - \rho_{\text{medium}} \right) \left( 3\frac{\sin(qR)-qR\cos(qR)}{\left( qR \right)^3} \right) = \Delta \eta \cdot F_{\text{sph}}(q,R)
 \end{equation}
 
-where $\Delta \eta = \rho_0 - \rho_{\text{medium}}$ is the contrast and $ F_{\text{sph}}(q,R)$ is defined for convenience. 
-
-For a revolution ellipsoid with two equal semi-axis $R$ and semi-principal axes $\nu R $, the squared form factor is expressed as an integral over all the available angles:
+where $\Delta \eta = \rho_0 - \rho_{\text{medium}}$ is the contrast and $ F_{\text{sph}}(q,R)$ is defined for convenience. When the shape of the particle deviates from a sphere, the assumptions made in equation \ref{eq:FormFactorSpherical} are not applicable and the scattering intensity must be integrated over all available angles numerically. For a homogenous ellipsoid of revolution with two equal semi-axes of length $R$ and a semi-principal axis of length $\nu R $, the scattering intensity is expressed as:
 
 \begin{equation}
         \label{eq:ff_ellipsoid}
-       \abs{ f_{\text{ellip}}(q,R) }^2 = \Delta \eta^2 \int_0^1 \abs{F_{\text{sph}}\left( q,R \sqrt{u^2\left( \nu^2 -1 \right) + 1} \right)}^2 du 
+       I(q) = \abs{ f_{\text{ellip}}(q,R) }^2 = \Delta \eta^2 \int_0^1 \abs{F_{\text{sph}}\left( q,R \sqrt{u^2\left( \nu^2 -1 \right) + 1} \right)}^2 du 
 \end{equation}
 
+where $\nu$ is the ellipticiy, $u = \cos{\alpha}$ and $\alpha \in \left[  0, \sfrac{\pi}{2} \right]$. If $\nu > 1$, the expression defines a prolate spheroid, whilst $\nu < 1$ defines an oblate spheroid.
 
 Frequently, nanoparticles show an internal heterogeneity, leading to an inner electron density distribution. If the components are radially distinguishable, the form factor corresponding to a morphology defined by sharp interfaces between the radial symmetric components of the particle with radius \(R_i\) is
 
@@ -280,7 +279,7 @@ where $m_i=\sfrac{\left( \rho_{i+1}-\rho_{i} \right)}{\left( R_{i+1}-R_{i} \righ
 F_{\text{lin}}(q,R) = 4\pi\frac{ \left( 2qR\sin(qR)+2\cos(qR)-(qR)^2\cos(qR) \right)}{q^4}
 \end{equation}
 
-The presented form factors are the models used in this work to analyze the experimental SAXS data of polymeric colloids in suspension which will be discussed in chapters \ref{chap:density_gradient_SAXS} and \ref{chap:simultaneous_size_density}.
+The presented form factors are the models used in this work to analyze the experimental SAXS data of nanoparticles in suspension which will be discussed in chapters \ref{chap:density_gradient_SAXS}, \ref{chap:simultaneous_size_density} and \ref{chap:bio_applications}.
 
 \section{Contrast variation}
 \label{sec:contrast_variation_theory}
