@@ -24,7 +24,7 @@ set label '\fssmall \shortstack{Pseudo\\Isoscattering\\Point}' at 0.045,2.3 tc r
 
 N=1.
 
-list = system('ls -r DEF_curves_*7_502.dat')
+list = system('ls -r DEF_curves_*_502.dat')
 p for [file in list] file.'' u 1:($2/N) w l lt 1 lw 8 lc rgb 'black' notitle,for [file in list] file.'' u 1:($2/N):(file[12:-6]+0.0) w l lt 1 lw 6 palette notitle
 
 #set style arrow 1 size screen 0.025,30,45 lw 2 lc rgb 'black'
