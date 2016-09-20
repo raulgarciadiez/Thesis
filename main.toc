@@ -64,27 +64,23 @@
 \contentsline {section}{\numberline {5.1}Materials and methods}{65}{section.5.1}
 \contentsline {subsection}{\numberline {5.1.1}Polymeric particles}{66}{subsection.5.1.1}
 \contentsline {subsection}{\numberline {5.1.2}Differential Centrifuge Sedimentation (DCS)}{66}{subsection.5.1.2}
-\contentsline {subsubsection}{Stokes equations}{67}{section*.44}
-\contentsline {subsubsection}{Combined analysis}{68}{section*.45}
-\contentsline {section}{\numberline {5.2}Technique validation for the determination of the particle size distribution}{69}{section.5.2}
-\contentsline {subsection}{\numberline {5.2.1}Inter-laboratory comparison of the mean particle size}{72}{subsection.5.2.1}
-\contentsline {subsection}{\numberline {5.2.2}Colloidal size distribution}{74}{subsection.5.2.2}
-\contentsline {section}{\numberline {5.3}Considerations about contrast variation data evaluation}{75}{section.5.3}
-\contentsline {subsection}{\numberline {5.3.1}Shape factor formalism}{75}{subsection.5.3.1}
-\contentsline {subsubsection}{Advantages and disadvatages}{76}{section*.53}
+\contentsline {section}{\numberline {5.2}Determination of the particle size distribution}{68}{section.5.2}
+\contentsline {subsection}{\numberline {5.2.1}Inter-laboratory comparison of the mean particle diameter}{70}{subsection.5.2.1}
+\contentsline {subsection}{\numberline {5.2.2}Particle size distribution of PS-Plain}{72}{subsection.5.2.2}
+\contentsline {section}{\numberline {5.3}Considerations about scattering data evaluation}{74}{section.5.3}
+\contentsline {subsection}{\numberline {5.3.1}Shape factor formalism}{74}{subsection.5.3.1}
 \contentsline {subsection}{\numberline {5.3.2}Isoscattering point approach}{76}{subsection.5.3.2}
-\contentsline {subsubsection}{Advantages and disadvatages}{78}{section*.56}
 \contentsline {section}{\numberline {5.4}Determination of the particle physical density}{78}{section.5.4}
-\contentsline {subsection}{\numberline {5.4.1}Validation through comparison with DCS}{79}{subsection.5.4.1}
-\contentsline {subsubsection}{Uncertainties}{80}{section*.59}
+\contentsline {subsection}{\numberline {5.4.1}Validation through comparison with DCS}{78}{subsection.5.4.1}
+\contentsline {subsubsection}{Uncertainties}{79}{section*.55}
 \contentsline {subsection}{\numberline {5.4.2}Use for heavier polymeric colloids}{80}{subsection.5.4.2}
 \contentsline {section}{\numberline {5.5}Summary}{81}{section.5.5}
 \contentsline {chapter}{\numberline {6}Continuous contrast variation applied to relevant bio-materials}{83}{chapter.6}
 \contentsline {section}{\numberline {6.1}Materials}{84}{section.6.1}
-\contentsline {subsubsection}{Caelyx\textregistered : PEGylated liposomal doxorubicin}{84}{section*.60}
-\contentsline {subsubsection}{Lipid vesicles: PEGylated and plain liposomes}{84}{section*.62}
-\contentsline {subsubsection}{Human lipoproteins}{85}{section*.63}
-\contentsline {subsubsection}{\leavevmode {\color {red}PS-COOH particles coated with IgG}}{85}{section*.64}
+\contentsline {subsubsection}{Caelyx\textregistered : PEGylated liposomal doxorubicin}{84}{section*.56}
+\contentsline {subsubsection}{Lipid vesicles: PEGylated and plain liposomes}{84}{section*.58}
+\contentsline {subsubsection}{Human lipoproteins}{85}{section*.59}
+\contentsline {subsubsection}{\leavevmode {\color {red}PS-COOH particles coated with IgG}}{85}{section*.60}
 \contentsline {section}{\numberline {6.2}Traceable size determination of a liposomal drug}{86}{section.6.2}
 \contentsline {subsection}{\numberline {6.2.1}Isoscattering point approach}{87}{subsection.6.2.1}
 \contentsline {subsection}{\numberline {6.2.2}Shape factor calculation}{88}{subsection.6.2.2}
@@ -95,5 +91,5 @@
 \contentsline {section}{\numberline {6.4}Sizing of blood plasma componenents}{103}{section.6.4}
 \contentsline {section}{\numberline {6.5}\leavevmode {\color {red}Protein-coated low-density nanoparticles}}{106}{section.6.5}
 \contentsline {subsection}{\numberline {6.5.1}\leavevmode {\color {red}Hard protein corona characterization with contrast variation}}{108}{subsection.6.5.1}
-\contentsline {subsubsection}{Uncertainty analysis}{110}{section*.83}
+\contentsline {subsubsection}{Uncertainty analysis}{110}{section*.79}
 \contentsline {section}{\numberline {6.6}Summary}{111}{section.6.6}

@@ -1,4 +1,6 @@
-\newcommand{\vect}[1]{\boldsymbol{\mathbf{#1}}}
+%\newcommand{\vect}[1]{\boldsymbol{\mathbf{#1}}}
+
+\newcommand{\vect}[1]{\bm{#1}}
 
 
 \chapter{Theoretical Background}
@@ -201,6 +203,7 @@ I(q)=N\int_{0}^{\infty} g(R)\left|f(q,R) \right|^2 dR,
 where \(N\) is the number of scatterers i.e particles, \(g(R)\) is their size distribution function and \(f(q,R)\) is the particle form factor, which depends on the radial structure of the particle as determined in equation \ref{eq:FormFactorSpherical}. Generally, the particles in suspension are not monodisperse and show a certain size distribution which is directly related with their chemical preparation. For systems of relatively low size polydispersity, a gaussian size distribution is typically a good choice, which is expressed by:
 
 \begin{equation}
+        \label{eq:gauss_distribution}
        g_{\text{Gauss}}(R)=\frac{1}{\sigma \sqrt{2\pi}} e^{ - \frac{\left( R - \mu \right)^2}{2\sigma^2} }
 \end{equation}
 
@@ -212,7 +215,7 @@ where $\mu$ is the mean size of the particles and $\sigma$ is the standard devia
 
 whose mean size is given by $\mu e^{\frac{\sigma^2}{2}}$ and the variance is $\mu^2 e^{\sigma^2} (e^{\sigma^2} - 1)$. Other approaches to the size distribution of particles in solution are based in numerical techniques, like the Monte-Carlo approach to form-free particle size distributions \citep{pauw_improvements_2013}.
 
-A useful parameter for comparitive purposes between samples is the polydispersity degree $p_d$, which is defined as the full width at half maximum (FWHM) of the particle size distribution divided by its average value. For a normal size distribution, the FWHM is simply $8\sqrt{2}$ times its standard deviation $\sigma$.
+A useful parameter for comparitive purposes between samples is the polydispersity degree $p_d$, which is defined as the full width at half maximum (FWHM) of the number-weighted particle size distribution divided by its average value. For a normal size distribution, the FWHM is simply $8\sqrt{2}$ times its standard deviation $\sigma$.
 
 \subsection{What is measured in a scattering experiment?: The scattering curve}
 
@@ -299,14 +302,14 @@ By means of the solvent contrast variation approach, the electron density of a s
  
 \subsection{Isoscattering point}
 \label{sec:isopoint_theory}
-One of the best known features appearing in a contrast variation experiment with heterogenous nanoparticles is the existence of \emph{isoscattering points}. At these specific \( q\)-values, the scattering intensity is independent of the adjusted solvent contrast, i.e. all scattering curves intersect in the isoscattering points regardless of the contrast. The isoscattering points \(q^{\star}\) are particularly interesting because they emerge for any spherical particle with an inner structure and a sufficiently narrow size distribution. From the contrast-depending part of equation \eqref{eq:multicore-shell}, a model-free expression can be derived which relates the position of the isoscattering points \(q^{\star}_i\) with the external radius of the particle \( R \), independent of its radial structure \citep{kawaguchi_isoscattering_1992}:
+One of the best known features appearing in a contrast variation experiment with heterogenous nanoparticles is the existence of \emph{isoscattering points}, first formulated by \citep{kawaguchi_x-ray_1983-1}. At these specific \( q\)-values, the scattering intensity is independent of the adjusted solvent contrast, i.e. all scattering curves intersect in the isoscattering points regardless of the contrast. The isoscattering points \(q^{\star}\) are particularly interesting because they emerge for any spherical particle with an inner structure and a sufficiently narrow size distribution. From the contrast-depending part of equation \eqref{eq:multicore-shell}, a model-free expression can be derived which relates the position of the isoscattering points \(q^{\star}_i\) with the external radius of the particle \( R \), independent of its radial structure \citep{kawaguchi_x-ray_1983-1,kawaguchi_isoscattering_1992}:
 
 \begin{equation}
         \label{eq:isoscattering}
         \tan(q^{\star}_iR)=q^{\star}_iR
 \end{equation}
 
-The solutions for this equation fullfill $q^{\star} R =4.493, 7.725, 10.904, ...$, where the positions of the isoscattering points correspond to the minima positions of the scattering intensity of a compact spherical particle with radius \( R \). 
+The solutions for this equation fullfill $q^{\star} R =4.493, 7.725, 10.904, ...$, where the positions of the isoscattering points correspond to the minima positions of the scattering intensity of a compact spherical particle with radius \( R \). This expression relates in a simple way the position of $q^{\star}$ with the size of the particle inaccessible to the suspending medium and, thus, a good method to determine the diameter of the colloid.
 
 Although this expression is derived for the monodisperse case, it can still be applied up to a moderate degree of polydispersity, if care is taken regarding the shift of the minima position due to polydispersity \citep{beurten_polydispersity_1981}. For size distributions with \( p_d\) larger than \( \approx 30\,\% \), the isoscattering point is not well defined and the intersection point of the curves is smeared out, showing a diffuseness in the isoscattering point position \citep{kawaguchi_isoscattering_1992}.
 
