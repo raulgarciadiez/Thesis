@@ -6,14 +6,14 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {\relax 3.1}{\ignorespaces Two different experimental setups which span the accessible $q$-range for almost 3 decades. The overall maximum and minimum accessible $q$-values are highlighted in bold letters.\relax }}{23}{table.caption.21}
+\contentsline {table}{\numberline {\relax 3.1}{\ignorespaces Two different SAXS experimental setups and the accessible $q$-range.}}{23}{table.caption.21}
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {\relax 4.1}{\ignorespaces Comparison of the different methods presented in section \ref {sec:KiskerResultsEvaluation} to evaluate SAXS contrast variation data.\relax }}{41}{table.caption.38}
+\contentsline {table}{\numberline {\relax 4.1}{\ignorespaces The different evaluation methods of contrast variation SAXS data.}}{41}{table.caption.38}
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {\relax 5.1}{\ignorespaces Parameters of the different DCS setups: composition of the sucrose gradients, average density of the gradients $\rho _f$, angular speed of the centrifuge $\Omega $ and type of calibrant.\relax }}{47}{table.caption.42}
-\contentsline {table}{\numberline {\relax 5.2}{\ignorespaces Isoscattering points position and the corresponding particle size for the scattering curves before and after background correction. The size deviation between both values is also shown, with larger deviation for higher $q$-values.\relax }}{54}{table.caption.50}
+\contentsline {table}{\numberline {\relax 5.1}{\ignorespaces Parameters of the different DCS setups.}}{47}{table.caption.42}
+\contentsline {table}{\numberline {\relax 5.2}{\ignorespaces Isoscattering points position and the corresponding particle size.}}{54}{table.caption.50}
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {\relax 6.1}{\ignorespaces Concentration of IgG incubated with PS-COOH particles and IgG shell thickness as measured by single-contrast SAXS, DCS and DLS \citep {minelli_characterization_2014}. A double-shell model with sharp interfaces was used for the SAXS results. The uncertainties are the standard deviations of repeated measurements.\relax }}{81}{table.caption.75}
-\contentsline {table}{\numberline {\relax 6.2}{\ignorespaces Uncertainty contributions associated to the isoscattering point $q^{\star }$ position, where $u_I$ and $u_r$ correspond to the input uncertainty and relative uncertainty respectively.\relax }}{83}{table.caption.78}
+\contentsline {table}{\numberline {\relax 6.1}{\ignorespaces Concentration of IgG and IgG shell thickness around the PS-COOH particles.}}{81}{table.caption.75}
+\contentsline {table}{\numberline {\relax 6.2}{\ignorespaces Uncertainty contributions associated to the isoscattering point position.}}{83}{table.caption.78}
 \select@language {ngerman}
 \select@language {ngerman}
