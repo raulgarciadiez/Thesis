@@ -1,8 +1,3 @@
-%\newcommand{\vect}[1]{\boldsymbol{\mathbf{#1}}}
-
-\newcommand{\vect}[1]{\bm{#1}}
-
-
 \chapter{Theoretical Background}
 \label{chap:theory_SAXS}
 In this chapter, the basic phyisical principles underlying the operation of small-angle X-ray scattering are presented, focusing principally on the interaction between X-rays and matter and the elastic scattering of X-rays by an ensemble of electrons. The fundamental theoretical background of SAXS is also introduced, jointly with the analytical expressions of the form factors used in this work. An entire section is devoted to the theoretical framework used in contrast variation experiments in SAXS, where concepts such as the isoscattering point and the basic functions approach are introduced.
@@ -27,11 +22,11 @@ where $h=2\pi\hbar$ is the Planck's constant and $c$ is the speed of light in va
 \subsection{Beer-Lambert law}
 \label{sec:BeerLambert}
 
-\begin{figure}%[htbp]
+\begin{figure}[hbt]%[htbp]
 	\centering
 	        \def\svgwidth{0.75\linewidth}
 		\input{Figures/BeerLambertScheme.pdf_tex}
-		\caption{The Beer-Lambert law is schematically depicted: The attenuation of X-rays through a medium of thickness $d$ and attenuation coefficient $\mu$ behaves accordingly to the expression \ref{eq:BeerLambertLaw}.}
+		\caption[Depiction of the Beer-Lambert law]{The Beer-Lambert law is schematically depicted: The attenuation of X-rays through a medium of thickness $d$ and attenuation coefficient $\mu$ behaves accordingly to the expression \ref{eq:BeerLambertLaw}.}
 		\label{fig:BeerLambertScheme}
 \end{figure}
 
@@ -62,7 +57,7 @@ where $N_A$ is the Avogadro constant, $\sigma$ is the attenuation cross-section 
 \begin{figure}%[htbp]
 	\centering
 		\input{Figures/AttenuationWater}
-		\caption{The different contributions to the attenuation of water at room temperature are depicted as a function of the photon energy\citep{henke_x-ray_1993} and the total attenuation is the summation of all the other contributions. The pair production in nuclear and electron field can be neglected at the displayed photon energies.}
+		\caption[Contributions to the X-ray attenuation coefficient of water]{The different contributions to the attenuation of water at room temperature are depicted as a function of the photon energy\citep{henke_x-ray_1993} and the total attenuation is the summation of all the other contributions. The pair production in nuclear and electron field can be neglected at the displayed photon energies.}
 		\label{fig:AttenuationWater}
 \end{figure}
 
@@ -104,7 +99,7 @@ where $r^2 \Delta \Omega$ is the detector surface in the plane of the impact par
 	\centering
 	        \def\svgwidth{0.75\linewidth}
 		\input{Figures/FraunhoferScheme.pdf_tex}
-		\caption{Scheme of an scattering event by an object with a potential $\phi(\vect{r'})$ at a distance $\abs{\vect{r}}=r$. A geometrical definition of the momentum transfer vector is depicted on the right hand side, where $\vect{k}$ and $\vect{k_s}$ are the incident and scattered wavevector respectively.}
+		\caption[Schematics of a scattering process and graphical definition of $\vect{q}$]{Scheme of an scattering event by an object with a potential $\phi(\vect{r'})$ at a distance $\abs{\vect{r}}=r$. A geometrical definition of the momentum transfer vector is depicted on the right hand side, where $\vect{k}$ and $\vect{k_s}$ are the incident and scattered wavevector respectively.}
 		\label{fig:FraunhoferScheme}
 \end{figure}
 
@@ -293,7 +288,7 @@ In the contrast variation method, the electron density of the particle or the su
 	\centering
 		\subfloat[Core-shell particle in solvent]{\resizebox{0.44\linewidth}{!}{\input{Figures/ContrastScheme.pdf_tex}}\label{fig:ContrastScheme}}
 		\subfloat[Contrast matching of the shell]{\resizebox{0.44\linewidth}{!}{\input{Figures/MatchPointScheme.pdf_tex}}\label{fig:MatchPointScheme}}
-	\caption{Variation of the solvent electron denstiy represented by the electron density profile of a spherical core-shell particle: a) The contrast of both core and shell components is high ($\Delta\eta_{\text{core}} > \Delta\eta_{\text{shell}} > 0$), while in figure b) the solvent electron density is increased to match the shell's ($\Delta\eta_{\text{shell}} = 0$). In this case, the only contribution to the scattering intensity will arise from the core.}
+	\caption[Solvent contrast variation experiment in SAXS and contrast matching scheme]{Variation of the solvent electron denstiy represented by the electron density profile of a spherical core-shell particle: a) The contrast of both core and shell components is high ($\Delta\eta_{\text{core}} > \Delta\eta_{\text{shell}} > 0$), while in figure b) the solvent electron density is increased to match the shell's ($\Delta\eta_{\text{shell}} = 0$). In this case, the only contribution to the scattering intensity will arise from the core.}
 \end{figure}
 
 

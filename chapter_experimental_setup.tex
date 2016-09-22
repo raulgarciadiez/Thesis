@@ -51,12 +51,12 @@ where $B_0$ is the magnetic field amplitude of the dipole magnet. Normally, $K$ 
 
 The facility BESSY II situated in Berlin (Germany) is a synchrotron X-ray and UV light source of the third generation. The electrons are accelerated to 1.72 GeV in a booster synchrotron and injected into a storage ring with 240 m circumference and an electron current of approximately 300 mA in the TopUp Mode\citep{couprie_x_2008}. The following paragraphs describe the creation of X-rays from the acceleration of the electron beam until the emission of synchrotron radiation on the bending magnets situated along the storage ring \citep{bakker_orbit_1998, bakker_status_1999}.
 
-\begin{figure}%[htbp]
+\begin{figure*}%[htbp]
 	\centering
 		\resizebox{0.4\linewidth}{!}{\includegraphics{Figures/BessyScheme.png}}
 		\caption{A scheme of BESSY II. \textcolor{red}{IMPROVE IMAGE!!! NEW DRAWING MAYBE???}}
 		\label{fig:BessyScheme}
-\end{figure}
+\end{figure*}
 
 
 The creation of the free electrons on the electron beam is the first step, as depicted schematically in figure \ref{fig:BessyScheme}. A standard DC grid cathode emits electrons which are accelerated with a high voltage to the anode up to a 90 keV energy. These electrons are the source of a 50 MeV Linac, which brings the electron beam to relativistic velocities. The 0.4 nC charged electrons bunches are further transported to a 10 Hz booster synchrotron by a long Injection Line. The acceleration process in the rapid-cycling synchrotron takes about 50 ms and is achieved by the disposition of a set of magnets and 500 MHz rf-cavities coupled with the magnets in linear paths that ramp the electron beam to its final operation energy of 1.72 GeV.
@@ -187,12 +187,12 @@ The capillaries used for the contrast variation experiments are vacuum-proof bor
 
 The transmission of an empty capillary is mapped in figure \ref{fig:HilgenbergHomogeneity}, where it can be observed that the deviation of the glass wall thickness is less than 2 $\%$ for an horizontal range of 2.5 mm (of a total width of 4.2 mm). This range is at least 5 times larger than the typical beam diameter, avoiding the convolution of different thicknesses in the measurement. Similarly, figure \ref{fig:WaterHomogeneity} depicts the sample thickness in the capillary, calculated from a capillary filled with water using the Beer-Lambert law, the glass transmission and the mass attenuation coefficient of water at 8000 eV, 10.37 cm$^{2}$ g$^{-1}$ \citep{hubbell_tables_1996}. The thickness of the sample introduced in the capillary is homogenous within 2 $\%$ for a width range of ca. 2.5 mm. 
 
-\begin{figure}%[htbp]
-	\centering
+\begin{figure*}%[htbp]
+%	\centering
 		\input{Figures/GaldenCalibration}
-		\caption{X-ray transmission of a rectangular capillary half-filled with water along the main vertical axis situated at $x=-0.15$ mm.}
+		\caption[X-ray transmission of a rectangular capillary half-filled with water]{X-ray transmission of a rectangular capillary half-filled with water along the main vertical axis situated at $x=-0.15$ mm.}
 		\label{fig:GaldenCalibration}
-\end{figure}
+\end{figure*}
 
 From these figures, it is clear that the homogeneity of the sample environment is even better along the main vertical axis of the capillary. Figure \ref{fig:GaldenCalibration} shows the measured X-ray transmission of a half-filled capillary along its vertical axis (at the horizontal position -0.15 mm). For example, the glass transmission within a 6 mm vertical range is $20.1\%$, with an associated relative uncertainty of $\delta_r T =0.6 \; \%$. By calculating $\delta_r d = \frac{\delta_r T}{log(T)}$ where $T$ is the glass transmission, the relative uncertainty of the glass thickness is $\delta_r d = 0.4 \; \%$. Analogously, the uncertainty of the water transmission is 0.9 $\%$ and the sample thicknes has an uncertainty of 0.9 $\%$ along the vertical axis.
 
@@ -205,10 +205,9 @@ Samples with larger structures require the measurement of scattering curves at l
 A polymeric 100 $\mu$m ring cut with a microtome is used as spacer between the 2 windows, in order to achieve the desired 120 $\mu$m sample thickness which optimizes the intensity attenuation at 4000 eV. The acces to smaller $q$-values using this cell is shown in \cite{varga_towards_2014}, where a value of $q=0.015$ nm$^{-1}$ is achieved.
 
 \begin{figure}%[htbp]
-	\centering
-		\resizebox{0.7\linewidth}{!}{\includegraphics{Figures/SampleEnvironment.jpg}}
-		\caption{Different sample environments: On the left side, the disassembled low-energy cell with the two silicon-nitride windows, the polymeric ring spacer and the two parts of the metallic holder. On the right side, the round and rectangular capillaries.}
-		\label{fig:SampleEnvironment}
+		\includegraphics[width=0.37\linewidth]{Figures/SampleEnvironment.jpg}
+		\caption[SAXS sample environments]{Different sample environments: On the left side, the disassembled low-energy cell with the two silicon-nitride windows, the polymeric ring spacer and the two parts of the metallic holder. On the right side, the round and rectangular capillaries.}
+	        \label{fig:SampleEnvironment}
 \end{figure}
 
 \section{Data reduction: The scattering curve}

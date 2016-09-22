@@ -2,8 +2,6 @@ This is BibTeX, Version 0.99d (TeX Live 2013/TeX Live for SUSE Linux)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: main.aux
 The style file: meinbst.bst
-A level-1 auxiliary file: abbreviations.aux
-A level-1 auxiliary file: symbols.aux
 A level-1 auxiliary file: chapter_introduction.aux
 A level-1 auxiliary file: chapter_theory_SAXS.aux
 A level-1 auxiliary file: chapter_experimental_setup.aux
@@ -12,6 +10,7 @@ A level-1 auxiliary file: chapter_simultaneous_size_density.aux
 A level-1 auxiliary file: chapter_bio_applications.aux
 A level-1 auxiliary file: thanksgiving.aux
 A level-1 auxiliary file: tub-eidesstattliche.aux
+A level-1 auxiliary file: tub-publist.aux
 Database file #1: thesis.bib
 Warning--entry type for "fitzpatrick_structure_1998" isn't style-file defined
 --line 2410 of file thesis.bib
@@ -23,7 +22,7 @@ Warning--empty publisher in kramers_diffusion_1927
 while executing---line 3135 of file meinbst.bst
 You've used 186 entries,
             2851 wiz_defined-function locations,
-            1670 strings with 45276 characters,
+            1669 strings with 45263 characters,
 and the built_in function-call counts, 101850 in all, are:
 = -- 9648
 > -- 5867

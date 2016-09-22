@@ -1626,3 +1626,91 @@ correlation matrix of the fit parameters:
 
                wasser 
 wasser          1.000 
+
+
+*******************************************************************************
+Thu Sep 22 10:43:04 2016
+
+
+FIT:    data read from 'Hilgenberg_-0.15.dat' u 2:3
+        format = x:z
+        x range restricted to [4.00000 : 10.0000]
+        #datapoints = 20
+        residuals are weighted equally (unit weight)
+
+function used for fitting: luft
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 2.61984e-06       delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 1
+
+initial set of free parameter values
+
+luft            = 0.201469
+
+After 3 iterations the fit converged.
+final sum of squares of residuals : 2.60683e-06
+rel. change during last iteration : -2.82509e-12
+
+degrees of freedom    (FIT_NDF)                        : 19
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.000370408
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.37202e-07
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+luft            = 0.201494         +/- 8.283e-05    (0.04111%)
+
+
+correlation matrix of the fit parameters:
+
+               luft   
+luft            1.000 
+
+
+*******************************************************************************
+Thu Sep 22 10:43:04 2016
+
+
+FIT:    data read from 'Hilgenberg_-0.15.dat' u 2:3
+        format = x:z
+        x range restricted to [-5.00000 : 3.00000]
+        #datapoints = 27
+        residuals are weighted equally (unit weight)
+
+function used for fitting: wasser
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 7.99232e-07       delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 1
+
+initial set of free parameter values
+
+wasser          = 0.0719775
+
+After 2 iterations the fit converged.
+final sum of squares of residuals : 7.99198e-07
+rel. change during last iteration : -5.36973e-08
+
+degrees of freedom    (FIT_NDF)                        : 26
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.000175324
+variance of residuals (reduced chisquare) = WSSR/ndf   : 3.07384e-08
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+wasser          = 0.0719764        +/- 3.374e-05    (0.04688%)
+
+
+correlation matrix of the fit parameters:
+
+               wasser 
+wasser          1.000 

@@ -1,0 +1,207 @@
+\hypersetup{%
+        pdftitle={Dissertation},    
+        pdfauthor={Raul Garcia Diez},
+        pdfcreator={pdfLaTeX},
+        pdfborder=0 0 0,
+        breaklinks=true,
+        bookmarksopen=true,
+        bookmarksnumbered=true,
+        linkcolor=NavyBlue,
+        urlcolor=NavyBlue,
+        citecolor=NavyBlue,
+        colorlinks=false}
+
+%%% Kopf- und Fußzeilen
+\newlength{\marginWidth}
+\setlength\marginWidth{\marginparwidth+\marginparsep}
+\newlength{\fulllinewidth}
+\setlength\fulllinewidth{\textwidth+\marginWidth}
+
+\usepackage{truncate} %Um zu lange Kapiteltitel abzuschneiden
+
+\footskip=1.6cm
+\makeatletter % = mache @ letter 
+
+%Vordefinition mehrfachverwendeter Teile
+\def\oddfootSTANDARD{
+   \renewcommand{\@oddfoot}{
+       \hbox to\textwidth{\vbox{\hbox to\textwidth{
+          \hfill
+          \strut
+          \hspace{1pt}
+       }}}
+       \hbox to\marginWidth{\vbox{\hbox to\marginWidth{
+          \strut %unsichtbares Zeichen
+               \large
+               \hspace{5pt}               
+               \vrule width 1pt height 1cm
+            \hspace{8pt}            
+            \textsf{\thepage}
+            \hfill
+       }}}\hss   
+   }
+}
+
+\def\evenfootSTANDARD{
+   \renewcommand{\@evenfoot}{
+      \hspace{-\marginWidth}  
+         \hbox to\marginWidth{\vbox{\hbox to\marginWidth{
+         \large
+         \strut %unsichtbares Zeichen
+         \hfill
+         \textsf{\thepage}
+         \hspace{5pt}
+         \vrule width 1pt height 1cm
+         \hspace{7pt}
+      }}}\hss
+   }  
+}
+
+%Standardstil für die gesamte Dissertation
+\newcommand{\ps@thesis}{%
+   \renewcommand{\@oddhead}{%
+         \hbox to\textwidth{\vbox{\hbox to\textwidth{%
+            \textsf
+            \hfill
+            \rightmark
+            \strut
+            \hspace{1pt}
+      }}}
+         \hbox to\marginWidth{\vbox{\hbox to\marginWidth{%
+            \strut %unsichtbares Zeichen
+            \hspace{5pt}
+            \vrule width 1pt
+            \hspace{5pt}
+            \textsf
+            \thesection
+            \hfill
+         }}}\hss
+   }  
+   
+   \renewcommand{\@evenhead}{%
+      \hspace{-\marginWidth} 
+         \hbox to\marginWidth{\vbox{\hbox to\marginWidth{%
+            \hfill
+            \strut %unsichtbares Zeichen
+            \textbf{\textsf{Chapter~\thechapter}}
+            \hspace{5pt}
+            \vrule width 1pt
+            \hspace{7pt}
+            \strut
+         }}}\hss
+         
+         \hbox to\textwidth{\vbox{\hbox to\textwidth{%
+            \strut %unsichtbares Zeichen
+         \truncate{.9\textwidth}{\leftmark}
+         \hfill
+      }}}\hss
+   }
+   
+   \oddfootSTANDARD   
+   \evenfootSTANDARD   
+}
+%Der PLAIN-Style der Chapter- und Sonderseiten muss redefiniert werden.
+\renewcommand{\ps@plain}{%
+   \let\@oddhead\@empty
+   \let\@evenhead\@empty
+   \let\@evenfoot\@empty   
+   \oddfootSTANDARD
+}
+%Spezieller Stil für Inhaltsverzeichnis und Literaturverzeichnis (ohne Nummern wie 0.0 oder B.0)
+\newcommand{\ps@thesisINTRO}{%
+   \renewcommand{\@oddhead}{%
+         \hbox to\textwidth{\vbox{\hbox to\textwidth{%
+            \textsf
+            \hfill
+            \sffamily\rightmark
+            \strut
+            \hspace{1pt}
+         }}}\hss
+   } 
+   
+   \renewcommand{\@evenhead}{%
+         \hbox to\textwidth{\vbox{\hbox to\textwidth{%
+            \strut %unsichtbares Zeichen
+            \truncate{.9\textwidth}{\sffamily\leftmark}
+            \hfill
+         }}}\hss  
+   }
+   
+   \oddfootSTANDARD   
+   \evenfootSTANDARD   
+}
+
+%Spezieller Stil für Abbrevatiation and symbols
+\newcommand{\ps@thesisSYM}{%
+   \let\@oddhead\@empty
+   \let\@evenhead\@empty
+   \oddfootSTANDARD   
+   \evenfootSTANDARD   
+}
+
+%Spezieller Stil für Anhänge
+\newcommand{\ps@thesisANHANG}{%
+   \renewcommand{\@oddhead}{%
+         \hbox to\textwidth{\vbox{\hbox to\textwidth{%
+            \textsf
+            \hfill
+            \rightmark
+            \strut
+            \hspace{1pt}
+         }}}
+         \hbox to\marginWidth{\vbox{\hbox to\marginWidth{%
+            \strut %unsichtbares Zeichen
+            \hspace{5pt}
+            \vrule width 1pt
+            \hspace{5pt}
+            \textsf
+            \thechapter
+            \hfill
+         }}}\hss
+   }
+   
+   \renewcommand{\@evenhead}{%
+      \hspace{-\marginWidth}  
+         \hbox to\marginWidth{\vbox{\hbox to\marginWidth{%
+            \hfill
+            \strut %unsichtbares Zeichen
+            \textbf{\textsf{Appendix~\thechapter}}
+            \hspace{5pt}
+            \vrule width 1pt
+            \hspace{7pt}
+            \strut
+         }}}\hss
+         
+         \hbox to\textwidth{\vbox{\hbox to\textwidth{%
+            \strut %unsichtbares Zeichen
+            \truncate{.9\textwidth}{\leftmark}
+            \hfill
+         }}}\hss  
+   }
+   
+   \oddfootSTANDARD
+   \evenfootSTANDARD
+}
+
+
+\newcommand{\ps@reallyempty}{%
+   \let\@oddhead\@empty
+   \let\@evenhead\@empty
+   \let\@oddfoot\@empty
+   \let\@evenfoot\@empty
+}
+
+\renewcommand{\chaptermark}[1]{\markboth{\uppercase{\textsf{#1}}}{}}
+\renewcommand{\sectionmark}[1]{\markright{\textsf{#1}}}
+
+\makeatother % = mache @ wieder zu nicht-Buchstaben 
+\pagestyle{thesis}
+
+
+%Problem mit den Seitenzahlen und Headern auf leeren Seiten nach Kapiteln:
+\let\origdoublepage\cleardoublepage
+\newcommand{\clearemptydoublepage}{%
+  \clearpage
+  {\pagestyle{empty}\origdoublepage}%
+}
+\let\cleardoublepage\clearemptydoublepage

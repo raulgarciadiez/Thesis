@@ -1,0 +1,45 @@
+%%%% Textsatz, Layout, Stil
+\usepackage{mathpazo}
+
+\linespread{1.05}         % Palatino needs more leading (space between lines)
+\usepackage[scaled=1.03]{inconsolata}
+
+%Überschriften serifenlos und über den Rand hängend
+\usepackage[sf,sl,outermarks,noindentafter,nobottomtitles]{titlesec}
+
+%könnte alles auch mit \bfseries versehen werden nach Geschmack
+\titleformat{\section}[hang]{\LARGE\rmfamily}{\thetitle}{8pt}{}
+\titleformat{\subsection}[hang]{\Large\rmfamily}{\thetitle}{8pt}{}
+\titleformat{\subsubsection}[hang]{\bfseries\large\rmfamily}{\thetitle}{8pt}{}
+\titleformat{\paragraph}[hang]{\bfseries\rmfamily}{\thetitle}{8pt}{}
+
+%Etwas aufwendiger für die Kapitelüberschriften:
+\titleformat{\chapter}[display]
+{\filleft\Huge\rmfamily} %Huge ist die Größe für Titeltext und Nummer
+{\fontsize{100pt}{90pt}\selectfont\thechapter}
+{-2ex} %is vertical space in [display] mode
+%Platz vor dem ganzen Krempel
+{\vspace{1ex}}
+%Platz danach
+[\vspace{1ex}]
+
+%%% TOC design
+\usepackage[titles]{tocloft}
+\setlength{\cftbeforechapskip}{1ex}
+\setlength{\cftbeforesecskip}{0.8ex}
+\setlength{\cftbeforesubsecskip}{0.8ex}
+
+\renewcommand{\cftpnumalign}{l}
+\renewcommand{\cftsecdotsep}{\cftnodots}
+\renewcommand{\cftsubsecdotsep}{\cftnodots}
+\renewcommand{\cftchapleader}{\hspace{2em}}
+\renewcommand{\cftsecleader}{\hspace{2em}}
+\renewcommand{\cftsubsecleader}{\hspace{2em}}
+\renewcommand{\cftchapafterpnum}{\cftparfillskip}
+\renewcommand{\cftsecafterpnum}{\cftparfillskip}
+\renewcommand{\cftsubsecafterpnum}{\cftparfillskip}
+
+\usepackage[]{caption}
+\DeclareCaptionLabelSeparator{vbar}{ | } % custom; standard z.B. colon, period, ...
+\captionsetup{labelfont=bf,font={sf,footnotesize},format=plain,labelsep=vbar}
+

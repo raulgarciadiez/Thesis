@@ -1,0 +1,68 @@
+%%%% common header file for final and draft mode
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+%\usepackage{lmodern}
+\usepackage[ngerman,UKenglish]{babel}
+\usepackage{microtype}
+\usepackage{textcomp}
+\usepackage{xspace}
+\usepackage[dvipsnames,svgnames]{xcolor}
+\usepackage{floatrow}
+\DeclareColorBox{imgbg}{\fcolorbox{white}{white}}
+
+\input{final-head-start}
+
+        
+\bibliographystyle{meinbst}
+\usepackage{natbib}
+
+%%%%% Grafiken, Abbildungen
+\usepackage{graphicx} % option final to show images also in draft mode
+\usepackage{subfig}
+\usepackage{wrapfig}
+\graphicspath{{Figures/}}
+
+%%%% Tabellen,Listen
+\usepackage{tabularx,booktabs,multirow}
+
+%%%% Mathe, Zahlen, chem. Formeln
+\usepackage{amsmath,amssymb}
+\usepackage{commath}
+
+\usepackage{bm}
+\newcommand{\vect}[1]{\bm{#1}} % vector in bold
+
+\usepackage{xfrac} %small fractions
+
+%%%% Verschiedenes
+\usepackage[para,multiple,stable,perpage,symbol*]{footmisc}
+%%% footnote without marker
+\newcommand\blfootnote[1]{%
+  \begingroup
+  \renewcommand\thefootnote{}\footnote{#1}%
+  \addtocounter{footnote}{-1}%
+  \endgroup
+}
+
+%%%% Comment-Sections
+\usepackage{comment} %% drinnen lassen fuer Lang-Abstract
+
+\usepackage[textsize=scriptsize,bordercolor=none,backgroundcolor=YellowGreen,linecolor=YellowGreen]{todonotes}
+%\renewcommand{\todo}[1]{\todo{\sffamily #1}}
+\newcommand{\dofig}[1]{\todo[backgroundcolor=DarkSeaGreen,linecolor=none]{\sffamily\textbf{DoFigure:}~#1}\xspace}
+\newcommand{\dotxt}[1]{\todo[backgroundcolor=Coral,linecolor=none]{\sffamily\textbf{DoText:}~#1}\xspace}
+\newcommand{\doref}[1]{\todo[backgroundcolor=Gold,linecolor=Gold]{\sffamily\textbf{DoRef:}~#1}\xspace}
+\newcommand{\doalt}[1]{\textcolor{SkyBlue}{#1}\todo[backgroundcolor=SkyBlue,linecolor=SkyBlue]{\sffamily\textbf{Altrn:}~#1}\xspace}
+
+%%%% Hier kommt's auf die Reihenfolge an
+\usepackage{varioref}
+\usepackage[pdfpagelabels]{hyperref}
+%\usepackage{breakurl} % damit URLs korrekt umgebrochen werden
+\usepackage[capitalise]{cleveref}
+
+\input{final-head-end}
+
+%%%%%%%%%%%%%%%%%%%%%%
+%%%%% eigene Kommandos
+\newcommand{\fssmall}[0]{\fontsize{8pt}{8pt}\selectfont}
+\newcommand{\fsmedium}[0]{\fontsize{10pt}{10pt}\selectfont}

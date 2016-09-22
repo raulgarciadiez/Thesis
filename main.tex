@@ -1,100 +1,45 @@
-\documentclass[12pt]{report}
+\documentclass[a4paper,twoside,11pt]{scrbook} 
+\usepackage[top=2.5cm,bottom=3.0cm,inner=3.0cm,outer=3.0cm]{geometry}
 
-\newcommand{\fssmall}[0]{\fontsize{8pt}{8pt}\selectfont}
-\newcommand{\fsmedium}[0]{\fontsize{10pt}{10pt}\selectfont}
-
-\bibliographystyle{meinbst}
-%\bibliographystyle{rmp}
-%\bibliographystyle{rusnat}
-\usepackage{natbib}
-\setcitestyle{aysep={},yysep={, },round,semicolon,authoryear}
-
-\renewcommand{\floatpagefraction}{0.8}
-% Mindestgröße Abbildung auf einer eigenen Seite
-\renewcommand{\topfraction}{0.85}
-\renewcommand{\bottomfraction}{0.5}
-
-\usepackage{float}
-
-\usepackage{amsmath}
-\usepackage{hyperref}
-\usepackage{bm}
-
-%\usepackage[nonumberlist]{glossaries}
-%\usepackage{acronym}
-%\newglossary[alg]{acronym}{acr}{acn}{\acronymname}
-%\newglossary[slg]{symbols}{sls}{slo}{\glssymbolsgroupname}
-%\makeglossaries
-
-
-\usepackage{xfrac}
-%\usepackage{nicefrac}
-
-\usepackage{amsmath}
-\usepackage{commath}
-\usepackage{mathpazo}
-%\usepackage{aurical}
-
-\usepackage[utf8]{inputenc}
-\usepackage{wrapfig}
-\usepackage{subfig}
-\usepackage{graphicx}
-\graphicspath{{Figures/}}
-\usepackage{geometry}
-\usepackage{color}
-
-\usepackage{caption}
-\captionsetup{font=footnotesize}
-
-
-        
-%\title{
-%	{Characterization of nanoparticles by continuous contrast variation in SAXS}\\
-%	{\large Physikalisch-Technische Bundesanstalt}\\
-%}
-%\author{Raul Garcia Diez}
-%\date{\today}
+\input{header}
 
 \begin{document}
-%        \input{gloss-entries}
-        %\includeonly{abstract}
-        
-%        \frontmatter
-%            \pagestyle{thesisINTRO}
-            \input{tub-titlepage}
-            \input{abstract}        
-%	\maketitle
-%	\include{abstract}
-	
-	\tableofcontents
-%	\printglossary[type=\acronymtype,title=Abbreviations,style=list]
-%	\printglossary[type=symbols,title=Symbols,style=long,nonumberlist=true]
-	
-	\include{abbreviations}
-	\include{symbols}
-		
-%	\mainmatter
-	
-	\include{chapter_introduction}
-	
-	\include{chapter_theory_SAXS}
-	
-	\include{chapter_experimental_setup}
-	
-	\include{chapter_density_gradient_SAXS}
-		
-	\include{chapter_simultaneous_size_density}		
-	
-	\include{chapter_bio_applications}
-	
-		
-	\bibliography{thesis}%,main}%,iucr, polymers,polymers_patent,iucr}
-	
-	%       main.bib contains possible references for new parts of the thesis
-	
-	\include{thanksgiving}
-	
-	\include{tub-eidesstattliche}
+    \selectlanguage{UKenglish}%
 
-	
+\frontmatter
+
+    \pagestyle{thesisINTRO}
+    \input{tub-titlepage}
+    \input{abstract}
+
+
+    \selectlanguage{UKenglish}%
+    \tableofcontents
+    \listoffigures
+    \listoftables
+    
+    \pagestyle{thesisSYM}
+    \newpage
+    \input{abbreviations}
+    \input{symbols}
+    
+\mainmatter
+    \pagestyle{thesis}
+    \include{chapter_introduction}
+    \include{chapter_theory_SAXS}
+    \include{chapter_experimental_setup}
+    \include{chapter_density_gradient_SAXS}
+    \include{chapter_simultaneous_size_density}
+    \include{chapter_bio_applications}
+
+    \bibliography{thesis}
+
+
+\backmatter
+    \pagestyle{thesisINTRO}
+    \include{thanksgiving}
+    \include{tub-eidesstattliche}
+    \include{tub-publist}
+
+
 \end{document}

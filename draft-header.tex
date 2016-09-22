@@ -1,0 +1,28 @@
+\linespread{1.25}  % Zeilenabstand fuer Korrekturen
+
+\usepackage{geometry}
+\geometry{includehead, includefoot, 
+    left=30mm,right=25mm, top= 10mm, bottom= 10mm}
+\setboolean{@twoside}{false} % einseitiges Layout
+
+\usepackage[missing={Help-missing!}]{gitinfo}
+
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+
+%%%% floatrow options
+%\floatsetup{capposition=top}
+\floatsetup[widefigure]{capposition=bottom,floatwidth=\textwidth}
+\floatsetup[table]{capposition=top}
+
+%\usepackage[]{caption}
+%\captionsetup{labelfont=bf,font={sf,footnotesize},format=plain,labelsep=period}
+
+\lhead{\rightmark}
+\rhead{(\the\day.\the\month.\the\year)~~~-\thepage-}
+\lfoot{\footnotesize \emph{Git revision\gitVtags:} \parbox[t]{.60\textwidth}{\gitAuthorIsoDate~\gitReferences}}
+\cfoot{}
+\rfoot{\footnotesize \emph{Git abbrev. hash}: {\ttfamily\gitAbbrevHash}}
+\renewcommand{\footrulewidth}{0.4pt}
+\renewcommand{\headrulewidth}{0pt}
+
