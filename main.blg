@@ -2,13 +2,11 @@ This is BibTeX, Version 0.99d (TeX Live 2013/TeX Live for SUSE Linux)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: main.aux
 The style file: meinbst.bst
-A level-1 auxiliary file: chapter_introduction.aux
 A level-1 auxiliary file: chapter_theory_SAXS.aux
 A level-1 auxiliary file: chapter_experimental_setup.aux
 A level-1 auxiliary file: chapter_density_gradient_SAXS.aux
 A level-1 auxiliary file: chapter_simultaneous_size_density.aux
 A level-1 auxiliary file: chapter_bio_applications.aux
-A level-1 auxiliary file: chapter_conclusions.aux
 A level-1 auxiliary file: thanksgiving.aux
 A level-1 auxiliary file: tub-eidesstattliche.aux
 A level-1 auxiliary file: tub-publist.aux
@@ -21,45 +19,45 @@ Warning--can't use both author and editor fields in feigin_structure_1987
 Warning--empty publisher in kramers_diffusion_1927
 `number' is a missing field, not a string, for entry stuhrmann_resonance_1985
 while executing---line 3135 of file meinbst.bst
-You've used 186 entries,
+You've used 162 entries,
             2851 wiz_defined-function locations,
-            1670 strings with 45286 characters,
-and the built_in function-call counts, 101850 in all, are:
-= -- 9648
-> -- 5867
-< -- 82
-+ -- 2283
-- -- 2058
-* -- 9811
-:= -- 18440
-add.period$ -- 374
-call.type$ -- 186
-change.case$ -- 1619
-chr.to.int$ -- 193
-cite$ -- 188
-duplicate$ -- 4048
-empty$ -- 6775
-format.name$ -- 2316
-if$ -- 19706
-int.to.chr$ -- 6
+            1542 strings with 39995 characters,
+and the built_in function-call counts, 88209 in all, are:
+= -- 8353
+> -- 5067
+< -- 78
++ -- 1970
+- -- 1776
+* -- 8475
+:= -- 15990
+add.period$ -- 325
+call.type$ -- 162
+change.case$ -- 1403
+chr.to.int$ -- 170
+cite$ -- 164
+duplicate$ -- 3507
+empty$ -- 5880
+format.name$ -- 2010
+if$ -- 17071
+int.to.chr$ -- 5
 int.to.str$ -- 1
-missing$ -- 194
-newline$ -- 562
-num.names$ -- 748
-pop$ -- 1305
+missing$ -- 170
+newline$ -- 490
+num.names$ -- 652
+pop$ -- 1135
 preamble$ -- 1
-purify$ -- 1429
+purify$ -- 1239
 quote$ -- 0
-skip$ -- 2338
+skip$ -- 2024
 stack$ -- 0
-substring$ -- 6168
-swap$ -- 917
-text.length$ -- 8
+substring$ -- 5321
+swap$ -- 784
+text.length$ -- 7
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 1644
+type$ -- 1428
 warning$ -- 2
-while$ -- 889
+while$ -- 770
 width$ -- 0
-write$ -- 2044
+write$ -- 1779
 (There were 2 error messages)
