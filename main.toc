@@ -4,20 +4,20 @@
 \select@language {UKenglish}
 \select@language {UKenglish}
 \contentsline {chapter}{\numberline {1}Introduction: Nanoparticles in medicine and biology}{1}{chapter.1}
-\contentsline {section}{\numberline {1.1}What are nanoparticles?}{1}{section.1.1}
-\contentsline {section}{\numberline {1.2}Nanoparticles in general are used in nanomedicine (principally) and cosmetics}{1}{section.1.2}
+\contentsline {section}{\numberline {1.1}What are nanoparticles?}{2}{section.1.1}
+\contentsline {section}{\numberline {1.2}Nanoparticles in general are used in nanomedicine (principally) and cosmetics}{2}{section.1.2}
 \contentsline {section}{\numberline {1.3}Characterization: Why size (size distribution, density) is important?}{2}{section.1.3}
-\contentsline {section}{\numberline {1.4}Dimensional nanometrology and traceability}{2}{section.1.4}
+\contentsline {section}{\numberline {1.4}Dimensional nanometrology and traceability}{3}{section.1.4}
 \contentsline {section}{\numberline {1.5}SAXS is a good tool: small internal electron density differences}{3}{section.1.5}
-\contentsline {section}{\numberline {1.6}advantadges to other characterization tools}{3}{section.1.6}
+\contentsline {section}{\numberline {1.6}advantadges to other characterization tools}{4}{section.1.6}
 \contentsline {section}{\numberline {1.7}contrast variation is even better, but takes too long and extra uncertainties arise}{5}{section.1.7}
 \contentsline {section}{\numberline {1.8}density gradient technique: tunable and large datasets}{6}{section.1.8}
 \contentsline {section}{\numberline {1.9}polymeric particles: why important?}{7}{section.1.9}
 \contentsline {section}{\numberline {1.10}polymeric: extensively used in SAXS and contrast variation, also SANS because deuteration}{7}{section.1.10}
-\contentsline {section}{\numberline {1.11}polymeric: good application because of phase separation in polymerization}{7}{section.1.11}
-\contentsline {section}{\numberline {1.12}bio materials: important why?}{7}{section.1.12}
+\contentsline {section}{\numberline {1.11}polymeric: good application because of phase separation in polymerization}{8}{section.1.11}
+\contentsline {section}{\numberline {1.12}bio materials: important why?}{8}{section.1.12}
 \contentsline {section}{\numberline {1.13}liposomal nanocarriers: what are they and why important? How are they characterized?}{8}{section.1.13}
-\contentsline {section}{\numberline {1.14}liposomes: SAXS characterization, literature}{8}{section.1.14}
-\contentsline {section}{\numberline {1.15}liposomes: effects of PEG, cholesterol content, long discussion}{9}{section.1.15}
+\contentsline {section}{\numberline {1.14}liposomes: SAXS characterization, literature}{9}{section.1.14}
+\contentsline {section}{\numberline {1.15}liposomes: effects of PEG, cholesterol content, long discussion}{10}{section.1.15}
 \contentsline {section}{\numberline {1.16}liposomal nanocarrier: SAXS characterization, literature, micellesm other bio-drugs}{10}{section.1.16}
 \contentsline {section}{\numberline {1.17}structure of the thesis}{10}{section.1.17}

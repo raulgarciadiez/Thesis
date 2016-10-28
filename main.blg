@@ -7,18 +7,8 @@ I found no \bibdata command---while reading file main.aux
 Warning--I didn't find a database entry for "guterres_polymeric_2007"
 Warning--I didn't find a database entry for "wang_nanoparticle_2012"
 Warning--I didn't find a database entry for "tao_shape-specific_2011"
-Warning--I didn't find a database entry for "vicent_polymer_2006"
-Warning--I didn't find a database entry for "patel_polymeric_2012"
-Warning--I didn't find a database entry for "beija_colloidal_2012"
-Warning--I didn't find a database entry for "cabral_progress_2014"
 Warning--I didn't find a database entry for "euliss_imparting_2006"
 Warning--I didn't find a database entry for "yang_shape-memory_2005"
-Warning--I didn't find a database entry for "vittaz_effect_1996"
-Warning--I didn't find a database entry for "mitragotri_physical_2009"
-Warning--I didn't find a database entry for "doshi_designer_2009"
-Warning--I didn't find a database entry for "powers_research_2006"
-Warning--I didn't find a database entry for "kattan_phase_1992"
-Warning--I didn't find a database entry for "soppimath_biodegradable_2001"
 Warning--I didn't find a database entry for "leonard_jr_size_1952"
 Warning--I didn't find a database entry for "motzkus_untersuchung_1959"
 Warning--I didn't find a database entry for "silverstein_microstructure_1989"
@@ -71,6 +61,10 @@ Warning--I didn't find a database entry for "sahoo_nanotech_2003"
 Warning--I didn't find a database entry for "wickline_nanotechnology_2003"
 Warning--I didn't find a database entry for "zhou_nano-enabled_2014"
 Warning--I didn't find a database entry for "rosen_rise_2005"
+Warning--I didn't find a database entry for "vicent_polymer_2006"
+Warning--I didn't find a database entry for "patel_polymeric_2012"
+Warning--I didn't find a database entry for "beija_colloidal_2012"
+Warning--I didn't find a database entry for "cabral_progress_2014"
 Warning--I didn't find a database entry for "munro_pathogenesis_1988"
 Warning--I didn't find a database entry for "assmann_lipid-protein_1974"
 Warning--I didn't find a database entry for "havel_distribution_1955"
@@ -104,7 +98,7 @@ Warning--I didn't find a database entry for "spyratou_atomic_2009"
 Warning--I didn't find a database entry for "wolfram_shrinkage_2014"
 You've used 0 entries,
             2851 wiz_defined-function locations,
-            727 strings with 6873 characters,
+            721 strings with 6747 characters,
 and the built_in function-call counts, 23 in all, are:
 = -- 0
 > -- 0
