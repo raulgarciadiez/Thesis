@@ -1,140 +1,74 @@
-This is BibTeX, Version 0.99d (TeX Live 2013/TeX Live for SUSE Linux)
+This is BibTeX, Version 0.99d (TeX Live 2013)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: main.aux
 The style file: meinbst.bst
 A level-1 auxiliary file: chapter_introduction.aux
-I found no \bibdata command---while reading file main.aux
-Warning--I didn't find a database entry for "guterres_polymeric_2007"
-Warning--I didn't find a database entry for "wang_nanoparticle_2012"
-Warning--I didn't find a database entry for "tao_shape-specific_2011"
-Warning--I didn't find a database entry for "euliss_imparting_2006"
-Warning--I didn't find a database entry for "yang_shape-memory_2005"
-Warning--I didn't find a database entry for "leonard_jr_size_1952"
-Warning--I didn't find a database entry for "motzkus_untersuchung_1959"
-Warning--I didn't find a database entry for "silverstein_microstructure_1989"
-Warning--I didn't find a database entry for "joensson_morphology_1991"
-Warning--I didn't find a database entry for "mykhaylyk_structural_2012"
-Warning--I didn't find a database entry for "meli_traceable_2012"
-Warning--I didn't find a database entry for "murphy_static_1997"
-Warning--I didn't find a database entry for "hallett_vesicle_1991"
-Warning--I didn't find a database entry for "egelhaaf_determination_1996"
-Warning--I didn't find a database entry for "takahashi_precise_2008"
-Warning--I didn't find a database entry for "jans_dynamic_2009"
-Warning--I didn't find a database entry for "hoo_comparison_2008"
-Warning--I didn't find a database entry for "li_doxorubicin_1998"
-Warning--I didn't find a database entry for "beyer_saxs_1990"
-Warning--I didn't find a database entry for "fielding_correcting_2012"
-Warning--I didn't find a database entry for "giddings_density_1981"
-Warning--I didn't find a database entry for "yang_colloid_1983"
-Warning--I didn't find a database entry for "caldwell_measurement_1986"
-Warning--I didn't find a database entry for "carney_determination_2011"
-Warning--I didn't find a database entry for "minelli_characterization_2014"
-Warning--I didn't find a database entry for "neumann_new_2013"
-Warning--I didn't find a database entry for "bell_emerging_2012"
-Warning--I didn't find a database entry for "bolze_situ_2004"
-Warning--I didn't find a database entry for "dingenouts_radial_1994"
-Warning--I didn't find a database entry for "dingenouts_analysis_1999"
-Warning--I didn't find a database entry for "ballauff_analysis_2011"
-Warning--I didn't find a database entry for "ballauff_small-angle_1996"
-Warning--I didn't find a database entry for "grunder_analysis_1991"
-Warning--I didn't find a database entry for "grunder_small-angle_1993"
-Warning--I didn't find a database entry for "ottewill_characterization_1995"
-Warning--I didn't find a database entry for "bolze_small-angle_1997"
-Warning--I didn't find a database entry for "dingenouts_structure_1994"
-Warning--I didn't find a database entry for "mykhaylyk_application_2007"
-Warning--I didn't find a database entry for "ballauff_saxs_2001-1"
-Warning--I didn't find a database entry for "bolze_application_2003"
-Warning--I didn't find a database entry for "kawaguchi_isoscattering_1992"
-Warning--I didn't find a database entry for "kiselev_sucrose_2001-1"
-Warning--I didn't find a database entry for "kawaguchi_isoscattering_1993"
-Warning--I didn't find a database entry for "garcia-diez_nanoparticle_2015"
-Warning--I didn't find a database entry for "coombs_density-gradient_1981"
-Warning--I didn't find a database entry for "hinton_density_1978"
-Warning--I didn't find a database entry for "cedervall_understanding_2007"
-Warning--I didn't find a database entry for "monopoli_physicalchemical_2011"
-Warning--I didn't find a database entry for "casals_time_2010"
-Warning--I didn't find a database entry for "lundqvist_nanoparticle_2008"
-Warning--I didn't find a database entry for "tenzer_rapid_2013"
-Warning--I didn't find a database entry for "gessner_functional_2003"
-Warning--I didn't find a database entry for "nie_nanotechnology_2007"
-Warning--I didn't find a database entry for "sahoo_nanotech_2003"
-Warning--I didn't find a database entry for "wickline_nanotechnology_2003"
-Warning--I didn't find a database entry for "zhou_nano-enabled_2014"
-Warning--I didn't find a database entry for "rosen_rise_2005"
-Warning--I didn't find a database entry for "vicent_polymer_2006"
-Warning--I didn't find a database entry for "patel_polymeric_2012"
-Warning--I didn't find a database entry for "beija_colloidal_2012"
-Warning--I didn't find a database entry for "cabral_progress_2014"
-Warning--I didn't find a database entry for "munro_pathogenesis_1988"
-Warning--I didn't find a database entry for "assmann_lipid-protein_1974"
-Warning--I didn't find a database entry for "havel_distribution_1955"
-Warning--I didn't find a database entry for "german_lipoproteins:_2006"
-Warning--I didn't find a database entry for "gardner_cd_association_1996"
-Warning--I didn't find a database entry for "dreon_low-density_1994"
-Warning--I didn't find a database entry for "colhoun_lipoprotein_2002"
-Warning--I didn't find a database entry for "stuhrmann_neutron_1975"
-Warning--I didn't find a database entry for "tardieu_structure_1976"
-Warning--I didn't find a database entry for "muller_structure_1978"
-Warning--I didn't find a database entry for "laggner_molecular_1977"
-Warning--I didn't find a database entry for "luzzati_structure_1979"
-Warning--I didn't find a database entry for "barenholz_doxil_2012"
-Warning--I didn't find a database entry for "perez-herrero_advanced_2015"
-Warning--I didn't find a database entry for "yeh_clinical_2011"
-Warning--I didn't find a database entry for "etheridge_big_2013"
-Warning--I didn't find a database entry for "khorasani_closing_2014"
-Warning--I didn't find a database entry for "venditto_cancer_2013"
-Warning--I didn't find a database entry for "nagle_theory_2008"
-Warning--I didn't find a database entry for "mathai_structural_2008"
-Warning--I didn't find a database entry for "olbrich_water_2000"
-Warning--I didn't find a database entry for "de_gier_osmotic_1993"
-Warning--I didn't find a database entry for "yamaoka_distribution_1994"
-Warning--I didn't find a database entry for "sou_polyethylene_2000"
-Warning--I didn't find a database entry for "barenholz_liposome_2001"
-Warning--I didn't find a database entry for "gabizon_polyethylene_1997"
-Warning--I didn't find a database entry for "harris_effect_2003"
-Warning--I didn't find a database entry for "lee_coarse-grained_2011"
-Warning--I didn't find a database entry for "liang_effect_2005"
-Warning--I didn't find a database entry for "spyratou_atomic_2009"
-Warning--I didn't find a database entry for "wolfram_shrinkage_2014"
-You've used 0 entries,
+Database file #1: thesis.bib
+Reallocated buffer (elt_size=1) to 40000 items from 20000.
+Reallocated sv_buffer (elt_size=1) to 40000 items from 20000.
+Reallocated ex_buf (elt_size=1) to 40000 items from 20000.
+Reallocated out_buf (elt_size=1) to 40000 items from 20000.
+Reallocated name_tok (elt_size=4) to 40000 items from 20000.
+Reallocated name_sep_char (elt_size=1) to 40000 items from 20000.
+Reallocated buffer (elt_size=1) to 60000 items from 40000.
+Reallocated sv_buffer (elt_size=1) to 60000 items from 40000.
+Reallocated ex_buf (elt_size=1) to 60000 items from 40000.
+Reallocated out_buf (elt_size=1) to 60000 items from 40000.
+Reallocated name_tok (elt_size=4) to 60000 items from 40000.
+Reallocated name_sep_char (elt_size=1) to 60000 items from 40000.
+Reallocated buffer (elt_size=1) to 80000 items from 60000.
+Reallocated sv_buffer (elt_size=1) to 80000 items from 60000.
+Reallocated ex_buf (elt_size=1) to 80000 items from 60000.
+Reallocated out_buf (elt_size=1) to 80000 items from 60000.
+Reallocated name_tok (elt_size=4) to 80000 items from 60000.
+Reallocated name_sep_char (elt_size=1) to 80000 items from 60000.
+Reallocated buffer (elt_size=1) to 100000 items from 80000.
+Reallocated sv_buffer (elt_size=1) to 100000 items from 80000.
+Reallocated ex_buf (elt_size=1) to 100000 items from 80000.
+Reallocated out_buf (elt_size=1) to 100000 items from 80000.
+Reallocated name_tok (elt_size=4) to 100000 items from 80000.
+Reallocated name_sep_char (elt_size=1) to 100000 items from 80000.
+`number' is a missing field, not a string, for entry dingenouts_analysis_1999
+while executing---line 3135 of file meinbst.bst
+You've used 92 entries,
             2851 wiz_defined-function locations,
-            721 strings with 6747 characters,
-and the built_in function-call counts, 23 in all, are:
-= -- 0
-> -- 0
-< -- 0
-+ -- 0
-- -- 0
-* -- 2
-:= -- 8
-add.period$ -- 0
-call.type$ -- 0
-change.case$ -- 0
-chr.to.int$ -- 0
-cite$ -- 0
-duplicate$ -- 0
-empty$ -- 1
-format.name$ -- 0
-if$ -- 1
-int.to.chr$ -- 1
+            1185 strings with 25350 characters,
+and the built_in function-call counts, 52080 in all, are:
+= -- 4928
+> -- 3092
+< -- 27
++ -- 1205
+- -- 1090
+* -- 5104
+:= -- 9419
+add.period$ -- 186
+call.type$ -- 92
+change.case$ -- 826
+chr.to.int$ -- 91
+cite$ -- 92
+duplicate$ -- 2023
+empty$ -- 3394
+format.name$ -- 1210
+if$ -- 10028
+int.to.chr$ -- 2
 int.to.str$ -- 1
-missing$ -- 0
-newline$ -- 4
-num.names$ -- 0
-pop$ -- 0
+missing$ -- 93
+newline$ -- 280
+num.names$ -- 370
+pop$ -- 653
 preamble$ -- 1
-purify$ -- 0
+purify$ -- 731
 quote$ -- 0
-skip$ -- 1
+skip$ -- 1149
 stack$ -- 0
-substring$ -- 0
-swap$ -- 0
-text.length$ -- 0
+substring$ -- 3234
+swap$ -- 462
+text.length$ -- 3
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 0
+type$ -- 825
 warning$ -- 0
-while$ -- 0
+while$ -- 453
 width$ -- 0
-write$ -- 3
+write$ -- 1016
 (There was 1 error message)
