@@ -1,14 +1,5 @@
-\begin{thebibliography}{92}
+\begin{thebibliography}{45}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
-
-\bibitem[Assmann \& Brewer(1974)]{assmann_lipid-protein_1974}
-{\sc Assmann, G. \& Brewer, H.~B.} 1974 Lipid-protein interactions in high
-  density lipoproteins. {\em Proceedings of the National Academy of Sciences\/}
-  {\bf 71}, 989--993.
-
-\bibitem[Ballauff(2001)]{ballauff_saxs_2001-1}
-{\sc Ballauff, M.} 2001 {{SAXS}} and {{SANS}} studies of polymer colloids. {\em
-  Curr. Opin. Colloid Interface Sci.\/} {\bf 6}, 132--139.
 
 \bibitem[Ballauff(2011)]{ballauff_analysis_2011}
 {\sc Ballauff, M.} 2011 Analysis of {{Polymer Colloids}} by {{Small}}-{{Angle
@@ -21,10 +12,6 @@
   1996 Small-angle {{X}}-ray scattering on latexes. {\em Macromol Chem Phys\/}
   {\bf 197}, 3043--3066.
 
-\bibitem[Barenholz(2001)]{barenholz_liposome_2001}
-{\sc Barenholz, Y.} 2001 Liposome application: Problems and prospects. {\em
-  Current Opinion in Colloid \& Interface Science\/} {\bf 6}, 66--77.
-
 \bibitem[Barenholz(2012)]{barenholz_doxil_2012}
 {\sc Barenholz, Y.~C.} 2012 {{Doxil}}\textregistered{} \textemdash{} {{The}}
   first {{FDA}}-approved nano-drug: {{Lessons}} learned. {\em Journal of
@@ -36,23 +23,10 @@
   Colloidal systems for drug delivery: From design to therapy. {\em Trends
   Biotechnol\/} {\bf 30}, 485--496.
 
-\bibitem[Bell {\em et~al.\/}(2012)Bell, Minelli, Tompkins, Stevens \&
-  Shard]{bell_emerging_2012}
-{\sc Bell, N.~C., Minelli, C., Tompkins, J., Stevens, M.~M. \& Shard, A.~G.}
-  2012 Emerging {{Techniques}} for {{Submicrometer Particle Sizing Applied}} to
-  {{St{\"o}ber Silica}}. {\em Langmuir\/} {\bf 28}, 10860--10872.
-
 \bibitem[Beyer {\em et~al.\/}(1990)Beyer, Lebek, Hergeth \&
   Schmutzler]{beyer_saxs_1990}
 {\sc Beyer, D., Lebek, W., Hergeth, W.-D. \& Schmutzler, K.} 1990 {{SAXS}}
   study of core-shell colloids. {\em Colloid Polym Sci\/} {\bf 268}, 744--748.
-
-\bibitem[Bolze {\em et~al.\/}(2003)Bolze, Ballauff, Kijlstra \&
-  Rudhardt]{bolze_application_2003}
-{\sc Bolze, J., Ballauff, M., Kijlstra, J. \& Rudhardt, D.} 2003 Application of
-  {{Small}}-{{Angle X}}-{{Ray Scattering}} as a {{Tool}} for the {{Structural
-  Analysis}} of {{Industrial Polymer Dispersions}}. {\em Macromol. Mater.
-  Eng.\/} {\bf 288}, 495--502.
 
 \bibitem[Bolze {\em et~al.\/}(2004)Bolze, Ballauff, Rische, Rudhardt \&
   Meixner]{bolze_situ_2004}
@@ -70,50 +44,6 @@
 \bibitem[Cabral \& Kataoka(2014)]{cabral_progress_2014}
 {\sc Cabral, H. \& Kataoka, K.} 2014 Progress of drug-loaded polymeric micelles
   into clinical studies. {\em J Control Release\/} {\bf 190}, 465--476.
-
-\bibitem[Caldwell {\em et~al.\/}(1986)Caldwell, Jones \&
-  Giddings]{caldwell_measurement_1986}
-{\sc Caldwell, K.~D., Jones, H.~K. \& Giddings, J.~C.} 1986 Measurement of the
-  size and density of colloidal particles by combining sedimentation field-flow
-  fractionation and quasi-elastic light scattering. {\em Colloid Surface\/}
-  {\bf 18}, 123--131.
-
-\bibitem[Carney {\em et~al.\/}(2011)Carney, Kim, Qian, Jin, Mehenni, Stellacci
-  \& Bakr]{carney_determination_2011}
-{\sc Carney, R.~P., Kim, J.~Y., Qian, H., Jin, R., Mehenni, H., Stellacci, F.
-  \& Bakr, O.~M.} 2011 Determination of nanoparticle size distribution together
-  with density or molecular weight by {{2D}} analytical ultracentrifugation.
-  {\em Nat Commun\/} {\bf 2}, 335.
-
-\bibitem[Casals {\em et~al.\/}(2010)Casals, Pfaller, Duschl, Oostingh \&
-  Puntes]{casals_time_2010}
-{\sc Casals, E., Pfaller, T., Duschl, A., Oostingh, G.~J. \& Puntes, V.} 2010
-  Time {{Evolution}} of the {{Nanoparticle Protein Corona}}. {\em ACS Nano\/}
-  {\bf 4}, 3623--3632.
-
-\bibitem[Cedervall {\em et~al.\/}(2007)Cedervall, Lynch, Lindman, Bergg\aa{}rd,
-  Thulin, Nilsson, Dawson \& Linse]{cedervall_understanding_2007}
-{\sc Cedervall, T., Lynch, I., Lindman, S., Bergg\aa{}rd, T., Thulin, E.,
-  Nilsson, H., Dawson, K.~A. \& Linse, S.} 2007 Understanding the
-  nanoparticle\textendash{}protein corona using methods to quantify exchange
-  rates and affinities of proteins for nanoparticles. {\em Proc Natl Acad Sci U
-  S A\/} {\bf 104}, 2050--2055.
-
-\bibitem[Colhoun {\em et~al.\/}(2002)Colhoun, Otvos, Rubens, Taskinen,
-  Underwood \& Fuller]{colhoun_lipoprotein_2002}
-{\sc Colhoun, H.~M., Otvos, J.~D., Rubens, M.~B., Taskinen, M.~R., Underwood,
-  S.~R. \& Fuller, J.~H.} 2002 Lipoprotein subclasses and particle sizes and
-  their relationship with coronary artery calcification in men and women with
-  and without type 1 diabetes. {\em Diabetes\/} {\bf 51}, 1949--1956.
-
-\bibitem[Coombs(1981)]{coombs_density-gradient_1981}
-{\sc Coombs, S.~H.} 1981 A density-gradient column for determining the specific
-  gravity of fish eggs, with particular reference to eggs of the mackerel
-  {{Scomber}} scombrus. {\em Mar. Biol.\/} {\bf 63}, 101--106.
-
-\bibitem[{de Gier}(1993)]{de_gier_osmotic_1993}
-{\sc {de Gier}, J.} 1993 Osmotic behaviour and permeability properties of
-  liposomes. {\em Chemistry and Physics of Lipids\/} {\bf 64}, 187--196.
 
 \bibitem[Dingenouts {\em et~al.\/}(1999)Dingenouts, Bolze, P{\"o}tschke \&
   Ballauff]{dingenouts_analysis_1999}
@@ -134,25 +64,12 @@
   Structure of carboxylated latices as revealed by small-angle {{X}}-ray
   scattering. {\em Macromolecules\/} {\bf 27}, 6133--6136.
 
-\bibitem[Dreon {\em et~al.\/}(1994)Dreon, Fernstrom, Miller \&
-  Krauss]{dreon_low-density_1994}
-{\sc Dreon, D.~M., Fernstrom, H.~A., Miller, B. \& Krauss, R.~M.} 1994
-  Low-density lipoprotein subclass patterns and lipoprotein response to a
-  reduced-fat diet in men. {\em FASEB J\/} {\bf 8}, 121--126.
-
 \bibitem[Egelhaaf {\em et~al.\/}(1996)Egelhaaf, Wehrli, Muller, Adrian \&
   Schurtenberger]{egelhaaf_determination_1996}
 {\sc Egelhaaf, S.~U., Wehrli, E., Muller, M., Adrian, M. \& Schurtenberger, P.}
   1996 Determination of the size distribution of lecithin liposomes: A
   comparative study using freeze fracture, cryoelectron microscopy and dynamic
   light scattering. {\em Journal of Microscopy\/} {\bf 184}, 214--228.
-
-\bibitem[Etheridge {\em et~al.\/}(2013)Etheridge, Campbell, Erdman, Haynes,
-  Wolf \& McCullough]{etheridge_big_2013}
-{\sc Etheridge, M.~L., Campbell, S.~A., Erdman, A.~G., Haynes, C.~L., Wolf,
-  S.~M. \& McCullough, J.} 2013 The big picture on nanomedicine: The state of
-  investigational and approved nanomedicine products. {\em Nanomedicine:
-  Nanotechnology, Biology and Medicine\/} {\bf 9}, 1--14.
 
 \bibitem[Euliss {\em et~al.\/}(2006)Euliss, DuPont, Gratton \&
   DeSimone]{euliss_imparting_2006}
@@ -167,43 +84,6 @@
   {{Particle Size Analysis}} of {{Core}}\textendash{}{{Shell Nanocomposite
   Particles Using Disk Centrifuge Photosedimentometry}}. {\em Langmuir\/} {\bf
   28}, 2536--2544.
-
-\bibitem[Gabizon \& Martin(1997)]{gabizon_polyethylene_1997}
-{\sc Gabizon, A. \& Martin, F.} 1997 Polyethylene glycol-coated (pegylated)
-  liposomal doxorubicin. {{Rationale}} for use in solid tumours. {\em Drugs\/}
-  {\bf 54 Suppl 4}, 15--21.
-
-\bibitem[Garcia-Diez {\em et~al.\/}(2015)Garcia-Diez, Gollwitzer \&
-  Krumrey]{garcia-diez_nanoparticle_2015}
-{\sc Garcia-Diez, R., Gollwitzer, C. \& Krumrey, M.} 2015 Nanoparticle
-  characterization by continuous contrast variation in small-angle {{X}}-ray
-  scattering with a solvent density gradient. {\em Journal of Applied
-  Crystallography\/} {\bf 48}, 20--28.
-
-\bibitem[{Gardner CD} {\em et~al.\/}(1996){Gardner CD}, {Fortmann SP} \&
-  {Krauss RM}]{gardner_cd_association_1996}
-{\sc {Gardner CD}, {Fortmann SP} \& {Krauss RM}} 1996 {{ASsociation}} of small
-  low-density lipoprotein particles with the incidence of coronary artery
-  disease in men and women. {\em JAMA\/} {\bf 276}, 875--881.
-
-\bibitem[German {\em et~al.\/}(2006)German, Smilowitz \&
-  Zivkovic]{german_lipoproteins:_2006}
-{\sc German, J.~B., Smilowitz, J.~T. \& Zivkovic, A.~M.} 2006 Lipoproteins:
-  {{When}} size really matters. {\em Curr Opin Colloid Interface Sci\/} {\bf
-  11}, 171--183.
-
-\bibitem[Gessner {\em et~al.\/}(2003)Gessner, Lieske, Paulke \&
-  M{\"u}ller]{gessner_functional_2003}
-{\sc Gessner, A., Lieske, A., Paulke, B.-R. \& M{\"u}ller, R.~H.} 2003
-  Functional groups on polystyrene model nanoparticles: {{Influence}} on
-  protein adsorption. {\em J. Biomed. Mater. Res.\/} {\bf 65A}, 319--326.
-
-\bibitem[Giddings {\em et~al.\/}(1981)Giddings, Karaiskakis \&
-  Caldwell]{giddings_density_1981}
-{\sc Giddings, J.~C., Karaiskakis, G. \& Caldwell, K.~D.} 1981 Density and
-  {{Particle Size}} of {{Colloidal Materials Measured}} by {{Carrier Density
-  Variations}} in {{Sedimentation}} of {{Field}}-{{Flow Fractionation}}. {\em
-  Separ Sci Technol\/} {\bf 16}.
 
 \bibitem[Grunder {\em et~al.\/}(1991)Grunder, Kim, Ballauff, Kranz \&
   M{\"u}ller]{grunder_analysis_1991}
@@ -228,20 +108,6 @@
 {\sc Hallett, F.~R., Watton, J. \& Krygsman, P.} 1991 Vesicle sizing. {\em
   Biophys J\/} {\bf 59}, 357--362.
 
-\bibitem[Harris \& Chess(2003)]{harris_effect_2003}
-{\sc Harris, J.~M. \& Chess, R.~B.} 2003 Effect of pegylation on
-  pharmaceuticals. {\em Nature Reviews Drug Discovery\/} {\bf 2}, 214--221.
-
-\bibitem[Havel {\em et~al.\/}(1955)Havel, Eder \&
-  Bragdon]{havel_distribution_1955}
-{\sc Havel, R.~J., Eder, H.~A. \& Bragdon, J.~H.} 1955 {{THE DISTRIBUTION AND
-  CHEMICAL COMPOSITION OF ULTRACENTRIFUGALLY SEPARATED LIPOPROTEINS IN HUMAN
-  SERUM}}. {\em J Clin Invest\/} {\bf 34}, 1345--1353.
-
-\bibitem[Hinton \& Dobrota(1978)]{hinton_density_1978}
-{\sc Hinton, R.~J. \& Dobrota, M.} 1978 {\em Density {{Gradient
-  Centrifugation}}\/}. Amsterdam: {Elsevier}.
-
 \bibitem[Hoo {\em et~al.\/}(2008)Hoo, Starostin, West \&
   Mecartney]{hoo_comparison_2008}
 {\sc Hoo, C.~M., Starostin, N., West, P. \& Mecartney, M.~L.} 2008 A comparison
@@ -263,17 +129,14 @@
   prepared under different polymerization conditions. {\em Macromolecules\/}
   {\bf 24}, 126--131.
 
-\bibitem[Kawaguchi(1993)]{kawaguchi_isoscattering_1993}
-{\sc Kawaguchi, T.} 1993 The isoscattering point in {{X}}-ray scattering curves
-  of globular solute particles measured by the contrast-variation method: The
-  influence of additive penetration into the solute particles. {\em J. Appl.
-  Cryst.\/} {\bf 26}, 214--218.
-
-\bibitem[Kawaguchi \& Hamanaka(1992)]{kawaguchi_isoscattering_1992}
-{\sc Kawaguchi, T. \& Hamanaka, T.} 1992 The isoscattering point in {{X}}-ray
-  scattering curves of globular solute particles measured by the
-  contrast-variation method. {\em Journal of Applied Crystallography\/} {\bf
-  25}, 778--784.
+\bibitem[Kattan {\em et~al.\/}(1992)Kattan, Droz, Couvreur, Marino,
+  Boutan-Laroze, Rougier, Brault, Vranckx, Grognet, Morge \&
+  Sancho-Garnier]{kattan_phase_1992}
+{\sc Kattan, J., Droz, J.-P., Couvreur, P., Marino, J.-P., Boutan-Laroze, A.,
+  Rougier, P., Brault, P., Vranckx, H., Grognet, J.-M., Morge, X. \&
+  Sancho-Garnier, H.} 1992 Phase {{I}} clinical trial and pharmacokinetic
+  evaluation of doxorubicin carried by polyisohexylcyanoacrylate nanoparticles.
+  {\em Invest. New Drugs\/} {\bf 10}, 191--199.
 
 \bibitem[Khorasani {\em et~al.\/}(2014)Khorasani, Weaver \&
   Salvador-Morales]{khorasani_closing_2014}
@@ -281,27 +144,6 @@
   gap: Accelerating the translational process in nanomedicine by proposing
   standardized characterization techniques. {\em Int J Nanomedicine\/} {\bf 9},
   5729--5751.
-
-\bibitem[Kiselev {\em et~al.\/}(2001)Kiselev, Lesieur, Kisselev, Lombardo,
-  Killany, Lesieur \& Ollivon]{kiselev_sucrose_2001-1}
-{\sc Kiselev, M.~A., Lesieur, P., Kisselev, A.~M., Lombardo, D., Killany, M.,
-  Lesieur, S. \& Ollivon, M.} 2001 A sucrose solutions application to the study
-  of model biological membranes. {\em Nuclear Instruments and Methods in
-  Physics Research Section A: Accelerators, Spectrometers, Detectors and
-  Associated Equipment\/} {\bf 470}, 409--416.
-
-\bibitem[Laggner {\em et~al.\/}(1977)Laggner, Degovics, M{\"u}ller, Glatter,
-  Kratky, Kostner \& Holasek]{laggner_molecular_1977}
-{\sc Laggner, P., Degovics, G., M{\"u}ller, K.~W., Glatter, O., Kratky, O.,
-  Kostner, G. \& Holasek, A.} 1977 Molecular packing and fluidity of lipids in
-  human serum low density lipoproteins. {\em Hoppe-Seyler's Z. Physiol.
-  Chem.\/} {\bf 358}, 771--778.
-
-\bibitem[Lee \& Pastor(2011)]{lee_coarse-grained_2011}
-{\sc Lee, H. \& Pastor, R.~W.} 2011 Coarse-{{Grained Model}} for {{PEGylated
-  Lipids}}: {{Effect}} of {{PEGylation}} on the {{Size}} and {{Shape}} of
-  {{Self}}-{{Assembled Structures}}. {\em J. Phys. Chem. B\/} {\bf 115},
-  7830--7837.
 
 \bibitem[Leonard~Jr {\em et~al.\/}(1952)Leonard~Jr, Anderegg, Kaesberg \&
   Beeman]{leonard_jr_size_1952}
@@ -316,31 +158,6 @@
   inside liposomes loaded via a {{pH}} gradient. {\em Biochimica et Biophysica
   Acta (BBA) - Biomembranes\/} {\bf 1415}, 23--40.
 
-\bibitem[Liang {\em et~al.\/}(2005)Liang, Mao \& Ng]{liang_effect_2005}
-{\sc Liang, X., Mao, G. \& Ng, K. Y.~S.} 2005 Effect of chain lengths of
-  {{PEO}}\textendash{}{{PPO}}\textendash{}{{PEO}} on small unilamellar liposome
-  morphology and stability: An {{AFM}} investigation. {\em Journal of Colloid
-  and Interface Science\/} {\bf 285}, 360--372.
-
-\bibitem[Lundqvist {\em et~al.\/}(2008)Lundqvist, Stigler, Elia, Lynch,
-  Cedervall \& Dawson]{lundqvist_nanoparticle_2008}
-{\sc Lundqvist, M., Stigler, J., Elia, G., Lynch, I., Cedervall, T. \& Dawson,
-  K.~A.} 2008 Nanoparticle size and surface properties determine the protein
-  corona with possible implications for biological impacts. {\em Proceedings of
-  the National Academy of Sciences\/} {\bf 105}, 14265--14270.
-
-\bibitem[Luzzati {\em et~al.\/}(1979)Luzzati, Tardieu \&
-  Aggerbeck]{luzzati_structure_1979}
-{\sc Luzzati, V., Tardieu, A. \& Aggerbeck, L.~P.} 1979 Structure of serum
-  low-density lipoprotein. {\em Journal of Molecular Biology\/} {\bf 131},
-  435--473.
-
-\bibitem[Mathai {\em et~al.\/}(2008)Mathai, Tristram-Nagle, Nagle \&
-  Zeidel]{mathai_structural_2008}
-{\sc Mathai, J.~C., Tristram-Nagle, S., Nagle, J.~F. \& Zeidel, M.~L.} 2008
-  Structural {{Determinants}} of {{Water Permeability}} through the {{Lipid
-  Membrane}}. {\em J Gen Physiol\/} {\bf 131}, 69--76.
-
 \bibitem[Meli {\em et~al.\/}(2012)Meli, Klein, Buhr, Frase, Gleber, Krumrey,
   Duta, Duta, Korpelainen, Bellotti, Picotto, Boyd \&
   Cuenat]{meli_traceable_2012}
@@ -350,36 +167,11 @@
   comparison among {{European}} metrology institutes. {\em Meas. Sci.
   Technol.\/} {\bf 23}, 125005.
 
-\bibitem[Minelli {\em et~al.\/}(2014)Minelli, Garcia-Diez, Sikora, Gollwitzer,
-  Krumrey \& Shard]{minelli_characterization_2014}
-{\sc Minelli, C., Garcia-Diez, R., Sikora, A.~E., Gollwitzer, C., Krumrey, M.
-  \& Shard, A.~G.} 2014 Characterization of {{IgG}}-protein-coated polymeric
-  nanoparticles using complementary particle sizing techniques. {\em Surf
-  Interface Anal\/} {\bf 46}, 663--667.
-
-\bibitem[Monopoli {\em et~al.\/}(2011)Monopoli, Walczyk, Campbell, Elia, Lynch,
-  Baldelli~Bombelli \& Dawson]{monopoli_physicalchemical_2011}
-{\sc Monopoli, M.~P., Walczyk, D., Campbell, A., Elia, G., Lynch, I.,
-  Baldelli~Bombelli, F. \& Dawson, K.~A.} 2011 {{Physical}}-{{Chemical
-  Aspects}} of {{Protein Corona}}: {{Relevance}} to in {{Vitro}} and in {{Vivo
-  Biological Impacts}} of {{Nanoparticles}}. {\em J. Am. Chem. Soc.\/} {\bf
-  133}, 2525--2534.
-
 \bibitem[Motzkus(1959)]{motzkus_untersuchung_1959}
 {\sc Motzkus, F.} 1959 Untersuchung kolloider {{Systeme}} auf
   {{Partikelgr{\"o}sse}} und {{Polydisperit{\"a}t}} mit {{Hilfe}} der
   {{R{\"o}ntgenkleinwinkelstreuung}}. {\em Acta Crystallogr\/} {\bf 12},
   773--786.
-
-\bibitem[M{\"u}ller {\em et~al.\/}(1978)M{\"u}ller, Laggner, Glatter \&
-  Kostner]{muller_structure_1978}
-{\sc M{\"u}ller, K., Laggner, P., Glatter, O. \& Kostner, G.} 1978 The
-  {{Structure}} of {{Human}}-{{Plasma Low}}-{{Density Lipoprotein B}}. {\em
-  European Journal of Biochemistry\/} {\bf 82}, 73--90.
-
-\bibitem[Munro \& Cotran(1988)]{munro_pathogenesis_1988}
-{\sc Munro, J.~M. \& Cotran, R.~S.} 1988 The pathogenesis of atherosclerosis:
-  Atherogenesis and inflammation. {\em Lab. Invest.\/} {\bf 58}, 249--261.
 
 \bibitem[Murphy(1997)]{murphy_static_1997}
 {\sc Murphy, R.~M.} 1997 Static and dynamic light scattering of biological
@@ -399,30 +191,11 @@
   application of distance distribution functions to structural analysis of
   core-shell particles. {\em J Appl Crystallogr\/} {\bf 40}, s506--s511.
 
-\bibitem[Nagle {\em et~al.\/}(2008)Nagle, Mathai, Zeidel \&
-  Tristram-Nagle]{nagle_theory_2008}
-{\sc Nagle, J.~F., Mathai, J.~C., Zeidel, M.~L. \& Tristram-Nagle, S.} 2008
-  Theory of {{Passive Permeability}} through {{Lipid Bilayers}}. {\em J Gen
-  Physiol\/} {\bf 131}, 77--85.
-
-\bibitem[Neumann {\em et~al.\/}(2013)Neumann, Hoyer, Wolff, Reichl, Pfitzner \&
-  Roth]{neumann_new_2013}
-{\sc Neumann, A., Hoyer, W., Wolff, M.~W., Reichl, U., Pfitzner, A. \& Roth,
-  B.} 2013 New method for density determination of nanoparticles using a
-  {{CPS}} disc centrifuge\texttrademark{}. {\em Colloid Surface B\/} {\bf 104},
-  27--31.
-
 \bibitem[Nie {\em et~al.\/}(2007)Nie, Xing, Kim \&
   Simons]{nie_nanotechnology_2007}
 {\sc Nie, S., Xing, Y., Kim, G.~J. \& Simons, J.~W.} 2007 Nanotechnology
   {{Applications}} in {{Cancer}}. {\em Annual Review of Biomedical
   Engineering\/} {\bf 9}, 257--288.
-
-\bibitem[Olbrich {\em et~al.\/}(2000)Olbrich, Rawicz, Needham \&
-  Evans]{olbrich_water_2000}
-{\sc Olbrich, K., Rawicz, W., Needham, D. \& Evans, E.} 2000 Water
-  {{Permeability}} and {{Mechanical Strength}} of {{Polyunsaturated Lipid
-  Bilayers}}. {\em Biophysical Journal\/} {\bf 79}, 321--327.
 
 \bibitem[Ottewill {\em et~al.\/}(1995)Ottewill, Cole \&
   Waters]{ottewill_characterization_1995}
@@ -456,27 +229,6 @@
   polyacrylate/polystyrene two-stage latices. {\em Polymer\/} {\bf 30},
   416--424.
 
-\bibitem[Sou {\em et~al.\/}(2000)Sou, Endo, Takeoka \&
-  Tsuchida]{sou_polyethylene_2000}
-{\sc Sou, K., Endo, T., Takeoka, S. \& Tsuchida, E.} 2000 Poly(ethylene
-  glycol)-{{Modification}} of the {{Phospholipid Vesicles}} by {{Using}} the
-  {{Spontaneous Incorporation}} of {{Poly}}(ethylene glycol)-{{Lipid}} into the
-  {{Vesicles}}. {\em Bioconjugate Chem.\/} {\bf 11}, 372--379.
-
-\bibitem[Spyratou {\em et~al.\/}(2009)Spyratou, Mourelatou, Makropoulou \&
-  Demetzos]{spyratou_atomic_2009}
-{\sc Spyratou, E., Mourelatou, E.~A., Makropoulou, M. \& Demetzos, C.} 2009
-  Atomic force microscopy: A tool to study the structure, dynamics and
-  stability of liposomal drug delivery systems. {\em Expert Opinion on Drug
-  Delivery\/} {\bf 6}, 305--317.
-
-\bibitem[Stuhrmann {\em et~al.\/}(1975)Stuhrmann, Tardieu, Mateu, Sardet,
-  Luzzati, Aggerbeck \& Scanu]{stuhrmann_neutron_1975}
-{\sc Stuhrmann, H.~B., Tardieu, A., Mateu, L., Sardet, C., Luzzati, V.,
-  Aggerbeck, L. \& Scanu, A.~M.} 1975 Neutron scattering study of human serum
-  low density lipoprotein. {\em Proc Natl Acad Sci U S A\/} {\bf 72},
-  2270--2273.
-
 \bibitem[Takahashi {\em et~al.\/}(2008)Takahashi, Kato, Saito, Matsuyama \&
   Kinugasa]{takahashi_precise_2008}
 {\sc Takahashi, K., Kato, H., Saito, T., Matsuyama, S. \& Kinugasa, S.} 2008
@@ -490,29 +242,16 @@
   Shape-specific polymeric nanomedicine: Emerging opportunities and challenges.
   {\em Exp Biol Med\/} {\bf 236}, 20--29.
 
-\bibitem[Tardieu {\em et~al.\/}(1976)Tardieu, Mateu, Sardet, Weiss, Luzzati,
-  Aggerbeck \& Scanu]{tardieu_structure_1976}
-{\sc Tardieu, A., Mateu, L., Sardet, C., Weiss, B., Luzzati, V., Aggerbeck, L.
-  \& Scanu, A.~M.} 1976 Structure of human serum lipoproteins in solution. {\em
-  Journal of Molecular Biology\/} {\bf 101}, 129--153.
-
-\bibitem[Tenzer {\em et~al.\/}(2013)Tenzer, Docter, Kuharev, Musyanovych, Fetz,
-  Hecht, Schlenk, Fischer, Kiouptsi, Reinhardt, Landfester, Schild, Maskos,
-  Knauer \& Stauber]{tenzer_rapid_2013}
-{\sc Tenzer, S., Docter, D., Kuharev, J., Musyanovych, A., Fetz, V., Hecht, R.,
-  Schlenk, F., Fischer, D., Kiouptsi, K., Reinhardt, C., Landfester, K.,
-  Schild, H., Maskos, M., Knauer, S.~K. \& Stauber, R.~H.} 2013 Rapid formation
-  of plasma protein corona critically affects nanoparticle pathophysiology.
-  {\em Nat Nano\/} {\bf 8}, 772--781.
-
-\bibitem[Venditto \& Szoka~Jr.(2013)]{venditto_cancer_2013}
-{\sc Venditto, V.~J. \& Szoka~Jr., F.~C.} 2013 Cancer nanomedicines: {{So}}
-  many papers and so few drugs! {\em Advanced Drug Delivery Reviews\/} {\bf
-  65}, 80--88.
-
 \bibitem[Vicent \& Duncan(2006)]{vicent_polymer_2006}
 {\sc Vicent, M.~J. \& Duncan, R.} 2006 Polymer conjugates: Nanosized medicines
   for treating cancer. {\em Trends Biotechnol\/} {\bf 24}, 39--47.
+
+\bibitem[Vittaz {\em et~al.\/}(1996)Vittaz, Bazile, Spenlehauer, Verrecchia,
+  Veillard, Puisieux \& Labarre]{vittaz_effect_1996}
+{\sc Vittaz, M., Bazile, D., Spenlehauer, G., Verrecchia, T., Veillard, M.,
+  Puisieux, F. \& Labarre, D.} 1996 Effect of {{PEO}} surface density on
+  long-circulating {{PLA}}-{{PEO}} nanoparticles which are very low complement
+  activators. {\em Biomaterials\/} {\bf 17}, 1575--1581.
 
 \bibitem[Wang {\em et~al.\/}(2012)Wang, Langer \&
   Farokhzad]{wang_nanoparticle_2012}
@@ -524,38 +263,11 @@
   Imaging}} and {{Targeted Therapy}}. {\em Circulation\/} {\bf 107},
   1092--1095.
 
-\bibitem[Wolfram {\em et~al.\/}(2014)Wolfram, Suri, Yang, Shen, Celia, Fresta,
-  Zhao, Shen \& Ferrari]{wolfram_shrinkage_2014}
-{\sc Wolfram, J., Suri, K., Yang, Y., Shen, J., Celia, C., Fresta, M., Zhao,
-  Y., Shen, H. \& Ferrari, M.} 2014 Shrinkage of pegylated and non-pegylated
-  liposomes in serum. {\em Colloids and Surfaces B: Biointerfaces\/} {\bf 114},
-  294--300.
-
-\bibitem[Yamaoka {\em et~al.\/}(1994)Yamaoka, Tabata \&
-  Ikada]{yamaoka_distribution_1994}
-{\sc Yamaoka, T., Tabata, Y. \& Ikada, Y.} 1994 Distribution and tissue uptake
-  of poly(ethylene glycol) with different molecular weights after intravenous
-  administration to mice. {\em Journal of pharmaceutical sciences\/} {\bf 83},
-  601--606.
-
-\bibitem[Yang {\em et~al.\/}(1983)Yang, Caldwell \&
-  Giddings]{yang_colloid_1983}
-{\sc Yang, F.-S., Caldwell, K.~D. \& Giddings, J.~C.} 1983 Colloid
-  characterization by sedimentation field-flow fractionation: {{II}}.
-  {{Particle}}-size distribution. {\em J Colloid Interf Sci\/} {\bf 92},
-  81--91.
-
 \bibitem[Yang {\em et~al.\/}(2005)Yang, Huck, Clarke, Tajbakhsh \&
   Terentjev]{yang_shape-memory_2005}
 {\sc Yang, Z., Huck, W. T.~S., Clarke, S.~M., Tajbakhsh, A.~R. \& Terentjev,
   E.~M.} 2005 Shape-memory nanoparticles from inherently non-spherical polymer
   colloids. {\em Nat Mater\/} {\bf 4}, 486--490.
-
-\bibitem[Yeh {\em et~al.\/}(2011)Yeh, {Hsin-I Chang} \& {Ming-Yen
-  Cheng}]{yeh_clinical_2011}
-{\sc Yeh, M.-K., {Hsin-I Chang} \& {Ming-Yen Cheng}} 2011 Clinical development
-  of liposome based drugs: Formulation, characterization, and therapeutic
-  efficacy. {\em International Journal of Nanomedicine\/} p.~49.
 
 \bibitem[Zhou {\em et~al.\/}(2014)Zhou, Porter, Robinson, Shim \&
   Guo]{zhou_nano-enabled_2014}

@@ -30,45 +30,45 @@ Reallocated name_tok (elt_size=4) to 100000 items from 80000.
 Reallocated name_sep_char (elt_size=1) to 100000 items from 80000.
 `number' is a missing field, not a string, for entry dingenouts_analysis_1999
 while executing---line 3135 of file meinbst.bst
-You've used 92 entries,
+You've used 45 entries,
             2851 wiz_defined-function locations,
-            1185 strings with 25350 characters,
-and the built_in function-call counts, 52080 in all, are:
-= -- 4928
-> -- 3092
-< -- 27
-+ -- 1205
-- -- 1090
-* -- 5104
-:= -- 9419
-add.period$ -- 186
-call.type$ -- 92
-change.case$ -- 826
-chr.to.int$ -- 91
-cite$ -- 92
-duplicate$ -- 2023
-empty$ -- 3394
-format.name$ -- 1210
-if$ -- 10028
+            911 strings with 14745 characters,
+and the built_in function-call counts, 25707 in all, are:
+= -- 2436
+> -- 1510
+< -- 13
++ -- 586
+- -- 532
+* -- 2522
+:= -- 4629
+add.period$ -- 92
+call.type$ -- 45
+change.case$ -- 406
+chr.to.int$ -- 44
+cite$ -- 45
+duplicate$ -- 1001
+empty$ -- 1688
+format.name$ -- 589
+if$ -- 4964
 int.to.chr$ -- 2
 int.to.str$ -- 1
-missing$ -- 93
-newline$ -- 280
-num.names$ -- 370
-pop$ -- 653
+missing$ -- 45
+newline$ -- 139
+num.names$ -- 182
+pop$ -- 318
 preamble$ -- 1
-purify$ -- 731
+purify$ -- 357
 quote$ -- 0
-skip$ -- 1149
+skip$ -- 574
 stack$ -- 0
-substring$ -- 3234
-swap$ -- 462
-text.length$ -- 3
+substring$ -- 1618
+swap$ -- 237
+text.length$ -- 2
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 825
+type$ -- 405
 warning$ -- 0
-while$ -- 453
+while$ -- 224
 width$ -- 0
-write$ -- 1016
+write$ -- 500
 (There was 1 error message)
