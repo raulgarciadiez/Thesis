@@ -1,74 +1,62 @@
-This is BibTeX, Version 0.99d (TeX Live 2013)
+This is BibTeX, Version 0.99d (TeX Live 2013/TeX Live for SUSE Linux)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: main.aux
 The style file: meinbst.bst
 A level-1 auxiliary file: chapter_introduction.aux
+A level-1 auxiliary file: chapter_theory_SAXS.aux
+A level-1 auxiliary file: chapter_experimental_setup.aux
+A level-1 auxiliary file: chapter_density_gradient_SAXS.aux
+A level-1 auxiliary file: chapter_simultaneous_size_density.aux
+A level-1 auxiliary file: chapter_bio_applications.aux
+A level-1 auxiliary file: chapter_conclusions.aux
 Database file #1: thesis.bib
-Reallocated buffer (elt_size=1) to 40000 items from 20000.
-Reallocated sv_buffer (elt_size=1) to 40000 items from 20000.
-Reallocated ex_buf (elt_size=1) to 40000 items from 20000.
-Reallocated out_buf (elt_size=1) to 40000 items from 20000.
-Reallocated name_tok (elt_size=4) to 40000 items from 20000.
-Reallocated name_sep_char (elt_size=1) to 40000 items from 20000.
-Reallocated buffer (elt_size=1) to 60000 items from 40000.
-Reallocated sv_buffer (elt_size=1) to 60000 items from 40000.
-Reallocated ex_buf (elt_size=1) to 60000 items from 40000.
-Reallocated out_buf (elt_size=1) to 60000 items from 40000.
-Reallocated name_tok (elt_size=4) to 60000 items from 40000.
-Reallocated name_sep_char (elt_size=1) to 60000 items from 40000.
-Reallocated buffer (elt_size=1) to 80000 items from 60000.
-Reallocated sv_buffer (elt_size=1) to 80000 items from 60000.
-Reallocated ex_buf (elt_size=1) to 80000 items from 60000.
-Reallocated out_buf (elt_size=1) to 80000 items from 60000.
-Reallocated name_tok (elt_size=4) to 80000 items from 60000.
-Reallocated name_sep_char (elt_size=1) to 80000 items from 60000.
-Reallocated buffer (elt_size=1) to 100000 items from 80000.
-Reallocated sv_buffer (elt_size=1) to 100000 items from 80000.
-Reallocated ex_buf (elt_size=1) to 100000 items from 80000.
-Reallocated out_buf (elt_size=1) to 100000 items from 80000.
-Reallocated name_tok (elt_size=4) to 100000 items from 80000.
-Reallocated name_sep_char (elt_size=1) to 100000 items from 80000.
+Warning--entry type for "fitzpatrick_structure_1998" isn't style-file defined
+--line 2410 of file thesis.bib
 `number' is a missing field, not a string, for entry dingenouts_analysis_1999
 while executing---line 3135 of file meinbst.bst
-You've used 45 entries,
+Warning--can't use both author and editor fields in feigin_structure_1987
+Warning--empty publisher in kramers_diffusion_1927
+`number' is a missing field, not a string, for entry stuhrmann_resonance_1985
+while executing---line 3135 of file meinbst.bst
+You've used 203 entries,
             2851 wiz_defined-function locations,
-            911 strings with 14745 characters,
-and the built_in function-call counts, 25707 in all, are:
-= -- 2436
-> -- 1510
-< -- 13
-+ -- 586
-- -- 532
-* -- 2522
-:= -- 4629
-add.period$ -- 92
-call.type$ -- 45
-change.case$ -- 406
-chr.to.int$ -- 44
-cite$ -- 45
-duplicate$ -- 1001
-empty$ -- 1688
-format.name$ -- 589
-if$ -- 4964
-int.to.chr$ -- 2
+            1756 strings with 48662 characters,
+and the built_in function-call counts, 110810 in all, are:
+= -- 10518
+> -- 6341
+< -- 92
++ -- 2468
+- -- 2223
+* -- 10658
+:= -- 20063
+add.period$ -- 408
+call.type$ -- 203
+change.case$ -- 1759
+chr.to.int$ -- 209
+cite$ -- 205
+duplicate$ -- 4411
+empty$ -- 7386
+format.name$ -- 2508
+if$ -- 21442
+int.to.chr$ -- 7
 int.to.str$ -- 1
-missing$ -- 45
-newline$ -- 139
-num.names$ -- 182
-pop$ -- 318
+missing$ -- 211
+newline$ -- 613
+num.names$ -- 816
+pop$ -- 1412
 preamble$ -- 1
-purify$ -- 357
+purify$ -- 1552
 quote$ -- 0
-skip$ -- 574
+skip$ -- 2544
 stack$ -- 0
-substring$ -- 1618
-swap$ -- 237
-text.length$ -- 2
+substring$ -- 6756
+swap$ -- 995
+text.length$ -- 8
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 405
-warning$ -- 0
-while$ -- 224
+type$ -- 1797
+warning$ -- 2
+while$ -- 971
 width$ -- 0
-write$ -- 500
-(There was 1 error message)
+write$ -- 2230
+(There were 2 error messages)
