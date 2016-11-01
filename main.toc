@@ -1,23 +1,86 @@
 \select@language {UKenglish}
 \select@language {UKenglish}
-\select@language {ngerman}
 \select@language {UKenglish}
-\select@language {UKenglish}
-\contentsline {chapter}{\numberline {1}Introduction: Nanoparticles in medicine and biology}{1}{chapter.1}
-\contentsline {section}{\numberline {1.1}What are nanoparticles?}{2}{section.1.1}
-\contentsline {section}{\numberline {1.2}Nanoparticles in general are used in nanomedicine (principally) and cosmetics}{2}{section.1.2}
-\contentsline {section}{\numberline {1.3}Characterization: Why size (size distribution, density) is important?}{2}{section.1.3}
-\contentsline {section}{\numberline {1.4}Dimensional nanometrology and traceability}{3}{section.1.4}
-\contentsline {section}{\numberline {1.5}SAXS is a good tool: small internal electron density differences}{3}{section.1.5}
-\contentsline {section}{\numberline {1.6}advantadges to other characterization tools}{4}{section.1.6}
-\contentsline {section}{\numberline {1.7}contrast variation is even better, but takes too long and extra uncertainties arise}{5}{section.1.7}
-\contentsline {section}{\numberline {1.8}density gradient technique: tunable and large datasets}{6}{section.1.8}
-\contentsline {section}{\numberline {1.9}polymeric particles: why important?}{7}{section.1.9}
-\contentsline {section}{\numberline {1.10}polymeric: extensively used in SAXS and contrast variation, also SANS because deuteration}{7}{section.1.10}
-\contentsline {section}{\numberline {1.11}polymeric: good application because of phase separation in polymerization}{8}{section.1.11}
-\contentsline {section}{\numberline {1.12}bio materials: important why?}{8}{section.1.12}
-\contentsline {section}{\numberline {1.13}liposomal nanocarriers: what are they and why important? How are they characterized?}{8}{section.1.13}
-\contentsline {section}{\numberline {1.14}liposomes: SAXS characterization, literature}{9}{section.1.14}
-\contentsline {section}{\numberline {1.15}liposomes: effects of PEG, cholesterol content, long discussion}{10}{section.1.15}
-\contentsline {section}{\numberline {1.16}liposomal nanocarrier: SAXS characterization, literature, micellesm other bio-drugs}{10}{section.1.16}
-\contentsline {section}{\numberline {1.17}structure of the thesis}{10}{section.1.17}
+\contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}
+\contentsline {chapter}{\numberline {2}Theoretical Background}{7}{chapter.2}
+\contentsline {section}{\numberline {2.1}Interaction of X-rays and matter}{7}{section.2.1}
+\contentsline {subsection}{\numberline {2.1.1}Beer-Lambert law}{8}{subsection.2.1.1}
+\contentsline {subsection}{\numberline {2.1.2}Elastic scattering}{10}{subsection.2.1.2}
+\contentsline {subsubsection}{Thomson scattering}{10}{subsubsection*.6}
+\contentsline {subsubsection}{Scattering by an ensemble of electrons}{11}{subsubsection*.7}
+\contentsline {subsubsection}{Anomalous scattering}{12}{subsubsection*.9}
+\contentsline {section}{\numberline {2.2}Small-angle X-ray scattering}{13}{section.2.2}
+\contentsline {subsection}{\numberline {2.2.1}Scattering by an ensemble of particles}{13}{subsection.2.2.1}
+\contentsline {subsection}{\numberline {2.2.2}What is measured in a scattering experiment?: The scattering curve}{14}{subsection.2.2.2}
+\contentsline {subsection}{\numberline {2.2.3}Modelling of the scattering intensity: Form factors}{15}{subsection.2.2.3}
+\contentsline {section}{\numberline {2.3}Contrast variation}{16}{section.2.3}
+\contentsline {subsection}{\numberline {2.3.1}Isoscattering point}{17}{subsection.2.3.1}
+\contentsline {subsection}{\numberline {2.3.2}Basic functions approach}{17}{subsection.2.3.2}
+\contentsline {subsubsection}{Shape factor}{18}{subsubsection*.11}
+\contentsline {subsubsection}{Guinier approximation}{18}{subsubsection*.12}
+\contentsline {chapter}{\numberline {3}Instrumentation and experimental setup for SAXS measurements}{21}{chapter.3}
+\contentsline {section}{\numberline {3.1}Synchrotron radiation}{21}{section.3.1}
+\contentsline {subsection}{\numberline {3.1.1}Insertion devices}{22}{subsection.3.1.1}
+\contentsline {section}{\numberline {3.2}The BESSY II electron storage sing}{23}{section.3.2}
+\contentsline {section}{\numberline {3.3}FCM beamline}{24}{section.3.3}
+\contentsline {subsection}{\numberline {3.3.1}UHV X-ray Reflectometer}{25}{subsection.3.3.1}
+\contentsline {section}{\numberline {3.4}SAXS Setup}{26}{section.3.4}
+\contentsline {subsection}{\numberline {3.4.1}X-ray area detector}{26}{subsection.3.4.1}
+\contentsline {subsection}{\numberline {3.4.2}HZB SAXS instrument and WAXS configuration}{26}{subsection.3.4.2}
+\contentsline {subsubsection}{Calibration of the sample-detector distance}{27}{subsubsection*.17}
+\contentsline {section}{\numberline {3.5}Sample environment}{28}{section.3.5}
+\contentsline {subsection}{\numberline {3.5.1}Round capillaries}{29}{subsection.3.5.1}
+\contentsline {subsection}{\numberline {3.5.2}Rectangular capillaries}{29}{subsection.3.5.2}
+\contentsline {subsection}{\numberline {3.5.3}Cell for low-energies}{30}{subsection.3.5.3}
+\contentsline {section}{\numberline {3.6}Data reduction: The scattering curve}{31}{section.3.6}
+\contentsline {chapter}{\numberline {4}Continuous contrast variation in SAXS: the density gradient technique}{33}{chapter.4}
+\contentsline {section}{\numberline {4.1}Experimental proceeding}{34}{section.4.1}
+\contentsline {subsection}{\numberline {4.1.1}Preparation of the density gradient capillaries}{34}{subsection.4.1.1}
+\contentsline {subsection}{\numberline {4.1.2}Calibration of the solvent density: X-ray transmission}{35}{subsection.4.1.2}
+\contentsline {subsection}{\numberline {4.1.3}SAXS measurements}{37}{subsection.4.1.3}
+\contentsline {section}{\numberline {4.2}Proof of principle: Application to PS-COOH colloids}{38}{section.4.2}
+\contentsline {section}{\numberline {4.3}Results and data evaluation}{40}{section.4.3}
+\contentsline {subsection}{\numberline {4.3.1}Core-shell form factor fit}{40}{subsection.4.3.1}
+\contentsline {subsection}{\numberline {4.3.2}Isoscattering point}{41}{subsection.4.3.2}
+\contentsline {subsection}{\numberline {4.3.3}Guinier region}{42}{subsection.4.3.3}
+\contentsline {subsubsection}{Average electron density}{44}{subsubsection*.31}
+\contentsline {subsection}{\numberline {4.3.4}Consistency of the results}{45}{subsection.4.3.4}
+\contentsline {section}{\numberline {4.4}Summary and outlook}{45}{section.4.4}
+\contentsline {subsubsection}{Applicability of the technique and comparison with other contrast variation approaches}{46}{subsubsection*.34}
+\contentsline {subsubsection}{Other applications of the density gradient capillary}{47}{subsubsection*.35}
+\contentsline {chapter}{\numberline {5}Simultaneous size and density determination of polymeric colloids}{49}{chapter.5}
+\contentsline {section}{\numberline {5.1}Materials and methods}{50}{section.5.1}
+\contentsline {subsection}{\numberline {5.1.1}Polymeric particles}{50}{subsection.5.1.1}
+\contentsline {subsection}{\numberline {5.1.2}Differential Centrifuge Sedimentation (DCS)}{51}{subsection.5.1.2}
+\contentsline {section}{\numberline {5.2}Determination of the particle size distribution}{52}{section.5.2}
+\contentsline {subsection}{\numberline {5.2.1}Inter-laboratory comparison of the mean particle diameter}{54}{subsection.5.2.1}
+\contentsline {subsection}{\numberline {5.2.2}Particle size distribution of PS-Plain}{56}{subsection.5.2.2}
+\contentsline {section}{\numberline {5.3}Considerations about scattering data evaluation}{57}{section.5.3}
+\contentsline {subsection}{\numberline {5.3.1}Shape factor formalism}{57}{subsection.5.3.1}
+\contentsline {subsection}{\numberline {5.3.2}Isoscattering point approach}{58}{subsection.5.3.2}
+\contentsline {section}{\numberline {5.4}Determination of the particle mass density}{60}{section.5.4}
+\contentsline {subsection}{\numberline {5.4.1}Mass density of PS-Plain: Validation with DCS}{61}{subsection.5.4.1}
+\contentsline {subsection}{\numberline {5.4.2}Density determination of heavier polymeric colloids}{62}{subsection.5.4.2}
+\contentsline {section}{\numberline {5.5}Summary}{62}{section.5.5}
+\contentsline {chapter}{\numberline {6}Continuous contrast variation applied to relevant bio-materials}{65}{chapter.6}
+\contentsline {section}{\numberline {6.1}Materials}{66}{section.6.1}
+\contentsline {subsubsection}{Caelyx\textregistered : PEGylated liposomal doxorubicin}{66}{subsubsection*.49}
+\contentsline {subsubsection}{Lipid vesicles: PEGylated and plain liposomes}{67}{subsubsection*.51}
+\contentsline {subsubsection}{Human lipoproteins}{67}{subsubsection*.52}
+\contentsline {subsubsection}{\leavevmode {\color {red}PS-COOH particles coated with IgG}}{67}{subsubsection*.53}
+\contentsline {section}{\numberline {6.2}Traceable size determination of a liposomal drug}{67}{section.6.2}
+\contentsline {subsection}{\numberline {6.2.1}Isoscattering point approach}{69}{subsection.6.2.1}
+\contentsline {subsection}{\numberline {6.2.2}Shape factor calculation}{69}{subsection.6.2.2}
+\contentsline {subsection}{\numberline {6.2.3}Average electron density}{70}{subsection.6.2.3}
+\contentsline {section}{\numberline {6.3}Osmotic effects in liposomes}{71}{section.6.3}
+\contentsline {subsection}{\numberline {6.3.1}Application to drug-stabilized liposomes}{72}{subsection.6.3.1}
+\contentsline {subsection}{\numberline {6.3.2}Does PEGylation affect the osmotic activity of liposomes?}{74}{subsection.6.3.2}
+\contentsline {section}{\numberline {6.4}Sizing of blood plasma componenents}{81}{section.6.4}
+\contentsline {section}{\numberline {6.5}\leavevmode {\color {red}Protein-coated low-density nanoparticles}}{84}{section.6.5}
+\contentsline {subsection}{\numberline {6.5.1}\leavevmode {\color {red}Hard protein corona characterization with contrast variation}}{86}{subsection.6.5.1}
+\contentsline {subsubsection}{Uncertainty analysis}{86}{subsubsection*.72}
+\contentsline {section}{\numberline {6.6}Summary}{87}{section.6.6}
+\contentsline {chapter}{\numberline {7}Summary and outlook}{89}{chapter.7}
+\contentsline {section}{\numberline {7.1}chap4}{89}{section.7.1}
+\contentsline {section}{\numberline {7.2}chap5}{90}{section.7.2}
+\contentsline {section}{\numberline {7.3}chap6}{91}{section.7.3}
