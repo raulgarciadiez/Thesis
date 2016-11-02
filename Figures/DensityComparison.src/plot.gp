@@ -18,6 +18,8 @@ set bmargin at screen bm + 0.12
 set tmargin at screen bm + size * (abs(y2-y1) / (abs(y2-y1) + abs(y4-y3) ) )
 set yrange[y1:y2]
 
+set ylabel 'Density / g cm$^{-3}$' offset 1, 3
+
 set grid
 set xrange[-0.7:4.3]
 set xtic rotate by -45
@@ -41,7 +43,7 @@ p f(x) lt 1 lw 10 lc rgb 'grey' notitle,  g(x) lt 1 lw 10 lc rgb 'cyan' notitle,
 
 set label 'PS-Plain'  at -0.11,1.162 tc rgb 'blue'
 set label 'PS-COOH'   at 1.8,1.164 tc rgb 'blue'
-set label 'PMMA-COOH' at 3.,1.188 tc rgb 'blue'
+set label 'PMMA-COOH' at 2.6,1.188 tc rgb 'blue'
 
 unset xtics
 unset xlabel

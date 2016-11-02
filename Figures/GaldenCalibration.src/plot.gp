@@ -12,13 +12,13 @@ print luft, wasser
 
 set log y
 
-set key at 3,0.15
+set key at 3.2,0.19
 
 set yrange [0.065:0.22]
 set xrange [-5:10]
 
 set xlabel "Vertical position / mm"
-set ylabel "Transmission"
+set ylabel "Transmission" offset 2
 
 set ytics (0.07, 0.1, 0.15, 0.2)
 

@@ -1,9 +1,9 @@
 \chapter{Instrumentation and experimental setup for SAXS measurements}
 \label{chap:experimental_setup}
 
-Since the appearance of third generation facilities optimized for brightness, synchrotron radiation sources have become of importance in Small-angle X-ray Scattering experiments due to their high brilliance and collimation, favoring the application of SAXS in a wide variety of scientific fields. The most relevant instrumentation required in a small-angle X-ray scattering experiment are the X-ray source, a sample environment and an area detector which collects the elastic scattered photons. 
+Since the appearance of third generation facilities devoted to dedicated insertion devices and optimized for brightness, synchrotron radiation sources have become of importance in Small-angle X-ray Scattering experiments due to their high brilliance and collimation, favoring the application of SAXS in a wide variety of scientific fields. The most relevant instrumentation required in a small-angle X-ray scattering experiment are the X-ray source, a sample environment and an area detector which collects the elastically scattered photons. 
 
-The first part of this chapter (section \ref{sec:BESSY}) describes the synchrotron radiation source, the electron storage ring BESSY II. After this short review on synchrotron radiation, the four-crystal monochromator (FCM) beamline operated in the PTB laboratory at BESSY II is introduced (section \ref{sec:fcm}), where the totality of the reported results was measured. Following this, the area detector mounted on the HZB-SAXS instrument is reviewed (section \ref{sec:SAXS_experimental}), highlighting the newly developed \emph{in-vacuum} Pilatus X-ray detector and the low uncertainty associated to the sample-detector distance that can be achieved with this setup. Finally, section \ref{sec:sample_environment} presents a detailed insight into the different sample environments needed for the nanoparticles in suspension studied in this work. A brief overview of the data reduction is given in section \ref{sec:data_reduction}, emphasizing the \emph{a posteriori} corrections required by the scattering curve.
+The first part of this chapter (section \ref{sec:BESSY}) describes the synchrotron radiation source, the electron storage ring BESSY II. After this short review on synchrotron radiation, the four-crystal monochromator (FCM) beamline operated in the PTB laboratory at BESSY II is introduced (section \ref{sec:fcm}), where all the reported results were measured. Following this, the area detector mounted on the HZB-SAXS instrument is reviewed (section \ref{sec:SAXS_experimental}), highlighting the newly developed \emph{in-vacuum} Pilatus X-ray detector and the low uncertainty associated to the sample-detector distance that can be achieved with this setup. Finally, section \ref{sec:sample_environment} presents a detailed insight into the different sample environments needed for the nanoparticles in suspension studied in this work. A brief overview of the data reduction is given in section \ref{sec:data_reduction}, emphasizing the \emph{a posteriori} corrections required by the scattering curve.
 
 
 \section{Synchrotron radiation}
@@ -39,7 +39,7 @@ The critical energy $E_C$ divides the spectral range into two parts with equal r
 
 The synchrotron radiation sources of the third generation are designed with the goal of optimizing the insertion devices and, therefore, enhance the spectral brightness \citep{ries_nonlinear_2014}. The employment of insertion devices, such as wiggles or undulators, on the straight sections of the storage ring improves the brilliance or produce light polarizations different from that produced by bending magnets.
 
-Both insertion devices consist on the same principle: a large number ($N\sim100$) of equally spaced alternately polarised dipole magnets stimulate the emission of synchrotron radiation on the experiment direction, due to the coherent addition of the contributions from the passage of a single electron. By this approach, the photon flux can be increased  in a factor $N$, the number of magnets separated with a spatial field period ($\lambda_0$) in the range of cm. The distinguishable property between wigglers and undulators is their deflection parameter $K$, defined by \citep{baumgartel_e.-e._1984}:
+Both insertion devices consist on the same principle: a large number ($N\sim100$) of equally spaced alternately polarised dipole magnets stimulate the emission of synchrotron radiation on the experiment direction, due to the coherent addition of the contributions from the passage of a single electron. By this approach, the photon flux can be increased  in a factor $N$, the number of magnets separated with a spatial field period $\lambda_0$ in the range of cm. The distinguishable property between wigglers and undulators is their deflection parameter $K$, defined by \citep{baumgartel_e.-e._1984}:
 
 \begin{equation}
         K=\frac{e}{m_e 2\pi c}B_0\lambda_0
@@ -54,7 +54,7 @@ The facility BESSY II situated in Berlin (Germany) is a synchrotron X-ray and UV
 \begin{figure*}%[htbp]
 	\centering
 		\resizebox{0.4\linewidth}{!}{\includegraphics{Figures/BessyScheme.png}}
-		\caption[Scheme of the electron storage ring BESSY II.]{A scheme of BESSY II. \textcolor{red}{IMPROVE IMAGE!!! NEW DRAWING MAYBE???}}
+		\caption[Scheme of the electron storage ring BESSY II.]{Scheme of the electron storage ring BESSY II. The different components involved in the creation of X-rays are depicted. \textcolor{red}{IMPROVE IMAGE!!! NEW DRAWING MAYBE???}}
 		\label{fig:BessyScheme}
 \end{figure*}
 
@@ -72,7 +72,7 @@ The four-crystal monochromator bending magnet beamline operating in the PTB labo
 \begin{figure}%[htbp]
 	\centering
 		\resizebox{0.8\linewidth}{!}{\includegraphics{Figures/FCMScheme.png}}
-		\caption[Diagram of the Four-crystal monochromator beamline.]{A scheme of the FCM beamline in the PTB laboratory at BESSY II. The distance of each component to the insertion device is shown.}
+		\caption[Diagram of the Four-crystal monochromator beamline.]{A scheme of the FCM beamline in the PTB laboratory at BESSY II. The distance of each component to the bending magnet is shown.}
 		\label{fig:FCMScheme}
 \end{figure}
 
@@ -82,7 +82,7 @@ Two types of exchangeable crystal sets, Si ($a=0.543$ nm) and InSb ($a=0.648$ nm
 
 The energy is traced back to the well-known lattice constant of Si. The back-reflection of a silicon crystal at different lattice planes is measured at known energies and the energy is calibrated to the dips positions appearing when the Bragg condition is fulfilled. This approach was employed at the sensitive surface of the X-ray detector introduced in section \ref{sec:pilatus} for an energy range between 4 keV and 10 keV \citep{gollwitzer_diffraction_2014}. To check the accuracy of the energy calibration for daily measurements, a transmission scan around the K-edge of a copper foil (8980.5 eV) can be measured.
 
-About 10 m before the sample chamber, a bendable plane mirror collimates the beam in the vertical direction and focuses it in the horizontal direction. The mirror is coated with two different materials in separated areas. The Pt-coating is employed to maximize the reflectivity at energies above 4 keV, while the MgF$_2$ supresses the higher orders at energies below 4 keV. The photon flux achieved with the different configurations available at the FCM beamline is shown in figure \ref{fig:FCMBeamlineFlux}, although it can vary depending on the precise disposition of the different apertures along the beam path.
+About 10 m before the sample chamber, a bendable plane mirror focuses the beam in the vertical direction. The mirror is coated with two different materials in separated areas. The Pt-coating is employed to maximize the reflectivity at energies above 4 keV, while the MgF$_2$ supresses the higher orders at energies below 4 keV. The photon flux achieved with the different configurations available at the FCM beamline is shown in figure \ref{fig:FCMBeamlineFlux}, although it can vary depending on the precise disposition of the different apertures along the beam path.
 
 \begin{figure}%[htbp]
 	\centering
@@ -91,15 +91,15 @@ About 10 m before the sample chamber, a bendable plane mirror collimates the bea
 		\label{fig:FCMBeamlineFlux}
 \end{figure}
 
-The first slit behind the bending magnet is used to limit the acceptance angle of the radiation into the monochromator. Two moveable slits more are employed downstream to block the parasitic scattering. A germanium 520 $\mu$m circular pinhole (Scatex, Incoatec, Geesthacht, Germany) situated before the sample chamber shapes the photon beam into a circular spot on the sample and strongly reduces the parasitic radiation. A 8 $\mu$m thick silicon photodiode diode is equipped behind these components and can monitor continuously the incoming photon flux for energies above 3 keV.
+The first slit behind the bending magnet is used to limit the acceptance angle of the radiation into the monochromator. Two moveable slits more are employed downstream to block the parasitic scattering. A germanium 520 $\mu$m circular pinhole (Scatex, Incoatec, Geesthacht, Germany) situated before the sample chamber shapes the photon beam into a circular spot on the sample and strongly reduces the parasitic radiation. A 8 $\mu$m thick silicon photodiode diode is installed behind these components and can monitor continuously the incoming photon flux for energies above 3 keV.
 
-\subsection{UHV X-ray Reflectometer}
+\subsection{UHV X-ray reflectometer}
 
-The sample chamber is situated 37 m away from the dipole i.e. bending magnet, right behind the flux monitor diode. The UHV X-ray Reflectometer disposes of a large volume (60 cm diameter and 70 cm length) which is fully evacuated to reach pressures of approximately $10^{-7}$ mbar. High vacuum is needed to perform experiments at the low energies accessible at the FCM beamline, as the attenuation length of air at energies below 2 keV is less than 1 cm. A smaller lock chamber connected to the sample chamber by a 200 mm diametere flange is used to exchange samples without breaking the vacuum of the larger UHV X-ray reflectometer.
+The sample chamber is situated 37 m away from the dipole i.e. bending magnet, right behind the flux monitor diode. The UHV X-ray reflectometer disposes of a large volume (60 cm diameter and 70 cm length) which is fully evacuated to reach pressures of approximately $10^{-7}$ mbar. High vacuum is needed to perform experiments at the low energies accessible at the FCM beamline, as the attenuation length of air at energies below 2 keV is less than 1 cm. A smaller lock chamber connected to the sample chamber by a 200 mm diametere flange is used to exchange samples without breaking the vacuum of the larger UHV X-ray reflectometer.
 
-The motors of the sample holder can be moved along 3 directions perpendicular to the incoming beam and with very high precision and reproducibility. The broad range of the $x$-motor (160 mm) permits the measurement of different sample capillaries (ca. 20) at once without venting the chamber for exchanging the sample.
+The motors of the sample holder can be moved linearly in three mutually perpendicular directions with very high precision and reproducibility. The broad range of the $x$-motor perpendicular to the incoming beam (160 mm) permits the measurement of different sample capillaries (ca. 20) at once without venting the chamber for exchanging the sample.
 
-The large volume of the reflectometer provides enough space to allocate other components close to the sample holder. For example, about 10 cm before the sample position, a 1 mm circular guard pinhole (Incoatec, Geesthacht, Germany) is installed to remove the parasitic scattering resulting from the collimating system. Behind the sample, the transmitted radiation is measured with a (10 x 10) mm$^2$ silicon photodiode. The thick Can500C diode (Canberra, Meriden, USA) is capable of measuring through the entire beamline energy range, from 1.75 keV to 10 keV, and is calibrated against a cryogenic electric substitution radiometer with a relative uncertainty of \( 1\,\% \) \citep{krumrey_high-accuracy_2001}.
+The large volume of the reflectometer provides enough space to allocate other components close to the sample holder. For example, about 10 cm before the sample position, a 1 mm circular guard pinhole (Incoatec, Geesthacht, Germany) is installed to remove the parasitic scattering resulting from the collimating system. Behind the sample, the transmitted radiation is measured with a (10 x 10) mm$^2$ silicon photodiode. The thick Can500C diode (Canberra, Meriden, USA) is capable of measuring through the entire beamline energy range, from 1.75 keV to 10 keV, and is calibrated against a cryogenic electric substitution radiometer with a relative uncertainty of 1 $\%$ \citep{krumrey_high-accuracy_2001}.
 
 \section{SAXS Setup}
 \label{sec:SAXS_experimental}
@@ -111,7 +111,7 @@ The intensity scattered by the sample is recorded at a certain distance behind t
 
 The scattered X-ray photons are collected by a large-area hybrid pixel detector. The Pilatus 1M (Dectris Ltd, Baden, Switzerland) has a sensitive surface of (179 x 169) mm$^2$ and consists of a silicon pixel matrix with a pixel size of $d = (172.1 \pm 0.2)$ $\mu$m which operates in single-photon counting mode, providing very low darkcount rates, very good signal-to-noise ratios and a high dynamic range. For instance, the detector quantum efficiency is about 97 $\%$ at 8 keV using the ultra-high gain mode and almost 86 $\%$ at 4 keV \citep{wernecke_characterization_2014}.
 
-Besides, the Pilatus 1M detector was modified to operate under vacuum to cover the full energetic range available at the beamline, down to 1.75 keV. The windowless detector is directly connected to the sample chamber with an evacuated bellow and cooled down at 5 to 10$^{\circ}$C. The narrow point-spread function of the detector and the available low energies increase the momentum transfer resolution and the accessible $q$-range.
+Besides, the Pilatus 1M detector was modified to operate under vacuum to cover the full energetic range available at the beamline, down to 1.75 keV. The windowless detector is directly connected to the sample chamber with an evacuated bellow and cooled down at 5 to 10 $^{\circ}$C. The narrow point-spread function of the detector and the available low energies increase the momentum transfer resolution and the accessible $q$-range.
 
 A moveable beamstop mounted at thin wires is installed just in front of the detector to block the intense transmitted photon beam, avoiding saturation effects in the central pixels. The beamstop is constructed within a funnel-like cavity ($\oslash$ 5 mm) to reduce geometrically the reflections on the beamstop surface, which are damped by the cavity. Since April 2016, a silicon photodiode with a sensitive area of (2.5 x 2.5) mm$^2$ (S10356-01, Hamamatsu, Shizuoka, Japan) covers the beamstop to monitor the sample transmission during the experiment, revealing the possible radiation damage of the sample.
 
@@ -146,12 +146,12 @@ AgBehe has a very narrow diffraction ring at $q=1.0763$ nm$^{-1}$, arising from 
 	\centering
 	        \subfloat[Distance Calibration]{\resizebox{0.5\linewidth}{!}{\input{Figures/DistanceCalibrationSAXS}}\label{fig:DistanceCalibrationSAXS}}
 		\subfloat[AgBehe at large distance]{\resizebox{0.35\linewidth}{!}{\includegraphics{Figures/AgBeheSAXSLongDistance_edit.png}}\label{fig:AgBeheSAXSLongDistance}}
-		\caption[Sample-to-detector distance calibration and scattering pattern of AgBehe at large distance.]{Sample-to-detector distance calibration: a) Radius of the diffraction ring of AgBehe and SBA-15 as a function of the sample-detector distance. A linear function is fitted to obtain the source point distance. The residuals of the fitting are shown in the bottom plot. b) Scattering pattern of AgBehe measured at a distance of 3638.2 mm. The diffraction rings exceeds the detector area. \textcolor{red}{file "messung kmc daten 2015 1Q pilatus 201501 0394.tif"}}
+		\caption[Sample-to-detector distance calibration and scattering pattern of AgBehe at large distance.]{Sample-to-detector distance calibration: a) Radius of the diffraction ring of AgBehe and SBA-15 as a function of the sample-detector distance. A linear function is fitted to obtain the source point distance. The residuals of the fitting are shown in the bottom plot. b) Scattering pattern of AgBehe measured at a distance of 3638.2 mm. At such long sample-to-detector distances, the diffraction rings exceeds the detector area and the associated uncertainty increases.}
 \end{figure}
 
 By measuring the AgBehe pattern along a distance range of 2200 mm with 100 mm steps at 8000 eV, the relative uncertainty associated to the linear fitting is 0.03 $\%$, corresponding to 1.5 mm. As observed in the residuals of the fitting in figure \ref{fig:DistanceCalibrationSAXS}, the deviation increases for long distances, due to the relatively small $d$-spacing of AgBehe, disabling the use of distances larger than $\sim 3600$ mm. In figure \ref{fig:AgBeheSAXSLongDistance}, it is visible how the diffraction ring surpasses the surface of the detector at a distance of 3638.2 mm and, thus, diminishes the accuracy of the peak determination.
 
-By using a material with lower $q$-value, such as the templated mesoporous silica SBA-15 \citep{zhao_triblock_1998} ($q=0.681$ nm$^{-1}$), this limitation can be mitigated as shown in figure \ref{fig:DistanceCalibrationSAXS}, where the residuals of SBA are minimal for the entire distance range. By using SBA and increasing the accessible distance range, the relative uncertainty of the fit decreases in a factor 5, reaching an uncertainty of 0.004 $\%$ (0.2 mm) when measuring with 50 mm steps. This improvement is also related with the narrower diffraction peak of SBA-15 (FWHM/$q=2.6\%$) in comparison to AgBehe ($5.5\%$).
+By using a material with lower $q$-value, such as the templated mesoporous silica SBA-15 \citep{zhao_triblock_1998} ($q=0.681$ nm$^{-1}$), this limitation can be mitigated as shown in figure \ref{fig:DistanceCalibrationSAXS}, where the residuals of SBA are minimal for the entire distance range. By using SBA and increasing the accessible distance range, the relative uncertainty of the fit decreases in a factor 5, reaching an uncertainty of 0.004 $\%$ (0.2 mm) when measuring with 50 mm steps. This improvement is also related with the narrower diffraction peak of SBA-15 (FWHM/$q=2.6\;\%$) in comparison to AgBehe (5.5 $\%$).
 
 Although the fit uncertainty is smaller in the SBA case, the position and shape of diffraction peak depend strongly on the sample preparation (e.g. template pore size). For the same polymer template, the $q$-value of the ring can vary until 1 $\%$ for different thermal treatments and radiation damage effects are visible for short calcination times. On the other side, prolonged beam exposure of AgBehe can damage the sample as well and create small silver nanoparticles, which increase the scattering background \citep{liu_thermal_2006}. The choice of the calibration standard depends strictly on the needs of the experiment. Besides, the largest contributions to the sample-detector distance uncertainty come from the thickness of the sample (ca. 0.5 mm) and from the difference between the calibration with AgBehe and SBA-15 (also 0.5 mm). Normally the relative uncertainty associated with the distance calibration is $10^{-4}$, similar to the energy resolving power described in section \ref{sec:fcm}.
 
@@ -163,20 +163,18 @@ The sample consists normally of a few microliters of nanoparticles in solution w
 \begin{itemize}
         \item The container's material should minimize the innecessary absorption of the X-ray photon flux by the sample environment.
         \item The container volume should be small enough to enable the measurement of valuable, limited samples.
-        \item The optimal sample thickness for a transmission diffraction experiment is the inverse of its attenuation coefficient $\mu(E)$, which reduces the incoming intensity to $\sim37\%$. For example, the optimal thickness of water at 8000 eV is around 1 mm.
+        \item The optimal sample thickness for a transmission diffraction experiment is the inverse of its attenuation coefficient $\mu(E)$, which reduces the incoming intensity to $\sim37\;\%$. For example, the optimal thickness of water at 8000 eV is around 1 mm.
 \end{itemize}
 
 Typically, the samples are introduced in thin glass capillaries which maintain the temperature and pressure of the sample close to the ambient conditions. However, there are different sample environments which can be used depending on the requirements of the experiment. In this work, only nanoparticles suspended in aqueous media have been employed, allowing the use of a similar attenuation coefficient for almost all experiments.
 
 \subsection{Round capillaries}
 
-For single-contrast SAXS measurements, borosilicate glass 3.3 round capillaries of 100 mm length were used. They were purchased at WJM Glass (Berlin, Germany) and had a nominal inner diameter of 1 mm and a wall thickness of 10 $\mu$m. The sample is filled into the capillary with a long syringe (Sterican$\textregistered$21 x 4 3/4" , Braun, Melsungen, Germany), avoiding the contact of the needle with the capillary walls. The top end of the capillary is closed by welding.
+For single-contrast SAXS measurements, borosilicate glass round capillaries of 100 mm length were used. They were purchased at WJM Glass (Berlin, Germany) and had a nominal inner diameter of 1 mm and a wall thickness of 10 $\mu$m. The sample is filled into the capillary with a long syringe (Sterican$\textregistered$21 x 4 3/4" , Braun, Melsungen, Germany), avoiding the contact of the needle with the capillary walls. The top end of the capillary is closed by welding.
 
 The very narrow glass walls (with a density of about 2.23 g cm$^{-3}$) absorb only 14 $\%$ of the incoming flux at 8000 eV and produce very low scattering background. Therefore, these capillaries are suitable for standard SAXS measurements. Unfortunately, the capillaries sample thickness shows a significant deviation along the vertical axis and are inappropriate for measurements at different capillary heights, as needed for the continuous contrast variation technique.
 
 \subsection{Rectangular capillaries}
-
-The capillaries used for the contrast variation experiments are vacuum-proof borosilicate glass capillaries from Hilgenberg (Malsfeld, Germany) with a nominal rectangular cross section of (4.2 $\pm$ 0.2) x (1.25 $\pm$ 0.05) mm$^2$ , a length of (80 $\pm$ 0.5) mm and a wall thickness of ca. 120 $\mu$m. The thicker glass walls reduce the transmitted intensity about $80\%$ at 8000 eV, but in contrast both the glass and sample thicknesses are very homogenous for the entire capillary.
 
 \begin{figure}%[htbp]
 	\centering
@@ -184,6 +182,8 @@ The capillaries used for the contrast variation experiments are vacuum-proof bor
 		\subfloat[Sample thickness]{\resizebox{0.44\linewidth}{!}{\input{Figures/WaterHomogeneity}}\label{fig:WaterHomogeneity}}
 		\caption[Homogeneity of the rectangular capillaries.]{Homogeneity of the rectangular capillaries: a) Deviation of the empty capillary tranmission, i.e. glass wall thickness, b) Sample thickness calculated from the water transmission of a filled capillary. }
 \end{figure}
+
+The capillaries used for the contrast variation experiments are vacuum-proof borosilicate glass capillaries from Hilgenberg (Malsfeld, Germany) with a nominal rectangular cross section with outer dimensions of (4.2 $\pm$ 0.2) x (1.25 $\pm$ 0.05) mm$^2$ , a length of (80 $\pm$ 0.5) mm and a wall thickness of ca. 120 $\mu$m. The thicker glass walls reduce the transmitted intensity about 80 $\%$ at 8000 eV, but in contrast both the glass and sample thicknesses are very homogenous for the entire capillary.
 
 The transmission of an empty capillary is mapped in figure \ref{fig:HilgenbergHomogeneity}, where it can be observed that the deviation of the glass wall thickness is less than 2 $\%$ for an horizontal range of 2.5 mm (of a total width of 4.2 mm). This range is at least 5 times larger than the typical beam diameter, avoiding the convolution of different thicknesses in the measurement. Similarly, figure \ref{fig:WaterHomogeneity} depicts the sample thickness in the capillary, calculated from a capillary filled with water using the Beer-Lambert law, the glass transmission and the mass attenuation coefficient of water at 8000 eV, 10.37 cm$^{2}$ g$^{-1}$ \citep{hubbell_tables_1996}. The thickness of the sample introduced in the capillary is homogenous within 2 $\%$ for a width range of ca. 2.5 mm. 
 
@@ -194,7 +194,7 @@ The transmission of an empty capillary is mapped in figure \ref{fig:HilgenbergHo
 		\label{fig:GaldenCalibration}
 \end{figure*}
 
-From these figures, it is clear that the homogeneity of the sample environment is even better along the main vertical axis of the capillary. Figure \ref{fig:GaldenCalibration} shows the measured X-ray transmission of a half-filled capillary along its vertical axis (at the horizontal position -0.15 mm). For example, the glass transmission within a 6 mm vertical range is $20.1\%$, with an associated relative uncertainty of $\delta_r T =0.6 \; \%$. By calculating $\delta_r d = \frac{\delta_r T}{log(T)}$ where $T$ is the glass transmission, the relative uncertainty of the glass thickness is $\delta_r d = 0.4 \; \%$. Analogously, the uncertainty of the water transmission is 0.9 $\%$ and the sample thicknes has an uncertainty of 0.9 $\%$ along the vertical axis.
+From these figures, it is clear that the homogeneity of the sample environment is even better along the main vertical axis of the capillary. Figure \ref{fig:GaldenCalibration} shows the measured X-ray transmission of a half-filled capillary along its vertical axis (at the horizontal position -0.15 mm). For example, the glass transmission within a 6 mm vertical range is 20.1 $\%$, with an associated relative uncertainty of $\delta_r T =0.6 \; \%$. By calculating $\delta_r d = \frac{\delta_r T}{log(T)}$ where $T$ is the glass transmission, the relative uncertainty of the glass thickness is $\delta_r d = 0.4 \; \%$. Analogously, the uncertainty of the water transmission is 0.9 $\%$ and the sample thicknes has an uncertainty of 0.9 $\%$ along the vertical axis.
 
 These rectangular capillaries are a very suitable sample environment for measurements which require a high homogeneity along the vertical axis of the capillary. The thickness of the wall varies only by 0.4 $\%$ and the sample thickness less than 0.9 $\%$, although the thick glass walls reduce considerably the transmitted intensity and produce larger background scattering than the round capillaries.
 
@@ -205,7 +205,7 @@ Samples with larger structures require the measurement of scattering curves at l
 A polymeric 100 $\mu$m ring cut with a microtome is used as spacer between the 2 windows, in order to achieve the desired 120 $\mu$m sample thickness which optimizes the intensity attenuation at 4000 eV. The acces to smaller $q$-values using this cell is shown in \cite{varga_towards_2014}, where a value of $q=0.015$ nm$^{-1}$ is achieved.
 
 \begin{figure}%[htbp]
-		\includegraphics[width=0.37\linewidth]{Figures/SampleEnvironment.jpg}
+		\includegraphics[width=0.6\linewidth]{Figures/SampleEnvironment.jpg}
 		\caption[Sample environments for SAXS experiments in vacuum.]{Different sample environments: On the left side, the disassembled low-energy cell with the two silicon-nitride windows, the polymeric ring spacer and the two parts of the metallic holder. On the right side, the round and rectangular capillaries.}
 	        \label{fig:SampleEnvironment}
 \end{figure}

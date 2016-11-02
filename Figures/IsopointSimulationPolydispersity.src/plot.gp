@@ -1,5 +1,5 @@
 set grid
-set xlabel 'Particle size polydispersity / $\%$'
+set xlabel 'Polydispersity degree / $\%$'
 set ylabel 'Isoscattering point deviation / $\%$'
 set key 12.5, -3
 

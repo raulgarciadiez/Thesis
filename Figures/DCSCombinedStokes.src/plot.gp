@@ -5,7 +5,7 @@ set autoscale
 set xrange [1.01:1.13]
 set yrange [60:330]
 set key spacing 1.5
-set key 1.06,113
+set key 1.105,310
 
 
 set arrow from 1.052,200 to 1.052,155 head ls 3 #lw 3 lc rgb 'grey'

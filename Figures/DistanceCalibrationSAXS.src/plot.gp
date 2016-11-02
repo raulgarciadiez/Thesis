@@ -20,13 +20,13 @@ set ylabel 'Radius size / pixel' offset 2
 set xrange [dmin:dmax]
 set yrange [220:720]
 #set key spacing 1.5
-set key 3200,600
+set key 3200,700
 #set xtics (0.02,0.03,0.05,0.1,0.2,0.3,0.5)
 set xtics format ""
 set ytics (300, 400, 500, 600, 700)
 
-set size 1,0.64
-set origin 0,0.35
+set size 1,0.49
+set origin 0,0.5
 
 
 
@@ -51,15 +51,15 @@ p 'distancefit_126_AgBehe_Jan2015.dat' u (D-$6):2 w p ls 2 t 'AgBehe', 'distance
 #set size 0.485,0.43
 #set origin 0.49,0.53
 
-set size 1,0.25
+set size 1,0.4
 set origin 0.,0.1
 
 #unset grid
 #unset xlabel 
 #unset ylabel 
 
-set ylabel 'Residuals / pixel'
-set xlabel 'Measured distance / mm'
+set ylabel 'Residuals / pixel' offset 0.25
+set xlabel 'Measured distance / mm' offset 0,0.5
 set autoscale
 #set yrange [490.:515.]
 #set xrange [870.:1005.]

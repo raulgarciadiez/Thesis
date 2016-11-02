@@ -21,43 +21,43 @@ while executing---line 3135 of file meinbst.bst
 Warning--empty booktitle in wu_particle_2014
 You've used 204 entries,
             2851 wiz_defined-function locations,
-            1761 strings with 48865 characters,
-and the built_in function-call counts, 111685 in all, are:
-= -- 10608
+            1762 strings with 48875 characters,
+and the built_in function-call counts, 111779 in all, are:
+= -- 10622
 > -- 6383
 < -- 94
 + -- 2484
 - -- 2238
-* -- 10732
-:= -- 20193
+* -- 10744
+:= -- 20204
 add.period$ -- 410
 call.type$ -- 204
 change.case$ -- 1769
 chr.to.int$ -- 210
 cite$ -- 207
-duplicate$ -- 4450
-empty$ -- 7444
+duplicate$ -- 4451
+empty$ -- 7453
 format.name$ -- 2524
-if$ -- 21630
+if$ -- 21651
 int.to.chr$ -- 7
 int.to.str$ -- 1
 missing$ -- 212
 newline$ -- 616
 num.names$ -- 820
-pop$ -- 1424
+pop$ -- 1421
 preamble$ -- 1
 purify$ -- 1561
 quote$ -- 0
 skip$ -- 2576
 stack$ -- 0
-substring$ -- 6833
-swap$ -- 1015
+substring$ -- 6858
+swap$ -- 1016
 text.length$ -- 10
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 1806
 warning$ -- 3
-while$ -- 978
+while$ -- 980
 width$ -- 0
-write$ -- 2242
+write$ -- 2243
 (There were 2 error messages)
