@@ -1,4 +1,4 @@
-This is BibTeX, Version 0.99d (TeX Live 2013/TeX Live for SUSE Linux)
+This is BibTeX, Version 0.99d (TeX Live 2013)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: main.aux
 The style file: meinbst.bst
@@ -9,6 +9,9 @@ A level-1 auxiliary file: chapter_density_gradient_SAXS.aux
 A level-1 auxiliary file: chapter_simultaneous_size_density.aux
 A level-1 auxiliary file: chapter_bio_applications.aux
 A level-1 auxiliary file: chapter_conclusions.aux
+A level-1 auxiliary file: thanksgiving.aux
+A level-1 auxiliary file: tub-eidesstattliche.aux
+A level-1 auxiliary file: tub-publist.aux
 Database file #1: thesis.bib
 Warning--entry type for "fitzpatrick_structure_1998" isn't style-file defined
 --line 2410 of file thesis.bib
@@ -21,7 +24,7 @@ while executing---line 3135 of file meinbst.bst
 Warning--empty booktitle in wu_particle_2014
 You've used 204 entries,
             2851 wiz_defined-function locations,
-            1762 strings with 48875 characters,
+            1765 strings with 48929 characters,
 and the built_in function-call counts, 111779 in all, are:
 = -- 10622
 > -- 6383
