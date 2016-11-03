@@ -10,7 +10,7 @@ set xlabel 'Solvent Osmolality / mOsm kg$^{-1}$'
 qdif=2.28
 dev=0.333
 
-osm_thres=740.
+osm_thres=670.
 set arrow from first osm_thres,graph 0 to first osm_thres,graph 1 nohead ls 2
 
 #set y2tics tc rgb 'red'

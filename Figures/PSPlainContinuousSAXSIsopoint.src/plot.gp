@@ -1,3 +1,6 @@
+#set terminal epslatex size 15cm,12cm
+#
+
 set logscale xy
 set grid
 set xlabel '$q$ / nm$^{-1}$' offset 0,0.6

@@ -5,7 +5,7 @@ set ylabel 'Intensity at $q=0.123$ nm$^{-1}$ / cm$^{-1}$'
 
 N=1.05e14*0.3
 
-osm_thres=740.
+osm_thres=670.
 
 ymin=0.8
 ymax=2.6

@@ -39,14 +39,14 @@ set size 0.45,0.43
 set origin 0.53,0.51
 unset logscale xy
 set grid
-set xlabel '\footnotesize{$R$} / nm' 
-set ylabel '\footnotesize{$\rho_e$ / nm$^{-3}$}' offset 3,0.3
+set xlabel '\smaller{$R$} / nm' 
+set ylabel '\smaller{$\rho_e$ / nm$^{-3}$}' offset 3,0.3
 set autoscale
 set yrange [333.:348.]
 set xrange [0.:78.]
-set xtics format '\footnotesize %g'
+set xtics format '\smaller %g'
 set xtics (0,25,50,75)
-set ytics format '\footnotesize %g'
+set ytics format '\smaller %g'
 set ytics (333.,337.,341.,345.,349.)
 unset key
 #set arrow from ROnion,rhow to ROnion,346.31 nohead ls 3

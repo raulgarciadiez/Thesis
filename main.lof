@@ -4,91 +4,94 @@
 \select@language {UKenglish}
 \select@language {UKenglish}
 \addvspace {10\p@ }
+\contentsline {figure}{\numberline {\relax 1.1}{\ignorespaces Properties of nanoparticles}}{2}{figure.caption.6}
+\contentsline {figure}{\numberline {\relax 1.2}{\ignorespaces Sizing techniques}}{3}{figure.caption.7}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {\relax 2.1}{\ignorespaces Depiction of the Beer-Lambert law}}{6}{figure.caption.6}
-\contentsline {figure}{\numberline {\relax 2.2}{\ignorespaces Contributions to the X-ray attenuation coefficient of water}}{7}{figure.caption.7}
-\contentsline {figure}{\numberline {\relax 2.3}{\ignorespaces Schematics of a scattering process and graphical definition of $\bm {q}$}}{8}{figure.caption.9}
-\contentsline {figure}{\numberline {\relax 2.4}{\ignorespaces Solvent contrast variation experiment and contrast matching scheme}}{14}{figure.caption.12}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Core-shell particle in solvent}}}{14}{subfigure.4.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Contrast matching of the shell}}}{14}{subfigure.4.2}
+\contentsline {figure}{\numberline {\relax 2.1}{\ignorespaces Depiction of the Beer-Lambert law}}{8}{figure.caption.8}
+\contentsline {figure}{\numberline {\relax 2.2}{\ignorespaces Contributions to the X-ray attenuation coefficient of water}}{9}{figure.caption.9}
+\contentsline {figure}{\numberline {\relax 2.3}{\ignorespaces Schematics of a scattering process and graphical definition of $\bm {q}$}}{10}{figure.caption.11}
+\contentsline {figure}{\numberline {\relax 2.4}{\ignorespaces The scattering curve.}}{14}{figure.caption.14}
+\contentsline {figure}{\numberline {\relax 2.5}{\ignorespaces Solvent contrast variation experiment and contrast matching scheme}}{16}{figure.caption.15}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Core-shell particle in solvent}}}{16}{subfigure.5.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Contrast matching of the shell}}}{16}{subfigure.5.2}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {\relax 3.1}{\ignorespaces Scheme of the electron storage ring BESSY II.}}{19}{figure.caption.15}
-\contentsline {figure}{\numberline {\relax 3.2}{\ignorespaces Diagram of the Four-crystal monochromator beamline.}}{20}{figure.caption.16}
-\contentsline {figure}{\numberline {\relax 3.3}{\ignorespaces Photon flux of the FCM beamline.}}{21}{figure.caption.17}
-\contentsline {figure}{\numberline {\relax 3.4}{\ignorespaces Sample-to-detector distance calibration and scattering pattern of AgBehe at large distance.}}{24}{figure.caption.20}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Distance Calibration}}}{24}{subfigure.4.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {AgBehe at large distance}}}{24}{subfigure.4.2}
-\contentsline {figure}{\numberline {\relax 3.5}{\ignorespaces Homogeneity of the rectangular capillaries.}}{26}{figure.caption.21}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Glass thickness}}}{26}{subfigure.5.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Sample thickness}}}{26}{subfigure.5.2}
-\contentsline {figure}{\numberline {\relax 3.6}{\ignorespaces X-ray transmission of a rectangular capillary half-filled with water}}{27}{figure.caption.22}
-\contentsline {figure}{\numberline {\relax 3.7}{\ignorespaces Sample environments for SAXS experiments in vacuum.}}{27}{figure.caption.23}
+\contentsline {figure}{\numberline {\relax 3.1}{\ignorespaces Scheme of the electron storage ring BESSY II.}}{23}{figure.caption.18}
+\contentsline {figure}{\numberline {\relax 3.2}{\ignorespaces Diagram of the Four-crystal monochromator beamline.}}{24}{figure.caption.19}
+\contentsline {figure}{\numberline {\relax 3.3}{\ignorespaces Photon flux of the FCM beamline.}}{25}{figure.caption.20}
+\contentsline {figure}{\numberline {\relax 3.4}{\ignorespaces Sample-to-detector distance calibration and scattering pattern of AgBehe at large distance.}}{28}{figure.caption.23}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Distance Calibration}}}{28}{subfigure.4.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {AgBehe at large distance}}}{28}{subfigure.4.2}
+\contentsline {figure}{\numberline {\relax 3.5}{\ignorespaces Homogeneity of the rectangular capillaries.}}{30}{figure.caption.24}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Glass thickness}}}{30}{subfigure.5.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Sample thickness}}}{30}{subfigure.5.2}
+\contentsline {figure}{\numberline {\relax 3.6}{\ignorespaces X-ray transmission of a rectangular capillary half-filled with water}}{31}{figure.caption.25}
+\contentsline {figure}{\numberline {\relax 3.7}{\ignorespaces Sample environments for SAXS experiments in vacuum.}}{31}{figure.caption.26}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {\relax 4.1}{\ignorespaces Contrast variation technique in SAXS with a density gradient capillary.}}{33}{figure.caption.24}
-\contentsline {figure}{\numberline {\relax 4.2}{\ignorespaces Calibration of the solvent electron density by X-ray transmission}}{34}{figure.caption.25}
-\contentsline {figure}{\numberline {\relax 4.3}{\ignorespaces X-ray transmittance of the density gradient capillary at different energies.}}{35}{figure.caption.26}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Calculated transmittance}}}{35}{subfigure.3.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Calibrated sucrose concentration}}}{35}{subfigure.3.2}
-\contentsline {figure}{\numberline {\relax 4.4}{\ignorespaces Experimental scattering curves of PS-COOH particles for different suspending medium electron densities.}}{37}{figure.caption.27}
-\contentsline {figure}{\numberline {\relax 4.5}{\ignorespaces Background subtraction of the PS-COOH scattering curves.}}{37}{figure.caption.28}
-\contentsline {figure}{\numberline {\relax 4.6}{\ignorespaces Core-shell model fit to the PS-COOH experimental data.}}{38}{figure.caption.29}
-\contentsline {figure}{\numberline {\relax 4.7}{\ignorespaces Isoscattering points of the PS-COOH particles.}}{40}{figure.caption.30}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Relative standard deviation}}}{40}{subfigure.7.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Isoscattering point positions}}}{40}{subfigure.7.2}
-\contentsline {figure}{\numberline {\relax 4.8}{\ignorespaces Deviation from the $I(0)$ used in the evaluation of the PS-COOH data.}}{41}{figure.caption.31}
-\contentsline {figure}{\numberline {\relax 4.9}{\ignorespaces Radius of gyration of the PS-COOH particles.}}{41}{figure.caption.32}
-\contentsline {figure}{\numberline {\relax 4.10}{\ignorespaces Zero-angle intensity of the PS-COOH particles.}}{42}{figure.caption.34}
-\contentsline {figure}{\numberline {\relax 4.11}{\ignorespaces Concentration gradient of 12 nm silica particles measured at 8000 eV.}}{45}{figure.caption.36}
+\contentsline {figure}{\numberline {\relax 4.1}{\ignorespaces Contrast variation technique in SAXS with a density gradient capillary.}}{37}{figure.caption.27}
+\contentsline {figure}{\numberline {\relax 4.2}{\ignorespaces Calibration of the solvent electron density by X-ray transmission}}{38}{figure.caption.28}
+\contentsline {figure}{\numberline {\relax 4.3}{\ignorespaces X-ray transmittance of the density gradient capillary at different energies.}}{39}{figure.caption.29}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Calculated transmittance}}}{39}{subfigure.3.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Calibrated sucrose concentration}}}{39}{subfigure.3.2}
+\contentsline {figure}{\numberline {\relax 4.4}{\ignorespaces Experimental scattering curves of PS-COOH particles for different suspending medium electron densities.}}{41}{figure.caption.30}
+\contentsline {figure}{\numberline {\relax 4.5}{\ignorespaces Background subtraction of the PS-COOH scattering curves.}}{41}{figure.caption.31}
+\contentsline {figure}{\numberline {\relax 4.6}{\ignorespaces Core-shell model fit to the PS-COOH experimental data.}}{42}{figure.caption.32}
+\contentsline {figure}{\numberline {\relax 4.7}{\ignorespaces Isoscattering points of the PS-COOH particles.}}{44}{figure.caption.33}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Relative standard deviation}}}{44}{subfigure.7.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Isoscattering point positions}}}{44}{subfigure.7.2}
+\contentsline {figure}{\numberline {\relax 4.8}{\ignorespaces Deviation from the $I(0)$ used in the evaluation of the PS-COOH data.}}{45}{figure.caption.34}
+\contentsline {figure}{\numberline {\relax 4.9}{\ignorespaces Radius of gyration of the PS-COOH particles.}}{45}{figure.caption.35}
+\contentsline {figure}{\numberline {\relax 4.10}{\ignorespaces Zero-angle intensity of the PS-COOH particles.}}{46}{figure.caption.37}
+\contentsline {figure}{\numberline {\relax 4.11}{\ignorespaces Concentration gradient of 12 nm silica particles measured at 8000 eV.}}{49}{figure.caption.39}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {\relax 5.1}{\ignorespaces Scattering curve of PS-Plain in buffer.}}{50}{figure.caption.38}
-\contentsline {figure}{\numberline {\relax 5.2}{\ignorespaces Continuous contrast variation experimental data of the PS-Plain particles.}}{51}{figure.caption.39}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Scattering curves}}}{51}{subfigure.2.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Isoscattering point positions}}}{51}{subfigure.2.2}
-\contentsline {figure}{\numberline {\relax 5.3}{\ignorespaces Experimental shape scattering function of the PS-Plain colloid.}}{52}{figure.caption.40}
-\contentsline {figure}{\numberline {\relax 5.4}{\ignorespaces Comparison of the PS-Plain average diameter with different techniques.}}{53}{figure.caption.41}
-\contentsline {figure}{\numberline {\relax 5.5}{\ignorespaces Simultaneous size and density determination of PS-Plain with a DCS combined approach.}}{53}{figure.caption.42}
-\contentsline {figure}{\numberline {\relax 5.6}{\ignorespaces Number-weighted size distribution of PS-Plain particles.}}{54}{figure.caption.43}
-\contentsline {figure}{\numberline {\relax 5.7}{\ignorespaces Diameter of PS-Plain particles obtained from the shape scattering function as a function of the number of scattering curves.}}{55}{figure.caption.44}
-\contentsline {figure}{\numberline {\relax 5.8}{\ignorespaces Deviation of the size obtained with $q_1^{\star }$ from the nominal value.}}{57}{figure.caption.46}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Polydispersity effects}}}{57}{subfigure.8.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Solvent electron density range}}}{57}{subfigure.8.2}
-\contentsline {figure}{\numberline {\relax 5.9}{\ignorespaces Zero-angle intensity of the PS-Plain particles.}}{58}{figure.caption.47}
-\contentsline {figure}{\numberline {\relax 5.10}{\ignorespaces Mass densities of 3 polymeric colloids measured with SAXS and DCS.}}{59}{figure.caption.48}
+\contentsline {figure}{\numberline {\relax 5.1}{\ignorespaces Scattering curve of PS-Plain in buffer.}}{54}{figure.caption.41}
+\contentsline {figure}{\numberline {\relax 5.2}{\ignorespaces Continuous contrast variation experimental data of the PS-Plain particles.}}{55}{figure.caption.42}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Scattering curves}}}{55}{subfigure.2.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Isoscattering point positions}}}{55}{subfigure.2.2}
+\contentsline {figure}{\numberline {\relax 5.3}{\ignorespaces Experimental shape scattering function of the PS-Plain colloid.}}{56}{figure.caption.43}
+\contentsline {figure}{\numberline {\relax 5.4}{\ignorespaces Comparison of the PS-Plain average diameter with different techniques.}}{57}{figure.caption.44}
+\contentsline {figure}{\numberline {\relax 5.5}{\ignorespaces Simultaneous size and density determination of PS-Plain with a DCS combined approach.}}{57}{figure.caption.45}
+\contentsline {figure}{\numberline {\relax 5.6}{\ignorespaces Number-weighted size distribution of PS-Plain particles.}}{58}{figure.caption.46}
+\contentsline {figure}{\numberline {\relax 5.7}{\ignorespaces Diameter of PS-Plain particles obtained from the shape scattering function as a function of the number of scattering curves.}}{59}{figure.caption.47}
+\contentsline {figure}{\numberline {\relax 5.8}{\ignorespaces Deviation of the size obtained with $q_1^{\star }$ from the nominal value.}}{61}{figure.caption.49}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Polydispersity effects}}}{61}{subfigure.8.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Solvent electron density range}}}{61}{subfigure.8.2}
+\contentsline {figure}{\numberline {\relax 5.9}{\ignorespaces Zero-angle intensity of the PS-Plain particles.}}{62}{figure.caption.50}
+\contentsline {figure}{\numberline {\relax 5.10}{\ignorespaces Mass densities of 3 polymeric colloids measured with SAXS and DCS.}}{63}{figure.caption.51}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {\relax 6.1}{\ignorespaces Cryo-TEM image and schematic representation of Caelyx.}}{62}{figure.caption.50}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Cryo-TEM}}}{62}{subfigure.1.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Scheme}}}{62}{subfigure.1.2}
-\contentsline {figure}{\numberline {\relax 6.2}{\ignorespaces Continuous contrast variation experimental data of Caelyx.}}{64}{figure.caption.54}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Contrast variation with density gradient}}}{64}{subfigure.2.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Isoscattering point positions}}}{64}{subfigure.2.2}
-\contentsline {figure}{\numberline {\relax 6.3}{\ignorespaces Experimental shape scattering function of Caelyx.}}{66}{figure.caption.55}
-\contentsline {figure}{\numberline {\relax 6.4}{\ignorespaces Zero-angle intensity of Caelyx.}}{67}{figure.caption.56}
-\contentsline {figure}{\numberline {\relax 6.5}{\ignorespaces Relationship between solvent electron density and solvent osmolality for an aqueous sucrose solution.}}{68}{figure.caption.57}
-\contentsline {figure}{\numberline {\relax 6.6}{\ignorespaces Osmotic effects of Caelyx in an aqueous sucrose density gradient.}}{69}{figure.caption.58}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Caelyx scattering curves}}}{69}{subfigure.6.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Isoscattering point intensity}}}{69}{subfigure.6.2}
-\contentsline {figure}{\numberline {\relax 6.7}{\ignorespaces Osmotic effects in the intraliposomal doxorubicin-precipitate}}{70}{figure.caption.59}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {DOX diffraction peak}}}{70}{subfigure.7.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Peak position deviation}}}{70}{subfigure.7.2}
-\contentsline {figure}{\numberline {\relax 6.8}{\ignorespaces Isoscattering point position of Caelyx with different solvents.}}{71}{figure.caption.60}
-\contentsline {figure}{\numberline {\relax 6.9}{\ignorespaces Scattering curves of the liposomes in buffer.}}{72}{figure.caption.61}
-\contentsline {figure}{\numberline {\relax 6.10}{\ignorespaces The phospholipid bilayer scattering feature.}}{72}{figure.caption.62}
-\contentsline {figure}{\numberline {\relax 6.11}{\ignorespaces Scattering curves of liposomes measured at different solvent osmolalities.}}{73}{figure.caption.63}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {SSL 81 nm}}}{73}{subfigure.11.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Plain 89 nm}}}{73}{subfigure.11.2}
-\contentsline {figure}{\numberline {\relax 6.12}{\ignorespaces Isoscattering point intensity of liposomes.}}{74}{figure.caption.64}
-\contentsline {figure}{\numberline {\relax 6.13}{\ignorespaces Osmotic effects in the phospholipid bilayer.}}{75}{figure.caption.65}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {PEG 179 nm}}}{75}{subfigure.13.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Plain 128 nm}}}{75}{subfigure.13.2}
-\contentsline {figure}{\numberline {\relax 6.14}{\ignorespaces Continuous contrast variation experimental data of HDL and LDL.}}{77}{figure.caption.66}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {HDL}}}{77}{subfigure.14.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {LDL}}}{77}{subfigure.14.2}
-\contentsline {figure}{\numberline {\relax 6.15}{\ignorespaces Model free-approaches to the experimental data of HDL and LDL.}}{78}{figure.caption.67}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Isoscattering point position}}}{78}{subfigure.15.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Average electron density}}}{78}{subfigure.15.2}
-\contentsline {figure}{\numberline {\relax 6.16}{\ignorespaces Squared radius of the HDL scattering data.}}{79}{figure.caption.68}
-\contentsline {figure}{\numberline {\relax 6.17}{\ignorespaces Scattering curves of PS-COOH particles coated with IgG.}}{80}{figure.caption.69}
-\contentsline {figure}{\numberline {\relax 6.18}{\ignorespaces Isoscattering point position before and after attaching IgG.}}{81}{figure.caption.71}
+\contentsline {figure}{\numberline {\relax 6.1}{\ignorespaces Cryo-TEM image and schematic representation of Caelyx.}}{66}{figure.caption.53}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Cryo-TEM}}}{66}{subfigure.1.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Scheme}}}{66}{subfigure.1.2}
+\contentsline {figure}{\numberline {\relax 6.2}{\ignorespaces Continuous contrast variation experimental data of Caelyx.}}{68}{figure.caption.57}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Contrast variation with density gradient}}}{68}{subfigure.2.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Isoscattering point positions}}}{68}{subfigure.2.2}
+\contentsline {figure}{\numberline {\relax 6.3}{\ignorespaces Experimental shape scattering function of Caelyx.}}{70}{figure.caption.58}
+\contentsline {figure}{\numberline {\relax 6.4}{\ignorespaces Zero-angle intensity of Caelyx.}}{71}{figure.caption.59}
+\contentsline {figure}{\numberline {\relax 6.5}{\ignorespaces Relationship between solvent electron density and solvent osmolality for an aqueous sucrose solution.}}{72}{figure.caption.60}
+\contentsline {figure}{\numberline {\relax 6.6}{\ignorespaces Osmotic effects of Caelyx in an aqueous sucrose density gradient.}}{73}{figure.caption.61}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Caelyx scattering curves}}}{73}{subfigure.6.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Isoscattering point intensity}}}{73}{subfigure.6.2}
+\contentsline {figure}{\numberline {\relax 6.7}{\ignorespaces Osmotic effects in the intraliposomal doxorubicin-precipitate}}{74}{figure.caption.62}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {DOX diffraction peak}}}{74}{subfigure.7.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Peak position deviation}}}{74}{subfigure.7.2}
+\contentsline {figure}{\numberline {\relax 6.8}{\ignorespaces Isoscattering point position of Caelyx with different solvents.}}{75}{figure.caption.63}
+\contentsline {figure}{\numberline {\relax 6.9}{\ignorespaces Scattering curves of the liposomes in buffer.}}{76}{figure.caption.64}
+\contentsline {figure}{\numberline {\relax 6.10}{\ignorespaces The phospholipid bilayer scattering feature.}}{76}{figure.caption.65}
+\contentsline {figure}{\numberline {\relax 6.11}{\ignorespaces Scattering curves of liposomes measured at different solvent osmolalities.}}{77}{figure.caption.66}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {SSL 81 nm}}}{77}{subfigure.11.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Plain 89 nm}}}{77}{subfigure.11.2}
+\contentsline {figure}{\numberline {\relax 6.12}{\ignorespaces Isoscattering point intensity of liposomes.}}{78}{figure.caption.67}
+\contentsline {figure}{\numberline {\relax 6.13}{\ignorespaces Osmotic effects in the phospholipid bilayer.}}{79}{figure.caption.68}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {PEG 179 nm}}}{79}{subfigure.13.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Plain 128 nm}}}{79}{subfigure.13.2}
+\contentsline {figure}{\numberline {\relax 6.14}{\ignorespaces Continuous contrast variation experimental data of HDL and LDL.}}{81}{figure.caption.69}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {HDL}}}{81}{subfigure.14.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {LDL}}}{81}{subfigure.14.2}
+\contentsline {figure}{\numberline {\relax 6.15}{\ignorespaces Model free-approaches to the experimental data of HDL and LDL.}}{82}{figure.caption.70}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Isoscattering point position}}}{82}{subfigure.15.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Average electron density}}}{82}{subfigure.15.2}
+\contentsline {figure}{\numberline {\relax 6.16}{\ignorespaces Squared radius of the HDL scattering data.}}{83}{figure.caption.71}
+\contentsline {figure}{\numberline {\relax 6.17}{\ignorespaces Scattering curves of PS-COOH particles coated with IgG.}}{84}{figure.caption.72}
+\contentsline {figure}{\numberline {\relax 6.18}{\ignorespaces Isoscattering point position before and after attaching IgG.}}{86}{figure.caption.74}
 \addvspace {10\p@ }
 \select@language {ngerman}
 \select@language {ngerman}
