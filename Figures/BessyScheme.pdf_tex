@@ -1,0 +1,72 @@
+%% Creator: Inkscape inkscape 0.48.5, www.inkscape.org
+%% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
+%% Accompanies image file 'BessyScheme.pdf' (pdf, eps, ps)
+%%
+%% To include the image in your LaTeX document, write
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics{<filename>.pdf}
+%% To scale the image, write
+%%   \def\svgwidth{<desired width>}
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics[width=<desired width>]{<filename>.pdf}
+%%
+%% Images with a different path to the parent latex file can
+%% be accessed with the `import' package (which may need to be
+%% installed) using
+%%   \usepackage{import}
+%% in the preamble, and then including the image with
+%%   \import{<path to file>}{<filename>.pdf_tex}
+%% Alternatively, one can specify
+%%   \graphicspath{{<path to file>/}}
+%% 
+%% For more information, please see info/svg-inkscape on CTAN:
+%%   http://tug.ctan.org/tex-archive/info/svg-inkscape
+%%
+\begingroup%
+  \makeatletter%
+  \providecommand\color[2][]{%
+    \errmessage{(Inkscape) Color is used for the text in Inkscape, but the package 'color.sty' is not loaded}%
+    \renewcommand\color[2][]{}%
+  }%
+  \providecommand\transparent[1]{%
+    \errmessage{(Inkscape) Transparency is used (non-zero) for the text in Inkscape, but the package 'transparent.sty' is not loaded}%
+    \renewcommand\transparent[1]{}%
+  }%
+  \providecommand\rotatebox[2]{#2}%
+  \ifx\svgwidth\undefined%
+    \setlength{\unitlength}{725.94023049bp}%
+    \ifx\svgscale\undefined%
+      \relax%
+    \else%
+      \setlength{\unitlength}{\unitlength * \real{\svgscale}}%
+    \fi%
+  \else%
+    \setlength{\unitlength}{\svgwidth}%
+  \fi%
+  \global\let\svgwidth\undefined%
+  \global\let\svgscale\undefined%
+  \makeatother%
+  \begin{picture}(1,0.80447749)%
+    \put(0,0){\includegraphics[width=\unitlength]{BessyScheme.pdf}}%
+    \put(0.27023171,0.12310173){\makebox(0,0)[lb]{\smash{0}}}%
+    \put(0.35658952,0.12287852){\makebox(0,0)[lb]{\smash{10}}}%
+    \put(0.39544233,0.04280222){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{Storage Ring}}}%
+    \put(0.39730422,0.00498552){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{\textcolor{blue}{240 m}}}}%
+    \put(0.05205577,0.39560447){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Bending Magnet}}}%
+    \put(0.09534293,0.3577878){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{\textcolor{blue}{1.3 T}}}}%
+    \put(0.3213006,0.50023797){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{\shortstack{Booster\\Synchtrotron}}}}%
+    \put(0.31622819,0.46242131){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{\textcolor{blue}{1.72 GeV}}}}%
+    \put(0.60719433,0.78125154){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Electron Beam}}}%
+    \put(0.60887563,0.74217187){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{\textcolor{blue}{90 keV}}}}%
+    \put(0.43845934,0.72346566){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Linac}}}%
+    \put(0.4401406,0.68438599){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{\textcolor{blue}{500 MeV}}}}%
+    \put(0.2015369,0.62869657){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{rf-Cavity}}}%
+    \put(0.20321818,0.5918209){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{\textcolor{blue}{500 MHz}}}}%
+    \put(0.01072218,0.78039141){\color[rgb]{0,0,0}\rotatebox{-84.55539807}{\makebox(0,0)[lb]{\smash{Beamline}}}}%
+    \put(0.45150487,0.12288546){\makebox(0,0)[lb]{\smash{20 m}}}%
+    \put(0.71089386,0.44722781){\color[rgb]{0,0,0}\makebox(0,0)[rb]{\smash{Insertion Device}}}%
+    \put(0.71857475,0.4126636){\color[rgb]{0,0,0}\makebox(0,0)[rb]{\smash{\textcolor{blue}{Undulator}}}}%
+  \end{picture}%
+\endgroup%

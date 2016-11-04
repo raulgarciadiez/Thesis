@@ -53,6 +53,6 @@
     \put(0.045233,0.23736398){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$I_0$}}}%
     \put(0.68238747,0.23483666){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$I=I_0 e^{-\mu d}$}}}%
     \put(0.37657453,0.44301407){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$d$}}}%
-    \put(0.40615732,0.00682994){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{\textcolor{blue}{$x$}}}}%
+    \put(0.3831237,0.00682994){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{\textcolor{blue}{$x$}}}}%
   \end{picture}%
 \endgroup%

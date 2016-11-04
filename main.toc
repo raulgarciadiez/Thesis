@@ -23,9 +23,9 @@
 \contentsline {chapter}{\numberline {3}Instrumentation and experimental setup for SAXS measurements}{21}{chapter.3}
 \contentsline {section}{\numberline {3.1}Synchrotron radiation}{21}{section.3.1}
 \contentsline {subsection}{\numberline {3.1.1}Insertion devices}{22}{subsection.3.1.1}
-\contentsline {section}{\numberline {3.2}The BESSY II electron storage sing}{23}{section.3.2}
+\contentsline {section}{\numberline {3.2}The BESSY II electron storage ring}{23}{section.3.2}
 \contentsline {section}{\numberline {3.3}FCM beamline}{24}{section.3.3}
-\contentsline {subsection}{\numberline {3.3.1}UHV X-ray reflectometer}{25}{subsection.3.3.1}
+\contentsline {subsection}{\numberline {3.3.1}UHV X-ray reflectometer}{26}{subsection.3.3.1}
 \contentsline {section}{\numberline {3.4}SAXS Setup}{26}{section.3.4}
 \contentsline {subsection}{\numberline {3.4.1}X-ray area detector}{26}{subsection.3.4.1}
 \contentsline {subsection}{\numberline {3.4.2}HZB SAXS instrument and WAXS configuration}{27}{subsection.3.4.2}
