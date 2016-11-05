@@ -71,59 +71,66 @@
       \expandafter\def\csname LT8\endcsname{\color{black}}%
     \fi
   \fi
-  \setlength{\unitlength}{0.0500bp}%
-  \begin{picture}(5668.00,4534.00)%
+    \setlength{\unitlength}{0.0500bp}%
+    \ifx\gptboxheight\undefined%
+      \newlength{\gptboxheight}%
+      \newlength{\gptboxwidth}%
+      \newsavebox{\gptboxtext}%
+    \fi%
+    \setlength{\fboxrule}{0.5pt}%
+    \setlength{\fboxsep}{1pt}%
+\begin{picture}(5668.00,4534.00)%
     \gplgaddtomacro\gplbacktext{%
       \csname LTb\endcsname%
-      \put(682,704){\makebox(0,0)[r]{\strut{}-8}}%
+      \put(682,704){\makebox(0,0)[r]{\strut{}$-8$}}%
       \csname LTb\endcsname%
-      \put(682,1028){\makebox(0,0)[r]{\strut{}-7}}%
+      \put(682,1028){\makebox(0,0)[r]{\strut{}$-7$}}%
       \csname LTb\endcsname%
-      \put(682,1352){\makebox(0,0)[r]{\strut{}-6}}%
+      \put(682,1352){\makebox(0,0)[r]{\strut{}$-6$}}%
       \csname LTb\endcsname%
-      \put(682,1676){\makebox(0,0)[r]{\strut{}-5}}%
+      \put(682,1676){\makebox(0,0)[r]{\strut{}$-5$}}%
       \csname LTb\endcsname%
-      \put(682,2000){\makebox(0,0)[r]{\strut{}-4}}%
+      \put(682,2000){\makebox(0,0)[r]{\strut{}$-4$}}%
       \csname LTb\endcsname%
-      \put(682,2324){\makebox(0,0)[r]{\strut{}-3}}%
+      \put(682,2324){\makebox(0,0)[r]{\strut{}$-3$}}%
       \csname LTb\endcsname%
-      \put(682,2649){\makebox(0,0)[r]{\strut{}-2}}%
+      \put(682,2649){\makebox(0,0)[r]{\strut{}$-2$}}%
       \csname LTb\endcsname%
-      \put(682,2973){\makebox(0,0)[r]{\strut{}-1}}%
+      \put(682,2973){\makebox(0,0)[r]{\strut{}$-1$}}%
       \csname LTb\endcsname%
-      \put(682,3297){\makebox(0,0)[r]{\strut{} 0}}%
+      \put(682,3297){\makebox(0,0)[r]{\strut{}$0$}}%
       \csname LTb\endcsname%
-      \put(682,3621){\makebox(0,0)[r]{\strut{} 1}}%
+      \put(682,3621){\makebox(0,0)[r]{\strut{}$1$}}%
       \csname LTb\endcsname%
-      \put(682,3945){\makebox(0,0)[r]{\strut{} 2}}%
+      \put(682,3945){\makebox(0,0)[r]{\strut{}$2$}}%
       \csname LTb\endcsname%
-      \put(682,4269){\makebox(0,0)[r]{\strut{} 3}}%
+      \put(682,4269){\makebox(0,0)[r]{\strut{}$3$}}%
       \csname LTb\endcsname%
-      \put(814,484){\makebox(0,0){\strut{} 0}}%
+      \put(814,484){\makebox(0,0){\strut{}$0$}}%
       \csname LTb\endcsname%
-      \put(1557,484){\makebox(0,0){\strut{} 5}}%
+      \put(1557,484){\makebox(0,0){\strut{}$5$}}%
       \csname LTb\endcsname%
-      \put(2300,484){\makebox(0,0){\strut{} 10}}%
+      \put(2300,484){\makebox(0,0){\strut{}$10$}}%
       \csname LTb\endcsname%
-      \put(3043,484){\makebox(0,0){\strut{} 15}}%
+      \put(3043,484){\makebox(0,0){\strut{}$15$}}%
       \csname LTb\endcsname%
-      \put(3785,484){\makebox(0,0){\strut{} 20}}%
+      \put(3785,484){\makebox(0,0){\strut{}$20$}}%
       \csname LTb\endcsname%
-      \put(4528,484){\makebox(0,0){\strut{} 25}}%
+      \put(4528,484){\makebox(0,0){\strut{}$25$}}%
       \csname LTb\endcsname%
-      \put(5271,484){\makebox(0,0){\strut{} 30}}%
-      \put(176,2486){\rotatebox{-270}{\makebox(0,0){\strut{}Isoscattering point deviation / $\%$}}}%
-      \put(3042,154){\makebox(0,0){\strut{}Polydispersity degree / $\%$}}%
+      \put(5271,484){\makebox(0,0){\strut{}$30$}}%
     }%
     \gplgaddtomacro\gplfronttext{%
       \csname LTb\endcsname%
-      \put(1715,2214){\makebox(0,0){\strut{}Ratio $\sfrac{R_{\text{core}}}{R}$}}%
+      \put(176,2486){\rotatebox{-270}{\makebox(0,0){\strut{}Isoscattering point deviation / $\%$}}}%
+      \put(3042,154){\makebox(0,0){\strut{}Polydispersity degree / $\%$}}%
+      \put(1879,2159){\makebox(0,0){\strut{}Ratio $\sfrac{R_{\text{core}}}{R}$}}%
       \csname LTb\endcsname%
-      \put(1816,1939){\makebox(0,0)[r]{\strut{}69 $\%$}}%
+      \put(1747,1939){\makebox(0,0)[r]{\strut{}69 $\%$}}%
       \csname LTb\endcsname%
-      \put(1816,1609){\makebox(0,0)[r]{\strut{}83 $\%$}}%
+      \put(1747,1609){\makebox(0,0)[r]{\strut{}83 $\%$}}%
       \csname LTb\endcsname%
-      \put(1816,1279){\makebox(0,0)[r]{\strut{}94 $\%$}}%
+      \put(1747,1279){\makebox(0,0)[r]{\strut{}94 $\%$}}%
     }%
     \gplbacktext
     \put(0,0){\includegraphics{IsopointSimulationPolydispersity}}%

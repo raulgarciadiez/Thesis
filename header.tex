@@ -10,6 +10,14 @@
 \usepackage{floatrow}
 \DeclareColorBox{imgbg}{\fcolorbox{white}{white}}
 
+
+
+
+\usepackage{capt-of}  %%%% table and figure side by side
+
+
+
+
 \input{final-head-start}
 
         
@@ -44,6 +52,8 @@
   \endgroup
 }
 
+\usepackage{relsize} %size relative to other in sub floats
+
 %%%% Comment-Sections
 \usepackage{comment} %% drinnen lassen fuer Lang-Abstract
 
@@ -66,3 +76,6 @@
 %%%%% eigene Kommandos
 \newcommand{\fssmall}[0]{\fontsize{8pt}{8pt}\selectfont}
 \newcommand{\fsmedium}[0]{\fontsize{10pt}{10pt}\selectfont}
+
+\newcommand{\figfont}[1]{\fontsize{#1}{#1}\selectfont} %   font size in subfloat figure
+

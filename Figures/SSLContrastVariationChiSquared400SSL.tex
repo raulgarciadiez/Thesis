@@ -71,51 +71,59 @@
       \expandafter\def\csname LT8\endcsname{\color{black}}%
     \fi
   \fi
-  \setlength{\unitlength}{0.0500bp}%
-  \begin{picture}(5668.00,4534.00)%
+    \setlength{\unitlength}{0.0500bp}%
+    \ifx\gptboxheight\undefined%
+      \newlength{\gptboxheight}%
+      \newlength{\gptboxwidth}%
+      \newsavebox{\gptboxtext}%
+    \fi%
+    \setlength{\fboxrule}{0.5pt}%
+    \setlength{\fboxsep}{1pt}%
+\begin{picture}(5668.00,4534.00)%
     \gplgaddtomacro\gplbacktext{%
       \csname LTb\endcsname%
-      \put(594,704){\makebox(0,0)[r]{\strut{} 0}}%
+      \put(462,704){\makebox(0,0)[r]{\strut{}$0$}}%
       \csname LTb\endcsname%
-      \put(594,1232){\makebox(0,0)[r]{\strut{} 2}}%
+      \put(462,1232){\makebox(0,0)[r]{\strut{}$2$}}%
       \csname LTb\endcsname%
-      \put(594,1760){\makebox(0,0)[r]{\strut{} 4}}%
+      \put(462,1760){\makebox(0,0)[r]{\strut{}$4$}}%
       \csname LTb\endcsname%
-      \put(594,2289){\makebox(0,0)[r]{\strut{} 6}}%
+      \put(462,2289){\makebox(0,0)[r]{\strut{}$6$}}%
       \csname LTb\endcsname%
-      \put(594,2817){\makebox(0,0)[r]{\strut{} 8}}%
+      \put(462,2817){\makebox(0,0)[r]{\strut{}$8$}}%
       \csname LTb\endcsname%
-      \put(594,3345){\makebox(0,0)[r]{\strut{} 10}}%
+      \put(462,3345){\makebox(0,0)[r]{\strut{}$10$}}%
       \csname LTb\endcsname%
-      \put(594,3873){\makebox(0,0)[r]{\strut{} 12}}%
+      \put(462,3873){\makebox(0,0)[r]{\strut{}$12$}}%
       \csname LTb\endcsname%
-      \put(726,484){\makebox(0,0){\strut{} 0}}%
+      \put(594,484){\makebox(0,0){\strut{}$0$}}%
       \csname LTb\endcsname%
-      \put(1261,484){\makebox(0,0){\strut{} 1}}%
+      \put(1144,484){\makebox(0,0){\strut{}$1$}}%
       \csname LTb\endcsname%
-      \put(1795,484){\makebox(0,0){\strut{} 2}}%
+      \put(1694,484){\makebox(0,0){\strut{}$2$}}%
       \csname LTb\endcsname%
-      \put(2330,484){\makebox(0,0){\strut{} 3}}%
+      \put(2245,484){\makebox(0,0){\strut{}$3$}}%
       \csname LTb\endcsname%
-      \put(2865,484){\makebox(0,0){\strut{} 4}}%
+      \put(2795,484){\makebox(0,0){\strut{}$4$}}%
       \csname LTb\endcsname%
-      \put(3400,484){\makebox(0,0){\strut{} 5}}%
+      \put(3345,484){\makebox(0,0){\strut{}$5$}}%
       \csname LTb\endcsname%
-      \put(3934,484){\makebox(0,0){\strut{} 6}}%
+      \put(3895,484){\makebox(0,0){\strut{}$6$}}%
       \csname LTb\endcsname%
-      \put(4469,484){\makebox(0,0){\strut{} 7}}%
+      \put(4446,484){\makebox(0,0){\strut{}$7$}}%
       \csname LTb\endcsname%
-      \put(5004,484){\makebox(0,0){\strut{} 8}}%
-      \put(1362,4093){\makebox(0,0){\strut{} 350}}%
-      \put(2200,4093){\makebox(0,0){\strut{} 400}}%
-      \put(3037,4093){\makebox(0,0){\strut{} 450}}%
-      \put(3874,4093){\makebox(0,0){\strut{} 500}}%
-      \put(4712,4093){\makebox(0,0){\strut{} 550}}%
-      \put(220,2288){\rotatebox{-270}{\makebox(0,0){\strut{}Normalized $\chi^2$}}}%
-      \put(2998,154){\makebox(0,0){\strut{}Sucrose Mass Fraction / $\%$}}%
-      \put(2998,4422){\makebox(0,0){\strut{}Solvent Osmolality / mOsm kg$^{-1}$}}%
+      \put(4996,484){\makebox(0,0){\strut{}$8$}}%
+      \put(1249,4093){\makebox(0,0){\strut{}$350$}}%
+      \put(2111,4093){\makebox(0,0){\strut{}$400$}}%
+      \put(2972,4093){\makebox(0,0){\strut{}$450$}}%
+      \put(3834,4093){\makebox(0,0){\strut{}$500$}}%
+      \put(4696,4093){\makebox(0,0){\strut{}$550$}}%
     }%
     \gplgaddtomacro\gplfronttext{%
+      \csname LTb\endcsname%
+      \put(220,2288){\rotatebox{-270}{\makebox(0,0){\strut{}Normalized $\chi^2$}}}%
+      \put(2932,154){\makebox(0,0){\strut{}Sucrose Mass Fraction / $\%$}}%
+      \put(2932,4422){\makebox(0,0){\strut{}Solvent Osmolality / mOsm kg$^{-1}$}}%
     }%
     \gplbacktext
     \put(0,0){\includegraphics{SSLContrastVariationChiSquared400SSL}}%

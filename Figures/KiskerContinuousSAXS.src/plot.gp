@@ -8,14 +8,13 @@ set xrange [0.03:0.5]
 set yrange [0.6:1.5e3]
 
 set key spacing 1.5
-set key 0.075,5
+set key at 0.075,5
 set xtics (0.03,0.05,0.1,0.2,0.3,0.5)
 
-set cblabel '\fsmedium Solvent Electron Density / nm$^{-3}$' offset -1,0  rotate by -90
-set cbtics offset -1,0 format '\fsmedium %g'
+set cblabel '\smaller Solvent Electron Density / nm$^{-3}$' offset -2,0  rotate by -90
+set cbtics format '\smaller %.0f' offset 0.25,0
 
 set cbrange [360.3:333.7]
-set format cb "%.1f"
 
 N=1.e22
 

@@ -71,46 +71,54 @@
       \expandafter\def\csname LT8\endcsname{\color{black}}%
     \fi
   \fi
-  \setlength{\unitlength}{0.0500bp}%
-  \begin{picture}(5668.00,4534.00)%
+    \setlength{\unitlength}{0.0500bp}%
+    \ifx\gptboxheight\undefined%
+      \newlength{\gptboxheight}%
+      \newlength{\gptboxwidth}%
+      \newsavebox{\gptboxtext}%
+    \fi%
+    \setlength{\fboxrule}{0.5pt}%
+    \setlength{\fboxsep}{1pt}%
+\begin{picture}(5668.00,4534.00)%
     \gplgaddtomacro\gplbacktext{%
       \csname LTb\endcsname%
-      \put(814,1869){\makebox(0,0)[r]{\strut{} 130}}%
+      \put(682,1869){\makebox(0,0)[r]{\strut{}$130$}}%
       \csname LTb\endcsname%
-      \put(814,2297){\makebox(0,0)[r]{\strut{} 135}}%
+      \put(682,2297){\makebox(0,0)[r]{\strut{}$135$}}%
       \csname LTb\endcsname%
-      \put(814,2726){\makebox(0,0)[r]{\strut{} 140}}%
+      \put(682,2726){\makebox(0,0)[r]{\strut{}$140$}}%
       \csname LTb\endcsname%
-      \put(814,3155){\makebox(0,0)[r]{\strut{} 145}}%
+      \put(682,3155){\makebox(0,0)[r]{\strut{}$145$}}%
       \csname LTb\endcsname%
-      \put(814,3583){\makebox(0,0)[r]{\strut{} 150}}%
+      \put(682,3583){\makebox(0,0)[r]{\strut{}$150$}}%
       \csname LTb\endcsname%
-      \put(814,4012){\makebox(0,0)[r]{\strut{} 155}}%
+      \put(682,4012){\makebox(0,0)[r]{\strut{}$155$}}%
       \csname LTb\endcsname%
-      \put(1179,1394){\rotatebox{-45}{\makebox(0,0)[l]{\strut{}AFM (SMD)}}}%
+      \put(1054,1394){\rotatebox{-45}{\makebox(0,0)[l]{\strut{}AFM (SMD)}}}%
       \csname LTb\endcsname%
-      \put(1644,1394){\rotatebox{-45}{\makebox(0,0)[l]{\strut{}AFM (METAS)}}}%
+      \put(1533,1394){\rotatebox{-45}{\makebox(0,0)[l]{\strut{}AFM (METAS)}}}%
       \csname LTb\endcsname%
-      \put(2109,1394){\rotatebox{-45}{\makebox(0,0)[l]{\strut{}AFM (VSL)}}}%
+      \put(2012,1394){\rotatebox{-45}{\makebox(0,0)[l]{\strut{}AFM (VSL)}}}%
       \csname LTb\endcsname%
-      \put(2574,1394){\rotatebox{-45}{\makebox(0,0)[l]{\strut{}TSEM}}}%
+      \put(2491,1394){\rotatebox{-45}{\makebox(0,0)[l]{\strut{}TSEM}}}%
       \csname LTb\endcsname%
-      \put(3039,1394){\rotatebox{-45}{\makebox(0,0)[l]{\strut{}DCS}}}%
+      \put(2971,1394){\rotatebox{-45}{\makebox(0,0)[l]{\strut{}DCS}}}%
       \csname LTb\endcsname%
-      \put(3504,1394){\rotatebox{-45}{\makebox(0,0)[l]{\strut{}Core-shell}}}%
+      \put(3450,1394){\rotatebox{-45}{\makebox(0,0)[l]{\strut{}Core-shell}}}%
       \csname LTb\endcsname%
-      \put(3969,1394){\rotatebox{-45}{\makebox(0,0)[l]{\strut{}Shape function}}}%
+      \put(3929,1394){\rotatebox{-45}{\makebox(0,0)[l]{\strut{}Shape function}}}%
       \csname LTb\endcsname%
-      \put(4341,1394){\rotatebox{-45}{\makebox(0,0)[l]{\strut{}$I_1$}}}%
+      \put(4313,1394){\rotatebox{-45}{\makebox(0,0)[l]{\strut{}$I_1$}}}%
       \csname LTb\endcsname%
-      \put(4573,1394){\rotatebox{-45}{\makebox(0,0)[l]{\strut{}$I_2$}}}%
+      \put(4552,1394){\rotatebox{-45}{\makebox(0,0)[l]{\strut{}$I_2$}}}%
       \csname LTb\endcsname%
-      \put(4806,1394){\rotatebox{-45}{\makebox(0,0)[l]{\strut{}$I_3$}}}%
+      \put(4792,1394){\rotatebox{-45}{\makebox(0,0)[l]{\strut{}$I_3$}}}%
       \csname LTb\endcsname%
-      \put(5038,1394){\rotatebox{-45}{\makebox(0,0)[l]{\strut{}$I_4$}}}%
-      \put(176,2897){\rotatebox{-270}{\makebox(0,0){\strut{}Diameter / nm}}}%
+      \put(5031,1394){\rotatebox{-45}{\makebox(0,0)[l]{\strut{}$I_4$}}}%
     }%
     \gplgaddtomacro\gplfronttext{%
+      \csname LTb\endcsname%
+      \put(176,2897){\rotatebox{-270}{\makebox(0,0){\strut{}Diameter / nm}}}%
     }%
     \gplbacktext
     \put(0,0){\includegraphics{PSPlainSizeComparison}}%

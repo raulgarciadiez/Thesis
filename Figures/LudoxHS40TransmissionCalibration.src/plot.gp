@@ -9,10 +9,11 @@ set autoscale
 set xrange [0:14.5]
 
 set xlabel 'Vertical Position / mm'
-set ylabel 'Particle Mass Concentration / $\%$' offset 2
+set ylabel 'Particle Mass Concentration / $\%$' offset 1
 set y2label 'X-ray Transmission / $\%$' rotate by 270 offset -2.5
 
-set cblabel 'Diffusion Time / min' rotate by 270 offset 0
+set cblabel '\smaller Diffusion Time / min' rotate by 270 offset -2
+set cbtics format '\smaller %.0f'
 
 #unset colorbox
 #load '../style.gp'

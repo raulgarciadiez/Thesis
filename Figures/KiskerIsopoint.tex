@@ -71,34 +71,42 @@
       \expandafter\def\csname LT8\endcsname{\color{black}}%
     \fi
   \fi
-  \setlength{\unitlength}{0.0500bp}%
-  \begin{picture}(5668.00,4534.00)%
+    \setlength{\unitlength}{0.0500bp}%
+    \ifx\gptboxheight\undefined%
+      \newlength{\gptboxheight}%
+      \newlength{\gptboxwidth}%
+      \newsavebox{\gptboxtext}%
+    \fi%
+    \setlength{\fboxrule}{0.5pt}%
+    \setlength{\fboxsep}{1pt}%
+\begin{picture}(5668.00,4534.00)%
     \gplgaddtomacro\gplbacktext{%
       \csname LTb\endcsname%
-      \put(946,1439){\makebox(0,0)[r]{\strut{} 0.1}}%
+      \put(814,1439){\makebox(0,0)[r]{\strut{}$0.1$}}%
       \csname LTb\endcsname%
-      \put(946,2291){\makebox(0,0)[r]{\strut{} 0.2}}%
+      \put(814,2291){\makebox(0,0)[r]{\strut{}$0.2$}}%
       \csname LTb\endcsname%
-      \put(946,3417){\makebox(0,0)[r]{\strut{} 0.5}}%
+      \put(814,3417){\makebox(0,0)[r]{\strut{}$0.5$}}%
       \csname LTb\endcsname%
-      \put(946,4269){\makebox(0,0)[r]{\strut{} 1}}%
+      \put(814,4269){\makebox(0,0)[r]{\strut{}$1$}}%
       \csname LTb\endcsname%
-      \put(1078,484){\makebox(0,0){\strut{} 0.07}}%
+      \put(946,484){\makebox(0,0){\strut{}$0.07$}}%
       \csname LTb\endcsname%
-      \put(1839,484){\makebox(0,0){\strut{} 0.1}}%
+      \put(1731,484){\makebox(0,0){\strut{}$0.1$}}%
       \csname LTb\endcsname%
-      \put(3317,484){\makebox(0,0){\strut{} 0.2}}%
+      \put(3255,484){\makebox(0,0){\strut{}$0.2$}}%
       \csname LTb\endcsname%
-      \put(5271,484){\makebox(0,0){\strut{} 0.5}}%
-      \put(176,2486){\rotatebox{-270}{\makebox(0,0){\strut{}Rel. Std. Deviation}}}%
-      \put(3174,154){\makebox(0,0){\strut{}$q$ / nm$^{-1}$}}%
-      \put(1614,1309){\makebox(0,0)[l]{\strut{}$q^{\star}_1$}}%
-      \put(2703,811){\makebox(0,0)[l]{\strut{}$q^{\star}_2$}}%
-      \put(3520,587){\makebox(0,0)[l]{\strut{}$q^{\star}_3$}}%
-      \put(4034,811){\makebox(0,0)[l]{\strut{}$q^{\star}_4$}}%
-      \put(4510,1663){\makebox(0,0)[l]{\strut{}$q^{\star}_5$}}%
+      \put(5271,484){\makebox(0,0){\strut{}$0.5$}}%
+      \put(1098,1611){\makebox(0,0)[l]{\strut{}$q^{\star}_1$}}%
+      \put(2221,1439){\makebox(0,0)[l]{\strut{}$q^{\star}_2$}}%
+      \put(3024,1239){\makebox(0,0)[l]{\strut{}$q^{\star}_3$}}%
+      \put(4219,1439){\makebox(0,0)[l]{\strut{}$q^{\star}_4$}}%
+      \put(4579,1808){\makebox(0,0)[l]{\strut{}$q^{\star}_5$}}%
     }%
     \gplgaddtomacro\gplfronttext{%
+      \csname LTb\endcsname%
+      \put(176,2486){\rotatebox{-270}{\makebox(0,0){\strut{}Rel. Std. Deviation}}}%
+      \put(3108,154){\makebox(0,0){\strut{}$q$ / nm$^{-1}$}}%
     }%
     \gplbacktext
     \put(0,0){\includegraphics{KiskerIsopoint}}%

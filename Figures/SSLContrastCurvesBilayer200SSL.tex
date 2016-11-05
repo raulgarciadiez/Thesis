@@ -71,35 +71,43 @@
       \expandafter\def\csname LT8\endcsname{\color{black}}%
     \fi
   \fi
-  \setlength{\unitlength}{0.0500bp}%
-  \begin{picture}(3968.00,6236.00)%
+    \setlength{\unitlength}{0.0500bp}%
+    \ifx\gptboxheight\undefined%
+      \newlength{\gptboxheight}%
+      \newlength{\gptboxwidth}%
+      \newsavebox{\gptboxtext}%
+    \fi%
+    \setlength{\fboxrule}{0.5pt}%
+    \setlength{\fboxsep}{1pt}%
+\begin{picture}(3968.00,6236.00)%
     \gplgaddtomacro\gplbacktext{%
       \csname LTb\endcsname%
-      \put(726,1366){\makebox(0,0)[r]{\strut{} 0.2}}%
+      \put(594,1366){\makebox(0,0)[r]{\strut{}$0.2$}}%
       \csname LTb\endcsname%
-      \put(726,2775){\makebox(0,0)[r]{\strut{} 0.5}}%
+      \put(594,2775){\makebox(0,0)[r]{\strut{}$0.5$}}%
       \csname LTb\endcsname%
-      \put(726,3840){\makebox(0,0)[r]{\strut{} 1}}%
+      \put(594,3840){\makebox(0,0)[r]{\strut{}$1$}}%
       \csname LTb\endcsname%
-      \put(726,4906){\makebox(0,0)[r]{\strut{} 2}}%
+      \put(594,4906){\makebox(0,0)[r]{\strut{}$2$}}%
       \csname LTb\endcsname%
-      \put(1493,484){\makebox(0,0){\strut{} 0.5}}%
+      \put(1398,484){\makebox(0,0){\strut{}$0.5$}}%
       \csname LTb\endcsname%
-      \put(2127,484){\makebox(0,0){\strut{} 1}}%
+      \put(2070,484){\makebox(0,0){\strut{}$1$}}%
       \csname LTb\endcsname%
-      \put(2762,484){\makebox(0,0){\strut{} 2}}%
-      \put(220,3117){\rotatebox{-270}{\makebox(0,0){\strut{}Scattering Intensity / a.u.}}}%
-      \put(1874,154){\makebox(0,0){\strut{}$q$ / nm$^{-1}$}}%
+      \put(2742,484){\makebox(0,0){\strut{}$2$}}%
     }%
     \gplgaddtomacro\gplfronttext{%
       \csname LTb\endcsname%
-      \put(3043,704){\makebox(0,0)[l]{\strut{}\fsmedium 0}}%
-      \put(3043,1707){\makebox(0,0)[l]{\strut{}\fsmedium 2}}%
-      \put(3043,2710){\makebox(0,0)[l]{\strut{}\fsmedium 4}}%
-      \put(3043,3713){\makebox(0,0)[l]{\strut{}\fsmedium 6}}%
-      \put(3043,4716){\makebox(0,0)[l]{\strut{}\fsmedium 8}}%
-      \put(3043,5720){\makebox(0,0)[l]{\strut{}\fsmedium 10}}%
-      \put(3637,3337){\rotatebox{-90}{\makebox(0,0){\strut{}Sucrose Concentration / $\%$}}}%
+      \put(220,3117){\rotatebox{-270}{\makebox(0,0){\strut{}Scattering Intensity / a.u.}}}%
+      \put(1801,154){\makebox(0,0){\strut{}$q$ / nm$^{-1}$}}%
+      \csname LTb\endcsname%
+      \put(3039,704){\makebox(0,0)[l]{\strut{}\fsmedium 0}}%
+      \put(3039,1707){\makebox(0,0)[l]{\strut{}\fsmedium 2}}%
+      \put(3039,2710){\makebox(0,0)[l]{\strut{}\fsmedium 4}}%
+      \put(3039,3713){\makebox(0,0)[l]{\strut{}\fsmedium 6}}%
+      \put(3039,4716){\makebox(0,0)[l]{\strut{}\fsmedium 8}}%
+      \put(3039,5720){\makebox(0,0)[l]{\strut{}\fsmedium 10}}%
+      \put(3633,3337){\rotatebox{-90}{\makebox(0,0){\strut{}Sucrose Concentration / $\%$}}}%
     }%
     \gplbacktext
     \put(0,0){\includegraphics{SSLContrastCurvesBilayer200SSL}}%

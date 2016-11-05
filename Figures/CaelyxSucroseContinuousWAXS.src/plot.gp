@@ -8,7 +8,7 @@ set xrange [1.8:3.]
 set yrange [0:1.e-3]
 
 set key spacing 1.5
-set key 0.075,5
+set key at 0.075,5
 set xtics (2.,2.5,3.)
 
 set cblabel '\fsmedium Solvent Osmolality / mOsm kg$^{-1}$' offset -3,0  rotate by -90

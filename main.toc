@@ -47,7 +47,7 @@
 \contentsline {subsection}{\numberline {4.3.3}Guinier region}{44}{subsection.4.3.3}
 \contentsline {subsubsection}{Average electron density}{46}{subsubsection*.36}
 \contentsline {subsection}{\numberline {4.3.4}Consistency of the results}{47}{subsection.4.3.4}
-\contentsline {section}{\numberline {4.4}Applicability of the technique and comparison with other contrast variation approaches}{47}{section.4.4}
+\contentsline {section}{\numberline {4.4}Applicability and comparison with other contrast variation approaches}{47}{section.4.4}
 \contentsline {subsection}{\numberline {4.4.1}Other possible applications of the density gradient capillary}{49}{subsection.4.4.1}
 \contentsline {chapter}{\numberline {5}Simultaneous size and density determination of polymeric colloids}{51}{chapter.5}
 \contentsline {section}{\numberline {5.1}Materials and methods}{52}{section.5.1}

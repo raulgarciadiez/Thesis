@@ -71,25 +71,33 @@
       \expandafter\def\csname LT8\endcsname{\color{black}}%
     \fi
   \fi
-  \setlength{\unitlength}{0.0500bp}%
-  \begin{picture}(3968.00,6236.00)%
+    \setlength{\unitlength}{0.0500bp}%
+    \ifx\gptboxheight\undefined%
+      \newlength{\gptboxheight}%
+      \newlength{\gptboxwidth}%
+      \newsavebox{\gptboxtext}%
+    \fi%
+    \setlength{\fboxrule}{0.5pt}%
+    \setlength{\fboxsep}{1pt}%
+\begin{picture}(3968.00,6236.00)%
     \gplgaddtomacro\gplbacktext{%
       \csname LTb\endcsname%
-      \put(726,1118){\makebox(0,0)[r]{\strut{} 1}}%
+      \put(594,1118){\makebox(0,0)[r]{\strut{}$1$}}%
       \csname LTb\endcsname%
-      \put(726,2983){\makebox(0,0)[r]{\strut{} 10}}%
+      \put(594,2983){\makebox(0,0)[r]{\strut{}$10$}}%
       \csname LTb\endcsname%
-      \put(726,4848){\makebox(0,0)[r]{\strut{} 100}}%
+      \put(594,4848){\makebox(0,0)[r]{\strut{}$100$}}%
       \csname LTb\endcsname%
-      \put(1413,484){\makebox(0,0){\strut{} 0.5}}%
+      \put(1308,484){\makebox(0,0){\strut{}$0.5$}}%
       \csname LTb\endcsname%
-      \put(2492,484){\makebox(0,0){\strut{} 1}}%
+      \put(2440,484){\makebox(0,0){\strut{}$1$}}%
       \csname LTb\endcsname%
-      \put(3571,484){\makebox(0,0){\strut{} 2}}%
-      \put(220,3117){\rotatebox{-270}{\makebox(0,0){\strut{}Scattering Intensity / a.u.}}}%
-      \put(2214,154){\makebox(0,0){\strut{}$q$ / nm$^{-1}$}}%
+      \put(3571,484){\makebox(0,0){\strut{}$2$}}%
     }%
     \gplgaddtomacro\gplfronttext{%
+      \csname LTb\endcsname%
+      \put(220,3117){\rotatebox{-270}{\makebox(0,0){\strut{}Scattering Intensity / a.u.}}}%
+      \put(2148,154){\makebox(0,0){\strut{}$q$ / nm$^{-1}$}}%
       \csname LTb\endcsname%
       \put(2584,5798){\makebox(0,0)[r]{\strut{}PEG 103 nm}}%
       \csname LTb\endcsname%

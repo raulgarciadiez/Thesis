@@ -71,45 +71,53 @@
       \expandafter\def\csname LT8\endcsname{\color{black}}%
     \fi
   \fi
-  \setlength{\unitlength}{0.0500bp}%
-  \begin{picture}(5668.00,4534.00)%
+    \setlength{\unitlength}{0.0500bp}%
+    \ifx\gptboxheight\undefined%
+      \newlength{\gptboxheight}%
+      \newlength{\gptboxwidth}%
+      \newsavebox{\gptboxtext}%
+    \fi%
+    \setlength{\fboxrule}{0.5pt}%
+    \setlength{\fboxsep}{1pt}%
+\begin{picture}(5668.00,4534.00)%
     \gplgaddtomacro\gplbacktext{%
       \csname LTb\endcsname%
-      \put(1012,704){\makebox(0,0)[r]{\strut{} 180}}%
+      \put(880,704){\makebox(0,0)[r]{\strut{}$180$}}%
       \csname LTb\endcsname%
-      \put(1012,1150){\makebox(0,0)[r]{\strut{} 190}}%
+      \put(880,1150){\makebox(0,0)[r]{\strut{}$190$}}%
       \csname LTb\endcsname%
-      \put(1012,1595){\makebox(0,0)[r]{\strut{} 200}}%
+      \put(880,1595){\makebox(0,0)[r]{\strut{}$200$}}%
       \csname LTb\endcsname%
-      \put(1012,2041){\makebox(0,0)[r]{\strut{} 210}}%
+      \put(880,2041){\makebox(0,0)[r]{\strut{}$210$}}%
       \csname LTb\endcsname%
-      \put(1012,2487){\makebox(0,0)[r]{\strut{} 220}}%
+      \put(880,2487){\makebox(0,0)[r]{\strut{}$220$}}%
       \csname LTb\endcsname%
-      \put(1012,2932){\makebox(0,0)[r]{\strut{} 230}}%
+      \put(880,2932){\makebox(0,0)[r]{\strut{}$230$}}%
       \csname LTb\endcsname%
-      \put(1012,3378){\makebox(0,0)[r]{\strut{} 240}}%
+      \put(880,3378){\makebox(0,0)[r]{\strut{}$240$}}%
       \csname LTb\endcsname%
-      \put(1012,3823){\makebox(0,0)[r]{\strut{} 250}}%
+      \put(880,3823){\makebox(0,0)[r]{\strut{}$250$}}%
       \csname LTb\endcsname%
-      \put(1012,4269){\makebox(0,0)[r]{\strut{} 260}}%
+      \put(880,4269){\makebox(0,0)[r]{\strut{}$260$}}%
       \csname LTb\endcsname%
-      \put(1144,484){\makebox(0,0){\strut{} 0.019}}%
+      \put(1012,484){\makebox(0,0){\strut{}$0.019$}}%
       \csname LTb\endcsname%
-      \put(1832,484){\makebox(0,0){\strut{} 0.02}}%
+      \put(1722,484){\makebox(0,0){\strut{}$0.02$}}%
       \csname LTb\endcsname%
-      \put(2520,484){\makebox(0,0){\strut{} 0.021}}%
+      \put(2432,484){\makebox(0,0){\strut{}$0.021$}}%
       \csname LTb\endcsname%
-      \put(3208,484){\makebox(0,0){\strut{} 0.022}}%
+      \put(3142,484){\makebox(0,0){\strut{}$0.022$}}%
       \csname LTb\endcsname%
-      \put(3895,484){\makebox(0,0){\strut{} 0.023}}%
+      \put(3851,484){\makebox(0,0){\strut{}$0.023$}}%
       \csname LTb\endcsname%
-      \put(4583,484){\makebox(0,0){\strut{} 0.024}}%
+      \put(4561,484){\makebox(0,0){\strut{}$0.024$}}%
       \csname LTb\endcsname%
-      \put(5271,484){\makebox(0,0){\strut{} 0.025}}%
-      \put(176,2486){\rotatebox{-270}{\makebox(0,0){\strut{}Pressure difference / mOsm kg$^{-1}$}}}%
-      \put(3339,154){\makebox(0,0){\strut{}1/Radius / nm$^{-1}$}}%
+      \put(5271,484){\makebox(0,0){\strut{}$0.025$}}%
     }%
     \gplgaddtomacro\gplfronttext{%
+      \csname LTb\endcsname%
+      \put(176,2486){\rotatebox{-270}{\makebox(0,0){\strut{}Pressure difference / mOsm kg$^{-1}$}}}%
+      \put(3273,154){\makebox(0,0){\strut{}1/Radius / nm$^{-1}$}}%
     }%
     \gplbacktext
     \put(0,0){\includegraphics{SSLPoissonOsmoticShrinkage}}%

@@ -13,6 +13,9 @@ set cntrparam levels incremental 0.985, 0.01, 1.016
 set cntrparam points 10
 
 set cbtics (0.99,1.,1.01)
+set xtics (-2,-1,0,1,2)
+set ytics (-4,-2,0,2,4)
+
 
 ymin=-5
 ymax=4

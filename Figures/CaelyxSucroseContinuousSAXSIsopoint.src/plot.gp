@@ -24,7 +24,7 @@ set arrow from osm_thres,2.4 to osm_thres+400,2.4 head filled size screen 0.03,1
 set label "Osmotic\nshrinkage" at osm_thres+100,2.25 front
 set label "Constant\nshape\nand size" at osm_thres-500,2.25 front
 
-set key 2200,1.1
+set key at 2200,1.1
 
 set xtics (0,300,600,900,1200,1500,1800,2100)
 

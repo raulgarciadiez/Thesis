@@ -7,8 +7,7 @@ set ylabel 'Scattering Intensity / a.u.'offset 2
 set autoscale
 set xrange [0.032:0.5]
 set yrange [0.5:1.5e3]
-set key spacing 1.5
-set key 0.12,5
+set key spacing 1.5 at 0.09,5 samplen 2 width -5
 set xtics (0.02,0.03,0.05,0.1,0.2,0.3,0.5)
 
 C0=4.45
@@ -19,7 +18,7 @@ suffixes="334.35, 345.4,356.99"
 
 N=1.e22
 
-p 'Coreshell_fit_334.35.dat' u 1:($2/N) w l ls 1 notitle,'curve_334.35-1.dat' u 1:($2/N) every 2 w p ls 1 t '11.4 nm$^{-3}$', 'Coreshell_fit_345.40.dat' u 1:($2/N) w l ls 2 notitle, 'curve_345.4-1.dat' u 1:($2/N) every 2 w p ls 2 t '0.4 nm$^{-3}$', 'Coreshell_fit_356.99.dat' u 1:($2/N) w l ls 3 notitle, 'curve_356.99-2.dat' u 1:($2/N) every 2 w p ls 3 t '-11.2 nm$^{-3}$'
+p 'Coreshell_fit_334.35.dat' u 1:($2/N) w l ls 1 notitle,'curve_334.35-1.dat' u 1:($2/N) every 2 w p ls 1 t '\smaller 11.4 nm$^{-3}$', 'Coreshell_fit_345.40.dat' u 1:($2/N) w l ls 2 notitle, 'curve_345.4-1.dat' u 1:($2/N) every 2 w p ls 2 t '\smaller 0.4 nm$^{-3}$', 'Coreshell_fit_356.99.dat' u 1:($2/N) w l ls 3 notitle, 'curve_356.99-2.dat' u 1:($2/N) every 2 w p ls 3 t '\smaller -11.2 nm$^{-3}$'
 
 #p NaN w p ls 1 t 'PS-Plain in buffer', 'core_shell_AutoSAXS.dat' u 1:($3/1.e3-C0) w l ls 2 t 'Core-Shell Fit','linshell_AutoSAXS.dat' u 1:($3/1.e3-C0) w l ls 3 t 'Onion Model', 'core_shell_AutoSAXS.dat' u 1:($2/1.e3-C0) every 2 w p ls 1 ps 2 lc rgb 'white' notitle, ''  u 1:($2/1.e3-C0) every 2 w p ls 1  ps 1.5 notitle
 

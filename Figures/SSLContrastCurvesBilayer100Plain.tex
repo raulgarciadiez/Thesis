@@ -71,33 +71,41 @@
       \expandafter\def\csname LT8\endcsname{\color{black}}%
     \fi
   \fi
-  \setlength{\unitlength}{0.0500bp}%
-  \begin{picture}(3968.00,6236.00)%
+    \setlength{\unitlength}{0.0500bp}%
+    \ifx\gptboxheight\undefined%
+      \newlength{\gptboxheight}%
+      \newlength{\gptboxwidth}%
+      \newsavebox{\gptboxtext}%
+    \fi%
+    \setlength{\fboxrule}{0.5pt}%
+    \setlength{\fboxsep}{1pt}%
+\begin{picture}(3968.00,6236.00)%
     \gplgaddtomacro\gplbacktext{%
       \csname LTb\endcsname%
-      \put(726,1199){\makebox(0,0)[r]{\strut{} 1}}%
+      \put(594,1199){\makebox(0,0)[r]{\strut{}$1$}}%
       \csname LTb\endcsname%
-      \put(726,2843){\makebox(0,0)[r]{\strut{} 10}}%
+      \put(594,2843){\makebox(0,0)[r]{\strut{}$10$}}%
       \csname LTb\endcsname%
-      \put(726,4486){\makebox(0,0)[r]{\strut{} 100}}%
+      \put(594,4486){\makebox(0,0)[r]{\strut{}$100$}}%
       \csname LTb\endcsname%
-      \put(1506,484){\makebox(0,0){\strut{} 0.5}}%
+      \put(1412,484){\makebox(0,0){\strut{}$0.5$}}%
       \csname LTb\endcsname%
-      \put(2153,484){\makebox(0,0){\strut{} 1}}%
+      \put(2097,484){\makebox(0,0){\strut{}$1$}}%
       \csname LTb\endcsname%
-      \put(2801,484){\makebox(0,0){\strut{} 2}}%
-      \put(220,3117){\rotatebox{-270}{\makebox(0,0){\strut{}Scattering Intensity / a.u.}}}%
-      \put(1874,154){\makebox(0,0){\strut{}$q$ / nm$^{-1}$}}%
+      \put(2783,484){\makebox(0,0){\strut{}$2$}}%
     }%
     \gplgaddtomacro\gplfronttext{%
       \csname LTb\endcsname%
-      \put(3174,704){\makebox(0,0)[l]{\strut{} 0}}%
-      \put(3174,1757){\makebox(0,0)[l]{\strut{} 5}}%
-      \put(3174,2810){\makebox(0,0)[l]{\strut{} 10}}%
-      \put(3174,3864){\makebox(0,0)[l]{\strut{} 15}}%
-      \put(3174,4917){\makebox(0,0)[l]{\strut{} 20}}%
-      \put(3174,5971){\makebox(0,0)[l]{\strut{} 25}}%
-      \put(3505,3337){\rotatebox{-90}{\makebox(0,0){\strut{}Sucrose Concentration / $\%$}}}%
+      \put(220,3117){\rotatebox{-270}{\makebox(0,0){\strut{}Scattering Intensity / a.u.}}}%
+      \put(1801,154){\makebox(0,0){\strut{}$q$ / nm$^{-1}$}}%
+      \csname LTb\endcsname%
+      \put(3170,704){\makebox(0,0)[l]{\strut{}$0$}}%
+      \put(3170,1757){\makebox(0,0)[l]{\strut{}$5$}}%
+      \put(3170,2810){\makebox(0,0)[l]{\strut{}$10$}}%
+      \put(3170,3864){\makebox(0,0)[l]{\strut{}$15$}}%
+      \put(3170,4917){\makebox(0,0)[l]{\strut{}$20$}}%
+      \put(3170,5971){\makebox(0,0)[l]{\strut{}$25$}}%
+      \put(3369,3337){\rotatebox{-90}{\makebox(0,0){\strut{}Sucrose Concentration / $\%$}}}%
     }%
     \gplbacktext
     \put(0,0){\includegraphics{SSLContrastCurvesBilayer100Plain}}%

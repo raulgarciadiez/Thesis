@@ -1,7 +1,7 @@
 set grid
 set xlabel 'Polydispersity degree / $\%$'
 set ylabel 'Isoscattering point deviation / $\%$'
-set key 12.5, -3
+set key at 12.5, -3
 
 set key title 'Ratio $\sfrac{R_{\text{core}}}{R}$'
 

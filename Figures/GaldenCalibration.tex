@@ -71,32 +71,40 @@
       \expandafter\def\csname LT8\endcsname{\color{black}}%
     \fi
   \fi
-  \setlength{\unitlength}{0.0500bp}%
-  \begin{picture}(5668.00,4534.00)%
+    \setlength{\unitlength}{0.0500bp}%
+    \ifx\gptboxheight\undefined%
+      \newlength{\gptboxheight}%
+      \newlength{\gptboxwidth}%
+      \newsavebox{\gptboxtext}%
+    \fi%
+    \setlength{\fboxrule}{0.5pt}%
+    \setlength{\fboxsep}{1pt}%
+\begin{picture}(5668.00,4534.00)%
     \gplgaddtomacro\gplbacktext{%
       \csname LTb\endcsname%
-      \put(858,921){\makebox(0,0)[r]{\strut{} 0.07}}%
-      \put(858,1964){\makebox(0,0)[r]{\strut{} 0.1}}%
-      \put(858,3149){\makebox(0,0)[r]{\strut{} 0.15}}%
-      \put(858,3990){\makebox(0,0)[r]{\strut{} 0.2}}%
-      \put(1275,484){\makebox(0,0){\strut{}-4}}%
-      \put(1846,484){\makebox(0,0){\strut{}-2}}%
-      \put(2417,484){\makebox(0,0){\strut{} 0}}%
-      \put(2988,484){\makebox(0,0){\strut{} 2}}%
-      \put(3559,484){\makebox(0,0){\strut{} 4}}%
-      \put(4129,484){\makebox(0,0){\strut{} 6}}%
-      \put(4700,484){\makebox(0,0){\strut{} 8}}%
-      \put(5271,484){\makebox(0,0){\strut{} 10}}%
-      \put(220,2486){\rotatebox{-270}{\makebox(0,0){\strut{}Transmission}}}%
-      \put(3130,154){\makebox(0,0){\strut{}Vertical position / mm}}%
+      \put(726,921){\makebox(0,0)[r]{\strut{}$0.07$}}%
+      \put(726,1964){\makebox(0,0)[r]{\strut{}$0.1$}}%
+      \put(726,3149){\makebox(0,0)[r]{\strut{}$0.15$}}%
+      \put(726,3990){\makebox(0,0)[r]{\strut{}$0.2$}}%
+      \put(1152,484){\makebox(0,0){\strut{}$-4$}}%
+      \put(1741,484){\makebox(0,0){\strut{}$-2$}}%
+      \put(2329,484){\makebox(0,0){\strut{}$0$}}%
+      \put(2917,484){\makebox(0,0){\strut{}$2$}}%
+      \put(3506,484){\makebox(0,0){\strut{}$4$}}%
+      \put(4094,484){\makebox(0,0){\strut{}$6$}}%
+      \put(4683,484){\makebox(0,0){\strut{}$8$}}%
+      \put(5271,484){\makebox(0,0){\strut{}$10$}}%
     }%
     \gplgaddtomacro\gplfronttext{%
       \csname LTb\endcsname%
-      \put(2475,3730){\makebox(0,0)[r]{\strut{}Transmission}}%
+      \put(220,2486){\rotatebox{-270}{\makebox(0,0){\strut{}Transmission}}}%
+      \put(3064,154){\makebox(0,0){\strut{}Vertical position / mm}}%
       \csname LTb\endcsname%
-      \put(2475,3510){\makebox(0,0)[r]{\strut{}Glass only}}%
+      \put(1973,3675){\makebox(0,0)[r]{\strut{}\smaller Transmission}}%
       \csname LTb\endcsname%
-      \put(2475,3290){\makebox(0,0)[r]{\strut{}H$_2$O}}%
+      \put(1973,3345){\makebox(0,0)[r]{\strut{}\smaller Glass only}}%
+      \csname LTb\endcsname%
+      \put(1973,3015){\makebox(0,0)[r]{\strut{}\smaller H$_2$O}}%
     }%
     \gplbacktext
     \put(0,0){\includegraphics{GaldenCalibration}}%

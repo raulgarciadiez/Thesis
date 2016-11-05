@@ -71,29 +71,37 @@
       \expandafter\def\csname LT8\endcsname{\color{black}}%
     \fi
   \fi
-  \setlength{\unitlength}{0.0500bp}%
-  \begin{picture}(5668.00,4534.00)%
+    \setlength{\unitlength}{0.0500bp}%
+    \ifx\gptboxheight\undefined%
+      \newlength{\gptboxheight}%
+      \newlength{\gptboxwidth}%
+      \newsavebox{\gptboxtext}%
+    \fi%
+    \setlength{\fboxrule}{0.5pt}%
+    \setlength{\fboxsep}{1pt}%
+\begin{picture}(5668.00,4534.00)%
     \gplgaddtomacro\gplbacktext{%
       \csname LTb\endcsname%
-      \put(726,1164){\makebox(0,0)[r]{\strut{} 1}}%
+      \put(594,1164){\makebox(0,0)[r]{\strut{}$1$}}%
       \csname LTb\endcsname%
-      \put(726,2489){\makebox(0,0)[r]{\strut{} 10}}%
+      \put(594,2489){\makebox(0,0)[r]{\strut{}$10$}}%
       \csname LTb\endcsname%
-      \put(726,3815){\makebox(0,0)[r]{\strut{} 100}}%
+      \put(594,3815){\makebox(0,0)[r]{\strut{}$100$}}%
       \csname LTb\endcsname%
-      \put(1196,484){\makebox(0,0){\strut{} 0.3}}%
+      \put(1074,484){\makebox(0,0){\strut{}$0.3$}}%
       \csname LTb\endcsname%
-      \put(1845,484){\makebox(0,0){\strut{} 0.5}}%
+      \put(1743,484){\makebox(0,0){\strut{}$0.5$}}%
       \csname LTb\endcsname%
-      \put(2726,484){\makebox(0,0){\strut{} 1}}%
+      \put(2650,484){\makebox(0,0){\strut{}$1$}}%
       \csname LTb\endcsname%
-      \put(4123,484){\makebox(0,0){\strut{} 3}}%
+      \put(4089,484){\makebox(0,0){\strut{}$3$}}%
       \csname LTb\endcsname%
-      \put(4773,484){\makebox(0,0){\strut{} 5}}%
-      \put(220,2486){\rotatebox{-270}{\makebox(0,0){\strut{}Scattering Intensity / a.u.}}}%
-      \put(3064,154){\makebox(0,0){\strut{}$q$ / nm$^{-1}$}}%
+      \put(4758,484){\makebox(0,0){\strut{}$5$}}%
     }%
     \gplgaddtomacro\gplfronttext{%
+      \csname LTb\endcsname%
+      \put(220,2486){\rotatebox{-270}{\makebox(0,0){\strut{}Scattering Intensity / a.u.}}}%
+      \put(2998,154){\makebox(0,0){\strut{}$q$ / nm$^{-1}$}}%
       \csname LTb\endcsname%
       \put(4284,4096){\makebox(0,0)[r]{\strut{}Experimental}}%
       \csname LTb\endcsname%

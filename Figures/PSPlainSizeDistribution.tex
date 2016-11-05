@@ -71,49 +71,57 @@
       \expandafter\def\csname LT8\endcsname{\color{black}}%
     \fi
   \fi
-  \setlength{\unitlength}{0.0500bp}%
-  \begin{picture}(5668.00,4534.00)%
+    \setlength{\unitlength}{0.0500bp}%
+    \ifx\gptboxheight\undefined%
+      \newlength{\gptboxheight}%
+      \newlength{\gptboxwidth}%
+      \newsavebox{\gptboxtext}%
+    \fi%
+    \setlength{\fboxrule}{0.5pt}%
+    \setlength{\fboxsep}{1pt}%
+\begin{picture}(5668.00,4534.00)%
     \gplgaddtomacro\gplbacktext{%
       \csname LTb\endcsname%
-      \put(814,777){\makebox(0,0)[r]{\strut{} 0}}%
+      \put(682,777){\makebox(0,0)[r]{\strut{}$0$}}%
       \csname LTb\endcsname%
-      \put(814,1359){\makebox(0,0)[r]{\strut{} 0.2}}%
+      \put(682,1359){\makebox(0,0)[r]{\strut{}$0.2$}}%
       \csname LTb\endcsname%
-      \put(814,1941){\makebox(0,0)[r]{\strut{} 0.4}}%
+      \put(682,1941){\makebox(0,0)[r]{\strut{}$0.4$}}%
       \csname LTb\endcsname%
-      \put(814,2523){\makebox(0,0)[r]{\strut{} 0.6}}%
+      \put(682,2523){\makebox(0,0)[r]{\strut{}$0.6$}}%
       \csname LTb\endcsname%
-      \put(814,3105){\makebox(0,0)[r]{\strut{} 0.8}}%
+      \put(682,3105){\makebox(0,0)[r]{\strut{}$0.8$}}%
       \csname LTb\endcsname%
-      \put(814,3687){\makebox(0,0)[r]{\strut{} 1}}%
+      \put(682,3687){\makebox(0,0)[r]{\strut{}$1$}}%
       \csname LTb\endcsname%
-      \put(814,4269){\makebox(0,0)[r]{\strut{} 1.2}}%
+      \put(682,4269){\makebox(0,0)[r]{\strut{}$1.2$}}%
       \csname LTb\endcsname%
-      \put(1255,484){\makebox(0,0){\strut{} 60}}%
+      \put(1132,484){\makebox(0,0){\strut{}$60$}}%
       \csname LTb\endcsname%
-      \put(1873,484){\makebox(0,0){\strut{} 80}}%
+      \put(1769,484){\makebox(0,0){\strut{}$80$}}%
       \csname LTb\endcsname%
-      \put(2491,484){\makebox(0,0){\strut{} 100}}%
+      \put(2406,484){\makebox(0,0){\strut{}$100$}}%
       \csname LTb\endcsname%
-      \put(3109,484){\makebox(0,0){\strut{} 120}}%
+      \put(3043,484){\makebox(0,0){\strut{}$120$}}%
       \csname LTb\endcsname%
-      \put(3726,484){\makebox(0,0){\strut{} 140}}%
+      \put(3679,484){\makebox(0,0){\strut{}$140$}}%
       \csname LTb\endcsname%
-      \put(4344,484){\makebox(0,0){\strut{} 160}}%
+      \put(4316,484){\makebox(0,0){\strut{}$160$}}%
       \csname LTb\endcsname%
-      \put(4962,484){\makebox(0,0){\strut{} 180}}%
-      \put(176,2486){\rotatebox{-270}{\makebox(0,0){\strut{}Frequency / a.u.}}}%
-      \put(3108,154){\makebox(0,0){\strut{}Diameter / nm}}%
+      \put(4953,484){\makebox(0,0){\strut{}$180$}}%
     }%
     \gplgaddtomacro\gplfronttext{%
       \csname LTb\endcsname%
-      \put(2810,4046){\makebox(0,0)[r]{\strut{}\footnotesize TSEM}}%
+      \put(176,2486){\rotatebox{-270}{\makebox(0,0){\strut{}Frequency / a.u.}}}%
+      \put(3042,154){\makebox(0,0){\strut{}Diameter / nm}}%
       \csname LTb\endcsname%
-      \put(2810,3716){\makebox(0,0)[r]{\strut{}\footnotesize Shape Function SAXS}}%
+      \put(2761,4046){\makebox(0,0)[r]{\strut{}\footnotesize TSEM}}%
       \csname LTb\endcsname%
-      \put(2810,3386){\makebox(0,0)[r]{\strut{}\footnotesize Standard DCS}}%
+      \put(2761,3716){\makebox(0,0)[r]{\strut{}\footnotesize Shape Function SAXS}}%
       \csname LTb\endcsname%
-      \put(2810,3056){\makebox(0,0)[r]{\strut{}\footnotesize Low density DCS}}%
+      \put(2761,3386){\makebox(0,0)[r]{\strut{}\footnotesize Standard DCS}}%
+      \csname LTb\endcsname%
+      \put(2761,3056){\makebox(0,0)[r]{\strut{}\footnotesize Low density DCS}}%
     }%
     \gplbacktext
     \put(0,0){\includegraphics{PSPlainSizeDistribution}}%

@@ -5,7 +5,7 @@ set autoscale
 set xrange[50:190]
 set yrange [-0.025:1.2]
 set key spacing 1.5
-set key 138,1.18
+set key at 138,1.18
 
 
 hist(x,width)=width*floor(x/width)+width/2.0

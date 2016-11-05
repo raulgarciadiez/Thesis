@@ -14,7 +14,10 @@ set ylabel 'Solvent electron density / nm$^{-3}$' offset 2
 #set ylabel 'Sucrose Mass Fraction / $\%$' offset 2
 set y2label 'X-ray Transmission / $\%$' rotate by 270 offset -2.5
 
-set cblabel 'Diffusion Time / min' rotate by 270 offset 0
+set cblabel '\smaller Diffusion Time / min' rotate by 270 offset -2
+set cbtics format '\smaller %.0f'
+
+
 #unset colorbox
 #load '../style.gp'
 #set palette

@@ -23,6 +23,10 @@ xmax=2.5
 set xrange [xmin:xmax]
 set yrange [ymin:ymax]
 
+set xtics (-2,-1,0,1,2)
+set ytics (5,6,7,8,9)
+set cbtics (-2,-1,0,1)
+
 set arrow from 2.05,ymin to 2.05,ymax lw 10 lt 1 lc rgb 'black' nohead front
 
 set arrow from -2.05,ymin to -2.05,ymax lw 10 lt 1 lc rgb 'black' nohead front

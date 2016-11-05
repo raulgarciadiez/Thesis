@@ -71,14 +71,21 @@
       \expandafter\def\csname LT8\endcsname{\color{black}}%
     \fi
   \fi
-  \setlength{\unitlength}{0.0500bp}%
-  \begin{picture}(5668.00,4534.00)%
+    \setlength{\unitlength}{0.0500bp}%
+    \ifx\gptboxheight\undefined%
+      \newlength{\gptboxheight}%
+      \newlength{\gptboxwidth}%
+      \newsavebox{\gptboxtext}%
+    \fi%
+    \setlength{\fboxrule}{0.5pt}%
+    \setlength{\fboxsep}{1pt}%
+\begin{picture}(5668.00,4534.00)%
     \gplgaddtomacro\gplbacktext{%
+    }%
+    \gplgaddtomacro\gplfronttext{%
       \csname LTb\endcsname%
       \put(176,2486){\rotatebox{-270}{\makebox(0,0){\strut{}$\sfrac{d \Sigma}{d \Omega}$ / cm$^{-1}$}}}%
       \put(3108,154){\makebox(0,0){\strut{}$q$ / nm$^{-1}$}}%
-    }%
-    \gplgaddtomacro\gplfronttext{%
       \csname LTb\endcsname%
       \put(814,704){\makebox(0,0)[r]{\strut{}$10^{-4}$}}%
       \csname LTb\endcsname%
@@ -96,11 +103,11 @@
       \csname LTb\endcsname%
       \put(814,4269){\makebox(0,0)[r]{\strut{}$10^{3}$}}%
       \csname LTb\endcsname%
-      \put(946,484){\makebox(0,0){\strut{} 0.01}}%
+      \put(946,484){\makebox(0,0){\strut{}$0.01$}}%
       \csname LTb\endcsname%
-      \put(3108,484){\makebox(0,0){\strut{} 0.1}}%
+      \put(3108,484){\makebox(0,0){\strut{}$0.1$}}%
       \csname LTb\endcsname%
-      \put(5271,484){\makebox(0,0){\strut{} 1}}%
+      \put(5271,484){\makebox(0,0){\strut{}$1$}}%
       \put(1117,4066){\makebox(0,0)[l]{\strut{}Guinier region}}%
       \put(4521,4066){\makebox(0,0)[l]{\strut{}Porod}}%
       \put(4521,3846){\makebox(0,0)[l]{\strut{}region}}%
