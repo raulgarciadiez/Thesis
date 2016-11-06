@@ -5,19 +5,18 @@ set log
 unset log cb
 set grid
 set xlabel '$q$ / nm$^{-1}$' 
-set ylabel 'Scattering Intensity / a.u.' offset 2,-1
+set ylabel 'Scattering Intensity / a.u.' offset 1,-1
 set autoscale
 set xrange [0.25:2.3]
 set yrange [1.3e-1:4.e0]
 set cbrange [0:10.5]
 
 set key spacing 1.5
-#set key 0.075,5
 set xtics (0.5,1.,2.)
 set ytics (0.2,.5,1.,2)
 
-set cblabel 'Sucrose Concentration / $\%$' offset -1,0  rotate by -90
-set cbtics offset -1,0 format '\fsmedium %g'
+set cblabel '\smaller Sucrose Concentration / $\%$' offset -2,0  rotate by -90
+set cbtics offset 0,0 format '\smaller %.0f'
 
 N=0.3
 

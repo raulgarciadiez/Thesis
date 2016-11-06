@@ -3316,3 +3316,34 @@ variance of residuals (reduced chisquare) = WSSR/ndf   : 48.4148
 Final set of parameters            Asymptotic Standard Error
 =======================            ==========================
 a               = 9858.17          +/- 179.4        (1.82%)
+
+
+*******************************************************************************
+Sun Nov  6 16:30:34 2016
+
+
+FIT:    data read from 'SSL_isopoint.dat' u (2./$1):2
+        format = x:z
+        x range restricted to [0.0140000 : 0.0250000]
+        #datapoints = 3
+        residuals are weighted equally (unit weight)
+
+function used for fitting: g(x)
+	g(x)=a*x
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a            
+   0 1.4628833654e+05   0.00e+00  2.24e-02    1.000000e+00
+   4 9.6829510612e+01  -1.16e-07  2.24e-06    9.858172e+03
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 96.8295
+rel. change during last iteration : -1.15795e-12
+
+degrees of freedom    (FIT_NDF)                        : 2
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 6.95807
+variance of residuals (reduced chisquare) = WSSR/ndf   : 48.4148
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 9858.17          +/- 179.4        (1.82%)

@@ -21,14 +21,14 @@ set xrange [150:2150]
 set arrow from osm_thres,ymin to osm_thres,ymax nohead ls 2
 
 set arrow from osm_thres,2.4 to osm_thres+400,2.4 head filled size screen 0.03,15,45 ls 2
-set label "Osmotic\nshrinkage" at osm_thres+100,2.25 front
-set label "Constant\nshape\nand size" at osm_thres-500,2.25 front
+set label '\smaller \shortstack{Osmotic\\shrinkage}' at osm_thres+100,2.2 front
+set label  '\smaller \shortstack{Constant\\shape\\and size}' at osm_thres-280,2.2 front center
 
-set key at 2200,1.1
+set key at 2200,1.2 spacing 1.5 samplen 2 width -3
 
 set xtics (0,300,600,900,1200,1500,1800,2100)
 
 
-p 'isopoint_intensity_SAXS.dat' u 1:($2/N) w p ls 1 t 'SAXS', 'isopoint_intensity_WAXS.dat' u 1:($2/(N/2.1)) w p ls 3 t 'WAXS', 
+p 'isopoint_intensity_SAXS.dat' u 1:($2/N) w p ls 1 t '\smaller SAXS', 'isopoint_intensity_WAXS.dat' u 1:($2/(N/2.1)) w p ls 3 t '\smaller WAXS', 
 
  

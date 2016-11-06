@@ -2,25 +2,24 @@ set log
 unset log cb
 set grid
 set xlabel '$q$ / nm$^{-1}$' 
-set ylabel 'Scattering Intensity / a.u.' offset 2,-1
+set ylabel 'Scattering Intensity / a.u.' offset 1,-1
 set autoscale
 set xrange [0.05:1.13]
-set yrange [5.e-1:3.e3]
+set yrange [4.e-1:3.e3]
 
 set key spacing 1.5
 set key at 0.075,5
 set xtics (0.05,0.1,0.2,0.5,1.)
 
-set cblabel '\fsmedium Sucrose Mass Fraction / $\%$' offset -3,0  rotate by -90
-set cbtics offset -1,0 format '\fsmedium %g'
+set cblabel '\smaller Sucrose Mass Fraction / $\%$' offset -3,0  rotate by -90
+set cbtics offset -1,0 format '\smaller %.0f'
 
 set cbrange [0:35]
 
-set arrow from 0.1,1.8 to 0.14,3.3 lw 2 lc rgb 'black'
+set arrow from 0.13,1.45 to 0.14,3.3 lw 2 lc rgb 'black'
 
-set label '\fssmall \shortstack{Pseudo\\Isoscattering\\Point}' at 0.05,2. tc rgb 'black'
+set label '\smaller \shortstack{Pseudo\\Isoscattering\\Point}' at 0.09,1.05 tc rgb 'black' center
 
-#set format cb "%.1f"
 
 N=1.
 

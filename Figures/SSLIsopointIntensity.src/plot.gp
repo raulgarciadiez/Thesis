@@ -1,12 +1,12 @@
 
 set grid
 set xlabel 'Sucrose Mass Fraction / $\%$'
-set ylabel 'Deviation from $q^{\star}$ intensity / $\%$' offset 1
+set ylabel 'Deviation from $q^{\star}$ intensity / $\%$' offset 0
 set autoscale
 set xrange [0.0:20]
 set yrange [-0.7:5.8]
 
-#set key 17.5, 5.
+set key samplen 2 width -4 spacing 1.5
 
 set style line 1  lc rgb '#0025ad' lt 1 lw 3 # --- blue
 set style line 2  lc rgb '#0060ad' lt 1 lw 3 #      .
@@ -27,7 +27,7 @@ N_list_PEG='10.0 9.0 850. 83.'
 files_PEG='50 80 100 200'
 sizes_PEG='81 87 103 179'
 
-p 'isopoint_intensity_plain_50.dat' u 1:(($2-word(N_list,1))/word(N_list,1)) w lp ls (6+1) pt 7 ps 1.5 t 'plain - '.word(sizes,1).' nm', 'isopoint_intensity_80.dat' u 1:(($2-word(N_list_PEG,2))/word(N_list_PEG,2)) w lp ls (7-2) pt 7 ps 1.5 t 'PEG - '.word(sizes_PEG,2).' nm'
+p 'isopoint_intensity_plain_50.dat' u 1:(($2-word(N_list,1))/word(N_list,1)) w lp ls (6+1) pt 7 ps 1.5 t '\smaller plain - 89 nm', 'isopoint_intensity_80.dat' u 1:(($2-word(N_list_PEG,2))/word(N_list_PEG,2)) w lp ls (7-2) pt 7 ps 1.5 t '\smaller PEG - 87 nm'
 
 
 
