@@ -1,6 +1,6 @@
 \chapter{Theoretical Background}
 \label{chap:theory_SAXS}
-In this chapter, the basic phyisical principles underlying the operation of small-angle X-ray scattering are presented, focusing principally on the interaction between X-rays and matter and the elastic scattering of X-rays by an ensemble of electrons. The fundamental theoretical background of SAXS is also introduced, jointly with the analytical expressions of the form factors used in this work. An entire section is devoted to the theoretical framework used in contrast variation experiments in SAXS, where concepts such as the isoscattering point and the basic functions approach are introduced.
+In this chapter, the basic physical principles underlying the operation of small-angle X-ray scattering are presented, focusing principally on the interaction between X-rays and matter and the elastic scattering of X-rays by an ensemble of electrons. The fundamental theoretical background of SAXS is also introduced, jointly with the analytical expressions of the form factors used in this work. An entire section is devoted to the theoretical framework used in contrast variation experiments in SAXS, where concepts such as the isoscattering point and the basic functions approach are introduced.
 
 \section{Interaction of X-rays and matter}
 
@@ -11,7 +11,7 @@ X-rays are electromagnetic waves which propagate in vacuum along the direction o
         \Psi_0\left( \vect{r} \right)=A_0 e^{i \vect{k}\vect{r} }
 \end{equation}
 
-where the wavenumber $k=\abs{\vect{k}}$ is related to the X-ray wavelength $\lambda$ by $k=\sfrac{2\pi}{\lambda}$. Conventially, X-ray wavelengths range between 0.01 and a few nanometers, although SAXS experiments are conducted normally at the hard X-ray range, e.g. at wavelenghts between 0.02 and 0.8 nm. Due to the wave-particle duality of electromagnetic radiation, X-rays possess a particle nature as well, represented by the quantisation of light into an ensemble of photons with an energy $\hbar \omega$. The photon energy is related to the X-ray wavelength by \citep{als-nielsen_elements_2011}
+where the wavenumber $k=\abs{\vect{k}}$ is related to the X-ray wavelength $\lambda$ by $k=\sfrac{2\pi}{\lambda}$. Conventionally, X-ray wavelengths range between 0.01 and a few nanometers, although SAXS experiments are conducted normally at the hard X-ray range, e.g. at wavelenghts between 0.02 and 0.8 nm. Due to the wave-particle duality of electromagnetic radiation, X-rays possess a particle nature as well, represented by the quantization of light into an ensemble of photons with an energy $\hbar \omega$. The photon energy is related to the X-ray wavelength by \citep{als-nielsen_elements_2011}
 
 \begin{equation}
         \lambda = \frac{h c}{E_{ph}}
@@ -69,7 +69,7 @@ In fact, the attenuation cross-section $\sigma$ is dependent upon the several di
 
 When the X-ray photon is completely absorbed by the atom, the event is called photoelectron absorption because a photoelectron with the excess energy is expelled from an inner atomic shell, leaving the atom ionized. The created core-hole is consequently filled by an electron from an outer shell either by a radiative process, i.e. \emph{fluorescence}, or by a non-radiative mechanism emitting a secondary electron, i.e. \emph{Auger effect}. The photoelectric effect is the predominant contribution to the attenuation cross-section principally at low X-ray energies and the ultraviolet regime, as shown in figure \ref{fig:AttenuationWater}. 
 
-The other relevant contributions in the X-ray range are related to scattering processes. In an inelastic scattering event, the energy of the incident photon is partially transfered to a loosely bound electron resulting in a scattered photon with a longer wavelength, according to the Compton relation $\Delta\lambda = \sfrac{h}{m_e c}\left( 1 - \cos{2\theta} \right) $ \citep{als-nielsen_elements_2011}, where $2\theta$ is the scattering angle. The Compton scattering is incoherent and contributes generally less than the elastic scattering at energies below 10 keV, as observed in figure \ref{fig:AttenuationWater}. Besides, the coherent scattering signal is the summation of the constructive interferences of the electromagnetic wave, which produces a higher scattering intensity than the inelastic scattering. In fact, the elastic scattering of X-rays, typically coherent, is the main proccess used in material investigations and the pyhsical principle behind SAXS.
+The other relevant contributions in the X-ray range are related to scattering processes. In an inelastic scattering event, the energy of the incident photon is partially transfered to a loosely bound electron resulting in a scattered photon with a longer wavelength, according to the Compton relation $\Delta\lambda = \sfrac{h}{m_e c}\left( 1 - \cos{2\theta} \right) $ \citep{als-nielsen_elements_2011}, where $2\theta$ is the scattering angle. The Compton scattering is incoherent and contributes generally less than the elastic scattering at energies below 10 keV, as observed in figure \ref{fig:AttenuationWater}. Besides, the coherent scattering signal is the summation of the constructive interferences of the electromagnetic wave, which produces a higher scattering intensity than the inelastic scattering. In fact, the elastic scattering of X-rays, typically coherent, is the main process used in material investigations and the physical principle behind SAXS.
 
 \subsection{Elastic scattering}
 \label{sec:ElasticScattering}
@@ -176,7 +176,7 @@ Small-angle X-ray scattering is a powerful technique that can elucidate the stru
         f(q)=4\pi \int_0^{\infty} r'^2 \rho_e(r')  \frac{\sin(qr')}{qr'}  dr'
 \end{equation}
 
-where the modulus of the momentum transfer vector is defined by $q=\abs{\vect{q}}=\abs{\vect{k_s} - \vect{k}}$. Considering that SAXS is an elastic scattering proccess ($\abs{\vect{k_s}}=\abs{\vect{k}}=\sfrac{2\pi}{\lambda}$), the momentum transfer is expressed as
+where the modulus of the momentum transfer vector is defined by $q=\abs{\vect{q}}=\abs{\vect{k_s} - \vect{k}}$. Considering that SAXS is an elastic scattering process ($\abs{\vect{k_s}}=\abs{\vect{k}}=\sfrac{2\pi}{\lambda}$), the momentum transfer is expressed as
 
 \begin{equation}
 q=\frac{4\pi }{\lambda}\sin\theta=\frac{4\pi E}{h c}\sin\theta ,
@@ -210,7 +210,7 @@ where $\overline{R}$ is the mean radius of the particles and $\sigma_R$ is the s
 
 whose mean radius is given by $\overline{R} e^{\frac{\sigma_R^2}{2}}$ and the variance is $\overline{R}^2 e^{\sigma_R^2} (e^{\sigma_R^2} - 1)$. Other approaches to the size distribution of particles in solution are based in numerical techniques, like the Monte-Carlo approach to form-free particle size distributions \citep{pauw_improvements_2013}.
 
-A useful parameter for comparitive purposes between samples is the polydispersity degree $p_d$, which is defined as the full width at half maximum (FWHM) of the number-weighted particle size distribution divided by its average value. For a normal size distribution, the FWHM is simply $8\sqrt{2}$ times its standard deviation $\sigma_R$.
+A useful parameter for comparative purposes between samples is the polydispersity degree $p_d$, which is defined as the full width at half maximum (FWHM) of the number-weighted particle size distribution divided by its average value. For a normal size distribution, the FWHM is simply $8\sqrt{2}$ times its standard deviation $\sigma_R$.
 
 \subsection{What is measured in a scattering experiment?: The scattering curve}
 
@@ -254,7 +254,7 @@ where $\Delta \eta = \rho_0 - \rho_{\text{medium}}$ is the contrast and $ F_{\te
        I(q) = \abs{ f_{\text{ellip}}(q,R) }^2 = \Delta \eta^2 \int_0^1 \abs{F_{\text{sph}}\left( q,R \sqrt{u^2\left( \nu^2 -1 \right) + 1} \right)}^2 du 
 \end{equation}
 
-where $\nu$ is the ellipticiy, $u = \cos{\alpha}$ and $\alpha \in \left[  0, \sfrac{\pi}{2} \right]$. If $\nu > 1$, the expression defines a prolate spheroid, whilst $\nu < 1$ defines an oblate spheroid.
+where $\nu$ is the ellipticity, $u = \cos{\alpha}$ and $\alpha \in \left[  0, \sfrac{\pi}{2} \right]$. If $\nu > 1$, the expression defines a prolate spheroid, whilst $\nu < 1$ defines an oblate spheroid.
 
 Frequently, nanoparticles show an internal heterogeneity, leading to an inner electron density distribution. If the components are radially distinguishable, the form factor corresponding to a morphology defined by sharp interfaces between the radial symmetric components of the particle with radius \(R_i\) is
 
@@ -289,13 +289,13 @@ The presented form factors are the models used in this work to analyze the exper
 \section{Contrast variation}
 \label{sec:contrast_variation_theory}
 
-In the contrast variation method, the electron density of the particle or the surrounding medium is systematically altered in order to obtain independent scattering curves with different contrasts $\Delta \eta (r)$. This technique is useful to characterize the different components of heterogenous particles, due to the complementary data that can be collected at each contrast. The work presented in this thesis is focused in the \emph{solvent contrast variation} method, where only the electron density of the suspending medium is varied.
+In the contrast variation method, the electron density of the particle or the surrounding medium is systematically altered in order to obtain independent scattering curves with different contrasts $\Delta \eta (r)$. This technique is useful to characterize the different components of heterogeneous particles, due to the complementary data that can be collected at each contrast. The work presented in this thesis is focused in the \emph{solvent contrast variation} method, where only the electron density of the suspending medium is varied.
 
 \begin{figure}%[htbp]
 	\centering
 		\subfloat[Core-shell particle in solvent]{\resizebox{0.44\linewidth}{!}{\fontsize{30pt}{30pt}\selectfont\input{Figures/ContrastScheme.pdf_tex}}\label{fig:ContrastScheme}}
 		\subfloat[Contrast matching of the shell]{\resizebox{0.44\linewidth}{!}{\fontsize{30pt}{30pt}\selectfont\input{Figures/MatchPointScheme.pdf_tex}}\label{fig:MatchPointScheme}}
-	\caption[Solvent contrast variation experiment and contrast matching scheme]{Variation of the solvent electron denstiy represented by the electron density profile of a spherical core-shell particle: a) The contrast of both core and shell components is high ($\Delta\eta_{\text{core}} > \Delta\eta_{\text{shell}} > 0$), while in figure b) the solvent electron density is increased to match the shell's ($\Delta\eta_{\text{shell}} = 0$). In this case, the only contribution to the scattering intensity will arise from the core.}
+	\caption[Solvent contrast variation experiment and contrast matching scheme]{Variation of the solvent electron density represented by the electron density profile of a spherical core-shell particle: a) The contrast of both core and shell components is high ($\Delta\eta_{\text{core}} > \Delta\eta_{\text{shell}} > 0$), while in figure b) the solvent electron density is increased to match the shell's ($\Delta\eta_{\text{shell}} = 0$). In this case, the only contribution to the scattering intensity will arise from the core.}
 \end{figure}
 
 
@@ -304,18 +304,18 @@ By means of the solvent contrast variation approach, the electron density of a s
  
 \subsection{Isoscattering point}
 \label{sec:isopoint_theory}
-One of the best known features appearing in a contrast variation experiment with heterogenous nanoparticles is the existence of \emph{isoscattering points}, first formulated by \cite{kawaguchi_x-ray_1983-1}. At these specific \( q\)-values, the scattering intensity is independent of the adjusted solvent contrast, i.e. all scattering curves intersect in the isoscattering points regardless of the contrast. The isoscattering points \(q^{\star}\) are particularly interesting because they emerge for any spherical particle with an inner structure and a sufficiently narrow size distribution. From the contrast-depending part of equation \eqref{eq:multicore-shell}, a model-free expression can be derived which relates the position of the isoscattering points \(q^{\star}_i\) with the external radius of the particle \( R \), independent of its radial structure \citep{kawaguchi_x-ray_1983-1,kawaguchi_isoscattering_1992}:
+One of the best known features appearing in a contrast variation experiment with heterogeneous nanoparticles is the existence of \emph{isoscattering points}, first formulated by \cite{kawaguchi_x-ray_1983-1}. At these specific \( q\)-values, the scattering intensity is independent of the adjusted solvent contrast, i.e. all scattering curves intersect in the isoscattering points regardless of the contrast. The isoscattering points \(q^{\star}\) are particularly interesting because they emerge for any spherical particle with an inner structure and a sufficiently narrow size distribution. From the contrast-depending part of equation \eqref{eq:multicore-shell}, a model-free expression can be derived which relates the position of the isoscattering points \(q^{\star}_i\) with the external radius of the particle \( R \), independent of its radial structure \citep{kawaguchi_x-ray_1983-1,kawaguchi_isoscattering_1992}:
 
 \begin{equation}
         \label{eq:isoscattering}
         \tan(q^{\star}_iR)=q^{\star}_iR
 \end{equation}
 
-The solutions for this equation fullfill $q^{\star} R =4.493, 7.725, 10.904, ...$, where the positions of the isoscattering points correspond to the minima positions of the scattering intensity of a compact spherical particle with radius \( R \). This expression relates in a simple way the position of $q^{\star}$ to the size of the particle inaccessible to the suspending medium and, thus, a good method to determine the diameter of the colloid.
+The solutions for this equation fulfill $q^{\star} R =4.493, 7.725, 10.904, ...$, where the positions of the isoscattering points correspond to the minima positions of the scattering intensity of a compact spherical particle with radius \( R \). This expression relates in a simple way the position of $q^{\star}$ to the size of the particle inaccessible to the suspending medium and, thus, a good method to determine the diameter of the colloid.
 
 Although this expression is derived for the monodisperse case, it can still be applied up to a moderate degree of polydispersity, if care is taken regarding the shift of the minima position due to polydispersity \citep{beurten_polydispersity_1981}. For size distributions with \( p_d\) larger than \( \approx 30\,\% \), the isoscattering point is not well defined and the intersection point of the curves is smeared out, showing a diffuseness in the isoscattering point position \citep{kawaguchi_isoscattering_1992}.
 
-Similarly, any deviation from the spherical shape produces a diffuseness in the $q^{\star}$ position. Unfortunately, this effect cannot be distinguished from the smearing produced by the size polydispersity and the investigation of the particle shape needs to be perfomed by other means.
+Similarly, any deviation from the spherical shape produces a diffuseness in the $q^{\star}$ position. Unfortunately, this effect cannot be distinguished from the smearing produced by the size polydispersity and the investigation of the particle shape needs to be performed by other means.
 
 
 \subsection{Basic functions approach}

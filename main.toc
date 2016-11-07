@@ -77,7 +77,7 @@
 \contentsline {subsection}{\numberline {6.3.2}Does PEGylation affect the osmotic activity of liposomes?}{74}{subsection.6.3.2}
 \contentsline {section}{\numberline {6.4}Sizing of blood plasma componenents}{81}{section.6.4}
 \contentsline {section}{\numberline {6.5}Protein-coated low-density nanoparticles}{84}{section.6.5}
-\contentsline {subsection}{\numberline {6.5.1}Hard protein corona characterization with contrast variation}{86}{subsection.6.5.1}
+\contentsline {subsection}{\numberline {6.5.1}Hard protein corona characterization with contrast variation}{85}{subsection.6.5.1}
 \contentsline {subsubsection}{Uncertainty analysis}{86}{subsubsection*.75}
 \contentsline {chapter}{\numberline {7}Summary}{89}{chapter.7}
 \select@language {ngerman}

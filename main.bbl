@@ -1,4 +1,4 @@
-\begin{thebibliography}{204}
+\begin{thebibliography}{208}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 
 \bibitem[Als-Nielsen \& McMorrow(2011)]{als-nielsen_elements_2011}
@@ -186,6 +186,13 @@
   size and density of colloidal particles by combining sedimentation field-flow
   fractionation and quasi-elastic light scattering. {\em Colloid Surface\/}
   {\bf 18}, 123--131.
+
+\bibitem[Canelas {\em et~al.\/}(2009)Canelas, Herlihy \&
+  DeSimone]{canelas_top-down_2009}
+{\sc Canelas, D.~A., Herlihy, K.~P. \& DeSimone, J.~M.} 2009 Top-down particle
+  fabrication: Control of size and shape for diagnostic imaging and drug
+  delivery. {\em Wiley Interdisciplinary Reviews: Nanomedicine and
+  Nanobiotechnology\/} {\bf 1}, 391--404.
 
 \bibitem[Carney {\em et~al.\/}(2011)Carney, Kim, Qian, Jin, Mehenni, Stellacci
   \& Bakr]{carney_determination_2011}
@@ -648,6 +655,12 @@
   for {{Radiometry}} at {{BESSY II}}. {\em Journal of Synchrotron Radiation\/}
   {\bf 5}, 6--9.
 
+\bibitem[Krumrey {\em et~al.\/}(2011)Krumrey, Gleber, Scholze \&
+  Wernecke]{krumrey_synchrotron_2011}
+{\sc Krumrey, M., Gleber, G., Scholze, F. \& Wernecke, J.} 2011 Synchrotron
+  radiation-based x-ray reflection and scattering techniques for dimensional
+  nanometrology. {\em Meas Sci Technol\/} {\bf 22}, 094032.
+
 \bibitem[Krumrey \& Ulm(2001)]{krumrey_high-accuracy_2001}
 {\sc Krumrey, M. \& Ulm, G.} 2001 High-accuracy detector calibration at the
   {{PTB}} four-crystal monochromator beamline. {\em Nuclear Instruments and
@@ -835,6 +848,13 @@
 {\sc Nichols, F.~S. \& Flowers, R.~G.} 1950 Prediction of {{Shrinkage}} in
   {{Addition Polymerizations}}. {\em Ind Eng Chem\/} {\bf 42}, 292--295.
 
+\bibitem[Nicolas {\em et~al.\/}(2013)Nicolas, Mura, Brambilla, Mackiewicz \&
+  Couvreur]{nicolas_design_2013}
+{\sc Nicolas, J., Mura, S., Brambilla, D., Mackiewicz, N. \& Couvreur, P.} 2013
+  Design, functionalization strategies and biomedical applications of targeted
+  biodegradable/biocompatible polymer-based nanocarriers for drug delivery.
+  {\em Chemical Society Reviews\/} {\bf 42}, 1147--1235.
+
 \bibitem[Nicolet {\em et~al.\/}(2016)Nicolet, Meli, van~der Pol, Yuana,
   Gollwitzer, Krumrey, {Petr Cizmar}, Buhr, P{\'e}try, Sebaihi, de~Boeck,
   Fokkema, Bergmans \& {Rienk Nieuwland}]{nicolet_inter-laboratory_2016}
@@ -908,6 +928,11 @@
 {\sc Perret, R. \& Ruland, W.} 1972 Glassy carbon as standard for the
   normalization of small-angle scattering intensities. {\em Journal of Applied
   Crystallography\/} {\bf 5}, 116--119.
+
+\bibitem[Petros \& DeSimone(2010)]{petros_strategies_2010}
+{\sc Petros, R.~A. \& DeSimone, J.~M.} 2010 Strategies in the design of
+  nanoparticles for therapeutic applications. {\em Nature reviews Drug
+  discovery\/} {\bf 9}, 615--627.
 
 \bibitem[Powers {\em et~al.\/}(2006)Powers, Brown, Krishna, Wasdo, Moudgil \&
   Roberts]{powers_research_2006}
