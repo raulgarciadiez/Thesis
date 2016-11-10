@@ -24,11 +24,12 @@ where $h$ is the Planck's constant and $c$ is the speed of light in vacuum. The 
 
 \begin{figure}[hbt]%[htbp]
 	\centering
-	        \def\svgwidth{0.75\linewidth}
+	        \def\svgwidth{0.8\linewidth}
 		\input{Figures/BeerLambertScheme.pdf_tex}
 		\caption[Depiction of the Beer-Lambert law]{The Beer-Lambert law is schematically depicted: The attenuation of X-rays through a medium of thickness $d$ and attenuation coefficient $\mu$ behaves accordingly to the expression \ref{eq:BeerLambertLaw}.}
 		\label{fig:BeerLambertScheme}
 \end{figure}
+
 
 The interaction of X-ray photons and matter produce an attenuation of the incident radiation intensity $I_0$ which is related to the properties and volume of the material. The decrease of the intensity through a medium is schematically depicted in figure \ref{fig:BeerLambertScheme} and described by the Beer-Lambert law \citep{als-nielsen_elements_2011}:
 
@@ -54,13 +55,6 @@ When the attenuating medium is composed of different atomic species, $\mu$ can b
 
 where $N_A$ is the Avogadro constant, $\sigma$ is the attenuation cross-section and $\rho_e$ is the number density of absorbing centers. The cross-section $\sigma$ is defined as the effective area in which photon-matter events occur. In the X-ray regime, photons interact principally with the atomic electrons, thus $\rho_e$ is the electron density and is directly proportional to the atomic number $Z$, the atomic mass number $A$ and the mass density $\rho$ of the component $i$. 
 
-\begin{figure}%[htbp]
-	\centering
-		\input{Figures/AttenuationWater}
-		\caption[Contributions to the X-ray attenuation coefficient of water]{The different contributions to the attenuation of water at room temperature are depicted as a function of the photon energy \citep{henke_x-ray_1993} and the total attenuation is the summation of all the other contributions. The pair production in nuclear and electron field can be neglected at the displayed photon energies.}
-		\label{fig:AttenuationWater}
-\end{figure}
-
 In fact, the attenuation cross-section $\sigma$ is dependent upon the several different mechanisms in which a X-ray photon interacts with the atomic electrons. The 3 most relevant effects are the photoelectron absorption, the coherent scattering and the incoherent scattering, which sum up to the total attenuation coefficient:
 
 \begin{equation}
@@ -68,6 +62,13 @@ In fact, the attenuation cross-section $\sigma$ is dependent upon the several di
 \end{equation}
 
 When the X-ray photon is completely absorbed by the atom, the event is called photoelectron absorption because a photoelectron with the excess energy is expelled from an inner atomic shell, leaving the atom ionized. The created core-hole is consequently filled by an electron from an outer shell either by a radiative process, i.e. \emph{fluorescence}, or by a non-radiative mechanism emitting a secondary electron, i.e. \emph{Auger effect}. The photoelectric effect is the predominant contribution to the attenuation cross-section principally at low X-ray energies and the ultraviolet regime, as shown in figure \ref{fig:AttenuationWater}. 
+
+\begin{figure}%[htbp]
+	\centering
+		\input{Figures/AttenuationWater}
+		\caption[Contributions to the X-ray attenuation coefficient of water]{The different contributions to the attenuation of water at room temperature are depicted as a function of the photon energy \citep{henke_x-ray_1993} and the total attenuation is the summation of all the other contributions. The pair production in nuclear and electron field can be neglected at the displayed photon energies.}
+		\label{fig:AttenuationWater}
+\end{figure}
 
 The other relevant contributions in the X-ray range are related to scattering processes. In an inelastic scattering event, the energy of the incident photon is partially transfered to a loosely bound electron resulting in a scattered photon with a longer wavelength, according to the Compton relation $\Delta\lambda = \sfrac{h}{m_e c}\left( 1 - \cos{2\theta} \right) $ \citep{als-nielsen_elements_2011}, where $2\theta$ is the scattering angle. The Compton scattering is incoherent and contributes generally less than the elastic scattering at energies below 10 keV, as observed in figure \ref{fig:AttenuationWater}. Besides, the coherent scattering signal is the summation of the constructive interferences of the electromagnetic wave, which produces a higher scattering intensity than the inelastic scattering. In fact, the elastic scattering of X-rays, typically coherent, is the main process used in material investigations and the physical principle behind SAXS.
 
@@ -229,7 +230,7 @@ where $\sfrac{N}{V}$ is the concentration of scatterers, i.e. particles.
 		\label{fig:ScatteringCurve50nm}
 \end{figure}
 
-The scattering curve is the typical form to present the experimental data, which displays the differential scattering cross-section per volume $\sfrac{d\Sigma}{d\Omega}$ versus the momentum transfer $q$ in a log–log graph as depicted in figure \ref{fig:ScatteringCurve50nm} for a monodisperse ensemble of spherical particles with radius 50 nm. Three different regions can be distinguished in a scattering curve \citep{schnablegger_practical_2006}:
+The scattering curve is the typical form to present the experimental data, which displays the differential scattering cross-section per volume $\sfrac{d\Sigma}{d\Omega}$ versus the momentum transfer $q$ in a log–log graph as depicted in figure \ref{fig:ScatteringCurve50nm} for an ensemble of spherical particles with radius 50 nm and polydispersity degree 10 $\%$. Three different regions can be distinguished in a scattering curve \citep{schnablegger_practical_2006}:
 
 \begin{itemize}
         \item The \textbf{Guinier region} comprises the low-$q$ region where $qD<1.3$ \citep{feigin_structure_1987}, being $D$ the characteristic length of the investigated object. This region provides principally information about the size of the particle.
@@ -291,12 +292,13 @@ The presented form factors are the models used in this work to analyze the exper
 
 In the contrast variation method, the electron density of the particle or the surrounding medium is systematically altered in order to obtain independent scattering curves with different contrasts $\Delta \eta (r)$. This technique is useful to characterize the different components of heterogeneous particles, due to the complementary data that can be collected at each contrast. The work presented in this thesis is focused in the \emph{solvent contrast variation} method, where only the electron density of the suspending medium is varied.
 
-\begin{figure}%[htbp]
+\begin{figure*}%[htbp]
 	\centering
-		\subfloat[Core-shell particle in solvent]{\resizebox{0.44\linewidth}{!}{\fontsize{30pt}{30pt}\selectfont\input{Figures/ContrastScheme.pdf_tex}}\label{fig:ContrastScheme}}
-		\subfloat[Contrast matching of the shell]{\resizebox{0.44\linewidth}{!}{\fontsize{30pt}{30pt}\selectfont\input{Figures/MatchPointScheme.pdf_tex}}\label{fig:MatchPointScheme}}
+		\subfloat[Core-shell particle in solvent]{\resizebox{0.44\linewidth}{!}{\fontsize{25pt}{25pt}\selectfont\input{Figures/ContrastScheme.pdf_tex}}\label{fig:ContrastScheme}}
+		\qquad
+		\subfloat[Contrast matching of the shell]{\resizebox{0.44\linewidth}{!}{\fontsize{25pt}{25pt}\selectfont\input{Figures/MatchPointScheme.pdf_tex}}\label{fig:MatchPointScheme}}
 	\caption[Solvent contrast variation experiment and contrast matching scheme]{Variation of the solvent electron density represented by the electron density profile of a spherical core-shell particle: a) The contrast of both core and shell components is high ($\Delta\eta_{\text{core}} > \Delta\eta_{\text{shell}} > 0$), while in figure b) the solvent electron density is increased to match the shell's ($\Delta\eta_{\text{shell}} = 0$). In this case, the only contribution to the scattering intensity will arise from the core.}
-\end{figure}
+\end{figure*}
 
 
 By means of the solvent contrast variation approach, the electron density of a single phase of the investigated particle can be matched (i.e. \emph{match point}), resulting in a increased scattering amplitude of the other components of the object, as depicted in figures \ref{fig:ContrastScheme} and \ref{fig:MatchPointScheme}. This effect enables a much more detailed study of the different contributions of the particle's components to the scattering intensity, which can be isolated by choosing the solvent electron density appropriately. In the following paragraphs, the theoretical framework required to interpret a SAXS contrast variation experiment will be presented, focusing mainly on the effects produced by the variation of the solvent electron density $\rho_{\text{solv}}$.

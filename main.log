@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/TeX Live for SUSE Linux) (format=pdflatex 2015.3.4)  7 NOV 2016 17:11
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/TeX Live for SUSE Linux) (format=pdflatex 2016.7.6)  10 NOV 2016 18:19
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -869,7 +869,17 @@ Package: bm 2004/02/26 v1.1c Bold Symbol Support (DPC/FMi)
 LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 138.
 LaTeX Info: Redefining \bm on input line 204.
 )
-(/usr/share/texmf/tex/latex/l3packages/xfrac/xfrac.sty
+(/usr/share/texmf/tex/latex/relsize/relsize.sty
+Package: relsize 2013/03/29 ver 4.1
+)
+(/usr/share/texmf/tex/latex/tocbibind/tocbibind.sty
+Package: tocbibind 2010/10/13 v1.5k extra ToC listings
+Package tocbibind Info: The document has chapter divisions on input line 50.
+
+
+Package tocbibind Note: Using chapter style headings, unless overridden.
+
+) (/usr/share/texmf/tex/latex/l3packages/xfrac/xfrac.sty
 (/usr/share/texmf/tex/latex/l3packages/l3keys2e/l3keys2e.sty
 (/usr/share/texmf/tex/latex/l3kernel/expl3.sty
 (/usr/share/texmf/tex/latex/l3kernel/l3names.sty
@@ -1088,49 +1098,6 @@ Package footmisc Info: Declaring symbol style lamport* on input line 903.
 Package footmisc Info: Declaring symbol style lamport*-robust on input line 924
 .
 )
-(/usr/share/texmf/tex/latex/relsize/relsize.sty
-Package: relsize 2013/03/29 ver 4.1
-)
-(/usr/share/texmf/tex/latex/lm/lmodern.sty
-Package: lmodern 2009/10/30 v1.6 Latin Modern Fonts
-LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/ppl/m/n --> OT1/lmr/m/n on input line 22.
-LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
-(Font)                  OML/zplm/m/it --> OML/lmm/m/it on input line 23.
-LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
-(Font)                  OMS/zplm/m/n --> OMS/lmsy/m/n on input line 24.
-LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
-(Font)                  OMX/zplm/m/n --> OMX/lmex/m/n on input line 25.
-LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/ppl/b/n --> OT1/lmr/bx/n on input line 26.
-LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
-(Font)                  OML/zplm/b/it --> OML/lmm/b/it on input line 27.
-LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
-(Font)                  OMS/zplm/b/n --> OMS/lmsy/b/n on input line 28.
-LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
-(Font)                  OMX/zplm/m/n --> OMX/lmex/m/n on input line 29.
-LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/ppl/b/n --> OT1/lmr/bx/n on input line 31.
-LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> OT1/lmss/m/n on input line 32.
-LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/ppl/m/it --> OT1/lmr/m/it on input line 33.
-LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 34.
-LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/ppl/b/n --> OT1/lmr/bx/n on input line 35.
-LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> OT1/lmss/bx/n on input line 36.
-LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/ppl/b/it --> OT1/lmr/bx/it on input line 37.
-LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 38.
-)
-\longest=\skip118
-
-(/usr/share/texmf/tex/latex/comment/comment.sty
-\CommentStream=\write3
- Excluding comment 'comment')
 (/usr/share/texmf/tex/latex/todonotes/todonotes.sty
 Package: todonotes 2012/07/25 .dtx Todonotes source and documentation.
 Package: todonotes 2012/07/25
@@ -1181,7 +1148,7 @@ Package: pgfsys 2010/06/30 v2.10 (rcs-revision 1.37)
 \pgf@yb=\dimen263
 \pgf@xc=\dimen264
 \pgf@yc=\dimen265
-\w@pgf@writea=\write4
+\w@pgf@writea=\write3
 \r@pgf@reada=\read1
 \c@pgf@counta=\count164
 \c@pgf@countb=\count165
@@ -1376,12 +1343,12 @@ Package: calc 2007/08/22 v4.3 Infix arithmetic (KKT,FJ)
 \calc@Bcount=\count184
 \calc@Adimen=\dimen301
 \calc@Bdimen=\dimen302
-\calc@Askip=\skip119
-\calc@Bskip=\skip120
+\calc@Askip=\skip118
+\calc@Bskip=\skip119
 LaTeX Info: Redefining \setlength on input line 76.
 LaTeX Info: Redefining \addtolength on input line 77.
 \calc@Ccount=\count185
-\calc@Cskip=\skip121
+\calc@Cskip=\skip120
 )
 \c@@todonotes@numberoftodonotes=\count186
 )
@@ -1500,7 +1467,7 @@ Package: rerunfilecheck 2011/04/15 v1.7 Rerun checks for auxiliary files (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 82.
 )
-\Hy@SectionHShift=\skip122
+\Hy@SectionHShift=\skip121
 )
 (/usr/share/texmf/tex/latex/cleveref/cleveref.sty
 Package: cleveref 2013/03/22 v0.18.9 Intelligent cross-referencing
@@ -1533,8 +1500,8 @@ Package hyperref Info: Option `bookmarksopen' set `true' on input line 14.
 Package hyperref Info: Option `bookmarksopen' set `true' on input line 14.
 Package hyperref Info: Option `bookmarksnumbered' set `true' on input line 14.
 Package hyperref Info: Option `colorlinks' set `false' on input line 14.
-\marginWidth=\skip123
-\fulllinewidth=\skip124
+\marginWidth=\skip122
+\fulllinewidth=\skip123
 
 (/usr/share/texmf/tex/latex/truncate/truncate.sty
 Package: truncate 2001/08/20  ver 3.6
@@ -1567,10 +1534,10 @@ File: ts1cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 LaTeX Font Info:    ... okay on input line 6.
 LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 6.
 LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Try loading font information for T1+lmr on input line 6.
+LaTeX Font Info:    Try loading font information for T1+ppl on input line 6.
 
-(/usr/share/texmf/tex/latex/lm/t1lmr.fd
-File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+(/usr/share/texmf/tex/latex/psnfss/t1ppl.fd
+File: t1ppl.fd 2001/06/04 font definitions for T1/ppl.
 )
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1616,9 +1583,8 @@ Package microtype Info: Using default expansion set `basictext'.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of interword spacing.
 Package microtype Info: No adjustment of character kerning.
-(/usr/share/texmf/tex/latex/microtype/mt-cmr.cfg
-File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
-(RS)
+(/usr/share/texmf/tex/latex/microtype/mt-ppl.cfg
+File: mt-ppl.cfg 2005/11/16 v1.6 microtype config. file: Palatino (RS)
 )
 (/usr/share/texmf/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -1643,8 +1609,8 @@ Package caption Info: wrapfig package is loaded.
 Package caption Info: End \AtBeginDocument code.
  (/usr/share/texmf/tex/latex/floatrow/fr-subfig.sty
 Package: fr-subfig 2007/12/24 v0.1g (beta) floatrow: additions for subfig
-\FBsc@max=\skip125
-\FBso@max=\skip126
+\FBsc@max=\skip124
+\FBso@max=\skip125
 )
 (/usr/share/texmf/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
@@ -1679,17 +1645,17 @@ LaTeX Info: Redefining \pageref on input line 6.
 LaTeX Info: Redefining \nameref on input line 6.
  (./main.out)
 (./main.out)
-\@outlinefile=\write5
-\openout5 = `main.out'.
+\@outlinefile=\write4
+\openout4 = `main.out'.
 
 LaTeX Info: Redefining \Ref on input line 6.
  (./tub-titlepage.tex
-LaTeX Font Info:    Try loading font information for T1+lmss on input line 4.
- (/usr/share/texmf/tex/latex/lm/t1lmss.fd
-File: t1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
+LaTeX Font Info:    Try loading font information for T1+cmss on input line 4.
+ (/usr/share/texmf/tex/latex/base/t1cmss.fd
+File: t1cmss.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 Package microtype Info: Loading generic settings for font family
-(microtype)             `lmss' (encoding: T1).
+(microtype)             `cmss' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 
@@ -1705,34 +1671,31 @@ Package microtype Info: Loading generic settings for font family
 
 
 ]) (./abstract.tex
-LaTeX Font Info:    Try loading font information for OT1+lmr on input line 11.
+LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <10.95> not available
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 7.
+LaTeX Font Info:    Try loading font information for OT1+ppl on input line 11.
 
-(/usr/share/texmf/tex/latex/lm/ot1lmr.fd
-File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+(/usr/share/texmf/tex/latex/psnfss/ot1ppl.fd
+File: ot1ppl.fd 2001/06/04 font definitions for OT1/ppl.
 )
-LaTeX Font Info:    Try loading font information for OML+lmm on input line 11.
+LaTeX Font Info:    Try loading font information for OML+zplm on input line 11.
 
-(/usr/share/texmf/tex/latex/lm/omllmm.fd
-File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
+
+(/usr/share/texmf/tex/latex/psnfss/omlzplm.fd
+File: omlzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OML/zplm.
 )
-LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 11.
+LaTeX Font Info:    Try loading font information for OMS+zplm on input line 11.
 
 
-(/usr/share/texmf/tex/latex/lm/omslmsy.fd
-File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
+(/usr/share/texmf/tex/latex/psnfss/omszplm.fd
+File: omszplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMS/zplm.
 )
-LaTeX Font Info:    Try loading font information for OMX+lmex on input line 11.
+LaTeX Font Info:    Try loading font information for OMX+zplm on input line 11.
 
 
-(/usr/share/texmf/tex/latex/lm/omxlmex.fd
-File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
+(/usr/share/texmf/tex/latex/psnfss/omxzplm.fd
+File: omxzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMX/zplm.
 )
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10.95> on input line 11.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 11.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 11.
 LaTeX Font Info:    Try loading font information for OT1+zplm on input line 11.
 
 
@@ -1763,41 +1726,26 @@ LaTeX Font Info:    Font shape `U/msb/m/n' will be
 (Font)              scaled to size 8.33606pt on input line 11.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
 (Font)              scaled to size 6.25204pt on input line 11.
-LaTeX Font Info:    Try loading font information for OT1+ppl on input line 11.
-
-(/usr/share/texmf/tex/latex/psnfss/ot1ppl.fd
-File: ot1ppl.fd 2001/06/04 font definitions for OT1/ppl.
-)
-(/usr/share/texmf/tex/latex/microtype/mt-ppl.cfg
-File: mt-ppl.cfg 2005/11/16 v1.6 microtype config. file: Palatino (RS)
-)
-LaTeX Font Info:    Try loading font information for OML+zplm on input line 11.
 
 
-(/usr/share/texmf/tex/latex/psnfss/omlzplm.fd
-File: omlzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OML/zplm.
-)
-LaTeX Font Info:    Try loading font information for OMS+zplm on input line 11.
+LaTeX Warning: Command \textregistered invalid in math mode on input line 11.
 
-
-(/usr/share/texmf/tex/latex/psnfss/omszplm.fd
-File: omszplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMS/zplm.
+LaTeX Font Info:    Try loading font information for TS1+ppl on input line 11.
+(/usr/share/texmf/tex/latex/psnfss/ts1ppl.fd
+File: ts1ppl.fd 2001/06/04 font definitions for TS1/ppl.
 )
 
 LaTeX Warning: Command \textregistered invalid in math mode on input line 11.
 
-LaTeX Font Info:    Try loading font information for TS1+lmr on input line 11.
-(/usr/share/texmf/tex/latex/lm/ts1lmr.fd
-File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
-
-LaTeX Warning: Command \textregistered invalid in math mode on input line 11.
-
+Missing character: There is no ® in font pplr7t!
 [3
 
 
 
-] [4]
+]
+LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <9> not available
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 20.
+ [4]
 Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 47.
 Package babel Info: Redefining ngerman shorthand "~
@@ -1814,64 +1762,45 @@ Package babel Info: Redefining ngerman shorthand "~
 
 
 ] [6])
-Package tocbasic Info: character protrusion at toc deactivated on input line 17
+Package tocbasic Info: character protrusion at toc deactivated on input line 15
 .
- (./main.toc
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [7
+ (./main.toc [7
 
 
 
 
 
 
-]
-Overfull \hbox (5.73389pt too wide) in paragraph at lines 50--50
- [][] [][]\T1/lmr/m/n/10.95 (-20) Applicability and com-par-ison with other con
--trast vari-ation ap-proaches[] []  
- []
-
-)
-\tf@toc=\write6
-\openout6 = `main.toc'.
+])
+\tf@toc=\write5
+\openout5 = `main.toc'.
 
  [8]
-Package tocbasic Info: character protrusion at lof deactivated on input line 18
+Package tocbasic Info: character protrusion at lof deactivated on input line 16
 .
  (./main.lof [9
 
 
 
 ])
-\tf@lof=\write7
-\openout7 = `main.lof'.
+\tf@lof=\write6
+\openout6 = `main.lof'.
 
  [10]
-Package tocbasic Info: character protrusion at lot deactivated on input line 19
+Package tocbasic Info: character protrusion at lot deactivated on input line 17
 .
  (./main.lot)
-\tf@lot=\write8
-\openout8 = `main.lot'.
-
- [11
+\tf@lot=\write7
+\openout7 = `main.lot'.
 
 
-
-] (./abbreviations.tex [12]
-[13] [14
+[11
 
 
 
-]) (./symbols.tex
+] (./abbreviations.tex [12] [13]) (./symbols.tex
 LaTeX Font Info:    Calculating math sizes for size <7.99454> on input line 10.
 
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7.99454> on input line 10.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6.07579> on input line 10.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <4.79677> on input line 10.
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
 (Font)              scaled to size 8.33035pt on input line 10.
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
@@ -1884,10 +1813,14 @@ LaTeX Font Info:    Font shape `U/msb/m/n' will be
 (Font)              scaled to size 6.33101pt on input line 10.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
 (Font)              scaled to size 4.99826pt on input line 10.
- [15] [16]) (./initial_quote.tex) [17
+ [14
+
+] [15] [16
 
 
 
+])
+(./initial_quote.tex) [17
 
 
 
@@ -1897,8 +1830,7 @@ LaTeX Font Info:    Font shape `U/msb/m/n' will be
 ]
 \openout2 = `chapter_introduction.aux'.
 
-
-(./chapter_introduction.tex
+ (./chapter_introduction.tex
 Chapter 1.
 
 Class scrbook Warning: \float@addtolists detected!
@@ -1912,24 +1844,38 @@ Class scrbook Warning: \float@addtolists detected!
 
 
 
-] <Figures/SizeRange.pdf, id=640, 399.59863pt x 253.80487pt>
+] <Figures/SizeRange.pdf, id=637, 399.59863pt x 253.80487pt>
 File: Figures/SizeRange.pdf Graphic file (type pdf)
 
 <use Figures/SizeRange.pdf>
 Package pdftex.def Info: Figures/SizeRange.pdf used on input line 23.
 (pdftex.def)             Requested size: 405.45047pt x 257.52206pt.
- [2] [3 <./Figures/SizeRange.pdf>] [4]
-<Figures/ThesisStructure.pdf, id=849, 456.54237pt x 419.42303pt>
+
+Overfull \hbox (85.35696pt too wide) in paragraph at lines 23--24
+ [][] 
+ []
+
+[2] [3 <./Figures/SizeRange.pdf>] [4]
+<Figures/ThesisStructure.pdf, id=847, 456.54237pt x 419.42303pt>
 File: Figures/ThesisStructure.pdf Graphic file (type pdf)
 
 <use Figures/ThesisStructure.pdf>
 Package pdftex.def Info: Figures/ThesisStructure.pdf used on input line 45.
 (pdftex.def)             Requested size: 277.41176pt x 254.86209pt.
+
+Underfull \hbox (badness 3701) in paragraph at lines 46--46
+[]\T1/cmss/bx/n/9 Figure 1.2 | |\T1/cmss/m/n/9 (+20) Chapter
+ []
+
+
+Underfull \hbox (badness 2310) in paragraph at lines 46--46
+\T1/cmss/m/n/9 (+20) struc-ture of the work
+ []
+
 ) [5 <./Figures/ThesisStructure.pdf>]
 \openout2 = `chapter_theory_SAXS.aux'.
 
-
-(./chapter_theory_SAXS.tex [6
+ (./chapter_theory_SAXS.tex [6
 
 
 
@@ -1938,17 +1884,13 @@ Package pdftex.def Info: Figures/ThesisStructure.pdf used on input line 45.
 ]
 Chapter 2.
 [7] (./Figures/BeerLambertScheme.pdf_tex
-<Figures/BeerLambertScheme.pdf, id=910, 766.96468pt x 362.07819pt>
+<Figures/BeerLambertScheme.pdf, id=908, 536.91791pt x 393.52621pt>
 File: Figures/BeerLambertScheme.pdf Graphic file (type pdf)
 
 <use Figures/BeerLambertScheme.pdf>
 Package pdftex.def Info: Figures/BeerLambertScheme.pdf used on input line 52.
-(pdftex.def)             Requested size: 320.0935pt x 151.11598pt.
+(pdftex.def)             Requested size: 256.07578pt x 187.68948pt.
 )
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <9> on input line 29.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 29.
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
 (Font)              scaled to size 9.37807pt on input line 29.
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
@@ -1957,116 +1899,134 @@ LaTeX Font Info:    Font shape `U/msb/m/n' will be
 (Font)              scaled to size 9.37807pt on input line 29.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
 (Font)              scaled to size 7.29405pt on input line 29.
- (./Figures/AttenuationWater.tex
-<Figures/AttenuationWater.pdf, id=920, 284.06125pt x 226.8475pt>
+ [8 <./Figures/BeerLambertScheme.pdf>]
+(./Figures/AttenuationWater.tex
+<Figures/AttenuationWater.pdf, id=934, 284.06125pt x 226.8475pt>
 File: Figures/AttenuationWater.pdf Graphic file (type pdf)
 
 <use Figures/AttenuationWater.pdf>
 Package pdftex.def Info: Figures/AttenuationWater.pdf used on input line 119.
 (pdftex.def)             Requested size: 284.06053pt x 226.84694pt.
 )
-LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <9> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 60.
- [8 <./Figures/BeerLambertScheme.pdf>]
-[9 <./Figures/AttenuationWater.pdf>] (./Figures/FraunhoferScheme.pdf_tex
-<Figures/FraunhoferScheme.pdf, id=954, 884.24666pt x 321.57019pt>
+Underfull \hbox (badness 2189) in paragraph at lines 69--69
+\T1/cmss/m/n/9 (+20) photon en-ergy ([]Henke
+ []
+
+[9 <./Figures/AttenuationWater.pdf>]
+LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <12> not available
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 80.
+ (./Figures/FraunhoferScheme.pdf_tex
+<Figures/FraunhoferScheme.pdf, id=951, 642.4pt x 337.26pt>
 File: Figures/FraunhoferScheme.pdf Graphic file (type pdf)
 
 <use Figures/FraunhoferScheme.pdf>
 Package pdftex.def Info: Figures/FraunhoferScheme.pdf used on input line 52.
-(pdftex.def)             Requested size: 405.45047pt x 147.44812pt.
+(pdftex.def)             Requested size: 304.08784pt x 159.64952pt.
 ) [10 <./Figures/FraunhoferScheme.pdf>]
-[11] [12] [13] (./Figures/ScatteringCurve50nm.tex
-<Figures/ScatteringCurve50nm.pdf, id=1051, 284.06125pt x 226.8475pt>
+[11] [12] (./Figures/ScatteringCurve50nm.tex
+<Figures/ScatteringCurve50nm.pdf, id=1035, 284.06125pt x 226.8475pt>
 File: Figures/ScatteringCurve50nm.pdf Graphic file (type pdf)
 
 <use Figures/ScatteringCurve50nm.pdf>
 Package pdftex.def Info: Figures/ScatteringCurve50nm.pdf used on input line 110
 .
 (pdftex.def)             Requested size: 284.06053pt x 226.84694pt.
-) [14 <./Figures/ScatteringCurve50nm.pdf>] [15] (./Figures/ContrastScheme.pdf_t
-ex
-<Figures/ContrastScheme.pdf, id=1086, 873.18028pt x 374.56122pt>
+) [13] [14 <./Figures/ScatteringCurve50nm.pdf>] [15] (./Figures/ContrastScheme.
+pdf_tex
+<Figures/ContrastScheme.pdf, id=1079, 444.57101pt x 389.50319pt>
 File: Figures/ContrastScheme.pdf Graphic file (type pdf)
 
 <use Figures/ContrastScheme.pdf>
 Package pdftex.def Info: Figures/ContrastScheme.pdf used on input line 52.
-(pdftex.def)             Requested size: 873.18025pt x 374.58316pt.
-LaTeX Font Info:    Calculating math sizes for size <30> on input line 53.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <30> on input line 53.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <22.79984> on input line 53.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <18.00018> on input line 53.
+(pdftex.def)             Requested size: 444.57101pt x 389.50816pt.
+LaTeX Font Info:    Calculating math sizes for size <25> on input line 53.
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 31.26022pt on input line 53.
+(Font)              scaled to size 26.05019pt on input line 53.
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 23.75758pt on input line 53.
+(Font)              scaled to size 19.79799pt on input line 53.
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 18.75632pt on input line 53.
+(Font)              scaled to size 15.63026pt on input line 53.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 31.26022pt on input line 53.
+(Font)              scaled to size 26.05019pt on input line 53.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 23.75758pt on input line 53.
+(Font)              scaled to size 19.79799pt on input line 53.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 18.75632pt on input line 53.
+(Font)              scaled to size 15.63026pt on input line 53.
 ) (./Figures/MatchPointScheme.pdf_tex
-<Figures/MatchPointScheme.pdf, id=1087, 630.76866pt x 374.56741pt>
+<Figures/MatchPointScheme.pdf, id=1080, 452.52185pt x 389.50319pt>
 File: Figures/MatchPointScheme.pdf Graphic file (type pdf)
 
 <use Figures/MatchPointScheme.pdf>
 Package pdftex.def Info: Figures/MatchPointScheme.pdf used on input line 52.
-(pdftex.def)             Requested size: 630.76868pt x 374.57219pt.
+(pdftex.def)             Requested size: 452.52187pt x 389.52005pt.
 ) [16 <./Figures/ContrastScheme.pdf> <./Figures/MatchPointScheme.pdf
 
 pdfTeX warning: pdflatex (file ./Figures/MatchPointScheme.pdf): PDF inclusion: 
 multiple pdfs with page group included in a single page
->] [17] [18]) [19]
+>] [17]) [18]
 \openout2 = `chapter_experimental_setup.aux'.
 
- (./chapter_experimental_setup.tex [20
+ (./chapter_experimental_setup.tex
+Chapter 3.
+
+Underfull \vbox (badness 1057) has occurred while \output is active []
+
+ [19
 
 
 
 
 
 ]
-Chapter 3.
-
-Underfull \vbox (badness 1152) has occurred while \output is active []
-
- [21]
-[22] (./Figures/BessyScheme.pdf_tex
-<Figures/BessyScheme.pdf, id=1211, 728.66252pt x 586.19257pt>
+[20] (./Figures/BessyScheme.pdf_tex
+<Figures/BessyScheme.pdf, id=1194, 551.66098pt x 586.19257pt>
 File: Figures/BessyScheme.pdf Graphic file (type pdf)
 
 <use Figures/BessyScheme.pdf>
 Package pdftex.def Info: Figures/BessyScheme.pdf used on input line 52.
-(pdftex.def)             Requested size: 320.0935pt x 257.50513pt.
-) [23 <./Figures/BessyScheme.pdf>]
-<Figures/FCMScheme.png, id=1230, 6404.92876pt x 4017.0075pt>
+(pdftex.def)             Requested size: 240.07013pt x 255.09009pt.
+) [21 <./Figures/BessyScheme.pdf>]
+<Figures/FCMScheme.png, id=1213, 6404.92876pt x 4017.0075pt>
 File: Figures/FCMScheme.png Graphic file (type png)
 
 <use Figures/FCMScheme.png>
 Package pdftex.def Info: Figures/FCMScheme.png used on input line 76.
 (pdftex.def)             Requested size: 6404.91322pt x 4016.99777pt.
- [24 <./Figures/FCMScheme.png>]
+ [22 <./Figures/FCMScheme.png>]
 (./Figures/FCMBeamlineFlux.tex
-<Figures/FCMBeamlineFlux.pdf, id=1242, 284.06125pt x 226.8475pt>
+<Figures/FCMBeamlineFlux.pdf, id=1225, 284.06125pt x 226.8475pt>
 File: Figures/FCMBeamlineFlux.pdf Graphic file (type pdf)
 
 <use Figures/FCMBeamlineFlux.pdf>
 Package pdftex.def Info: Figures/FCMBeamlineFlux.pdf used on input line 111.
 (pdftex.def)             Requested size: 284.06053pt x 226.84694pt.
-) [25 <./Figures/FCMBeamlineFlux.pdf>]
-[26]
+)
+Underfull \hbox (badness 1789) in paragraph at lines 92--92
+\T1/cmss/m/n/9 (+20) of the FCM beam-line
+ []
+
+
+Underfull \hbox (badness 1472) in paragraph at lines 92--92
+\T1/cmss/m/n/9 (+20) us-ing dif-fer-ent crys-tals
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--92
+\T1/cmss/m/n/9 (+20) and mir-ror coat-ings
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--92
+\T1/cmss/m/n/9 (+20) (MgF$[]$ and Pt) at
+ []
+
+[23 <./Figures/FCMBeamlineFlux.pdf>] [24]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 127.
+               Default added (so using `tbp') on input line 125.
 
 (./Figures/DistanceCalibrationSAXS.tex
-<Figures/DistanceCalibrationSAXS.pdf, id=1269, 284.06125pt x 226.8475pt>
+<Figures/DistanceCalibrationSAXS.pdf, id=1251, 284.06125pt x 226.8475pt>
 File: Figures/DistanceCalibrationSAXS.pdf Graphic file (type pdf)
 
 <use Figures/DistanceCalibrationSAXS.pdf>
@@ -2074,14 +2034,14 @@ Package pdftex.def Info: Figures/DistanceCalibrationSAXS.pdf used on input line
  132.
 (pdftex.def)             Requested size: 284.06053pt x 226.84694pt.
 )
-<Figures/AgBeheSAXSLongDistance_edit.png, id=1270, 457.4691pt x 486.3771pt>
+<Figures/AgBeheSAXSLongDistance_edit.png, id=1252, 457.4691pt x 486.3771pt>
 File: Figures/AgBeheSAXSLongDistance_edit.png Graphic file (type png)
 
 <use Figures/AgBeheSAXSLongDistance_edit.png>
 Package pdftex.def Info: Figures/AgBeheSAXSLongDistance_edit.png used on input 
 line 150.
 (pdftex.def)             Requested size: 457.46799pt x 486.37592pt.
- [27] [28 <./Figures/DistanceCalibrationSAXS.pdf> <./Figures/AgBeheSAXSLongDist
+ [25] [26 <./Figures/DistanceCalibrationSAXS.pdf> <./Figures/AgBeheSAXSLongDist
 ance_edit.png>]
 
 LaTeX Warning: Command \textregistered invalid in math mode on input line 175.
@@ -2089,8 +2049,9 @@ LaTeX Warning: Command \textregistered invalid in math mode on input line 175.
 
 LaTeX Warning: Command \textregistered invalid in math mode on input line 175.
 
+Missing character: There is no ® in font pplr7t!
 (./Figures/HilgenbergHomogeneity.tex
-<Figures/HilgenbergHomogeneity.pdf, id=1299, 284.06125pt x 226.8475pt>
+<Figures/HilgenbergHomogeneity.pdf, id=1282, 284.06125pt x 226.8475pt>
 File: Figures/HilgenbergHomogeneity.pdf Graphic file (type pdf)
 
 <use Figures/HilgenbergHomogeneity.pdf>
@@ -2098,12 +2059,6 @@ Package pdftex.def Info: Figures/HilgenbergHomogeneity.pdf used on input line 9
 9.
 (pdftex.def)             Requested size: 284.06053pt x 226.84694pt.
 LaTeX Font Info:    Calculating math sizes for size <13> on input line 100.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <13> on input line 100.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <9.87993> on input line 100.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7.80008> on input line 100.
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
 (Font)              scaled to size 13.5461pt on input line 100.
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
@@ -2117,54 +2072,64 @@ LaTeX Font Info:    Font shape `U/msb/m/n' will be
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
 (Font)              scaled to size 8.12773pt on input line 100.
 ) (./Figures/WaterHomogeneity.tex
-<Figures/WaterHomogeneity.pdf, id=1300, 284.06125pt x 226.8475pt>
+<Figures/WaterHomogeneity.pdf, id=1283, 284.06125pt x 226.8475pt>
 File: Figures/WaterHomogeneity.pdf Graphic file (type pdf)
 
 <use Figures/WaterHomogeneity.pdf>
 Package pdftex.def Info: Figures/WaterHomogeneity.pdf used on input line 98.
 (pdftex.def)             Requested size: 284.06053pt x 226.84694pt.
-) [29] (./Figures/GaldenCalibration.tex
-<Figures/GaldenCalibration.pdf, id=1310, 284.06125pt x 226.8475pt>
+) [27] (./Figures/GaldenCalibration.tex
+<Figures/GaldenCalibration.pdf, id=1294, 284.06125pt x 226.8475pt>
 File: Figures/GaldenCalibration.pdf Graphic file (type pdf)
 
 <use Figures/GaldenCalibration.pdf>
 Package pdftex.def Info: Figures/GaldenCalibration.pdf used on input line 102.
 (pdftex.def)             Requested size: 284.06053pt x 226.84694pt.
-)
-<Figures/SampleEnvironment.jpg, id=1314, 876.876pt x 688.0104pt>
+) [28 <./Figures/HilgenbergHomogeneity.pdf> <./Figures/WaterHomogeneity.pdf> <.
+/Figures/GaldenCalibration.pdf>]
+<Figures/SampleEnvironment.jpg, id=1310, 876.876pt x 688.0104pt>
 File: Figures/SampleEnvironment.jpg Graphic file (type jpg)
 
 <use Figures/SampleEnvironment.jpg>
 Package pdftex.def Info: Figures/SampleEnvironment.jpg used on input line 210.
-(pdftex.def)             Requested size: 341.43437pt x 267.90305pt.
- [30 <./Figures/HilgenbergHomogeneity.pdf> <./Figures/WaterHomogeneity.pdf>] [3
-1 <./Figures/GaldenCalibration.pdf> <./Figures/SampleEnvironment.jpg>] [32]) [3
-3]
+(pdftex.def)             Requested size: 256.07578pt x 200.92467pt.
+
+Underfull \hbox (badness 1755) in paragraph at lines 211--211
+[]\T1/cmss/bx/n/9 Figure 3.7 | |\T1/cmss/m/n/9 (+20) Dif-fer-ent
+ []
+
+
+Underfull \hbox (badness 5475) in paragraph at lines 211--211
+\T1/cmss/m/n/9 (+20) with the two silicon-
+ []
+
+[29 <./Figures/SampleEnvironment.jpg>]) [30]
 \openout2 = `chapter_density_gradient_SAXS.aux'.
 
- (./chapter_density_gradient_SAXS.tex
-[34
+
+(./chapter_density_gradient_SAXS.tex
+Chapter 4.
+[31
 
 
 
 
 
 ]
-Chapter 4.
-[35]
 
 LaTeX Warning: Command \textregistered invalid in math mode on input line 18.
 
 
 LaTeX Warning: Command \textregistered invalid in math mode on input line 18.
 
-[36] (./Figures/DensityGradientCapillarySetup.pdf_tex
-<Figures/DensityGradientCapillarySetup.pdf, id=1418, 371.04448pt x 160.96472pt>
+Missing character: There is no ® in font pplr7t!
+[32] (./Figures/DensityGradientCapillarySetup.pdf_tex
+<Figures/DensityGradientCapillarySetup.pdf, id=1392, 371.04448pt x 160.96472pt>
 File: Figures/DensityGradientCapillarySetup.pdf Graphic file (type pdf)
 <use Figures/DensityGradientCapillarySetup.pdf>
 Package pdftex.def Info: Figures/DensityGradientCapillarySetup.pdf used on inpu
 t line 52.
-(pdftex.def)             Requested size: 320.0935pt x 138.86414pt.
+(pdftex.def)             Requested size: 240.07013pt x 104.14932pt.
 )
 
 LaTeX Warning: Command \textregistered invalid in math mode on input line 37.
@@ -2172,9 +2137,10 @@ LaTeX Warning: Command \textregistered invalid in math mode on input line 37.
 
 LaTeX Warning: Command \textregistered invalid in math mode on input line 37.
 
-[37 <./Figures/DensityGradientCapillarySetup.pdf>]
+Missing character: There is no ® in font pplr7t!
+[33 <./Figures/DensityGradientCapillarySetup.pdf>]
 (./Figures/KiskerTransmissionCalibration.tex
-<Figures/KiskerTransmissionCalibration.pdf, id=1472, 426.59375pt x 226.8475pt>
+<Figures/KiskerTransmissionCalibration.pdf, id=1445, 426.59375pt x 226.8475pt>
 File: Figures/KiskerTransmissionCalibration.pdf Graphic file (type pdf)
 
 <use Figures/KiskerTransmissionCalibration.pdf>
@@ -2182,8 +2148,12 @@ Package pdftex.def Info: Figures/KiskerTransmissionCalibration.pdf used on inpu
 t line 122.
 (pdftex.def)             Requested size: 426.5927pt x 226.84694pt.
 )
+Overfull \hbox (106.5892pt too wide) in paragraph at lines 124--50
+ [][] 
+ []
+
 (./Figures/EnergiesTransmissionCalibration.tex
-<Figures/EnergiesTransmissionCalibration.pdf, id=1475, 284.06125pt x 226.8475pt
+<Figures/EnergiesTransmissionCalibration.pdf, id=1448, 284.06125pt x 226.8475pt
 >
 File: Figures/EnergiesTransmissionCalibration.pdf Graphic file (type pdf)
  <use Figures/EnergiesTransmissionCalibration.pdf>
@@ -2192,16 +2162,58 @@ put line 123.
 (pdftex.def)             Requested size: 284.06053pt x 226.84694pt.
 )
 (./Figures/SucroseTransmissionCalibration.tex
-<Figures/SucroseTransmissionCalibration.pdf, id=1476, 284.06125pt x 226.8475pt>
+<Figures/SucroseTransmissionCalibration.pdf, id=1449, 284.06125pt x 226.8475pt>
 File: Figures/SucroseTransmissionCalibration.pdf Graphic file (type pdf)
 <use Figures/SucroseTransmissionCalibration.pdf>
 Package pdftex.def Info: Figures/SucroseTransmissionCalibration.pdf used on inp
 ut line 123.
 (pdftex.def)             Requested size: 284.06053pt x 226.84694pt.
-) [38 <./Figures/KiskerTransmissionCalibration.pdf>] [39 <./Figures/EnergiesTra
-nsmissionCalibration.pdf> <./Figures/SucroseTransmissionCalibration.pdf>] (./Fi
-gures/KiskerContinuousSAXS.tex
-<Figures/KiskerContinuousSAXS.pdf, id=1509, 284.06125pt x 226.8475pt>
+)
+Underfull \hbox (badness 2418) in paragraph at lines 60--60
+\T1/cmss/m/n/9 (+20) of the photon en-ergy.
+ []
+
+
+Underfull \hbox (badness 3690) in paragraph at lines 60--60
+\T1/cmss/m/n/9 (+20) tances ([]Henke \T1/cmss/m/it/9 (+20) et al.[]\T1/cmss/m/n
+/9 (+20) ,
+ []
+
+
+Underfull \hbox (badness 3229) in paragraph at lines 60--60
+\T1/cmss/m/n/9 (+20) pil-lary, wa-ter and an
+ []
+
+
+Underfull \hbox (badness 1147) in paragraph at lines 60--60
+\T1/cmss/m/n/9 (+20) with 65 $\OT1/ppl/m/n/9 (+20) %$ \T1/cmss/m/n/9 (+20) mass
+ frac-
+ []
+
+
+Underfull \hbox (badness 1603) in paragraph at lines 60--60
+\T1/cmss/m/n/9 (+20) ra-tio between the wa-
+ []
+
+
+Underfull \hbox (badness 3849) in paragraph at lines 60--60
+\T1/cmss/m/n/9 (+20) ture trans-mit-tances is
+ []
+
+
+Underfull \hbox (badness 1845) in paragraph at lines 60--60
+\T1/cmss/m/n/9 (+20) b) Sucrose mass frac-
+ []
+
+[34 <./Figures/KiskerTransmissionCalibration.pdf>] [35 <./Figures/EnergiesTrans
+missionCalibration.pdf> <./Figures/SucroseTransmissionCalibration.pdf>]
+Overfull \hbox (3.20807pt too wide) in paragraph at lines 80--81
+\T1/ppl/m/n/10.95 (-20) In or-der to demon-strate the pro-posed con-tinu-ous co
+n-trast vari-ation tech-nique, carboxylated
+ []
+
+(./Figures/KiskerContinuousSAXS.tex
+<Figures/KiskerContinuousSAXS.pdf, id=1481, 284.06125pt x 226.8475pt>
 File: Figures/KiskerContinuousSAXS.pdf Graphic file (type pdf)
 
 <use Figures/KiskerContinuousSAXS.pdf>
@@ -2209,40 +2221,92 @@ Package pdftex.def Info: Figures/KiskerContinuousSAXS.pdf used on input line 11
 1.
 (pdftex.def)             Requested size: 284.06053pt x 226.84694pt.
 )
+Underfull \hbox (badness 1286) in paragraph at lines 89--89
+\T1/cmss/m/n/9 (+20) cep-tion of the dens-ity
+ []
+
+[36 <./Figures/KiskerContinuousSAXS.pdf>]
 (./Figures/KiskerBackgroundSubtraction.tex
-<Figures/KiskerBackgroundSubtraction.pdf, id=1512, 284.06125pt x 226.8475pt>
+<Figures/KiskerBackgroundSubtraction.pdf, id=1490, 284.06125pt x 226.8475pt>
 File: Figures/KiskerBackgroundSubtraction.pdf Graphic file (type pdf)
 
 <use Figures/KiskerBackgroundSubtraction.pdf>
 Package pdftex.def Info: Figures/KiskerBackgroundSubtraction.pdf used on input 
 line 103.
 (pdftex.def)             Requested size: 284.06053pt x 226.84694pt.
-) [40] [41 <./Figures/KiskerContinuousSAXS.pdf> <./Figures/KiskerBackgroundSubt
-raction.pdf>]
+)
+Underfull \hbox (badness 2573) in paragraph at lines 98--98
+\T1/cmss/m/n/9 (+20) ter-ing curve meas-ured
+ []
+
+
+Underfull \hbox (badness 1281) in paragraph at lines 98--98
+\T1/cmss/m/n/9 (+20) the ex-per-i-mental back-
+ []
+
+[37 <./Figures/KiskerBackgroundSubtraction.pdf>]
 (./Figures/KiskerSAXSCoreshellFit.tex
-<Figures/KiskerSAXSCoreshellFit.pdf, id=1533, 284.06125pt x 226.8475pt>
+<Figures/KiskerSAXSCoreshellFit.pdf, id=1505, 284.06125pt x 226.8475pt>
 File: Figures/KiskerSAXSCoreshellFit.pdf Graphic file (type pdf)
 
 <use Figures/KiskerSAXSCoreshellFit.pdf>
 Package pdftex.def Info: Figures/KiskerSAXSCoreshellFit.pdf used on input line 
 133.
 (pdftex.def)             Requested size: 284.06053pt x 226.84694pt.
-) [42 <./Figures/KiskerSAXSCoreshellFit.pdf>] (./Figures/KiskerIsopoint.tex
-<Figures/KiskerIsopoint.pdf, id=1550, 284.06125pt x 226.8475pt>
+)
+Underfull \hbox (badness 7256) in paragraph at lines 117--117
+\T1/cmss/m/n/9 (+20) fit at three se-lec-ted
+ []
+
+
+Underfull \hbox (badness 3803) in paragraph at lines 117--117
+\T1/cmss/m/n/9 (+20) with the ex-per-i-mental
+ []
+
+
+Overfull \hbox (12.44414pt too wide) in paragraph at lines 121--122
+[]\T1/ppl/m/n/10.95 (-20) The ob-tained res-ults are $\OML/zplm/m/it/10.95 R \O
+T1/zplm/m/n/10.95 = []$ \T1/ppl/m/n/10.95 (-20) nm, $\OML/zplm/m/it/10.95 R[] \
+OT1/zplm/m/n/10.95 = []$ \T1/ppl/m/n/10.95 (-20) nm, $\OML/zplm/m/it/10.95 ^^Z[
+] \OT1/zplm/m/n/10.95 = []$
+ []
+
+[38 <./Figures/KiskerSAXSCoreshellFit.pdf>] (./Figures/KiskerIsopoint.tex
+<Figures/KiskerIsopoint.pdf, id=1524, 284.06125pt x 226.8475pt>
 File: Figures/KiskerIsopoint.pdf Graphic file (type pdf)
 
 <use Figures/KiskerIsopoint.pdf>
 Package pdftex.def Info: Figures/KiskerIsopoint.pdf used on input line 104.
 (pdftex.def)             Requested size: 284.06053pt x 226.84694pt.
-) [43] (./Figures/KiskerIntensityComparison.tex <Figures/KiskerIntensityCompari
-son.pdf, id=1576, 284.06125pt x 226.8475pt>
+)
+Underfull \hbox (badness 1337) in paragraph at lines 173--173
+\T1/cmss/m/n/9 (+20) ing points of the PS-
+ []
+
+
+Underfull \hbox (badness 1253) in paragraph at lines 173--173
+\T1/cmss/m/n/9 (+20) pond to the first five
+ []
+
+
+Underfull \hbox (badness 1365) in paragraph at lines 173--173
+\T1/cmss/m/n/9 (+20) tion (black line). b)
+ []
+
+
+Underfull \hbox (badness 4608) in paragraph at lines 173--173
+\T1/cmss/m/n/9 (+20) Ex-per-i-ment-ally de-term-
+ []
+
+[39 <./Figures/KiskerIsopoint.pdf>] (./Figures/KiskerIntensityComparison.tex
+<Figures/KiskerIntensityComparison.pdf, id=1549, 284.06125pt x 226.8475pt>
 File: Figures/KiskerIntensityComparison.pdf Graphic file (type pdf)
 
 <use Figures/KiskerIntensityComparison.pdf>
 Package pdftex.def Info: Figures/KiskerIntensityComparison.pdf used on input li
 ne 111.
 (pdftex.def)             Requested size: 284.06053pt x 226.84694pt.
-) (./Figures/KiskerGuinierRadius.tex <Figures/KiskerGuinierRadius.pdf, id=1580,
+) (./Figures/KiskerGuinierRadius.tex <Figures/KiskerGuinierRadius.pdf, id=1553,
  284.06125pt x 226.8475pt>
 File: Figures/KiskerGuinierRadius.pdf Graphic file (type pdf)
 
@@ -2250,30 +2314,65 @@ File: Figures/KiskerGuinierRadius.pdf Graphic file (type pdf)
 Package pdftex.def Info: Figures/KiskerGuinierRadius.pdf used on input line 115
 .
 (pdftex.def)             Requested size: 284.06053pt x 226.84694pt.
-) [44 <./Figures/KiskerIsopoint.pdf>]
-[45 <./Figures/KiskerIntensityComparison.pdf> <./Figures/KiskerGuinierRadius.pd
-f>] (./Figures/KiskerIntensityParabola.tex
-<Figures/KiskerIntensityParabola.pdf, id=1605, 284.06125pt x 226.8475pt>
+)
+Underfull \hbox (badness 2042) in paragraph at lines 197--197
+\T1/cmss/m/n/9 (+20) ver-tical and ho-ri-zontal
+ []
+
+[40 <./Figures/KiskerIntensityComparison.pdf>]
+(./Figures/KiskerIntensityParabola.tex
+<Figures/KiskerIntensityParabola.pdf, id=1569, 284.06125pt x 226.8475pt>
 File: Figures/KiskerIntensityParabola.pdf Graphic file (type pdf)
 
 <use Figures/KiskerIntensityParabola.pdf>
 Package pdftex.def Info: Figures/KiskerIntensityParabola.pdf used on input line
  111.
 (pdftex.def)             Requested size: 284.06053pt x 226.84694pt.
-) [46 <./Figures/KiskerIntensityParabola.pdf>] [47] [48] (./Figures/LudoxHS40Tr
-ansmissionCalibration.tex
-<Figures/LudoxHS40TransmissionCalibration.pdf, id=1659, 426.59375pt x 226.8475p
+)
+Underfull \hbox (badness 3568) in paragraph at lines 209--209
+[]\T1/cmss/bx/n/9 Figure 4.10 | |\T1/cmss/m/n/9 (+20) Ex-per-i-
+ []
+
+
+Underfull \hbox (badness 1735) in paragraph at lines 209--209
+\T1/cmss/m/n/9 (+20) ing to equa-tion []
+ []
+
+
+Underfull \hbox (badness 2772) in paragraph at lines 209--209
+\T1/cmss/m/n/9 (+20) is fit-ted to the data
+ []
+
+
+Overfull \hbox (14.23703pt too wide) in paragraph at lines 218--229
+ [][] 
+ []
+
+[41 <./Figures/KiskerGuinierRadius.pdf>] [42 <./Figures/KiskerIntensityParabola
+.pdf>]
+Overfull \hbox (12.01093pt too wide) in paragraph at lines 235--235
+ |[]\T1/ppl/m/n/17.28 Applicability and com-par-ison with other con-trast vari-
+
+ []
+
+[43] (./Figures/LudoxHS40TransmissionCalibration.tex
+<Figures/LudoxHS40TransmissionCalibration.pdf, id=1624, 426.59375pt x 226.8475p
 t>
 File: Figures/LudoxHS40TransmissionCalibration.pdf Graphic file (type pdf)
  <use Figures/LudoxHS40TransmissionCalibration.pdf>
 Package pdftex.def Info: Figures/LudoxHS40TransmissionCalibration.pdf used on i
 nput line 132.
 (pdftex.def)             Requested size: 426.5927pt x 226.84694pt.
-)) [49 <./Figures/LudoxHS40TransmissionCalibration.pdf>]
+)
+Overfull \hbox (106.5892pt too wide) in paragraph at lines 134--263
+ [][] 
+ []
+
+[44 <./Figures/LudoxHS40TransmissionCalibration.pdf>]) [45]
 \openout2 = `chapter_simultaneous_size_density.aux'.
 
- (./chapter_simultaneous_size_density.tex
-[50
+
+(./chapter_simultaneous_size_density.tex [46
 
 
 
@@ -2281,22 +2380,32 @@ nput line 132.
 
 ]
 Chapter 5.
-[51] [52]
+[47] [48]
 
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 30.
 
-[53] (./Figures/PSPlainSingleContrastSAXS.tex
-<Figures/PSPlainSingleContrastSAXS.pdf, id=1738, 284.06125pt x 226.8475pt>
+
+Overfull \hbox (12.32405pt too wide) in paragraph at lines 34--42
+ [][] 
+ []
+
+
+Overfull \hbox (21.34087pt too wide) in paragraph at lines 43--49
+ []$[]$ 
+ []
+
+[49] (./Figures/PSPlainSingleContrastSAXS.tex
+<Figures/PSPlainSingleContrastSAXS.pdf, id=1710, 284.06125pt x 226.8475pt>
 File: Figures/PSPlainSingleContrastSAXS.pdf Graphic file (type pdf)
 
 <use Figures/PSPlainSingleContrastSAXS.pdf>
 Package pdftex.def Info: Figures/PSPlainSingleContrastSAXS.pdf used on input li
 ne 135.
 (pdftex.def)             Requested size: 284.06053pt x 226.84694pt.
-) [54 <./Figures/PSPlainSingleContrastSAXS.pdf>] (./Figures/PSPlainContinuousSA
+) [50 <./Figures/PSPlainSingleContrastSAXS.pdf>] (./Figures/PSPlainContinuousSA
 XS.tex
-<Figures/PSPlainContinuousSAXS.pdf, id=1754, 284.06125pt x 226.8475pt>
+<Figures/PSPlainContinuousSAXS.pdf, id=1726, 284.06125pt x 226.8475pt>
 File: Figures/PSPlainContinuousSAXS.pdf Graphic file (type pdf)
 
 <use Figures/PSPlainContinuousSAXS.pdf>
@@ -2305,7 +2414,7 @@ Package pdftex.def Info: Figures/PSPlainContinuousSAXS.pdf used on input line 1
 (pdftex.def)             Requested size: 284.06053pt x 226.84694pt.
 )
 (./Figures/PSPlainContinuousSAXSIsopoint.tex
-<Figures/PSPlainContinuousSAXSIsopoint.pdf, id=1755, 284.06125pt x 226.8475pt>
+<Figures/PSPlainContinuousSAXSIsopoint.pdf, id=1727, 284.06125pt x 226.8475pt>
 File: Figures/PSPlainContinuousSAXSIsopoint.pdf Graphic file (type pdf)
 
 <use Figures/PSPlainContinuousSAXSIsopoint.pdf>
@@ -2313,53 +2422,219 @@ Package pdftex.def Info: Figures/PSPlainContinuousSAXSIsopoint.pdf used on inpu
 t line 110.
 (pdftex.def)             Requested size: 284.06053pt x 226.84694pt.
 )
+Underfull \hbox (badness 1796) in paragraph at lines 99--99
+[]\T1/cmss/bx/n/9 Figure 5.2 | |\T1/cmss/m/n/9 (+20) PS-Plain
+ []
+
+
+Underfull \hbox (badness 3701) in paragraph at lines 99--99
+\T1/cmss/m/n/9 (+20) vari-ation after solvent
+ []
+
+
+Underfull \hbox (badness 1902) in paragraph at lines 99--99
+\T1/cmss/m/n/9 (+20) ured scat-ter-ing curves,
+ []
+
 (./Figures/PSPlainResonantTerm.tex
-<Figures/PSPlainResonantTerm.pdf, id=1763, 284.06125pt x 226.8475pt>
+<Figures/PSPlainResonantTerm.pdf, id=1735, 284.06125pt x 226.8475pt>
 File: Figures/PSPlainResonantTerm.pdf Graphic file (type pdf)
 
 <use Figures/PSPlainResonantTerm.pdf>
 Package pdftex.def Info: Figures/PSPlainResonantTerm.pdf used on input line 109
 .
 (pdftex.def)             Requested size: 284.06053pt x 226.84694pt.
-) [55 <./Figures/PSPlainContinuousSAXS.pdf> <./Figures/PSPlainContinuousSAXSIso
-point.pdf>]
-(./Figures/PSPlainSizeComparison.tex
-<Figures/PSPlainSizeComparison.pdf, id=1782, 284.06125pt x 226.8475pt>
+)
+Underfull \hbox (badness 2042) in paragraph at lines 112--112
+\T1/cmss/m/n/9 (+20) ter-ing curves and the
+ []
+
+[51 <./Figures/PSPlainContinuousSAXS.pdf> <./Figures/PSPlainContinuousSAXSIsopo
+int.pdf>] (./Figures/PSPlainSizeComparison.tex
+<Figures/PSPlainSizeComparison.pdf, id=1753, 284.06125pt x 226.8475pt>
 File: Figures/PSPlainSizeComparison.pdf Graphic file (type pdf)
 
 <use Figures/PSPlainSizeComparison.pdf>
 Package pdftex.def Info: Figures/PSPlainSizeComparison.pdf used on input line 1
 16.
 (pdftex.def)             Requested size: 284.06053pt x 226.84694pt.
-) (./Figures/DCSCombinedStokes.tex
-<Figures/DCSCombinedStokes.pdf, id=1785, 284.06125pt x 226.8475pt>
+)
+Underfull \hbox (badness 10000) in paragraph at lines 125--125
+\T1/cmss/m/n/9 (+20) dif-fer-ent tech-niques,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 125--125
+\T1/cmss/m/n/9 (+20) where the er-ror-bars
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 125--125
+\T1/cmss/m/n/9 (+20) cor-res-pond to the
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 125--125
+\T1/cmss/m/n/9 (+20) ex-pan-ded un-cer-tainty
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 125--125
+\T1/cmss/m/n/9 (+20) cor-res-pond to res-ults
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 125--125
+\T1/cmss/m/n/9 (+20) ob-tained with SAXS
+ []
+
+
+Underfull \hbox (badness 2012) in paragraph at lines 125--125
+\T1/cmss/m/n/9 (+20) in the FCM beam-line
+ []
+
+
+Underfull \hbox (badness 5908) in paragraph at lines 125--125
+\T1/cmss/m/n/9 (+20) and the dia-mond to
+ []
+
+
+Underfull \hbox (badness 3009) in paragraph at lines 125--125
+\T1/cmss/m/n/9 (+20) weighted mean of all
+ []
+
+
+Underfull \hbox (badness 4193) in paragraph at lines 125--125
+\T1/cmss/m/n/9 (+20) mi-cro-scopy val-ues are
+ []
+
+
+Underfull \hbox (badness 2050) in paragraph at lines 125--125
+\T1/cmss/m/n/9 (+20) ob-tained from Bel-gian
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 125--125
+\T1/cmss/m/n/9 (+20) Ser-vice Métrologie-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 125--125
+\T1/cmss/m/n/9 (+20) Metrologische Di-enst
+ []
+
+
+Underfull \hbox (badness 3514) in paragraph at lines 125--125
+\T1/cmss/m/n/9 (+20) (SMD), Swiss Fed-eral
+ []
+
+
+Underfull \hbox (badness 3138) in paragraph at lines 125--125
+\T1/cmss/m/n/9 (+20) In-sti-tute of Met-ro-logy
+ []
+
+
+Underfull \hbox (badness 7576) in paragraph at lines 125--125
+\T1/cmss/m/n/9 (+20) (METAS) and Dutch
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 125--125
+\T1/cmss/m/n/9 (+20) Met-ro-logy In-sti-tute
+ []
+
+(./Figures/DCSCombinedStokes.tex
+<Figures/DCSCombinedStokes.pdf, id=1756, 284.06125pt x 226.8475pt>
 File: Figures/DCSCombinedStokes.pdf Graphic file (type pdf)
 
 <use Figures/DCSCombinedStokes.pdf>
 Package pdftex.def Info: Figures/DCSCombinedStokes.pdf used on input line 109.
 (pdftex.def)             Requested size: 284.06053pt x 226.84694pt.
-) [56 <./Figures/PSPlainResonantTerm.pdf>]
-[57 <./Figures/PSPlainSizeComparison.pdf> <./Figures/DCSCombinedStokes.pdf>]
-(./Figures/PSPlainSizeDistribution.tex
-<Figures/PSPlainSizeDistribution.pdf, id=1805, 284.06125pt x 226.8475pt>
+)
+Underfull \hbox (badness 4954) in paragraph at lines 137--137
+\T1/cmss/m/n/9 (+20) of the intensity-based
+ []
+
+
+Underfull \hbox (badness 4634) in paragraph at lines 137--137
+\T1/cmss/m/n/9 (+20) on the particle dens-
+ []
+
+
+Underfull \hbox (badness 2245) in paragraph at lines 137--137
+\T1/cmss/m/n/9 (+20) dens-ity of the col-loid.
+ []
+
+[52 <./Figures/PSPlainResonantTerm.pdf>] [53 <./Figures/PSPlainSizeComparison.p
+df> <./Figures/DCSCombinedStokes.pdf>] (./Figures/PSPlainSizeDistribution.tex
+<Figures/PSPlainSizeDistribution.pdf, id=1776, 284.06125pt x 226.8475pt>
 File: Figures/PSPlainSizeDistribution.pdf Graphic file (type pdf)
 
 <use Figures/PSPlainSizeDistribution.pdf>
 Package pdftex.def Info: Figures/PSPlainSizeDistribution.pdf used on input line
  117.
 (pdftex.def)             Requested size: 284.06053pt x 226.84694pt.
-) [58 <./Figures/PSPlainSizeDistribution.pdf>] (./Figures/ResonantTermSimulatio
-nNumber.tex
-<Figures/ResonantTermSimulationNumber.pdf, id=1825, 284.06125pt x 226.8475pt>
+)
+Underfull \hbox (badness 2359) in paragraph at lines 155--155
+[]\T1/cmss/bx/n/9 Figure 5.6 | |\T1/cmss/m/n/9 (+20) Number-
+ []
+
+
+Underfull \hbox (badness 3492) in paragraph at lines 155--155
+\T1/cmss/m/n/9 (+20) weighted size dis-tri-bu-
+ []
+
+
+Underfull \hbox (badness 1590) in paragraph at lines 155--155
+\T1/cmss/m/n/9 (+20) SAXS with the shape
+ []
+
+
+Underfull \hbox (badness 1810) in paragraph at lines 155--155
+\T1/cmss/m/n/9 (+20) scat-ter-ing func-tion ap-
+ []
+
+[54 <./Figures/PSPlainSizeDistribution.pdf>]
+(./Figures/ResonantTermSimulationNumber.tex
+<Figures/ResonantTermSimulationNumber.pdf, id=1796, 284.06125pt x 226.8475pt>
 File: Figures/ResonantTermSimulationNumber.pdf Graphic file (type pdf)
 
 <use Figures/ResonantTermSimulationNumber.pdf>
 Package pdftex.def Info: Figures/ResonantTermSimulationNumber.pdf used on input
  line 111.
 (pdftex.def)             Requested size: 284.06053pt x 226.84694pt.
-) [59 <./Figures/ResonantTermSimulationNumber.pdf>] (./Figures/IsopointSimulati
-onPolydispersity.tex
-<Figures/IsopointSimulationPolydispersity.pdf, id=1841, 284.06125pt x 226.8475p
+) [55 <./Figures/ResonantTermSimulationNumber.pdf>]
+Overfull \hbox (50.84315pt too wide) in paragraph at lines 198--208
+ [][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 208--208
+\T1/cmss/m/n/9 (+20) cor-res-pond-ing particle
+ []
+
+
+Underfull \hbox (badness 1728) in paragraph at lines 208--208
+\T1/cmss/m/n/9 (+20) dia-meter for the scat-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 208--208
+\T1/cmss/m/n/9 (+20) ter-ing curves be-fore
+ []
+
+
+Underfull \hbox (badness 5302) in paragraph at lines 208--208
+\T1/cmss/m/n/9 (+20) and after back-ground
+ []
+
+
+Underfull \hbox (badness 4391) in paragraph at lines 208--208
+\T1/cmss/m/n/9 (+20) val-ues is also shown,
+ []
+
+(./Figures/IsopointSimulationPolydispersity.tex
+<Figures/IsopointSimulationPolydispersity.pdf, id=1813, 284.06125pt x 226.8475p
 t>
 File: Figures/IsopointSimulationPolydispersity.pdf Graphic file (type pdf)
  <use Figures/IsopointSimulationPolydispersity.pdf>
@@ -2368,12 +2643,6 @@ nput line 129.
 (pdftex.def)             Requested size: 284.06053pt x 226.84694pt.
 LaTeX Font Info:    Calculating math sizes for size <9.49123> on input line 130
 .
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <9.49123> on input line 130.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7.21327> on input line 130.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5.69478> on input line 130.
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
 (Font)              scaled to size 9.88992pt on input line 130.
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
@@ -2388,73 +2657,143 @@ LaTeX Font Info:    Font shape `U/msb/m/n' will be
 (Font)              scaled to size 5.93399pt on input line 130.
 )
 (./Figures/IsopointSimulationRange.tex
-<Figures/IsopointSimulationRange.pdf, id=1842, 284.06125pt x 226.8475pt>
+<Figures/IsopointSimulationRange.pdf, id=1814, 284.06125pt x 226.8475pt>
 File: Figures/IsopointSimulationRange.pdf Graphic file (type pdf)
 
 <use Figures/IsopointSimulationRange.pdf>
 Package pdftex.def Info: Figures/IsopointSimulationRange.pdf used on input line
  109.
 (pdftex.def)             Requested size: 284.06053pt x 226.84694pt.
-) [60]
-(./Figures/PSPlainAverageDensity.tex
-<Figures/PSPlainAverageDensity.pdf, id=1858, 284.06125pt x 226.8475pt>
+)
+Underfull \hbox (badness 2221) in paragraph at lines 220--220
+\T1/cmss/m/n/9 (+20) nom-inal value de-pend-
+ []
+
+
+Underfull \hbox (badness 2435) in paragraph at lines 220--220
+\T1/cmss/m/n/9 (+20) dis-persity of core-shell
+ []
+
+
+Underfull \hbox (badness 1629) in paragraph at lines 220--220
+\T1/cmss/m/n/9 (+20) particles with dif-fer-ent
+ []
+
+[56] (./Figures/PSPlainAverageDensity.tex
+<Figures/PSPlainAverageDensity.pdf, id=1831, 284.06125pt x 226.8475pt>
 File: Figures/PSPlainAverageDensity.pdf Graphic file (type pdf)
 
 <use Figures/PSPlainAverageDensity.pdf>
 Package pdftex.def Info: Figures/PSPlainAverageDensity.pdf used on input line 1
 07.
 (pdftex.def)             Requested size: 284.06053pt x 226.84694pt.
-) [61 <./Figures/IsopointSimulationPolydispersity.pdf> <./Figures/IsopointSimul
-ationRange.pdf>]
-(./Figures/DensityComparison.tex
-<Figures/DensityComparison.pdf, id=1876, 284.06125pt x 226.8475pt>
+)
+Underfull \hbox (badness 1546) in paragraph at lines 239--239
+\T1/cmss/m/n/9 (+20) zero-angle of PS-Plain
+ []
+
+
+Underfull \hbox (badness 1960) in paragraph at lines 239--239
+\T1/cmss/m/n/9 (+20) dens-ity meas-ured with
+ []
+
+[57 <./Figures/IsopointSimulationPolydispersity.pdf> <./Figures/IsopointSimulat
+ionRange.pdf>] (./Figures/DensityComparison.tex
+<Figures/DensityComparison.pdf, id=1846, 284.06125pt x 226.8475pt>
 File: Figures/DensityComparison.pdf Graphic file (type pdf)
 
 <use Figures/DensityComparison.pdf>
 Package pdftex.def Info: Figures/DensityComparison.pdf used on input line 118.
 (pdftex.def)             Requested size: 284.06053pt x 226.84694pt.
-) [62 <./Figures/PSPlainAverageDensity.pdf>]) [63 <./Figures/DensityComparison.
-pdf>] [64]
+)
+Underfull \hbox (badness 1048) in paragraph at lines 256--256
+\T1/cmss/m/n/9 (+20) col-loids meas-ured with
+ []
+
+
+Underfull \hbox (badness 3439) in paragraph at lines 256--256
+\T1/cmss/m/n/9 (+20) SAXS us-ing the $\OML/zplm/m/it/9 I\OT1/zplm/m/n/9 (\OT1/p
+pl/m/n/9 (+20) 0\OT1/zplm/m/n/9 )$
+ []
+
+
+Underfull \hbox (badness 5817) in paragraph at lines 256--256
+\T1/cmss/m/n/9 (+20) ap-proach (black) and
+ []
+
+
+Underfull \hbox (badness 2689) in paragraph at lines 256--256
+\T1/cmss/m/n/9 (+20) DCS (red): PS-Plain
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 256--256
+\T1/cmss/m/n/9 (+20) (squares), PS-COOH
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 256--256
+\T1/cmss/m/n/9 (+20) (circles) and PMMA-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 256--256
+\T1/cmss/m/n/9 (+20) COOH (dia-monds).
+ []
+
+
+Underfull \hbox (badness 3536) in paragraph at lines 256--256
+\T1/cmss/m/n/9 (+20) The nom-inal dens-it-ies
+ []
+
+[58 <./Figures/PSPlainAverageDensity.pdf>]) [59 <./Figures/DensityComparison.pd
+f>]
 \openout2 = `chapter_bio_applications.aux'.
 
- (./chapter_bio_applications.tex
+ (./chapter_bio_applications.tex [60
+
+
+
+
+
+]
 Chapter 6.
-[65
+[61]
+Overfull \hbox (27.02524pt too wide) in paragraph at lines 21--22
+\T1/ppl/m/n/10.95 (-20) (carbonyl-methoxypolyethylene glycol 2000)-1,2-distearo
+yl-sn-glycero-3-phosphoethanolamine).
+ []
 
-
-
-
-
-] <Figures/CaelyxCryoTEM.png, id=1945, 243.91125pt x 245.91875pt>
+<Figures/CaelyxCryoTEM.png, id=1914, 243.91125pt x 245.91875pt>
 File: Figures/CaelyxCryoTEM.png Graphic file (type png)
 
 <use Figures/CaelyxCryoTEM.png>
 Package pdftex.def Info: Figures/CaelyxCryoTEM.png used on input line 25.
 (pdftex.def)             Requested size: 243.91064pt x 245.91814pt.
  (./Figures/CaelyxScheme.pdf_tex
-<Figures/CaelyxScheme.pdf, id=1946, 966.9253pt x 435.88487pt>
+<Figures/CaelyxScheme.pdf, id=1915, 966.9253pt x 435.88487pt>
 File: Figures/CaelyxScheme.pdf Graphic file (type pdf)
 
 <use Figures/CaelyxScheme.pdf>
 Package pdftex.def Info: Figures/CaelyxScheme.pdf used on input line 52.
-(pdftex.def)             Requested size: 298.75264pt x 134.67729pt.
+(pdftex.def)             Requested size: 224.06447pt x 101.00298pt.
 )
-Overfull \hbox (42.67566pt too wide) in paragraph at lines 25--27
+Overfull \hbox (32.00766pt too wide) in paragraph at lines 25--27
  [][][][] 
  []
 
-LaTeX Font Info:    Try loading font information for TS1+lmss on input line 27.
+LaTeX Font Info:    Try loading font information for TS1+cmss on input line 27.
 
-(/usr/share/texmf/tex/latex/lm/ts1lmss.fd
-File: ts1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
+(/usr/share/texmf/tex/latex/base/ts1cmss.fd
+File: ts1cmss.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 Package microtype Info: Loading generic settings for font family
-(microtype)             `lmss' (encoding: TS1).
+(microtype)             `cmss' (encoding: TS1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
- [66 <./Figures/CaelyxCryoTEM.png> <./Figures/CaelyxScheme.pdf>] [67] (./Figure
+ [62 <./Figures/CaelyxCryoTEM.png> <./Figures/CaelyxScheme.pdf>] [63] (./Figure
 s/CaelyxIodixanolContinuousSAXS.tex
-<Figures/CaelyxIodixanolContinuousSAXS.pdf, id=2106, 284.06125pt x 226.8475pt>
+<Figures/CaelyxIodixanolContinuousSAXS.pdf, id=2075, 284.06125pt x 226.8475pt>
 File: Figures/CaelyxIodixanolContinuousSAXS.pdf Graphic file (type pdf)
 
 <use Figures/CaelyxIodixanolContinuousSAXS.pdf>
@@ -2463,44 +2802,49 @@ t line 110.
 (pdftex.def)             Requested size: 284.06053pt x 226.84694pt.
 )
 (./Figures/CaelyxIodixanolIsopoint.tex
-<Figures/CaelyxIodixanolIsopoint.pdf, id=2107, 284.06125pt x 226.8475pt>
+<Figures/CaelyxIodixanolIsopoint.pdf, id=2076, 284.06125pt x 226.8475pt>
 File: Figures/CaelyxIodixanolIsopoint.pdf Graphic file (type pdf)
 
 <use Figures/CaelyxIodixanolIsopoint.pdf>
 Package pdftex.def Info: Figures/CaelyxIodixanolIsopoint.pdf used on input line
  101.
 (pdftex.def)             Requested size: 284.06053pt x 226.84694pt.
-) [68 <./Figures/CaelyxIodixanolContinuousSAXS.pdf> <./Figures/CaelyxIodixanolI
+) [64 <./Figures/CaelyxIodixanolContinuousSAXS.pdf> <./Figures/CaelyxIodixanolI
 sopoint.pdf>]
 (./Figures/CaelyxIodixanolResonantTerm.tex
-<Figures/CaelyxIodixanolResonantTerm.pdf, id=2128, 284.06125pt x 226.8475pt>
+<Figures/CaelyxIodixanolResonantTerm.pdf, id=2097, 284.06125pt x 226.8475pt>
 File: Figures/CaelyxIodixanolResonantTerm.pdf Graphic file (type pdf)
 
 <use Figures/CaelyxIodixanolResonantTerm.pdf>
 Package pdftex.def Info: Figures/CaelyxIodixanolResonantTerm.pdf used on input 
 line 105.
 (pdftex.def)             Requested size: 284.06053pt x 226.84694pt.
-) [69]
+)
+Underfull \hbox (badness 1708) in paragraph at lines 94--94
+\T1/cmss/m/n/9 (+20) with sym-bols and the
+ []
+
+[65 <./Figures/CaelyxIodixanolResonantTerm.pdf>]
 (./Figures/CaelyxAverageDensity.tex
-<Figures/CaelyxAverageDensity.pdf, id=2139, 284.06125pt x 226.8475pt>
+<Figures/CaelyxAverageDensity.pdf, id=2110, 284.06125pt x 226.8475pt>
 File: Figures/CaelyxAverageDensity.pdf Graphic file (type pdf)
 
 <use Figures/CaelyxAverageDensity.pdf>
 Package pdftex.def Info: Figures/CaelyxAverageDensity.pdf used on input line 10
 7.
 (pdftex.def)             Requested size: 284.06053pt x 226.84694pt.
-) [70 <./Figures/CaelyxIodixanolResonantTerm.pdf>] (./Figures/OsmolalityElectro
-nDensity.tex
-<Figures/OsmolalityElectronDensity.pdf, id=2158, 284.06125pt x 226.8475pt>
+) [66 <./Figures/CaelyxAverageDensity.pdf>] (./Figures/OsmolalityElectronDensit
+y.tex
+<Figures/OsmolalityElectronDensity.pdf, id=2129, 284.06125pt x 226.8475pt>
 File: Figures/OsmolalityElectronDensity.pdf Graphic file (type pdf)
 
 <use Figures/OsmolalityElectronDensity.pdf>
 Package pdftex.def Info: Figures/OsmolalityElectronDensity.pdf used on input li
 ne 120.
 (pdftex.def)             Requested size: 284.06053pt x 226.84694pt.
-) [71 <./Figures/CaelyxAverageDensity.pdf>] (./Figures/CaelyxSucroseContinuousS
-AXS.tex
-<Figures/CaelyxSucroseContinuousSAXS.pdf, id=2175, 284.06125pt x 226.8475pt>
+) [67 <./Figures/OsmolalityElectronDensity.pdf>] (./Figures/CaelyxSucroseContin
+uousSAXS.tex
+<Figures/CaelyxSucroseContinuousSAXS.pdf, id=2147, 284.06125pt x 226.8475pt>
 File: Figures/CaelyxSucroseContinuousSAXS.pdf Graphic file (type pdf)
 
 <use Figures/CaelyxSucroseContinuousSAXS.pdf>
@@ -2509,16 +2853,21 @@ line 111.
 (pdftex.def)             Requested size: 284.06053pt x 226.84694pt.
 )
 (./Figures/CaelyxSucroseContinuousSAXSIsopoint.tex
-<Figures/CaelyxSucroseContinuousSAXSIsopoint.pdf, id=2176, 284.06125pt x 226.84
+<Figures/CaelyxSucroseContinuousSAXSIsopoint.pdf, id=2148, 284.06125pt x 226.84
 75pt>
 File: Figures/CaelyxSucroseContinuousSAXSIsopoint.pdf Graphic file (type pdf)
  <use Figures/CaelyxSucroseContinuousSAXSIsopoint.pdf>
 Package pdftex.def Info: Figures/CaelyxSucroseContinuousSAXSIsopoint.pdf used o
 n input line 124.
 (pdftex.def)             Requested size: 284.06053pt x 226.84694pt.
-) [72 <./Figures/OsmolalityElectronDensity.pdf>] (./Figures/CaelyxSucroseContin
-uousWAXS.tex
-<Figures/CaelyxSucroseContinuousWAXS.pdf, id=2194, 284.06125pt x 226.8475pt>
+)
+Underfull \hbox (badness 1527) in paragraph at lines 142--142
+\T1/cmss/m/n/9 (+20) fects of Caelyx in an
+ []
+
+[68 <./Figures/CaelyxSucroseContinuousSAXS.pdf> <./Figures/CaelyxSucroseContinu
+ousSAXSIsopoint.pdf>] (./Figures/CaelyxSucroseContinuousWAXS.tex
+<Figures/CaelyxSucroseContinuousWAXS.pdf, id=2169, 284.06125pt x 226.8475pt>
 File: Figures/CaelyxSucroseContinuousWAXS.pdf Graphic file (type pdf)
 
 <use Figures/CaelyxSucroseContinuousWAXS.pdf>
@@ -2527,7 +2876,7 @@ line 110.
 (pdftex.def)             Requested size: 284.06053pt x 226.84694pt.
 )
 (./Figures/CaelyxSucroseContinuousWAXSDiffraction.tex
-<Figures/CaelyxSucroseContinuousWAXSDiffraction.pdf, id=2195, 284.06125pt x 226
+<Figures/CaelyxSucroseContinuousWAXSDiffraction.pdf, id=2170, 284.06125pt x 226
 .8475pt>
 File: Figures/CaelyxSucroseContinuousWAXSDiffraction.pdf Graphic file (type pdf
 )
@@ -2536,73 +2885,100 @@ Package pdftex.def Info: Figures/CaelyxSucroseContinuousWAXSDiffraction.pdf use
 d on input line 105.
 (pdftex.def)             Requested size: 284.06053pt x 226.84694pt.
 )
-Underfull \vbox (badness 1205) has occurred while \output is active []
+Underfull \hbox (badness 10000) in paragraph at lines 155--155
+\T1/cmss/m/n/9 (+20) doxorubicin-precipitate
+ []
 
- [73 <./Figures/CaelyxSucroseContinuousSAXS.pdf> <./Figures/CaelyxSucroseContin
-uousSAXSIsopoint.pdf>] (./Figures/CaelyxIsopointComparison.tex
-<Figures/CaelyxIsopointComparison.pdf, id=2212, 284.06125pt x 226.8475pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 155--155
+\T1/cmss/m/n/9 (+20) by us-ing sucrose as
+ []
+
+
+Underfull \hbox (badness 4217) in paragraph at lines 155--155
+\T1/cmss/m/n/9 (+20) mean FWHM of the
+ []
+
+
+Underfull \hbox (badness 5548) in paragraph at lines 155--155
+\T1/cmss/m/n/9 (+20) peak is 0.333 nm$[]$.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 155--155
+\T1/cmss/m/n/9 (+20) b) De-vi-ation of the
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 155--155
+\T1/cmss/m/n/9 (+20) doxorubicin-aggregate
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 155--155
+\T1/cmss/m/n/9 (+20) from the weighted
+ []
+
+(./Figures/CaelyxIsopointComparison.tex
+<Figures/CaelyxIsopointComparison.pdf, id=2176, 284.06125pt x 226.8475pt>
 File: Figures/CaelyxIsopointComparison.pdf Graphic file (type pdf)
 
 <use Figures/CaelyxIsopointComparison.pdf>
 Package pdftex.def Info: Figures/CaelyxIsopointComparison.pdf used on input lin
 e 109.
 (pdftex.def)             Requested size: 284.06053pt x 226.84694pt.
-) [74 <./Figures/CaelyxSucroseContinuousWAXS.pdf> <./Figures/CaelyxSucroseConti
+) [69 <./Figures/CaelyxSucroseContinuousWAXS.pdf> <./Figures/CaelyxSucroseConti
 nuousWAXSDiffraction.pdf>]
+Overfull \hbox (1.44243pt too wide) in paragraph at lines 176--177
+[]\T1/ppl/m/n/10.95 (-20) The in-cor-por-a-tion of biocom-pat-ible poly-mers in
+-creases the phos-phol-ipid bilayer strength
+ []
+
 (./Figures/SSLSingleContrast.tex
-<Figures/SSLSingleContrast.pdf, id=2250, 284.06125pt x 226.8475pt>
+<Figures/SSLSingleContrast.pdf, id=2208, 284.06125pt x 226.8475pt>
 File: Figures/SSLSingleContrast.pdf Graphic file (type pdf)
 
 <use Figures/SSLSingleContrast.pdf>
 Package pdftex.def Info: Figures/SSLSingleContrast.pdf used on input line 123.
 (pdftex.def)             Requested size: 284.06053pt x 226.84694pt.
-) (./Figures/SSLSingleContrastBilayer.tex
-<Figures/SSLSingleContrastBilayer.pdf, id=2253, 198.7425pt x 312.16624pt>
+) [70 <./Figures/CaelyxIsopointComparison.pdf>] (./Figures/SSLSingleContrastBil
+ayer.tex
+<Figures/SSLSingleContrastBilayer.pdf, id=2227, 198.7425pt x 312.16624pt>
 File: Figures/SSLSingleContrastBilayer.pdf Graphic file (type pdf)
 
 <use Figures/SSLSingleContrastBilayer.pdf>
 Package pdftex.def Info: Figures/SSLSingleContrastBilayer.pdf used on input lin
 e 105.
 (pdftex.def)             Requested size: 198.742pt x 312.16548pt.
-)
-Underfull \vbox (badness 2229) has occurred while \output is active []
-
- [75 <./Figures/CaelyxIsopointComparison.pdf>] [76 <./Figures/SSLSingleContrast
-.pdf> <./Figures/SSLSingleContrastBilayer.pdf>] (./Figures/SSLContinuousSAXS.te
-x
-<Figures/SSLContinuousSAXS.pdf, id=2276, 284.06125pt x 226.8475pt>
+) (./Figures/SSLContinuousSAXS.tex
+<Figures/SSLContinuousSAXS.pdf, id=2233, 284.06125pt x 226.8475pt>
 File: Figures/SSLContinuousSAXS.pdf Graphic file (type pdf)
 
 <use Figures/SSLContinuousSAXS.pdf>
 Package pdftex.def Info: Figures/SSLContinuousSAXS.pdf used on input line 111.
 (pdftex.def)             Requested size: 284.06053pt x 226.84694pt.
 ) (./Figures/PlainLiposomeContinuousSAXS.tex <Figures/PlainLiposomeContinuousSA
-XS.pdf, id=2277, 284.06125pt x 226.8475pt>
+XS.pdf, id=2234, 284.06125pt x 226.8475pt>
 File: Figures/PlainLiposomeContinuousSAXS.pdf Graphic file (type pdf)
 
 <use Figures/PlainLiposomeContinuousSAXS.pdf>
 Package pdftex.def Info: Figures/PlainLiposomeContinuousSAXS.pdf used on input 
 line 113.
 (pdftex.def)             Requested size: 284.06053pt x 226.84694pt.
-)
+) [71 <./Figures/SSLSingleContrast.pdf>] [72 <./Figures/SSLSingleContrastBilaye
+r.pdf> <./Figures/SSLContinuousSAXS.pdf> <./Figures/PlainLiposomeContinuousSAXS
+.pdf>]
 (./Figures/SSLIsopointIntensity.tex
-<Figures/SSLIsopointIntensity.pdf, id=2280, 284.06125pt x 226.8475pt>
+<Figures/SSLIsopointIntensity.pdf, id=2257, 284.06125pt x 226.8475pt>
 File: Figures/SSLIsopointIntensity.pdf Graphic file (type pdf)
 
 <use Figures/SSLIsopointIntensity.pdf>
 Package pdftex.def Info: Figures/SSLIsopointIntensity.pdf used on input line 10
 9.
 (pdftex.def)             Requested size: 284.06053pt x 226.84694pt.
-) [77 <./Figures/SSLContinuousSAXS.pdf> <./Figures/PlainLiposomeContinuousSAXS.
-pdf>]
+)
 (./Figures/SSLContrastCurvesBilayer200SSL.tex
 LaTeX Font Info:    Calculating math sizes for size <11> on input line 104.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <11> on input line 104.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8.35994> on input line 104.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6.60007> on input line 104.
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
 (Font)              scaled to size 11.46208pt on input line 104.
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
@@ -2616,7 +2992,7 @@ LaTeX Font Info:    Font shape `U/msb/m/n' will be
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
 (Font)              scaled to size 6.8773pt on input line 104.
 
-<Figures/SSLContrastCurvesBilayer200SSL.pdf, id=2302, 198.7425pt x 312.16624pt>
+<Figures/SSLContrastCurvesBilayer200SSL.pdf, id=2266, 198.7425pt x 312.16624pt>
 File: Figures/SSLContrastCurvesBilayer200SSL.pdf Graphic file (type pdf)
 <use Figures/SSLContrastCurvesBilayer200SSL.pdf>
 Package pdftex.def Info: Figures/SSLContrastCurvesBilayer200SSL.pdf used on inp
@@ -2624,35 +3000,38 @@ ut line 105.
 (pdftex.def)             Requested size: 198.742pt x 312.16548pt.
 )
 (./Figures/SSLContrastCurvesBilayer100Plain.tex
-<Figures/SSLContrastCurvesBilayer100Plain.pdf, id=2303, 198.7425pt x 312.16624p
+<Figures/SSLContrastCurvesBilayer100Plain.pdf, id=2267, 198.7425pt x 312.16624p
 t>
 File: Figures/SSLContrastCurvesBilayer100Plain.pdf Graphic file (type pdf)
  <use Figures/SSLContrastCurvesBilayer100Plain.pdf>
 Package pdftex.def Info: Figures/SSLContrastCurvesBilayer100Plain.pdf used on i
 nput line 103.
 (pdftex.def)             Requested size: 198.742pt x 312.16548pt.
-)
-Underfull \vbox (badness 1292) has occurred while \output is active []
+) [73 <./Figures/SSLIsopointIntensity.pdf>]
+Underfull \vbox (badness 1009) has occurred while \output is active []
 
- [78 <./Figures/SSLIsopointIntensity.pdf>] [79 <./Figures/SSLContrastCurvesBila
-yer200SSL.pdf> <./Figures/SSLContrastCurvesBilayer100Plain.pdf>] [80]
-(./Figures/HDLContinuousSAXS.tex
-<Figures/HDLContinuousSAXS.pdf, id=2379, 284.06125pt x 226.8475pt>
+ [74 <./Figures/SSLContrastCurvesBilayer200SSL.pdf> <./Figures/SSLContrastCurve
+sBilayer100Plain.pdf>] (./Figures/HDLContinuousSAXS.tex
+<Figures/HDLContinuousSAXS.pdf, id=2338, 284.06125pt x 226.8475pt>
 File: Figures/HDLContinuousSAXS.pdf Graphic file (type pdf)
 
 <use Figures/HDLContinuousSAXS.pdf>
 Package pdftex.def Info: Figures/HDLContinuousSAXS.pdf used on input line 104.
 (pdftex.def)             Requested size: 284.06053pt x 226.84694pt.
 ) (./Figures/LDLContinuousSAXS.tex
-<Figures/LDLContinuousSAXS.pdf, id=2380, 284.06125pt x 226.8475pt>
+<Figures/LDLContinuousSAXS.pdf, id=2339, 284.06125pt x 226.8475pt>
 File: Figures/LDLContinuousSAXS.pdf Graphic file (type pdf)
 
 <use Figures/LDLContinuousSAXS.pdf>
 Package pdftex.def Info: Figures/LDLContinuousSAXS.pdf used on input line 104.
 (pdftex.def)             Requested size: 284.06053pt x 226.84694pt.
-) [81 <./Figures/HDLContinuousSAXS.pdf> <./Figures/LDLContinuousSAXS.pdf>] (./F
-igures/LipoproteinIsopointComp.tex
-<Figures/LipoproteinIsopointComp.pdf, id=2414, 284.06125pt x 226.8475pt>
+)
+Underfull \hbox (badness 1721) in paragraph at lines 281--281
+[]\T1/cmss/bx/n/9 Figure 6.14 | |\T1/cmss/m/n/9 (+20) Scat-ter-
+ []
+
+[75] (./Figures/LipoproteinIsopointComp.tex
+<Figures/LipoproteinIsopointComp.pdf, id=2369, 284.06125pt x 226.8475pt>
 File: Figures/LipoproteinIsopointComp.pdf Graphic file (type pdf)
 
 <use Figures/LipoproteinIsopointComp.pdf>
@@ -2661,59 +3040,84 @@ Package pdftex.def Info: Figures/LipoproteinIsopointComp.pdf used on input line
 (pdftex.def)             Requested size: 284.06053pt x 226.84694pt.
 )
 (./Figures/LipoproteinsAverageDensity.tex
-<Figures/LipoproteinsAverageDensity.pdf, id=2415, 284.06125pt x 226.8475pt>
+<Figures/LipoproteinsAverageDensity.pdf, id=2370, 284.06125pt x 226.8475pt>
 File: Figures/LipoproteinsAverageDensity.pdf Graphic file (type pdf)
 
 <use Figures/LipoproteinsAverageDensity.pdf>
 Package pdftex.def Info: Figures/LipoproteinsAverageDensity.pdf used on input l
 ine 109.
 (pdftex.def)             Requested size: 284.06053pt x 226.84694pt.
-) [82 <./Figures/LipoproteinIsopointComp.pdf> <./Figures/LipoproteinsAverageDen
-sity.pdf>]
+) [76 <./Figures/HDLContinuousSAXS.pdf> <./Figures/LDLContinuousSAXS.pdf> <./Fi
+gures/LipoproteinIsopointComp.pdf> <./Figures/LipoproteinsAverageDensity.pdf>] 
 (./Figures/HDLGuinierRadius.tex
-<Figures/HDLGuinierRadius.pdf, id=2455, 284.06125pt x 226.8475pt>
+<Figures/HDLGuinierRadius.pdf, id=2418, 284.06125pt x 226.8475pt>
 File: Figures/HDLGuinierRadius.pdf Graphic file (type pdf)
 
 <use Figures/HDLGuinierRadius.pdf>
 Package pdftex.def Info: Figures/HDLGuinierRadius.pdf used on input line 107.
 (pdftex.def)             Requested size: 284.06053pt x 226.84694pt.
-) [83 <./Figures/HDLGuinierRadius.pdf>]
+) [77 <./Figures/HDLGuinierRadius.pdf>]
 (./Figures/CoatedKiskerIgGSingleContrastSAXS.tex
-<Figures/CoatedKiskerIgGSingleContrastSAXS.pdf, id=2478, 284.06125pt x 226.8475
+<Figures/CoatedKiskerIgGSingleContrastSAXS.pdf, id=2442, 284.06125pt x 226.8475
 pt>
 File: Figures/CoatedKiskerIgGSingleContrastSAXS.pdf Graphic file (type pdf)
  <use Figures/CoatedKiskerIgGSingleContrastSAXS.pdf>
 Package pdftex.def Info: Figures/CoatedKiskerIgGSingleContrastSAXS.pdf used on 
 input line 111.
 (pdftex.def)             Requested size: 284.06053pt x 226.84694pt.
-) [84 <./Figures/CoatedKiskerIgGSingleContrastSAXS.pdf>]
+)
+Underfull \hbox (badness 6364) in paragraph at lines 326--326
+[]\T1/cmss/bx/n/9 Figure 6.17 | |\T1/cmss/m/n/9 (+20) SAXS
+ []
+
+
+Underfull \hbox (badness 2213) in paragraph at lines 326--326
+\T1/cmss/m/n/9 (+20) of PS-COOH particles
+ []
+
+[78 <./Figures/CoatedKiskerIgGSingleContrastSAXS.pdf>]
 
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 334.
 
 
-Overfull \hbox (2.30745pt too wide) in paragraph at lines 338--346
+Underfull \hbox (badness 1430) in paragraph at lines 336--336
+\T1/cmss/m/n/9 (+20) SAXS, DCS and DLS
+ []
+
+
+Underfull \hbox (badness 3000) in paragraph at lines 336--336
+\T1/cmss/m/n/9 (+20) for the SAXS res-ults.
+ []
+
+
+Overfull \hbox (52.71675pt too wide) in paragraph at lines 338--346
  [][] 
  []
 
 (./Figures/CoatedKiskerIsopointComp.tex
-<Figures/CoatedKiskerIsopointComp.pdf, id=2502, 284.06125pt x 226.8475pt>
+<Figures/CoatedKiskerIsopointComp.pdf, id=2466, 284.06125pt x 226.8475pt>
 File: Figures/CoatedKiskerIsopointComp.pdf Graphic file (type pdf)
 
 <use Figures/CoatedKiskerIsopointComp.pdf>
 Package pdftex.def Info: Figures/CoatedKiskerIsopointComp.pdf used on input lin
 e 99.
 (pdftex.def)             Requested size: 284.06053pt x 226.84694pt.
-) [85]
+) [79]
 
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 378.
 
-[86 <./Figures/CoatedKiskerIsopointComp.pdf>]) [87]
+
+Overfull \hbox (18.11792pt too wide) in paragraph at lines 382--393
+ [][] 
+ []
+
+[80 <./Figures/CoatedKiskerIsopointComp.pdf>]) [81]
 \openout2 = `chapter_conclusions.aux'.
 
  (./chapter_conclusions.tex
-[88
+[82
 
 
 
@@ -2721,31 +3125,27 @@ LaTeX Warning: No positions in optional float specifier.
 
 ]
 Chapter 7.
-[89] [90]) [91] (./main.bbl [92
+[83] [84]) [85] (./main.bbl [86
 
 
 
 
-]
-Package microtype Info: Character `029' is missing
-(microtype)             in font `T1/lmr/m/sc/10.95'.
-(microtype)             Ignoring protrusion settings for this character.
- [93] [94] [95] [96] [97] [98] [99] [100]
-[101]
-Underfull \hbox (badness 1803) in paragraph at lines 794--799
-[]\T1/lmr/m/sc/10.95 (+20) Monopoli, M. P., Wal-czyk, D., Camp-bell, A., Elia, 
+] [87] [88] [89] [90] [91] [92] [93] [94]
+[95]
+Underfull \hbox (badness 5105) in paragraph at lines 794--799
+[]\T1/ppl/m/sc/10.95 (+20) Monopoli, M. P., Wal-czyk, D., Camp-bell, A., Elia, 
 G., Lynch, I.,
  []
 
-[102] [103] [104] [105] [106]) [107] [108
+[96] [97] [98] [99] [100]) [101] [102
 
 
 ]
 \openout2 = `thanksgiving.aux'.
 
- (./thanksgiving.tex [109
+ (./thanksgiving.tex [103
 
-] [110
+] [104
 
 
 
@@ -2762,7 +3162,7 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 16.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 16.
- [111
+ [105
 
 
 ]
@@ -2774,7 +3174,7 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 16.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 16.
- [112
+ [106
 
 
 
@@ -2790,7 +3190,7 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 48.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 48.
- [113
+ [107
 
 
 ]
@@ -2802,67 +3202,54 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 48.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 48.
- [114
+ [108
 
 
 
 ])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 49.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 49.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 45.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 45.
 
 (./main.aux (./chapter_introduction.aux) (./chapter_theory_SAXS.aux)
 (./chapter_experimental_setup.aux) (./chapter_density_gradient_SAXS.aux)
 (./chapter_simultaneous_size_density.aux) (./chapter_bio_applications.aux)
 (./chapter_conclusions.aux) (./thanksgiving.aux) (./tub-eidesstattliche.aux)
 (./tub-publist.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 49.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 49.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 45.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 45.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 787D3EB7DD5451421EFA019483A63C62;5764.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 49.
+(rerunfilecheck)             Checksum: 2D14217E05157C4484958692A17999BE;5815.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 45.
  ) 
 Here is how much of TeX's memory you used:
- 34026 strings out of 493315
- 627578 string characters out of 6145894
- 724823 words of memory out of 5000000
- 35532 multiletter control sequences out of 15000+600000
- 383156 words of font info for 653 fonts, out of 8000000 for 9000
+ 34205 strings out of 493315
+ 626226 string characters out of 6145894
+ 719868 words of memory out of 5000000
+ 35451 multiletter control sequences out of 15000+600000
+ 260502 words of font info for 979 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
- 77i,21n,89p,1927b,871s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dv
-ips/lm/lm-ts1.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/shar
-e/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/share/texmf/fonts/enc/dvips/lm/l
-m-rm.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathex.enc}{/usr/share/texmf/f
-onts/enc/dvips/base/8r.enc}</usr/share/texmf/fonts/type1/public/amsfonts/cm/cmb
-sy10.pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share
-/texmf/fonts/type1/public/mathpazo/fplmbi.pfb></usr/share/texmf/fonts/type1/pub
-lic/mathpazo/fplmr.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx10.pfb></usr
-/share/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf/fonts/type1/pub
-lic/lm/lmbx9.pfb></usr/share/texmf/fonts/type1/public/lm/lmcsc10.pfb></usr/shar
-e/texmf/fonts/type1/public/lm/lmex10.pfb></usr/share/texmf/fonts/type1/public/l
-m/lmmi10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi12.pfb></usr/share/tex
-mf/fonts/type1/public/lm/lmmi6.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi
-7.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi8.pfb></usr/share/texmf/fonts
-/type1/public/lm/lmmi9.pfb></usr/share/texmf/fonts/type1/public/lm/lmr10.pfb></
-usr/share/texmf/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf/fonts/type1/p
-ublic/lm/lmr17.pfb></usr/share/texmf/fonts/type1/public/lm/lmr6.pfb></usr/share
-/texmf/fonts/type1/public/lm/lmr7.pfb></usr/share/texmf/fonts/type1/public/lm/l
-mr8.pfb></usr/share/texmf/fonts/type1/public/lm/lmr9.pfb></usr/share/texmf/font
-s/type1/public/lm/lmri10.pfb></usr/share/texmf/fonts/type1/public/lm/lmri12.pfb
-></usr/share/texmf/fonts/type1/public/lm/lmri9.pfb></usr/share/texmf/fonts/type
-1/public/lm/lmss10.pfb></usr/share/texmf/fonts/type1/public/lm/lmss12.pfb></usr
-/share/texmf/fonts/type1/public/lm/lmss8.pfb></usr/share/texmf/fonts/type1/publ
-ic/lm/lmss9.pfb></usr/share/texmf/fonts/type1/public/lm/lmssbx10.pfb></usr/shar
-e/texmf/fonts/type1/public/lm/lmsso9.pfb></usr/share/texmf/fonts/type1/public/l
-m/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy6.pfb></usr/share/texm
-f/fonts/type1/public/lm/lmsy7.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy8
-.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy9.pfb></usr/share/texmf/fonts/
-type1/urw/palatino/uplb8a.pfb></usr/share/texmf/fonts/type1/urw/palatino/uplbi8
-a.pfb></usr/share/texmf/fonts/type1/urw/palatino/uplr8a.pfb>
-Output written on main.pdf (132 pages, 7345005 bytes).
+ 77i,21n,89p,1927b,884s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}{/usr/share/texmf
+/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/share/texmf/fonts/enc/dvips/bas
+e/8r.enc}</usr/share/texmf/fonts/type1/public/amsfonts/cm/cmbsy10.pfb></usr/sha
+re/texmf/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf/fonts/type
+1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf/fonts/type1/public/amsfonts/c
+m/cmr10.pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/s
+hare/texmf/fonts/type1/public/mathpazo/fplmbi.pfb></usr/share/texmf/fonts/type1
+/public/mathpazo/fplmr.pfb></usr/share/texmf/fonts/type1/public/mathpazo/fplmri
+.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfsi0900.pfb></usr/share/tex
+mf/fonts/type1/public/cm-super/sfss0700.pfb></usr/share/texmf/fonts/type1/publi
+c/cm-super/sfss0900.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfss1095.
+pfb></usr/share/texmf/fonts/type1/public/cm-super/sfss1200.pfb></usr/share/texm
+f/fonts/type1/public/cm-super/sfsx0900.pfb></usr/share/texmf/fonts/type1/public
+/cm-super/sfsx1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfsx1728.p
+fb></usr/share/texmf/fonts/type1/urw/palatino/uplb8a.pfb></usr/share/texmf/font
+s/type1/urw/palatino/uplbi8a.pfb></usr/share/texmf/fonts/type1/urw/palatino/upl
+r8a.pfb></usr/share/texmf/fonts/type1/urw/palatino/uplri8a.pfb>
+Output written on main.pdf (126 pages, 6971076 bytes).
 PDF statistics:
- 2923 PDF objects out of 2984 (max. 8388607)
- 2557 compressed objects within 26 object streams
- 567 named destinations out of 1000 (max. 500000)
- 114020 words of extra memory for PDF output out of 128383 (max. 10000000)
+ 2816 PDF objects out of 2984 (max. 8388607)
+ 2476 compressed objects within 25 object streams
+ 561 named destinations out of 1000 (max. 500000)
+ 128364 words of extra memory for PDF output out of 128383 (max. 10000000)
 

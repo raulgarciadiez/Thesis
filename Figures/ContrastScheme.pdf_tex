@@ -36,7 +36,7 @@
   }%
   \providecommand\rotatebox[2]{#2}%
   \ifx\svgwidth\undefined%
-    \setlength{\unitlength}{869.9180603bp}%
+    \setlength{\unitlength}{442.91010742bp}%
     \ifx\svgscale\undefined%
       \relax%
     \else%
@@ -48,14 +48,14 @@
   \global\let\svgwidth\undefined%
   \global\let\svgscale\undefined%
   \makeatother%
-  \begin{picture}(1,0.42896209)%
+  \begin{picture}(1,0.87613263)%
     \put(0,0){\includegraphics[width=\unitlength]{ContrastScheme.pdf}}%
-    \put(0.27761004,0.39444563){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\rho_{\text{solv}}$}}}%
-    \put(0.50007913,0.31713574){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{Core}}}%
-    \put(0.55075676,0.35238248){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Shell}}}%
-    \put(0.26081495,0.04564064){\color[rgb]{0,0,0}\rotatebox{90}{\makebox(0,0)[lb]{\smash{Electron density}}}}%
-    \put(0.27874,0.3556502){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Solvent}}}%
-    \put(0.60743429,0.1264622){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\Delta\eta_{\text{core}}$}}}%
-    \put(0.39630169,0.08713274){\color[rgb]{0,0,0}\makebox(0,0)[rb]{\smash{$\Delta\eta_{\text{shell}}$}}}%
+    \put(0.10594215,0.78652394){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\rho_{\text{solv}}$}}}%
+    \put(0.54382509,0.63843258){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{Core}}}%
+    \put(0.54756456,0.77116304){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{Shell}}}%
+    \put(0.07295498,0.03294038){\color[rgb]{0,0,0}\rotatebox{90}{\makebox(0,0)[lb]{\smash{Electron density}}}}%
+    \put(0.98536379,0.77770436){\color[rgb]{0,0,0}\makebox(0,0)[rb]{\smash{Solvent}}}%
+    \put(0.75374872,0.2639314){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\Delta\eta_{\text{core}}$}}}%
+    \put(0.33906398,0.18668455){\color[rgb]{0,0,0}\makebox(0,0)[rb]{\smash{$\Delta\eta_{\text{shell}}$}}}%
   \end{picture}%
 \endgroup%

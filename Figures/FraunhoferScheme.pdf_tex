@@ -36,7 +36,7 @@
   }%
   \providecommand\rotatebox[2]{#2}%
   \ifx\svgwidth\undefined%
-    \setlength{\unitlength}{880.94311523bp}%
+    \setlength{\unitlength}{640bp}%
     \ifx\svgscale\undefined%
       \relax%
     \else%
@@ -48,19 +48,19 @@
   \global\let\svgwidth\undefined%
   \global\let\svgscale\undefined%
   \makeatother%
-  \begin{picture}(1,0.3636657)%
+  \begin{picture}(1,0.525)%
     \put(0,0){\includegraphics[width=\unitlength]{FraunhoferScheme.pdf}}%
-    \put(0.51972027,0.17256533){\color[rgb]{0,0,0}\makebox(0,0)[rb]{\smash{$\vect{r}$}}}%
-    \put(0.36703627,0.07636442){\color[rgb]{0,0,0}\makebox(0,0)[rb]{\smash{$\vect{r}'$}}}%
-    \put(0.56122312,0.2422972){\color[rgb]{0,0,0}\makebox(0,0)[rb]{\smash{$\vect{r}-\vect{r}'$}}}%
-    \put(0.29692216,0.02496179){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\phi(\vect{r}')$}}}%
-    \put(0.56197512,0.1560175){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\textcolor{blue}{\vect{k_s}}$}}}%
-    \put(0.72090403,0.05190814){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\vect{k}$}}}%
-    \put(0.68756885,0.15707536){\color[rgb]{0,0,0}\makebox(0,0)[rb]{\smash{$\vect{k_s}$}}}%
-    \put(0.81604063,0.14979494){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\vect{q}$}}}%
-    \put(0.68272154,0.10533939){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$2\Theta$}}}%
-    \put(0.20191429,0.14524919){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\textcolor{blue}{\vect{k}}$}}}%
-    \put(0.46952583,0.09029522){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$2\Theta$}}}%
-    \put(0.74632775,0.33954682){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{Detector}}}%
+    \put(0.54686594,0.244026){\color[rgb]{0,0,0}\makebox(0,0)[rb]{\smash{$\vect{r}$}}}%
+    \put(0.33670044,0.11160799){\color[rgb]{0,0,0}\makebox(0,0)[rb]{\smash{$\vect{r}'$}}}%
+    \put(0.60399351,0.34001008){\color[rgb]{0,0,0}\makebox(0,0)[rb]{\smash{$\vect{r}-\vect{r}'$}}}%
+    \put(0.24019022,0.04085363){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\phi(\vect{r}')$}}}%
+    \put(0.60502863,0.22124835){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\textcolor{blue}{\vect{k_s}}$}}}%
+    \put(0.82379008,0.07794457){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\vect{k}$}}}%
+    \put(0.77790508,0.22270447){\color[rgb]{0,0,0}\makebox(0,0)[rb]{\smash{$\vect{k_s}$}}}%
+    \put(0.9547431,0.21268316){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\vect{q}$}}}%
+    \put(0.77123289,0.15149127){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$2\Theta$}}}%
+    \put(0.10941439,0.20642606){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\textcolor{blue}{\vect{k}}$}}}%
+    \put(0.47777462,0.13078338){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$2\Theta$}}}%
+    \put(0.85878515,0.47387162){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{Detector}}}%
   \end{picture}%
 \endgroup%

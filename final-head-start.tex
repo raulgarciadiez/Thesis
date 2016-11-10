@@ -29,17 +29,79 @@
 \setlength{\cftbeforesecskip}{0.8ex}
 \setlength{\cftbeforesubsecskip}{0.8ex}
 
-\renewcommand{\cftpnumalign}{l}
-\renewcommand{\cftsecdotsep}{\cftnodots}
-\renewcommand{\cftsubsecdotsep}{\cftnodots}
-\renewcommand{\cftchapleader}{\hspace{2em}}
-\renewcommand{\cftsecleader}{\hspace{2em}}
-\renewcommand{\cftsubsecleader}{\hspace{2em}}
-\renewcommand{\cftchapafterpnum}{\cftparfillskip}
-\renewcommand{\cftsecafterpnum}{\cftparfillskip}
-\renewcommand{\cftsubsecafterpnum}{\cftparfillskip}
+%\renewcommand{\cftchapfont}{\sffamily\bfseries}
+%\renewcommand{\cftchappagefont}{\sffamily}
+%\renewcommand{\cftsecfont}{\sffamily}
+%\renewcommand{\cftsecpagefont}{\sffamily}
+%\renewcommand{\cftsubsecfont}{\sffamily}
+%\renewcommand{\cftsubsecpagefont}{\sffamily}
 
+%\renewcommand{\cftpnumalign}{r}
+%\renewcommand{\cftsecdotsep}{\cftnodots}
+%\renewcommand{\cftsubsecdotsep}{\cftnodots}
+%\renewcommand{\cftchapleader}{\hspace{2em}}
+%\renewcommand{\cftsecleader}{\hspace{2em}}
+%\renewcommand{\cftsubsecleader}{\hspace{2em}}
+%\renewcommand{\cftchapafterpnum}{\cftparfillskip}
+%\renewcommand{\cftsecafterpnum}{\cftparfillskip}
+%\renewcommand{\cftsubsecafterpnum}{\cftparfillskip}
+
+
+
+%%%% Grafiken, Abbildungen
+\floatsetup{
+    capposition=beside,
+    capbesideposition={center,outside},
+%    capbesideposition={top,outside},    
+    facing=yes, 
+    floatwidth=.75\linewidth,
+    capbesidewidth=sidefil,
+    capbesidesep=quad,
+    floatrowsep=quad,
+    %framestyle=colorbox,framearound=all,colorframeset=imgbg,frameset={\fboxrule0pt},
+    }
+\floatsetup[widefigure]{%
+    floatwidth=0.95\textwidth,
+    %margins=hangoutside,
+    %capposition=beside,
+    capposition=below,
+    %capbesideposition={top,outside},
+    %capbesidewidth=\marginparwidth,
+    %capbesideframe=yes,
+    %capbesidesep=columnsep,
+    %floatrowsep=columnsep,
+    %heightadjust=nocaption,
+    facing=yes,
+    }
+\floatsetup[widetable]{%
+    floatwidth=0.95\textwidth,
+    %margins=hangoutside,
+    %capposition=beside,
+    capposition=above,
+    %capbesideposition={top,outside},
+    %capbesidewidth=\marginparwidth,
+    %capbesideframe=yes,
+    %capbesidesep=columnsep,
+    %floatrowsep=columnsep,
+    %heightadjust=nocaption,
+    facing=yes,
+    }
+\floatsetup[widefloat]{%
+    floatwidth=0.95\textwidth,
+    %margins=hangoutside,
+    %capposition=beside,
+    capposition=below,
+    %capbesideposition={top,outside},
+    %capbesidewidth=\marginparwidth,
+    %capbesideframe=yes,
+    %capbesidesep=columnsep,
+    %floatrowsep=columnsep,
+    %heightadjust=nocaption,
+    facing=yes,
+    }
+
+%%% CAPTIONS 
 \usepackage[]{caption}
 \DeclareCaptionLabelSeparator{vbar}{ | } % custom; standard z.B. colon, period, ...
 \captionsetup{labelfont=bf,font={sf,footnotesize},format=plain,labelsep=vbar}
-
+  

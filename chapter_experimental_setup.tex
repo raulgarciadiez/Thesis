@@ -71,12 +71,12 @@ At this point the electrons are injected into the storage ring, where 32 bending
 
 The four-crystal monochromator bending magnet beamline operating in the PTB laboratory at BESSY II \citep{krumrey_design_1998, krumrey_high-accuracy_2001} provides a monochromatic beam in the 1.75 to 10 keV energy range at a fixed sample position with very high photon flux reproducibility and high energy resolving power. A schematic depiction of the beamline and its components is shown in figure \ref{fig:FCMScheme}.
 
-\begin{figure}%[htbp]
+\begin{figure*}%[htbp]
 	\centering
 		\resizebox{0.8\linewidth}{!}{\includegraphics{Figures/FCMScheme.png}}
 		\caption[Diagram of the Four-crystal monochromator beamline.]{A scheme of the FCM beamline in the PTB laboratory at BESSY II. The distance of each component to the bending magnet is shown.}
 		\label{fig:FCMScheme}
-\end{figure}
+\end{figure*}
 
 At 14 m from the bending magnet, a Pt-coated toroidal mirror is located to focus the beam in the horizontal direction and to collimate it in the vertical direction. The radiation coming from the bending magnet is monochromatised further downstream by a set of 4 single crystals which reflect the light according to the Bragg's law for the (1 1 1) reflection. As the 4 crystals are mounted on two wheels (one on the rotation center and one parallelly aligned), the rotation angle of the wheel $\Theta$ defines the energy of the outgoing photon beam by $E=\frac{\sqrt{3}h c}{2a\sin{\Theta}}$, where $a$ is the lattice constant of the crystal.
 
@@ -122,8 +122,6 @@ A moveable beamstop mounted at thin wires is installed just in front of the dete
 
 The in-vacuum Pilatus 1M detector is mounted on the SAXS instrument of the Helmholtz-Zentrum Berlin (HZB), which is connected via a $\oslash$100 mm flange to the UHV X-ray Reflectometer. The HZB-SAXS apparatus is equipped with a large below system and a motorized stage that can vary the sample-detector distance continuously between 2.3 m and 4.6 m in vacuum (about $10^{-4}$ mbar) with an uncertainty of 20 $\mu$m. 
 
-Complementary to the HZB-SAXS instrument, the sample-detector distance can be reduced down to about 760 mm by attaching the X-ray detector directly to the sample chamber, increasing the scattering angles to around $8^{\circ}$. This short-distance setup, or Wide-angle X-ray Scattering (WAXS) configuration, is used for the study of nanoparticles with diameters below 10 nm, whose characteristic features appear beyond 1 nm$^{-1}$. The accessible $q$-range of this setup is summarized in table \ref{tab:qrange} for the high-energy case, which provides the highest $q$-value available. Similarly, the table shows the limit $q$-values achieved with the HZB-SAXS apparatus at low-energy.
-
 \begin{table}[]
 \centering
 \caption[Two different SAXS experimental setups and the accessible $q$-range.]{Two different experimental setups which span the accessible $q$-range for almost 3 decades. The overall maximum and minimum accessible $q$-values are highlighted in bold letters.}
@@ -138,18 +136,20 @@ $q_{\text{max}}$ (nm$^{-1}$)   & 0.56             & \textbf{7}             \\ \h
 \end{tabular}
 \end{table}
 
+Complementary to the HZB-SAXS instrument, the sample-detector distance can be reduced down to about 760 mm by attaching the X-ray detector directly to the sample chamber, increasing the scattering angles to around $8^{\circ}$. This short-distance setup, or Wide-angle X-ray Scattering (WAXS) configuration, is used for the study of nanoparticles with diameters below 10 nm, whose characteristic features appear beyond 1 nm$^{-1}$. The accessible $q$-range of this setup is summarized in table \ref{tab:qrange} for the high-energy case, which provides the highest $q$-value available. Similarly, the table shows the limit $q$-values achieved with the HZB-SAXS apparatus at low-energy.
+
 \subsubsection{Calibration of the sample-detector distance}
 
 In small-angle scattering experiments, it is crucial to know precisely the distance between the irradiated sample and the detector, in order to calibrate the momentum transfer $q$. Typically, a calibration standard material with a well-known crystal lattice parameter is employed, which produces well-defined diffraction rings in the low-angle region. A material extensively used is dry rat-tail tendon collagen, with a $d$-spacing of 650 \AA \citep{amenitsch_performance_1997}, corresponding to $q=0.097$ nm$^{-1}$. The degradation of this material upon prolonged radiation suggested the use of harder calibrants such as silver behenate (CH$_3$(CH$_2$)$_{20}$COO$\cdot$Ag) \citep{huang_x-ray_1993}.
 
 AgBehe has a very narrow diffraction ring at $q=1.0763$ nm$^{-1}$, arising from a long-period spacing ($d_{001}$) value of 5.836 nm \citep{blanton_jcpdsinternational_1995}, although this value depends slightly on the synthesis. A deviation of 0.5 $\%$ in the diffraction peak position could be observed for different sample preparations. In order to increase the accuracy of the calibration, the sample-detector distance was determined by the detection of the scattering pattern of AgBehe at different positions of the HZB SAXS instrument, measured with the built-in 3 m long Heidenhain optical encoder. By triangulating the radius of the diffraction ring to the source point, as depicted in figure \ref{fig:DistanceCalibrationSAXS}, the sample-detector distance is obtained in a traceable way.
 
-\begin{figure}
+\begin{figure*}
 	\centering
 \subfloat[Distance Calibration]{\resizebox{0.5\linewidth}{!}{\figfont{12pt}\input{Figures/DistanceCalibrationSAXS}}\label{fig:DistanceCalibrationSAXS}}
 		\subfloat[AgBehe at large distance]{\resizebox{0.35\linewidth}{!}{\includegraphics{Figures/AgBeheSAXSLongDistance_edit.png}}\label{fig:AgBeheSAXSLongDistance}}
 		\caption[Sample-to-detector distance calibration and scattering pattern of AgBehe at large distance.]{Sample-to-detector distance calibration: a) Radius of the diffraction ring of AgBehe and SBA-15 as a function of the sample-detector distance. A linear function is fitted to obtain the source point distance. The residuals of the fitting are shown in the bottom plot. b) Scattering pattern of AgBehe measured at a distance of 3638.2 mm. At such long sample-to-detector distances, the diffraction rings exceeds the detector area and the associated uncertainty increases.}
-\end{figure}
+\end{figure*}
 
 By measuring the AgBehe pattern along a distance range of 2200 mm with 100 mm steps at 8000 eV, the relative uncertainty associated to the linear fitting is 0.03 $\%$, corresponding to 1.5 mm. As observed in the residuals of the fitting in figure \ref{fig:DistanceCalibrationSAXS}, the deviation increases for long distances, due to the relatively small $d$-spacing of AgBehe, disabling the use of distances larger than $\sim 3600$ mm. In figure \ref{fig:AgBeheSAXSLongDistance}, it is visible how the diffraction ring surpasses the surface of the detector at a distance of 3638.2 mm and, thus, diminishes the accuracy of the peak determination.
 
@@ -178,23 +178,23 @@ The very narrow glass walls (with a density of about 2.23 g cm$^{-3}$) absorb on
 
 \subsection{Rectangular capillaries}
 
-\begin{figure}%[htbp]
+\begin{figure*}%[htbp]
 	\centering
 		\subfloat[Glass thickness]{\resizebox{0.44\linewidth}{!}{\figfont{13pt}\input{Figures/HilgenbergHomogeneity}}\label{fig:HilgenbergHomogeneity}}
 		\subfloat[Sample thickness]{\resizebox{0.44\linewidth}{!}{\figfont{13pt}\input{Figures/WaterHomogeneity}}\label{fig:WaterHomogeneity}}
 		\caption[Homogeneity of the rectangular capillaries.]{Homogeneity of the rectangular capillaries: a) Deviation of the empty capillary tranmission, i.e. glass wall thickness, b) Sample thickness calculated from the water transmission of a filled capillary. }
-\end{figure}
+\end{figure*}
 
 The capillaries used for the contrast variation experiments are vacuum-proof borosilicate glass capillaries from Hilgenberg (Malsfeld, Germany) with a nominal rectangular cross section with outer dimensions of (4.2 $\pm$ 0.2) x (1.25 $\pm$ 0.05) mm$^2$ , a length of (80 $\pm$ 0.5) mm and a wall thickness of ca. 120 $\mu$m. The thicker glass walls reduce the transmitted intensity about 80 $\%$ at 8000 eV, but in contrast both the glass and sample thicknesses are very homogeneous for the entire capillary.
 
 The transmission of an empty capillary is mapped in figure \ref{fig:HilgenbergHomogeneity}, where it can be observed that the deviation of the glass wall thickness is less than 2 $\%$ for an horizontal range of 2.5 mm (of a total width of 4.2 mm). This range is at least 5 times larger than the typical beam diameter, avoiding the convolution of different thicknesses in the measurement. Similarly, figure \ref{fig:WaterHomogeneity} depicts the sample thickness in the capillary, calculated from a capillary filled with water using the Beer-Lambert law, the glass transmission and the mass attenuation coefficient of water at 8000 eV, 10.37 cm$^{2}$ g$^{-1}$ \citep{hubbell_tables_1996}. The thickness of the sample introduced in the capillary is homogeneous within 2 $\%$ for a width range of ca. 2.5 mm. 
 
-\begin{figure*}%[htbp]
-%	\centering
+\begin{figure}%[htbp]
+	\centering
 		\input{Figures/GaldenCalibration}
 		\caption[X-ray transmission of a rectangular capillary half-filled with water]{X-ray transmission of a rectangular capillary half-filled with water along the main vertical axis situated at $x=-0.15$ mm.}
 		\label{fig:GaldenCalibration}
-\end{figure*}
+\end{figure}
 
 From these figures, it is clear that the homogeneity of the sample environment is even better along the main vertical axis of the capillary. Figure \ref{fig:GaldenCalibration} shows the measured X-ray transmission of a half-filled capillary along its vertical axis (at the horizontal position -0.15 mm). For example, the glass transmission within a 6 mm vertical range is 20.1 $\%$, with an associated relative uncertainty of $\delta_r T =0.6 \; \%$. By calculating $\delta_r d = \frac{\delta_r T}{log(T)}$ where $T$ is the glass transmission, the relative uncertainty of the glass thickness is $\delta_r d = 0.4 \; \%$. Analogously, the uncertainty of the water transmission is 0.9 $\%$ and the sample thickness has an uncertainty of 0.9 $\%$ along the vertical axis.
 

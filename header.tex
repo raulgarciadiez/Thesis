@@ -16,7 +16,7 @@
 \usepackage{natbib}
 
 %%%%% Grafiken, Abbildungen
-\usepackage{graphicx} % option final to show images also in draft mode
+\usepackage[final]{graphicx} % option final to show images also in draft mode
 \usepackage{subfig}
 \usepackage{wrapfig}
 \graphicspath{{Figures/}}
@@ -31,6 +31,10 @@
 \usepackage{bm}
 \newcommand{\vect}[1]{\bm{#1}} % vector in bold
 
+\usepackage{relsize} %size relative to other in sub floats
+
+\usepackage[nottoc,notlot,notlof]{tocbibind} %to have biblio in TOC as chapter without number
+
 \usepackage{xfrac} %small fractions
 
 %%%% Verschiedenes
@@ -43,21 +47,8 @@
   \endgroup
 }
 
-\usepackage{relsize} %size relative to other in sub floats
+\usepackage[textsize=scriptsize,bordercolor=none,backgroundcolor=YellowGreen,linecolor=YellowGreen]{todonotes} %(JW) Necessary for the marginwidth which is used in cleardoublepage and 
 
-\usepackage{lmodern} %used for quote page at beginning
-\newlength\longest
-
-
-%%%% Comment-Sections
-\usepackage{comment} %% drinnen lassen fuer Lang-Abstract
-
-\usepackage[textsize=scriptsize,bordercolor=none,backgroundcolor=YellowGreen,linecolor=YellowGreen]{todonotes}
-%\renewcommand{\todo}[1]{\todo{\sffamily #1}}
-\newcommand{\dofig}[1]{\todo[backgroundcolor=DarkSeaGreen,linecolor=none]{\sffamily\textbf{DoFigure:}~#1}\xspace}
-\newcommand{\dotxt}[1]{\todo[backgroundcolor=Coral,linecolor=none]{\sffamily\textbf{DoText:}~#1}\xspace}
-\newcommand{\doref}[1]{\todo[backgroundcolor=Gold,linecolor=Gold]{\sffamily\textbf{DoRef:}~#1}\xspace}
-\newcommand{\doalt}[1]{\textcolor{SkyBlue}{#1}\todo[backgroundcolor=SkyBlue,linecolor=SkyBlue]{\sffamily\textbf{Altrn:}~#1}\xspace}
 
 %%%% Hier kommt's auf die Reihenfolge an
 \usepackage{varioref}
