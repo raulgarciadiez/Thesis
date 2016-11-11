@@ -28,13 +28,10 @@
 \usepackage{amsmath,amssymb}
 \usepackage{commath}
 
-\usepackage{bm}
-\newcommand{\vect}[1]{\bm{#1}} % vector in bold
-
+%%%%%% Packages Raul
+\usepackage{bm} %for bold math, in vector zB
 \usepackage{relsize} %size relative to other in sub floats
-
 \usepackage[nottoc,notlot,notlof]{tocbibind} %to have biblio in TOC as chapter without number
-
 \usepackage{xfrac} %small fractions
 
 %%%% Verschiedenes
@@ -49,7 +46,6 @@
 
 \usepackage[textsize=scriptsize,bordercolor=none,backgroundcolor=YellowGreen,linecolor=YellowGreen]{todonotes} %(JW) Necessary for the marginwidth which is used in cleardoublepage and 
 
-
 %%%% Hier kommt's auf die Reihenfolge an
 \usepackage{varioref}
 \usepackage[pdfpagelabels]{hyperref}
@@ -60,8 +56,7 @@
 
 %%%%%%%%%%%%%%%%%%%%%%
 %%%%% eigene Kommandos
-\newcommand{\fssmall}[0]{\fontsize{8pt}{8pt}\selectfont}
-\newcommand{\fsmedium}[0]{\fontsize{10pt}{10pt}\selectfont}
-
 \newcommand{\figfont}[1]{\fontsize{#1}{#1}\selectfont} %   font size in subfloat figure
+
+\newcommand{\vect}[1]{\bm{#1}} % vector in bold
 
