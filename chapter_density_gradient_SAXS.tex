@@ -28,7 +28,7 @@ The rectangular capillary is placed in the sample holder inside the UHV reflecto
 
 \begin{figure}%[htbp]
 	\centering
-        	\def\svgwidth{0.75\linewidth}
+        	\def\svgwidth{0.7\linewidth}
 		\input{Figures/DensityGradientCapillarySetup.pdf_tex}
 		\caption[Contrast variation technique in SAXS with a density gradient capillary.]{The rectangular density gradient capillary is placed in the X-ray beam and can be moved by sample motors in both directions perpendicular to the incoming beam.}
 		\label{fig:DensityGradientCapillarySetup}
@@ -44,22 +44,22 @@ These values can be converted to solvent electron densities via the Beer-Lambert
 
 Here \(\rho_e\) is the electron density of the suspending medium, $I$ and $I_0$ are the transmitted and incoming intensities respectively and $A$ is a factor determined by the reference values of the solvent electron density at the vertical limits of the capillary at the initial time. The sucrose concentration in solution expressed as the mass fraction \( M \) at these reference points can be converted to electron densities with the empirical formula \( \rho_e=1.2681M+333.19 \) nm\(^{-3}\) \citep{haynes_crc_2012}. The solvent electron density profile within the density gradient capillary derived from this measurement is depicted in figure \ref{fig:KiskerTransmissionCalibration} for 100 nm polystyrene particles at different diffusion times. The suspending medium electron density shows a maximum uncertainty of 1 nm$^{-3}$ at the interface between the two mixtures associated with the vertical size of the focused X-ray beam.
 
-\begin{figure}%[htbp]
+\begin{figure*}%[htbp]
 	\centering
 		\input{Figures/KiskerTransmissionCalibration}
 		\caption[Calibration of the solvent electron density by X-ray transmission]{Solvent density along the gradient capillary vertical axis at different diffusion times, calculated from the transmission measurements at 5500 eV of 100 nm polystyrene particles. The corresponding X-ray transmission is shown on the right axis, revealing the low transmittances of the filled capillary at low energies.}
 		\label{fig:KiskerTransmissionCalibration}
-\end{figure}
+\end{figure*}
 
 The X-ray transmission measurements are performed at a low incident photon energy of $E = 5500$ eV to increase the transmittance differences for the less absorbing sucrose solution. In figure \ref{fig:EnergiesTransmissionCalibration}, the calculated transmittances of a 65 $\%$ concentrated sucrose mixture and water (0 $\%$) are depicted, along with the ratio between both transmissions. This ratio decreases for high energies, suppressing the transmission differences between both components of the density gradient column. This fact is revealed in figure \ref{fig:SucroseTransmissionCalibration}, where the X-ray transmittance of an aqueous sucrose density gradient measured at 5500 eV shows a better signal-to-noise ratio than the same measurement at 10000 eV.
 
-\begin{figure}%[htbp]
+\begin{figure*}%[htbp]
 	\centering
-\subfloat[Calculated transmittance]{\resizebox{0.44\linewidth}{!}{\figfont{13pt}\input{Figures/EnergiesTransmissionCalibration}}\label{fig:EnergiesTransmissionCalibration}}
+                \subfloat[Calculated transmittance]{\resizebox{0.44\linewidth}{!}{\figfont{13pt}\input{Figures/EnergiesTransmissionCalibration}}\label{fig:EnergiesTransmissionCalibration}}
 		\subfloat[Calibrated sucrose concentration]{\resizebox{0.44\linewidth}{!}{\figfont{13pt}\input{Figures/SucroseTransmissionCalibration}}\label{fig:SucroseTransmissionCalibration}}
 	\caption[X-ray transmittance of the density gradient capillary at different energies.]{X-ray transmittance as a function of the photon energy. a) Calculated transmittances \citep{henke_x-ray_1993} of an empty capillary, water and an aqueous sucrose mixture with 65 $\%$ mass fraction assuming a 1 mm sample thickness and the nominal specifications of the glass capillary. The ratio between the water and the sucrose mixture transmittances is shown in the right axis. b) Sucrose mass fraction derived from an experimental transmittance measurement of a 65 $\%$ sucrose density gradient measured at two different energies under similar experimental conditions. The absorbance differences are smaller for the higher energy.}
 
-\end{figure}
+\end{figure*}
 
 The calculated transmission of the empty rectangular capillary is less than 1 $\%$ below 6000 eV as shown in figure \ref{fig:EnergiesTransmissionCalibration} and the filled capillary just transmits 0.03 $\%$ of the incoming photon flux at 5500 eV, as observed in figure \ref{fig:KiskerTransmissionCalibration}. Therefore, a compromise between the absorbance ratio and the capillary transmittance is taken at a photon energy of 5500 eV. 
 
@@ -79,16 +79,16 @@ Since the installation in April 2016 of the monitor diode on the beamstop presen
 
 In order to demonstrate the proposed continuous contrast variation technique, carboxylated polystyrene nanoparticles with a nominal size of 105 nm suspended in water (Kisker, Steinfurt, Germany) were measured following the procedure described previously in this chapter. The particles have a narrow size distribution and consist of a spherical polystyrene (PS) core enclosed by a thin shell of a denser polymer, most likely poly(methyl methacrylate) (PMMA). The synthesis by multi-addition emulsion polymerization is responsible of the core-shell structure found in these PS-COOH particles and suggests that all the particles have the same average density independent on their size.
 
-The density gradient capillary was built according to the description in section \ref{sec:GradientPreparation} using two aqueous mixtures with a particle concentration of 12.6 mg ml$^{-1}$ according to the producer's specification. The dense aqueous solution was prepared with 21.23 $\%$ sucrose mass fraction with a mass density of \(\rho_1=1.088 \) g cm$^{-3}$, whereas a lighter one was produced without sucrose (\(\rho_2=0.997 \) g cm$^{-3}$). In total, 40 scattering curves with different solvent electron densities were measured at two different times \(t_1=\)78 min and \(t_2=\)156 min after filling the capillaries.
-
-The measured scattering curves of the PS-COOH particles are displayed in figure \ref{fig:KiskerContinuousSAXS}. In the region for \(q\) from 0.03 nm\(^{-1}\) to 0.5 nm\(^{-1}\) it is possible to observe the variation of the curve features corresponding to the particle form factor through the increase of the solvent electron density from 333.7 nm\(^{-3}\) at the top edge of the density gradient to 360.3 nm\(^{-3}\) at the maximum sucrose concentration. In this region, the experimental background is composed mainly by the contribution of the capillary scattering at the low $q$-region and the uniform scattering of the suspending medium. The experimental background scattering varies for different sucrose concentrations, but their variations are small and the background remains one order of magnitude below the sample scattering in the relevant Fourier region.
-
 \begin{figure}%[htbp]
 	\centering
 		\input{Figures/KiskerContinuousSAXS}
 		\caption[Experimental scattering curves of PS-COOH particles for different suspending medium electron densities.]{Experimental scattering curves of PS-COOH nanoparticles for different suspending medium electron densities measured between 78 and 93 minutes after the inception of the density gradient. The gray line shows the experimental background, containing scattering contributions from the capillary and the pure solvent.}
 		\label{fig:KiskerContinuousSAXS}
 \end{figure}
+
+The density gradient capillary was built according to the description in section \ref{sec:GradientPreparation} using two aqueous mixtures with a particle concentration of 12.6 mg ml$^{-1}$ according to the producer's specification. The dense aqueous solution was prepared with 21.23 $\%$ sucrose mass fraction with a mass density of \(\rho_1=1.088 \) g cm$^{-3}$, whereas a lighter one was produced without sucrose (\(\rho_2=0.997 \) g cm$^{-3}$). In total, 40 scattering curves with different solvent electron densities were measured at two different times \(t_1=\)78 min and \(t_2=\)156 min after filling the capillaries.
+
+The measured scattering curves of the PS-COOH particles are displayed in figure \ref{fig:KiskerContinuousSAXS}. In the region for \(q\) from 0.03 nm\(^{-1}\) to 0.5 nm\(^{-1}\) it is possible to observe the variation of the curve features corresponding to the particle form factor through the increase of the solvent electron density from 333.7 nm\(^{-3}\) at the top edge of the density gradient to 360.3 nm\(^{-3}\) at the maximum sucrose concentration. In this region, the experimental background is composed mainly by the contribution of the capillary scattering at the low $q$-region and the uniform scattering of the suspending medium. The experimental background scattering varies for different sucrose concentrations, but their variations are small and the background remains one order of magnitude below the sample scattering in the relevant Fourier region.
 
 Upon increasing the solvent density, the position of the first minimum shifts from 0.07 nm\(^{-1}\) towards smaller \(q\)-values until it vanishes when the solvent electron density matches the average electron density of the measured particle. In the Fourier region of the scattering curves, several minima are observed which shift towards smaller \(q\)-values when increasing the solvent electron density. Upon subtracting the experimental background from the scattering curve, a decrease of the scattering intensity towards $q=0$ is observed only for the solvent electron density closest to the match point as depicted in figure \ref{fig:KiskerBackgroundSubtraction}. Therefore, background corrections can be neglected for systems with relatively high scattering power like in this study. For low-scatterers, an accurate background correction by measuring the pure suspending medium at different sucrose concentrations might be required. The behaviour at low $q$-values will be further discussed in section \ref{sec:guinier_analysis} when evaluating the zero-angle intensity.
 
@@ -151,7 +151,7 @@ where \(\bar{I} (q)\) is the mean value of the intensity at \(q\) and \( M \) is
 %\label{tab:isopoint_Kisker}
 %\end{table}
 
-\begin{figure}
+\begin{figure*}
     \centering
     \subfloat[Relative standard deviation]{
         \resizebox{0.44\linewidth}{!}{\figfont{13pt}\input{Figures/KiskerIsopoint}}
@@ -171,7 +171,7 @@ where \(\bar{I} (q)\) is the mean value of the intensity at \(q\) and \( M \) is
          \label{tab:isopoint_Kisker}
     }
 \caption[Isoscattering points of the PS-COOH particles.]{Isoscattering points of the PS-COOH particles: a) Relative standard deviation of the scattering curves as a function of the momentum transfer. The labelled minima correspond to the first five isoscattering point positions calculated by fitting a Lorentzian function (black line). b) Experimentally determined position of the first five isoscattering points and the corresponding external particle radius $R$.}    
-\end{figure}
+\end{figure*}
 
 A precise determination of the isoscattering point positions is performed by fitting Lorentzian functions to the minima in the relative standard deviation plot, which allows the calculation of the model-free external radius of the particle by means of equation \eqref{eq:isoscattering}. The results are presented in table \ref{tab:isopoint_Kisker}. The obtained particle radii vary in the range from \(48.1\) nm to \(51.0\) nm, although as predicted by \cite{kawaguchi_isoscattering_1992} for a polydisperse system, the isoscattering points get smeared out for larger \( q \)-values and the precision decreases, simultaneously with the increase of the solvent background at higher \(q\)-values. This can be directly observed in the quality of the experimental data, as the first two minima are clearly pronounced, while the subsequent minima appear smeared out. For instance, the isoscattering point \(q^{\star}_5\) is already too weak for an accurate evaluation and the third minimum shows two remarkably close smaller minima which might affect the shape of the function. Therefore, \(q^{\star}_1\) and \(q^{\star}_2\) yield the most reliable values for evaluating the external radius of the particles, although all results are presented in table \ref{tab:isopoint_Kisker}. The value derived from the isoscattering points \(R=50.5\) nm differs by only 1.6 $\%$ from the radius calculated from the model fit in the previous section.
 
@@ -213,7 +213,11 @@ Using the same set of 40 scattering curves, the behaviour of the zero-angle inte
 \subsection{Consistency of the results}
 Table \ref{tab:comparison_results_Kisker} summarizes the results of all three presented methods. From the first two isoscattering points, values for the external radius and an upper bound to the polydispersity degree have been derived. Focusing on the Guinier region of the scattering curves, a value for the average electron density of the particles is found using the radius of gyration as well as the zero-angle intensity, the values of which differ by 2.3 nm\(^{-3}\). By fitting a core-shell model, an external radius of \(R=49.7\) nm and an average electron density \(\rho_0=345.9\) nm\(^{-3}\) have been obtained, which are in considerable agreement with the previous results, i.e., the values determined by the other methods are included in their confidence ranges, except for the \(\rho_0\) calculated with the radii of gyration.
 
-\begin{table}
+From these results, it is evident that the radius of gyration interpretation produces the most deviant values. This might be founded in the complicated function fitted to the data and the reduced availability of $q$-range employed to obtain \( R_g \). The resulting polydispersity degree of the measured particles from the model fit is in agreement with the upper limit obtained with the radii of gyration. Nevertheless the polydispersity is the parameter determined with the largest uncertainty in the fitting process and therefore this result must be considered with care.
+
+It can be concluded that the different approaches show consistent and complementary results about the size distribution of nanoparticles with radial inner structure, especially for the external radius of the particle and its average electron density. A precise value for the polydispersity degree could not be obtained as explained previously, although a credible upper limit to the polydispersity degree of 24 $\%$ could be given.
+
+\begin{table*}
 \caption[The different evaluation methods of contrast variation SAXS data.]{Comparison of the different methods presented in section \ref{sec:KiskerResultsEvaluation} to evaluate SAXS contrast variation data.}
 \begin{tabular}{l|ccc}
  & \( R\) (nm)    & \(\rho_0\) (nm\(^{-3}\)) & \(p_d\) (\(\%\))\\
@@ -226,11 +230,7 @@ Table \ref{tab:comparison_results_Kisker} summarizes the results of all three pr
 \multicolumn{4}{r}{**Using the polydispersity degree from the core-shell model fitting}\\ 
 \end{tabular}
 \label{tab:comparison_results_Kisker}
-\end{table}
-
-From these results, it is evident that the radius of gyration interpretation produces the most deviant values. This might be founded in the complicated function fitted to the data and the reduced availability of $q$-range employed to obtain \( R_g \). The resulting polydispersity degree of the measured particles from the model fit is in agreement with the upper limit obtained with the radii of gyration. Nevertheless the polydispersity is the parameter determined with the largest uncertainty in the fitting process and therefore this result must be considered with care.
-
-It can be concluded that the different approaches show consistent and complementary results about the size distribution of nanoparticles with radial inner structure, especially for the external radius of the particle and its average electron density. A precise value for the polydispersity degree could not be obtained as explained previously, although a credible upper limit to the polydispersity degree of 24 $\%$ could be given.
+\end{table*}
 
 \section{Applicability and comparison with other contrast variation approaches}
 \label{sec:applicability}
@@ -257,12 +257,12 @@ The diffusion time of a particle depends mainly on its size, as described by the
 
 where $K_B$ is the Boltzmann constant, $T$ is the solvent temperature, $\eta$ is the dynamic viscosity and $R$ is the radius of the particle. For example, the small size of ions (below 200 pm) decreases the diffusion timescale in a factor 5 in comparison with a disaccharide molecule like sucrose. On the opposite side, colloids can be considered diffusive agents which multiply the diffusion time up to 100 times. 
 
-\begin{figure}%[htbp]
+\begin{figure*}%[htbp]
 	\centering
 		\input{Figures/LudoxHS40TransmissionCalibration}
 		\caption[Concentration gradient of 12 nm silica particles measured at 8000 eV.]{Concentration gradient of 12 nm silica particles measured at 8000 eV. The large size of the colloids in comparison to a saccharide molecule provides a longer diffusion time than a typical contrast agent like sucrose.}
 		\label{fig:LudoxHS40TransmissionCalibration}
-\end{figure}
+\end{figure*}
 
 In figure \ref{fig:LudoxHS40TransmissionCalibration}, the calibrated transmittance of a density gradient capillary of aqueous 12 nm silica nanoparticles (Ludox HS40, Sigma-Aldrich, Missouri, USA) is depicted, where the particle concentration is a function of the capillary height. The slower evolution of the concentration gradient compared with sucrose in figure \ref{fig:KiskerTransmissionCalibration} and the large density difference between water and the high concentrated particle suspension (ca. 1.3 g cm$^{-3}$) can improve the quality of the X-ray transmission data and provide an alternative application of the \emph{density gradient} technique in SAXS, where the diffusive agent is the investigated object. Moreover, table-top X-ray sources can be an alternative to high photon flux synchrotron radiation sources due to the extended experimental timescale achieved when using colloids as diffusing agent.
 

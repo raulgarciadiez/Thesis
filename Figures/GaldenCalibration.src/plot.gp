@@ -12,7 +12,7 @@ print luft, wasser
 
 set log y
 
-set key at 0.8,0.19
+set key at 2.5,0.15
 
 set yrange [0.065:0.22]
 set xrange [-5:10]

@@ -1,6 +1,6 @@
 set grid
 set xlabel '$\rho_{\text{max}}$ / nm$^{-3}$'
-set ylabel 'Isoscattering point deviation / $\%$' 
+set ylabel 'Isoscattering point deviation / $\%$'  offset 1.5,0
 set autoscale
 #set xrange [0.025:0.4]
 ymin=-0.7

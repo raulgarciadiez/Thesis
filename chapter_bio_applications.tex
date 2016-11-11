@@ -20,12 +20,12 @@ The results obtained on the Caelyx nano-drug are described in detail in section 
 \label{sec:materials_caelyx}
 The liposomal formulation of doxorubicin coated with polyethylene glycol (PEG), Caelyx\textregistered\ (SP Europe, Brussels, Belgium), was purchased from Hungaropharma Ltd. Caelyx consists of liposomes suspended in phosphate buffered saline solution (pH 7.4) formed by fully hydrogenated soy phosphatydilcholine (HSPC), cholesterol, and DSPE-PEG2000 (N-(carbonyl-methoxypolyethylene glycol 2000)-1,2-distearoyl-sn-glycero-3-phosphoethanolamine). The latter yields a steric barrier at the liposomal surface due to the PEG 2000 residues that extend the blood-circulation time, the so-called \emph{stealth} function. Doxorubicin is encapsulated in the PEGylated liposome via an active loading procedure, which results in a crystal-like doxorubicin precipitate inside the liposomes, as observed in the micrograph \ref{fig:CaelyxCryoTEM}. A schematic depiction of the sample morphology is shown in figure \ref{fig:CaelyxScheme}. 
 
-\begin{figure}
+\begin{figure*}
 	\centering
 		\subfloat[Cryo-TEM]{\resizebox{0.4\linewidth}{!}{\includegraphics{Figures/CaelyxCryoTEM.png}}\label{fig:CaelyxCryoTEM}}
 		\subfloat[Scheme]{\def\svgwidth{0.7\linewidth}{\input{Figures/CaelyxScheme.pdf_tex}}\label{fig:CaelyxScheme}}
 		\caption[Cryo-TEM image and schematic representation of Caelyx.]{Cryo-TEM image of Caelyx\textregistered\ \citep{barenholz_doxil_2012} and schematic representation of the PEGylated liposomal doxorubicin morphology.}
-\end{figure}
+\end{figure*}
 
 
 %\begin{figure}
@@ -71,12 +71,13 @@ SAXS is capable of traceable size determination for sufficiently monodisperse na
  
 SAXS curves of the liposomal doxorubicin sample measured at different suspending medium electron densities are shown in figure \ref{fig:CaelyxIodixanolContinuousSAXS}, where a maximum solvent electron density of 365.2 nm$^{-3}$ was reached with an Optiprep mass fraction of 35 $\%$. In the scattering curves, it is possible to observe the variation of the curve features through the increase of the suspending medium density, which indicates the complexity of the internal structure of the nanocarrier. Besides, the appearance of an intersection point around $q = 0.12$ nm$^{-1}$ is a further indicator of the structural complexity of the drug-carrier.
 
-\begin{figure}
+\begin{figure*}
 	\centering
 		\subfloat[Contrast variation with density gradient]{\resizebox{0.44\linewidth}{!}{\figfont{13pt}\input{Figures/CaelyxIodixanolContinuousSAXS}}\label{fig:CaelyxIodixanolContinuousSAXS}}
+		\qquad
 		\subfloat[Isoscattering point positions]{\resizebox{0.44\linewidth}{!}{\figfont{13pt}\input{Figures/CaelyxIodixanolIsopoint}}\label{fig:CaelyxIodixanolIsopoint}}
 		\caption[Continuous contrast variation experimental data of Caelyx.]{ a) Scattering curves at different suspending medium electron densities obtained with a solvent density gradient of Caelyx in aqueous iodixanol with constant buffer osmolality. Figure b) shows the precise position of the isoscattering points before and after the proper correction of the background.}
-\end{figure}
+\end{figure*}
 
 The solvent background has been subtracted by measuring the scattering curves of a density gradient of Optiprep and buffer without nanocarriers. The low scattering power of the PEGylated liposomal doxorubicin at high $q$ values and the contribution of the iodixanol background result in an increased uncertainty in the high-$q$ range of the corrected scattering curves, although in the Fourier region below $q = 0.3$ nm$^{-1}$ the background effect is much less dominant.
 
@@ -88,26 +89,34 @@ The determination of the position of the isoscattering points has an associated 
 \subsection{Shape scattering function calculation}
 In order to provide a reliable uncertainty for the obtained size value, we have used an alternative evaluation procedure, namely the calculation of the shape scattering function introduced in section \ref{sec:basic_functions_theory} which extracts all contributions from the 30 measured scattering curves that change with the contrast at different solvent densities. The shape scattering function of the Caelyx sample contains essentially information only about the shape and size distribution of the space filled up by the liposomes, i.e. the contributions of the phospholipid bilayer and the encapsulated doxorubicin to the scattering intensity are cancelled. Thus, the complex interpretation of the original SAXS curve of Caelyx is avoided and enables the size determination of the liposomal carrier by fitting the analytical model for homogeneous spherical objects expressed by equation \ref{eq:ff_sphere} . A model with a certain ellipticity was also attempted using the expression \ref{eq:ff_ellipsoid}, due to the slight liposomal eccentricity observed in TEM images \citep{barenholz_doxil_2012} though the best fit was accomplished with a spherical model. 
 
-\begin{figure}
-	\centering
-		\input{Figures/CaelyxIodixanolResonantTerm}
-		\caption[Experimental shape scattering function of Caelyx.]{Experimental shape scattering function of the liposomes is shown with symbols and the model fit for homogeneous spherical particles is depicted with a thick line.}
-		\label{fig:CaelyxIodixanolResonantTerm}
-\end{figure}
+%\begin{figure}
+%	\centering
+%		\input{Figures/CaelyxIodixanolResonantTerm}
+%		\caption[Experimental shape scattering function of Caelyx.]{Experimental shape scattering function of the liposomes is shown with symbols and the model fit for homogeneous spherical particles is depicted with a thick line.}
+%		\label{fig:CaelyxIodixanolResonantTerm}
+%\end{figure}
 
 The shape scattering function calculated from the SAXS curves and the theoretical model fitting are depicted in figure \ref{fig:CaelyxIodixanolResonantTerm}. The mean diameter obtained from the spherical form factor fit is (65.5 $\pm$ 4.7) nm, slightly smaller than the value calculated from the isoscattering point position. Nevertheless, both values overlap when considering the associated standard uncertainties and that the polydispersity smearing of the isoscattering point is difficult to quantify. The latter fact is supported by the broad size distribution determined by the shape scattering function fitting. When assuming a Gaussian size distribution, the polydispersity degree (defined as the full width at half maximum of the size distribution divided by its mean value) of the nanocarrier is ca. 40$\%$. Therefore, the average value of (69 $\pm$ 5) nm can be embraced as a reliable external size for the liposomal drug-carrier.
 
 The average size obtained by contrast variation in SAXS is smaller than the result obtained with DLS of ca. 86 nm, performed on a W130i apparatus (Avid Nano Ltd, High Wycombe, UK) in the Institute of Materials and Environmental Chemistry (Hungarian Academy of Sciences, Budapest, Hungary) similarly to the protocol described in \cite{varga_osmotic_2014}. This deviation between both results can be attributed to the fact that the DLS measurand is the hydrodynamic size of the nanoparticles, while SAXS provides the size of the spherical volume inaccessible to the solvent. As the 2 kDa PEG-chains attached to the surface of the liposomes contribute to the hydrodynamic radius but that layer is permeable to the solvent and, therefore, invisible to contrast variation SAXS, the ca. 15 nm difference between the sizes determined by DLS and SAXS is justified. 
 
+\begin{figure*}
+	\centering
+		\subfloat[Shape scattering function]{\resizebox{0.44\linewidth}{!}{\figfont{13pt}\input{Figures/CaelyxIodixanolResonantTerm}}\label{fig:CaelyxIodixanolResonantTerm}}
+		\qquad
+		\subfloat[Zero-angle intensity]{\resizebox{0.44\linewidth}{!}{\figfont{13pt}\input{Figures/CaelyxAverageDensity}}\label{fig:CaelyxAverageDensity}}
+		\caption[Shape scattering function and zero-angle intensity of Caelyx.]{Evaluation of the scattering curves of Caelyx. a) The experimental shape scattering function of the liposomes is shown with symbols whilst the model fit for homogeneous spherical particles is depicted with a thick line.  b) The measured intensity at zero-angle of Caelyx as a function of the electron density of the aqueous iodixanol suspending medium is shown with symbols and the function fitted to the experimental data is depicted in black: Average density is 346.39 nm$^{-3}$ and there is a offset of 1.56 cm$^{-1}$.}
+\end{figure*}
+
 \subsection{Average electron density}
 At low $q$-values, the Guinier approximation can be used as explained in section \ref{sec:TheoryGuinier}. By fitting the spherical form factor to the $q$-range just below the first minimum of the scattering curves, an extrapolated value for the intensity at zero-angle $I(0)$ could be obtained as displayed in figure \ref{fig:CaelyxAverageDensity}. The minimum of the parabola fitted to the experimental points determines the average electron density of the drug carrier system, according to the equation \ref{eq:I0}.
 
-\begin{figure}
-	\centering
-		\input{Figures/CaelyxAverageDensity}
-		\caption[Zero-angle intensity of Caelyx.]{Measured intensity at zero-angle of Caelyx as a function of the electron density of the aqueous iodixanol suspending medium. The function fitted to the experimental data is depicted in black: Average density is 346.39 nm$^{-3}$ and there is a offset of 1.56 cm$^{-1}$}
-		\label{fig:CaelyxAverageDensity}
-\end{figure}
+%\begin{figure}
+%	\centering
+%		{\resizebox{0.7\linewidth}{!}{\figfont{14pt}\input{Figures/CaelyxAverageDensity}}}
+%		\caption[Zero-angle intensity of Caelyx.]{Measured intensity at zero-angle of Caelyx as a function of the electron density of the aqueous iodixanol suspending medium. The function fitted to the experimental data is depicted in black: Average density is 346.39 nm$^{-3}$ and there is a offset of 1.56 cm$^{-1}$}
+%		\label{fig:CaelyxAverageDensity}
+%\end{figure}
 
 From this calculation, a value of $\rho_0$ = (346.2 $\pm$ 1.2) nm$^{-3}$ is obtained which corresponds to a combination of the electron density of the liposomal nanocarrier and the precipitated doxorubicin drug. The uncertainty of 1.2 nm$^{-3}$ is associated with the vertical size of the focused X-ray beam. The obtained density is slightly higher than the value of 338 nm$^{-3}$ estimated for empty PEGylated liposomes \citep{kucerka_structure_2006} due to the presence of the doxorubicin-sulfate aggregate in the intraliposomal volume.
 
@@ -119,7 +128,7 @@ The osmotic behaviour of liposomes depends, basically, on their size and chemica
 
 \begin{figure}
 	\centering
-		\input{Figures/OsmolalityElectronDensity}
+		{\resizebox{0.8\linewidth}{!}{\figfont{12pt}\input{Figures/OsmolalityElectronDensity}}}
 		\caption[Relationship between solvent electron density and solvent osmolality for an aqueous sucrose solution.]{Relationship between solvent electron density and solvent osmolality for an aqueous sucrose solution.}
 		\label{fig:OsmolalityElectronDensity}
 \end{figure}
@@ -135,12 +144,13 @@ In this section, a thorough investigation of Caelyx under the effects of an incr
 \label{sec:OsmoticCaelyx}
 By means of the density gradient technique, scattering curves of the liposomal doxorubicin were recorded at different sucrose concentrations of the suspending medium, i.e. at different buffer osmolalities, as shown in figure \ref{fig:CaelyxSucroseContinuousSAXS}. A maximum osmolality preparation was achieved with a 37.8 $\%$ sucrose mass fraction, which corresponds to an electron density of 381.1 nm$^{-3}$ and a solvent osmolality of 1776 mOsm kg$^{-1}$,  whereas a lighter solution was produced without sucrose by adding pure water to get the same Caelyx concentration. Considering the sucrose mass fraction of the Caelyx® buffer to be 10$\%$, this latter preparation has an electron density of 339.4 nm$^{-3}$ and an osmolality of 151 mOsm kg$^{-1}$. The X-ray scattering measurements were performed at two different detector-to-sample distances, in order to study a broader $q$-range, spanning from 0.03 to 5.55 nm$^{-1}$, and observe the 1,0-diffraction peak of the doxorubicin fiber-like precipitate around $q=2.3$ nm$^{-1}$ \citep{li_doxorubicin_1998}, as depicted in the figure \ref{fig:CaelyxSucroseContinuousWAXS} after proper background correction.
 
-\begin{figure}
+\begin{figure*}
 	\centering
 		\subfloat[Caelyx scattering curves]{\resizebox{0.44\linewidth}{!}{\figfont{13pt}\input{Figures/CaelyxSucroseContinuousSAXS}}\label{fig:CaelyxSucroseContinuousSAXS}}
+		\qquad
 		\subfloat[Isoscattering point intensity]{\resizebox{0.44\linewidth}{!}{\figfont{13pt}\input{Figures/CaelyxSucroseContinuousSAXSIsopoint}}\label{fig:CaelyxSucroseContinuousSAXSIsopoint}}
 		\caption[Osmotic effects of Caelyx in an aqueous sucrose density gradient.]{Osmotic effects of Caelyx in an aqueous sucrose density gradient. a) Scattering curves measured at different solvent osmolalities  b) Scattering intensity at the first isoscattering point as a function on the aqueous sucrose solution osmolality. An osmotic threshold appears at 670 mOsm kg$^{-1}$. The experiment was measured with two different configurations with identical results.}
-\end{figure}
+\end{figure*}
 
 As discussed in the previous section, by increasing the electron density of the suspending medium, the scattering curves of the drug carrier change drastically due to contrast variation. In the case of the aqueous sucrose gradient shown in figure \ref{fig:CaelyxSucroseContinuousSAXS}, this effect is also observed and strongly resembles the curves measured with the Optiprep density gradient depicted in figure \ref{fig:CaelyxIodixanolContinuousSAXS}. Nevertheless, upon a certain sucrose concentration (corresponding to osmolalities around 900 mOsm kg$^{-1}$ in figure \ref{fig:CaelyxSucroseContinuousSAXS}), the features of the scattering curves disappear abruptly, because the suspending medium osmolality is so high that it induces morphological changes in the liposomal structure and, consequently, the scattering form factor of the particles changes.
 
@@ -148,15 +158,18 @@ This effect can be quantified by examining the scattering intensity at $q^{\star
 
 The large osmotic pressure produces a reversible shrinkage of the liposome though it is not capable of cracking it. This was proved in an additional experiment by increasing the osmolality of the buffer to 1334 mOsm kg$^{-1}$ with a sucrose mass fraction of 31.4$\%$ and then reducing it to 565 mOsm kg-1 by adding distilled water. The solvent with high osmolality produced a featureless scattering curve, as expected from figure \ref{fig:CaelyxSucroseContinuousSAXS}, whereas, after reducing the osmotic pressure, the scattering curve was the same as the measured Caelyx curve with the corresponding electron density, which gives evidence that the osmotic shrinkage process is reversible.
 
-\begin{figure}
+\begin{figure*}
 	\centering
 		\subfloat[DOX diffraction peak]{\resizebox{0.44\linewidth}{!}{\figfont{13pt}\input{Figures/CaelyxSucroseContinuousWAXS}}\label{fig:CaelyxSucroseContinuousWAXS}}
+		\qquad
 		\subfloat[Peak position deviation]{\resizebox{0.44\linewidth}{!}{\figfont{13pt}\input{Figures/CaelyxSucroseContinuousWAXSDiffraction}}\label{fig:CaelyxSucroseContinuousWAXSDiffraction}}
 		\caption[Osmotic effects in the intraliposomal doxorubicin-precipitate]{Osmotic effects in the intraliposomal doxorubicin-precipitate by using sucrose as contrast agent: a) (1,0) diffraction peak of doxorubicin after background subtraction for increasing solvent osmolality. The mean FWHM of the peak is 0.333  nm$^{-1}$. b) Deviation of the doxorubicin-aggregate diffraction peak position from the weighted average $q=2.28$ nm$^{-1}$.}
-\end{figure}
+\end{figure*}
 
 The behaviour of the nano-drug for an increasing solvent osmolality can be further studied by evaluating the crystal structure of the doxorubicin aggregate, represented by the diffraction peak displayed in the figure \ref{fig:CaelyxSucroseContinuousWAXS}. For this purpose, a wide-angle configuration was employed which extends the available $q$-range until 5.55 nm$^{-1}$ by reducing the sample-to-detector distance to $L = (569 \pm  1)$ mm as described in section \ref{sec:WAXS_experimental}. The position of the peak in the reciprocal space depending on the suspending medium osmolality is depicted in figure \ref{fig:CaelyxSucroseContinuousWAXSDiffraction} and shows that its position deviates less than 1 $\%$ from the weighted average $q=2.28$ nm$^{-1}$ along the whole osmolality range. This proves that the fiber-like structure of the drug inside the liposome is also constant during the osmotic shrinkage of the liposomes. The measured position of the (1,0) diffraction peak matches exactly the value measured from doxorubicin-sulfate complexes in solution \citep{lasic_gelation_1992}. 
 %\textcolor{blue}{It can also be observed in figure \ref{fig:CaelyxSucroseContinuousWAXSDiffraction} how the width of the diffraction peak does not change significantly along the osmolality range and thus, according to the Scherrer equation \citep{cullity_elements_2001}, the size of the precipated doxorubicin remains stable upon the osmotic shrinkage.}
+
+To conclude this section, the diameter obtained from the isoscattering position in the aqueous iodixanol solution can be compared with what is measured in an aqueous sucrose suspending medium. In the latter, if only the scattering curves below this osmolality threshold are considered, the relative standard deviation for each $q$ value reveals a pronounced minimum for the first isoscattering point as depicted in figure \ref{fig:CaelyxIsopointComparison}. When comparing this result with the relative standard deviation curve obtained from the Optiprep contrast variation measurements, both values for the size of the drug carrier agree remarkably well within 2 $\%$. This reflects the independence of the technique from the contrast agent added to the suspending medium and shows the repeatability of the results.
 
 \begin{figure}
 	\centering
@@ -164,9 +177,6 @@ The behaviour of the nano-drug for an increasing solvent osmolality can be furth
 		\caption[Isoscattering point position of Caelyx with different solvents.]{Isoscattering point position quantified by the calculation of the relative standard deviation of the scattering curves for different solvent density gradients. In the case of the aqueous sucrose solution (black line), only the scattering curves below the osmolality threshold were employed for the calculation.}
 		\label{fig:CaelyxIsopointComparison}
 \end{figure}
-
-To conclude this section, the diameter obtained from the isoscattering position in the aqueous iodixanol solution can be compared with what is measured in an aqueous sucrose suspending medium. In the latter, if only the scattering curves below this osmolality threshold are considered, the relative standard deviation for each $q$ value reveals a pronounced minimum for the first isoscattering point as depicted in figure \ref{fig:CaelyxIsopointComparison}. When comparing this result with the relative standard deviation curve obtained from the Optiprep contrast variation measurements, both values for the size of the drug carrier agree remarkably well within 2 $\%$. This reflects the independence of the technique from the contrast agent added to the suspending medium and shows the repeatability of the results.
-
 
 \subsection{Does PEGylation affect the osmotic activity of liposomes?}
 \label{sec:liposome_osmotic}
@@ -181,6 +191,15 @@ The incorporation of biocompatible polymers increases the phospholipid bilayer s
 		\caption[Scattering curves of the liposomes in buffer.]{Scattering curves of the different liposomes in buffer. The curves are intensity shifted for clarity. The 5 SSLs are presented in the lower part of the plot. The sizes in the legend are extracted form DLS measurements.}
 		\label{fig:SSLSingleContrast}
 \end{figure}
+
+%\begin{figure*}
+%	\centering
+%		\subfloat[SSL 81 nm]{\resizebox{0.6\linewidth}{!}{\figfont{12pt}\input{Figures/SSLSingleContrast}}\label{fig:SSLContinuousSAXS}}
+%		\qquad
+%		\subfloat[Plain 89 nm]{\resizebox{0.3\linewidth}{!}{\figfont{14pt}\input{Figures/SSLSingleContrastBilayer}}\label{fig:PlainLiposomeContinuousSAXS}}
+%		\caption[Scattering curves of liposomes measured at different solvent osmolalities.]{Scattering curves of the 81 nm SSL and the 89 nm plain liposomes measured at different solvent osmolalities with an aqueous sucrose density gradient. The positions of the pseudo isoscattering points at $q=0.18$ nm$^{-1}$ and $q=0.16$ nm$^{-1}$ are marked for the PEGylated and plain liposomes respectively.}
+%\end{figure*}
+
 
 For this purpose, 5 PEGylated and 3 plain liposomes were extruded with different pore sizes, as explained in section \ref{sec:materials_liposome}. To simplify the following discussion, the liposomes are named after the hydrodynamic diameter measured by DLS. It is apparent from these measurements that the size of the pore and the polydispersity degree of the liposome sample are directly related.
 
@@ -199,21 +218,15 @@ The bilayer feature of the plain liposomes differs completely from the round sha
 
 The effect of PEGylation induces a higher ratio of ULVs due to the increased negative charge of the phospholipid bilayer in comparison to plain liposomes, which hinders the creation of periodic lamellar structures. Nevertheless, small populations of OLVs and MLVs coexisting with unilamellar liposomes can be observed for large extrusion pore sizes in SSLs as well. In conclusion, the size and composition of the liposomes affect remarkably the formation of unilamellar vesicles and the shape of the phospholipid bilayer.
 
-\begin{figure}
+\begin{figure*}
 	\centering
-		\subfloat[SSL 81 nm]{\resizebox{0.44\linewidth}{!}{\figfont{13pt}\input{Figures/SSLContinuousSAXS}}\label{fig:SSLContinuousSAXS}}
-		\subfloat[Plain 89 nm]{\resizebox{0.44\linewidth}{!}{\figfont{13pt}\input{Figures/PlainLiposomeContinuousSAXS}}\label{fig:PlainLiposomeContinuousSAXS}}
+		\subfloat[SSL 81 nm]{\resizebox{0.46\linewidth}{!}{\figfont{13pt}\input{Figures/SSLContinuousSAXS}}\label{fig:SSLContinuousSAXS}}
+		%\qquad
+		\subfloat[Plain 89 nm]{\resizebox{0.46\linewidth}{!}{\figfont{13pt}\input{Figures/PlainLiposomeContinuousSAXS}}\label{fig:PlainLiposomeContinuousSAXS}}
 		\caption[Scattering curves of liposomes measured at different solvent osmolalities.]{Scattering curves of the 81 nm SSL and the 89 nm plain liposomes measured at different solvent osmolalities with an aqueous sucrose density gradient. The positions of the pseudo isoscattering points at $q=0.18$ nm$^{-1}$ and $q=0.16$ nm$^{-1}$ are marked for the PEGylated and plain liposomes respectively.}
-\end{figure}
+\end{figure*}
 
 The behavior of the different liposomal structures to osmotic stress can be examined with a continuous contrast variation experiment using sucrose as contrast agent, similarly to the measurements with the Caelyx sample in section \ref{sec:OsmoticCaelyx}. The scattering curves measured for a PEGylated liposome with size 81 nm are displayed in figure \ref{fig:SSLContinuousSAXS}, where the solvent osmolality has been increased until 1409 mOsm kg$^{-1}$ using a maximum sucrose mass fraction of 27.3 $\%$. From the low $q$-region of these scattering curves some facts can be extracted which reveal preliminary the structural changes of the liposome induced by the osmotic pressure.
-
-\begin{figure}
-	\centering
-		\input{Figures/SSLIsopointIntensity}
-		\caption[Isoscattering point intensity of liposomes.]{Isoscattering point intensity: Deviation from the initial intensity at $q^{\star}$ at different solvent osmolalities measured for a PEGylated and plain liposome of similar sizes. A clear osmotic threshold can not be observed.}
-		\label{fig:SSLIsopointIntensity}
-\end{figure}
 
 The curves do not intersect clearly in one point, even for low sucrose concentrations as occured in the Caelyx case. The absence of an evident isoscattering point can be related with the shape variation of the liposome already at small osmotic pressures. However, a diffuse intersection point, or pseudo isoscattering point \citep{kawaguchi_application_2004}, is visible at $q=0.18$ nm$^{-1}$. A very similar behavior can be observed for the plain 89 nm liposome in figure \ref{fig:PlainLiposomeContinuousSAXS}, where the suspending medium osmolality is increased until 1885 mOsm kg$^{-1}$ by a 35 $\%$ sucrose mass fraction. In analogy to figure \ref{fig:CaelyxSucroseContinuousSAXSIsopoint}, the intensity at the pseudo $q^{\star}$ as a function of the solvent osmolality is depicted in figure \ref{fig:SSLIsopointIntensity}, as the deviation from the original intensity for a plain and a PEGylated liposome of similar size.
 
@@ -221,14 +234,14 @@ The intensity at $q^{\star}$ starts diverging from the original value already at
 
 Besides, an evident variation of the scattering curves below $q\leq0.3$ nm$^{-1}$ is observed in figure \ref{fig:SSLContinuousSAXS} when increasing the solvent osmolality. For example, the minimum originally appearing at 0.1 nm$^{-1}$ shifts slightly to larger $q$-values and disappears almost completely for high sucrose concentrations. This variation of the form factor can be caused by the flattening of the liposomal shape observed with Freeze-fracture TEM \citep{varga_osmotic_2014}. Due to the increased osmotic activity, the original spherical liposome shrinks into an oblate spheroid. This hypothesis can be further explored by focusing on the scattering feature related to the phospholipid bilayer at the high $q$-region.
 
+For this purpose, the bilayer feature of the 179 nm PEGylated liposome is shown in figure \ref{fig:SSLContrastCurvesBilayer200SSL} for increasing solvent osmolalities. As observed in figure \ref{fig:SSLContinuousSAXS} for sucrose concentrations above 15 $\%$, the bilayer scattering feature shifts abruptly to smaller $q$-values. This large contrast effect occurs at solvent densities close to the average electron density of the phospholipid bilayer (ca. 348 nm$^{-3}$), which corresponds to a sucrose mass fraction of $\sim 12 \; \%$. The convolution of the contrast-related effects with the variations induced by the osmotic pressure demands a more challenging evaluation, can prevent the right interpretation of the data and is, thus, unwanted. Therefore, the scattering curves shown here were measured with sucrose concentrations $\leq10\;\%$.
+
 \begin{figure}
 	\centering
-		\subfloat[PEG 179 nm]{\resizebox{0.44\linewidth}{!}{\figfont{11pt}\input{Figures/SSLContrastCurvesBilayer200SSL}}\label{fig:SSLContrastCurvesBilayer200SSL}}
-		\subfloat[Plain 128 nm]{\resizebox{0.44\linewidth}{!}{\figfont{11pt}\input{Figures/SSLContrastCurvesBilayer100Plain}}\label{fig:SSLContrastCurvesBilayer100Plain}}
-		\caption[Osmotic effects in the phospholipid bilayer.]{Osmotic effects in the phospholipid bilayer: Scattering curves measured at different solvent osmolalities for a 179 nm SSL and a 128 nm plain liposome. The appearance of Bragg peaks in the SSL membrane contrasts with the unaltered shape of the bilayer in the plain liposome.}
+		\input{Figures/SSLIsopointIntensity}
+		\caption[Isoscattering point intensity of liposomes.]{Isoscattering point intensity: Deviation from the initial intensity at $q^{\star}$ at different solvent osmolalities measured for a PEGylated and plain liposome of similar sizes. A clear osmotic threshold can not be observed.}
+		\label{fig:SSLIsopointIntensity}
 \end{figure}
-
-For this purpose, the bilayer feature of the 179 nm PEGylated liposome is shown in figure \ref{fig:SSLContrastCurvesBilayer200SSL} for increasing solvent osmolalities. As observed in figure \ref{fig:SSLContinuousSAXS} for sucrose concentrations above 15 $\%$, the bilayer scattering feature shifts abruptly to smaller $q$-values. This large contrast effect occurs at solvent densities close to the average electron density of the phospholipid bilayer (ca. 348 nm$^{-3}$), which corresponds to a sucrose mass fraction of $\sim 12 \; \%$. The convolution of the contrast-related effects with the variations induced by the osmotic pressure demands a more challenging evaluation, can prevent the right interpretation of the data and is, thus, unwanted. Therefore, the scattering curves shown here were measured with sucrose concentrations $\leq10\;\%$.
 
 The original double-peak structure of the SSL at 0 $\%$ sucrose concentration observed in figure \ref{fig:SSLContrastCurvesBilayer200SSL} transforms upon increasing the solvent osmolality and splits into 3 peaks of decreasing intensity at $q_1=0.48$ nm$^{-1}$, $q_2=0.86$ nm$^{-1}$ and $q_3=1.28$ nm$^{-1}$. These Bragg peaks superimposed on the bilayer form factor reveal a periodic structure which can be related with a partial oligolamellar structure in the liposome system \citep{fernandez_influence_2008}. The 3 mentioned diffraction peaks translate into a lamellar repeat distance of ca. 13 nm, approximately doubling the thickness of the single phospholipid bilayer \citep{kenworthy_range_1995} and suggesting the appearance of a bilamellar structure \citep{deme_giant_2002}. 
 
@@ -248,6 +261,13 @@ Contrarily, the phospholipid bilayer of the plain liposomes remains invariable u
 The fact that the incorporation of PEG moieties influences already the preparation and formation of the liposomes prevents a proper comparison of the osmotic effects between SSLs and plain liposomes of similar sizes. The existence of MLVs for non-PEGylated liposomes acts as a limiting factor for the osmotic activity. This contrasts with the osmotic effects observed in SSLs already at low sucrose concentrations which shrinks the PEGylated liposomes into oblated ellipsoids. 
 
 The chemical effect of sucrose on the SSL membrane is a subject of discussion, because it can be argued that the disaccharide molecule penetrates the lipid membrane or creates a solvation shell around the liposomes. However, previous studies in this subject \citep{kiselev_does_2003, kiselev_sucrose_2001, kiselev_sucrose_2001-1}, the large size of the sucrose molecule and similar results with other experiments performed with salt \citep{varga_osmotic_2014} suggest otherwise. Therefore, it can be concluded that the study of the osmotic activity of liposomes can be performed successfully using aqueous sucrose and shows very distinguishable effects for ULVs (PEGylated liposomes) and MLVs (plain liposomes).
+
+\begin{figure*}
+	\centering
+		\subfloat[PEG 179 nm]{\resizebox{0.5\linewidth}{!}{\figfont{10pt}\input{Figures/SSLContrastCurvesBilayer200SSL}}\label{fig:SSLContrastCurvesBilayer200SSL}}
+		\subfloat[Plain 128 nm]{\resizebox{0.5\linewidth}{!}{\figfont{10pt}\input{Figures/SSLContrastCurvesBilayer100Plain}}\label{fig:SSLContrastCurvesBilayer100Plain}}
+		\caption[Osmotic effects in the phospholipid bilayer.]{Osmotic effects in the phospholipid bilayer: Scattering curves measured at different solvent osmolalities for a 179 nm SSL and a 128 nm plain liposome. The appearance of Bragg peaks in the SSL membrane contrasts with the unaltered shape of the bilayer in the plain liposome.}
+\end{figure*}
 
 %\begin{figure}
 %	\centering
@@ -274,23 +294,25 @@ Lipoproteins are isolated from blood plasma by ultracentrifugation \citep{havel_
 
 Therefore, precise sizing techniques are a crucial tool to understand the physiological processes of lipoproteins \citep{german_lipoproteins:_2006}. The naturally narrow size distributions of LDL and HDL suggest small-angle scattering as a well-suited method and their heterogeneous morphology advises the use of a contrast variation approach. For instance, the first characterization attempts date back to the late 1970s with neutron scattering \citep{stuhrmann_neutron_1975}, using salt \citep{tardieu_structure_1976} and sucrose \citep{muller_structure_1978} as SAXS contrast agents or modifying the sample temperature \citep{laggner_molecular_1977,luzzati_structure_1979}. 
 
-\begin{figure}
+\begin{figure*}
 	\centering
 		\subfloat[HDL]{\resizebox{0.44\linewidth}{!}{\figfont{13pt}\input{Figures/HDLContinuousSAXS}}\label{fig:HDLContinuousSAXS}}
+		\qquad
 		\subfloat[LDL]{\resizebox{0.44\linewidth}{!}{\figfont{13pt}\input{Figures/LDLContinuousSAXS}}\label{fig:LDLContinuousSAXS}}
 		\caption[Continuous contrast variation experimental data of HDL and LDL.]{Scattering curves of HDL and LDL measured at different solvent densities by using an aqueous sucrose density gradient.}
-\end{figure}
+\end{figure*}
 
 The complicated inner structure of the lipoproteins revealed in more recent studies \citep{baumstark_structure_1990,schnitzer_re-evaluation_1994} encourages the use of parameter-independent and model-free analysis of the scattering data. With this objective, LDL and HDL samples were measured with continuous contrast variation in SAXS using 40 $\%$ sucrose mass fraction to increase the solvent electron density until 384 nm$^{-3}$. The scattering curves obtained for HDL and LDL are presented in figures \ref{fig:HDLContinuousSAXS} and \ref{fig:LDLContinuousSAXS} respectively.
 
 In the case of HDL in buffer, the first minimum appears at $q\approx0.5$ nm$^{-1}$. By increasing the solvent density, this minimum shifts to smaller $q$-values hinting the denser composition of the protein shell in comparison to the lighter lipid and cholesterol core. A lighter core morphology is also expected for LDL \citep{luzzati_structure_1979} and it agrees with the contrast effect observed in the scattering curves displayed in figure \ref{fig:LDLContinuousSAXS}.
 
-\begin{figure}
+\begin{figure*}
 	\centering
 		\subfloat[Isoscattering point position]{\resizebox{0.44\linewidth}{!}{\figfont{13pt}\input{Figures/LipoproteinIsopointComp}}\label{fig:LipoproteinIsopointComp}}
+		\qquad
 		\subfloat[Average electron density]{\resizebox{0.44\linewidth}{!}{\figfont{13pt}\input{Figures/LipoproteinsAverageDensity}}\label{fig:LipoproteinsAverageDensity}}
 		\caption[Model free-approaches to the experimental data of HDL and LDL.]{Comparison of the model free approaches for HDL (red) and LDL (black)}
-\end{figure}
+\end{figure*}
 
 The large number of observable minima indicates the narrow size distributions of both samples, providing ideal conditions to use the isoscattering point $q^{\star}$ approach. The relative standard deviation as a function of $q$ calculated for both lipoproteins is shown in figure \ref{fig:LipoproteinIsopointComp}, where the minima correspond to the position of $q^{\star}_i$. The clear minimum for HDL is located at $q^{\star}=0.826$ nm$^{-1}$, corresponding to an impenetrable size for the solvent of 11 nm. The position of the first $q^{\star}$ in LDL is shifted to smaller $q$, $q^{\star}=0.42$ nm$^{-1}$, which translates into a solvent-excluded diameter of 21 nm.
 
@@ -331,7 +353,7 @@ The bare PS-COOH particles are highly charged, showing a $\zeta$-potential of ($
 
 Due to the core-shell morphology of the polymeric bare particle observed in chapter \ref{chap:density_gradient_SAXS}, SAXS curves were analyzed using a double-shell model based in the form factor \ref{eq:multicore-shell}, considering a sharp interface between the different components and a constant thickness and density of the IgG corona. In order to focus on the total diameter instead of the details of the internal structure, the limits of the inner and outer radii of the polymer shell are not fixed and are treated as fitting parameters together with the outer radius and the contrast difference of each shell with the polystyrene core.
 
-\begin{table}[]
+\begin{table*}[]
 \centering
 \caption[Concentration of IgG and IgG shell thickness around the PS-COOH particles.]{Concentration of IgG incubated with PS-COOH particles and IgG shell thickness as measured by single-contrast SAXS, DCS and DLS \citep{minelli_characterization_2014}. A double-shell model with sharp interfaces was used for the SAXS results. The uncertainties are the standard deviations of repeated measurements.}
 \label{tab:CoatedKiskerSingleContrast}
@@ -343,7 +365,7 @@ Due to the core-shell morphology of the polymeric bare particle observed in chap
 2                         & -9.6 $\pm$ 0.5                   & 12 $\pm$ 2              & 7.6 $\pm$ 0.4                                & 9.6 $\pm$ 1.5                                 \\ \hline
 4                        & -9.7 $\pm$ 0.5                   & 15 $\pm$ 2              & 8.3 $\pm$ 0.4                                & 9.6 $\pm$ 1.5                                 \\ \hline
 \end{tabular}
-\end{table}
+\end{table*}
 
 The IgG shell thickness obtained for IgG-coated particles with different protein concentrations is shown in table \ref{tab:CoatedKiskerSingleContrast} and compared to the size measurements performed with other techniques in the Surface and Nanoanalysis group of NPL (Teddington, UK). All techniques (DLS, DCS and SAXS) show an increase in the IgG-shell thickness with increasing concentration of the protein in solution during incubation. As expected, DLS provides higher values than the other techniques, as the measured thickness is related to the hydrodynamic properties of the system.
 
@@ -375,7 +397,7 @@ It is important to highlight that this result corresponds to the volume inaccess
 
 \subsubsection{Uncertainty analysis}
 
-\begin{table}[]
+\begin{table*}[]
 \centering
 \caption[Uncertainty contributions associated to the isoscattering point position.]{Uncertainty contributions associated to the isoscattering point $q^{\star}$ position, where $u_I$ and $u_r$ correspond to the input uncertainty and relative uncertainty respectively.}
 \label{tab:IsopointUncertainty}
@@ -390,7 +412,7 @@ $q$-bin size                      & 0.0015 nm$^{-1}$              & $2\cdot 10^{
 Solvent background              & n.a.                       & n.a.                          & 0.0009 nm$^{-1}$                                                        \\ \hline
 \multicolumn{3}{|l|}{\textbf{\begin{tabular}[c]{@{}l@{}}Combined standard uncertainty\end{tabular}}}                             & \textbf{0.0019 nm$^{-1}$}                                                        \\ \hline
 \end{tabular}
-\end{table}
+\end{table*}
 
 The associated uncertainty to the isoscattering point position $q^{\star}$ of 0.0019 nm$^{-1}$ depends on the chosen $q$-bin size, the correction of the background contributions from the solvent, the energy resolution of the photon beam \citep{krumrey_high-accuracy_2001}, the accuracy of the distance between the irradiated sample and the scattering detector, the detector pixel size \citep{wernecke_characterization_2014} and the determination of the scattering center. Each contribution to the uncertainty budget has been detailed in table \ref{tab:IsopointUncertainty}, where the uncertainties given are standard uncertainties ($k = 1$). The largest contribution to the uncertainty arises from the selected $q$-bin size, which is limited by the signal-to-noise ratio of the scattering intensity depicted in figure \ref{fig:CoatedKiskerIsopointComp}. 
 
