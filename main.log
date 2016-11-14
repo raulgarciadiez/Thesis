@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/TeX Live for SUSE Linux) (format=pdflatex 2016.7.6)  14 NOV 2016 15:47
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/TeX Live for SUSE Linux) (format=pdflatex 2016.7.6)  14 NOV 2016 17:50
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1494,6 +1494,83 @@ Package cleveref Info: always capitalise cross-reference names on input line 73
 58.
 Package cleveref Info: always capitalise cross-reference names on input line 73
 86.
+)
+(/usr/share/texmf/tex/latex/datetime/datetime.sty
+Package: datetime 2010/09/21 v2.58 Date Time Package
+
+(/usr/share/texmf/tex/latex/fmtcount/fmtcount.sty
+Package: fmtcount 2012/10/24 v2.02
+
+(/usr/share/texmf/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2011/01/03 v2.1 e-TeX tools for LaTeX
+\etb@tempcnta=\count198
+)
+(/usr/share/texmf/tex/latex/fmtcount/fcprefix.sty
+Package: fcprefix 2012/09/28
+
+(/usr/share/texmf/tex/latex/fmtcount/fcnumparser.sty
+Package: fcnumparser 2012/09/28
+\fc@digit@counter=\count199
+))
+\c@padzeroesN=\count200
+Normal \count register pool exhausted, switching to extended pool.
+\fc@tmpcatcode=\count277
+
+(/usr/share/texmf/tex/latex/fmtcount/fc-english.def
+File: fc-english.def 2012/06/18
+)
+(/usr/share/texmf/tex/latex/fmtcount/fc-ngermanb.def
+File: fc-ngermanb.def 2012/06/18
+
+(/usr/share/texmf/tex/latex/fmtcount/fc-german.def
+File: fc-german.def 2012/06/18
+
+(/usr/share/texmf/tex/latex/fmtcount/fc-germanb.def
+File: fc-germanb.def 2012/06/18
+))
+(/usr/share/texmf/tex/latex/fmtcount/fc-ngerman.def
+File: fc-ngerman.def 2012/06/18
+))
+\@DT@modctr=\count278
+\@ordinalctr=\count279
+\@orgargctr=\count280
+\@strctr=\count281
+\@tmpstrctr=\count282
+\@DT@loopN=\count283
+\@DT@X=\count284
+)
+\@day=\count285
+\@month=\count286
+\@year=\count287
+\c@HOUR=\count288
+\c@HOURXII=\count289
+\c@MINUTE=\count290
+\c@TOHOUR=\count291
+\c@TOMINUTE=\count292
+\c@SECOND=\count293
+\currenthour=\count294
+\currentminute=\count295
+\currentsecond=\count296
+Package datetime Info: No datetime.cfg file found, using default settings on in
+put line 292.
+\@dtctr=\count297
+\dayofyear=\count298
+\dayofweek=\count299
+LaTeX Info: Redefining \today on input line 724.
+
+(/usr/share/texmf/tex/latex/datetime/dt-UKenglish.def
+File: dt-UKenglish.def 2010/07/07
+)
+(/usr/share/texmf/tex/latex/datetime/dt-naustrian.def
+File: dt-naustrian.def 2004/10/31
+LaTeX Info: Redefining \datenaustrian on input line 63.
+)
+(/usr/share/texmf/tex/latex/datetime/dt-ngerman.def
+File: dt-ngerman.def 2004/10/31
+LaTeX Info: Redefining \datengerman on input line 83.
+)
+\dt@a=\toks43
+\dt@b=\toks44
 ) (./final-head-end.tex
 Package hyperref Info: Option `breaklinks' set `true' on input line 14.
 Package hyperref Info: Option `bookmarksopen' set `true' on input line 14.
@@ -1505,7 +1582,7 @@ Package hyperref Info: Option `colorlinks' set `false' on input line 14.
 
 (/usr/share/texmf/tex/latex/truncate/truncate.sty
 Package: truncate 2001/08/20  ver 3.6
-\@Trunc@RestHyph=\toks43
+\@Trunc@RestHyph=\toks45
 ))) (./main.aux
 (./chapter_introduction.aux) (./chapter_theory_SAXS.aux)
 (./chapter_experimental_setup.aux) (./chapter_density_gradient_SAXS.aux)
@@ -1588,18 +1665,17 @@ File: mt-ppl.cfg 2005/11/16 v1.6 microtype config. file: Palatino (RS)
 )
 (/usr/share/texmf/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count198
+\scratchcounter=\count300
 \scratchdimen=\dimen307
 \scratchbox=\box62
-\nofMPsegments=\count199
-\nofMParguments=\count200
-\everyMPshowfont=\toks44
-Normal \count register pool exhausted, switching to extended pool.
-\MPscratchCnt=\count277
+\nofMPsegments=\count301
+\nofMParguments=\count302
+\everyMPshowfont=\toks46
+\MPscratchCnt=\count303
 \MPscratchDim=\dimen308
-\MPnumerator=\count278
-\makeMPintoPDFobject=\count279
-\everyMPtoPDFconversion=\toks45
+\MPnumerator=\count304
+\makeMPintoPDFobject=\count305
+\everyMPtoPDFconversion=\toks47
 )
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: subfig package v1.3 is loaded.
@@ -1637,7 +1713,7 @@ Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 (/usr/share/texmf/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
-\c@section@level=\count280
+\c@section@level=\count306
 LaTeX Info: Redefining \Ref on input line 513.
 )
 LaTeX Info: Redefining \ref on input line 6.
@@ -2886,25 +2962,25 @@ Package babel Info: Redefining ngerman shorthand "~
 
  (./tub-publist.tex
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 48.
+(babel)             in language  on input line 41.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 48.
+(babel)             in language  on input line 41.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 48.
+(babel)             in language  on input line 41.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 48.
+(babel)             in language  on input line 41.
  [107
 
 
 ]
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 48.
+(babel)             in language  on input line 41.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 48.
+(babel)             in language  on input line 41.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 48.
+(babel)             in language  on input line 41.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 48.
+(babel)             in language  on input line 41.
  [108
 
 
@@ -2925,10 +3001,10 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 45.
  ) 
 Here is how much of TeX's memory you used:
- 34216 strings out of 493315
- 626217 string characters out of 6145894
- 717897 words of memory out of 5000000
- 35451 multiletter control sequences out of 15000+600000
+ 35193 strings out of 493315
+ 640644 string characters out of 6145894
+ 747525 words of memory out of 5000000
+ 36386 multiletter control sequences out of 15000+600000
  261145 words of font info for 984 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
  77i,21n,89p,1927b,884s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2950,7 +3026,7 @@ fb></usr/share/texmf/fonts/type1/public/cm-super/sfsx1728.pfb></usr/share/texmf
 /fonts/type1/urw/palatino/uplb8a.pfb></usr/share/texmf/fonts/type1/urw/palatino
 /uplbi8a.pfb></usr/share/texmf/fonts/type1/urw/palatino/uplr8a.pfb></usr/share/
 texmf/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on main.pdf (126 pages, 6990087 bytes).
+Output written on main.pdf (126 pages, 6991338 bytes).
 PDF statistics:
  2820 PDF objects out of 2984 (max. 8388607)
  2479 compressed objects within 25 object streams
