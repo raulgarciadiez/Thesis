@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/TeX Live for SUSE Linux) (format=pdflatex 2016.7.6)  11 NOV 2016 15:28
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/TeX Live for SUSE Linux) (format=pdflatex 2016.7.6)  14 NOV 2016 15:47
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2548,13 +2548,7 @@ f>]
 
 ]
 Chapter 6.
-[61]
-Overfull \hbox (27.02524pt too wide) in paragraph at lines 21--22
-\T1/ppl/m/n/10.95 (-20) (carbonyl-methoxypolyethylene glycol 2000)-1,2-distearo
-yl-sn-glycero-3-phosphoethanolamine).
- []
-
-<Figures/CaelyxCryoTEM.png, id=1916, 243.91125pt x 245.91875pt>
+[61] <Figures/CaelyxCryoTEM.png, id=1916, 243.91125pt x 245.91875pt>
 File: Figures/CaelyxCryoTEM.png Graphic file (type png)
 
 <use Figures/CaelyxCryoTEM.png>
@@ -2796,18 +2790,18 @@ Package pdftex.def Info: Figures/CoatedKiskerIgGSingleContrastSAXS.pdf used on
 input line 111.
 (pdftex.def)             Requested size: 284.06053pt x 226.84694pt.
 )
-Underfull \hbox (badness 6364) in paragraph at lines 348--348
+Underfull \hbox (badness 6364) in paragraph at lines 358--358
 []\T1/cmss/bx/n/9 Figure 6.16 | |\T1/cmss/m/n/9 (+20) SAXS
  []
 
 
-Underfull \hbox (badness 2213) in paragraph at lines 348--348
+Underfull \hbox (badness 2213) in paragraph at lines 358--358
 \T1/cmss/m/n/9 (+20) of PS-COOH particles
  []
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 356.
+               Default added (so using `tbp') on input line 366.
 
 [79 <./Figures/CoatedKiskerIgGSingleContrastSAXS.pdf>]
 (./Figures/CoatedKiskerIsopointComp.tex
@@ -2821,7 +2815,7 @@ e 99.
 ) [80 <./Figures/CoatedKiskerIsopointComp.pdf>]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 400.
+               Default added (so using `tbp') on input line 410.
 
 ) [81]
 \openout2 = `chapter_conclusions.aux'.
@@ -2956,7 +2950,7 @@ fb></usr/share/texmf/fonts/type1/public/cm-super/sfsx1728.pfb></usr/share/texmf
 /fonts/type1/urw/palatino/uplb8a.pfb></usr/share/texmf/fonts/type1/urw/palatino
 /uplbi8a.pfb></usr/share/texmf/fonts/type1/urw/palatino/uplr8a.pfb></usr/share/
 texmf/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on main.pdf (126 pages, 6989913 bytes).
+Output written on main.pdf (126 pages, 6990087 bytes).
 PDF statistics:
  2820 PDF objects out of 2984 (max. 8388607)
  2479 compressed objects within 25 object streams
