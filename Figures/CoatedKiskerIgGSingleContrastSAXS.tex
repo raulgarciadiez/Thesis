@@ -71,31 +71,39 @@
       \expandafter\def\csname LT8\endcsname{\color{black}}%
     \fi
   \fi
-  \setlength{\unitlength}{0.0500bp}%
-  \begin{picture}(5668.00,4534.00)%
+    \setlength{\unitlength}{0.0500bp}%
+    \ifx\gptboxheight\undefined%
+      \newlength{\gptboxheight}%
+      \newlength{\gptboxwidth}%
+      \newsavebox{\gptboxtext}%
+    \fi%
+    \setlength{\fboxrule}{0.5pt}%
+    \setlength{\fboxsep}{1pt}%
+\begin{picture}(5668.00,4534.00)%
     \gplgaddtomacro\gplbacktext{%
       \csname LTb\endcsname%
-      \put(858,638){\makebox(0,0)[r]{\strut{} 1}}%
+      \put(726,638){\makebox(0,0)[r]{\strut{}$1$}}%
       \csname LTb\endcsname%
-      \put(858,1848){\makebox(0,0)[r]{\strut{} 10}}%
+      \put(726,1848){\makebox(0,0)[r]{\strut{}$10$}}%
       \csname LTb\endcsname%
-      \put(858,3059){\makebox(0,0)[r]{\strut{} 100}}%
+      \put(726,3059){\makebox(0,0)[r]{\strut{}$100$}}%
       \csname LTb\endcsname%
-      \put(858,4269){\makebox(0,0)[r]{\strut{} 1000}}%
+      \put(726,4269){\makebox(0,0)[r]{\strut{}$1000$}}%
       \csname LTb\endcsname%
-      \put(1073,418){\makebox(0,0){\strut{} 0.03}}%
+      \put(944,418){\makebox(0,0){\strut{}$0.03$}}%
       \csname LTb\endcsname%
-      \put(1901,418){\makebox(0,0){\strut{} 0.05}}%
+      \put(1797,418){\makebox(0,0){\strut{}$0.05$}}%
       \csname LTb\endcsname%
-      \put(3024,418){\makebox(0,0){\strut{} 0.1}}%
+      \put(2955,418){\makebox(0,0){\strut{}$0.1$}}%
       \csname LTb\endcsname%
-      \put(4148,418){\makebox(0,0){\strut{} 0.2}}%
+      \put(4113,418){\makebox(0,0){\strut{}$0.2$}}%
       \csname LTb\endcsname%
-      \put(5271,418){\makebox(0,0){\strut{} 0.4}}%
-      \put(220,2453){\rotatebox{-270}{\makebox(0,0){\strut{}Scattering Intensity / a.u.}}}%
-      \put(3130,154){\makebox(0,0){\strut{}$q$ / nm$^{-1}$}}%
+      \put(5271,418){\makebox(0,0){\strut{}$0.4$}}%
     }%
     \gplgaddtomacro\gplfronttext{%
+      \csname LTb\endcsname%
+      \put(220,2453){\rotatebox{-270}{\makebox(0,0){\strut{}Scattering Intensity / a.u.}}}%
+      \put(3064,154){\makebox(0,0){\strut{}$q$ / nm$^{-1}$}}%
       \csname LTb\endcsname%
       \put(4548,4041){\makebox(0,0)[r]{\strut{}\smaller PS-COOH}}%
       \csname LTb\endcsname%

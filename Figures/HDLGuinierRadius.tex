@@ -71,37 +71,45 @@
       \expandafter\def\csname LT8\endcsname{\color{black}}%
     \fi
   \fi
-  \setlength{\unitlength}{0.0500bp}%
-  \begin{picture}(5668.00,4534.00)%
+    \setlength{\unitlength}{0.0500bp}%
+    \ifx\gptboxheight\undefined%
+      \newlength{\gptboxheight}%
+      \newlength{\gptboxwidth}%
+      \newsavebox{\gptboxtext}%
+    \fi%
+    \setlength{\fboxrule}{0.5pt}%
+    \setlength{\fboxsep}{1pt}%
+\begin{picture}(5668.00,4534.00)%
     \gplgaddtomacro\gplbacktext{%
       \csname LTb\endcsname%
-      \put(946,819){\makebox(0,0)[r]{\strut{} 0}}%
+      \put(814,819){\makebox(0,0)[r]{\strut{}$0$}}%
       \csname LTb\endcsname%
-      \put(946,1394){\makebox(0,0)[r]{\strut{} 50}}%
+      \put(814,1394){\makebox(0,0)[r]{\strut{}$50$}}%
       \csname LTb\endcsname%
-      \put(946,1969){\makebox(0,0)[r]{\strut{} 100}}%
+      \put(814,1969){\makebox(0,0)[r]{\strut{}$100$}}%
       \csname LTb\endcsname%
-      \put(946,2544){\makebox(0,0)[r]{\strut{} 150}}%
+      \put(814,2544){\makebox(0,0)[r]{\strut{}$150$}}%
       \csname LTb\endcsname%
-      \put(946,3119){\makebox(0,0)[r]{\strut{} 200}}%
+      \put(814,3119){\makebox(0,0)[r]{\strut{}$200$}}%
       \csname LTb\endcsname%
-      \put(946,3694){\makebox(0,0)[r]{\strut{} 250}}%
+      \put(814,3694){\makebox(0,0)[r]{\strut{}$250$}}%
       \csname LTb\endcsname%
-      \put(946,4269){\makebox(0,0)[r]{\strut{} 300}}%
+      \put(814,4269){\makebox(0,0)[r]{\strut{}$300$}}%
       \csname LTb\endcsname%
-      \put(1562,484){\makebox(0,0){\strut{} 340}}%
+      \put(1445,484){\makebox(0,0){\strut{}$340$}}%
       \csname LTb\endcsname%
-      \put(2368,484){\makebox(0,0){\strut{} 350}}%
+      \put(2277,484){\makebox(0,0){\strut{}$350$}}%
       \csname LTb\endcsname%
-      \put(3175,484){\makebox(0,0){\strut{} 360}}%
+      \put(3109,484){\makebox(0,0){\strut{}$360$}}%
       \csname LTb\endcsname%
-      \put(3981,484){\makebox(0,0){\strut{} 370}}%
+      \put(3940,484){\makebox(0,0){\strut{}$370$}}%
       \csname LTb\endcsname%
-      \put(4787,484){\makebox(0,0){\strut{} 380}}%
-      \put(176,2486){\rotatebox{-270}{\makebox(0,0){\strut{}Radius$^2$ / nm$^{2}$}}}%
-      \put(3174,154){\makebox(0,0){\strut{}Solvent Electron Density / nm$^{-3}$}}%
+      \put(4772,484){\makebox(0,0){\strut{}$380$}}%
     }%
     \gplgaddtomacro\gplfronttext{%
+      \csname LTb\endcsname%
+      \put(176,2486){\rotatebox{-270}{\makebox(0,0){\strut{}Radius$^2$ / nm$^{2}$}}}%
+      \put(3108,154){\makebox(0,0){\strut{}Solvent Electron Density / nm$^{-3}$}}%
     }%
     \gplbacktext
     \put(0,0){\includegraphics{HDLGuinierRadius}}%
