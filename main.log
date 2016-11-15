@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/TeX Live for SUSE Linux) (format=pdflatex 2016.7.6)  14 NOV 2016 17:50
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/TeX Live for SUSE Linux) (format=pdflatex 2016.7.6)  15 NOV 2016 17:19
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2924,11 +2924,7 @@ G., Lynch, I.,
 
  (./thanksgiving.tex [103
 
-] [104
-
-
-
-])
+] [104])
 \openout2 = `tub-eidesstattliche.aux'.
 
 
@@ -2942,6 +2938,9 @@ Package babel Info: Redefining ngerman shorthand "|
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 16.
  [105
+
+
+
 
 
 ]
@@ -3026,10 +3025,10 @@ fb></usr/share/texmf/fonts/type1/public/cm-super/sfsx1728.pfb></usr/share/texmf
 /fonts/type1/urw/palatino/uplb8a.pfb></usr/share/texmf/fonts/type1/urw/palatino
 /uplbi8a.pfb></usr/share/texmf/fonts/type1/urw/palatino/uplr8a.pfb></usr/share/
 texmf/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on main.pdf (126 pages, 6991338 bytes).
+Output written on main.pdf (126 pages, 6995003 bytes).
 PDF statistics:
- 2820 PDF objects out of 2984 (max. 8388607)
- 2479 compressed objects within 25 object streams
+ 2824 PDF objects out of 2984 (max. 8388607)
+ 2483 compressed objects within 25 object streams
  562 named destinations out of 1000 (max. 500000)
  133484 words of extra memory for PDF output out of 154059 (max. 10000000)
 
