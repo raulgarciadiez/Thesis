@@ -15,6 +15,7 @@ A level-1 auxiliary file: tub-publist.aux
 Database file #1: thesis.bib
 Warning--entry type for "fitzpatrick_structure_1998" isn't style-file defined
 --line 2410 of file thesis.bib
+Warning--I didn't find a database entry for "barenholz_doxil_2012"
 `number' is a missing field, not a string, for entry dingenouts_analysis_1999
 while executing---line 3135 of file meinbst.bst
 Warning--can't use both author and editor fields in feigin_structure_1987
@@ -22,45 +23,45 @@ Warning--empty publisher in kramers_diffusion_1927
 `number' is a missing field, not a string, for entry stuhrmann_resonance_1985
 while executing---line 3135 of file meinbst.bst
 Warning--empty booktitle in wu_particle_2014
-You've used 208 entries,
+You've used 206 entries,
             2851 wiz_defined-function locations,
-            1786 strings with 49877 characters,
-and the built_in function-call counts, 113962 in all, are:
-= -- 10832
-> -- 6503
-< -- 95
-+ -- 2530
-- -- 2280
-* -- 10957
-:= -- 20598
-add.period$ -- 418
-call.type$ -- 208
-change.case$ -- 1803
-chr.to.int$ -- 214
-cite$ -- 211
-duplicate$ -- 4538
-empty$ -- 7601
-format.name$ -- 2572
-if$ -- 22074
-int.to.chr$ -- 7
+            1779 strings with 49269 characters,
+and the built_in function-call counts, 113245 in all, are:
+= -- 10760
+> -- 6483
+< -- 92
++ -- 2521
+- -- 2274
+* -- 10884
+:= -- 20458
+add.period$ -- 414
+call.type$ -- 206
+change.case$ -- 1791
+chr.to.int$ -- 213
+cite$ -- 209
+duplicate$ -- 4501
+empty$ -- 7542
+format.name$ -- 2564
+if$ -- 21943
+int.to.chr$ -- 6
 int.to.str$ -- 1
-missing$ -- 216
-newline$ -- 628
-num.names$ -- 836
-pop$ -- 1447
+missing$ -- 214
+newline$ -- 622
+num.names$ -- 828
+pop$ -- 1442
 preamble$ -- 1
-purify$ -- 1591
+purify$ -- 1581
 quote$ -- 0
-skip$ -- 2624
+skip$ -- 2616
 stack$ -- 0
-substring$ -- 7001
-swap$ -- 1035
-text.length$ -- 10
+substring$ -- 6961
+swap$ -- 1028
+text.length$ -- 9
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 1842
+type$ -- 1824
 warning$ -- 3
-while$ -- 999
+while$ -- 992
 width$ -- 0
-write$ -- 2287
+write$ -- 2262
 (There were 2 error messages)

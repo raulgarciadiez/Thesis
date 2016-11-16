@@ -71,11 +71,11 @@ The four-crystal monochromator bending magnet beamline operating in the PTB labo
 \begin{figure*}%[htbp]
 	\centering
 		\resizebox{0.8\linewidth}{!}{\includegraphics{Figures/FCMScheme.png}}
-		\caption[Diagram of the Four-crystal monochromator beamline.]{A scheme of the FCM beamline in the PTB laboratory at BESSY II. The distance of each component to the bending magnet is shown.}
+		\caption[Diagram of the four-crystal monochromator beamline.]{A scheme of the FCM beamline in the PTB laboratory at BESSY II. The distance of each component to the bending magnet is shown.}
 		\label{fig:FCMScheme}
 \end{figure*}
 
-At 14 m from the bending magnet, a Pt-coated toroidal mirror is located to focus the beam in the horizontal direction and to collimate it in the vertical direction. The radiation coming from the bending magnet is monochromatised further downstream by a set of 4 single crystals which reflect the light according to the Bragg's law for the (1 1 1) reflection. As the 4 crystals are mounted on two wheels (one on the rotation center and one parallelly aligned), the rotation angle of the wheel $\Theta$ defines the energy of the outgoing photon beam by $E=\frac{\sqrt{3}h c}{2a\sin{\Theta}}$, where $a$ is the lattice constant of the crystal.
+At 14 m from the bending magnet, a Pt-coated toroidal mirror is located to focus the beam in the horizontal direction and to collimate it in the vertical direction. The radiation coming from the bending magnet is monochromatised further downstream by a set of 4 single crystals which reflect the light according to the Bragg's law for the (1 1 1) reflection. As the 4 crystals are mounted on two wheels (one on the rotation centre and one parallelly aligned), the rotation angle of the wheel $\Theta$ defines the energy of the outgoing photon beam by $E=\frac{\sqrt{3}h c}{2a\sin{\Theta}}$, where $a$ is the lattice constant of the crystal.
 
 Two types of exchangeable crystal sets, Si ($a=0.543$ nm) and InSb ($a=0.648$ nm), are available to cover the energy range from 1.75 keV to 10 keV. The convolution of the 4 Bragg reflections provides a very high energy resolving power ($E/\Delta E = 10^4 $) through the full energy range. Besides, the geometric disposition of the crystals fixes the position of the outgoing radiation. The monochromator is operated under a $10^{-8}$ mbar vacuum.
 
@@ -121,7 +121,7 @@ The in-vacuum Pilatus 1M detector is mounted on the SAXS instrument of the Helmh
 
 \begin{table}[]
 \centering
-\caption[Two different SAXS experimental setups and the accessible $q$-range.]{Two different experimental setups which span the accessible $q$-range for almost 3 decades. The overall maximum and minimum accessible $q$-values are highlighted in bold letters.}
+\caption[Two different SAXS experimental setups and their accessible $q$-range.]{Two different experimental setups which span the accessible $q$-range for almost 3 decades. The overall maximum and minimum accessible $q$-values are highlighted in bold letters.}
 \label{tab:qrange}
 \begin{tabular}{|l|c|c|}
 \hline
@@ -192,7 +192,7 @@ The transmission of an empty capillary is mapped in figure \ref{fig:HilgenbergHo
 %	        \resizebox{.85\linewidth}{!}{\input{Figures/GaldenCalibration}}
 	
 		\input{Figures/GaldenCalibration}
-		\caption[X-ray transmission of a rectangular capillary half-filled with water]{X-ray transmission of a rectangular capillary half-filled with water along the main vertical axis situated at $x=-0.15$ mm.}
+		\caption[X-ray transmission of a rectangular capillary half-filled with water.]{X-ray transmission of a rectangular capillary half-filled with water along the main vertical axis situated at $x=-0.15$ mm.}
 		\label{fig:GaldenCalibration}
 \end{figure}
 
@@ -215,7 +215,7 @@ A polymeric 100 $\mu$m ring cut with a microtome is used as spacer between the 2
 \section{Data reduction: The scattering curve}
 \label{sec:data_reduction}
 
-For isotropically scattering samples e.g. nanoparticles in suspension, the scattering patterns collected in the area detector consist of concentric rings whose center is the transmitted beam. The dimensionality of the data can be reduced by performing a radial integration of the measured pattern, converting the 2D images into 1D scattering curves. This reduction step is based on the $q$-binning: the grouping of pixels with similar scattering angle $q$ irrespective of their azimuthal angle on the detector \citep{pauw_everything_2013}. By averaging the scattered intensity of the pixels within the same $q$-bin ($I(q)$), the uncertainty of the data decreases in the scattering curve. The size of the bins depends on the requirements of the data evaluation while the bins are typically spaced uniformly, although logarithmic distributions are also extensively used. The difference in solid angle for each pixel due to the spherical projection of the scattering on a flat detector is also considered in this step.
+For isotropically scattering samples e.g. nanoparticles in suspension, the scattering patterns collected in the area detector consist of concentric rings whose centre is the transmitted beam. The dimensionality of the data can be reduced by performing a radial integration of the measured pattern, converting the 2D images into 1D scattering curves. This reduction step is based on the $q$-binning: the grouping of pixels with similar scattering angle $q$ irrespective of their azimuthal angle on the detector \citep{pauw_everything_2013}. By averaging the scattered intensity of the pixels within the same $q$-bin ($I(q)$), the uncertainty of the data decreases in the scattering curve. The size of the bins depends on the requirements of the data evaluation while the bins are typically spaced uniformly, although logarithmic distributions are also extensively used. The difference in solid angle for each pixel due to the spherical projection of the scattering on a flat detector is also considered in this step.
 
 The uncertainty associated to the intensity $I(q)$ is calculated as the standard deviation between each pixel intensity in the $q$-bin, which gives a better estimate than the uncertainty associated to the photon-counting Poisson statistics \citep{pauw_everything_2013}. The pixels discarded (or \emph{masked out}) for the weighted average of the $n$th $q$-bin ($q_n$) are those whose intensity is not comprised within the range 
 
@@ -225,7 +225,7 @@ The uncertainty associated to the intensity $I(q)$ is calculated as the standard
 
 where $I_{\text{med}}\left( q_{n}\right)$ is the median intensity of the pixels prior to this \emph{masking procedure} and $\sigma$ is the standard deviation. With a confidence level of 99.7 $\%$, the pixels excluded of the reduction process are those pixels whose intensity lies clearly out of the radial average, such as \emph{hot pixels}, anisotropic scattering from the glass capillary or undesired reflexes without radial simmetry.
 
-The position of the center of the scattering pattern is of vital importance for the radial integration step. A standard calibrant with very narrow diffraction rings such as AgBehe can be used to locate the center with high precision. Nevertheless, the masking process previously described can be used as well to determine the center position by minimizing the number of masked pixels and the standard deviation uncertainty of the $q$-bins. The accuracy of the center determination is sub-pixel using both approaches, but the masking procedure does not require a calibration standard material.
+The position of the centre of the scattering pattern is of vital importance for the radial integration step. A standard calibrant with very narrow diffraction rings such as AgBehe can be used to locate the centre with high precision. Nevertheless, the masking process previously described can be used as well to determine the centre position by minimizing the number of masked pixels and the standard deviation uncertainty of the $q$-bins. The accuracy of the centre determination is sub-pixel using both approaches, but the masking procedure does not require a calibration standard material.
 
 The scattering curve obtained by radial integration still requires of some data correction. For instance, $I_{\text{meas}}(q)$ (photon counts) must be normalized to the exposure time $\Delta t$, the solid angle $\Delta \Omega$, the measured transmittance of the sample $T$ and the incident photon flux $\Phi_0$, measured by the flux monitor described in section \ref{sec:fcm}. In order to present the scattering cross section per volume $\sfrac{d\Sigma}{d\Omega}$ in absolute units (cm$^{-1}$), the measured intensity must be normalized to the sample thickness $t$ and the quantum efficiencies of the X-ray detector and the silicon diodes $\eta_{QE}$: 
 

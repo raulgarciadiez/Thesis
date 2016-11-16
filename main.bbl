@@ -1,4 +1,4 @@
-\begin{thebibliography}{208}
+\begin{thebibliography}{206}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 
 \bibitem[Als-Nielsen \& McMorrow(2011)]{als-nielsen_elements_2011}
@@ -8,55 +8,52 @@
 \bibitem[Amenitsch {\em et~al.\/}(1997)Amenitsch, Bernstorff, Kriechbaum,
   Lombardo, Mio, Rappolt \& Laggner]{amenitsch_performance_1997}
 {\sc Amenitsch, H., Bernstorff, S., Kriechbaum, M., Lombardo, D., Mio, H.,
-  Rappolt, M. \& Laggner, P.} 1997 Performance and {{First Results}} of the
-  {{ELETTRA High}}-{{Flux Beamline}} for {{Small}}-{{Angle X}}-ray
-  {{Scattering}}. {\em Journal of Applied Crystallography\/} {\bf 30},
-  872--876.
+  Rappolt, M. \& Laggner, P.} 1997 Performance and first results of the
+  {{ELETTRA}} high-flux beamline for small-angle {{X}}-ray scattering. {\em J
+  Appl Crystallogr\/} {\bf 30}, 872--876.
 
 \bibitem[Araki {\em et~al.\/}(2006)Araki, Ade, Stubbs, Sundberg, Mitchell,
-  Kortright \& Kilcoyne]{araki_resonant_2006-1}
+  Kortright \& Kilcoyne]{araki_resonant_2006}
 {\sc Araki, T., Ade, H., Stubbs, J.~M., Sundberg, D.~C., Mitchell, G.~E.,
   Kortright, J.~B. \& Kilcoyne, A. L.~D.} 2006 Resonant soft x-ray scattering
-  from structured polymer nanoparticles. {\em Applied Physics Letters\/} {\bf
-  89}, 124106.
+  from structured polymer nanoparticles. {\em Appl Phys Lett\/} {\bf 89},
+  124106.
 
 \bibitem[Arnold {\em et~al.\/}(2006)Arnold, Green, Hulvat, Stupp \&
   Hersam]{arnold_sorting_2006}
 {\sc Arnold, M.~S., Green, A.~A., Hulvat, J.~F., Stupp, S.~I. \& Hersam, M.~C.}
   2006 Sorting carbon nanotubes by electronic structure using density
-  differentiation. {\em Nat. Nano.\/} {\bf 1}, 60--65.
+  differentiation. {\em Nat Nanotechnology\/} {\bf 1}, 60--65.
 
 \bibitem[Assmann \& Brewer(1974)]{assmann_lipid-protein_1974}
 {\sc Assmann, G. \& Brewer, H.~B.} 1974 Lipid-protein interactions in high
-  density lipoproteins. {\em Proceedings of the National Academy of Sciences\/}
-  {\bf 71}, 989--993.
+  density lipoproteins. {\em PNAS\/} {\bf 71}, 989--993.
 
 \bibitem[Avdeev(2007)]{avdeev_contrast_2007}
 {\sc Avdeev, M.~V.} 2007 Contrast variation in small-angle scattering
   experiments on polydisperse and superparamagnetic systems: Basic functions
-  approach. {\em Journal of Applied Crystallography\/} {\bf 40}, 56--70.
+  approach. {\em J Appl Crystallogr\/} {\bf 40}, 56--70.
 
 \bibitem[Bakker {\em et~al.\/}(1998)Bakker, Kr{\"a}mer, Kuske, Kuske,
   M{\"u}ller \& Weihreter]{bakker_orbit_1998}
 {\sc Bakker, R., Kr{\"a}mer, D., Kuske, B., Kuske, P., M{\"u}ller, R. \&
-  Weihreter, E.} 1998 Orbit {{Response Measurements}} in the {{Commissioning}}
-  of the {{BESSY II Booster Synchrotron}} and {{Storage Ring}}. In {\em
-  Proceedings of the 6th {{European Particle Accelerator Conference}},
-  {{Stockholm}}\/}, , vol. 900.
+  Weihreter, E.} 1998 Orbit response measurements in the commissioning of the
+  {{BESSY II}} booster synchrotron and storage ring. In {\em Proceedings of the
+  6th {{European Particle Accelerator Conference}}\/}, pp. 900--902.
 
 \bibitem[Bakker(1999)]{bakker_status_1999}
 {\sc Bakker, R.~J.} 1999 Status and commissioning-results of {{BESSY II}}. In
-  {\em Particle {{Accelerator Conference}}, 1999. {{Proceedings}} of the
-  1999\/}, , vol.~1, pp. 197--199. {IEEE}.
+  {\em Proceedings of the 1999 {{Particle Accelerator Conference}}\/}, pp.
+  197--199. {IEEE}.
 
 \bibitem[Ballauff(2001)]{ballauff_saxs_2001-1}
 {\sc Ballauff, M.} 2001 {{SAXS}} and {{SANS}} studies of polymer colloids. {\em
   Curr. Opin. Colloid Interface Sci.\/} {\bf 6}, 132--139.
 
 \bibitem[Ballauff(2011)]{ballauff_analysis_2011}
-{\sc Ballauff, M.} 2011 Analysis of {{Polymer Colloids}} by {{Small}}-{{Angle
-  X}}-{{Ray}} and {{Neutron Scattering}}: {{Contrast Variation}}. {\em Adv Eng
-  Mater\/} {\bf 13}, 793--802.
+{\sc Ballauff, M.} 2011 Analysis of polymer colloids by small-angle {{X}}-ray
+  and neutron scattering: {{Contrast}} variation. {\em Adv Eng Mater\/} {\bf
+  13}, 793--802.
 
 \bibitem[Ballauff {\em et~al.\/}(1996)Ballauff, Bolze, Dingenouts, Hickl \&
   P{\"o}tschke]{ballauff_small-angle_1996}
@@ -66,42 +63,27 @@
 
 \bibitem[Barber \& Wang(1978)]{barber_rayleigh-gans-debye_1978}
 {\sc Barber, P.~W. \& Wang, D.-S.} 1978 Rayleigh-{{Gans}}-{{Debye}}
-  applicability to scattering by nonspherical particles. {\em Applied Optics\/}
+  applicability to scattering by nonspherical particles. {\em Appl Optics\/}
   {\bf 17}, 797.
 
 \bibitem[Barenholz(2001)]{barenholz_liposome_2001}
-{\sc Barenholz, Y.} 2001 Liposome application: Problems and prospects. {\em
-  Current Opinion in Colloid \& Interface Science\/} {\bf 6}, 66--77.
+{\sc Barenholz, Y.~C.} 2001 Liposome application: Problems and prospects. {\em
+  Curr Opin Colloid Interface Sci\/} {\bf 6}, 66--77.
 
-\bibitem[Barenholz(2012)]{barenholz_doxil_2012}
-{\sc Barenholz, Y.~C.} 2012 {{Doxil}}\textregistered{} \textemdash{} {{The}}
-  first {{FDA}}-approved nano-drug: {{Lessons}} learned. {\em Journal of
-  Controlled Release\/} {\bf 160}, 117--134.
-
-\bibitem[Baumg{\"a}rtel(1984{\natexlab{{\em a\/}}})]{baumgartel_e.-e._1984-1}
-{\sc Baumg{\"a}rtel, H.} 1984{\natexlab{{\em a\/}}} E.-{{E}}. {{Koch}}
-  ({{Ed}}.): {{Handbook}} on {{Synchrotron Radiation}}, {{Vol}}. 1a und 1b,
-  {{North}}-{{Holland Publishing Company}}, {{Amsterdam}}, {{New York}},
-  {{Oxford}} 1983. {{Gesamtseitenzahl}}: 1296, {{Gesamtpreis}}: {{DM}}
-  600,\textendash, {{Preis}} der {{Einzelb{\"a}nde}}: {{DM}} 350,\textendash.
-  {\em Berichte der Bunsengesellschaft f{\"u}r physikalische Chemie\/} {\bf
-  88}, 591--592.
-
-\bibitem[Baumg{\"a}rtel(1984{\natexlab{{\em b\/}}})]{baumgartel_e.-e._1984}
-{\sc Baumg{\"a}rtel, H.} 1984{\natexlab{{\em b\/}}} E.-{{E}}. {{Koch}}
-  ({{Ed}}.): {{Handbook}} on {{Synchrotron Radiation}}, {{Vol}}. 1a und 1b,
-  {{North}}-{{Holland Publishing Company}}, {{Amsterdam}}, {{New York}},
-  {{Oxford}} 1983. {{Gesamtseitenzahl}}: 1296, {{Gesamtpreis}}: {{DM}}
-  600,\textendash, {{Preis}} der {{Einzelb{\"a}nde}}: {{DM}} 350,\textendash.
-  {\em Berichte der Bunsengesellschaft f{\"u}r physikalische Chemie\/} {\bf
-  88}, 591--592.
+\bibitem[Baumg{\"a}rtel(1984)]{baumgartel_e.-e._1984}
+{\sc Baumg{\"a}rtel, H.} 1984 E.-{{E}}. {{Koch}} ({{Ed}}.): {{Handbook}} on
+  {{Synchrotron Radiation}}, {{Vol}}. 1a und 1b, {{North}}-{{Holland Publishing
+  Company}}, {{Amsterdam}}, {{New York}}, {{Oxford}} 1983.
+  {{Gesamtseitenzahl}}: 1296, {{Gesamtpreis}}: {{DM}} 600,\textendash,
+  {{Preis}} der {{Einzelb{\"a}nde}}: {{DM}} 350,\textendash. {\em Berichte der
+  Bunsengesellschaft f{\"u}r physikalische Chemie\/} {\bf 88}, 591--592.
 
 \bibitem[Baumstark {\em et~al.\/}(1990)Baumstark, Kreutz, Berg, Frey \&
   Keul]{baumstark_structure_1990}
 {\sc Baumstark, M.~W., Kreutz, W., Berg, A., Frey, I. \& Keul, J.} 1990
   Structure of human low-density lipoprotein subfractions determined by
-  {{X}}-ray small-angle scattering. {\em Biochimica et Biophysica Acta
-  (BBA)-Protein Structure and Molecular Enzymology\/} {\bf 1037}, 48--57.
+  {{X}}-ray small-angle scattering. {\em BBA-Protein Struct M\/} {\bf 1037},
+  48--57.
 
 \bibitem[Beija {\em et~al.\/}(2012)Beija, Salvayre, Lauth-de Viguerie \&
   Marty]{beija_colloidal_2012}
@@ -112,18 +94,18 @@
 \bibitem[Bell {\em et~al.\/}(2012)Bell, Minelli, Tompkins, Stevens \&
   Shard]{bell_emerging_2012}
 {\sc Bell, N.~C., Minelli, C., Tompkins, J., Stevens, M.~M. \& Shard, A.~G.}
-  2012 Emerging {{Techniques}} for {{Submicrometer Particle Sizing Applied}} to
-  {{St{\"o}ber Silica}}. {\em Langmuir\/} {\bf 28}, 10860--10872.
+  2012 Emerging techniques for submicrometer particle sizing applied to
+  {{St{\"o}ber}} silica. {\em Langmuir\/} {\bf 28}, 10860--10872.
 
 \bibitem[Berberan-Santos {\em et~al.\/}(1997)Berberan-Santos, Bodunov \&
   Pogliani]{berberan-santos_barometric_1997}
 {\sc Berberan-Santos, M.~N., Bodunov, E.~N. \& Pogliani, L.} 1997 On the
-  barometric formula. {\em Am. J. Phys.\/} {\bf 65}, 404--412.
+  barometric formula. {\em Am J Phys\/} {\bf 65}, 404--412.
 
 \bibitem[van Beurten \& Vrij(1981)]{beurten_polydispersity_1981}
 {\sc van Beurten, P. \& Vrij, A.} 1981 Polydispersity effects in the
-  small-angle scattering of concentrated solutions of colloidal spheres. {\em
-  J. Chem. Phys.\/} {\bf 74}, 2744--2748.
+  small-angle scattering of concentrated solutions of colloidal spheres. {\em J
+  Chem Phys\/} {\bf 74}, 2744--2748.
 
 \bibitem[Beyer {\em et~al.\/}(1990)Beyer, Lebek, Hergeth \&
   Schmutzler]{beyer_saxs_1990}
@@ -137,27 +119,26 @@
   Lou{\"e}r, D., G{\"o}bel, H.~E., Will, G., Gilles, R. \& Raftery, T.} 1995
   {{JCPDS}}\textemdash{}{{International Centre}} for {{Diffraction Data}} round
   robin study of silver behenate. {{A}} possible low-angle {{X}}-ray
-  diffraction calibration standard. {\em Powder Diffraction\/} {\bf 10},
-  91--95.
+  diffraction calibration standard. {\em Powder Diffr\/} {\bf 10}, 91--95.
 
 \bibitem[Blumenthal \& Gould(1970)]{blumenthal_bremsstrahlung_1970}
-{\sc Blumenthal, G.~R. \& Gould, R.~J.} 1970 Bremsstrahlung, {{Synchrotron
-  Radiation}}, and {{Compton Scattering}} of {{High}}-{{Energy Electrons
-  Traversing Dilute Gases}}. {\em Rev. Mod. Phys.\/} {\bf 42}, 237--270.
+{\sc Blumenthal, G.~R. \& Gould, R.~J.} 1970 Bremsstrahlung, synchrotron
+  radiation, and {{Compton}} scattering of high-energy electrons traversing
+  dilute gases. {\em Rev Mod Phys\/} {\bf 42}, 237--270.
 
 \bibitem[Bolze {\em et~al.\/}(2003)Bolze, Ballauff, Kijlstra \&
   Rudhardt]{bolze_application_2003}
 {\sc Bolze, J., Ballauff, M., Kijlstra, J. \& Rudhardt, D.} 2003 Application of
-  {{Small}}-{{Angle X}}-{{Ray Scattering}} as a {{Tool}} for the {{Structural
-  Analysis}} of {{Industrial Polymer Dispersions}}. {\em Macromol. Mater.
-  Eng.\/} {\bf 288}, 495--502.
+  small-angle {{X}}-ray scattering as a tool for the structural analysis of
+  industrial polymer dispersions. {\em Macromol Mater Eng\/} {\bf 288},
+  495--502.
 
 \bibitem[Bolze {\em et~al.\/}(2004)Bolze, Ballauff, Rische, Rudhardt \&
   Meixner]{bolze_situ_2004}
 {\sc Bolze, J., Ballauff, M., Rische, T., Rudhardt, D. \& Meixner, J.} 2004 In
-  situ {{Structural Characterization}} of {{Semi}}-{{Crystalline Polymer Latex
-  Particles}} by {{Small}}-{{Angle X}}-{{Ray Scattering}}. {\em Macromol Chem
-  Phys\/} {\bf 205}, 165--172.
+  situ structural characterization of semi-crystalline polymer latex particles
+  by small-angle {{X}}-ray scattering. {\em Macromol Chem Phys\/} {\bf 205},
+  165--172.
 
 \bibitem[Bolze {\em et~al.\/}(1997)Bolze, H{\"o}rner \&
   Ballauff]{bolze_small-angle_1997}
@@ -169,12 +150,11 @@
   Talsma]{bouwstra_small_1993}
 {\sc Bouwstra, J.~A., Gooris, G.~S., Bras, W. \& Talsma, H.} 1993 Small angle
   {{X}}-ray scattering: Possibilities and limitations in characterization of
-  vesicles. {\em Chemistry and physics of lipids\/} {\bf 64}, 83--98.
+  vesicles. {\em Chem Phys Lipids\/} {\bf 64}, 83--98.
 
 \bibitem[Brzustowicz \& Brunger(2005)]{brzustowicz_x-ray_2005}
 {\sc Brzustowicz, M.~R. \& Brunger, A.~T.} 2005 X-ray scattering from
-  unilamellar lipid vesicles. {\em Journal of applied crystallography\/} {\bf
-  38}, 126--131.
+  unilamellar lipid vesicles. {\em J Appl Crystallogr\/} {\bf 38}, 126--131.
 
 \bibitem[Cabral \& Kataoka(2014)]{cabral_progress_2014}
 {\sc Cabral, H. \& Kataoka, K.} 2014 Progress of drug-loaded polymeric micelles
@@ -191,8 +171,8 @@
   DeSimone]{canelas_top-down_2009}
 {\sc Canelas, D.~A., Herlihy, K.~P. \& DeSimone, J.~M.} 2009 Top-down particle
   fabrication: Control of size and shape for diagnostic imaging and drug
-  delivery. {\em Wiley Interdisciplinary Reviews: Nanomedicine and
-  Nanobiotechnology\/} {\bf 1}, 391--404.
+  delivery. {\em Wiley Interdiscip Rev Nanomed Nanobiotechnol\/} {\bf 1},
+  391--404.
 
 \bibitem[Carney {\em et~al.\/}(2011)Carney, Kim, Qian, Jin, Mehenni, Stellacci
   \& Bakr]{carney_determination_2011}
@@ -211,20 +191,19 @@
   Holt \& Salditt]{castorph_structure_2010}
 {\sc Castorph, S., Riedel, D., Arleth, L., Sztucki, M., Jahn, R., Holt, M. \&
   Salditt, T.} 2010 Structure parameters of synaptic vesicles quantified by
-  small-angle x-ray scattering. {\em Biophysical journal\/} {\bf 98},
-  1200--1208.
+  small-angle x-ray scattering. {\em Biophys J\/} {\bf 98}, 1200--1208.
 
 \bibitem[Cedervall {\em et~al.\/}(2007)Cedervall, Lynch, Lindman, Bergg\aa{}rd,
   Thulin, Nilsson, Dawson \& Linse]{cedervall_understanding_2007}
 {\sc Cedervall, T., Lynch, I., Lindman, S., Bergg\aa{}rd, T., Thulin, E.,
   Nilsson, H., Dawson, K.~A. \& Linse, S.} 2007 Understanding the
   nanoparticle\textendash{}protein corona using methods to quantify exchange
-  rates and affinities of proteins for nanoparticles. {\em Proc Natl Acad Sci U
-  S A\/} {\bf 104}, 2050--2055.
+  rates and affinities of proteins for nanoparticles. {\em PNAS\/} {\bf 104},
+  2050--2055.
 
 \bibitem[Chu \& Hsiao(2001)]{chu_small-angle_2001}
 {\sc Chu, B. \& Hsiao, B.~S.} 2001 Small-angle {{X}}-ray scattering of
-  polymers. {\em Chemical Reviews\/} {\bf 101}, 1727--1762.
+  polymers. {\em Chem Rev\/} {\bf 101}, 1727--1762.
 
 \bibitem[Colhoun {\em et~al.\/}(2002)Colhoun, Otvos, Rubens, Taskinen,
   Underwood \& Fuller]{colhoun_lipoprotein_2002}
@@ -236,11 +215,11 @@
 \bibitem[Coombs(1981)]{coombs_density-gradient_1981}
 {\sc Coombs, S.~H.} 1981 A density-gradient column for determining the specific
   gravity of fish eggs, with particular reference to eggs of the mackerel
-  {{Scomber}} scombrus. {\em Mar. Biol.\/} {\bf 63}, 101--106.
+  {{Scomber}} scombrus. {\em Mar Biol\/} {\bf 63}, 101--106.
 
 \bibitem[Couprie \& Filhol(2008)]{couprie_x_2008}
 {\sc Couprie, M.-E. \& Filhol, J.-M.} 2008 X radiation sources based on
-  accelerators. {\em Comptes Rendus Physique\/} {\bf 9}, 487--506.
+  accelerators. {\em C R Physique\/} {\bf 9}, 487--506.
 
 \bibitem[Cowley(1995)]{cowley_diffraction_1995}
 {\sc Cowley, J.~M.} 1995 {\em Diffraction {{Physics}}\/}. {Elsevier}.
