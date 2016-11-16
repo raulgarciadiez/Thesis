@@ -82,4 +82,3 @@
 \contentsline {chapter}{\numberline {7}Summary}{83}{chapter.7}
 \contentsline {chapter}{Bibliography}{87}{chapter*.76}
 \select@language {ngerman}
-\select@language {ngerman}
