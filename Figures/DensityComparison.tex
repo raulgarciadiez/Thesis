@@ -71,17 +71,24 @@
       \expandafter\def\csname LT8\endcsname{\color{black}}%
     \fi
   \fi
-  \setlength{\unitlength}{0.0500bp}%
-  \begin{picture}(5668.00,4534.00)%
+    \setlength{\unitlength}{0.0500bp}%
+    \ifx\gptboxheight\undefined%
+      \newlength{\gptboxheight}%
+      \newlength{\gptboxwidth}%
+      \newsavebox{\gptboxtext}%
+    \fi%
+    \setlength{\fboxrule}{0.5pt}%
+    \setlength{\fboxsep}{1pt}%
+\begin{picture}(5668.00,4534.00)%
     \gplgaddtomacro\gplbacktext{%
       \csname LTb\endcsname%
-      \put(548,1409){\makebox(0,0)[r]{\strut{} 1.04}}%
+      \put(548,1409){\makebox(0,0)[r]{\strut{}$1.04$}}%
       \csname LTb\endcsname%
-      \put(548,1779){\makebox(0,0)[r]{\strut{} 1.05}}%
+      \put(548,1779){\makebox(0,0)[r]{\strut{}$1.05$}}%
       \csname LTb\endcsname%
-      \put(548,2150){\makebox(0,0)[r]{\strut{} 1.06}}%
+      \put(548,2150){\makebox(0,0)[r]{\strut{}$1.06$}}%
       \csname LTb\endcsname%
-      \put(548,2520){\makebox(0,0)[r]{\strut{} 1.07}}%
+      \put(548,2520){\makebox(0,0)[r]{\strut{}$1.07$}}%
       \csname LTb\endcsname%
       \put(868,1092){\rotatebox{-45}{\makebox(0,0)[l]{\strut{}Normal Disc}}}%
       \csname LTb\endcsname%
@@ -98,21 +105,38 @@
       \put(4631,1092){\rotatebox{-45}{\makebox(0,0)[l]{\strut{}DCS}}}%
       \csname LTb\endcsname%
       \put(5101,1092){\rotatebox{-45}{\makebox(0,0)[l]{\strut{}SAXS}}}%
-      \put(-222,2680){\rotatebox{-270}{\makebox(0,0){\strut{}Density / g cm$^{-3}$}}}%
     }%
     \gplgaddtomacro\gplfronttext{%
+      \csname LTb\endcsname%
+      \put(-90,2680){\rotatebox{-270}{\makebox(0,0){\strut{}Density / g cm$^{-3}$}}}%
+      \csname LTb\endcsname%
+      \put(868,1705){\makebox(0,0){\strut{}5}}%
+      \csname LTb\endcsname%
+      \put(1338,1853){\makebox(0,0){\strut{}5}}%
+      \csname LTb\endcsname%
+      \put(1809,2224){\makebox(0,0){\strut{}5}}%
+      \csname LTb\endcsname%
+      \put(2279,1520){\makebox(0,0){\strut{}5}}%
+      \csname LTb\endcsname%
+      \put(3220,2446){\makebox(0,0){\strut{}7}}%
+      \csname LTb\endcsname%
+      \put(3690,2446){\makebox(0,0){\strut{}7}}%
     }%
     \gplgaddtomacro\gplbacktext{%
       \csname LTb\endcsname%
-      \put(548,3349){\makebox(0,0)[r]{\strut{} 1.17}}%
+      \put(548,3349){\makebox(0,0)[r]{\strut{}$1.17$}}%
       \csname LTb\endcsname%
-      \put(548,3846){\makebox(0,0)[r]{\strut{} 1.18}}%
+      \put(548,3846){\makebox(0,0)[r]{\strut{}$1.18$}}%
       \colorrgb{0.00,0.00,1.00}%
       \put(1235,2952){\makebox(0,0)[l]{\strut{}\smaller PS-Plain}}%
       \put(3032,3051){\makebox(0,0)[l]{\strut{}\smaller PS-COOH}}%
       \put(4066,4243){\makebox(0,0)[l]{\strut{}\smaller PMMA-COOH}}%
     }%
     \gplgaddtomacro\gplfronttext{%
+      \csname LTb\endcsname%
+      \put(4631,3498){\makebox(0,0){\strut{}1}}%
+      \csname LTb\endcsname%
+      \put(5101,3498){\makebox(0,0){\strut{}1}}%
     }%
     \gplbacktext
     \put(0,0){\includegraphics{DensityComparison}}%

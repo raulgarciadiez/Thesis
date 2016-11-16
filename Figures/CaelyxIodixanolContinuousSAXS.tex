@@ -71,40 +71,48 @@
       \expandafter\def\csname LT8\endcsname{\color{black}}%
     \fi
   \fi
-  \setlength{\unitlength}{0.0500bp}%
-  \begin{picture}(5668.00,4534.00)%
+    \setlength{\unitlength}{0.0500bp}%
+    \ifx\gptboxheight\undefined%
+      \newlength{\gptboxheight}%
+      \newlength{\gptboxwidth}%
+      \newsavebox{\gptboxtext}%
+    \fi%
+    \setlength{\fboxrule}{0.5pt}%
+    \setlength{\fboxsep}{1pt}%
+\begin{picture}(5668.00,4534.00)%
     \gplgaddtomacro\gplbacktext{%
       \csname LTb\endcsname%
-      \put(946,1234){\makebox(0,0)[r]{\strut{} 0.01}}%
+      \put(814,1234){\makebox(0,0)[r]{\strut{}$0.01$}}%
       \csname LTb\endcsname%
-      \put(946,1993){\makebox(0,0)[r]{\strut{} 0.1}}%
+      \put(814,1993){\makebox(0,0)[r]{\strut{}$0.1$}}%
       \csname LTb\endcsname%
-      \put(946,2752){\makebox(0,0)[r]{\strut{} 1}}%
+      \put(814,2752){\makebox(0,0)[r]{\strut{}$1$}}%
       \csname LTb\endcsname%
-      \put(946,3510){\makebox(0,0)[r]{\strut{} 10}}%
+      \put(814,3510){\makebox(0,0)[r]{\strut{}$10$}}%
       \csname LTb\endcsname%
-      \put(946,4269){\makebox(0,0)[r]{\strut{} 100}}%
+      \put(814,4269){\makebox(0,0)[r]{\strut{}$100$}}%
       \csname LTb\endcsname%
-      \put(1568,484){\makebox(0,0){\strut{} 0.05}}%
+      \put(1453,484){\makebox(0,0){\strut{}$0.05$}}%
       \csname LTb\endcsname%
-      \put(2233,484){\makebox(0,0){\strut{} 0.1}}%
+      \put(2142,484){\makebox(0,0){\strut{}$0.1$}}%
       \csname LTb\endcsname%
-      \put(2898,484){\makebox(0,0){\strut{} 0.2}}%
+      \put(2830,484){\makebox(0,0){\strut{}$0.2$}}%
       \csname LTb\endcsname%
-      \put(3777,484){\makebox(0,0){\strut{} 0.5}}%
+      \put(3741,484){\makebox(0,0){\strut{}$0.5$}}%
       \csname LTb\endcsname%
-      \put(4442,484){\makebox(0,0){\strut{} 1}}%
-      \put(176,2266){\rotatebox{-270}{\makebox(0,0){\strut{}Scattering Intensity / cm$^{-1}$}}}%
-      \put(2760,154){\makebox(0,0){\strut{}$q$ / nm$^{-1}$}}%
+      \put(4429,484){\makebox(0,0){\strut{}$1$}}%
     }%
     \gplgaddtomacro\gplfronttext{%
       \csname LTb\endcsname%
-      \put(4695,1149){\makebox(0,0)[l]{\strut{}\smaller 345}}%
-      \put(4695,1892){\makebox(0,0)[l]{\strut{}\smaller 350}}%
-      \put(4695,2635){\makebox(0,0)[l]{\strut{}\smaller 355}}%
-      \put(4695,3377){\makebox(0,0)[l]{\strut{}\smaller 360}}%
-      \put(4695,4120){\makebox(0,0)[l]{\strut{}\smaller 365}}%
-      \put(5355,2486){\rotatebox{-90}{\makebox(0,0){\strut{}\smaller Solvent Electron Density / nm$^{-3}$}}}%
+      \put(176,2266){\rotatebox{-270}{\makebox(0,0){\strut{}Scattering Intensity / cm$^{-1}$}}}%
+      \put(2687,154){\makebox(0,0){\strut{}$q$ / nm$^{-1}$}}%
+      \csname LTb\endcsname%
+      \put(4691,1149){\makebox(0,0)[l]{\strut{}\smaller 345}}%
+      \put(4691,1892){\makebox(0,0)[l]{\strut{}\smaller 350}}%
+      \put(4691,2635){\makebox(0,0)[l]{\strut{}\smaller 355}}%
+      \put(4691,3377){\makebox(0,0)[l]{\strut{}\smaller 360}}%
+      \put(4691,4120){\makebox(0,0)[l]{\strut{}\smaller 365}}%
+      \put(5351,2486){\rotatebox{-90}{\makebox(0,0){\strut{}\smaller Solvent Electron Density / nm$^{-3}$}}}%
     }%
     \gplbacktext
     \put(0,0){\includegraphics{CaelyxIodixanolContinuousSAXS}}%

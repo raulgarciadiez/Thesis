@@ -71,19 +71,26 @@
       \expandafter\def\csname LT8\endcsname{\color{black}}%
     \fi
   \fi
-  \setlength{\unitlength}{0.0500bp}%
-  \begin{picture}(5668.00,4534.00)%
+    \setlength{\unitlength}{0.0500bp}%
+    \ifx\gptboxheight\undefined%
+      \newlength{\gptboxheight}%
+      \newlength{\gptboxwidth}%
+      \newsavebox{\gptboxtext}%
+    \fi%
+    \setlength{\fboxrule}{0.5pt}%
+    \setlength{\fboxsep}{1pt}%
+\begin{picture}(5668.00,4534.00)%
     \gplgaddtomacro\gplbacktext{%
       \csname LTb\endcsname%
-      \put(264,2622){\makebox(0,0)[r]{\strut{} 300}}%
+      \put(264,2622){\makebox(0,0)[r]{\strut{}$300$}}%
       \csname LTb\endcsname%
-      \put(264,3067){\makebox(0,0)[r]{\strut{} 400}}%
+      \put(264,3067){\makebox(0,0)[r]{\strut{}$400$}}%
       \csname LTb\endcsname%
-      \put(264,3511){\makebox(0,0)[r]{\strut{} 500}}%
+      \put(264,3511){\makebox(0,0)[r]{\strut{}$500$}}%
       \csname LTb\endcsname%
-      \put(264,3955){\makebox(0,0)[r]{\strut{} 600}}%
+      \put(264,3955){\makebox(0,0)[r]{\strut{}$600$}}%
       \csname LTb\endcsname%
-      \put(264,4399){\makebox(0,0)[r]{\strut{} 700}}%
+      \put(264,4399){\makebox(0,0)[r]{\strut{}$700$}}%
       \csname LTb\endcsname%
       \put(618,2047){\makebox(0,0){\strut{}}}%
       \csname LTb\endcsname%
@@ -94,9 +101,10 @@
       \put(3941,2047){\makebox(0,0){\strut{}}}%
       \csname LTb\endcsname%
       \put(5049,2047){\makebox(0,0){\strut{}}}%
-      \put(-374,3509){\rotatebox{-270}{\makebox(0,0){\strut{}Radius size / pixel}}}%
     }%
     \gplgaddtomacro\gplfronttext{%
+      \csname LTb\endcsname%
+      \put(-242,3509){\rotatebox{-270}{\makebox(0,0){\strut{}Radius size / pixel}}}%
       \csname LTb\endcsname%
       \put(1314,4234){\makebox(0,0)[r]{\strut{}AgBehe}}%
       \csname LTb\endcsname%
@@ -104,15 +112,15 @@
     }%
     \gplgaddtomacro\gplbacktext{%
       \csname LTb\endcsname%
-      \put(264,721){\makebox(0,0)[r]{\strut{}-3}}%
+      \put(264,721){\makebox(0,0)[r]{\strut{}$-3$}}%
       \csname LTb\endcsname%
-      \put(264,1036){\makebox(0,0)[r]{\strut{}-2}}%
+      \put(264,1036){\makebox(0,0)[r]{\strut{}$-2$}}%
       \csname LTb\endcsname%
-      \put(264,1352){\makebox(0,0)[r]{\strut{}-1}}%
+      \put(264,1352){\makebox(0,0)[r]{\strut{}$-1$}}%
       \csname LTb\endcsname%
-      \put(264,1667){\makebox(0,0)[r]{\strut{} 0}}%
+      \put(264,1667){\makebox(0,0)[r]{\strut{}$0$}}%
       \csname LTb\endcsname%
-      \put(264,1983){\makebox(0,0)[r]{\strut{} 1}}%
+      \put(264,1983){\makebox(0,0)[r]{\strut{}$1$}}%
       \csname LTb\endcsname%
       \put(618,343){\makebox(0,0){\strut{}2500}}%
       \csname LTb\endcsname%
@@ -123,10 +131,11 @@
       \put(3941,343){\makebox(0,0){\strut{}4000}}%
       \csname LTb\endcsname%
       \put(5049,343){\makebox(0,0){\strut{}4500}}%
-      \put(-209,1305){\rotatebox{-270}{\makebox(0,0){\strut{}Residuals / pixel}}}%
-      \put(2833,46){\makebox(0,0){\strut{}Measured distance / mm}}%
     }%
     \gplgaddtomacro\gplfronttext{%
+      \csname LTb\endcsname%
+      \put(-209,1305){\rotatebox{-270}{\makebox(0,0){\strut{}Residuals / pixel}}}%
+      \put(2833,46){\makebox(0,0){\strut{}Measured distance / mm}}%
     }%
     \gplbacktext
     \put(0,0){\includegraphics{DistanceCalibrationSAXS}}%

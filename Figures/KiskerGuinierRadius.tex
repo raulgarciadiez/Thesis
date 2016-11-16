@@ -71,45 +71,53 @@
       \expandafter\def\csname LT8\endcsname{\color{black}}%
     \fi
   \fi
-  \setlength{\unitlength}{0.0500bp}%
-  \begin{picture}(5668.00,4534.00)%
+    \setlength{\unitlength}{0.0500bp}%
+    \ifx\gptboxheight\undefined%
+      \newlength{\gptboxheight}%
+      \newlength{\gptboxwidth}%
+      \newsavebox{\gptboxtext}%
+    \fi%
+    \setlength{\fboxrule}{0.5pt}%
+    \setlength{\fboxsep}{1pt}%
+\begin{picture}(5668.00,4534.00)%
     \gplgaddtomacro\gplbacktext{%
       \csname LTb\endcsname%
-      \put(1078,704){\makebox(0,0)[r]{\strut{} 500}}%
+      \put(946,704){\makebox(0,0)[r]{\strut{}$500$}}%
       \csname LTb\endcsname%
-      \put(1078,1341){\makebox(0,0)[r]{\strut{} 1000}}%
+      \put(946,1341){\makebox(0,0)[r]{\strut{}$1000$}}%
       \csname LTb\endcsname%
-      \put(1078,1977){\makebox(0,0)[r]{\strut{} 1500}}%
+      \put(946,1977){\makebox(0,0)[r]{\strut{}$1500$}}%
       \csname LTb\endcsname%
-      \put(1078,2614){\makebox(0,0)[r]{\strut{} 2000}}%
+      \put(946,2614){\makebox(0,0)[r]{\strut{}$2000$}}%
       \csname LTb\endcsname%
-      \put(1078,3250){\makebox(0,0)[r]{\strut{} 2500}}%
+      \put(946,3250){\makebox(0,0)[r]{\strut{}$2500$}}%
       \csname LTb\endcsname%
-      \put(1078,3887){\makebox(0,0)[r]{\strut{} 3000}}%
+      \put(946,3887){\makebox(0,0)[r]{\strut{}$3000$}}%
       \csname LTb\endcsname%
-      \put(1210,484){\makebox(0,0){\strut{} 330}}%
+      \put(1078,484){\makebox(0,0){\strut{}$330$}}%
       \csname LTb\endcsname%
-      \put(1718,484){\makebox(0,0){\strut{} 335}}%
+      \put(1602,484){\makebox(0,0){\strut{}$335$}}%
       \csname LTb\endcsname%
-      \put(2225,484){\makebox(0,0){\strut{} 340}}%
+      \put(2126,484){\makebox(0,0){\strut{}$340$}}%
       \csname LTb\endcsname%
-      \put(2733,484){\makebox(0,0){\strut{} 345}}%
+      \put(2650,484){\makebox(0,0){\strut{}$345$}}%
       \csname LTb\endcsname%
-      \put(3241,484){\makebox(0,0){\strut{} 350}}%
+      \put(3175,484){\makebox(0,0){\strut{}$350$}}%
       \csname LTb\endcsname%
-      \put(3748,484){\makebox(0,0){\strut{} 355}}%
+      \put(3699,484){\makebox(0,0){\strut{}$355$}}%
       \csname LTb\endcsname%
-      \put(4256,484){\makebox(0,0){\strut{} 360}}%
+      \put(4223,484){\makebox(0,0){\strut{}$360$}}%
       \csname LTb\endcsname%
-      \put(4763,484){\makebox(0,0){\strut{} 365}}%
+      \put(4747,484){\makebox(0,0){\strut{}$365$}}%
       \csname LTb\endcsname%
-      \put(5271,484){\makebox(0,0){\strut{} 370}}%
-      \put(176,2486){\rotatebox{-270}{\makebox(0,0){\strut{}$R_g^2$ / nm$^2$}}}%
-      \put(3240,154){\makebox(0,0){\strut{}Solvent electron density / nm$^{-3}$}}%
-      \put(2733,3887){\makebox(0,0)[l]{\strut{}$\rho_0$}}%
-      \put(4763,2232){\makebox(0,0)[l]{\strut{}$\tilde R^2_{g,c}$}}%
+      \put(5271,484){\makebox(0,0){\strut{}$370$}}%
+      \put(2650,3887){\makebox(0,0)[l]{\strut{}$\rho_0$}}%
+      \put(4747,2232){\makebox(0,0)[l]{\strut{}$\tilde R^2_{g,c}$}}%
     }%
     \gplgaddtomacro\gplfronttext{%
+      \csname LTb\endcsname%
+      \put(176,2486){\rotatebox{-270}{\makebox(0,0){\strut{}$R_g^2$ / nm$^2$}}}%
+      \put(3174,154){\makebox(0,0){\strut{}Solvent electron density / nm$^{-3}$}}%
     }%
     \gplbacktext
     \put(0,0){\includegraphics{KiskerGuinierRadius}}%
