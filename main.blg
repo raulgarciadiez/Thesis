@@ -14,54 +14,51 @@ A level-1 auxiliary file: tub-eidesstattliche.aux
 A level-1 auxiliary file: tub-publist.aux
 Database file #1: thesis.bib
 Warning--entry type for "fitzpatrick_structure_1998" isn't style-file defined
---line 2410 of file thesis.bib
-Warning--I didn't find a database entry for "barenholz_doxil_2012"
+--line 2399 of file thesis.bib
 `number' is a missing field, not a string, for entry dingenouts_analysis_1999
 while executing---line 3135 of file meinbst.bst
 Warning--can't use both author and editor fields in feigin_structure_1987
-Warning--empty publisher in kramers_diffusion_1927
 `number' is a missing field, not a string, for entry stuhrmann_resonance_1985
 while executing---line 3135 of file meinbst.bst
-Warning--empty booktitle in wu_particle_2014
-You've used 206 entries,
+You've used 208 entries,
             2851 wiz_defined-function locations,
-            1779 strings with 49269 characters,
-and the built_in function-call counts, 113245 in all, are:
-= -- 10760
-> -- 6483
-< -- 92
-+ -- 2521
-- -- 2274
-* -- 10884
-:= -- 20458
-add.period$ -- 414
-call.type$ -- 206
-change.case$ -- 1791
-chr.to.int$ -- 213
+            1771 strings with 47357 characters,
+and the built_in function-call counts, 114385 in all, are:
+= -- 10902
+> -- 6495
+< -- 96
++ -- 2527
+- -- 2277
+* -- 11012
+:= -- 20627
+add.period$ -- 422
+call.type$ -- 208
+change.case$ -- 1807
+chr.to.int$ -- 223
 cite$ -- 209
-duplicate$ -- 4501
-empty$ -- 7542
-format.name$ -- 2564
-if$ -- 21943
-int.to.chr$ -- 6
+duplicate$ -- 4542
+empty$ -- 7653
+format.name$ -- 2571
+if$ -- 22185
+int.to.chr$ -- 7
 int.to.str$ -- 1
-missing$ -- 214
-newline$ -- 622
-num.names$ -- 828
-pop$ -- 1442
+missing$ -- 216
+newline$ -- 628
+num.names$ -- 832
+pop$ -- 1445
 preamble$ -- 1
-purify$ -- 1581
+purify$ -- 1591
 quote$ -- 0
-skip$ -- 2616
+skip$ -- 2622
 stack$ -- 0
-substring$ -- 6961
-swap$ -- 1028
-text.length$ -- 9
+substring$ -- 7100
+swap$ -- 1040
+text.length$ -- 8
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 1824
-warning$ -- 3
-while$ -- 992
+type$ -- 1839
+warning$ -- 1
+while$ -- 1006
 width$ -- 0
-write$ -- 2262
+write$ -- 2292
 (There were 2 error messages)
