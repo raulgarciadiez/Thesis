@@ -1,0 +1,74 @@
+%% Creator: Inkscape inkscape 0.48.5, www.inkscape.org
+%% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
+%% Accompanies image file 'SizeRange.pdf' (pdf, eps, ps)
+%%
+%% To include the image in your LaTeX document, write
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics{<filename>.pdf}
+%% To scale the image, write
+%%   \def\svgwidth{<desired width>}
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics[width=<desired width>]{<filename>.pdf}
+%%
+%% Images with a different path to the parent latex file can
+%% be accessed with the `import' package (which may need to be
+%% installed) using
+%%   \usepackage{import}
+%% in the preamble, and then including the image with
+%%   \import{<path to file>}{<filename>.pdf_tex}
+%% Alternatively, one can specify
+%%   \graphicspath{{<path to file>/}}
+%% 
+%% For more information, please see info/svg-inkscape on CTAN:
+%%   http://tug.ctan.org/tex-archive/info/svg-inkscape
+%%
+\begingroup%
+  \makeatletter%
+  \providecommand\color[2][]{%
+    \errmessage{(Inkscape) Color is used for the text in Inkscape, but the package 'color.sty' is not loaded}%
+    \renewcommand\color[2][]{}%
+  }%
+  \providecommand\transparent[1]{%
+    \errmessage{(Inkscape) Transparency is used (non-zero) for the text in Inkscape, but the package 'transparent.sty' is not loaded}%
+    \renewcommand\transparent[1]{}%
+  }%
+  \providecommand\rotatebox[2]{#2}%
+  \ifx\svgwidth\undefined%
+    \setlength{\unitlength}{350.10400391bp}%
+    \ifx\svgscale\undefined%
+      \relax%
+    \else%
+      \setlength{\unitlength}{\unitlength * \real{\svgscale}}%
+    \fi%
+  \else%
+    \setlength{\unitlength}{\svgwidth}%
+  \fi%
+  \global\let\svgwidth\undefined%
+  \global\let\svgscale\undefined%
+  \makeatother%
+  \begin{picture}(1,0.722233)%
+    \put(0,0){\includegraphics[width=\unitlength]{SizeRange.pdf}}%
+    \put(0.26459471,0.17457581){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{1 nm}}}%
+    \put(0.39166964,0.17457581){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{10 nm}}}%
+    \put(0.51635479,0.17457581){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{100 nm}}}%
+    \put(0.6389026,0.17457581){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{1 $\mu$m}}}%
+    \put(0.77054596,0.17457581){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{10 $\mu$m}}}%
+    \put(0.90437251,0.17457581){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{100 $\mu$m}}}%
+    \put(0.14146915,0.17247325){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{1 {\AA}}}}%
+    \put(0.42995137,0.30667715){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{SAXS}}}%
+    \put(0.55671615,0.24955127){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{DLS}}}%
+    \put(0.68454891,0.36340572){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{PTA}}}%
+    \put(0.45474851,0.47785614){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{AFM}}}%
+    \put(0.68610799,0.42092891){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{DCS}}}%
+    \put(0.52505721,0.53518068){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{TSEM}}}%
+    \put(0.60321549,0.64923379){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{TXM}}}%
+    \put(0.30741327,0.02589309){\color[rgb]{0,0.4,1}\rotatebox{-0.01082331}{\makebox(0,0)[b]{\smash{Proteins}}}}%
+    \put(0.50221917,0.02612521){\color[rgb]{0,0.4,1}\rotatebox{0.53858425}{\makebox(0,0)[b]{\smash{Nanoparticles}}}}%
+    \put(0.70759147,0.02496752){\color[rgb]{0,0.4,1}\rotatebox{-0.28213587}{\makebox(0,0)[b]{\smash{Cells}}}}%
+    \put(0.86844512,0.02562834){\color[rgb]{0,0.4,1}\rotatebox{0.13806119}{\makebox(0,0)[b]{\smash{Hair}}}}%
+    \put(0.1038694,0.02793635){\color[rgb]{0,0.4,1}\rotatebox{-0.23922261}{\makebox(0,0)[b]{\smash{Crystal lattice}}}}%
+    \put(0.41061682,0.5921079){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{TEM}}}%
+  \end{picture}%
+\endgroup%
