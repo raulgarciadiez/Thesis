@@ -22,7 +22,7 @@ Warning--can't use both author and editor fields in feigin_structure_1987
 while executing---line 3135 of file meinbst.bst
 You've used 208 entries,
             2851 wiz_defined-function locations,
-            1771 strings with 47357 characters,
+            1771 strings with 47365 characters,
 and the built_in function-call counts, 114385 in all, are:
 = -- 10902
 > -- 6495
