@@ -51,12 +51,12 @@
   \begin{picture}(1,0.74788611)%
     \put(0,0){\includegraphics[width=\unitlength]{DensityGradientCapillarySetup.pdf}}%
     \put(0.92341737,0.48376534){\color[rgb]{0.16470588,0.28235294,0.79215686}\rotatebox{4.47569075}{\makebox(0,0)[lb]{\smash{\textcolor{blue}{\emph{q}}}}}}%
-    \put(0.60795731,0.1098453){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{\textcolor{blue}{Sample Motor}}}}%
-    \put(0.04499884,0.36034967){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{\shortstack{X-ray\\beam}}}}%
+    \put(0.60795731,0.09037368){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{\textcolor{blue}{Sample Motor}}}}%
+    \put(0.04499884,0.35385913){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{\shortstack{X-ray\\beam}}}}%
     \put(0.65895285,0.32247644){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{\emph{x}}}}%
     \put(0.57278325,0.63808983){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{\emph{y}}}}%
-    \put(0.11675904,0.55959922){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{\shortstack{Density gradient\\capillary}}}}%
+    \put(0.10377796,0.52714652){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{\shortstack{Density gradient\\capillary}}}}%
     \put(0.66757389,0.40826435){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{2$\Theta$}}}%
-    \put(0.68959573,0.18335114){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Galden}}}%
+    \put(0.68959573,0.1768606){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Galden}}}%
   \end{picture}%
 \endgroup%

@@ -12,7 +12,7 @@ M10000=1.281
 m10000=1.229
 
 set xlabel 'Vertical Position / mm'
-set ylabel 'Sucrose Mass Fraction / $\%$'
+set ylabel 'Sucrose Mass Fraction / $\%$' offset 1
 
 set yrange [-5:70]
 set xrange [0:19]

@@ -2,7 +2,7 @@ set log
 set grid
 
 set xlabel '$q$ / nm$^{-1}$'
-set ylabel 'Rel. Std. Deviation' offset 0
+set ylabel 'Rel. Std. Deviation' offset 1
 
 set xrange [0.3:1.5]
 set yrange [6e-2:1.]

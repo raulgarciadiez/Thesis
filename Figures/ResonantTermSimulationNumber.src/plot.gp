@@ -1,6 +1,6 @@
 set grid
 set xlabel 'Number of scattering curves'
-set ylabel 'Diameter / nm'
+set ylabel 'Diameter / nm' offset 1.5
 set autoscale
 #set xrange [0.025:0.4]
 set yrange [139.5:150.5]

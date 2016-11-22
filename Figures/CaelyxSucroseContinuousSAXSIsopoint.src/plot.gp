@@ -1,7 +1,7 @@
 set grid
 
 set xlabel 'Solvent Osmolality / mOsm kg$^{-1}$'
-set ylabel 'Intensity at $q=0.123$ nm$^{-1}$ / cm$^{-1}$'
+set ylabel 'Intensity at $q=0.123$ nm$^{-1}$ / cm$^{-1}$' offset 1
 
 N=1.05e14*0.3
 

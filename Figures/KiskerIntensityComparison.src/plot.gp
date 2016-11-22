@@ -1,5 +1,5 @@
 set xlabel 'Solvent electron density / nm$^{-3}$'
-set ylabel 'Deviation from $I(0)$ / $\%$
+set ylabel 'Deviation from $I(0)$ / $\%$' offset 1.5
 
 set xrange [333:361.5]
 set yrange [-44:62]

@@ -28,7 +28,7 @@
      inkscape:pageshadow="2"
      inkscape:zoom="1.979899"
      inkscape:cx="348.71907"
-     inkscape:cy="83.001675"
+     inkscape:cy="83.254213"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -898,12 +898,12 @@
     <text
        sodipodi:linespacing="100%"
        id="text6961"
-       y="784.44061"
+       y="790.44061"
        x="-841.40466"
        style="font-size:27.27373886px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:URW Palladio L;-inkscape-font-specification:URW Palladio L Medium"
        xml:space="preserve"><tspan
          style="font-size:14px;text-align:start;text-anchor:start;fill:#0000ff"
-         y="784.44061"
+         y="790.44061"
          x="-841.40466"
          sodipodi:role="line"
          id="tspan6051">\textcolor{blue}{Sample Motor}</tspan></text>
@@ -992,12 +992,12 @@
     <text
        sodipodi:linespacing="100%"
        id="text10218"
-       y="707.25"
+       y="709.25"
        x="-1014.8751"
        style="font-size:32.1402092px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:URW Palladio L;-inkscape-font-specification:URW Palladio L Medium"
        xml:space="preserve"><tspan
          style="font-size:14px;text-align:start;text-anchor:start"
-         y="707.25"
+         y="709.25"
          x="-1014.8751"
          sodipodi:role="line"
          id="tspan6059">\shortstack{X-<tspan
@@ -1048,14 +1048,14 @@
     <text
        sodipodi:linespacing="100%"
        id="text6961-9"
-       y="645.85309"
-       x="-992.76288"
+       y="655.85309"
+       x="-996.76288"
        style="font-size:27.27373886px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:URW Palladio L;-inkscape-font-specification:URW Palladio L Medium"
        xml:space="preserve"><tspan
          style="font-size:14px;text-align:start;text-anchor:start"
          id="tspan3209-5"
-         y="645.85309"
-         x="-992.76288"
+         y="655.85309"
+         x="-996.76288"
          sodipodi:role="line">\shortstack{Density gradient\\capillary}</tspan></text>
     <a
        id="a6518" />
@@ -1118,12 +1118,12 @@
     <text
        sodipodi:linespacing="100%"
        id="text10218-0"
-       y="761.79047"
+       y="763.79047"
        x="-816.24854"
        style="font-size:32.1402092px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:URW Palladio L;-inkscape-font-specification:URW Palladio L Medium"
        xml:space="preserve"><tspan
          style="font-size:14px;text-align:start;text-anchor:start"
-         y="761.79047"
+         y="763.79047"
          x="-816.24854"
          sodipodi:role="line"
          id="tspan6059-1">Galden</tspan></text>

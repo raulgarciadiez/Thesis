@@ -40,14 +40,14 @@ set size 0.56,0.53
 set origin 0.4,0.42
 unset logscale xy
 set grid
-set xlabel '\smaller $R$ / nm' 
-set ylabel '\smaller Electron Density / nm$^{-3}$' offset 3,0.3
+set xlabel '\smaller $R$ / nm' offset 0, 0.75
+set ylabel '\smaller $\rho_e$ / nm$^{-3}$' offset 4,0.
 set autoscale
 set yrange [330.:365.]
 set xrange [0.:52.]
 unset xtics
-set ytics format '\smaller %g'
-set xtics format '\smaller %g'
+set ytics format '\smaller %g' offset 0.5
+set xtics format '\smaller %g' offset 0, 0.25
 set xtics (0, 10, 20, 30, 40, 50)
 set ytics (330.,340.,350.,360.)
 unset key

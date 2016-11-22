@@ -1,9 +1,9 @@
-set terminal epslatex size 7cm,11cm color colortext
+set terminal epslatex size 9cm,18cm color colortext
 set log
 unset log cb
 set grid
 set xlabel '$q$ / nm$^{-1}$' 
-set ylabel 'Scattering Intensity / a.u.' offset 1,-1
+set ylabel 'Scattering Intensity / a.u.' offset 2.5,-1
 set autoscale
 set xrange [0.25:2.2]
 set yrange [5e-1:8e2]
@@ -11,7 +11,7 @@ set xtics (0.5,1.,2.)
 
 set cbrange [0:25]
 set cblabel '\smaller Sucrose Concentration / $\%$' offset -2,0  rotate by -90
-set cbtics offset 0,0 format '\smaller %.0f'
+set cbtics offset 0,0 format '\smaller %.0f' offset 0
 
 N=0.3
 

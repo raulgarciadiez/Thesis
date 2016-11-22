@@ -53,7 +53,7 @@
     \put(0.10594215,0.78652394){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\rho_{\text{solv}}$}}}%
     \put(0.54382509,0.63843258){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{Core}}}%
     \put(0.54756456,0.77116304){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{Shell}}}%
-    \put(0.07295498,0.03294038){\color[rgb]{0,0,0}\rotatebox{90}{\makebox(0,0)[lb]{\smash{Electron density}}}}%
+    \put(0.06573001,0.03294038){\color[rgb]{0,0,0}\rotatebox{90}{\makebox(0,0)[lb]{\smash{Electron density}}}}%
     \put(0.98536379,0.77770436){\color[rgb]{0,0,0}\makebox(0,0)[rb]{\smash{Solvent}}}%
     \put(0.75374872,0.2639314){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\Delta\eta_{\text{core}}$}}}%
     \put(0.33906398,0.18668455){\color[rgb]{0,0,0}\makebox(0,0)[rb]{\smash{$\Delta\eta_{\text{shell}}$}}}%

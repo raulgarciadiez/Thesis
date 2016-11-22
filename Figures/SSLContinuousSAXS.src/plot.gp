@@ -11,8 +11,8 @@ set key spacing 1.5
 set key at 0.075,5
 set xtics (0.05,0.1,0.2,0.5,1.)
 
-set cblabel '\smaller Sucrose Mass Fraction / $\%$' offset -3,0  rotate by -90
-set cbtics offset -1,0 format '\smaller %.0f'
+set cblabel '\smaller Sucrose Mass Fraction / $\%$' offset -1.5,0  rotate by -90
+set cbtics offset -1,0 format '\smaller %.0f' offset 0
 
 set cbrange [0:27.4]
 

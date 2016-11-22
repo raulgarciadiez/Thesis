@@ -11,8 +11,8 @@ set key spacing 1.5
 set key at 0.075,5
 set xtics (2.,2.5,3.)
 
-set cblabel '\smaller Solvent Osmolality / mOsm kg$^{-1}$' offset -3,0  rotate by -90
-set cbtics offset -1,0 format '\smaller %.0f'
+set cblabel '\smaller Solvent Osmolality / mOsm kg$^{-1}$' offset -1.5,0  rotate by -90
+set cbtics offset -1,0 format '\smaller %.0f' offset 0
 
 set cbrange [200:1500]
 

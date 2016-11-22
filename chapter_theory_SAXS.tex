@@ -225,7 +225,8 @@ where $\sfrac{N}{V}$ is the concentration of scatterers, i.e. particles.
 
 \begin{figure}
 	\centering
-		\input{Figures/ScatteringCurve50nm}
+        	\resizebox{.85\linewidth}{!}{\input{Figures/ScatteringCurve50nm}}
+		%\input{Figures/ScatteringCurve50nm}
 		\caption[The scattering curve and its relevant regions.]{Simulated scattering curve of a nanoparticle ensemble with radius 50 nm and a polydispersity degree of 10 $\%$. The three different regions discussed in the text are highlighted in the figure as well.}
 		\label{fig:ScatteringCurve50nm}
 \end{figure}
@@ -241,14 +242,14 @@ The scattering curve is the typical form to present the experimental data, which
 
 \subsection{Modelling of the scattering intensity: Form factors}
 
-Besides the information obtained about the size distribution of the particle ensemble, the scattering intensity $I(q)$ provides information about the shape and composition of the particles, accessible by modelling the form factor. In the simple case of a solid sphere with uniform density $\rho_0$, the radial electron density profile is described by $\rho_e(r>R)=0$ and $\rho_e(r<R)=\rho_0$, whilst the integral of expression \ref{eq:FormFactorSpherical} is limited only to the radius of the particle $R$. The form factor of a homogenous solid sphere is 
+Besides the information obtained about the size distribution of the particle ensemble, the scattering intensity $I(q)$ provides information about the shape and composition of the particles, accessible by modelling the form factor. In the simple case of a solid sphere with uniform density $\rho_0$, the radial electron density profile is described by $\rho_e(r>R)=0$ and $\rho_e(r<R)=\rho_0$, whilst the integral of expression \ref{eq:FormFactorSpherical} is limited only to the radius of the particle $R$. The form factor of a homogeneous solid sphere is 
 
 \begin{equation}
         \label{eq:ff_sphere}
        f_{\text{sph}}(q,R)=\frac{4}{3}\pi R^3 \left( \rho_0 - \rho_{\text{medium}} \right) \left( 3\frac{\sin(qR)-qR\cos(qR)}{\left( qR \right)^3} \right) = \Delta \eta \cdot F_{\text{sph}}(q,R)
 \end{equation}
 
-where $\Delta \eta = \rho_0 - \rho_{\text{medium}}$ is the contrast and $ F_{\text{sph}}(q,R)$ is defined for convenience. When the shape of the particle deviates from a sphere, the assumptions made in equation \ref{eq:FormFactorSpherical} are not applicable and the scattering intensity must be integrated over all available angles numerically. For a homogenous ellipsoid of revolution with two equal semi-axes of length $R$ and a semi-principal axis of length $\nu R $, the scattering intensity is expressed as:
+where $\Delta \eta = \rho_0 - \rho_{\text{medium}}$ is the contrast and $ F_{\text{sph}}(q,R)$ is defined for convenience. When the shape of the particle deviates from a sphere, the assumptions made in equation \ref{eq:FormFactorSpherical} are not applicable and the scattering intensity must be integrated over all available angles numerically. For a homogeneous ellipsoid of revolution with two equal semi-axes of length $R$ and a semi-principal axis of length $\nu R $, the scattering intensity is expressed as:
 
 \begin{equation}
         \label{eq:ff_ellipsoid}
@@ -264,7 +265,7 @@ Frequently, nanoparticles show an internal heterogeneity, leading to an inner el
 f\left(q,R \right)= \Delta \eta F_{\text{sph}}(q,R)+\sum_{i=1}^{n-1} \Delta\rho_i \left( F_{\text{sph}}(q,R_{i+1})-F_{\text{sph}}(q,R_{i}) \right) ,
 \end{equation}
 
-where \(R\) is the external radius of the particle and \( n \) is the number of concentric shells. The excess of electron density of each component is $\Delta\rho_i = \rho_i - \rho_{\text{core}}$ and the contrast is defined in this case as $\Delta \eta = \rho_{\text{core}} - \rho_{\text{medium}}$ in order to isolate the solvent electron density in one term.
+where \(R\) is the external radius of the particle and \( n \) is the number of concentric shells. The excess of electron density of each component is $\Delta\rho_i = \rho_i - \rho_{\text{core}}$ and the contrast is defined in this case as $\Delta \eta = \rho_{\text{core}} - \rho_{\text{medium}}$ in order to isolate the electron density of the surrounding medium in one term.
 
 The simplest case of expression \ref{eq:multicore-shell} arises for core-shell particles in suspension. This model represents a radially symmetric particle with a sharp interface between the outer shell and the inner core. The form factor is described by
 

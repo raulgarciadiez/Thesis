@@ -12,7 +12,7 @@ set key at 0.075,5
 set xtics (0.05,0.1,0.2,0.5,1.)
 
 set cblabel '\smaller Solvent Electron Density / nm$^{-3}$' offset -1.5,0  rotate by -90
-set cbtics offset -1,0 format '\smaller %.0f'
+set cbtics offset -1,0 format '\smaller %.0f' offset 0
 
 set cbrange [366:342]
 

@@ -7,7 +7,7 @@ set autoscale
 set log y
 
 set xlabel 'Energy / eV'
-set ylabel 'X-ray Transmission / $\%$'
+set ylabel 'X-ray Transmission / $\%$' offset 2
 set y2label 'Ratio' rotate by 270 offset -1 textcolor rgb 'blue'
 
 set y2range [1.15:3.55]

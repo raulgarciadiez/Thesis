@@ -3,7 +3,7 @@ set xrange [ 334 : 386 ] #noreverse nowriteback
 set yrange [ -10 : 300 ] #noreverse nowriteback
 
 set xlabel 'Solvent Electron Density / nm$^{-3}$'
-set ylabel 'Radius$^2$ / nm$^{2}$'
+set ylabel 'Radius$^2$ / nm$^{2}$' offset 1
 f(x)=R0+alpha/(x-rho)
 R0 = 35.4427683594868
 alpha = -624.072672144622

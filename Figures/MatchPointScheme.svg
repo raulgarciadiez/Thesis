@@ -34,7 +34,7 @@
      showgrid="false"
      inkscape:zoom="1.1092985"
      inkscape:cx="673.26337"
-     inkscape:cy="279.5771"
+     inkscape:cy="280.02784"
      inkscape:window-x="1597"
      inkscape:window-y="32"
      inkscape:window-maximized="1"
@@ -1956,14 +1956,14 @@
        sodipodi:open="true" /><text
        xml:space="preserve"
        style="font-size:32px;font-style:normal;font-weight:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
-       x="521.80072"
+       x="525.00067"
        y="-510.93344"
        id="text4160-3"
        sodipodi:linespacing="125%"
        transform="scale(1,-1)"><tspan
          sodipodi:role="line"
          id="tspan4162-3"
-         x="521.80072"
+         x="525.00067"
          y="-510.93344"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;text-anchor:start;font-family:Carlito;-inkscape-font-specification:Carlito">$\rho_{\text{solv}}$</tspan></text>
 <text
@@ -1999,14 +1999,14 @@
        xml:space="preserve"
        style="font-size:32px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
        x="177.16385"
-       y="509.35391"
+       y="506.1539"
        id="text3760-6-1"
        sodipodi:linespacing="125%"
        transform="matrix(0,1,1,0,0,0)"><tspan
          sodipodi:role="line"
          id="tspan3762-7-9"
          x="177.16385"
-         y="509.35391">Electron density</tspan></text>
+         y="506.1539">Electron density</tspan></text>
 <path
        style="fill:none;stroke:#000000;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 90.597797,354.37933 196.069863,0 0,-85.63971 110.43015,0 0,86.09044 195.16839,0"

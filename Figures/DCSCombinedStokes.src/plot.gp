@@ -1,6 +1,6 @@
 set grid
 set xlabel 'PS-Plain density / g cm$^{-3}$' 
-set ylabel 'PS-Plain diameter / nm' offset 0.5
+set ylabel 'PS-Plain diameter / nm' offset 1.5
 set autoscale
 set xrange [1.01:1.13]
 set yrange [60:330]

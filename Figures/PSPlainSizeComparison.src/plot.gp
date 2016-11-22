@@ -1,5 +1,5 @@
 set grid
-set ylabel 'Diameter / nm' offset 1
+set ylabel 'Diameter / nm' offset 1.5
 set autoscale
 set xrange[-4.5:4.8]
 set yrange [126.:158]

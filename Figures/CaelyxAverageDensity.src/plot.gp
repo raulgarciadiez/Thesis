@@ -1,5 +1,5 @@
 set xlabel 'Solvent Electron Density / nm$^{-3}$' 
-set ylabel '$I(0)$ / cm$^{-1}$'
+set ylabel '$I(0)$ / cm$^{-1}$' offset 1.
 
 set grid
 

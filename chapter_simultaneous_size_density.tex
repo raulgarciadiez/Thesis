@@ -6,7 +6,7 @@ This chapter demonstrates the simultaneous size and density determination using 
 
 The applicability of this method for the traceable size determination of these colloids is discussed in this chapter, where a high-resolution size distribution of the particles is presented. Focusing on a low-density colloid, different evaluation approaches to SAXS contrast variation experiments are discussed and the advantages and drawbacks of a model-free formulation like the isoscattering point position are discussed, together with the accuracy of the shape scattering function. In addition, a form factor model is fitted to the scattering curves to obtain decisive information about the internal morphology of the particle, which is not directly available by other techniques such as transmission scanning electron microscopy (TSEM), differential centrifugal sedimentation (DCS) \citep{fielding_correcting_2012} or atomic force microscopy (AFM). 
 
-Besides, the ability of this technique to determine the density of polymeric colloids in suspension is also discussed. Normally, the density of the suspended particles can not be compared to the bulk density of the dry material. Such a complex question has been addressed by different methods, though with evident limitations. For example, the density of polymeric beads has been measured previously with field-flow fractionation (FFF) with high-accuracy but at the expense of \emph{a priori} assumptions about the morphology of the particle \citep{giddings_density_1981,yang_colloid_1983,caldwell_measurement_1986}. Assuming the Stokes' diameter as the actual size of the colloid, recent advances in analytical ultracentrifugation allow the complementary characterization of the size, density and molecular weight of gold nanoparticles \citep{carney_determination_2011}.
+Besides, the ability of this technique to determine the density of polymeric colloids in suspension is also discussed. Normally, the density of the suspended particles can not be compared to the bulk density of the dry material. Such a complex question has been addressed by different methods, though with evident limitations. For example, the density of polymeric beads has been measured previously with field-flow fractionation (FFF) with high-accuracy but at the expense of \emph{a priori} assumptions about the morphology of the particle \citep{giddings_density_1981,yang_colloid_1983,caldwell_measurement_1986}. Another method which requires of previous knowledge about the size of the particle is isopycnic centrifugation, widely used in biology \citep{vauthier_measurement_1999}. Assuming the Stokes' diameter as the actual size of the colloid, recent advances in analytical ultracentrifugation allow the complementary characterization of the size, density and molecular weight of gold nanoparticles \citep{carney_determination_2011}.
 
 The density of the 3 polymeric colloids was also analysed by DCS and the results compared and discussed with those obtained by SAXS. DCS uses the sedimentation of particles through a density gradient to measure high resolution particle size distributions \citep{minelli_characterization_2014}. Its accuracy typically depends on the knowledge of the density of the particles. When the size of the particle is known, DCS can alternatively be used to measure average particle's density.
 
@@ -95,6 +95,7 @@ The morphology of the PS-Plain particles was further studied using the density g
 \begin{figure*}%[htbp]
 	\centering
                 \subfloat[Scattering curves]{\resizebox{0.44\linewidth}{!}{\figfont{13pt}\input{Figures/PSPlainContinuousSAXS}}\label{fig:PSPlainContinuousSAXS}}
+                \qquad
 		\subfloat[Isoscattering point positions]{\resizebox{0.44\linewidth}{!}{\figfont{13pt}\input{Figures/PSPlainContinuousSAXSIsopoint}}\label{fig:PSPlainContinuousSAXSIsopoint}}
 	\caption[Continuous contrast variation experimental data of the PS-Plain particles.]{Continuous contrast variation on the PS-Plain particles: a) SAXS curves of the PS-Plain particles obtained by density gradient contrast variation after solvent background subtraction. b) The relative standard deviation of each $q$ calculated across all the measured scattering curves, where the minima correspond to the isoscattering points $I_i$. The background subtraction shifts the position of $I_i$, especially for high $q$-values.}
 \end{figure*}
@@ -142,7 +143,7 @@ All the techniques are in very good agreement, even considering that they are ba
 
 This improvement was confirmed by employing the same approach with the PS-COOH colloids. The diameter obtained from the core-shell model fit in chapter \ref{chap:density_gradient_SAXS} is ($99.4\pm5.6$) nm, while the value obtained from the shape scattering function calculation is ($101.4\pm2.4$) nm. Again, the uncertainty associated to the size decreases by $\sim 60\;\%$, whilst it is still in accordance with the diameter obtained with the isoscattering points positions of 101.0 nm with a standard deviation of 1.1 nm. 
 
-Due to the low polydispersity of the PMMA-COOH particles and their homogenous composition, a spherical form factor fit to the single-contrast scattering curve provides already a very accurate diameter ($186.5\pm2.3$) nm. In this case, contrast variation experiments in SAXS show no advantages.
+Due to the low polydispersity of the PMMA-COOH particles and their homogeneous composition, a spherical form factor fit to the single-contrast scattering curve provides already a very accurate diameter ($186.5\pm2.3$) nm. In this case, contrast variation experiments in SAXS show no advantages.
 
 \subsection{Particle size distribution of the PS-Plain particles}
 
@@ -214,6 +215,7 @@ In order to prove the isoscattering point dependency on the particle polydispers
 \begin{figure*}%[htbp]
 	\centering
 		\subfloat[Polydispersity effects]{\resizebox{0.44\linewidth}{!}{\figfont{13pt}\input{Figures/IsopointSimulationPolydispersity}}\label{fig:IsopointSimulationPolydispersity}}
+		\qquad
 		\subfloat[Solvent electron density range]{\resizebox{0.44\linewidth}{!}{\figfont{13pt}\input{Figures/IsopointSimulationRange}}\label{fig:IsopointSimulationRange}}
 	\caption[Deviation of the size of the PS-Plain particles obtained with $q_1^{\star}$ from the nominal value.]{Deviation of the size of the PS-Plain particles calculated using the $q_1^{\star}$ position from the nominal value depending on a) the size polydispersity of core-shell particles with different core-to-size ratios or b) the solvent electron density range employed in the experiment, where  $\rho_e \in (330\;\mbox{nm}^{-3}, \rho_{\text{max}})$.}
 

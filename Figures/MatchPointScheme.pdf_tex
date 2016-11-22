@@ -50,10 +50,10 @@
   \makeatother%
   \begin{picture}(1,0.86073891)%
     \put(0,0){\includegraphics[width=\unitlength]{MatchPointScheme.pdf}}%
-    \put(0.09928173,0.77270457){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\rho_{\text{solv}}$}}}%
+    \put(0.10637962,0.77270457){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\rho_{\text{solv}}$}}}%
     \put(0.53335389,0.62401588){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{Core}}}%
     \put(0.96406733,0.76404002){\color[rgb]{0,0,0}\makebox(0,0)[rb]{\smash{Solvent}}}%
-    \put(0.07167315,0.03236194){\color[rgb]{0,0,0}\rotatebox{90}{\makebox(0,0)[lb]{\smash{Electron density}}}}%
+    \put(0.06457512,0.03236194){\color[rgb]{0,0,0}\rotatebox{90}{\makebox(0,0)[lb]{\smash{Electron density}}}}%
     \put(0.65415194,0.31532821){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\Delta\eta_{\text{core}}$}}}%
   \end{picture}%
 \endgroup%

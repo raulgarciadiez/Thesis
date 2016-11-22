@@ -1,4 +1,4 @@
-\begin{thebibliography}{208}
+\begin{thebibliography}{206}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 
 \bibitem[Als-Nielsen \& McMorrow(2011)]{als-nielsen_elements_2011}
@@ -18,12 +18,6 @@
   Kortright, J.~B. \& Kilcoyne, A. L.~D.} 2006 Resonant soft x-ray scattering
   from structured polymer nanoparticles. {\em Appl Phys Lett\/} {\bf 89},
   124106.
-
-\bibitem[Arnold {\em et~al.\/}(2006)Arnold, Green, Hulvat, Stupp \&
-  Hersam]{arnold_sorting_2006}
-{\sc Arnold, M.~S., Green, A.~A., Hulvat, J.~F., Stupp, S.~I. \& Hersam, M.~C.}
-  2006 Sorting carbon nanotubes by electronic structure using density
-  differentiation. {\em Nat Nanotechnology\/} {\bf 1}, 60--65.
 
 \bibitem[Assmann \& Brewer(1974)]{assmann_lipid-protein_1974}
 {\sc Assmann, G. \& Brewer, H.~B.} 1974 Lipid-protein interactions in high
@@ -1027,13 +1021,6 @@
 {\sc Stuhrmann, H.~B., Tardieu, A., Mateu, L., Sardet, C., Luzzati, V.,
   Aggerbeck, L. \& Scanu, A.~M.} 1975 Neutron scattering study of human serum
   low density lipoprotein. {\em PNAS\/} {\bf 72}, 2270--2273.
-
-\bibitem[Sun {\em et~al.\/}(2009)Sun, Tabakman, Seo, Zhang, Zhang, Sherlock,
-  Bai \& Dai]{sun_separation_2009}
-{\sc Sun, X., Tabakman, S.~M., Seo, W.-S., Zhang, L., Zhang, G., Sherlock, S.,
-  Bai, L. \& Dai, H.} 2009 Separation of nanoparticles in a density gradient:
-  {{FeCoC}} and gold nanocrystals. {\em Angew Chem Int Edit\/} {\bf 48},
-  939--942.
 
 \bibitem[Takahashi {\em et~al.\/}(2008)Takahashi, Kato, Saito, Matsuyama \&
   Kinugasa]{takahashi_precise_2008}

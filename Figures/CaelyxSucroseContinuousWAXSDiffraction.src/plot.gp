@@ -2,7 +2,7 @@ set grid
 
 #set y2tics
 
-set ylabel 'Diffraction Peak Deviation / $\%$'
+set ylabel 'Diffraction Peak Deviation / $\%$' offset 1
 #set y2label 'Debye-Scherrer Width Deviation / $\%$' rotate by 270 tc rgb 'red'
 set xlabel 'Solvent Osmolality / mOsm kg$^{-1}$'
 

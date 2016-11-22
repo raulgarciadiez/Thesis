@@ -1,5 +1,5 @@
 set xlabel 'Solvent electron density / nm$^{-3}$' 
-set ylabel '$R_g^2$ / nm$^2$'
+set ylabel '$R_g^2$ / nm$^2$' offset 2
 
 set grid
 

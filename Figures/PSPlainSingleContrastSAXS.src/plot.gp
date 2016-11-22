@@ -35,18 +35,18 @@ f(x)=rhoc
 g(x)=rhos
 h(x)=rhow
 
-set size 0.45,0.43
-set origin 0.53,0.51
+set size 0.5,0.5
+set origin 0.48,0.48
 unset logscale xy
 set grid
-set xlabel '\smaller{$R$} / nm' 
-set ylabel '\smaller{$\rho_e$ / nm$^{-3}$}' offset 3,0.3
+set xlabel '\smaller{$R$} / nm' offset 0, 1
+set ylabel '\smaller{$\rho_e$ / nm$^{-3}$}' offset 4,0
 set autoscale
 set yrange [333.:348.]
 set xrange [0.:78.]
-set xtics format '\smaller %g'
+set xtics format '\smaller %g' offset 0,0.25
 set xtics (0,25,50,75)
-set ytics format '\smaller %g'
+set ytics format '\smaller %g' offset 0.5
 set ytics (333.,337.,341.,345.,349.)
 unset key
 #set arrow from ROnion,rhow to ROnion,346.31 nohead ls 3
