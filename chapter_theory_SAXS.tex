@@ -316,7 +316,28 @@ One of the best known features appearing in a contrast variation experiment with
 
 The solutions for this equation fulfill $q^{\star} R =4.493, 7.725, 10.904, ...$, where the positions of the isoscattering points correspond to the minima positions of the scattering intensity of a compact spherical particle with radius \( R \). This expression relates in a simple way the position of $q^{\star}$ to the size of the particle inaccessible to the suspending medium and, thus, a good method to determine the diameter of the colloid.
 
+
+
+
+
+\begin{figure*}%[htbp]
+	\centering
+		\subfloat[Monodisperse nanoparticles]{\resizebox{0.45\linewidth}{!}{\figfont{12pt}\input{Figures/IsopointSimulationIdeal}}\label{fig:IsopointSimulationIdeal}}
+		\qquad
+		\subfloat[High polydispersity: $p_d=30\;\%$]{\resizebox{0.45\linewidth}{!}{\figfont{12pt}\input{Figures/IsopointSimulationPolydisperse}}\label{fig:IsopointSimulationPolydisperse}}
+	\caption[Isoscattering points and particle polydispersity.]{A isoscattering point is the $q$-value where all the scattering curves measured at different contrasts $\Delta \eta$ intersect. a) In the monodisperse case, the first isoscattering point is well-defined as depicted in the inset, while the inset of b) shows how the high polydispersity of the ensemble produces a diffuse isoscattering point and the intersection point is smeared out.}
+\end{figure*}
+
+
+
+
+
+
+
+
 Although this expression is derived for the monodisperse case, it can still be applied up to a moderate degree of polydispersity, if care is taken regarding the shift of the minima position due to polydispersity \citep{beurten_polydispersity_1981}. For size distributions with \( p_d\) larger than \( \approx 30\,\% \), the isoscattering point is not well defined and the intersection point of the curves is smeared out, showing a diffuseness in the isoscattering point position \citep{kawaguchi_isoscattering_1992}.
+
+\textcolor{red}{REFERENCE - ISOSCATTERING SIMULATION FIGURES \ref{fig:IsopointSimulationIdeal} and \ref{fig:IsopointSimulationPolydisperse}}
 
 Similarly, any deviation from the spherical shape produces a diffuseness in the $q^{\star}$ position. Unfortunately, this effect cannot be distinguished from the smearing produced by the size polydispersity and the investigation of the particle shape needs to be performed by other means.
 
@@ -330,11 +351,11 @@ Deriving from this approach, the scattering intensity can be expressed as the co
 \label{eq:intensity_contrast}
 I(q)=I_c(q)+\Delta\eta I_{sc}(q)+(\Delta\eta)^2 I_{s}(q)
 \end{equation}
-The $I_c$ function contains the contributions from the density fluctuations inside the particle, the contribution $I_s$ is the so-called \emph{resonant term} and $I_{sc}$ is the cross-term function.
+The $I_c$ function contains the contributions from the density fluctuations inside the particle, the contribution $I_s$ is the so-called \emph{shape scattering function} and $I_{sc}$ is the cross-term function.
 
 
 \subsubsection{Shape scattering function}
-The $I_s(q)$ function, also known as \emph{shape scattering function}, corresponds to the scattering contributions from particles with homogenous density and a size equivalent to the volume inaccessible to the solvent. By modelling the shape scattering function, the shape and size distribution of the particles can be determined independently of their inner structure.
+The $I_s(q)$ function corresponds to the scattering contributions from particles with homogeneous density and a size equivalent to the volume inaccessible to the solvent, typically the external size of the nanoparticle. By modelling the shape scattering function, the shape and size distribution of the particles can be determined independently of their inner structure.
 
 In a system measured at $N$ different solvent electron densities i.e. contrasts, the shape scattering function $I_s$ at each $q$-value can be calculated by solving the following matrix equation:
 

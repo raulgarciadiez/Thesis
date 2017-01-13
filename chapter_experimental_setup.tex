@@ -20,24 +20,25 @@ where $\vec{\beta}=\frac{\vec{v}}{c}$, the Lorentz factor is $\gamma=\frac{1}{\s
 The total power emitted by an ultra-relativistic electron accelerated radially ($\vec{a} \bot \vec{v}$) is described by:
 
 \begin{equation}
-        P_{sync}=\frac{e^2 c}{6\pi\epsilon_0 R^2}\left(\frac{E}{m_e c}\right)^4 \propto E^4 m_e^{-4} R^{-2}
+        \label{eq:SchwingerPower}
+        P_{sync}=\frac{e^2 c}{6\pi\epsilon_0 R^2}\left(\frac{E}{m_e c^2}\right)^4 \propto E^4 m_e^{-4} R^{-2}
 \end{equation}
 
-where $R$ is the radius of the electron trajectory in the circular storage ring and is related to the external magnetic field strength of the bending magnet ($B$) by $R=\frac{E}{ecB}$. The use of light particles (electrons or positrons) in storage rings such as BESSY II is explained by the production of a radiative power $\sim 10^{13}$ times larger than heavier particles like protons.
+where $R$ is the radius of the electron trajectory in the circular storage ring and is related to the external magnetic field strength of the bending magnet ($B$) by $R=\frac{E}{ecB}$. The use of light particles (electrons or positrons) in storage rings such as BESSY II is explained by the production of a radiative power $\sim 10^{13}$ times larger than heavier particles like protons \textcolor{red}{due to the factor $\sfrac{1}{m_e^4}$ in equation \ref{eq:SchwingerPower}}.
 
 Synchrotron radiation sources generating X-rays photons have arisen as an important tool in many scientific fields like physical chemistry, life science or physics. The broad spectral range and the high brilliance open new experimental possibilities in materials science as well as in metrology. For instance, the synchrotron radiation can be employed as a primary calibration standard for electromagnetic radiation \citep{thornagel_electron_2001} by means of the Schwinger equation \citep{schwinger_classical_1949} and the determination of the number of electrons, the electron energy and the magnetic field of the bending magnet.
 
 The two most characteristic features of a synchrotron radiation source are the brilliance and the critical energy or critical wavelength. The spectral brilliance is defined as the number of photons per second, per electron beam source cross section, per angular divergence and per 0.1 $\%$ bandwidth at a certain wavelength $\lambda$ \citep{marr_handbook_1987}. The critical energy $E_C$ is defined by \citep{schwinger_classical_1949}:
 
 \begin{equation}
-        E_C=\frac{3hc}{4\pi R}\left(\frac{E}{m_e c}\right)^3
+        E_C=\frac{3hc}{4\pi R}\left(\frac{E}{m_e c^2}\right)^3
 \end{equation}
 
 The critical energy $E_C$ divides the spectral range into two parts with equal radiant power \citep{marr_handbook_1987}.
 
 \subsection{Insertion devices}
 
-The synchrotron radiation sources of the third generation are designed with the goal of optimizing the insertion devices and, therefore, enhance the spectral brightness \citep{ries_nonlinear_2014}. The employment of insertion devices, such as wiggles or undulators, on the straight sections of the storage ring improves the brilliance or produce light polarizations different from that produced by bending magnets.
+The synchrotron radiation sources of the third generation are designed with the goal of optimizing the insertion devices and, therefore, enhance the spectral brightness \citep{ries_nonlinear_2014}. The employment of insertion devices, such as wigglers or undulators, on the straight sections of the storage ring improves the brilliance or produce light polarizations different from that produced by bending magnets.
 
 Both insertion devices consist on the same principle: a large number ($N\sim100$) of equally spaced alternately polarised dipole magnets stimulate the emission of synchrotron radiation on the experiment direction, due to the coherent addition of the contributions from the passage of a single electron. By this approach, the photon flux can be increased  in a factor $N$, the number of magnets separated with a spatial field period $\lambda_0$ in the range of cm. The distinguishable property between wigglers and undulators is their deflection parameter $K$, defined by \citep{marr_handbook_1987}:
 
@@ -61,7 +62,21 @@ The facility BESSY II situated in Berlin (Germany) is a synchrotron X-ray and UV
 
 The creation of the free electrons on the electron beam is the first step, as depicted schematically in figure \ref{fig:BessyScheme}. A standard DC grid cathode emits electrons which are accelerated with a high voltage to the anode up to a 90 keV energy. These electrons are the source of a 50 MeV Linac, which brings the electron beam to relativistic velocities. The 0.4 nC charged electrons bunches are further transported to a 10 Hz booster synchrotron by a long Injection Line. The acceleration process in the rapid-cycling synchrotron takes about 50 ms and is achieved by the disposition of a set of magnets and 500 MHz rf-cavities coupled with the magnets in linear paths that ramp the electron beam to its final operation energy of 1.72 GeV.
 
-At this point the electrons are injected into the storage ring, where 32 bending magnets with a magnetic field strength of 1.3 T and a bending radius of 4.2 m \citep{klein_elektronenspeicherringe_2014} are equipped to maintain the circular trajectory of the electron beam at 1.25 MHz revolution frequency. The critical energy $E_C$ of the bending magnets at BESSY II is 2.5 keV. 
+At this point the electrons are injected into the storage ring, where 32 bending magnets with a magnetic field strength of 1.3 T and a bending radius of \textcolor{red}{4.2 m????????} \citep{klein_elektronenspeicherringe_2014} are equipped to maintain the circular trajectory of the electron beam at 1.25 MHz revolution frequency. The critical energy $E_C$ of the bending magnets at BESSY II is \textcolor{red}{2.5 keV??????}. \textcolor{red}{The critical energy can be observed in figure \ref{fig:CriticalEnergy}}
+
+
+
+
+\begin{figure}%[htbp]
+	\centering
+		\input{Figures/CriticalEnergy}
+		\caption[Radiant power of BESSY II.]{Calculated radiant power of the bending magnets at BESSY II under standard operation (300 mA) through an aperture of 10 x 10 mm$^2$ situated at 30 m of the source. The critical energy $E_C$ is 2.5 keV and divides the spectrum into two parts with equal power.}
+		\label{fig:CriticalEnergy}
+\end{figure}
+
+
+
+
 
 \section{FCM beamline}
 \label{sec:fcm}
