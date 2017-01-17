@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/TeX Live for SUSE Linux) (format=pdflatex 2016.7.6)  13 JAN 2017 16:39
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/TeX Live for SUSE Linux) (format=pdflatex 2016.7.6)  17 JAN 2017 15:36
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1747,11 +1747,7 @@ Package microtype Info: Loading generic settings for font family
 
 
 ]) (./abstract.tex
-LaTeX Font Info:    Try loading font information for TS1+ppl on input line 5.
-
-(/usr/share/texmf/tex/latex/psnfss/ts1ppl.fd
-File: ts1ppl.fd 2001/06/04 font definitions for TS1/ppl.
-) [3
+[3
 
 
 
@@ -1774,8 +1770,7 @@ Package tocbasic Info: character protrusion at toc deactivated on input line 15
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <10.95> not available
 (Font)              Font shape `T1/ppl/b/n' tried instead on input line 6.
 LaTeX Font Info:    Try loading font information for OT1+ppl on input line 6.
-
-(/usr/share/texmf/tex/latex/psnfss/ot1ppl.fd
+ (/usr/share/texmf/tex/latex/psnfss/ot1ppl.fd
 File: ot1ppl.fd 2001/06/04 font definitions for OT1/ppl.
 )
 LaTeX Font Info:    Try loading font information for OML+zplm on input line 6.
@@ -1917,7 +1912,12 @@ File: Figures/SizeRange.pdf Graphic file (type pdf)
 <use Figures/SizeRange.pdf>
 Package pdftex.def Info: Figures/SizeRange.pdf used on input line 52.
 (pdftex.def)             Requested size: 385.1767pt x 278.19478pt.
-) [2] [3 <./Figures/SizeRange.pdf>] [4]
+) [2]
+LaTeX Font Info:    Try loading font information for TS1+ppl on input line 30.
+ (/usr/share/texmf/tex/latex/psnfss/ts1ppl.fd
+File: ts1ppl.fd 2001/06/04 font definitions for TS1/ppl.
+)
+[3 <./Figures/SizeRange.pdf>] [4]
 <Figures/ThesisStructure.pdf, id=1213, 644.75824pt x 627.55743pt>
 File: Figures/ThesisStructure.pdf Graphic file (type pdf)
 
@@ -3035,11 +3035,11 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 45.
  ) 
 Here is how much of TeX's memory you used:
- 35368 strings out of 493315
- 644690 string characters out of 6145894
+ 35311 strings out of 493315
+ 644136 string characters out of 6145894
  748038 words of memory out of 5000000
- 36508 multiletter control sequences out of 15000+600000
- 278949 words of font info for 1045 fonts, out of 8000000 for 9000
+ 36504 multiletter control sequences out of 15000+600000
+ 274979 words of font info for 1008 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
  77i,21n,89p,1869b,867s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}{/usr/share/texmf
@@ -3061,10 +3061,10 @@ fb></usr/share/texmf/fonts/type1/public/cm-super/sfsx1200.pfb></usr/share/texmf
 atino/uplb8a.pfb></usr/share/texmf/fonts/type1/urw/palatino/uplbi8a.pfb></usr/s
 hare/texmf/fonts/type1/urw/palatino/uplr8a.pfb></usr/share/texmf/fonts/type1/ur
 w/palatino/uplri8a.pfb>
-Output written on main.pdf (128 pages, 7169264 bytes).
+Output written on main.pdf (128 pages, 7168306 bytes).
 PDF statistics:
  3249 PDF objects out of 3580 (max. 8388607)
  2819 compressed objects within 29 object streams
  567 named destinations out of 1000 (max. 500000)
- 141184 words of extra memory for PDF output out of 154059 (max. 10000000)
+ 136576 words of extra memory for PDF output out of 154059 (max. 10000000)
 
