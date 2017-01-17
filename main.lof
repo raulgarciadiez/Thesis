@@ -5,31 +5,31 @@
 \select@language {UKenglish}
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {\relax 1.1}{\ignorespaces Sizing techniques.}}{3}{figure.caption.6}
-\contentsline {figure}{\numberline {\relax 1.2}{\ignorespaces Structure of the thesis.}}{5}{figure.caption.7}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {\relax 2.1}{\ignorespaces Depiction of the Beer-Lambert law.}}{8}{figure.caption.8}
-\contentsline {figure}{\numberline {\relax 2.2}{\ignorespaces Contributions to the X-ray attenuation coefficient of water.}}{9}{figure.caption.9}
-\contentsline {figure}{\numberline {\relax 2.3}{\ignorespaces Schematics of a scattering process and graphical definition of $\bm {q}$.}}{10}{figure.caption.11}
-\contentsline {figure}{\numberline {\relax 2.4}{\ignorespaces The scattering curve and its relevant regions.}}{14}{figure.caption.14}
-\contentsline {figure}{\numberline {\relax 2.5}{\ignorespaces Solvent contrast variation experiment and contrast matching scheme.}}{16}{figure.caption.15}
+\contentsline {figure}{\numberline {\relax 2.1}{\ignorespaces Depiction of the Beer-Lambert law.}}{8}{figure.caption.7}
+\contentsline {figure}{\numberline {\relax 2.2}{\ignorespaces Contributions to the X-ray attenuation coefficient of water.}}{9}{figure.caption.8}
+\contentsline {figure}{\numberline {\relax 2.3}{\ignorespaces Schematics of a scattering process and graphical definition of $\bm {q}$.}}{10}{figure.caption.10}
+\contentsline {figure}{\numberline {\relax 2.4}{\ignorespaces The scattering curve and its relevant regions.}}{14}{figure.caption.13}
+\contentsline {figure}{\numberline {\relax 2.5}{\ignorespaces Solvent contrast variation experiment and contrast matching scheme.}}{16}{figure.caption.14}
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Core-shell particle in solvent}}}{16}{subfigure.5.1}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Contrast matching of the shell}}}{16}{subfigure.5.2}
-\contentsline {figure}{\numberline {\relax 2.6}{\ignorespaces Isoscattering points and particle polydispersity.}}{17}{figure.caption.16}
+\contentsline {figure}{\numberline {\relax 2.6}{\ignorespaces Isoscattering points and particle polydispersity.}}{17}{figure.caption.15}
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Monodisperse nanoparticles}}}{17}{subfigure.6.1}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {High polydispersity: $p_d=30\tmspace +\thickmuskip {.2777em}\%$}}}{17}{subfigure.6.2}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {\relax 3.1}{\ignorespaces Scheme of the electron storage ring BESSY II.}}{23}{figure.caption.19}
-\contentsline {figure}{\numberline {\relax 3.2}{\ignorespaces Radiant power of BESSY II.}}{24}{figure.caption.20}
-\contentsline {figure}{\numberline {\relax 3.3}{\ignorespaces Diagram of the four-crystal monochromator beamline.}}{25}{figure.caption.21}
-\contentsline {figure}{\numberline {\relax 3.4}{\ignorespaces Photon flux of the FCM beamline.}}{26}{figure.caption.22}
-\contentsline {figure}{\numberline {\relax 3.5}{\ignorespaces Sample-to-detector distance calibration and scattering pattern of AgBehe at large distance.}}{28}{figure.caption.25}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Distance Calibration}}}{28}{subfigure.5.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {AgBehe at large distance}}}{28}{subfigure.5.2}
-\contentsline {figure}{\numberline {\relax 3.6}{\ignorespaces Homogeneity of the rectangular capillaries.}}{30}{figure.caption.26}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Glass thickness}}}{30}{subfigure.6.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Sample thickness}}}{30}{subfigure.6.2}
-\contentsline {figure}{\numberline {\relax 3.7}{\ignorespaces X-ray transmission of a rectangular capillary half-filled with water.}}{31}{figure.caption.27}
-\contentsline {figure}{\numberline {\relax 3.8}{\ignorespaces Sample environments for SAXS experiments in vacuum.}}{32}{figure.caption.28}
+\contentsline {figure}{\numberline {\relax 3.1}{\ignorespaces Scheme of the electron storage ring BESSY II.}}{23}{figure.caption.18}
+\contentsline {figure}{\numberline {\relax 3.2}{\ignorespaces Radiant power of BESSY II.}}{24}{figure.caption.19}
+\contentsline {figure}{\numberline {\relax 3.3}{\ignorespaces Diagram of the four-crystal monochromator beamline.}}{25}{figure.caption.20}
+\contentsline {figure}{\numberline {\relax 3.4}{\ignorespaces Scheme of the four-crystal monochromator.}}{25}{figure.caption.21}
+\contentsline {figure}{\numberline {\relax 3.5}{\ignorespaces Photon flux of the FCM beamline.}}{26}{figure.caption.22}
+\contentsline {figure}{\numberline {\relax 3.6}{\ignorespaces Sample-to-detector distance calibration and scattering pattern of AgBehe at large distance.}}{28}{figure.caption.25}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Distance Calibration}}}{28}{subfigure.6.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {AgBehe at large distance}}}{28}{subfigure.6.2}
+\contentsline {figure}{\numberline {\relax 3.7}{\ignorespaces Homogeneity of the rectangular capillaries.}}{30}{figure.caption.26}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Glass thickness}}}{30}{subfigure.7.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Sample thickness}}}{30}{subfigure.7.2}
+\contentsline {figure}{\numberline {\relax 3.8}{\ignorespaces X-ray transmission of a rectangular capillary half-filled with water.}}{31}{figure.caption.27}
+\contentsline {figure}{\numberline {\relax 3.9}{\ignorespaces Sample environments for SAXS experiments in vacuum.}}{32}{figure.caption.28}
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {\relax 4.1}{\ignorespaces Scheme of the contrast variation technique in SAXS with a density gradient capillary.}}{37}{figure.caption.29}
 \contentsline {figure}{\numberline {\relax 4.2}{\ignorespaces Calibration of the solvent electron density by X-ray transmission.}}{38}{figure.caption.30}

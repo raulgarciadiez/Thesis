@@ -8,9 +8,9 @@
 \contentsline {section}{\numberline {2.1}Interaction of X-rays and matter}{7}{section.2.1}
 \contentsline {subsection}{\numberline {2.1.1}Beer-Lambert law}{8}{subsection.2.1.1}
 \contentsline {subsection}{\numberline {2.1.2}Elastic scattering}{9}{subsection.2.1.2}
-\contentsline {subsubsection}{Thomson scattering}{10}{subsubsection*.10}
-\contentsline {subsubsection}{Scattering by an ensemble of electrons}{10}{subsubsection*.12}
-\contentsline {subsubsection}{Anomalous scattering}{11}{subsubsection*.13}
+\contentsline {subsubsection}{Thomson scattering}{10}{subsubsection*.9}
+\contentsline {subsubsection}{Scattering by an ensemble of electrons}{10}{subsubsection*.11}
+\contentsline {subsubsection}{Anomalous scattering}{11}{subsubsection*.12}
 \contentsline {section}{\numberline {2.2}Small-angle X-ray scattering}{12}{section.2.2}
 \contentsline {subsection}{\numberline {2.2.1}Scattering by an ensemble of particles}{13}{subsection.2.2.1}
 \contentsline {subsection}{\numberline {2.2.2}What is measured in a scattering experiment?: The scattering curve}{13}{subsection.2.2.2}
@@ -18,8 +18,8 @@
 \contentsline {section}{\numberline {2.3}Contrast variation}{16}{section.2.3}
 \contentsline {subsection}{\numberline {2.3.1}Isoscattering point}{16}{subsection.2.3.1}
 \contentsline {subsection}{\numberline {2.3.2}Basic functions approach}{17}{subsection.2.3.2}
-\contentsline {subsubsection}{Shape scattering function}{18}{subsubsection*.17}
-\contentsline {subsubsection}{Guinier approximation}{18}{subsubsection*.18}
+\contentsline {subsubsection}{Shape scattering function}{18}{subsubsection*.16}
+\contentsline {subsubsection}{Guinier approximation}{18}{subsubsection*.17}
 \contentsline {chapter}{\numberline {3}Instrumentation and experimental setup for SAXS measurements}{21}{chapter.3}
 \contentsline {section}{\numberline {3.1}Synchrotron radiation}{21}{section.3.1}
 \contentsline {subsection}{\numberline {3.1.1}Insertion devices}{22}{subsection.3.1.1}
