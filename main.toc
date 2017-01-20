@@ -13,7 +13,7 @@
 \contentsline {subsubsection}{Anomalous scattering}{11}{subsubsection*.12}
 \contentsline {section}{\numberline {2.2}Small-angle X-ray scattering}{12}{section.2.2}
 \contentsline {subsection}{\numberline {2.2.1}Scattering by an ensemble of particles}{13}{subsection.2.2.1}
-\contentsline {subsection}{\numberline {2.2.2}What is measured in a scattering experiment?: The scattering curve}{13}{subsection.2.2.2}
+\contentsline {subsection}{\numberline {2.2.2}The scattering curve}{13}{subsection.2.2.2}
 \contentsline {subsection}{\numberline {2.2.3}Modelling of the scattering intensity: Form factors}{14}{subsection.2.2.3}
 \contentsline {section}{\numberline {2.3}Contrast variation}{16}{section.2.3}
 \contentsline {subsection}{\numberline {2.3.1}Isoscattering point}{16}{subsection.2.3.1}

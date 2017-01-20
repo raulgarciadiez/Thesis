@@ -62,7 +62,7 @@ The facility BESSY II situated in Berlin (Germany) is a synchrotron X-ray and UV
 
 The creation of the free electrons on the electron beam is the first step, as depicted schematically in figure \ref{fig:BessyScheme}. A standard DC grid cathode emits electrons which are accelerated with a high voltage to the anode up to a 90 keV energy. These electrons are the source of a 50 MeV Linac, which brings the electron beam to relativistic velocities. The 0.4 nC charged electrons bunches are further transported to a 10 Hz booster synchrotron by a long Injection Line. The acceleration process in the rapid-cycling synchrotron takes about 50 ms and is achieved by the disposition of a set of magnets and 500 MHz rf-cavities coupled with the magnets in linear paths that ramp the electron beam to its final operation energy of 1.72 GeV.
 
-At this point the electrons are injected into the storage ring, where 32 bending magnets with a magnetic field strength of 1.3 T and a bending radius of \textcolor{red}{4.4 m????????} \citep{klein_elektronenspeicherringe_2014} are equipped to maintain the circular trajectory of the electron beam at 1.25 MHz revolution frequency. The critical energy $E_C$ of the bending magnets at BESSY II is \textcolor{red}{2.5 keV??????}. \textcolor{red}{The critical energy can be observed in figure \ref{fig:CriticalEnergy}}
+At this point the electrons are injected into the storage ring, where 32 bending magnets with a magnetic field strength of 1.3 T and a bending radius of 4.35 m \citep{klein_elektronenspeicherringe_2014} are equipped to maintain the circular trajectory of the electron beam at 1.25 MHz revolution frequency. The critical energy $E_C$ of the bending magnets at BESSY II is 2.5 keV. \textcolor{red}{The critical energy can be observed in figure \ref{fig:CriticalEnergy}}
 
 
 
@@ -70,7 +70,7 @@ At this point the electrons are injected into the storage ring, where 32 bending
 \begin{figure}%[htbp]
 	\centering
 		\input{Figures/CriticalEnergy}
-		\caption[Radiant power of BESSY II.]{Calculated radiant power of the bending magnets at BESSY II under standard operation (300 mA) through an aperture of 10 x 10 mm$^2$ situated at 30 m of the source. The critical energy $E_C$ is 2.5 keV and divides the spectrum into two parts with equal power.}
+		\caption[Radiant power of BESSY II.]{Radiant power of the bending magnets at BESSY II under standard operation (300 mA) through an aperture of 10 x 10 mm$^2$ situated at 30 m of the source \textcolor{red}{calculated with the \emph{Schwinger} program}. The critical energy $E_C$ is 2.5 keV and divides the spectrum into two parts with equal power.}
 		\label{fig:CriticalEnergy}
 \end{figure}
 
@@ -249,7 +249,7 @@ A polymeric 100 $\mu$m ring cut with a microtome is used as spacer between the 2
 \section{Data reduction: The scattering curve}
 \label{sec:data_reduction}
 
-For isotropically scattering samples e.g. nanoparticles in suspension, the scattering patterns collected in the area detector consist of concentric rings whose centre is the transmitted beam. The dimensionality of the data can be reduced by performing a radial integration of the measured pattern, converting the 2D images into 1D scattering curves. This reduction step is based on the $q$-binning: the grouping of pixels with similar scattering angle $q$ irrespective of their azimuthal angle on the detector \citep{pauw_everything_2013}. By averaging the scattered intensity of the pixels within the same $q$-bin ($I(q)$), the uncertainty of the data decreases in the scattering curve. The size of the bins depends on the requirements of the data evaluation while the bins are typically spaced uniformly, although logarithmic distributions are also extensively used. The difference in solid angle for each pixel due to the spherical projection of the scattering on a flat detector is also considered in this step.
+\textcolor{red}{In the case of nanoparticles in suspension and other isotropically scattering samples, the scattering patterns collected in the area detector consist of concentric rings whose centre is the transmitted beam. The dimensionality of the data can be reduced by performing a radial integration of the measured pattern, converting the 2D images into 1D scattering curves.} This reduction step is based on the $q$-binning: the grouping of pixels with similar scattering angle $q$ irrespective of their azimuthal angle on the detector \citep{pauw_everything_2013}. By averaging the scattered intensity of the pixels within the same $q$-bin ($I(q)$), the uncertainty of the data decreases in the scattering curve. The size of the bins depends on the requirements of the data evaluation while the bins are typically spaced uniformly, although logarithmic distributions are also extensively used. The difference in solid angle for each pixel due to the spherical projection of the scattering on a flat detector is also considered in this step.
 
 The uncertainty associated to the intensity $I(q)$ is calculated as the standard deviation between each pixel intensity in the $q$-bin, which gives a better estimate than the uncertainty associated to the photon-counting Poisson statistics \citep{pauw_everything_2013}. The pixels discarded (or \emph{masked out}) for the weighted average of the $n$th $q$-bin ($q_n$) are those whose intensity is not comprised within the range 
 

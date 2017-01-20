@@ -213,9 +213,9 @@ whose mean radius is given by $\overline{R} e^{\frac{\sigma_R^2}{2}}$ and the va
 
 A useful parameter for comparative purposes between samples is the polydispersity degree $p_d$, which is defined as the full width at half maximum (FWHM) of the number-weighted particle size distribution divided by its average value. For a normal size distribution, the FWHM is simply $8\sqrt{2}$ times its standard deviation $\sigma_R$.
 
-\subsection{What is measured in a scattering experiment?: The scattering curve}
+\subsection{The scattering curve}
 
-The differential scattering cross-section $\sfrac{d\sigma}{d\Omega}$ is the fundamental measurand in a SAXS experiment, as described in section \ref{sec:ElasticScattering}. Nevertheless, some comparability challenges arise from this quantity as it depends on the sample volume used in the experiment. This can be solved by introducing the differential scattering cross-section per volume, historically given in cm$^{-1}$. The expression of this quantity is derived from equations \ref{eq:rayleigh_cross_section} and \ref{eq:intensity} and leads to:
+The differential scattering cross-section $\sfrac{d\sigma}{d\Omega}$ is the fundamental measurand in a SAXS experiment, as described in section \ref{sec:ElasticScattering}. Nevertheless, some comparability challenges arise from this quantity as it depends on the \textcolor{red}{sample volume $V$} used in the experiment. This can be solved by introducing the differential scattering cross-section per volume, historically given in cm$^{-1}$. The expression of this quantity is derived from equations \ref{eq:rayleigh_cross_section} and \ref{eq:intensity} and leads to:
 
 \begin{equation}
         \frac{d\Sigma}{d\Omega} (q) = \frac{\sfrac{d\sigma}{d\Omega}(q)}{V} = r_e^2 \cdot \frac{N}{V} \cdot \int_0^{\infty} g(R) \abs{ f(q,R) }^2 dR
@@ -223,15 +223,31 @@ The differential scattering cross-section $\sfrac{d\sigma}{d\Omega}$ is the fund
 
 where $\sfrac{N}{V}$ is the concentration of scatterers, i.e. particles.
 
-\begin{figure}
-	\centering
-        	\resizebox{.85\linewidth}{!}{\input{Figures/ScatteringCurve50nm}}
+%\begin{figure}
+%	\centering
+%        	\resizebox{.85\linewidth}{!}{\input{Figures/ScatteringCurve50nm}}
 		%\input{Figures/ScatteringCurve50nm}
-		\caption[The scattering curve and its relevant regions.]{Simulated scattering curve of a nanoparticle ensemble with radius 50 nm and a polydispersity degree of 10 $\%$. The three different regions discussed in the text are highlighted in the figure as well.}
-		\label{fig:ScatteringCurve50nm}
-\end{figure}
+%		\caption[The scattering curve and its relevant regions.]{Simulated scattering curve of a nanoparticle ensemble with radius 50 nm and a polydispersity degree of 10 $\%$. The three different regions discussed in the text are highlighted in the figure as well.}
+%		\label{fig:ScatteringCurve50nm}
+%\end{figure}
 
-The scattering curve is the typical form to present the experimental data, which displays the differential scattering cross-section per volume $\sfrac{d\Sigma}{d\Omega}$ versus the momentum transfer $q$ in a log–log graph as depicted in figure \ref{fig:ScatteringCurve50nm} for an ensemble of spherical particles with radius 50 nm and polydispersity degree 10 $\%$. Three different regions can be distinguished in a scattering curve \citep{schnablegger_practical_2006}:
+
+\begin{figure*}%[htbp]
+	\centering
+		\subfloat[SCATTERING PATTERN]{\resizebox{0.45\linewidth}{!}{\figfont{12pt}\input{Figures/ScatteringCurve50nm}}\label{fig:ScatteringCurve50nm}}
+		\qquad
+		\subfloat[The scattering curve and its relevant regions.]{\resizebox{0.45\linewidth}{!}{\figfont{12pt}\input{Figures/ScatteringCurve50nm}}\label{fig:ScatteringCurve50nm}}
+\caption[The scattering curve and its relevant regions.]{Simulated scattering curve of a nanoparticle ensemble with radius 50 nm and a polydispersity degree of 10 $\%$. The three different regions discussed in the text are highlighted in the figure as well.}
+\end{figure*}
+
+
+
+\textcolor{red}{For isotropically scattering samples, the scattering patterns consist of concentric rings, as shown in figure \ref{fig:ScatteringCurve50nm}. By azimuthally averaging the scattering pattern, the data is reduced from 2D images to 1D scattering curves.} The scattering curve is the typical form to present the experimental data, which displays the differential scattering cross-section per volume $\sfrac{d\Sigma}{d\Omega}$ versus the momentum transfer $q$ in a log–log graph as depicted in figure \ref{fig:ScatteringCurve50nm} for an ensemble of spherical particles with radius 50 nm and polydispersity degree 10 $\%$. Three different regions can be distinguished in a scattering curve \citep{schnablegger_practical_2006}:
+
+
+
+
+
 
 \begin{itemize}
         \item The \textbf{Guinier region} comprises the low-$q$ region where $qD<1.3$ \citep{feigin_structure_1987}, being $D$ the characteristic length of the investigated object. This region provides principally information about the size of the particle.
