@@ -1,0 +1,64 @@
+This is BibTeX, Version 0.99d (TeX Live 2013/TeX Live for SUSE Linux)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: main.aux
+The style file: meinbst.bst
+A level-1 auxiliary file: chapter_introduction.aux
+A level-1 auxiliary file: chapter_theory_SAXS.aux
+A level-1 auxiliary file: chapter_experimental_setup.aux
+A level-1 auxiliary file: chapter_density_gradient_SAXS.aux
+A level-1 auxiliary file: chapter_simultaneous_size_density.aux
+A level-1 auxiliary file: chapter_bio_applications.aux
+A level-1 auxiliary file: chapter_conclusions.aux
+A level-1 auxiliary file: thanksgiving.aux
+A level-1 auxiliary file: tub-eidesstattliche.aux
+A level-1 auxiliary file: tub-publist.aux
+Database file #1: thesis.bib
+Warning--entry type for "fitzpatrick_structure_1998" isn't style-file defined
+--line 2399 of file thesis.bib
+`number' is a missing field, not a string, for entry dingenouts_analysis_1999
+while executing---line 3135 of file meinbst.bst
+Warning--can't use both author and editor fields in feigin_structure_1987
+`number' is a missing field, not a string, for entry stuhrmann_resonance_1985
+while executing---line 3135 of file meinbst.bst
+You've used 206 entries,
+            2851 wiz_defined-function locations,
+            1762 strings with 46895 characters,
+and the built_in function-call counts, 113045 in all, are:
+= -- 10786
+> -- 6387
+< -- 96
++ -- 2486
+- -- 2238
+* -- 10870
+:= -- 20378
+add.period$ -- 418
+call.type$ -- 206
+change.case$ -- 1784
+chr.to.int$ -- 221
+cite$ -- 207
+duplicate$ -- 4498
+empty$ -- 7581
+format.name$ -- 2530
+if$ -- 21936
+int.to.chr$ -- 7
+int.to.str$ -- 1
+missing$ -- 214
+newline$ -- 622
+num.names$ -- 824
+pop$ -- 1426
+preamble$ -- 1
+purify$ -- 1570
+quote$ -- 0
+skip$ -- 2598
+stack$ -- 0
+substring$ -- 7034
+swap$ -- 1030
+text.length$ -- 8
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 1821
+warning$ -- 1
+while$ -- 996
+width$ -- 0
+write$ -- 2270
+(There were 2 error messages)
