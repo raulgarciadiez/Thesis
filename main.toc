@@ -17,7 +17,7 @@
 \contentsline {subsection}{\numberline {2.2.3}Modelling of the scattering intensity: Form factors}{14}{subsection.2.2.3}
 \contentsline {section}{\numberline {2.3}Contrast variation}{16}{section.2.3}
 \contentsline {subsection}{\numberline {2.3.1}Isoscattering point}{16}{subsection.2.3.1}
-\contentsline {subsection}{\numberline {2.3.2}Basic functions approach}{17}{subsection.2.3.2}
+\contentsline {subsection}{\numberline {2.3.2}Basic functions approach}{18}{subsection.2.3.2}
 \contentsline {subsubsection}{Shape scattering function}{18}{subsubsection*.16}
 \contentsline {subsubsection}{Guinier approximation}{18}{subsubsection*.17}
 \contentsline {chapter}{\numberline {3}Instrumentation and experimental setup for SAXS measurements}{21}{chapter.3}

@@ -231,23 +231,15 @@ where $\sfrac{N}{V}$ is the concentration of scatterers, i.e. particles.
 %		\label{fig:ScatteringCurve50nm}
 %\end{figure}
 
-
 \begin{figure*}%[htbp]
 	\centering
-		\subfloat[SCATTERING PATTERN]{\resizebox{0.45\linewidth}{!}{\figfont{12pt}\input{Figures/ScatteringCurve50nm}}\label{fig:ScatteringPatternExp}}
+		\subfloat[The scattering pattern]{\resizebox{0.35\linewidth}{!}{\includegraphics{Figures/Au100ScatteringPattern_edit2}}\label{fig:Au100ScatteringPattern}}
 		\qquad
-		\subfloat[The scattering curve and its relevant regions.]{\resizebox{0.45\linewidth}{!}{\figfont{12pt}\input{Figures/ScatteringCurve50nm}}\label{fig:ScatteringCurve50nm}}
-\caption[The scattering curve and its relevant regions.]{\textcolor{red}{SIMULATED???? scattering curve of a nanoparticle ensemble with radius 50 nm and a polydispersity degree of 10 $\%$.} The three different regions discussed in the text are highlighted in the figure as well.}
+		\subfloat[The scattering curve and its relevant regions.]{\resizebox{0.5\linewidth}{!}{\figfont{12pt}\input{Figures/ScatteringCurve50nm}}\label{fig:ScatteringCurve50nm}}
+\caption[The scattering curve and its relevant regions.]{a) Radially symmetric scattering pattern of a nanoparticle ensemble in suspension with radius 50 nm and a polydispersity degree of 25 $\%$. b) The scattering curve is the azimuthal integration of the 2D image. The three different regions of the scattering curve discussed in the text are highlighted in the figure as well.}
 \end{figure*}
 
-
-
-\textcolor{red}{For isotropically scattering samples, the scattering patterns consist of concentric rings, as shown in figure \ref{fig:ScatteringPatternExp}. By azimuthally averaging the scattering pattern, the data is reduced from 2D images to 1D scattering curves.} The scattering curve is the typical form to present the experimental data, which displays the differential scattering cross-section per volume $\sfrac{d\Sigma}{d\Omega}$ versus the momentum transfer $q$ in a log–log graph as depicted in figure \ref{fig:ScatteringCurve50nm} for an ensemble of spherical particles with radius 50 nm and polydispersity degree 10 $\%$. Three different regions can be distinguished in a scattering curve \citep{schnablegger_practical_2006}:
-
-
-
-
-
+For isotropically scattering samples, the scattering patterns consist of concentric rings, as shown in figure \ref{fig:Au100ScatteringPattern}. By azimuthally averaging the scattering pattern, the data is reduced from 2D images to 1D scattering curves. The scattering curve is the typical form to present the experimental data, which displays the differential scattering cross-section per volume $\sfrac{d\Sigma}{d\Omega}$ versus the momentum transfer $q$ in a log–log graph as depicted in figure \ref{fig:ScatteringCurve50nm} for an ensemble of spherical particles with radius 50 nm and polydispersity degree 25 $\%$. Three different regions can be distinguished in a scattering curve \citep{schnablegger_practical_2006}:
 
 \begin{itemize}
         \item The \textbf{Guinier region} comprises the low-$q$ region where $qD<1.3$ \citep{feigin_structure_1987}, being $D$ the characteristic length of the investigated object. This region provides principally information about the size of the particle.
@@ -332,31 +324,17 @@ One of the best known features appearing in a contrast variation experiment with
 
 The solutions for this equation fulfill $q^{\star} R =4.493, 7.725, 10.904, ...$, where the positions of the isoscattering points correspond to the minima positions of the scattering intensity of a compact spherical particle with radius \( R \). This expression relates in a simple way the position of $q^{\star}$ to the size of the particle inaccessible to the suspending medium and, thus, a good method to determine the diameter of the colloid.
 
+Although this expression is derived for the monodisperse case, it can still be applied up to a moderate degree of polydispersity, if care is taken regarding the shift of the minima position due to polydispersity \citep{beurten_polydispersity_1981}. For size distributions with \( p_d\) larger than \( \approx 30\,\% \), the isoscattering point is not well defined and the intersection point of the curves is smeared out, showing a diffuseness in the isoscattering point position \citep{kawaguchi_isoscattering_1992}. The effect of polydispersity in the isoscattering point is illustrated by simulating a 100 nm core-shell particle for the ideal case of a monodisperse ensemble (figure \ref{fig:IsopointSimulationIdeal}) and with a degree of polydispersity of 30 $\%$ (figure \ref{fig:IsopointSimulationPolydisperse}). The shift of the isoscatterig point position to smaller $q$-values and the diffuseness of the intersection point due to the high $p_d$ are clearly evident in the inset of figure \ref{fig:IsopointSimulationPolydisperse}.
 
-
-
+Similarly, any deviation from the spherical shape produces a diffuseness in the $q^{\star}$ position. Unfortunately, this effect cannot be distinguished from the smearing produced by the size polydispersity and the investigation of the particle shape needs to be performed by other means.
 
 \begin{figure*}%[htbp]
 	\centering
 		\subfloat[Monodisperse nanoparticles]{\resizebox{0.45\linewidth}{!}{\figfont{12pt}\input{Figures/IsopointSimulationIdeal}}\label{fig:IsopointSimulationIdeal}}
 		\qquad
-		\subfloat[High polydispersity: $p_d=30\;\%$]{\resizebox{0.45\linewidth}{!}{\figfont{12pt}\input{Figures/IsopointSimulationPolydisperse}}\label{fig:IsopointSimulationPolydisperse}}
+		\subfloat[Polydisperse ensemble: $p_d=30\;\%$]{\resizebox{0.45\linewidth}{!}{\figfont{12pt}\input{Figures/IsopointSimulationPolydisperse}}\label{fig:IsopointSimulationPolydisperse}}
 	\caption[Isoscattering points and particle polydispersity.]{A isoscattering point is the $q$-value where all the scattering curves measured at different contrasts $\Delta \eta$ intersect. a) In the monodisperse case, the first isoscattering point is well-defined as depicted in the inset, while the inset of b) shows how the high polydispersity of the ensemble produces a diffuse isoscattering point and the intersection point is smeared out.}
 \end{figure*}
-
-
-
-
-
-
-
-
-Although this expression is derived for the monodisperse case, it can still be applied up to a moderate degree of polydispersity, if care is taken regarding the shift of the minima position due to polydispersity \citep{beurten_polydispersity_1981}. For size distributions with \( p_d\) larger than \( \approx 30\,\% \), the isoscattering point is not well defined and the intersection point of the curves is smeared out, showing a diffuseness in the isoscattering point position \citep{kawaguchi_isoscattering_1992}.
-
-\textcolor{red}{REFERENCE - ISOSCATTERING SIMULATION FIGURES \ref{fig:IsopointSimulationIdeal} and \ref{fig:IsopointSimulationPolydisperse}}
-
-Similarly, any deviation from the spherical shape produces a diffuseness in the $q^{\star}$ position. Unfortunately, this effect cannot be distinguished from the smearing produced by the size polydispersity and the investigation of the particle shape needs to be performed by other means.
-
 
 \subsection{Basic functions approach}
 \label{sec:basic_functions_theory}
@@ -369,9 +347,8 @@ I(q)=I_c(q)+\Delta\eta I_{sc}(q)+(\Delta\eta)^2 I_{s}(q)
 \end{equation}
 The $I_c$ function contains the contributions from the density fluctuations inside the particle, the contribution $I_s$ is the so-called \emph{shape scattering function} and $I_{sc}$ is the cross-term function.
 
-
 \subsubsection{Shape scattering function}
-The $I_s(q)$ function corresponds to the scattering contributions from particles with homogeneous density and a size equivalent to the volume inaccessible to the solvent, typically the external size of the nanoparticle. By modelling the shape scattering function, the shape and size distribution of the particles can be determined independently of their inner structure.
+The $I_s(q)$ function corresponds to the scattering contributions from particles with homogeneous density and a size equivalent to the volume inaccessible to the solvent, typically the external size of the nanoparticle. By modelling the shape scattering function, the shape and size distribution of the particles can be determined independently of their inner structure. The functions $I_{sc}(q)$ and $I_{c}(q)$ are more rarely employed due to their complex interpretation. $I_{c}(q)$ contains the electron density deviations in the particle from the average electron density, while $I_{sc}(q)$ includes crossed contributions from both $I_{c}(q)$ and $I_{s}(q)$.
 
 In a system measured at $N$ different solvent electron densities i.e. contrasts, the shape scattering function $I_s$ at each $q$-value can be calculated by solving the following matrix equation:
 
@@ -395,8 +372,6 @@ In a system measured at $N$ different solvent electron densities i.e. contrasts,
 \end{equation}
 
 where $I_i (q)$ is the measured scattering intensity at each solvent electron density and $\Delta \eta _i$ is the contrast corresponding to each suspending medium density. A minimum of 3 independent scattering curves measured at different contrasts are required to solve this system of equations, while an accurate determination of the suspending medium electron density is also necessary for the calculation of the different $\Delta \eta _i$.
-
-\textcolor{red}{THE OTHER TWO COMPONENTS ARE NORMALLY MORE CHALLENGING TO INTERPRET AS THEY HAVE EITHER CONTRIBUTIONS FROM THE CROSS-TERM OR FROM THE FLUCTUATION OF THE ELECTRON DENSITY INSIDE THE NANOPARTICLE FROM A BASE DENSITY}
 
 \subsubsection{Guinier approximation}
 \label{sec:TheoryGuinier}
