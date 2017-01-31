@@ -118,7 +118,14 @@ A core-shell model fit to the scattering curves is displayed in figure \ref{fig:
 		\label{fig:KiskerSAXSCoreshellFit}
 \end{figure}
 
-The obtained results are \(R=\left(49.7 \pm 2.8\right) \) nm, \(R_{\text{core}}=\left(44.2 \pm 0.9\right) \) nm, \(\rho_{\text{core}}=\left(339.7 \pm 0.1\right)\) nm\(^{-3}\) and \(\rho_{\text{shell}}=\left(361.9 \pm 2.0\right)\) nm\(^{-3}\), which represent the radial structure of a dense, thin shell surrounding a lighter core, as seen in the inset of figure \ref{fig:KiskerSAXSCoreshellFit}. The resulting average electron density of the particle is \(\rho_{0}=\left(345.9 \pm 1.5\right)\) nm\(^{-3}\) and the polydispersity degree, \(p_d=\left(22.8\pm 6.0\right)\,\%\). The best fitting background corresponds to a value of \( \gamma = 4.3\pm 0.5 \), close to the case \( \gamma = 4 \) originating from large impurities or precipitates \citep{pedersen_determination_1994}. The fit uncertainty was calculated with a confidence interval of one standard deviation. 
+The obtained results are \(R=\left(49.7 \pm 2.8\right) \) nm, \(R_{\text{core}}=\left(44.2 \pm 0.9\right) \) nm, \(\rho_{\text{core}}=\left(339.7 \pm 0.1\right)\) nm\(^{-3}\) and \(\rho_{\text{shell}}=\left(361.9 \pm 2.0\right)\) nm\(^{-3}\), which represent the radial structure of a dense, thin shell surrounding a lighter core, as seen in the inset of figure \ref{fig:KiskerSAXSCoreshellFit}. The resulting average electron density of the particle is \(\rho_{0}=\left(345.9 \pm 1.5\right)\) nm\(^{-3}\) and the polydispersity degree, \(p_d=\left(22.8\pm 6.0\right)\,\%\). The best fitting background corresponds to a value of \( \gamma = 4.3\pm 0.5 \), close to the case \( \gamma = 4 \) originating from large impurities or precipitates \citep{pedersen_determination_1994}. 
+
+
+
+The fit uncertainty was calculated with a confidence interval of one standard deviation. 
+
+\textcolor{red}{The main uncertainty contribution is caused by the fitting process with 0.12 nm.}
+
 
 It is noticeable that the calculated electron density of the core coincides exactly with the theoretical polystyrene electron density, although the electron density of the shell is remarkably lower than the theoretical value of 383.4 nm\(^{-3}\) for PMMA \citep{ballauff_saxs_2001-1}. This might arise from the lower density of the monomers used in the particle synthesis (MAA and MMA), which could have mixed with the styrene monomers resulting in a less dense material than PMMA. This model might present some differences with the real colloid system, as a diffusive interfacial layer could be expected between polymer phases in colloids \citep{dingenouts_interface_1994}, especially for incompatible polymers such as PMMA and PS. On the other hand, the large quantity of scattering curves used for the fitting process and, accordingly, the decreased uncertainty suggests that the chosen sharp core-shell model has a great resemblance to the real particle.
 
@@ -159,14 +166,18 @@ where \(\bar{I} (q)\) is the mean value of the intensity at \(q\) and \( M \) is
     }
     \subfloat[Isoscattering point positions]{
 	\renewcommand{\arraystretch}{1.3}
-        \begin{tabular}[b]{l|cc}
-         & \( q^{\star} \) (nm\(^{-1}\))    &  \(R\) (nm) \\
+        \begin{tabular}[b]{l|ccc}
+         & \( q^{\star} \) (nm\(^{-1}\))    &  \(R\) (nm)    &  \textcolor{red}{\(\delta R\) (nm)} \\
         \hline
-         \(q^{\star}_1\) &  0.0900 & 49.9 \\
-         \(q^{\star}_2\) &  0.1516 & 51.0  \\
-         \(q^{\star}_3\) &  0.2267 & 48.1   \\
-         \(q^{\star}_4\) &  0.2822 & 49.9    \\
-         \(q^{\star}_5\) &  0.3421 & 50.3     \\
+         \(q^{\star}_1\) &  0.0900 & 49.9 & 5.5 \\
+         \(q^{\star}_2\) &  0.1516 & 51.0 & 4.6  \\
+         \(q^{\star}_3\) &  0.2267 & 48.1 & 3.8   \\
+         \(q^{\star}_4\) &  0.2822 & 49.9 & 5.0    \\
+         \(q^{\star}_5\) &  0.3421 & 50.3 & 7.5     \\
+         
+         \hline
+         
+         \textcolor{red}{mean} & \textcolor{red}{XXX}  & \textcolor{red}{49.7} & \textcolor{red}{???}     \\
          \end{tabular}
          \label{tab:isopoint_Kisker}
     }
@@ -223,9 +234,9 @@ It can be concluded that the different approaches show consistent and complement
  & \( R\) (nm)    & \(\rho_0\) (nm\(^{-3}\)) & \(p_d\) (\(\%\))\\
 \hline
  Core-shell fitting &  49.7\(\pm 2.8\)   &     345.9\(\pm 1.5\)      & 22.8\(\pm 6.0\) \\
- Isoscattering point &  50.5* &     -          & $<24$  \\
+ Isoscattering point &  \textcolor{red}{50.5\(\pm 3.6\)*} &     -          & $<24$  \\
  Radius of gyration &  47.6**      &     343.7      & -    \\
- Zero-angle intensity &  -    &     346.0      & -    \\ \hline
+ Zero-angle intensity &  -    &     \textcolor{red}{346.0\(\pm 1.5\)}      & -    \\ \hline
 \multicolumn{4}{r}{*Mean value of \(q^{\star}_1\) and \(q^{\star}_2\)}\\  
 \multicolumn{4}{r}{**Using the polydispersity degree from the core-shell model fitting}\\ 
 \end{tabular}

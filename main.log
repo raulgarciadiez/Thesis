@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/TeX Live for SUSE Linux) (format=pdflatex 2016.7.6)  31 JAN 2017 09:39
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/TeX Live for SUSE Linux) (format=pdflatex 2016.7.6)  31 JAN 2017 15:23
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2383,7 +2383,7 @@ Package pdftex.def Info: Figures/KiskerGuinierRadius.pdf used on input line 115
 .
 (pdftex.def)             Requested size: 284.06053pt x 226.84694pt.
 )
-Underfull \hbox (badness 2042) in paragraph at lines 197--197
+Underfull \hbox (badness 2042) in paragraph at lines 208--208
 \T1/cmss/m/n/9 (+20) ver-tical and ho-ri-zontal
  []
 
@@ -2396,23 +2396,23 @@ Package pdftex.def Info: Figures/KiskerIntensityParabola.pdf used on input line
  111.
 (pdftex.def)             Requested size: 284.06053pt x 226.84694pt.
 )
-Underfull \hbox (badness 3568) in paragraph at lines 209--209
+Underfull \hbox (badness 3568) in paragraph at lines 220--220
 []\T1/cmss/bx/n/9 Figure 4.10 | |\T1/cmss/m/n/9 (+20) Ex-per-i-
  []
 
 
-Underfull \hbox (badness 1735) in paragraph at lines 209--209
+Underfull \hbox (badness 1735) in paragraph at lines 220--220
 \T1/cmss/m/n/9 (+20) ing to equa-tion []
  []
 
 
-Underfull \hbox (badness 2772) in paragraph at lines 209--209
+Underfull \hbox (badness 2772) in paragraph at lines 220--220
 \T1/cmss/m/n/9 (+20) is fit-ted to the data
  []
 
 [45 <./Figures/KiskerGuinierRadius.pdf>] [46 <./Figures/KiskerIntensityParabola
 .pdf>]
-Overfull \hbox (12.01093pt too wide) in paragraph at lines 235--235
+Overfull \hbox (12.01093pt too wide) in paragraph at lines 246--246
  |[]\T1/ppl/m/n/17.28 Applicability and com-par-ison with other con-trast vari-
 
  []
@@ -2426,7 +2426,7 @@ Package pdftex.def Info: Figures/LudoxHS40TransmissionCalibration.pdf used on i
 nput line 132.
 (pdftex.def)             Requested size: 426.5927pt x 226.84694pt.
 )
-Overfull \hbox (21.23224pt too wide) in paragraph at lines 134--263
+Overfull \hbox (21.23224pt too wide) in paragraph at lines 134--274
  [][] 
  []
 
@@ -2591,7 +2591,7 @@ Package pdftex.def Info: Figures/IsopointSimulationRange.pdf used on input line
 (pdftex.def)             Requested size: 284.06053pt x 226.84694pt.
 ) [60]
 (./Figures/PSPlainAverageDensity.tex
-<Figures/PSPlainAverageDensity.pdf, id=2206, 284.06125pt x 226.8475pt>
+<Figures/PSPlainAverageDensity.pdf, id=2205, 284.06125pt x 226.8475pt>
 File: Figures/PSPlainAverageDensity.pdf Graphic file (type pdf)
 
 <use Figures/PSPlainAverageDensity.pdf>
@@ -2599,12 +2599,12 @@ Package pdftex.def Info: Figures/PSPlainAverageDensity.pdf used on input line 1
 07.
 (pdftex.def)             Requested size: 284.06053pt x 226.84694pt.
 )
-Underfull \hbox (badness 2384) in paragraph at lines 239--239
+Underfull \hbox (badness 2384) in paragraph at lines 248--248
 []\T1/cmss/bx/n/9 Figure 5.9 | |\T1/cmss/m/n/9 (+20) In-tens-ity
  []
 
 
-Underfull \hbox (badness 2547) in paragraph at lines 239--239
+Underfull \hbox (badness 2547) in paragraph at lines 248--248
 \T1/cmss/m/n/9 (+20) tron dens-ity meas-ured
  []
 
@@ -2617,43 +2617,43 @@ File: Figures/DensityComparison.pdf Graphic file (type pdf)
 Package pdftex.def Info: Figures/DensityComparison.pdf used on input line 120.
 (pdftex.def)             Requested size: 284.06053pt x 226.84694pt.
 )
-Underfull \hbox (badness 1048) in paragraph at lines 256--256
+Underfull \hbox (badness 1048) in paragraph at lines 265--265
 \T1/cmss/m/n/9 (+20) col-loids meas-ured with
  []
 
 
-Underfull \hbox (badness 3439) in paragraph at lines 256--256
+Underfull \hbox (badness 3439) in paragraph at lines 265--265
 \T1/cmss/m/n/9 (+20) SAXS us-ing the $\OML/zplm/m/it/9 I\OT1/zplm/m/n/9 (\OT1/p
 pl/m/n/9 (+20) 0\OT1/zplm/m/n/9 )$
  []
 
 
-Underfull \hbox (badness 5817) in paragraph at lines 256--256
+Underfull \hbox (badness 5817) in paragraph at lines 265--265
 \T1/cmss/m/n/9 (+20) ap-proach (black) and
  []
 
 
-Underfull \hbox (badness 2689) in paragraph at lines 256--256
+Underfull \hbox (badness 2689) in paragraph at lines 265--265
 \T1/cmss/m/n/9 (+20) DCS (red): PS-Plain
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 256--256
+Underfull \hbox (badness 10000) in paragraph at lines 265--265
 \T1/cmss/m/n/9 (+20) (squares), PS-COOH
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 256--256
+Underfull \hbox (badness 10000) in paragraph at lines 265--265
 \T1/cmss/m/n/9 (+20) (circles) and PMMA-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 256--256
+Underfull \hbox (badness 10000) in paragraph at lines 265--265
 \T1/cmss/m/n/9 (+20) COOH (dia-monds).
  []
 
 
-Underfull \hbox (badness 3536) in paragraph at lines 256--256
+Underfull \hbox (badness 3536) in paragraph at lines 265--265
 \T1/cmss/m/n/9 (+20) The nom-inal dens-it-ies
  []
 
@@ -3047,11 +3047,11 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 45.
  ) 
 Here is how much of TeX's memory you used:
- 35531 strings out of 493315
- 649289 string characters out of 6145894
+ 35528 strings out of 493315
+ 649265 string characters out of 6145894
  748207 words of memory out of 5000000
  36716 multiletter control sequences out of 15000+600000
- 316551 words of font info for 1119 fonts, out of 8000000 for 9000
+ 316402 words of font info for 1117 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
  77i,22n,89p,1861b,870s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}{/usr/share/texmf
@@ -3073,7 +3073,7 @@ fb></usr/share/texmf/fonts/type1/public/cm-super/sfsx1200.pfb></usr/share/texmf
 atino/uplb8a.pfb></usr/share/texmf/fonts/type1/urw/palatino/uplbi8a.pfb></usr/s
 hare/texmf/fonts/type1/urw/palatino/uplr8a.pfb></usr/share/texmf/fonts/type1/ur
 w/palatino/uplri8a.pfb>
-Output written on main.pdf (128 pages, 7132511 bytes).
+Output written on main.pdf (128 pages, 7132946 bytes).
 PDF statistics:
  3186 PDF objects out of 3580 (max. 8388607)
  2780 compressed objects within 28 object streams
