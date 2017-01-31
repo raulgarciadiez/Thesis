@@ -22,43 +22,43 @@ Warning--can't use both author and editor fields in feigin_structure_1987
 while executing---line 3135 of file meinbst.bst
 You've used 206 entries,
             2851 wiz_defined-function locations,
-            1762 strings with 46895 characters,
-and the built_in function-call counts, 113045 in all, are:
-= -- 10786
+            1763 strings with 46779 characters,
+and the built_in function-call counts, 113119 in all, are:
+= -- 10795
 > -- 6387
 < -- 96
 + -- 2486
 - -- 2238
-* -- 10870
-:= -- 20378
+* -- 10880
+:= -- 20385
 add.period$ -- 418
 call.type$ -- 206
 change.case$ -- 1784
 chr.to.int$ -- 221
 cite$ -- 207
-duplicate$ -- 4498
-empty$ -- 7581
+duplicate$ -- 4502
+empty$ -- 7590
 format.name$ -- 2530
-if$ -- 21936
+if$ -- 21953
 int.to.chr$ -- 7
 int.to.str$ -- 1
-missing$ -- 214
+missing$ -- 215
 newline$ -- 622
 num.names$ -- 824
-pop$ -- 1426
+pop$ -- 1425
 preamble$ -- 1
 purify$ -- 1570
 quote$ -- 0
-skip$ -- 2598
+skip$ -- 2599
 stack$ -- 0
-substring$ -- 7034
-swap$ -- 1030
+substring$ -- 7047
+swap$ -- 1032
 text.length$ -- 8
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 1821
 warning$ -- 1
-while$ -- 996
+while$ -- 998
 width$ -- 0
 write$ -- 2270
 (There were 2 error messages)

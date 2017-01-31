@@ -1,32 +1,31 @@
 \chapter{Instrumentation and experimental setup for SAXS measurements}
 \label{chap:experimental_setup}
 
-Since the appearance of third generation facilities devoted to dedicated insertion devices and optimized for brightness, synchrotron radiation sources have become of importance in Small-angle X-ray Scattering experiments due to their high brilliance and collimation, favoring the application of SAXS in a wide variety of scientific fields. The most relevant instrumentation required in a small-angle X-ray scattering experiment are the X-ray source, a sample environment and an area detector which collects the elastically scattered photons. 
+Since the appearance of third generation synchrotron radiation facilities devoted to dedicated insertion devices and optimized for brightness, synchrotron radiation sources have become of importance in Small-angle X-ray Scattering experiments due to their high brilliance and collimation, favoring the application of SAXS in a wide variety of scientific fields. The most relevant instrumentation required in a small-angle X-ray scattering experiment are the X-ray source, a sample environment and an area detector which collects the elastically scattered photons. 
 
-The first part of this chapter (section \ref{sec:BESSY}) describes the synchrotron radiation source, the electron storage ring BESSY II. After this short review on synchrotron radiation, the four-crystal monochromator (FCM) beamline operated in the PTB laboratory at BESSY II is introduced (section \ref{sec:fcm}), where all the reported results were measured. Following this, the area detector mounted on the HZB-SAXS instrument is reviewed (section \ref{sec:SAXS_experimental}), highlighting the newly developed \emph{in-vacuum} Pilatus X-ray detector and the low uncertainty associated to the sample-detector distance that can be achieved with this setup. Finally, section \ref{sec:sample_environment} presents a detailed insight into the different sample environments needed for the nanoparticles in suspension studied in this work. A brief overview of the data reduction is given in section \ref{sec:data_reduction}, emphasizing the \emph{a posteriori} corrections required by the scattering curve.
-
+The first part of this chapter (section \ref{sec:synchrotron}) reviews the fundamentals of synchrotron radiation, while section \ref{sec:BESSY} describes the synchrotron radiation source, the electron storage ring BESSY II. After these introductory sections, the four-crystal monochromator (FCM) beamline operated in the PTB laboratory at BESSY II is introduced (section \ref{sec:fcm}), where all the reported results were measured. Following this, the area detector mounted on the HZB-SAXS instrument is reviewed (section \ref{sec:SAXS_experimental}), highlighting the newly developed \emph{in-vacuum} Pilatus X-ray detector and the low uncertainty associated to the sample-detector distance that can be achieved with this setup. Finally, section \ref{sec:sample_environment} presents a detailed insight into the different sample environments needed for the nanoparticles in suspension studied in this work. A brief overview of the data reduction is given in section \ref{sec:data_reduction}, emphasizing the \emph{a posteriori} corrections required by the scattering curve.
 
 \section{Synchrotron radiation}
-\label{sec:BESSY}
+\label{sec:synchrotron}
 
-Synchrotron radiation is the electromagnetic dipole radiation which is emitted by ultra-relativistic charged particles when they are accelerated by an external field. The kinetic energy loss of the charged particles (typically electrons) due to the Bremsstrahlung process \citep{blumenthal_bremsstrahlung_1970} is tangentially radiated in form of a light cone with high brilliance and a wide photon energy range. The radiant power of a single relativistic electron in a homogeneous magnetic field is expressed by the Larmor formula:
+Synchrotron radiation is the electromagnetic dipole radiation which is emitted by ultra-relativistic charged particles when they are circularly accelerated by an external magnetic field. The kinetic energy loss of the charged particles (typically electrons) due to the Bremsstrahlung process \citep{blumenthal_bremsstrahlung_1970} is tangentially radiated in form of a light cone with high brilliance and a wide photon energy range. 
 
-\begin{equation}
-        P=\frac{e^2}{6\pi\epsilon_0c}\left( \dot{\beta}^2 + \frac{(\dot{\vec{\beta}} \cdot \vec{\beta})^2}{1-\beta^2} \right) \gamma^4
-\end{equation}
+The total radiant power emitted by a single ultra-relativistic electron accelerated radially ($\vec{a} \bot \vec{v}$) by a homogeneous magnetic field is described by:
 
-where $\vec{\beta}=\frac{\vec{v}}{c}$, the Lorentz factor is $\gamma=\frac{1}{\sqrt{1-\beta^2}}=\frac{E}{m_e c^2}$ and $v$, $m_e$ and $E$ are the velocity, rest mass and energy of the electron, respectively.
-
-The total power emitted by an ultra-relativistic electron accelerated radially ($\vec{a} \bot \vec{v}$) is described by:
+%The radiant power of a single relativistic electron in a homogeneous magnetic field is expressed by the Larmor formula:
+%\begin{equation}
+%        P=\frac{e^2}{6\pi\epsilon_0c}\left( \dot{\beta}^2 + \frac{(\dot{\vec{\beta}} \cdot \vec{\beta})^2}{1-\beta^2} \right) \gamma^4
+%\end{equation}
+%where $\vec{\beta}=\frac{\vec{v}}{c}$, the Lorentz factor is $\gamma=\frac{1}{\sqrt{1-\beta^2}}=\frac{E}{m_e c^2}$ and $v$, $m_e$ and $E$ are the velocity, rest mass and energy of the electron, respectively.
 
 \begin{equation}
         \label{eq:SchwingerPower}
-        P_{sync}=\frac{e^2 c}{6\pi\epsilon_0 R^2}\left(\frac{E}{m_e c^2}\right)^4 \propto E^4 m_e^{-4} R^{-2}
+        P_{\text{sync}}=\frac{e^2 c}{6\pi\epsilon_0 R^2}\left(\frac{E}{m_e c^2}\right)^4 \propto E^4 m_e^{-4} R^{-2}
 \end{equation}
 
-where $R$ is the radius of the electron trajectory in the circular storage ring and is related to the external magnetic field strength of the bending magnet ($B$) by $R=\frac{E}{ecB}$. The use of light particles (electrons or positrons) in storage rings such as BESSY II is explained by the production of a radiative power $\sim 10^{13}$ times larger than heavier particles like protons \textcolor{red}{due to the factor $\sfrac{1}{m_e^4}$ in equation \ref{eq:SchwingerPower}}.
+where $m_e$ and $E$ are the rest mass and energy of the electron, respectively. $R$ is the radius of the electron trajectory in the circular storage ring and is related to the external magnetic field strength of the bending magnet ($B$) by $R=\frac{E}{ecB}$. The use of light particles (electrons or positrons) in storage rings such as BESSY II is explained by the production of a radiative power $\sim 10^{13}$ times larger than heavier particles like protons due to the large proton-to-electron mass ratio ($\left(\sfrac{m_p}{m_e}\right) > 1800$).
 
-Synchrotron radiation sources generating X-rays photons have arisen as an important tool in many scientific fields like physical chemistry, life science or physics. The broad spectral range and the high brilliance open new experimental possibilities in materials science as well as in metrology. For instance, the synchrotron radiation can be employed as a primary calibration standard for electromagnetic radiation \citep{thornagel_electron_2001} by means of the Schwinger equation \citep{schwinger_classical_1949} and the determination of the number of electrons, the electron energy and the magnetic field of the bending magnet.
+Synchrotron radiation sources generating X-rays photons have arisen as an important tool in many scientific fields like physical chemistry, life science or physics. The broad spectral range and the high brilliance open new experimental possibilities in materials science as well as in metrology. For instance, the synchrotron radiation can be employed as a primary calibration standard for electromagnetic radiation \citep{thornagel_electron_2001} by means of the Schwinger equation \citep{schwinger_classical_1949}, which describes the radiant power emitted by an electron as a function of the photon energy, and the determination of the number of electrons, the electron energy and the magnetic field of the bending magnet.
 
 The two most characteristic features of a synchrotron radiation source are the brilliance and the critical energy or critical wavelength. The spectral brilliance is defined as the number of photons per second, per electron beam source cross section, per angular divergence and per 0.1 $\%$ bandwidth at a certain wavelength $\lambda$ \citep{marr_handbook_1987}. The critical energy $E_C$ is defined by \citep{schwinger_classical_1949}:
 
@@ -36,22 +35,6 @@ The two most characteristic features of a synchrotron radiation source are the b
 
 The critical energy $E_C$ divides the spectral range into two parts with equal radiant power \citep{marr_handbook_1987}.
 
-\subsection{Insertion devices}
-
-The synchrotron radiation sources of the third generation are designed with the goal of optimizing the insertion devices and, therefore, enhance the spectral brightness \citep{ries_nonlinear_2014}. The employment of insertion devices, such as wigglers or undulators, on the straight sections of the storage ring improves the brilliance or produce light polarizations different from that produced by bending magnets.
-
-Both insertion devices consist on the same principle: a large number ($N\sim100$) of equally spaced alternately polarised dipole magnets stimulate the emission of synchrotron radiation on the experiment direction, due to the coherent addition of the contributions from the passage of a single electron. By this approach, the photon flux can be increased  in a factor $N$, the number of magnets separated with a spatial field period $\lambda_0$ in the range of cm. The distinguishable property between wigglers and undulators is their deflection parameter $K$, defined by \citep{marr_handbook_1987}:
-
-\begin{equation}
-        K=\frac{e}{m_e 2\pi c}B_0\lambda_0
-\end{equation}
-
-where $B_0$ is the magnetic field amplitude of the dipole magnet. Normally, $K$ can be modified by varying the space between the dipole magnets (\emph{gap}) and, thus, whether the insertion device is  called a wiggler or an undulator depends on its particular configuration. The value of $K$ is rather large in the case of wigglers, emitting radiation in a broad spectral range and increasing the $E_C$ of the storage ring. On the other hand, undulator devices have $K\leq1$, emitting an almost monochromatic and highly intense photon beam, due to the sharp harmonic peaks produced by the coherent interference between the different periods radiation.
-
-\section{The BESSY II electron storage ring}
-
-The facility BESSY II situated in Berlin (Germany) is a synchrotron X-ray and UV light source of the third generation. The electrons are accelerated to 1.72 GeV in a booster synchrotron and injected into a storage ring with 240 m circumference and an electron current of approximately 300 mA in the TopUp Mode \citep{couprie_x_2008}. The following paragraphs describe the creation of X-rays from the acceleration of the electron beam until the emission of synchrotron radiation on the bending magnets situated along the storage ring \citep{bakker_orbit_1998, bakker_status_1999}.
-
 \begin{figure*}%[htbp]
 \centering
 \def\svgwidth{0.7\linewidth}
@@ -60,22 +43,36 @@ The facility BESSY II situated in Berlin (Germany) is a synchrotron X-ray and UV
 \label{fig:BessyScheme}
 \end{figure*}
 
-The creation of the free electrons on the electron beam is the first step, as depicted schematically in figure \ref{fig:BessyScheme}. A standard DC grid cathode emits electrons which are accelerated with a high voltage to the anode up to a 90 keV energy. These electrons are the source of a 50 MeV Linac, which brings the electron beam to relativistic velocities. The 0.4 nC charged electrons bunches are further transported to a 10 Hz booster synchrotron by a long Injection Line. The acceleration process in the rapid-cycling synchrotron takes about 50 ms and is achieved by the disposition of a set of magnets and 500 MHz rf-cavities coupled with the magnets in linear paths that ramp the electron beam to its final operation energy of 1.72 GeV.
+\subsection{Insertion devices}
 
-At this point the electrons are injected into the storage ring, where 32 bending magnets with a magnetic field strength of 1.3 T and a bending radius of 4.35 m \citep{klein_elektronenspeicherringe_2014} are equipped to maintain the circular trajectory of the electron beam at 1.25 MHz revolution frequency. The critical energy $E_C$ of the bending magnets at BESSY II is 2.5 keV. \textcolor{red}{The critical energy can be observed in figure \ref{fig:CriticalEnergy}}
+The synchrotron radiation sources of the third generation are designed with the goal of optimizing the insertion devices and, therefore, enhance the spectral brightness \citep{robinson_history_2015}. The employment of insertion devices, such as wigglers or undulators, on the straight sections of the storage ring improves the brilliance \textcolor{red}{in comparison to the bending magnets} or produce light polarizations different from that produced by bending magnets.
 
+Both insertion devices consist on the same principle: a large number ($N\sim100$) of equally spaced alternately polarised dipole magnets stimulate the emission of synchrotron radiation on the experiment direction, due to the coherent addition of the contributions from the passage of a single electron. By this approach, the photon flux can be increased  in a factor $N$, the number of magnets separated with a spatial field period $\lambda_0$ in the range of cm. The distinguishable property between wigglers and undulators is their deflection parameter $K$, defined by \citep{marr_handbook_1987}:
 
+\begin{equation}
+        K=\frac{e}{m_e 2\pi c}B_0\lambda_0
+\end{equation}
 
+where $B_0$ is the magnetic field amplitude of the dipole magnet. Normally, $K$ can be modified by varying the space between the dipole magnets (\emph{gap}) and, thus, whether the insertion device is  called a wiggler or an undulator depends on its particular configuration. 
+
+\textcolor{red}{The value of $K$ is rather large in the case of wigglers, emitting radiation in a broad spectral range and increasing the $E_C$ of the storage ring. On the other hand, undulator devices have $K\leq1$, emitting an almost monochromatic and highly intense photon beam, due to the sharp harmonic peaks produced by the coherent interference between the different \textcolor{blue}{periods radiation}.}
+
+\section{The BESSY II electron storage ring}
+\label{sec:BESSY}
+
+The facility BESSY II situated in Berlin (Germany) is a synchrotron X-ray and UV light source of the third generation. The electrons are accelerated to 1.72 GeV in a booster synchrotron and injected into a storage ring with 240 m circumference and an electron current of approximately 300 mA in the TopUp Mode \citep{couprie_x_2008}. The following paragraphs describe the creation of X-rays from the acceleration of the electron beam until the emission of synchrotron radiation on the bending magnets situated along the storage ring \citep{bakker_orbit_1998, bakker_status_1999}.
 
 \begin{figure}%[htbp]
 	\centering
 		\input{Figures/CriticalEnergy}
-		\caption[Radiant power of BESSY II.]{Radiant power of the bending magnets at BESSY II under standard operation (300 mA) through an aperture of 10 x 10 mm$^2$ situated at 30 m of the source \textcolor{red}{calculated with the \emph{Schwinger} program}. The critical energy $E_C$ is 2.5 keV and divides the spectrum into two parts with equal power.}
+		\caption[Radiant power of BESSY II.]{Radiant power of the bending magnets at BESSY II under standard operation (300 mA) through an aperture of 10 x 10 mm$^2$ situated at 30 m of the source calculated using the Schwinger equation. The critical energy $E_C$ is 2.5 keV and divides the spectrum into two parts with equal power.}
 		\label{fig:CriticalEnergy}
 \end{figure}
 
+The creation of the free electrons on the electron beam is the first step, as depicted schematically in figure \ref{fig:BessyScheme}. A standard DC grid cathode emits electrons which are accelerated with a high voltage to the anode up to a 90 keV energy. These electrons are the source of a 50 MeV Linac, which brings the electron beam to relativistic velocities. The 0.4 nC charged electrons bunches are further transported to a 10 Hz booster synchrotron by a long Injection Line. The acceleration process in the rapid-cycling synchrotron takes about 50 ms and is achieved by the disposition of a set of magnets and 500 MHz rf-cavities coupled with the magnets in linear paths that ramp the electron beam to its final operation energy of 1.72 GeV.
 
-
+At this point the electrons are injected into the storage ring, where 32 bending magnets with a magnetic field strength of 1.3 T and a bending radius of 4.35 m \citep{klein_elektronenspeicherringe_2014} are equipped to maintain the circular trajectory of the electron beam at 1.25 MHz revolution frequency. Figure \ref{fig:CriticalEnergy} depicts the calculated radiant power of the bending magnets at BESSY II as a function of the photon energy, where a critical energy $E_C$ of 2.5 keV is shown.
+%The critical energy $E_C$ of the bending magnets at BESSY II is 2.5 keV, as shown in figure \ref{fig:CriticalEnergy}, where the radiant power is plotted as a function of the photon energy.
 
 
 \section{FCM beamline}
@@ -83,12 +80,12 @@ At this point the electrons are injected into the storage ring, where 32 bending
 
 The four-crystal monochromator bending magnet beamline operating in the PTB laboratory at BESSY II \citep{krumrey_design_1998, krumrey_high-accuracy_2001} provides a monochromatic beam in the 1.75 to 10 keV energy range at a fixed sample position with very high photon flux reproducibility and high energy resolving power. A schematic depiction of the beamline and its components is shown in figure \ref{fig:FCMScheme}.
 
-\begin{figure*}%[htbp]
+\begin{figure}%[htbp]
 	\centering
 		\resizebox{0.8\linewidth}{!}{\includegraphics{Figures/FCMScheme.png}}
-		\caption[Diagram of the four-crystal monochromator beamline.]{A scheme of the FCM beamline in the PTB laboratory at BESSY II. The distance of each component to the bending magnet is shown.}
+		\caption[Diagram of the four-crystal monochromator beamline.]{A scheme of the FCM beamline in the PTB laboratory at BESSY II. The distance of each component to the bending magnet is shown \citep{krumrey_design_1998}.}
 		\label{fig:FCMScheme}
-\end{figure*}
+\end{figure}
 
 At 14 m from the bending magnet, a Pt-coated toroidal mirror is located to focus the beam in the horizontal direction and to collimate it in the vertical direction. The radiation coming from the bending magnet is monochromatised further downstream by a set of 4 single crystals which reflect the light according to the Bragg's law for the (1 1 1) reflection. As the 4 crystals are mounted on two wheels (one on the rotation centre and one parallelly aligned), the rotation angle of the wheel $\Theta$ defines the energy of the outgoing photon beam by $E=\frac{\sqrt{3}h c}{2a\sin{\Theta}}$, where $a$ is the lattice constant of the crystal. \textcolor{red}{A schematic representation of the monochromator is shown in figure \ref{fig:MonochromatorScheme}.}
 
