@@ -124,21 +124,20 @@ The obtained results are \(R=\left(49.7 \pm 2.8\right) \) nm, \(R_{\text{core}}=
 
 \textcolor{red}{The fit uncertainty was calculated with a confidence interval of one standard deviation.}
 
-\textcolor{red}{The main uncertainty contribution is caused by the fitting process with 0.12 nm.}
+\textcolor{red}{The main uncertainty contribution is caused by the fitting process with 2.8 nm as depicted in table \ref{tab:CoreshellUncertainty}}
 
 \begin{table*}[]
 \centering
-\caption[Uncertainty contributions associated to the isoscattering point position.]{\textcolor{red}{Uncertainty contributions associated to the isoscattering point $q^{\star}$ position, where $u_I$ and $u_r$ correspond to the input uncertainty and relative uncertainty respectively.}}
-\label{tab:IsopointUncertainty}
+\caption[Uncertainty contributions associated to the core-shell fitting.]{\textcolor{red}{Uncertainty contributions associated to the core-shell fitting of the PS-COOH nanoparticles, where $u_I$ and $u_r$ correspond to the input uncertainty and relative uncertainty respectively.}}
+\label{tab:CoreshellUncertainty}
 \begin{tabular}{|l|c|c|c|}
 \hline
 \multicolumn{1}{|c|}{\textbf{\textcolor{red}{Input quantity}}} & \textbf{$u_I$} & \textbf{$u_r$} & \multicolumn{1}{l|}{\textbf{Contribution}} \\ \hline
 Photon Energy                   & 0.8 eV                     & 10$^{-4}$                          & 0.005 nm                                                      \\ \hline
 Sample-detector distance           & 5 mm                       & 10$^{-3}$                          & 0.05 nm                                                      \\ \hline
 Pixel size                      & 0.2 mm                     & 10$^{-3}$                          & 0.05 nm                                                      \\ \hline
-Centre determination               & 2 pixels                       & n.a.                          & 0.0008 nm                                                       \\ \hline
-$q$-bin size                      & 0.0017 nm$^{-1}$              & n.a.                       & 1 nm                                                        \\ \hline
-Core-shell fitting              & 2.8 nm                       & $6\cdot 10^{-1}$                          & 2.8 nm                                                        \\ \hline
+Centre determination               & 2 pixels                       & n.a.                          & 0.5 nm                                                       \\ \hline
+Core-shell fitting              & 2.8 nm                       & $6\cdot 10^{-2}$                          & 2.8 nm                                                        \\ \hline
 \multicolumn{3}{|l|}{\textbf{\begin{tabular}[c]{@{}l@{}}Combined standard uncertainty\end{tabular}}}                             & \textbf{2.8 nm}                                                        \\ \hline
 \end{tabular}
 \end{table*}
@@ -201,6 +200,25 @@ A precise determination of the isoscattering point positions is performed by fit
 
 
  \textcolor{red}{The uncertainty is calculated from the width of the minima at a value of $2\; \sigma_{\text{rel}}(q^{\star})$}
+ 
+\begin{table*}[]
+\centering
+\caption[Uncertainty contributions associated to the isoscattering point position.]{Uncertainty contributions associated to the first isoscattering point $q_1^{\star}$ position, where $u_I$ and $u_r$ correspond to the input uncertainty and relative uncertainty respectively. \textcolor{red}{The major contribution arises from the diffuseness of $q^{\star}$ which is quantified by calculating the width of the minima at a value of $2\; \sigma_{\text{rel}}(q^{\star})$}}
+\label{tab:IsopointUncertaintyPSCOOH}
+\begin{tabular}{|l|c|c|c|}
+\hline
+\multicolumn{1}{|c|}{\textbf{Input quantity}} & \textbf{$u_I$} & \textbf{$u_r$} & \multicolumn{1}{l|}{\textbf{Contribution}} \\ \hline
+Photon Energy                   & 0.8 eV                     & 10$^{-4}$                          & 0.000009 nm$^{-1}$                                                      \\ \hline
+Sample-detector distance           & 5 mm                       & 10$^{-3}$                          & 0.00009 nm$^{-1}$                                                       \\ \hline
+Pixel size                      & 0.2 mm                     & 10$^{-3}$                          & 0.00009 nm$^{-1}$                                                       \\ \hline
+Centre determination               & 2 pixels                       & n.a.                          & 0.0009 nm$^{-1}$                                                        \\ \hline
+$q$-bin size                      & 0.0017 nm$^{-1}$              & $2\cdot 10^{-2}$                        & 0.0017 nm$^{-1}$                                                        \\ \hline
+Solvent background              & 0.0015 nm$^{-1}$                      & $2\cdot 10^{-2}$                           & 0.0015 nm$^{-1}$                                                        \\ \hline
+\textcolor{red}{Diffuseness}              & 0.006 nm$^{-1}$                      & $7\cdot 10^{-2}$                           & 0.006 nm$^{-1}$                                                        \\ \hline
+\multicolumn{3}{|l|}{\textbf{\begin{tabular}[c]{@{}l@{}}Combined standard uncertainty\end{tabular}}}                             & \textbf{0.006 nm$^{-1}$}                                                        \\ \hline
+\end{tabular}
+\end{table*}
+
 
 Due to the ambiguous definition of the isoscattering point diffuseness, a quantitative determination of the polydispersity of the suspended nanoparticles by means of the Lorentzian profile is rather challenging. Nevertheless, the narrow size distribution of the sample becomes clear by comparing the relative standard deviation values of the observed minima in figure \ref{fig:KiskerIsopoint} with a simulation using the structural parameters obtained in section \ref{sec:coreshell_fit}. The value \( \sigma_r(q^{\star}_1)=0.11 \) corresponds to a calculated ensemble polydispersity of 24 $\%$. This value serves as an upper \( p_d \) limit due to the possible overestimation caused by the scattering contribution of the suspending medium.
 
