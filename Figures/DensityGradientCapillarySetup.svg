@@ -28,7 +28,7 @@
      inkscape:pageshadow="2"
      inkscape:zoom="1.979899"
      inkscape:cx="348.71907"
-     inkscape:cy="83.254213"
+     inkscape:cy="83.506751"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -36,10 +36,10 @@
      fit-margin-left="15"
      fit-margin-right="15"
      fit-margin-bottom="15"
-     inkscape:window-width="1920"
-     inkscape:window-height="1145"
-     inkscape:window-x="1597"
-     inkscape:window-y="32"
+     inkscape:window-width="1600"
+     inkscape:window-height="1180"
+     inkscape:window-x="-3"
+     inkscape:window-y="-3"
      inkscape:window-maximized="1"
      borderlayer="false"
      inkscape:showpageshadow="true"
@@ -1072,7 +1072,7 @@
          x="-823.03436"
          sodipodi:role="line"><tspan
            style="font-size:16px;font-style:normal;text-align:start;text-anchor:start;-inkscape-font-specification:FreeSerif"
-           id="tspan6629">2$\Theta$</tspan></tspan></text>
+           id="tspan6629">2$\theta$</tspan></tspan></text>
     <g
        id="g6523-8"
        transform="matrix(1,0,0,0.0847287,-186.88431,711.44689)"

@@ -16,8 +16,8 @@ set style arrow 1 nohead nofilled size screen 0.025,30,45 lw 5 lc rgb 'grey'
 
 #set arrow from -4.5,143.98 to 6.,143.98 lt 1
 
-D_mean=145.07
-sigma=1.77
+D_mean=144.98#145.07
+sigma=1.64#1.77
 f(x)=D_mean
 g(x)=D_mean-sigma
 h(x)=D_mean+sigma

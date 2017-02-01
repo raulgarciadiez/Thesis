@@ -56,7 +56,7 @@
     \put(0.65895285,0.32247644){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{\emph{x}}}}%
     \put(0.57278325,0.63808983){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{\emph{y}}}}%
     \put(0.10377796,0.52714652){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{\shortstack{Density gradient\\capillary}}}}%
-    \put(0.66757389,0.40826435){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{2$\Theta$}}}%
+    \put(0.66757389,0.40826435){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{2$\theta$}}}%
     \put(0.68959573,0.1768606){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Galden}}}%
   \end{picture}%
 \endgroup%

@@ -47,7 +47,7 @@ Here \(\rho_e\) is the electron density of the suspending medium, $I$ and $I_0$ 
 \begin{figure*}%[htbp]
 	\centering
 		\input{Figures/KiskerTransmissionCalibration}
-		\caption[Calibration of the solvent electron density by X-ray transmission.]{Solvent density along the gradient capillary vertical axis at different diffusion times, calculated from the transmission measurements at 5500 eV of 100 nm polystyrene particles. The corresponding X-ray transmission is shown on the right axis, revealing the low transmittances of the filled capillary at low energies.}
+		\caption[Calibration of the solvent electron density by X-ray transmission.]{Solvent density along the gradient capillary vertical axis at different diffusion times, calculated from the transmission measurements at 5500 eV \textcolor{red}{of 100 nm polystyrene particles}. The corresponding X-ray transmission is shown on the right axis, revealing the low transmittances of the filled capillary at low energies.}
 		\label{fig:KiskerTransmissionCalibration}
 \end{figure*}
 
@@ -68,7 +68,7 @@ The calculated transmission of the empty rectangular capillary is less than 1 $\
 
 In order to collect the scattering patterns, the sample is moved in steps of 0.5 mm along the central vertical capillary axis and exposed at each position for about 1 minute. The acquisition time depends notably on the experimental parameters (e.g. sample concentration, scattering power of the material...), though it is strictly limited by the diffusion time of the contrast agent. At these positions, the solution transmittances were previously measured and the suspending medium electron density calibrated, as described previously. Due to a vertical beam size of about 0.5 mm, the measured scattering curve is an average over a range of solvent electron densities, specially relevant at the height where the density gradient is steeper. 
 
-As a consequence of the observations from figure \ref{fig:EnergiesTransmissionCalibration}, the incident photon energy \(E = \left(8000.0  \pm 0.8\right)\) eV was chosen to be higher than the photon energy employed for the transmission measurements to improve the recorded statistics, due to a ca. 200 higher transmission \citep{henke_x-ray_1993}. On the other hand, the decreasing photon flux at the FCM beamline for high energies as depicted in figure \ref{fig:FCMBeamlineFlux}, suggest the utilization of photon energies below 8800 eV in scattering experiments.
+As a consequence of the observations from figure \ref{fig:EnergiesTransmissionCalibration}, the incident photon energy \(E = \left(8000.0  \pm 0.8\right)\) eV was chosen to be higher than the photon energy employed for the transmission measurements to improve the recorded statistics, due to a ca. 200 higher transmission \citep{henke_x-ray_1993}. On the other hand, the decreasing photon flux at the FCM beamline for high energies as depicted in figure \ref{fig:FCMBeamlineFlux}, suggest the utilization of photon energies below \textcolor{red}{9 keV in scattering experiments.}
 
 The dimensions of the investigated particle defines the required $q$-range of the experiment, which is delimited by the photon energy and the sample-detector distance, as discussed in section \ref{sec:SAXS_experimental}. The photon energy is generally limited by the needs of the sample environment, but the distance can be adjusted with the HZB-SAXS instrument to the nanoparticle requirements and can compensate the energy restriction. For sizes typically ranging from 10 to 200 nm, the sample-detector distance is fixed at 4500 mm and enables $q$-values between 0.03 and 1.1 nm$^{-1}$ at 8000 eV.
 
@@ -122,9 +122,26 @@ The obtained results are \(R=\left(49.7 \pm 2.8\right) \) nm, \(R_{\text{core}}=
 
 
 
-The fit uncertainty was calculated with a confidence interval of one standard deviation. 
+\textcolor{red}{The fit uncertainty was calculated with a confidence interval of one standard deviation.}
 
 \textcolor{red}{The main uncertainty contribution is caused by the fitting process with 0.12 nm.}
+
+\begin{table*}[]
+\centering
+\caption[Uncertainty contributions associated to the isoscattering point position.]{\textcolor{red}{Uncertainty contributions associated to the isoscattering point $q^{\star}$ position, where $u_I$ and $u_r$ correspond to the input uncertainty and relative uncertainty respectively.}}
+\label{tab:IsopointUncertainty}
+\begin{tabular}{|l|c|c|c|}
+\hline
+\multicolumn{1}{|c|}{\textbf{\textcolor{red}{Input quantity}}} & \textbf{$u_I$} & \textbf{$u_r$} & \multicolumn{1}{l|}{\textbf{Contribution}} \\ \hline
+Photon Energy                   & 0.8 eV                     & 10$^{-4}$                          & 0.005 nm                                                      \\ \hline
+Sample-detector distance           & 5 mm                       & 10$^{-3}$                          & 0.05 nm                                                      \\ \hline
+Pixel size                      & 0.2 mm                     & 10$^{-3}$                          & 0.05 nm                                                      \\ \hline
+Centre determination               & 2 pixels                       & n.a.                          & 0.0008 nm                                                       \\ \hline
+$q$-bin size                      & 0.0017 nm$^{-1}$              & n.a.                       & 1 nm                                                        \\ \hline
+Core-shell fitting              & 2.8 nm                       & $6\cdot 10^{-1}$                          & 2.8 nm                                                        \\ \hline
+\multicolumn{3}{|l|}{\textbf{\begin{tabular}[c]{@{}l@{}}Combined standard uncertainty\end{tabular}}}                             & \textbf{2.8 nm}                                                        \\ \hline
+\end{tabular}
+\end{table*}
 
 
 It is noticeable that the calculated electron density of the core coincides exactly with the theoretical polystyrene electron density, although the electron density of the shell is remarkably lower than the theoretical value of 383.4 nm\(^{-3}\) for PMMA \citep{ballauff_saxs_2001-1}. This might arise from the lower density of the monomers used in the particle synthesis (MAA and MMA), which could have mixed with the styrene monomers resulting in a less dense material than PMMA. This model might present some differences with the real colloid system, as a diffusive interfacial layer could be expected between polymer phases in colloids \citep{dingenouts_interface_1994}, especially for incompatible polymers such as PMMA and PS. On the other hand, the large quantity of scattering curves used for the fitting process and, accordingly, the decreased uncertainty suggests that the chosen sharp core-shell model has a great resemblance to the real particle.
@@ -167,24 +184,23 @@ where \(\bar{I} (q)\) is the mean value of the intensity at \(q\) and \( M \) is
     \subfloat[Isoscattering point positions]{
 	\renewcommand{\arraystretch}{1.3}
         \begin{tabular}[b]{l|ccc}
-         & \( q^{\star} \) (nm\(^{-1}\))    &  \(R\) (nm)    &  \textcolor{red}{\(\delta R\) (nm)} \\
+         & \( q^{\star} \) (nm\(^{-1}\))    &  \(R\) (nm)    &  \textcolor{red}{\(u_c\) (nm)} \\
         \hline
-         \(q^{\star}_1\) &  0.0900 & 49.9 & 5.5 \\
-         \(q^{\star}_2\) &  0.1516 & 51.0 & 4.6  \\
-         \(q^{\star}_3\) &  0.2267 & 48.1 & 3.8   \\
-         \(q^{\star}_4\) &  0.2822 & 49.9 & 5.0    \\
-         \(q^{\star}_5\) &  0.3421 & 50.3 & 7.5     \\
-         
-         \hline
-         
-         \textcolor{red}{mean} & \textcolor{red}{XXX}  & \textcolor{red}{49.7} & \textcolor{red}{???}     \\
+         \(q^{\star}_1\) &  0.0900 & 49.9 & 3.3 \\
+         \(q^{\star}_2\) &  0.1516 & 51.0 & 4.4  \\
+         \(q^{\star}_3\) &  0.2267 & 48.1 & 9.5   \\
+         \(q^{\star}_4\) &  0.2822 & 49.9 & 12.4    \\
+         \(q^{\star}_5\) &  0.3421 & 50.3 & \textcolor{red}{---}     \\
          \end{tabular}
          \label{tab:isopoint_Kisker}
     }
-\caption[Isoscattering points of the PS-COOH particles.]{Isoscattering points of the PS-COOH particles: a) Relative standard deviation of the scattering curves as a function of the momentum transfer. The labelled minima correspond to the first five isoscattering point positions calculated by fitting a Lorentzian function (black line). b) Experimentally determined position of the first five isoscattering points and the corresponding external particle radius $R$.}    
+\caption[Isoscattering points of the PS-COOH particles.]{Isoscattering points of the PS-COOH particles: a) Relative standard deviation of the scattering curves as a function of the momentum transfer. The labelled minima correspond to the first five isoscattering point positions calculated by fitting a Lorentzian function (black line). b) Experimentally determined position of the first five isoscattering points and the corresponding external particle radius $R$. \textcolor{red}{The uncertainty is calculated from the width of the minima at a value of $2\; \sigma_{\text{rel}}(q^{\star})$}}    
 \end{figure*}
 
-A precise determination of the isoscattering point positions is performed by fitting Lorentzian functions to the minima in the relative standard deviation plot, which allows the calculation of the model-free external radius of the particle by means of equation \eqref{eq:isoscattering}. The results are presented in table \ref{tab:isopoint_Kisker}. The obtained particle radii vary in the range from \(48.1\) nm to \(51.0\) nm, although as predicted by \cite{kawaguchi_isoscattering_1992} for a polydisperse system, the isoscattering points get smeared out for larger \( q \)-values and the precision decreases, simultaneously with the increase of the solvent background at higher \(q\)-values. This can be directly observed in the quality of the experimental data, as the first two minima are clearly pronounced, while the subsequent minima appear smeared out. For instance, the isoscattering point \(q^{\star}_5\) is already too weak for an accurate evaluation and the third minimum shows two remarkably close smaller minima which might affect the shape of the function. Therefore, \(q^{\star}_1\) and \(q^{\star}_2\) yield the most reliable values for evaluating the external radius of the particles, although all results are presented in table \ref{tab:isopoint_Kisker}. The value derived from the isoscattering points \(R=50.5\) nm differs by only 1.6 $\%$ from the radius calculated from the model fit in the previous section.
+A precise determination of the isoscattering point positions is performed by fitting Lorentzian functions to the minima in the relative standard deviation plot, which allows the calculation of the model-free external radius of the particle by means of equation \eqref{eq:isoscattering}. The results are presented in table \ref{tab:isopoint_Kisker}. The obtained particle radii vary in the range from \(48.1\) nm to \(51.0\) nm, although as predicted by \cite{kawaguchi_isoscattering_1992} for a polydisperse system, the isoscattering points get smeared out for larger \( q \)-values and the precision decreases, simultaneously with the increase of the solvent background at higher \(q\)-values. This can be directly observed in the quality of the experimental data, as the first two minima are clearly pronounced \textcolor{red}{with smaller associated uncertainties}, while the subsequent minima appear smeared out. For instance, the isoscattering point \(q^{\star}_5\) is already too weak for an accurate evaluation and the third minimum shows two remarkably close smaller minima which might affect the shape of the function. Therefore, \(q^{\star}_1\) and \(q^{\star}_2\) yield the most reliable values for evaluating the external radius of the particles, although all results are presented in table \ref{tab:isopoint_Kisker}. The value derived from the isoscattering points \textcolor{red}{\(R=\left(50.3\pm2.8 \right)\) nm} differs by only 1.6 $\%$ from the radius calculated from the model fit in the previous section.
+
+
+ \textcolor{red}{The uncertainty is calculated from the width of the minima at a value of $2\; \sigma_{\text{rel}}(q^{\star})$}
 
 Due to the ambiguous definition of the isoscattering point diffuseness, a quantitative determination of the polydispersity of the suspended nanoparticles by means of the Lorentzian profile is rather challenging. Nevertheless, the narrow size distribution of the sample becomes clear by comparing the relative standard deviation values of the observed minima in figure \ref{fig:KiskerIsopoint} with a simulation using the structural parameters obtained in section \ref{sec:coreshell_fit}. The value \( \sigma_r(q^{\star}_1)=0.11 \) corresponds to a calculated ensemble polydispersity of 24 $\%$. This value serves as an upper \( p_d \) limit due to the possible overestimation caused by the scattering contribution of the suspending medium.
 
@@ -214,6 +230,8 @@ The positive value of \(\tilde\alpha\) validates the hypothesis that a more dens
 \subsubsection{Average electron density}
 Using the same set of 40 scattering curves, the behaviour of the zero-angle intensity under the contrast variation is also investigated by fitting equation \eqref{eq:I0} to the experimental \(I(0)\), as depicted in figure \ref{fig:KiskerIntensityParabola}. A minimum in the curve is observed at \(\rho_{\text{solv}}=346.0\) nm\(^{-3}\), which corresponds to the value of the average electron density of the particle. This value is in very good agreement with the result obtained by fitting the core-shell form factor. It is also noticeable that the minimum intensity is approximately 0, which means that the effective average density of the ensemble is equal to the average density of the particle \citep{avdeev_contrast_2007}. This result further legitimates the assumption made previously in section \ref{sec:KiskerResults} about the PS-COOH particles that the ratio between the particle components' volumes is constant independent of the polydispersity and hence \(  \tilde \rho_0 = \rho_0  \), i.e. the average density of the particle is not altered by the size polydispersity.
 
+\textcolor{red}{definition again of  $\tilde \rho_0$ . Average of  $\rho_0$ }
+
 \begin{figure}%[htbp]
 	\centering
 		\input{Figures/KiskerIntensityParabola}
@@ -234,10 +252,10 @@ It can be concluded that the different approaches show consistent and complement
  & \( R\) (nm)    & \(\rho_0\) (nm\(^{-3}\)) & \(p_d\) (\(\%\))\\
 \hline
  Core-shell fitting &  49.7\(\pm 2.8\)   &     345.9\(\pm 1.5\)      & 22.8\(\pm 6.0\) \\
- Isoscattering point &  \textcolor{red}{50.5\(\pm 3.6\)*} &     -          & $<24$  \\
- Radius of gyration &  47.6**      &     343.7      & -    \\
+ Isoscattering point &  \textcolor{red}{50.3\(\pm 2.8\)*} &     -          & $<24$  \\
+ Radius of gyration &  \textcolor{red}{47.6\(\pm 6.4\)**}      &     \textcolor{red}{343.7\(\pm 1.5\)}      & -    \\
  Zero-angle intensity &  -    &     \textcolor{red}{346.0\(\pm 1.5\)}      & -    \\ \hline
-\multicolumn{4}{r}{*Mean value of \(q^{\star}_1\) and \(q^{\star}_2\)}\\  
+\multicolumn{4}{r}{*\textcolor{red}{Weighted average} value of \(q^{\star}_1\) and \(q^{\star}_2\)}\\  
 \multicolumn{4}{r}{**Using the polydispersity degree from the core-shell model fitting}\\ 
 \end{tabular}
 \label{tab:comparison_results_Kisker}
