@@ -133,7 +133,7 @@ The obtained results are \(R=\left(49.7 \pm 2.8\right) \) nm, \(R_{\text{core}}=
 \begin{tabular}{|l|c|c|c|}
 \hline
 \multicolumn{1}{|c|}{\textbf{\textcolor{red}{Input quantity}}} & \textbf{$u_I$} & \textbf{$u_r$} & \multicolumn{1}{l|}{\textbf{Contribution}} \\ \hline
-Photon Energy                   & 0.8 eV                     & 10$^{-4}$                          & 0.005 nm                                                      \\ \hline
+Photon Energy                   & 0.9 eV                     & 10$^{-4}$                          & 0.005 nm                                                      \\ \hline
 Sample-detector distance           & 5 mm                       & 10$^{-3}$                          & 0.05 nm                                                      \\ \hline
 Pixel size                      & 0.2 mm                     & 10$^{-3}$                          & 0.05 nm                                                      \\ \hline
 Centre determination               & 2 pixels                       & n.a.                          & 0.5 nm                                                       \\ \hline
@@ -193,13 +193,13 @@ where \(\bar{I} (q)\) is the mean value of the intensity at \(q\) and \( M \) is
          \end{tabular}
          \label{tab:isopoint_Kisker}
     }
-\caption[Isoscattering points of the PS-COOH particles.]{Isoscattering points of the PS-COOH particles: a) Relative standard deviation of the scattering curves as a function of the momentum transfer. The labelled minima correspond to the first five isoscattering point positions calculated by fitting a Lorentzian function (black line). b) Experimentally determined position of the first five isoscattering points and the corresponding external particle radius $R$. \textcolor{red}{The uncertainty is calculated from the width of the minima at a value of $2\; \sigma_{\text{rel}}(q^{\star})$}}    
+\caption[Isoscattering points of the PS-COOH particles.]{Isoscattering points of the PS-COOH particles: a) Relative standard deviation of the scattering curves as a function of the momentum transfer. The labelled minima correspond to the first five isoscattering point positions calculated by fitting a Lorentzian function (black line). b) Experimentally determined position of the first five isoscattering points and the corresponding external particle radius $R$. \textcolor{red}{The uncertainty $u_c$ is calculated according to table \label{tab:IsopointUncertaintyPSCOOH}, where the width of the minima at a value of $2\; \sigma_{\text{rel}}(q^{\star})$ provides the larger contribution}}    
 \end{figure*}
 
 A precise determination of the isoscattering point positions is performed by fitting Lorentzian functions to the minima in the relative standard deviation plot, which allows the calculation of the model-free external radius of the particle by means of equation \eqref{eq:isoscattering}. The results are presented in table \ref{tab:isopoint_Kisker}. The obtained particle radii vary in the range from \(48.1\) nm to \(51.0\) nm, although as predicted by \cite{kawaguchi_isoscattering_1992} for a polydisperse system, the isoscattering points get smeared out for larger \( q \)-values and the precision decreases, simultaneously with the increase of the solvent background at higher \(q\)-values. This can be directly observed in the quality of the experimental data, as the first two minima are clearly pronounced \textcolor{red}{with smaller associated uncertainties}, while the subsequent minima appear smeared out. For instance, the isoscattering point \(q^{\star}_5\) is already too weak for an accurate evaluation and the third minimum shows two remarkably close smaller minima which might affect the shape of the function. Therefore, \(q^{\star}_1\) and \(q^{\star}_2\) yield the most reliable values for evaluating the external radius of the particles, although all results are presented in table \ref{tab:isopoint_Kisker}. The value derived from the isoscattering points \textcolor{red}{\(R=\left(50.3\pm2.8 \right)\) nm} differs by only 1.6 $\%$ from the radius calculated from the model fit in the previous section.
 
 
- \textcolor{red}{The uncertainty is calculated from the width of the minima at a value of $2\; \sigma_{\text{rel}}(q^{\star})$}
+ \textcolor{red}{The uncertainty is calculated from the width of the minima at a value of $2\; \sigma_{\text{rel}}(q^{\star})$, as described in the uncertainty budget of table \ref{tab:IsopointUncertaintyPSCOOH}}
  
 \begin{table*}[]
 \centering
@@ -208,7 +208,7 @@ A precise determination of the isoscattering point positions is performed by fit
 \begin{tabular}{|l|c|c|c|}
 \hline
 \multicolumn{1}{|c|}{\textbf{Input quantity}} & \textbf{$u_I$} & \textbf{$u_r$} & \multicolumn{1}{l|}{\textbf{Contribution}} \\ \hline
-Photon Energy                   & 0.8 eV                     & 10$^{-4}$                          & 0.000009 nm$^{-1}$                                                      \\ \hline
+Photon Energy                   & 0.9 eV                     & 10$^{-4}$                          & 0.000009 nm$^{-1}$                                                      \\ \hline
 Sample-detector distance           & 5 mm                       & 10$^{-3}$                          & 0.00009 nm$^{-1}$                                                       \\ \hline
 Pixel size                      & 0.2 mm                     & 10$^{-3}$                          & 0.00009 nm$^{-1}$                                                       \\ \hline
 Centre determination               & 2 pixels                       & n.a.                          & 0.0009 nm$^{-1}$                                                        \\ \hline
@@ -234,7 +234,7 @@ By analysing the low \(q \)-region of the scattering curves, the so-called Guini
 		\label{fig:KiskerIntensityComparison}
 \end{figure}
 
-As described in section \ref{sec:TheoryGuinier}, the radius of gyration of a heterogeneous particle in a contrast variation experiment should behave according to equation \eqref{eq:gyration}. In figure \ref{fig:KiskerGuinierRadius}, the experimental squared radius of gyration is displayed as a function of the suspending medium electron density. The best fit to the measured data with values \(\rho_0=343.7\) nm\(^{-3}\), \( \tilde R_{g,c}=39.0\) nm, \(\tilde \alpha=4470\) nm\(^{-1}\) and \(\tilde\beta=0\) nm\(^{-4}\) is shown by the solid line. 
+As described in section \ref{sec:TheoryGuinier}, the radius of gyration of a heterogeneous particle in a contrast variation experiment should behave according to equation \eqref{eq:gyration}. In figure \ref{fig:KiskerGuinierRadius}, the experimental squared radius of gyration is displayed as a function of the suspending medium electron density. The best fit to the measured data with values \(\rho_0=\left(343.7\pm1.5\right)\) nm\(^{-3}\), \( \tilde R_{g,c}=\left(39.0\pm5.2\right)\) nm, \(\tilde \alpha=4470\) nm\(^{-1}\) and \(\tilde\beta=0\) nm\(^{-4}\) is shown by the solid line. 
 
 \begin{figure}%[htbp]
 	\centering
