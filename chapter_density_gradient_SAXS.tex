@@ -74,7 +74,7 @@ The dimensions of the investigated particle defines the required $q$-range of th
 
 Since the installation in April 2016 of the monitor diode on the beamstop presented in section \ref{sec:pilatus}, the sample transmittance can be recorded simultaneously with the scattering patterns. The longer integration times required for the scattering experiments (around 60 s) increase by a factor 6 the statistics of the simultaneous X-ray transmission measurement, improving the quality of the transmittance data. The possibility to collect the scattering data at the same photon energy that the solution transmittances improves the normalization of the scattering curve and the calibration of the solvent electron densities. Unfortunately, all the results presented in this work were recorded before the commissioning of the beamstop diode.
 
-\section{Proof of principle: Application to the PS-COOH particles}
+\section{Proof of principle: application to the PS-COOH particles}
 \label{sec:KiskerResults}
 
 In order to demonstrate the proposed continuous contrast variation technique, carboxylated polystyrene nanoparticles with a nominal size of 105 nm suspended in water (Kisker, Steinfurt, Germany) were measured following the procedure described previously in this chapter. The particles have a narrow size distribution and consist of a spherical polystyrene (PS) core enclosed by a thin shell of a denser polymer, most likely poly(methyl methacrylate) (PMMA). The synthesis by multi-addition emulsion polymerization is responsible of the core-shell structure found in these PS-COOH particles and suggests that all the particles have the same average density independent on their size.
@@ -118,21 +118,15 @@ A core-shell model fit to the scattering curves is displayed in figure \ref{fig:
 		\label{fig:KiskerSAXSCoreshellFit}
 \end{figure}
 
-The obtained results are \(R=\left(49.7 \pm 2.8\right) \) nm, \(R_{\text{core}}=\left(44.2 \pm 0.9\right) \) nm, \(\rho_{\text{core}}=\left(339.7 \pm 0.1\right)\) nm\(^{-3}\) and \(\rho_{\text{shell}}=\left(361.9 \pm 2.0\right)\) nm\(^{-3}\), which represent the radial structure of a dense, thin shell surrounding a lighter core, as seen in the inset of figure \ref{fig:KiskerSAXSCoreshellFit}. The resulting average electron density of the particle is \(\rho_{0}=\left(345.9 \pm 1.5\right)\) nm\(^{-3}\) and the polydispersity degree, \(p_d=\left(22.8\pm 6.0\right)\,\%\). The best fitting background corresponds to a value of \( \gamma = 4.3\pm 0.5 \), close to the case \( \gamma = 4 \) originating from large impurities or precipitates \citep{pedersen_determination_1994}. 
+The obtained results are \(R=\left(49.7 \pm 2.8\right) \) nm, \(R_{\text{core}}=\left(44.2 \pm 0.9\right) \) nm, \(\rho_{\text{core}}=\left(339.7 \pm 0.1\right)\) nm\(^{-3}\) and \(\rho_{\text{shell}}=\left(361.9 \pm 2.0\right)\) nm\(^{-3}\), which represent the radial structure of a dense, thin shell surrounding a lighter core, as seen in the inset of figure \ref{fig:KiskerSAXSCoreshellFit}. The resulting average electron density of the particle is \(\rho_{0}=\left(345.9 \pm 1.5\right)\) nm\(^{-3}\) and the polydispersity degree, \(p_d=\left(22.8\pm 6.0\right)\,\%\). The best fitting background corresponds to a value of \( \gamma = 4.3\pm 0.5 \), close to the case \( \gamma = 4 \) originating from large impurities or precipitates \citep{pedersen_determination_1994}. The fit uncertainty was calculated with a confidence interval of one standard deviation.
 
-
-
-\textcolor{red}{The fit uncertainty was calculated with a confidence interval of one standard deviation.}
-
-\textcolor{red}{The main uncertainty contribution is caused by the fitting process with 2.8 nm as depicted in table \ref{tab:CoreshellUncertainty}}
-
-\begin{table*}[]
+\begin{table}[]
 \centering
-\caption[Uncertainty contributions associated to the core-shell fitting.]{\textcolor{red}{Uncertainty contributions associated to the core-shell fitting of the PS-COOH nanoparticles, where $u_I$ and $u_r$ correspond to the input uncertainty and relative uncertainty respectively.}}
+\caption[Uncertainty contributions associated to the core-shell fit.]{Uncertainty contributions associated to the PS-COOH radius $R$ determined by a a core-shell model fit, where $u_I$ and $u_r$ correspond to the input uncertainty and relative uncertainty respectively.}
 \label{tab:CoreshellUncertainty}
 \begin{tabular}{|l|c|c|c|}
 \hline
-\multicolumn{1}{|c|}{\textbf{\textcolor{red}{Input quantity}}} & \textbf{$u_I$} & \textbf{$u_r$} & \multicolumn{1}{l|}{\textbf{Contribution}} \\ \hline
+\multicolumn{1}{|c|}{\textbf{Input quantity}} & \textbf{$u_I$} & \textbf{$u_r$} & \multicolumn{1}{l|}{\textbf{Contribution}} \\ \hline
 Photon Energy                   & 0.9 eV                     & 10$^{-4}$                          & 0.005 nm                                                      \\ \hline
 Sample-detector distance           & 5 mm                       & 10$^{-3}$                          & 0.05 nm                                                      \\ \hline
 Pixel size                      & 0.2 mm                     & 10$^{-3}$                          & 0.05 nm                                                      \\ \hline
@@ -140,10 +134,11 @@ Centre determination               & 2 pixels                       & n.a.      
 Core-shell fitting              & 2.8 nm                       & $6\cdot 10^{-2}$                          & 2.8 nm                                                        \\ \hline
 \multicolumn{3}{|l|}{\textbf{\begin{tabular}[c]{@{}l@{}}Combined standard uncertainty\end{tabular}}}                             & \textbf{2.8 nm}                                                        \\ \hline
 \end{tabular}
-\end{table*}
+\end{table}
 
+\textcolor{red}{The different contributions to the uncertainty associated to the external radius of the particle $R$ are detailed in table \ref{tab:CoreshellUncertainty}, where the uncertainties given are standard uncertainties ($k = 1$). Besides the fit uncertainty, the table summarizes the contributions from the energy resolution of the photon beam \citep{krumrey_high-accuracy_2001}, the accuracy of the distance between the irradiated sample and the scattering detector, the detector pixel size \citep{wernecke_characterization_2014} and the determination of the scattering centre. As in this case and in the examples appearing in chapter \ref{chap:simultaneous_size_density}, the uncertainty is typically dominated by the contribution arising from the fitting procedure.}
 
-It is noticeable that the calculated electron density of the core coincides exactly with the theoretical polystyrene electron density, although the electron density of the shell is remarkably lower than the theoretical value of 383.4 nm\(^{-3}\) for PMMA \citep{ballauff_saxs_2001-1}. This might arise from the lower density of the monomers used in the particle synthesis (MAA and MMA), which could have mixed with the styrene monomers resulting in a less dense material than PMMA. This model might present some differences with the real colloid system, as a diffusive interfacial layer could be expected between polymer phases in colloids \citep{dingenouts_interface_1994}, especially for incompatible polymers such as PMMA and PS. On the other hand, the large quantity of scattering curves used for the fitting process and, accordingly, the decreased uncertainty suggests that the chosen sharp core-shell model has a great resemblance to the real particle.
+Besides, it is noticeable that the calculated electron density of the core coincides exactly with the theoretical polystyrene electron density, although the electron density of the shell is remarkably lower than the theoretical value of 383.4 nm\(^{-3}\) for PMMA \citep{ballauff_saxs_2001-1}. This might arise from the lower density of the monomers used in the particle synthesis (MAA and MMA), which could have mixed with the styrene monomers resulting in a less dense material than PMMA. This model might present some differences with the real colloid system, as a diffusive interfacial layer could be expected between polymer phases in colloids \citep{dingenouts_interface_1994}, especially for incompatible polymers such as PMMA and PS. On the other hand, the large quantity of scattering curves used for the fitting process and, accordingly, the decreased uncertainty suggests that the chosen sharp core-shell model has a great resemblance to the real particle.
 
 \subsection{Isoscattering point}
 
@@ -183,43 +178,62 @@ where \(\bar{I} (q)\) is the mean value of the intensity at \(q\) and \( M \) is
     \subfloat[Isoscattering point positions]{
 	\renewcommand{\arraystretch}{1.3}
         \begin{tabular}[b]{l|ccc}
-         & \( q^{\star} \) (nm\(^{-1}\))    &  \(R\) (nm)    &  \textcolor{red}{\(u_c\) (nm)} \\
+         \multicolumn{4}{c}{*\smaller{$\Delta q$ at $2\sigma_{\text{rel}}(q^{\star})$ can not be computed.}}\\   
+         & \( q^{\star} \) (nm\(^{-1}\))    &  \(R\) (nm)    &  \(u_c\) (nm) \\
         \hline
-         \(q^{\star}_1\) &  0.0900 & 49.9 & 3.3 \\
-         \(q^{\star}_2\) &  0.1516 & 51.0 & 4.4  \\
-         \(q^{\star}_3\) &  0.2267 & 48.1 & 9.5   \\
-         \(q^{\star}_4\) &  0.2822 & 49.9 & 12.4    \\
-         \(q^{\star}_5\) &  0.3421 & 50.3 & \textcolor{red}{---}     \\
+         \(q^{\star}_1\) &  0.090 $\pm$ 0.006 & 49.9 & 3.3 \\
+         \(q^{\star}_2\) &  0.152  $\pm$ 0.013 & 51.0 & 4.4  \\
+         \(q^{\star}_3\) &  0.23 $\pm$ 0.05 & 48.1 & 9.5   \\
+         \(q^{\star}_4\) &  0.28 $\pm$ 0.07 & 49.9 & 12.4    \\
+         \(q^{\star}_5\) &  0.34 & 50.3 & *     \\
          \end{tabular}
          \label{tab:isopoint_Kisker}
     }
-\caption[Isoscattering points of the PS-COOH particles.]{Isoscattering points of the PS-COOH particles: a) Relative standard deviation of the scattering curves as a function of the momentum transfer. The labelled minima correspond to the first five isoscattering point positions calculated by fitting a Lorentzian function (black line). b) Experimentally determined position of the first five isoscattering points and the corresponding external particle radius $R$. \textcolor{red}{The uncertainty $u_c$ is calculated according to table \label{tab:IsopointUncertaintyPSCOOH}, where the width of the minima at a value of $2\; \sigma_{\text{rel}}(q^{\star})$ provides the larger contribution}}    
+\caption[Isoscattering points of the PS-COOH particles.]{Isoscattering points of the PS-COOH particles: a) Relative standard deviation of the scattering curves as a function of the momentum transfer. The labelled minima correspond to the first five isoscattering point positions calculated by fitting a Lorentzian function (black line). \textcolor{red}{In the inset, the width $\Delta q$ of the first minimum at a value of $2\sigma_{\text{rel}}(q^{\star})=0.22$ is depicted, which quantifies the diffuseness of $q_1^{\star}$ due to polydispersity effects or deviations from the spherical shape.} b) Experimentally determined position of the first five isoscattering points and the corresponding external particle radius $R$. \textcolor{red}{The combined standard uncertainty $u_c$ associated to the radius is calculated according to table \ref{tab:IsopointUncertaintyPSCOOH}, where the diffuseness of $q^{\star}$ provides the larger contribution.}}    
 \end{figure*}
 
-A precise determination of the isoscattering point positions is performed by fitting Lorentzian functions to the minima in the relative standard deviation plot, which allows the calculation of the model-free external radius of the particle by means of equation \eqref{eq:isoscattering}. The results are presented in table \ref{tab:isopoint_Kisker}. The obtained particle radii vary in the range from \(48.1\) nm to \(51.0\) nm, although as predicted by \cite{kawaguchi_isoscattering_1992} for a polydisperse system, the isoscattering points get smeared out for larger \( q \)-values and the precision decreases, simultaneously with the increase of the solvent background at higher \(q\)-values. This can be directly observed in the quality of the experimental data, as the first two minima are clearly pronounced \textcolor{red}{with smaller associated uncertainties}, while the subsequent minima appear smeared out. For instance, the isoscattering point \(q^{\star}_5\) is already too weak for an accurate evaluation and the third minimum shows two remarkably close smaller minima which might affect the shape of the function. Therefore, \(q^{\star}_1\) and \(q^{\star}_2\) yield the most reliable values for evaluating the external radius of the particles, although all results are presented in table \ref{tab:isopoint_Kisker}. The value derived from the isoscattering points \textcolor{red}{\(R=\left(50.3\pm2.8 \right)\) nm} differs by only 1.6 $\%$ from the radius calculated from the model fit in the previous section.
+A precise determination of the isoscattering point positions is performed by fitting Lorentzian functions to the minima in the relative standard deviation plot, which allows the calculation of the model-free external radius of the particle by means of equation \eqref{eq:isoscattering}. \textcolor{red}{The results are presented in table \ref{tab:isopoint_Kisker} together with their associated uncertainties calculated according to the uncertainty budget presented in table \ref{tab:IsopointUncertaintyPSCOOH}. The sources contributing to the uncertainty associated to the position of $q^{\star}$ are similar to those reviewed in table \ref{tab:CoreshellUncertainty} for the core-shell fit. In addition, the chosen $q$-bin size and the correction of the background contributions from the solvent are also considered. The diffuseness of the isoscattering point is quantified by computing the width of the momentum transfer ($\Delta q$) at a relative standard deviation value two times larger than the value at the minimum ($\sigma_{\text{rel}}(q^{\star})$), as depicted in the inset of figure \ref{fig:KiskerIsopoint}. The width $\Delta q$ gives an estimation of the uncertainty associated to the diffuseness of $q^{\star}$ introduced in section \ref{sec:isopoint_theory} related to the non-ideality of the particles, i.e. their polydispersity or the deviation of the particle shape from the spherical model. As observed in the uncertainty calculation associated to the $q_1^{\star}$ position in table \ref{tab:IsopointUncertaintyPSCOOH}, the diffuseness of $q^{\star}$ is the largest contribution to the combined standard uncertainty.} 
 
-
- \textcolor{red}{The uncertainty is calculated from the width of the minima at a value of $2\; \sigma_{\text{rel}}(q^{\star})$, as described in the uncertainty budget of table \ref{tab:IsopointUncertaintyPSCOOH}}
- 
 \begin{table*}[]
 \centering
-\caption[Uncertainty contributions associated to the isoscattering point position.]{Uncertainty contributions associated to the first isoscattering point $q_1^{\star}$ position, where $u_I$ and $u_r$ correspond to the input uncertainty and relative uncertainty respectively. \textcolor{red}{The major contribution arises from the diffuseness of $q^{\star}$ which is quantified by calculating the width of the minima at a value of $2\; \sigma_{\text{rel}}(q^{\star})$}}
+\caption[Uncertainty contributions associated to the isoscattering point position.]{Uncertainty contributions associated to the first isoscattering point $q_1^{\star}$ position. The main contribution arises from the diffuseness of $q^{\star}$ which is quantified by calculating the width $\Delta q$ at a value of $2\sigma_{\text{rel}}(q^{\star})$. The uncertainty associated to $R$ arises from the expression \eqref{eq:isoscattering}, which preserves the relative uncertainty of $q^{\star}$ and $R$.}
 \label{tab:IsopointUncertaintyPSCOOH}
 \begin{tabular}{|l|c|c|c|}
 \hline
 \multicolumn{1}{|c|}{\textbf{Input quantity}} & \textbf{$u_I$} & \textbf{$u_r$} & \multicolumn{1}{l|}{\textbf{Contribution}} \\ \hline
-Photon Energy                   & 0.9 eV                     & 10$^{-4}$                          & 0.000009 nm$^{-1}$                                                      \\ \hline
+Photon Energy                   & 0.9 eV                     & 10$^{-4}$                          &  0.000009 nm$^{-1}$                                                      \\ \hline
 Sample-detector distance           & 5 mm                       & 10$^{-3}$                          & 0.00009 nm$^{-1}$                                                       \\ \hline
 Pixel size                      & 0.2 mm                     & 10$^{-3}$                          & 0.00009 nm$^{-1}$                                                       \\ \hline
 Centre determination               & 2 pixels                       & n.a.                          & 0.0009 nm$^{-1}$                                                        \\ \hline
 $q$-bin size                      & 0.0017 nm$^{-1}$              & $2\cdot 10^{-2}$                        & 0.0017 nm$^{-1}$                                                        \\ \hline
 Solvent background              & 0.0015 nm$^{-1}$                      & $2\cdot 10^{-2}$                           & 0.0015 nm$^{-1}$                                                        \\ \hline
-\textcolor{red}{Diffuseness}              & 0.006 nm$^{-1}$                      & $7\cdot 10^{-2}$                           & 0.006 nm$^{-1}$                                                        \\ \hline
-\multicolumn{3}{|l|}{\textbf{\begin{tabular}[c]{@{}l@{}}Combined standard uncertainty\end{tabular}}}                             & \textbf{0.006 nm$^{-1}$}                                                        \\ \hline
+Diffuseness of $q^{\star}$ ($\Delta q$)              & 0.006 nm$^{-1}$                      & $7\cdot 10^{-2}$                           & 0.006 nm$^{-1}$                                                        \\ \hline
+\multicolumn{2}{|l|}{\textbf{\begin{tabular}[c]{@{}l@{}}Combined standard uncertainty of $q^{\star}$\end{tabular}}}  &      \textbf{$7\cdot 10^{-2}$}                      & \textbf{0.006 nm$^{-1}$} \\ \hline \hline
+\multicolumn{2}{|l|}{\textbf{\begin{tabular}[c]{@{}l@{}}Combined standard uncertainty of $R$\end{tabular}}}  &      \textbf{$7\cdot 10^{-2}$}                      & \textbf{3.3 nm} \\ \hline
 \end{tabular}
 \end{table*}
 
+%\begin{table}[]
+%\centering
+%\caption[Uncertainty contributions associated to the isoscattering point position.]{Uncertainty contributions associated to the first isoscattering point $q_1^{\star}$ position. The main contribution arises %from the diffuseness of $q^{\star}$ which is quantified by calculating the width $\Delta q$ at a value of $2\sigma_{\text{rel}}(q^{\star})$.}
+%\label{tab:IsopointUncertaintyPSCOOH}
+%\begin{tabular}{|l|c|c|c|}
+%\hline
+%\multicolumn{1}{|c|}{\textbf{Input quantity}} & \textbf{$u_I$} & \textbf{$u_r$} & \multicolumn{1}{l|}{\textbf{Contribution}} \\ \hline
+%Photon Energy                   & 0.9 eV                     & 10$^{-4}$                          & $9\cdot 10^{-6}$ nm$^{-1}$                                                      \\ \hline
+%Sample-detector distance           & 5 mm                       & 10$^{-3}$                          & $9\cdot 10^{-5}$ nm$^{-1}$                                                       \\ \hline
+%Pixel size                      & 0.2 mm                     & 10$^{-3}$                          & $9\cdot 10^{-5}$ nm$^{-1}$                                                       \\ \hline
+%Centre determination               & 2 pixels                       & n.a.                          & $9\cdot 10^{-4}$ nm$^{-1}$                                                        \\ \hline
+%$q$-bin size                      & 0.0017 nm$^{-1}$              & $2\cdot 10^{-2}$                        & $1.7\cdot 10^{-3}$ nm$^{-1}$                                                        \\ \hline
+%Solvent background              & 0.0015 nm$^{-1}$                      & $2\cdot 10^{-2}$                           & $1.5\cdot 10^{-3}$ nm$^{-1}$                \\ \hline
+%Diffuseness of $q^{\star}$ ($\Delta q$)              & 0.006 nm$^{-1}$                      & $7\cdot 10^{-2}$           & $6\cdot 10^{-3}$ nm$^{-1}$       \\ \hline
+%\multicolumn{2}{|l|}{\textbf{\begin{tabular}[c]{@{}l@{}}Combined standard uncertainty of $q^{\star}$\end{tabular}}}  &      \textbf{$7\cdot 10^{-2}$}                      & \textbf{0.006 nm$^{-1}$} \\ %\hline \hline
+%\multicolumn{2}{|l|}{\textbf{\begin{tabular}[c]{@{}l@{}}Combined standard uncertainty of $R$\end{tabular}}}  &      \textbf{$7\cdot 10^{-2}$}                      & \textbf{3.3 nm} \\ \hline
+%\end{tabular}
+%\end{table}
 
+The obtained particle radii displayed in table \ref{tab:isopoint_Kisker} vary in the range from \(48.1\) nm to \(51.0\) nm, although as predicted by \cite{kawaguchi_isoscattering_1992} for a polydisperse system, the isoscattering points get smeared out for larger \( q \)-values and the precision decreases, simultaneously with the increase of the solvent background at higher \(q\)-values. This can be directly observed in the quality of the experimental data, as the first two minima are clearly more pronounced and have smaller uncertainties than the subsequent minima, which appear smeared out. For instance, the isoscattering point \(q^{\star}_5\) is already too weak for an accurate evaluation and the third minimum shows two remarkably close smaller minima which might affect the shape of the function. Therefore, \(q^{\star}_1\) and \(q^{\star}_2\) yield the most reliable values for evaluating the external radius of the particles. The weighted average value derived from the first two isoscattering points \(R=\left(50.3\pm2.8 \right)\) nm differs by only 1.2 $\%$ from the radius calculated from the model fit in the previous section.
+ 
 Due to the ambiguous definition of the isoscattering point diffuseness, a quantitative determination of the polydispersity of the suspended nanoparticles by means of the Lorentzian profile is rather challenging. Nevertheless, the narrow size distribution of the sample becomes clear by comparing the relative standard deviation values of the observed minima in figure \ref{fig:KiskerIsopoint} with a simulation using the structural parameters obtained in section \ref{sec:coreshell_fit}. The value \( \sigma_r(q^{\star}_1)=0.11 \) corresponds to a calculated ensemble polydispersity of 24 $\%$. This value serves as an upper \( p_d \) limit due to the possible overestimation caused by the scattering contribution of the suspending medium.
 
 
