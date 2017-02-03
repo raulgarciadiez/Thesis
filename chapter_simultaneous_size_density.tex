@@ -127,7 +127,7 @@ The improvement in the size accuracy with the shape scattering function approach
 	\label{fig:PSPlainSizeComparison}
 \end{figure*}
 
-The figure compares the PS-Plain diameter measured by the ensemble techniques SAXS and DCS and the imaging methods AFM and TSEM and presents the weighted mean value of all the independent results as a grey line, which corresponds to a diameter of 145.1 nm with an associated expanded uncertainty ($k=2$) of 1.8 nm. The SAXS results tend to larger values when modelling the scattering form factor, whilst the diameter obtained from the isoscattering points positions $I_i$ present values slightly smaller than the calculated mean value. However, the maximum deviation from the weighted mean is less than 2 $\%$.
+The figure compares the PS-Plain diameter measured by the ensemble techniques SAXS and DCS and the imaging methods AFM and TSEM and presents the weighted mean value of all the independent results as a grey line, which corresponds to a \textcolor{red}{diameter of 145.1 nm with an associated expanded uncertainty ($k=2$) of 1.8 nm.} The SAXS results tend to larger values when modelling the scattering form factor, whilst the diameter obtained from the isoscattering points positions $I_i$ present values slightly smaller than the calculated mean value. However, the maximum deviation from the weighted mean is less than 2 $\%$.
 
 The DCS result is obtained by a combined analysis of two complementary centrifuge configurations as detailed in section \ref{sec:DCS_experimental}, where figure \ref{fig:DCSCombinedStokes} depicts the dependency of the measured particle diameter on the density values for the two setups. The two setups measure the same diameter and density at the crossing point of the data, which occurs for a diameter of ($138.8\pm5.8$) nm and a density of ($1.052\pm0.010$) g cm$^{-3}$. The measured diameter fits within its uncertainty in the confidence interval of one standard deviation of the inter-laboratory comparison.
 
@@ -204,11 +204,13 @@ In order to obtain reliable results, a proper subtraction of the solvent scatter
 		 \(q^{\star}_3\) &  0.1537 & $141.9\pm4.6$ &  0.1510 & $144.4\pm3.7$ & 1.7    \\
 		 \(q^{\star}_4\) &  0.206  & $136.6\pm10.6$ &  0.195  & $144.3\pm7.9$ & 5.3     \\
 		\end{tabular}
-	\caption[Isoscattering points position and their corresponding particle diameter.]{Isoscattering points position and the corresponding particle diameter for the scattering curves before and after background correction. The diameter deviation between both values is also shown, with larger deviation for higher $q$-values. \textcolor{red}{The associated uncertainty is calculated from the relative standard deviation from the plot BLABLA, with on interval of confidence.}}
+	\caption[Isoscattering points position and their corresponding particle diameter.]{Isoscattering points position and the corresponding particle diameter for the scattering curves before and after background correction. The diameter deviation between both values is also shown, with larger deviation for higher $q$-values. \textcolor{red}{The associated uncertainty is calculated as described in CHAPTER 4, where the major contribution arises from the diffuseness of $q^{\star}$ due to the deviations from the non-ideality of the particles.}}
 	\label{tab:isoscattering_points}
 \end{table*}
 
 It has been discussed before in this work that the polydispersity of the latex and its deviation from the spherical shape influence the position and diffuseness of $q^{\star}$, principally at high $q$-values. This can disturb the size determination for polymeric particles with broad size distributions and limit the applicability of this technique. 
+
+\textcolor{red}{the uncertainty of the isoscattering points due to the diffuseness of $q^{\star}$ is the largest contribution to the size obtained using this method.}
 
 In order to prove the isoscattering point dependency on the particle polydispersity, the diameter obtained from the first isoscattering point position is simulated for three core-shell particle with different core-to-size ratios, as depicted in figure \ref{fig:IsopointSimulationPolydispersity}. The deviation of the calculated size from the nominal size becomes larger for increasing particle polydispersities, reaching size deviations up to 8 $\%$ at $p_d = 30\;\%$. Moreover, the size deviation behaves differently depending on the internal structure of the particle, tending to larger deviations for thicker shells and positive deviations for thinner ones.
 
