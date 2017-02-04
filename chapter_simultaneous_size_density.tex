@@ -13,6 +13,7 @@ The density of the 3 polymeric colloids was also analysed by DCS and the results
 In this study, the size and density of low-density particles is independently determined by performing DCS measurements with two different discs using the sedimentation and flotation respectively of the particles through a density gradient and solving the relative Stokes' equations. A similar approach to DCS which combines the results of two independent measurements has been investigated previously. For example, \cite{neumann_new_2013} used two sucrose gradients resulting in different viscosities and densities, where the altered settling velocity combined with linear regression analysis was used for the calculation of the size and density of silica nanoparticles and viruses. \cite{bell_emerging_2012} adopted a two gradient method based on the variation of the sucrose concentration to determine the density of the St\"ober silica and the calibration standards used in DCS.
 
 \section{Materials and methods}
+\label{sec:MaterialsMethods}
 In this section, a detailed description of the polymeric nanoparticles employed in the experiments is presented. The experimental procedure of the continuous contrast variation technique is thoroughly discussed already in chapter \ref{chap:density_gradient_SAXS}, thus the focus of the section lies only on the DCS technique. Special interest is put on the description of the combined DCS approach based on the floating-sedimentation principle.
 
 
@@ -38,7 +39,7 @@ For the preparation of the high density aqueous sucrose solutions employed in th
 
 \textcolor{red}{For the determination of the size of nanoparticles using Ultracentrifugation, the particles dispersion is exposed to a specific centrifugal force [28]. The time needed by the particles to pass a certain distance is measured. With the knowledge of the densities of the particles and of the liquid, the hydrodynamic particle diameter is determined. The hydrodynamic diameter is the diameter of a hypothetic homogeneous sphere with the same diffusion properties in the solvent as the particle}
 
-DCS measurements were performed in the National Physical Laboratory (NPL, Teddington, UK) with a CPS DC20000 instrument (CPS Instruments, Prairieville, LA, USA) upgraded to DC24000 for the PS-Plain particles measurements. The radial position of the detector was measured by injecting 100 $\mu$L aliquots of water into the spinning disc initially empty until the accumulation of water produced a response in the detector. For the density gradient formation, the disc was filled with 14.4 mL of a sucrose (Amresco LLC, OH, USA) solution topped with 0.5 mL of dodecane to prevent evaporation. The detailed information of the gradients is summarised in table \ref{tab:DCSParameters}. Measurements of the PS-COOH and PMMA-COOH particles at 0.05 \% w/v concentration were performed in triplicate. The measurements of the PS-Plain particles were repeated seven times for each setup. Injection volumes were 100 $\mu$L. 
+DCS measurements were performed \textcolor{red}{by the National Physical Laboratory} (NPL, Teddington, UK) with a CPS DC20000 instrument (CPS Instruments, Prairieville, LA, USA) upgraded to DC24000 for the PS-Plain particles measurements. The radial position of the detector was measured by injecting 100 $\mu$L aliquots of water into the spinning disc initially empty until the accumulation of water produced a response in the detector. For the density gradient formation, the disc was filled with 14.4 mL of a sucrose (Amresco LLC, OH, USA) solution topped with 0.5 mL of dodecane to prevent evaporation. The detailed information of the gradients is summarised in table \ref{tab:DCSParameters}. Measurements of the PS-COOH and PMMA-COOH particles at 0.05 \% w/v concentration were performed in triplicate. The measurements of the PS-Plain particles were repeated seven times for each setup. Injection volumes were 100 $\mu$L.
 
 \begin{table*}[]
 \centering
@@ -101,7 +102,7 @@ In figure \ref{fig:PSPlainSingleContrastSAXS}, the SAXS curve of the PS-Plain pa
 
 Upon trying different form factor fits detailed in section \ref{sec:SAXS_theory}, a simple core-shell structure with a sharp interface (eq. \ref{eq:ff_cs}) was found to be the most suitable, suggesting a heterogeneous structure which is eluded by other characterization techniques, e.g. microscopy. The obtained particle diameter was $(147.0\pm4.7)$ nm, where the fit uncertainty was calculated with a confidence level of one standard deviation ($k=1$) by examining the change in $\chi^2$ when varying the diameter. The radial electron density profile of the core-shell fit is shown in the inset of figure \ref{fig:PSPlainSingleContrastSAXS}, where a thin shell with high density surrounds a lighter core. This structure is likely due to the non-reacted monomers in the main matrix or the highly hydrophilic behaviour of the co-monomer, segregating polystyrene to the core.
 
-The fit of the form factor \ref{eq:multicore-shell} with 7 shells with a linear electron density gradient is in very good agreement with the experimental data as well and presents a $\chi^2$ value 20 times lower than the compact spheres model fit. Although the radial electron density profile coincides qualitatively with the core-shell model, the result might not be unique due to the large number of fiting parameters (14) and care must be taken.
+The fit of the form factor \ref{eq:multicore-shell} with 7 shells with a linear electron density gradient is in very good agreement with the experimental data as well and presents a $\chi^2$ value 20 times lower than the compact spheres model fit. Although \textcolor{red}{the calculated $\chi^2$ value is very similar to that of the core-shell model and the radial electron density profile coincides qualitatively as well, the uniquess of the solution can be debated due to the large number of fit parameters (14). In case of coinciding results, the simpler core-shell model might solve the overfitting problem and appears as the best solution.}
 
 The morphology of the PS-Plain particles was further studied using the density gradient contrast variation technique described in chapter \ref{chap:density_gradient_SAXS} by varying the suspending medium electron density from 333.2 to 350.2 nm$^{-3}$. By increasing the solvent contrast, the changes of the features in the scattering curves presented in figure \ref{fig:PSPlainContinuousSAXS} and the appearance of isoscattering points prove the multi-component composition of this colloid.
 
@@ -115,8 +116,7 @@ The morphology of the PS-Plain particles was further studied using the density g
 
 From the 40 experimental scattering curves shown in figure \ref{fig:PSPlainContinuousSAXS}, a model-free size determination can be performed by locating the isoscattering points $I_i$. This is achieved by calculating the relative standard deviation, as shown in figure \ref{fig:PSPlainContinuousSAXSIsopoint}, where the minima correspond to the fulfillment of the isoscattering condition expressed by equation \ref{eq:isoscattering}.
 
-The particle diameters obtained from the first 4 isoscattering points ($I_1$ to $I_4$) range between 142.4 and 144.4 nm, showing a good agreement for higher $q$-values as well. The precision of the isoscattering point determination decreases for increasing $q$ as demonstrated by \cite{kawaguchi_isoscattering_1992} and it is exemplified by the broadening of the minima for higher $q$. As observed in figure \ref{fig:PSPlainContinuousSAXSIsopoint}, the effect of the solvent background is relevant principally at high $q$-values as well. \textcolor{red}{This effect will be further studied in section \ref{sec:EvaluationIsopoint}. THE RESULTS OF THE ISOSCATTERING POINTS POSITIONS ARE SUMMARIZED IN TABLE \ref{tab:isoscattering_points}}
-
+\textcolor{red}{Table \ref{tab:isoscattering_points} summarizes the particle diameters obtained from the first 4 isoscattering points ($I_1$ to $I_4$), which range between 142.4 and 144.4 nm after background correction.} The precision of the isoscattering point determination decreases for increasing $q$ as described by \cite{kawaguchi_isoscattering_1992} and \textcolor{red}{it is exemplified by the broadening of the minima for higher $q$ and the increase of the associated uncertainties, as discussed previously in chapter \ref{chap:density_gradient_SAXS}}. As observed in figure \ref{fig:PSPlainContinuousSAXSIsopoint}, the effect of the solvent background is relevant principally at high $q$-values as well. \textcolor{red}{These effects are studied in more detail in section \ref{sec:EvaluationIsopoint}.}
 
 \begin{table*}
 \centering
@@ -125,16 +125,14 @@ The particle diameters obtained from the first 4 isoscattering points ($I_1$ to 
 \hline
 & \( q^{\star} \) (nm\(^{-1}\))    &  Diameter (nm) & \( q^{\star}\) (nm\(^{-1}\))    &  Diameter (nm) & nm \\
 \hline
-\(q^{\star}_1\) &  \textcolor{red}{$0.063\pm0.002$} & $142.0\pm5.4$ &  \textcolor{red}{$0.063\pm0.002$} & $142.4\pm5.6$ & 0.4 \\
+\(q^{\star}_1\) &  \textcolor{blue}{$0.063\pm0.002$} & $142.0\pm5.4$ &  \textcolor{blue}{$0.063\pm0.002$} & $142.4\pm5.6$ & 0.4 \\
 \(q^{\star}_2\) &  \textcolor{red}{$0.109\pm0.002$} & $142.0\pm4.2$ &  \textcolor{red}{$0.108\pm0.002$} & $143.6\pm4.1$ & 1.6   \\
 \(q^{\star}_3\) &  \textcolor{red}{$0.154\pm0.002$} & $141.9\pm4.6$ &  \textcolor{red}{$0.151\pm0.002$} & $144.4\pm3.7$ & 2.5    \\
 \(q^{\star}_4\) &  \textcolor{red}{$0.21\pm0.02$}  & $136.6\pm10.6$ &  \textcolor{red}{$0.19\pm0.02$}  & $144.3\pm7.9$ & 7.7     \\
 \end{tabular}
-\caption[Isoscattering points position and their corresponding particle diameter.]{Isoscattering points position and the corresponding particle diameter for the scattering curves before and after background correction. The diameter deviation between both values is also shown, with larger deviation for higher $q$-values. \textcolor{red}{The associated uncertainty is calculated as described in CHAPTER 4, where the major contribution arises from the diffuseness of $q^{\star}$ due to the deviations from the non-ideality of the particles.}}
+\caption[Isoscattering points position and their corresponding particle diameter.]{Isoscattering points position and the corresponding particle diameter for the scattering curves before and after background correction. The diameter deviation between both values is also shown, with larger deviation for higher $q$-values. \textcolor{red}{The uncertainty associated to the diameter is calculated as described in chapter \ref{chap:density_gradient_SAXS}.}}
 \label{tab:isoscattering_points}
 \end{table*}
-
-
 
 The data can also be analysed by using the \emph{shape scattering function} described in section \ref{sec:basic_functions_theory}. The shape scattering function describes the external shape of the particle independently of its inner structure and is an appropriate approach for the PS-Plain colloid, because it enables the size distribution determination of the particles avoiding any \emph{a priori} consideration about the particle composition.
 
@@ -142,7 +140,7 @@ The data can also be analysed by using the \emph{shape scattering function} desc
 	\begin{center}
 		\input{Figures/PSPlainResonantTerm}
 	\end{center}
-	\caption[Experimental shape scattering function of the PS-Plain particles.]{Experimental shape scattering function of the PS-Plain particles calculated from 40 scattering curves and the spherical form factor fitted to the data.}
+	\caption[Experimental shape scattering function of the PS-Plain particles.]{Experimental shape scattering function of the PS-Plain particles calculated from 40 scattering curves and the spherical form factor fitted to the calculated shape scattering function.}
 	\label{fig:PSPlainResonantTerm}
 \end{figure}
 
@@ -152,12 +150,12 @@ The shape scattering function calculated from the measured scattering curves is 
 \label{sec:interlab_size_comparison}
 The improvement in the size accuracy with the shape scattering function approach is summarized in figure \ref{fig:PSPlainSizeComparison}, where the diameter of the PS-Plain particles determined by different techniques in an inter-laboratory study is also presented \citep{nicolet_inter-laboratory_2016}.
 
-\begin{figure*}
+\begin{figure}
 	\centering
 		\input{Figures/PSPlainSizeComparison}
 	\caption[Comparison of the PS-Plain particles average diameter with different techniques.]{Comparison of the PS-Plain average diameter obtained with different techniques, where the errorbars correspond to the expanded uncertainty ($k=2$). The circles correspond to results obtained with SAXS in the FCM beamline and the diamond to combined DCS measurements performed in NPL. The gray line defines the weighted mean of all the independent results, employing in the case of SAXS the shape scattering function result. The microscopy values are obtained from Belgian Service Métrologie-Metrologische Dienst (SMD), Swiss Federal Institute of Metrology (METAS) and Dutch Metrology Institute (VSL).}
 	\label{fig:PSPlainSizeComparison}
-\end{figure*}
+\end{figure}
 
 The figure compares the PS-Plain diameter measured by the ensemble techniques SAXS and DCS and the imaging methods AFM and TSEM and presents \textcolor{red}{the weighted mean value of all the results as a grey line,} which corresponds to a \textcolor{red}{diameter of 145.0 nm with an associated expanded uncertainty ($k=2$) of 1.6 nm.} The SAXS results tend to larger values when modelling the scattering form factor, whilst the diameter obtained from the isoscattering points positions $I_i$ present values slightly smaller than the calculated mean value. However, the maximum deviation from the weighted mean is less than 2 $\%$.
 
@@ -173,26 +171,22 @@ The DCS result is obtained by a combined analysis of two complementary centrifug
 
 All the techniques are in very good agreement, even considering that they are based on different physical principles. The improvement in accuracy for the size determination with SAXS by using the shape scattering function approach is further sustained by this comparison. 
 
-This improvement was confirmed by employing the same approach with the PS-COOH colloids. The diameter obtained from the core-shell model fit in chapter \ref{chap:density_gradient_SAXS} is ($99.4\pm5.6$) nm, while the value obtained from the shape scattering function calculation is ($101.4\pm2.4$) nm. Again, the uncertainty associated to the size decreases by $\sim 60\;\%$, whilst it is still in accordance with the diameter obtained with the first two isoscattering points positions of $100.6\pm 5.6$ nm.
-
-\textcolor{red}{ALL RESULTS ARE COMPARED FOR PS-COOH AND PS-PLAIN IN TABLE \ref{tab:comparison_results_polymers}}
+This improvement was confirmed by employing the same approach with the PS-COOH colloids. The diameter obtained from the core-shell model fit in chapter \ref{chap:density_gradient_SAXS} is ($99.4\pm5.6$) nm, while the value obtained from the shape scattering function calculation is ($101.4\pm2.4$) nm. Again, the uncertainty associated to the size decreases by $\sim 60\;\%$, whilst it is still in accordance with the diameter obtained with the first two isoscattering points positions of $100.6\pm 5.6$ nm. \textcolor{red}{The values obtained by the different methods discussed previously are compared in table \ref{tab:comparison_results_polymers} for the PS-Plain and PS-COOH particles. In both examples, the smallest uncertainty is associated to the shape scattering function formalism, while the core-shell model and the position of the first two isoscattering points produce larger combined standard uncertainties.}
 
 \begin{table}
 \caption[Comparison of the diameters obtained by different evaluation approaches.]{\textcolor{red}{Comparison of the diameters obtained for the PS-Plain and PS-COOH particles by the different approaches described in section \ref{sec:size_validation}.}}
 \begin{tabular}{l|cc}
-
 & PS-Plain    &  PS-COOH\\
 \hline
 Core-shell fitting &  $147.0 \pm 4.7$ nm   &     $99.4 \pm 5.6$ nm     \\
 Shape scattering function &  $146.8 \pm 1.3$ nm   &   $101.4 \pm 2.4$ nm \\
 First isoscattering point &  $142.4 \pm 5.6$ nm    &     $99.8 \pm 6.6$ nm \\
 Second isoscattering point &  $143.6 \pm 4.1$ nm  &   $102.0 \pm 8.8$ nm    \\ \hline
-
 \end{tabular}
 \label{tab:comparison_results_polymers}
 \end{table}
 
-Due to the low polydispersity of the PMMA-COOH particles and their homogeneous composition, a spherical form factor fit to the single-contrast scattering curve provides already a very accurate diameter ($186.5\pm2.3$) nm. In this case, contrast variation experiments in SAXS show no advantages.
+\textcolor{red}{The third polymeric particles used in the study are the PMMA-COOH colloids introduced in section \ref{sec:MaterialsMethods}. Due to the low polydispersity of these particles, a spherical form factor fit to the single-contrast scattering curve provides already a very accurate diameter of ($186.5\pm2.3$) nm. In this case, contrast variation experiments in SAXS show no advantages because of the homogeneous composition of the particles. The application of the shape scattering function formalism or the isoscattering point approach is only feasible if the NPs possess an internal structure.}
 
 \subsection{Particle size distribution of the PS-Plain particles}
 
@@ -238,34 +232,11 @@ In summary, it has been demonstrated that the possibility to determine the parti
 \subsection{Isoscattering point approach}
 \label{sec:EvaluationIsopoint}
 
-The theory defines $q^{\star}$ as a morphological parameter independent of the suspending medium density, which is a enormous practical advantage as it can be located without the proper calibration of the contrast. In cases where the composition of the buffer is unknown or the density of the solvent cannot be properly calibrated, the isoscattering point position might still be quantifiable by calculating the relative standard deviation of all the measured scattering curves. 
+The theory defines the isoscattering point $q^{\star}$ as a morphological parameter independent of the suspending medium density, which is a enormous practical advantage as it can be located without the proper calibration of the contrast. In cases where the composition of the buffer is unknown or the density of the solvent cannot be properly calibrated, the isoscattering point position might still be quantifiable by calculating the relative standard deviation of all the measured scattering curves.
 
-In order to obtain reliable results, a proper subtraction of the solvent scattering must be performed. It is clear in figure \ref{fig:PSPlainContinuousSAXSIsopoint} that the correction of the solvent contribution to the scattering intensity plays an important role in the determination of the $q^{\star}$ values as the curve shifts to smaller $q$-values when subtracting the solvent background. Although this effect is larger at high $q$-values, the solvent background influences the position of all the isoscattering points as summarized in table \ref{tab:isoscattering_points}. 
+In order to obtain reliable results, a proper subtraction of the solvent scattering must be performed. It is clear in figure \ref{fig:PSPlainContinuousSAXSIsopoint} that the correction of the solvent contribution to the scattering intensity plays an important role in the determination of the $q^{\star}$ values as the curve shifts to smaller $q$-values when subtracting the solvent background. Although this effect is larger at high $q$-values \textcolor{red}{producing deviations up to 7.7 nm}, the solvent background influences the position of all the isoscattering points as summarized in table \ref{tab:isoscattering_points}.
 
-%\begin{table*}
-%	\centering
-%	\begin{tabular}{l||cc|cc|c}
-%		 & \multicolumn{2}{c}{Raw data} & \multicolumn{2}{c}{Corrected data} & Deviation\\
-%		 \hline
-%		 & \( q^{\star} \) (nm\(^{-1}\))&  Diameter (nm) & \( q^{\star}\) (nm\(^{-1}\))&  Diameter (nm) & $\%$ \\
-%		\hline
-%		 \(q^{\star}_1\) &  0.0633 & $142.0\pm5.4$ &  0.0631 & $142.4\pm5.6$ & 0.3 \\
-%		 \(q^{\star}_2\) &  0.1088 & $142.0\pm4.2$ &  0.1076 & $143.6\pm4.1$ & 1.1   \\
-%		 \(q^{\star}_3\) &  0.1537 & $141.9\pm4.6$ &  0.1510 & $144.4\pm3.7$ & 1.7    \\
-%		 \(q^{\star}_4\) &  0.206  & $136.6\pm10.6$ &  0.195  & $144.3\pm7.9$ & 5.3     \\
-%		\end{tabular}
-%	\caption[Isoscattering points position and their corresponding particle diameter.]{Isoscattering points position and the corresponding particle diameter for the scattering curves before and after background correction. The diameter deviation between both values is also shown, with larger deviation for higher $q$-values. \textcolor{red}{The associated uncertainty is calculated as described in CHAPTER 4, where the major contribution arises from the diffuseness of $q^{\star}$ due to the deviations from the non-ideality of the particles.}}
-%	\label{tab:isoscattering_points}
-%\end{table*}
-
-It has been discussed before in this work that the polydispersity of the latex and its deviation from the spherical shape influence the position and diffuseness of $q^{\star}$, principally at high $q$-values. This can disturb the size determination for polymeric particles with broad size distributions and limit the applicability of this technique. 
-
-
-
-\textcolor{red}{In fact, the largest contribution to the uncertainty associated to the position of the isoscattering points originates from the diffuseness of $q^{\star}$ due to the deviation of the particles from the ideal case, as reviewed in chapter \ref{chap:density_gradient_SAXS}.}
-
-
-
+It has been discussed before in this work that the polydispersity of the latex and its deviation from the spherical shape influence the position and diffuseness of $q^{\star}$, principally at high $q$-values. This can disturb the size determination for polymeric particles with broad size distributions and limit the applicability of this technique. \textcolor{red}{In fact, the largest contribution to the uncertainty associated to the position of the isoscattering points originates from the diffuseness of $q^{\star}$ due to the deviation from ideality of the particle, as reviewed in chapter \ref{chap:density_gradient_SAXS}.}
 
 In order to prove the isoscattering point dependency on the particle polydispersity, the diameter obtained from the first isoscattering point position is simulated for three core-shell particle with different core-to-size ratios, as depicted in figure \ref{fig:IsopointSimulationPolydispersity}. The deviation of the calculated size from the nominal size becomes larger for increasing particle polydispersities, reaching size deviations up to 8 $\%$ at $p_d = 30\;\%$. Moreover, the size deviation behaves differently depending on the internal structure of the particle, tending to larger deviations for thicker shells and positive deviations for thinner ones.
 
@@ -278,11 +249,11 @@ In order to prove the isoscattering point dependency on the particle polydispers
 
 \end{figure*}
 
-This work demonstrates also that the $q^{\star}$ value determined with the previously described method depends on the range of solvent densities used in the contrast variation experiment. For this purpose,  a contrast variation experiment with 10 different solvent densities was simulated for a polymeric particle with the morphology and size distribution obtained with the core-shell model in section \ref{sec:size_validation}. Using a lower bound to the contrast range of $\rho_{\text{min}}=330$ nm$^{-3}$ and increasing systematically the upper limit, it is shown in figure \ref{fig:IsopointSimulationRange} that the calculated result deviates from the nominal value up to 1.5 $\%$. 
+This work demonstrates also that the $q^{\star}$ value determined with the previously described method depends on the range of solvent densities used in the contrast variation experiment. For this purpose,  a contrast variation experiment with 10 different solvent densities was simulated for a polymeric particle with the morphology and size distribution obtained with the core-shell model in section \ref{sec:size_validation}. \textcolor{red}{Using a lower bound to the contrast range close to the electron density of water ($\rho_{\text{min}}=330$ nm$^{-3}$)} and increasing systematically the upper limit, it is shown in figure \ref{fig:IsopointSimulationRange} that the calculated result deviates from the nominal value up to 1.5 $\%$.
 
 In this example, the largest deviations occur when the average density of the latex i.e. match point (depicted as a vertical line in figure \ref{fig:IsopointSimulationRange}) is excluded from the experimental contrast range or when $\rho_{\text{max}}$ is close to this matching density. This observation conflicts partly with the initial intuition that this technique is independent of the experimental procedure, although this problem can be avoided by selecting the solvent electron density range skillfully i.e. equidistantly distributed around the match point. This could be one explanation behind the slight size differences observed in figure \ref{fig:PSPlainSizeComparison} between the issocattering approach and the other SAXS results.
 
-The isoscattering point approach to contrast variation SAXS data evaluation presents certain assets which can not be ignored. For instance, the independence of $q^{\star}$ from the sample contrast facilitates its easy application, although the solvent electron density range must be chosen with care and always around the average electron density of the particle to maximize its accuracy. On the other hand, the diffuseness of the isoscattering point position due to the polydispersity and ellipticity of the sample arises as an indisputable drawback.
+The isoscattering point approach to contrast variation SAXS data evaluation presents certain assets which can not be ignored. For instance, the independence of $q^{\star}$ from the sample contrast facilitates its easy application, although the solvent electron density range must be chosen with care and always around the average electron density of the particle to maximize its accuracy. On the other hand, the diffuseness of the isoscattering point position due to the polydispersity and ellipticity of the sample arises as an indisputable drawback \textcolor{red}{and produces larger associated uncertainties than the shape scattering function approach}.
 
 \section{Determination of the particle mass density}
 \label{sec:physical_density}
@@ -305,7 +276,7 @@ The density uncertainty is associated to the vertical size of the focused X-ray 
 
 In figure \ref{fig:DensityComparison}, the value measured with the $I(0)$ approach from the continuous contrast variation experiment is compared to the average density of the PS-Plain colloid measured with different DCS configurations. For single disc setups, the size value used for the density calculation was 147 nm, as measured by single-contrast SAXS, while combining the information from the standard setup and the low density disc configuration allowed the measurement of the density independently of the particle diameter, as explained in section \ref{sec:interlab_size_comparison}.
 
-The results agree with each other within their stated measurement uncertainties, although DCS measurements exhibit slightly higher densities than SAXS. Typical causes of systematic errors in DCS are the inaccuracy of the size and density of the calibration standard and the thermal variation in the centrifuge gradient during the measurements, which affect its viscosity and density \citep{kamiti_simultaneous_2012}. A temperature variation within the gradient of about 7 $^{\circ}$C before and after measurements was detected and a period of 30 min was considered appropriate to reach reliable thermal equilibrium. In the low density disc configuration, the accuracy of the average density of the D$_2$0 sucrose gradient becomes an important source of uncertainty.
+The results agree with each other within their stated measurement uncertainties, although DCS measurements exhibit slightly higher densities than SAXS. Typical causes of systematic uncertainties in DCS are the inaccuracy of the size and density of the calibration standard and the thermal variation in the centrifuge gradient during the measurements, which affect its viscosity and density \citep{kamiti_simultaneous_2012}. A temperature variation within the gradient of about 7 $^{\circ}$C before and after measurements was detected and a period of 30 min was considered appropriate to reach reliable thermal equilibrium. In the low density disc configuration, the determination of the average density of the D$_2$0 sucrose gradient becomes an important source of uncertainty \textcolor{red}{which might explain the larger associated uncertainty in comparison to the standard configuration}.
 \begin{figure}
 	\begin{center}
 		\input{Figures/DensityComparison}
@@ -315,7 +286,7 @@ The results agree with each other within their stated measurement uncertainties,
 \end{figure}
 
 \subsection{Density determination of heavier polymeric colloids}
-The applicability of the continuous contrast variation techniques is further discussed by comparing with DCS for higher-density polymeric colloids, as summarized in figure \ref{fig:DensityComparison}. The density of the PS-COOH particles derived from the $I(0)$ approach is in excellent agreement with that measured by DCS using a standard configuration and assuming a particle diameter of 99.4 nm, which was obtained by SAXS. Considering the similar electronic composition of these polymers and the average electron density of the particle $\rho_0=346$ nm\(^{-3}\), an average mass density of the particles of ($1.068\pm0.005$) g cm$^{-3}$ can be calculated. These core-shell particles, more dense than polystyrene as detailed in section \ref{sec:coreshell_fit}, illustrate the tendency during the emulsion polymerization to segregate polar and nonpolar components \citep{dingenouts_structure_1994}.
+The applicability of the continuous contrast variation techniques is further discussed by comparing with DCS for higher-density polymeric colloids, as summarized in figure \ref{fig:DensityComparison}. The density of the PS-COOH particles derived from the $I(0)$ approach is in excellent agreement with that measured by DCS using a standard configuration and assuming a particle diameter of 99.4 nm, which was obtained by SAXS. Considering the similar electronic composition of these polymers and \textcolor{red}{the average electron density of the particle $\rho_0=\left( 346.0\pm1.5\right)$ nm\(^{-3}\) obtained in chapter \ref{chap:density_gradient_SAXS},} an average mass density of the particles of ($1.068\pm0.005$) g cm$^{-3}$ can be calculated. These core-shell particles, more dense than polystyrene as detailed in section \ref{sec:coreshell_fit}, illustrate the tendency during the emulsion polymerization to segregate polar and nonpolar components \citep{dingenouts_structure_1994}.
 
 Similarly, the density of the PMMA-COOH colloids was measured using the standard DCS setup and assuming a diameter of 186.5 nm, as measured by SAXS. This value is compared to the density of ($1.173\pm0.003$) g cm$^{-3}$ obtained by computing the intensity at zero-angle of a continuous contrast variation experiment. Again, both techniques are in excellent agreement and reveal a mass density slightly lower than the expected PMMA density of 1.18 g cm$^{-3}$ \citep{dingenouts_analysis_1999}.
 

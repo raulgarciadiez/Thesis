@@ -71,39 +71,47 @@
       \expandafter\def\csname LT8\endcsname{\color{black}}%
     \fi
   \fi
-  \setlength{\unitlength}{0.0500bp}%
-  \begin{picture}(5668.00,4534.00)%
+    \setlength{\unitlength}{0.0500bp}%
+    \ifx\gptboxheight\undefined%
+      \newlength{\gptboxheight}%
+      \newlength{\gptboxwidth}%
+      \newsavebox{\gptboxtext}%
+    \fi%
+    \setlength{\fboxrule}{0.5pt}%
+    \setlength{\fboxsep}{1pt}%
+\begin{picture}(5668.00,4534.00)%
     \gplgaddtomacro\gplbacktext{%
       \csname LTb\endcsname%
-      \put(1122,704){\makebox(0,0)[r]{\strut{} 1}}%
+      \put(990,704){\makebox(0,0)[r]{\strut{}$1$}}%
       \csname LTb\endcsname%
-      \put(1122,1377){\makebox(0,0)[r]{\strut{} 10}}%
+      \put(990,1377){\makebox(0,0)[r]{\strut{}$10$}}%
       \csname LTb\endcsname%
-      \put(1122,2049){\makebox(0,0)[r]{\strut{} 100}}%
+      \put(990,2049){\makebox(0,0)[r]{\strut{}$100$}}%
       \csname LTb\endcsname%
-      \put(1122,2722){\makebox(0,0)[r]{\strut{} 1000}}%
+      \put(990,2722){\makebox(0,0)[r]{\strut{}$1000$}}%
       \csname LTb\endcsname%
-      \put(1122,3394){\makebox(0,0)[r]{\strut{} 10000}}%
+      \put(990,3394){\makebox(0,0)[r]{\strut{}$10000$}}%
       \csname LTb\endcsname%
-      \put(1122,4067){\makebox(0,0)[r]{\strut{} 100000}}%
+      \put(990,4067){\makebox(0,0)[r]{\strut{}$100000$}}%
       \csname LTb\endcsname%
-      \put(1518,484){\makebox(0,0){\strut{} 0.03}}%
+      \put(1395,484){\makebox(0,0){\strut{}$0.03$}}%
       \csname LTb\endcsname%
-      \put(2258,484){\makebox(0,0){\strut{} 0.05}}%
+      \put(2159,484){\makebox(0,0){\strut{}$0.05$}}%
       \csname LTb\endcsname%
-      \put(3263,484){\makebox(0,0){\strut{} 0.1}}%
+      \put(3197,484){\makebox(0,0){\strut{}$0.1$}}%
       \csname LTb\endcsname%
-      \put(4267,484){\makebox(0,0){\strut{} 0.2}}%
+      \put(4234,484){\makebox(0,0){\strut{}$0.2$}}%
       \csname LTb\endcsname%
-      \put(4854,484){\makebox(0,0){\strut{} 0.3}}%
-      \put(220,2486){\rotatebox{-270}{\makebox(0,0){\strut{}Shape Scattering Function / a.u.}}}%
-      \put(3262,154){\makebox(0,0){\strut{}$q$ / nm$^{-1}$}}%
+      \put(4841,484){\makebox(0,0){\strut{}$0.3$}}%
     }%
     \gplgaddtomacro\gplfronttext{%
       \csname LTb\endcsname%
-      \put(4548,4041){\makebox(0,0)[r]{\strut{}\smaller Experimental Data}}%
+      \put(220,2486){\rotatebox{-270}{\makebox(0,0){\strut{}Scattering Intensity / a.u.}}}%
+      \put(3196,154){\makebox(0,0){\strut{}$q$ / nm$^{-1}$}}%
       \csname LTb\endcsname%
-      \put(4548,3711){\makebox(0,0)[r]{\strut{}\smaller Spherical Model}}%
+      \put(4548,4041){\makebox(0,0)[r]{\strut{}\smaller Shape scattering function}}%
+      \csname LTb\endcsname%
+      \put(4548,3711){\makebox(0,0)[r]{\strut{}\smaller Spherical model}}%
     }%
     \gplbacktext
     \put(0,0){\includegraphics{PSPlainResonantTerm}}%
