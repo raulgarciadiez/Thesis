@@ -59,26 +59,26 @@
 \contentsline {section}{\numberline {5.3}Considerations about scattering data evaluation}{60}{section.5.3}
 \contentsline {subsection}{\numberline {5.3.1}Shape scattering function formalism}{60}{subsection.5.3.1}
 \contentsline {subsection}{\numberline {5.3.2}Isoscattering point approach}{61}{subsection.5.3.2}
-\contentsline {section}{\numberline {5.4}Determination of the particle mass density}{62}{section.5.4}
-\contentsline {subsection}{\numberline {5.4.1}Mass density of the PS-Plain particles: validation with DCS}{63}{subsection.5.4.1}
+\contentsline {section}{\numberline {5.4}Determination of the particle mass density}{63}{section.5.4}
+\contentsline {subsection}{\numberline {5.4.1}Mass density of the PS-Plain particles: validation with DCS}{64}{subsection.5.4.1}
 \contentsline {subsection}{\numberline {5.4.2}Density determination of heavier polymeric colloids}{64}{subsection.5.4.2}
-\contentsline {chapter}{\numberline {6}Continuous contrast variation applied to relevant bio-materials}{65}{chapter.6}
-\contentsline {section}{\numberline {6.1}Materials}{66}{section.6.1}
-\contentsline {subsubsection}{Caelyx: PEGylated liposomal doxorubicin}{66}{subsubsection*.58}
-\contentsline {subsubsection}{Lipid vesicles: PEGylated and plain liposomes}{67}{subsubsection*.60}
-\contentsline {subsubsection}{Human lipoproteins}{67}{subsubsection*.61}
-\contentsline {subsubsection}{PS-COOH particles coated with IgG}{67}{subsubsection*.62}
-\contentsline {section}{\numberline {6.2}Traceable size determination of a liposomal drug}{67}{section.6.2}
-\contentsline {subsection}{\numberline {6.2.1}Isoscattering point approach}{69}{subsection.6.2.1}
-\contentsline {subsection}{\numberline {6.2.2}Shape scattering function calculation}{69}{subsection.6.2.2}
-\contentsline {subsection}{\numberline {6.2.3}Average electron density}{70}{subsection.6.2.3}
-\contentsline {section}{\numberline {6.3}Osmotic effects in liposomes}{71}{section.6.3}
-\contentsline {subsection}{\numberline {6.3.1}Application to drug-stabilized liposomes}{72}{subsection.6.3.1}
-\contentsline {subsection}{\numberline {6.3.2}Does PEGylation affect the osmotic activity of liposomes?}{74}{subsection.6.3.2}
-\contentsline {section}{\numberline {6.4}Sizing of blood plasma componenents}{80}{section.6.4}
-\contentsline {section}{\numberline {6.5}Protein-coated low-density nanoparticles}{82}{section.6.5}
-\contentsline {subsection}{\numberline {6.5.1}Hard protein corona characterization with contrast variation}{84}{subsection.6.5.1}
-\contentsline {subsubsection}{Uncertainty analysis}{85}{subsubsection*.80}
-\contentsline {chapter}{\numberline {7}Summary}{87}{chapter.7}
-\contentsline {chapter}{Bibliography}{91}{chapter*.82}
+\contentsline {chapter}{\numberline {6}Continuous contrast variation applied to relevant bio-materials}{67}{chapter.6}
+\contentsline {section}{\numberline {6.1}Materials}{68}{section.6.1}
+\contentsline {subsubsection}{Caelyx: PEGylated liposomal doxorubicin}{68}{subsubsection*.58}
+\contentsline {subsubsection}{Lipid vesicles: PEGylated and plain liposomes}{69}{subsubsection*.60}
+\contentsline {subsubsection}{Human lipoproteins}{69}{subsubsection*.61}
+\contentsline {subsubsection}{PS-COOH particles coated with IgG}{69}{subsubsection*.62}
+\contentsline {section}{\numberline {6.2}Traceable size determination of a liposomal drug}{69}{section.6.2}
+\contentsline {subsection}{\numberline {6.2.1}Isoscattering point approach}{71}{subsection.6.2.1}
+\contentsline {subsection}{\numberline {6.2.2}Shape scattering function calculation}{71}{subsection.6.2.2}
+\contentsline {subsection}{\numberline {6.2.3}Average electron density}{72}{subsection.6.2.3}
+\contentsline {section}{\numberline {6.3}Osmotic effects in liposomes}{73}{section.6.3}
+\contentsline {subsection}{\numberline {6.3.1}Application to drug-stabilized liposomes}{74}{subsection.6.3.1}
+\contentsline {subsection}{\numberline {6.3.2}Does PEGylation affect the osmotic activity of liposomes?}{76}{subsection.6.3.2}
+\contentsline {section}{\numberline {6.4}Sizing of blood plasma componenents}{82}{section.6.4}
+\contentsline {section}{\numberline {6.5}Protein-coated low-density nanoparticles}{85}{section.6.5}
+\contentsline {subsection}{\numberline {6.5.1}Hard protein corona characterization with contrast variation}{86}{subsection.6.5.1}
+\contentsline {subsubsection}{Uncertainty analysis}{87}{subsubsection*.81}
+\contentsline {chapter}{\numberline {7}Summary}{89}{chapter.7}
+\contentsline {chapter}{Bibliography}{93}{chapter*.82}
 \select@language {ngerman}
