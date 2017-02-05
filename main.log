@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2014.4.30)  4 FEB 2017 21:29
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2014.4.30)  5 FEB 2017 09:37
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1945,7 +1945,7 @@ Class scrbook Warning: \float@addtolists detected!
 
 
 ] (./Figures/SizeRange.pdf_tex
-<Figures/SizeRange.pdf, id=649, 351.4169pt x 253.80487pt>
+<Figures/SizeRange.pdf, id=651, 351.4169pt x 253.80487pt>
 File: Figures/SizeRange.pdf Graphic file (type pdf)
 
 <use Figures/SizeRange.pdf>
@@ -1968,7 +1968,7 @@ File: ts1ppl.fd 2001/06/04 font definitions for TS1/ppl.
 ]
 Chapter 2.
 (./Figures/BeerLambertScheme.pdf_tex
-<Figures/BeerLambertScheme.pdf, id=1236, 536.91791pt x 393.52621pt>
+<Figures/BeerLambertScheme.pdf, id=1238, 536.91791pt x 393.52621pt>
 File: Figures/BeerLambertScheme.pdf Graphic file (type pdf)
 
 <use Figures/BeerLambertScheme.pdf>
@@ -1985,7 +1985,7 @@ LaTeX Font Info:    Font shape `U/msb/m/n' will be
 (Font)              scaled to size 7.29405pt on input line 26.
  [7] [8 <./Figures/BeerLambertScheme.pdf>]
 (./Figures/AttenuationWater.tex
-<Figures/AttenuationWater.pdf, id=1270, 284.06125pt x 226.8475pt>
+<Figures/AttenuationWater.pdf, id=1272, 284.06125pt x 226.8475pt>
 File: Figures/AttenuationWater.pdf Graphic file (type pdf)
 
 <use Figures/AttenuationWater.pdf>
@@ -2000,7 +2000,7 @@ Underfull \hbox (badness 2189) in paragraph at lines 69--69
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <12> not available
 (Font)              Font shape `T1/ppl/b/n' tried instead on input line 80.
  (./Figures/FraunhoferScheme.pdf_tex
-<Figures/FraunhoferScheme.pdf, id=1286, 642.4pt x 337.26pt>
+<Figures/FraunhoferScheme.pdf, id=1288, 642.4pt x 337.26pt>
 File: Figures/FraunhoferScheme.pdf Graphic file (type pdf)
 
 <use Figures/FraunhoferScheme.pdf>
@@ -2008,7 +2008,7 @@ Package pdftex.def Info: Figures/FraunhoferScheme.pdf used on input line 52.
 (pdftex.def)             Requested size: 304.08784pt x 159.64952pt.
 ) [10 <./Figures/FraunhoferScheme.pdf>]
 [11] [12]
-<Figures/Au100ScatteringPattern_edit2.png, id=1371, 412.54124pt x 438.13687pt>
+<Figures/Au100ScatteringPattern_edit2.png, id=1373, 412.54124pt x 438.13687pt>
 File: Figures/Au100ScatteringPattern_edit2.png Graphic file (type png)
 
 <use Figures/Au100ScatteringPattern_edit2.png>
@@ -2038,7 +2038,7 @@ LaTeX Font Info:    Font shape `U/msb/m/n' will be
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
 (Font)              scaled to size 5.47754pt on input line 110.
 
-<Figures/ScatteringCurve50nm.pdf, id=1372, 284.06125pt x 226.8475pt>
+<Figures/ScatteringCurve50nm.pdf, id=1374, 284.06125pt x 226.8475pt>
 File: Figures/ScatteringCurve50nm.pdf Graphic file (type pdf)
 
 <use Figures/ScatteringCurve50nm.pdf>
@@ -2048,7 +2048,7 @@ Package pdftex.def Info: Figures/ScatteringCurve50nm.pdf used on input line 111
 ) [13] [14 <./Figures/Au100ScatteringPattern_edit2.png> <./Figures/ScatteringCu
 rve50nm.pdf>] [15]
 (./Figures/ContrastScheme.pdf_tex
-<Figures/ContrastScheme.pdf, id=1418, 444.57101pt x 389.50319pt>
+<Figures/ContrastScheme.pdf, id=1420, 444.57101pt x 389.50319pt>
 File: Figures/ContrastScheme.pdf Graphic file (type pdf)
 
 <use Figures/ContrastScheme.pdf>
@@ -2068,7 +2068,7 @@ LaTeX Font Info:    Font shape `U/msb/m/n' will be
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
 (Font)              scaled to size 15.63026pt on input line 53.
 ) (./Figures/MatchPointScheme.pdf_tex
-<Figures/MatchPointScheme.pdf, id=1419, 452.52185pt x 389.50319pt>
+<Figures/MatchPointScheme.pdf, id=1421, 452.52185pt x 389.50319pt>
 File: Figures/MatchPointScheme.pdf Graphic file (type pdf)
 
 <use Figures/MatchPointScheme.pdf>
@@ -2079,7 +2079,7 @@ Package pdftex.def Info: Figures/MatchPointScheme.pdf used on input line 52.
 pdfTeX warning: pdflatex (file ./Figures/MatchPointScheme.pdf): PDF inclusion: 
 multiple pdfs with page group included in a single page
 >] (./Figures/IsopointSimulationIdeal.tex
-<Figures/IsopointSimulationIdeal.pdf, id=1450, 284.06125pt x 226.8475pt>
+<Figures/IsopointSimulationIdeal.pdf, id=1452, 284.06125pt x 226.8475pt>
 File: Figures/IsopointSimulationIdeal.pdf Graphic file (type pdf)
 
 <use Figures/IsopointSimulationIdeal.pdf>
@@ -2088,7 +2088,7 @@ Package pdftex.def Info: Figures/IsopointSimulationIdeal.pdf used on input line
 (pdftex.def)             Requested size: 284.06053pt x 226.84694pt.
 )
 (./Figures/IsopointSimulationPolydisperse.tex
-<Figures/IsopointSimulationPolydisperse.pdf, id=1451, 284.06125pt x 226.8475pt>
+<Figures/IsopointSimulationPolydisperse.pdf, id=1453, 284.06125pt x 226.8475pt>
 File: Figures/IsopointSimulationPolydisperse.pdf Graphic file (type pdf)
 <use Figures/IsopointSimulationPolydisperse.pdf>
 Package pdftex.def Info: Figures/IsopointSimulationPolydisperse.pdf used on inp
@@ -2108,7 +2108,7 @@ disperse.pdf>] [18]) [19]
 ]
 Chapter 3.
 [21] (./Figures/BessyScheme.pdf_tex
-<Figures/BessyScheme.pdf, id=1530, 551.66098pt x 586.19257pt>
+<Figures/BessyScheme.pdf, id=1532, 551.66098pt x 586.19257pt>
 File: Figures/BessyScheme.pdf Graphic file (type pdf)
 
 <use Figures/BessyScheme.pdf>
@@ -2116,7 +2116,7 @@ Package pdftex.def Info: Figures/BessyScheme.pdf used on input line 52.
 (pdftex.def)             Requested size: 283.81409pt x 301.57501pt.
 ) [22] [23 <./Figures/BessyScheme.pdf>]
 (./Figures/CriticalEnergy.tex
-<Figures/CriticalEnergy.pdf, id=1559, 284.06125pt x 226.8475pt>
+<Figures/CriticalEnergy.pdf, id=1561, 284.06125pt x 226.8475pt>
 File: Figures/CriticalEnergy.pdf Graphic file (type pdf)
 
 <use Figures/CriticalEnergy.pdf>
@@ -2138,14 +2138,14 @@ Underfull \hbox (badness 1533) in paragraph at lines 68--68
  []
 
 [24 <./Figures/CriticalEnergy.pdf>]
-<Figures/FCMScheme.png, id=1579, 6404.92876pt x 4017.0075pt>
+<Figures/FCMScheme.png, id=1581, 6404.92876pt x 4017.0075pt>
 File: Figures/FCMScheme.png Graphic file (type png)
 
 <use Figures/FCMScheme.png>
 Package pdftex.def Info: Figures/FCMScheme.png used on input line 85.
 (pdftex.def)             Requested size: 6404.91322pt x 4016.99777pt.
  (./Figures/MonochromatorScheme.pdf_tex
-<Figures/MonochromatorScheme.pdf, id=1585, 734.98601pt x 308.55145pt>
+<Figures/MonochromatorScheme.pdf, id=1587, 734.98601pt x 308.55145pt>
 File: Figures/MonochromatorScheme.pdf Graphic file (type pdf)
 
 <use Figures/MonochromatorScheme.pdf>
@@ -2178,7 +2178,7 @@ Underfull \hbox (badness 1052) in paragraph at lines 102--102
 
 [25 <./Figures/FCMScheme.png> <./Figures/MonochromatorScheme.pdf>]
 (./Figures/FCMBeamlineFlux.tex
-<Figures/FCMBeamlineFlux.pdf, id=1600, 284.06125pt x 226.8475pt>
+<Figures/FCMBeamlineFlux.pdf, id=1602, 284.06125pt x 226.8475pt>
 File: Figures/FCMBeamlineFlux.pdf Graphic file (type pdf)
 
 <use Figures/FCMBeamlineFlux.pdf>
@@ -2210,7 +2210,7 @@ LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 152.
 
 (./Figures/DistanceCalibrationSAXS.tex
-<Figures/DistanceCalibrationSAXS.pdf, id=1625, 284.06125pt x 226.8475pt>
+<Figures/DistanceCalibrationSAXS.pdf, id=1627, 284.06125pt x 226.8475pt>
 File: Figures/DistanceCalibrationSAXS.pdf Graphic file (type pdf)
 
 <use Figures/DistanceCalibrationSAXS.pdf>
@@ -2218,7 +2218,7 @@ Package pdftex.def Info: Figures/DistanceCalibrationSAXS.pdf used on input line
  132.
 (pdftex.def)             Requested size: 284.06053pt x 226.84694pt.
 )
-<Figures/AgBeheSAXSLongDistance_edit.png, id=1626, 457.4691pt x 486.3771pt>
+<Figures/AgBeheSAXSLongDistance_edit.png, id=1628, 457.4691pt x 486.3771pt>
 File: Figures/AgBeheSAXSLongDistance_edit.png Graphic file (type png)
 
 <use Figures/AgBeheSAXSLongDistance_edit.png>
@@ -2228,7 +2228,7 @@ line 178.
  [28] [29 <./Figures/DistanceCalibrationSAXS.pdf> <./Figures/AgBeheSAXSLongDist
 ance_edit.png>]
 (./Figures/HilgenbergHomogeneity.tex
-<Figures/HilgenbergHomogeneity.pdf, id=1655, 284.06125pt x 226.8475pt>
+<Figures/HilgenbergHomogeneity.pdf, id=1657, 284.06125pt x 226.8475pt>
 File: Figures/HilgenbergHomogeneity.pdf Graphic file (type pdf)
 
 <use Figures/HilgenbergHomogeneity.pdf>
@@ -2249,7 +2249,7 @@ LaTeX Font Info:    Font shape `U/msb/m/n' will be
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
 (Font)              scaled to size 8.12773pt on input line 100.
 ) (./Figures/WaterHomogeneity.tex
-<Figures/WaterHomogeneity.pdf, id=1656, 284.06125pt x 226.8475pt>
+<Figures/WaterHomogeneity.pdf, id=1658, 284.06125pt x 226.8475pt>
 File: Figures/WaterHomogeneity.pdf Graphic file (type pdf)
 
 <use Figures/WaterHomogeneity.pdf>
@@ -2257,14 +2257,14 @@ Package pdftex.def Info: Figures/WaterHomogeneity.pdf used on input line 98.
 (pdftex.def)             Requested size: 284.06053pt x 226.84694pt.
 ) [30 <./Figures/HilgenbergHomogeneity.pdf> <./Figures/WaterHomogeneity.pdf>] (
 ./Figures/GaldenCalibration.tex
-<Figures/GaldenCalibration.pdf, id=1672, 284.06125pt x 226.8475pt>
+<Figures/GaldenCalibration.pdf, id=1674, 284.06125pt x 226.8475pt>
 File: Figures/GaldenCalibration.pdf Graphic file (type pdf)
 
 <use Figures/GaldenCalibration.pdf>
 Package pdftex.def Info: Figures/GaldenCalibration.pdf used on input line 102.
 (pdftex.def)             Requested size: 284.06053pt x 226.84694pt.
 ) [31 <./Figures/GaldenCalibration.pdf>]
-<Figures/SampleEnvironment.jpg, id=1684, 876.876pt x 688.0104pt>
+<Figures/SampleEnvironment.jpg, id=1686, 876.876pt x 688.0104pt>
 File: Figures/SampleEnvironment.jpg Graphic file (type jpg)
 
 <use Figures/SampleEnvironment.jpg>
@@ -2293,7 +2293,7 @@ Underfull \hbox (badness 5475) in paragraph at lines 242--242
 ]
 Chapter 4.
 [35] [36] (./Figures/DensityGradientCapillarySetup.pdf_tex
-<Figures/DensityGradientCapillarySetup.pdf, id=1769, 247.43704pt x 185.05473pt>
+<Figures/DensityGradientCapillarySetup.pdf, id=1771, 247.43704pt x 185.05473pt>
 File: Figures/DensityGradientCapillarySetup.pdf Graphic file (type pdf)
 <use Figures/DensityGradientCapillarySetup.pdf>
 Package pdftex.def Info: Figures/DensityGradientCapillarySetup.pdf used on inpu
@@ -2301,7 +2301,7 @@ t line 52.
 (pdftex.def)             Requested size: 224.06447pt x 167.58401pt.
 ) [37 <./Figures/DensityGradientCapillarySetup.pdf>] (./Figures/KiskerTransmiss
 ionCalibration.tex
-<Figures/KiskerTransmissionCalibration.pdf, id=1821, 426.59375pt x 226.8475pt>
+<Figures/KiskerTransmissionCalibration.pdf, id=1823, 426.59375pt x 226.8475pt>
 File: Figures/KiskerTransmissionCalibration.pdf Graphic file (type pdf)
 
 <use Figures/KiskerTransmissionCalibration.pdf>
@@ -2314,7 +2314,7 @@ Overfull \hbox (21.23224pt too wide) in paragraph at lines 124--60
  []
 
 (./Figures/EnergiesTransmissionCalibration.tex
-<Figures/EnergiesTransmissionCalibration.pdf, id=1824, 284.06125pt x 226.8475pt
+<Figures/EnergiesTransmissionCalibration.pdf, id=1826, 284.06125pt x 226.8475pt
 >
 File: Figures/EnergiesTransmissionCalibration.pdf Graphic file (type pdf)
  <use Figures/EnergiesTransmissionCalibration.pdf>
@@ -2323,7 +2323,7 @@ put line 123.
 (pdftex.def)             Requested size: 284.06053pt x 226.84694pt.
 )
 (./Figures/SucroseTransmissionCalibration.tex
-<Figures/SucroseTransmissionCalibration.pdf, id=1825, 284.06125pt x 226.8475pt>
+<Figures/SucroseTransmissionCalibration.pdf, id=1827, 284.06125pt x 226.8475pt>
 File: Figures/SucroseTransmissionCalibration.pdf Graphic file (type pdf)
 <use Figures/SucroseTransmissionCalibration.pdf>
 Package pdftex.def Info: Figures/SucroseTransmissionCalibration.pdf used on inp
@@ -2343,7 +2343,7 @@ n-trast vari-ation tech-nique, carboxylated
  []
 
 (./Figures/KiskerContinuousSAXS.tex
-<Figures/KiskerContinuousSAXS.pdf, id=1856, 284.06125pt x 226.8475pt>
+<Figures/KiskerContinuousSAXS.pdf, id=1858, 284.06125pt x 226.8475pt>
 File: Figures/KiskerContinuousSAXS.pdf Graphic file (type pdf)
 
 <use Figures/KiskerContinuousSAXS.pdf>
@@ -2352,7 +2352,7 @@ Package pdftex.def Info: Figures/KiskerContinuousSAXS.pdf used on input line 11
 (pdftex.def)             Requested size: 284.06053pt x 226.84694pt.
 ) [40 <./Figures/KiskerContinuousSAXS.pdf>] (./Figures/KiskerBackgroundSubtract
 ion.tex
-<Figures/KiskerBackgroundSubtraction.pdf, id=1867, 284.06125pt x 226.8475pt>
+<Figures/KiskerBackgroundSubtraction.pdf, id=1869, 284.06125pt x 226.8475pt>
 File: Figures/KiskerBackgroundSubtraction.pdf Graphic file (type pdf)
 
 <use Figures/KiskerBackgroundSubtraction.pdf>
@@ -2371,7 +2371,7 @@ Underfull \hbox (badness 1281) in paragraph at lines 108--108
 
 [41 <./Figures/KiskerBackgroundSubtraction.pdf>]
 (./Figures/KiskerSAXSCoreshellFit.tex
-<Figures/KiskerSAXSCoreshellFit.pdf, id=1881, 284.06125pt x 226.8475pt>
+<Figures/KiskerSAXSCoreshellFit.pdf, id=1883, 284.06125pt x 226.8475pt>
 File: Figures/KiskerSAXSCoreshellFit.pdf Graphic file (type pdf)
 
 <use Figures/KiskerSAXSCoreshellFit.pdf>
@@ -2401,7 +2401,7 @@ LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 133.
 
 [42 <./Figures/KiskerSAXSCoreshellFit.pdf>] (./Figures/KiskerIsopoint.tex
-<Figures/KiskerIsopoint.pdf, id=1905, 284.06125pt x 226.8475pt>
+<Figures/KiskerIsopoint.pdf, id=1907, 284.06125pt x 226.8475pt>
 File: Figures/KiskerIsopoint.pdf Graphic file (type pdf)
 
 <use Figures/KiskerIsopoint.pdf>
@@ -2413,7 +2413,7 @@ LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 207.
 
 [44 <./Figures/KiskerIsopoint.pdf>] (./Figures/KiskerIntensityComparison.tex
-<Figures/KiskerIntensityComparison.pdf, id=1945, 284.06125pt x 226.8475pt>
+<Figures/KiskerIntensityComparison.pdf, id=1947, 284.06125pt x 226.8475pt>
 File: Figures/KiskerIntensityComparison.pdf Graphic file (type pdf)
 
 <use Figures/KiskerIntensityComparison.pdf>
@@ -2422,7 +2422,7 @@ ne 111.
 (pdftex.def)             Requested size: 284.06053pt x 226.84694pt.
 ) [45 <./Figures/KiskerIntensityComparison.pdf>] (./Figures/KiskerGuinierRadius
 .tex
-<Figures/KiskerGuinierRadius.pdf, id=1957, 284.06125pt x 226.8475pt>
+<Figures/KiskerGuinierRadius.pdf, id=1959, 284.06125pt x 226.8475pt>
 File: Figures/KiskerGuinierRadius.pdf Graphic file (type pdf)
 
 <use Figures/KiskerGuinierRadius.pdf>
@@ -2435,7 +2435,7 @@ Underfull \hbox (badness 2042) in paragraph at lines 266--266
  []
 
 [46 <./Figures/KiskerGuinierRadius.pdf>] (./Figures/KiskerIntensityParabola.tex
-<Figures/KiskerIntensityParabola.pdf, id=1974, 284.06125pt x 226.8475pt>
+<Figures/KiskerIntensityParabola.pdf, id=1976, 284.06125pt x 226.8475pt>
 File: Figures/KiskerIntensityParabola.pdf Graphic file (type pdf)
 
 <use Figures/KiskerIntensityParabola.pdf>
@@ -2464,7 +2464,7 @@ Overfull \hbox (12.01093pt too wide) in paragraph at lines 304--304
  []
 
 [48] (./Figures/LudoxHS40TransmissionCalibration.tex
-<Figures/LudoxHS40TransmissionCalibration.pdf, id=2017, 426.59375pt x 226.8475p
+<Figures/LudoxHS40TransmissionCalibration.pdf, id=2019, 426.59375pt x 226.8475p
 t>
 File: Figures/LudoxHS40TransmissionCalibration.pdf Graphic file (type pdf)
  <use Figures/LudoxHS40TransmissionCalibration.pdf>
@@ -2488,23 +2488,30 @@ Chapter 5.
 
 
 
-] [52]
+] (./Figures/DensityGradientCapillarySetup.pdf_tex
+File: Figures/DensityGradientCapillarySetup.pdf Graphic file (type pdf)
+
+<use Figures/DensityGradientCapillarySetup.pdf>
+Package pdftex.def Info: Figures/DensityGradientCapillarySetup.pdf used on inpu
+t line 52.
+(pdftex.def)             Requested size: 224.06447pt x 167.58401pt.
+) [52]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 44.
+               Default added (so using `tbp') on input line 42.
 
 
-Overfull \hbox (12.32405pt too wide) in paragraph at lines 48--56
+Overfull \hbox (12.32405pt too wide) in paragraph at lines 46--54
  [][] 
  []
 
 
-Overfull \hbox (21.34087pt too wide) in paragraph at lines 57--63
+Overfull \hbox (21.34087pt too wide) in paragraph at lines 55--61
  []$[]$ 
  []
 
-[53] [54] (./Figures/PSPlainSingleContrastSAXS.tex
-<Figures/PSPlainSingleContrastSAXS.pdf, id=2113, 284.06125pt x 226.8475pt>
+[53] (./Figures/PSPlainSingleContrastSAXS.tex
+<Figures/PSPlainSingleContrastSAXS.pdf, id=2107, 284.06125pt x 226.8475pt>
 File: Figures/PSPlainSingleContrastSAXS.pdf Graphic file (type pdf)
 
 <use Figures/PSPlainSingleContrastSAXS.pdf>
@@ -2512,17 +2519,17 @@ Package pdftex.def Info: Figures/PSPlainSingleContrastSAXS.pdf used on input li
 ne 135.
 (pdftex.def)             Requested size: 284.06053pt x 226.84694pt.
 )
-Underfull \hbox (badness 1436) in paragraph at lines 97--97
+Underfull \hbox (badness 1436) in paragraph at lines 95--95
 \T1/cmss/m/n/9 (+20) curve of the PS-Plain
  []
 
 
-Underfull \hbox (badness 1377) in paragraph at lines 97--97
+Underfull \hbox (badness 1377) in paragraph at lines 95--95
 \T1/cmss/m/n/9 (+20) particles in buf-fer: A
  []
 
-(./Figures/PSPlainContinuousSAXS.tex
-<Figures/PSPlainContinuousSAXS.pdf, id=2121, 284.06125pt x 226.8475pt>
+[54] (./Figures/PSPlainContinuousSAXS.tex
+<Figures/PSPlainContinuousSAXS.pdf, id=2124, 284.06125pt x 226.8475pt>
 File: Figures/PSPlainContinuousSAXS.pdf Graphic file (type pdf)
 
 <use Figures/PSPlainContinuousSAXS.pdf>
@@ -2531,20 +2538,20 @@ Package pdftex.def Info: Figures/PSPlainContinuousSAXS.pdf used on input line 1
 (pdftex.def)             Requested size: 284.06053pt x 226.84694pt.
 )
 (./Figures/PSPlainContinuousSAXSIsopoint.tex
-<Figures/PSPlainContinuousSAXSIsopoint.pdf, id=2122, 284.06125pt x 226.8475pt>
+<Figures/PSPlainContinuousSAXSIsopoint.pdf, id=2125, 284.06125pt x 226.8475pt>
 File: Figures/PSPlainContinuousSAXSIsopoint.pdf Graphic file (type pdf)
 
 <use Figures/PSPlainContinuousSAXSIsopoint.pdf>
 Package pdftex.def Info: Figures/PSPlainContinuousSAXSIsopoint.pdf used on inpu
 t line 110.
 (pdftex.def)             Requested size: 284.06053pt x 226.84694pt.
-) [55 <./Figures/PSPlainSingleContrastSAXS.pdf>] (./Figures/PSPlainResonantTerm
-.tex
+)
+(./Figures/PSPlainResonantTerm.tex
 \gptboxheight=\skip126
 \gptboxwidth=\skip127
 \gptboxtext=\box64
 
-<Figures/PSPlainResonantTerm.pdf, id=2144, 284.06125pt x 226.8475pt>
+<Figures/PSPlainResonantTerm.pdf, id=2138, 284.06125pt x 226.8475pt>
 File: Figures/PSPlainResonantTerm.pdf Graphic file (type pdf)
 
 <use Figures/PSPlainResonantTerm.pdf>
@@ -2552,23 +2559,24 @@ Package pdftex.def Info: Figures/PSPlainResonantTerm.pdf used on input line 117
 .
 (pdftex.def)             Requested size: 284.06053pt x 226.84694pt.
 )
-Underfull \hbox (badness 2042) in paragraph at lines 143--143
+Underfull \hbox (badness 2042) in paragraph at lines 141--141
 \T1/cmss/m/n/9 (+20) ter-ing curves and the
  []
 
 
-Underfull \hbox (badness 2856) in paragraph at lines 143--143
+Underfull \hbox (badness 2856) in paragraph at lines 141--141
 \T1/cmss/m/n/9 (+20) ted to the cal-cu-lated
  []
 
 
-Underfull \hbox (badness 3849) in paragraph at lines 143--143
+Underfull \hbox (badness 3849) in paragraph at lines 141--141
 \T1/cmss/m/n/9 (+20) shape scat-ter-ing func-
  []
 
-[56 <./Figures/PSPlainContinuousSAXS.pdf> <./Figures/PSPlainContinuousSAXSIsopo
-int.pdf>] (./Figures/PSPlainSizeComparison.tex
-<Figures/PSPlainSizeComparison.pdf, id=2161, 284.06125pt x 226.8475pt>
+[55 <./Figures/PSPlainSingleContrastSAXS.pdf>] [56 <./Figures/PSPlainContinuous
+SAXS.pdf> <./Figures/PSPlainContinuousSAXSIsopoint.pdf> <./Figures/PSPlainReson
+antTerm.pdf>] (./Figures/PSPlainSizeComparison.tex
+<Figures/PSPlainSizeComparison.pdf, id=2166, 284.06125pt x 226.8475pt>
 File: Figures/PSPlainSizeComparison.pdf Graphic file (type pdf)
 
 <use Figures/PSPlainSizeComparison.pdf>
@@ -2576,143 +2584,142 @@ Package pdftex.def Info: Figures/PSPlainSizeComparison.pdf used on input line 1
 16.
 (pdftex.def)             Requested size: 284.06053pt x 226.84694pt.
 )
-Underfull \hbox (badness 10000) in paragraph at lines 156--156
+Underfull \hbox (badness 10000) in paragraph at lines 154--154
 \T1/cmss/m/n/9 (+20) dif-fer-ent tech-niques,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 156--156
+Underfull \hbox (badness 10000) in paragraph at lines 154--154
 \T1/cmss/m/n/9 (+20) where the er-ror-bars
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 156--156
+Underfull \hbox (badness 10000) in paragraph at lines 154--154
 \T1/cmss/m/n/9 (+20) cor-res-pond to the
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 156--156
+Underfull \hbox (badness 10000) in paragraph at lines 154--154
 \T1/cmss/m/n/9 (+20) ex-pan-ded un-cer-tainty
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 156--156
+Underfull \hbox (badness 10000) in paragraph at lines 154--154
 \T1/cmss/m/n/9 (+20) cor-res-pond to res-ults
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 156--156
+Underfull \hbox (badness 10000) in paragraph at lines 154--154
 \T1/cmss/m/n/9 (+20) ob-tained with SAXS
  []
 
 
-Underfull \hbox (badness 2012) in paragraph at lines 156--156
+Underfull \hbox (badness 2012) in paragraph at lines 154--154
 \T1/cmss/m/n/9 (+20) in the FCM beam-line
  []
 
 
-Underfull \hbox (badness 5908) in paragraph at lines 156--156
+Underfull \hbox (badness 5908) in paragraph at lines 154--154
 \T1/cmss/m/n/9 (+20) and the dia-mond to
  []
 
 
-Underfull \hbox (badness 3009) in paragraph at lines 156--156
+Underfull \hbox (badness 3009) in paragraph at lines 154--154
 \T1/cmss/m/n/9 (+20) weighted mean of all
  []
 
 
-Underfull \hbox (badness 4193) in paragraph at lines 156--156
+Underfull \hbox (badness 4193) in paragraph at lines 154--154
 \T1/cmss/m/n/9 (+20) mi-cro-scopy val-ues are
  []
 
 
-Underfull \hbox (badness 2050) in paragraph at lines 156--156
+Underfull \hbox (badness 2050) in paragraph at lines 154--154
 \T1/cmss/m/n/9 (+20) ob-tained from Bel-gian
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 156--156
+Underfull \hbox (badness 10000) in paragraph at lines 154--154
 \T1/cmss/m/n/9 (+20) Ser-vice Métrologie-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 156--156
+Underfull \hbox (badness 10000) in paragraph at lines 154--154
 \T1/cmss/m/n/9 (+20) Metrologische Di-enst
  []
 
 
-Underfull \hbox (badness 3514) in paragraph at lines 156--156
+Underfull \hbox (badness 3514) in paragraph at lines 154--154
 \T1/cmss/m/n/9 (+20) (SMD), Swiss Fed-eral
  []
 
 
-Underfull \hbox (badness 3138) in paragraph at lines 156--156
+Underfull \hbox (badness 3138) in paragraph at lines 154--154
 \T1/cmss/m/n/9 (+20) In-sti-tute of Met-ro-logy
  []
 
 
-Underfull \hbox (badness 7576) in paragraph at lines 156--156
+Underfull \hbox (badness 7576) in paragraph at lines 154--154
 \T1/cmss/m/n/9 (+20) (METAS) and Dutch
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 156--156
+Underfull \hbox (badness 10000) in paragraph at lines 154--154
 \T1/cmss/m/n/9 (+20) Met-ro-logy In-sti-tute
  []
 
-(./Figures/DCSCombinedStokes.tex
-<Figures/DCSCombinedStokes.pdf, id=2164, 284.06125pt x 226.8475pt>
+[57 <./Figures/PSPlainSizeComparison.pdf>] (./Figures/DCSCombinedStokes.tex
+<Figures/DCSCombinedStokes.pdf, id=2176, 284.06125pt x 226.8475pt>
 File: Figures/DCSCombinedStokes.pdf Graphic file (type pdf)
 
 <use Figures/DCSCombinedStokes.pdf>
 Package pdftex.def Info: Figures/DCSCombinedStokes.pdf used on input line 109.
 (pdftex.def)             Requested size: 284.06053pt x 226.84694pt.
 )
-Underfull \hbox (badness 4954) in paragraph at lines 168--168
+Underfull \hbox (badness 4954) in paragraph at lines 166--166
 \T1/cmss/m/n/9 (+20) of the intensity-based
  []
 
 
-Underfull \hbox (badness 2245) in paragraph at lines 168--168
+Underfull \hbox (badness 2245) in paragraph at lines 166--166
 \T1/cmss/m/n/9 (+20) dens-ity of the col-loid.
  []
 
-[57 <./Figures/PSPlainResonantTerm.pdf>] [58 <./Figures/PSPlainSizeComparison.p
-df> <./Figures/DCSCombinedStokes.pdf>] (./Figures/PSPlainSizeDistribution.tex
-<Figures/PSPlainSizeDistribution.pdf, id=2187, 284.06125pt x 226.8475pt>
+[58 <./Figures/DCSCombinedStokes.pdf>] (./Figures/PSPlainSizeDistribution.tex
+<Figures/PSPlainSizeDistribution.pdf, id=2190, 284.06125pt x 226.8475pt>
 File: Figures/PSPlainSizeDistribution.pdf Graphic file (type pdf)
 
 <use Figures/PSPlainSizeDistribution.pdf>
 Package pdftex.def Info: Figures/PSPlainSizeDistribution.pdf used on input line
- 117.
+ 125.
 (pdftex.def)             Requested size: 284.06053pt x 226.84694pt.
 )
-Underfull \hbox (badness 2359) in paragraph at lines 199--199
-[]\T1/cmss/bx/n/9 Figure 5.6 | |\T1/cmss/m/n/9 (+20) Number-
+Underfull \hbox (badness 2359) in paragraph at lines 197--197
+[]\T1/cmss/bx/n/9 Figure 5.7 | |\T1/cmss/m/n/9 (+20) Number-
  []
 
 
-Underfull \hbox (badness 1590) in paragraph at lines 199--199
+Underfull \hbox (badness 1590) in paragraph at lines 197--197
 \T1/cmss/m/n/9 (+20) SAXS with the shape
  []
 
 
-Underfull \hbox (badness 1810) in paragraph at lines 199--199
+Underfull \hbox (badness 1810) in paragraph at lines 197--197
 \T1/cmss/m/n/9 (+20) scat-ter-ing func-tion ap-
  []
 
 [59 <./Figures/PSPlainSizeDistribution.pdf>]
 (./Figures/ResonantTermSimulationNumber.tex
-<Figures/ResonantTermSimulationNumber.pdf, id=2207, 284.06125pt x 226.8475pt>
+<Figures/ResonantTermSimulationNumber.pdf, id=2210, 284.06125pt x 226.8475pt>
 File: Figures/ResonantTermSimulationNumber.pdf Graphic file (type pdf)
 
 <use Figures/ResonantTermSimulationNumber.pdf>
 Package pdftex.def Info: Figures/ResonantTermSimulationNumber.pdf used on input
  line 111.
 (pdftex.def)             Requested size: 284.06053pt x 226.84694pt.
-) [60 <./Figures/ResonantTermSimulationNumber.pdf>] [61] (./Figures/IsopointSim
-ulationPolydispersity.tex
-<Figures/IsopointSimulationPolydispersity.pdf, id=2230, 284.06125pt x 226.8475p
+) [60 <./Figures/ResonantTermSimulationNumber.pdf>] (./Figures/IsopointSimulati
+onPolydispersity.tex
+<Figures/IsopointSimulationPolydispersity.pdf, id=2227, 284.06125pt x 226.8475p
 t>
 File: Figures/IsopointSimulationPolydispersity.pdf Graphic file (type pdf)
  <use Figures/IsopointSimulationPolydispersity.pdf>
@@ -2735,17 +2742,16 @@ LaTeX Font Info:    Font shape `U/msb/m/n' will be
 (Font)              scaled to size 5.93399pt on input line 118.
 )
 (./Figures/IsopointSimulationRange.tex
-<Figures/IsopointSimulationRange.pdf, id=2231, 284.06125pt x 226.8475pt>
+<Figures/IsopointSimulationRange.pdf, id=2228, 284.06125pt x 226.8475pt>
 File: Figures/IsopointSimulationRange.pdf Graphic file (type pdf)
 
 <use Figures/IsopointSimulationRange.pdf>
 Package pdftex.def Info: Figures/IsopointSimulationRange.pdf used on input line
  109.
 (pdftex.def)             Requested size: 284.06053pt x 226.84694pt.
-) [62 <./Figures/IsopointSimulationPolydispersity.pdf> <./Figures/IsopointSimul
-ationRange.pdf>]
+) [61]
 (./Figures/PSPlainAverageDensity.tex
-<Figures/PSPlainAverageDensity.pdf, id=2251, 284.06125pt x 226.8475pt>
+<Figures/PSPlainAverageDensity.pdf, id=2246, 284.06125pt x 226.8475pt>
 File: Figures/PSPlainAverageDensity.pdf Graphic file (type pdf)
 
 <use Figures/PSPlainAverageDensity.pdf>
@@ -2753,83 +2759,79 @@ Package pdftex.def Info: Figures/PSPlainAverageDensity.pdf used on input line 1
 07.
 (pdftex.def)             Requested size: 284.06053pt x 226.84694pt.
 )
-Underfull \hbox (badness 2384) in paragraph at lines 267--267
-[]\T1/cmss/bx/n/9 Figure 5.9 | |\T1/cmss/m/n/9 (+20) In-tens-ity
- []
-
-
-Underfull \hbox (badness 2547) in paragraph at lines 267--267
+Underfull \hbox (badness 2547) in paragraph at lines 265--265
 \T1/cmss/m/n/9 (+20) tron dens-ity meas-ured
  []
 
-[63 <./Figures/PSPlainAverageDensity.pdf>] (./Figures/DensityComparison.tex
-<Figures/DensityComparison.pdf, id=2265, 284.06125pt x 226.8475pt>
+[62 <./Figures/IsopointSimulationPolydispersity.pdf> <./Figures/IsopointSimulat
+ionRange.pdf>] (./Figures/DensityComparison.tex
+<Figures/DensityComparison.pdf, id=2262, 284.06125pt x 226.8475pt>
 File: Figures/DensityComparison.pdf Graphic file (type pdf)
 
 <use Figures/DensityComparison.pdf>
 Package pdftex.def Info: Figures/DensityComparison.pdf used on input line 120.
 (pdftex.def)             Requested size: 284.06053pt x 226.84694pt.
 )
-Underfull \hbox (badness 1048) in paragraph at lines 284--284
+Underfull \hbox (badness 1048) in paragraph at lines 282--282
 \T1/cmss/m/n/9 (+20) col-loids meas-ured with
  []
 
 
-Underfull \hbox (badness 3439) in paragraph at lines 284--284
+Underfull \hbox (badness 3439) in paragraph at lines 282--282
 \T1/cmss/m/n/9 (+20) SAXS us-ing the $\OML/zplm/m/it/9 I\OT1/zplm/m/n/9 (\OT1/p
 pl/m/n/9 (+20) 0\OT1/zplm/m/n/9 )$
  []
 
 
-Underfull \hbox (badness 5817) in paragraph at lines 284--284
+Underfull \hbox (badness 5817) in paragraph at lines 282--282
 \T1/cmss/m/n/9 (+20) ap-proach (black) and
  []
 
 
-Underfull \hbox (badness 2689) in paragraph at lines 284--284
+Underfull \hbox (badness 2689) in paragraph at lines 282--282
 \T1/cmss/m/n/9 (+20) DCS (red): PS-Plain
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 284--284
+Underfull \hbox (badness 10000) in paragraph at lines 282--282
 \T1/cmss/m/n/9 (+20) (squares), PS-COOH
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 284--284
+Underfull \hbox (badness 10000) in paragraph at lines 282--282
 \T1/cmss/m/n/9 (+20) (circles) and PMMA-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 284--284
+Underfull \hbox (badness 10000) in paragraph at lines 282--282
 \T1/cmss/m/n/9 (+20) COOH (dia-monds).
  []
 
 
-Underfull \hbox (badness 3536) in paragraph at lines 284--284
+Underfull \hbox (badness 3536) in paragraph at lines 282--282
 \T1/cmss/m/n/9 (+20) The nom-inal dens-it-ies
  []
 
-[64 <./Figures/DensityComparison.pdf>]) [65]
+[63 <./Figures/PSPlainAverageDensity.pdf>]) [64 <./Figures/DensityComparison.pd
+f>]
 \openout2 = `chapter_bio_applications.aux'.
 
  (./chapter_bio_applications.tex
-[66
-
-
-
-
-
-]
 Chapter 6.
-[67] <Figures/CaelyxCryoTEM.png, id=2331, 243.91125pt x 245.91875pt>
+[65
+
+
+
+
+
+] <Figures/CaelyxCryoTEM.png, id=2325, 243.91125pt x 245.91875pt>
 File: Figures/CaelyxCryoTEM.png Graphic file (type png)
 
 <use Figures/CaelyxCryoTEM.png>
 Package pdftex.def Info: Figures/CaelyxCryoTEM.png used on input line 25.
 (pdftex.def)             Requested size: 243.91064pt x 245.91814pt.
  (./Figures/CaelyxScheme.pdf_tex
-<Figures/CaelyxScheme.pdf, id=2332, 966.9253pt x 435.88487pt>
+<Figures/CaelyxScheme.pdf, id=2326, 966.9253pt x 435.88487pt>
 File: Figures/CaelyxScheme.pdf Graphic file (type pdf)
 
 <use Figures/CaelyxScheme.pdf>
@@ -2849,9 +2851,9 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             `cmss' (encoding: TS1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
- [68 <./Figures/CaelyxCryoTEM.png> <./Figures/CaelyxScheme.pdf>] [69]
+ [66 <./Figures/CaelyxCryoTEM.png> <./Figures/CaelyxScheme.pdf>] [67]
 (./Figures/CaelyxIodixanolContinuousSAXS.tex
-<Figures/CaelyxIodixanolContinuousSAXS.pdf, id=2491, 284.06125pt x 226.8475pt>
+<Figures/CaelyxIodixanolContinuousSAXS.pdf, id=2486, 284.06125pt x 226.8475pt>
 File: Figures/CaelyxIodixanolContinuousSAXS.pdf Graphic file (type pdf)
 
 <use Figures/CaelyxIodixanolContinuousSAXS.pdf>
@@ -2860,17 +2862,17 @@ t line 110.
 (pdftex.def)             Requested size: 284.06053pt x 226.84694pt.
 )
 (./Figures/CaelyxIodixanolIsopoint.tex
-<Figures/CaelyxIodixanolIsopoint.pdf, id=2492, 284.06125pt x 226.8475pt>
+<Figures/CaelyxIodixanolIsopoint.pdf, id=2487, 284.06125pt x 226.8475pt>
 File: Figures/CaelyxIodixanolIsopoint.pdf Graphic file (type pdf)
 
 <use Figures/CaelyxIodixanolIsopoint.pdf>
 Package pdftex.def Info: Figures/CaelyxIodixanolIsopoint.pdf used on input line
  101.
 (pdftex.def)             Requested size: 284.06053pt x 226.84694pt.
-) [70 <./Figures/CaelyxIodixanolContinuousSAXS.pdf> <./Figures/CaelyxIodixanolI
-sopoint.pdf>] [71]
+) [68 <./Figures/CaelyxIodixanolContinuousSAXS.pdf> <./Figures/CaelyxIodixanolI
+sopoint.pdf>] [69]
 (./Figures/CaelyxIodixanolResonantTerm.tex
-<Figures/CaelyxIodixanolResonantTerm.pdf, id=2522, 284.06125pt x 226.8475pt>
+<Figures/CaelyxIodixanolResonantTerm.pdf, id=2517, 284.06125pt x 226.8475pt>
 File: Figures/CaelyxIodixanolResonantTerm.pdf Graphic file (type pdf)
 
 <use Figures/CaelyxIodixanolResonantTerm.pdf>
@@ -2879,17 +2881,17 @@ line 113.
 (pdftex.def)             Requested size: 284.06053pt x 226.84694pt.
 )
 (./Figures/CaelyxAverageDensity.tex
-<Figures/CaelyxAverageDensity.pdf, id=2523, 284.06125pt x 226.8475pt>
+<Figures/CaelyxAverageDensity.pdf, id=2518, 284.06125pt x 226.8475pt>
 File: Figures/CaelyxAverageDensity.pdf Graphic file (type pdf)
 
 <use Figures/CaelyxAverageDensity.pdf>
 Package pdftex.def Info: Figures/CaelyxAverageDensity.pdf used on input line 10
 7.
 (pdftex.def)             Requested size: 284.06053pt x 226.84694pt.
-) [72 <./Figures/CaelyxIodixanolResonantTerm.pdf> <./Figures/CaelyxAverageDensi
+) [70 <./Figures/CaelyxIodixanolResonantTerm.pdf> <./Figures/CaelyxAverageDensi
 ty.pdf>]
 (./Figures/OsmolalityElectronDensity.tex
-<Figures/OsmolalityElectronDensity.pdf, id=2548, 284.06125pt x 226.8475pt>
+<Figures/OsmolalityElectronDensity.pdf, id=2543, 284.06125pt x 226.8475pt>
 File: Figures/OsmolalityElectronDensity.pdf Graphic file (type pdf)
 
 <use Figures/OsmolalityElectronDensity.pdf>
@@ -2901,9 +2903,9 @@ Underfull \hbox (badness 1990) in paragraph at lines 132--132
 []\T1/cmss/bx/n/9 Figure 6.4 | |\T1/cmss/m/n/9 (+20) Re-la-tion-
  []
 
-[73 <./Figures/OsmolalityElectronDensity.pdf>]
+[71 <./Figures/OsmolalityElectronDensity.pdf>]
 (./Figures/CaelyxSucroseContinuousSAXS.tex
-<Figures/CaelyxSucroseContinuousSAXS.pdf, id=2566, 284.06125pt x 226.8475pt>
+<Figures/CaelyxSucroseContinuousSAXS.pdf, id=2560, 284.06125pt x 226.8475pt>
 File: Figures/CaelyxSucroseContinuousSAXS.pdf Graphic file (type pdf)
 
 <use Figures/CaelyxSucroseContinuousSAXS.pdf>
@@ -2912,16 +2914,16 @@ line 111.
 (pdftex.def)             Requested size: 284.06053pt x 226.84694pt.
 )
 (./Figures/CaelyxSucroseContinuousSAXSIsopoint.tex
-<Figures/CaelyxSucroseContinuousSAXSIsopoint.pdf, id=2567, 284.06125pt x 226.84
+<Figures/CaelyxSucroseContinuousSAXSIsopoint.pdf, id=2561, 284.06125pt x 226.84
 75pt>
 File: Figures/CaelyxSucroseContinuousSAXSIsopoint.pdf Graphic file (type pdf)
  <use Figures/CaelyxSucroseContinuousSAXSIsopoint.pdf>
 Package pdftex.def Info: Figures/CaelyxSucroseContinuousSAXSIsopoint.pdf used o
 n input line 124.
 (pdftex.def)             Requested size: 284.06053pt x 226.84694pt.
-) [74 <./Figures/CaelyxSucroseContinuousSAXS.pdf> <./Figures/CaelyxSucroseConti
+) [72 <./Figures/CaelyxSucroseContinuousSAXS.pdf> <./Figures/CaelyxSucroseConti
 nuousSAXSIsopoint.pdf>] (./Figures/CaelyxSucroseContinuousWAXS.tex
-<Figures/CaelyxSucroseContinuousWAXS.pdf, id=2587, 284.06125pt x 226.8475pt>
+<Figures/CaelyxSucroseContinuousWAXS.pdf, id=2581, 284.06125pt x 226.8475pt>
 File: Figures/CaelyxSucroseContinuousWAXS.pdf Graphic file (type pdf)
 
 <use Figures/CaelyxSucroseContinuousWAXS.pdf>
@@ -2930,7 +2932,7 @@ line 110.
 (pdftex.def)             Requested size: 284.06053pt x 226.84694pt.
 )
 (./Figures/CaelyxSucroseContinuousWAXSDiffraction.tex
-<Figures/CaelyxSucroseContinuousWAXSDiffraction.pdf, id=2588, 284.06125pt x 226
+<Figures/CaelyxSucroseContinuousWAXSDiffraction.pdf, id=2582, 284.06125pt x 226
 .8475pt>
 File: Figures/CaelyxSucroseContinuousWAXSDiffraction.pdf Graphic file (type pdf
 )
@@ -2938,9 +2940,9 @@ File: Figures/CaelyxSucroseContinuousWAXSDiffraction.pdf Graphic file (type pdf
 Package pdftex.def Info: Figures/CaelyxSucroseContinuousWAXSDiffraction.pdf use
 d on input line 105.
 (pdftex.def)             Requested size: 284.06053pt x 226.84694pt.
-) [75 <./Figures/CaelyxSucroseContinuousWAXS.pdf> <./Figures/CaelyxSucroseConti
+) [73 <./Figures/CaelyxSucroseContinuousWAXS.pdf> <./Figures/CaelyxSucroseConti
 nuousWAXSDiffraction.pdf>] (./Figures/CaelyxIsopointComparison.tex
-<Figures/CaelyxIsopointComparison.pdf, id=2605, 284.06125pt x 226.8475pt>
+<Figures/CaelyxIsopointComparison.pdf, id=2600, 284.06125pt x 226.8475pt>
 File: Figures/CaelyxIsopointComparison.pdf Graphic file (type pdf)
 
 <use Figures/CaelyxIsopointComparison.pdf>
@@ -2954,39 +2956,39 @@ Overfull \hbox (1.44243pt too wide) in paragraph at lines 186--187
  []
 
 (./Figures/SSLSingleContrast.tex
-<Figures/SSLSingleContrast.pdf, id=2626, 284.06125pt x 226.8475pt>
+<Figures/SSLSingleContrast.pdf, id=2621, 284.06125pt x 226.8475pt>
 File: Figures/SSLSingleContrast.pdf Graphic file (type pdf)
 
 <use Figures/SSLSingleContrast.pdf>
 Package pdftex.def Info: Figures/SSLSingleContrast.pdf used on input line 123.
 (pdftex.def)             Requested size: 284.06053pt x 226.84694pt.
-) [76 <./Figures/CaelyxIsopointComparison.pdf>] (./Figures/SSLSingleContrastBil
+) [74 <./Figures/CaelyxIsopointComparison.pdf>] (./Figures/SSLSingleContrastBil
 ayer.tex
-<Figures/SSLSingleContrastBilayer.pdf, id=2646, 198.7425pt x 312.16624pt>
+<Figures/SSLSingleContrastBilayer.pdf, id=2641, 198.7425pt x 312.16624pt>
 File: Figures/SSLSingleContrastBilayer.pdf Graphic file (type pdf)
 
 <use Figures/SSLSingleContrastBilayer.pdf>
 Package pdftex.def Info: Figures/SSLSingleContrastBilayer.pdf used on input lin
 e 105.
 (pdftex.def)             Requested size: 198.742pt x 312.16548pt.
-) [77 <./Figures/SSLSingleContrast.pdf>] (./Figures/SSLContinuousSAXS.tex
-<Figures/SSLContinuousSAXS.pdf, id=2660, 284.06125pt x 226.8475pt>
+) [75 <./Figures/SSLSingleContrast.pdf>] (./Figures/SSLContinuousSAXS.tex
+<Figures/SSLContinuousSAXS.pdf, id=2655, 284.06125pt x 226.8475pt>
 File: Figures/SSLContinuousSAXS.pdf Graphic file (type pdf)
 
 <use Figures/SSLContinuousSAXS.pdf>
 Package pdftex.def Info: Figures/SSLContinuousSAXS.pdf used on input line 111.
 (pdftex.def)             Requested size: 284.06053pt x 226.84694pt.
 ) (./Figures/PlainLiposomeContinuousSAXS.tex <Figures/PlainLiposomeContinuousSA
-XS.pdf, id=2661, 284.06125pt x 226.8475pt>
+XS.pdf, id=2656, 284.06125pt x 226.8475pt>
 File: Figures/PlainLiposomeContinuousSAXS.pdf Graphic file (type pdf)
 
 <use Figures/PlainLiposomeContinuousSAXS.pdf>
 Package pdftex.def Info: Figures/PlainLiposomeContinuousSAXS.pdf used on input 
 line 113.
 (pdftex.def)             Requested size: 284.06053pt x 226.84694pt.
-) [78 <./Figures/SSLSingleContrastBilayer.pdf>] (./Figures/SSLIsopointIntensity
+) [76 <./Figures/SSLSingleContrastBilayer.pdf>] (./Figures/SSLIsopointIntensity
 .tex
-<Figures/SSLIsopointIntensity.pdf, id=2683, 284.06125pt x 226.8475pt>
+<Figures/SSLIsopointIntensity.pdf, id=2678, 284.06125pt x 226.8475pt>
 File: Figures/SSLIsopointIntensity.pdf Graphic file (type pdf)
 
 <use Figures/SSLIsopointIntensity.pdf>
@@ -2998,9 +3000,9 @@ Underfull \hbox (badness 2418) in paragraph at lines 252--252
 []\T1/cmss/bx/n/9 Figure 6.11 | |\T1/cmss/m/n/9 (+20) Iso-scat-
  []
 
-[79 <./Figures/SSLContinuousSAXS.pdf> <./Figures/PlainLiposomeContinuousSAXS.pd
+[77 <./Figures/SSLContinuousSAXS.pdf> <./Figures/PlainLiposomeContinuousSAXS.pd
 f>] (./Figures/SSLContrastCurvesBilayer200SSL.tex
-<Figures/SSLContrastCurvesBilayer200SSL.pdf, id=2716, 255.95625pt x 511.9125pt>
+<Figures/SSLContrastCurvesBilayer200SSL.pdf, id=2710, 255.95625pt x 511.9125pt>
 File: Figures/SSLContrastCurvesBilayer200SSL.pdf Graphic file (type pdf)
 <use Figures/SSLContrastCurvesBilayer200SSL.pdf>
 Package pdftex.def Info: Figures/SSLContrastCurvesBilayer200SSL.pdf used on inp
@@ -3008,32 +3010,32 @@ ut line 105.
 (pdftex.def)             Requested size: 255.95561pt x 511.91125pt.
 )
 (./Figures/SSLContrastCurvesBilayer100Plain.tex
-<Figures/SSLContrastCurvesBilayer100Plain.pdf, id=2717, 255.95625pt x 511.9125p
+<Figures/SSLContrastCurvesBilayer100Plain.pdf, id=2711, 255.95625pt x 511.9125p
 t>
 File: Figures/SSLContrastCurvesBilayer100Plain.pdf Graphic file (type pdf)
  <use Figures/SSLContrastCurvesBilayer100Plain.pdf>
 Package pdftex.def Info: Figures/SSLContrastCurvesBilayer100Plain.pdf used on i
 nput line 103.
 (pdftex.def)             Requested size: 255.95561pt x 511.91125pt.
-) [80 <./Figures/SSLIsopointIntensity.pdf>] [81 <./Figures/SSLContrastCurvesBil
+) [78 <./Figures/SSLIsopointIntensity.pdf>] [79 <./Figures/SSLContrastCurvesBil
 ayer200SSL.pdf> <./Figures/SSLContrastCurvesBilayer100Plain.pdf>] (./Figures/HD
 LContinuousSAXS.tex
-<Figures/HDLContinuousSAXS.pdf, id=2763, 284.06125pt x 226.8475pt>
+<Figures/HDLContinuousSAXS.pdf, id=2758, 284.06125pt x 226.8475pt>
 File: Figures/HDLContinuousSAXS.pdf Graphic file (type pdf)
 
 <use Figures/HDLContinuousSAXS.pdf>
 Package pdftex.def Info: Figures/HDLContinuousSAXS.pdf used on input line 104.
 (pdftex.def)             Requested size: 284.06053pt x 226.84694pt.
 ) (./Figures/LDLContinuousSAXS.tex
-<Figures/LDLContinuousSAXS.pdf, id=2764, 284.06125pt x 226.8475pt>
+<Figures/LDLContinuousSAXS.pdf, id=2759, 284.06125pt x 226.8475pt>
 File: Figures/LDLContinuousSAXS.pdf Graphic file (type pdf)
 
 <use Figures/LDLContinuousSAXS.pdf>
 Package pdftex.def Info: Figures/LDLContinuousSAXS.pdf used on input line 104.
 (pdftex.def)             Requested size: 284.06053pt x 226.84694pt.
-) [82 <./Figures/HDLContinuousSAXS.pdf> <./Figures/LDLContinuousSAXS.pdf>] (./F
+) [80 <./Figures/HDLContinuousSAXS.pdf> <./Figures/LDLContinuousSAXS.pdf>] (./F
 igures/LipoproteinIsopointComp.tex
-<Figures/LipoproteinIsopointComp.pdf, id=2799, 284.06125pt x 226.8475pt>
+<Figures/LipoproteinIsopointComp.pdf, id=2794, 284.06125pt x 226.8475pt>
 File: Figures/LipoproteinIsopointComp.pdf Graphic file (type pdf)
 
 <use Figures/LipoproteinIsopointComp.pdf>
@@ -3042,25 +3044,25 @@ Package pdftex.def Info: Figures/LipoproteinIsopointComp.pdf used on input line
 (pdftex.def)             Requested size: 284.06053pt x 226.84694pt.
 )
 (./Figures/LipoproteinsAverageDensity.tex
-<Figures/LipoproteinsAverageDensity.pdf, id=2800, 284.06125pt x 226.8475pt>
+<Figures/LipoproteinsAverageDensity.pdf, id=2795, 284.06125pt x 226.8475pt>
 File: Figures/LipoproteinsAverageDensity.pdf Graphic file (type pdf)
 
 <use Figures/LipoproteinsAverageDensity.pdf>
 Package pdftex.def Info: Figures/LipoproteinsAverageDensity.pdf used on input l
 ine 109.
 (pdftex.def)             Requested size: 284.06053pt x 226.84694pt.
-) [83 <./Figures/LipoproteinIsopointComp.pdf> <./Figures/LipoproteinsAverageDen
+) [81 <./Figures/LipoproteinIsopointComp.pdf> <./Figures/LipoproteinsAverageDen
 sity.pdf>]
 (./Figures/HDLGuinierRadius.tex
-<Figures/HDLGuinierRadius.pdf, id=2839, 284.06125pt x 226.8475pt>
+<Figures/HDLGuinierRadius.pdf, id=2834, 284.06125pt x 226.8475pt>
 File: Figures/HDLGuinierRadius.pdf Graphic file (type pdf)
 
 <use Figures/HDLGuinierRadius.pdf>
 Package pdftex.def Info: Figures/HDLGuinierRadius.pdf used on input line 107.
 (pdftex.def)             Requested size: 284.06053pt x 226.84694pt.
-) [84 <./Figures/HDLGuinierRadius.pdf>]
+) [82 <./Figures/HDLGuinierRadius.pdf>]
 (./Figures/CoatedKiskerIgGSingleContrastSAXS.tex
-<Figures/CoatedKiskerIgGSingleContrastSAXS.pdf, id=2868, 284.06125pt x 226.8475
+<Figures/CoatedKiskerIgGSingleContrastSAXS.pdf, id=2863, 284.06125pt x 226.8475
 pt>
 File: Figures/CoatedKiskerIgGSingleContrastSAXS.pdf Graphic file (type pdf)
  <use Figures/CoatedKiskerIgGSingleContrastSAXS.pdf>
@@ -3081,24 +3083,24 @@ Underfull \hbox (badness 2772) in paragraph at lines 358--358
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 366.
 
-[85 <./Figures/CoatedKiskerIgGSingleContrastSAXS.pdf>]
+[83 <./Figures/CoatedKiskerIgGSingleContrastSAXS.pdf>]
 (./Figures/CoatedKiskerIsopointComp.tex
-<Figures/CoatedKiskerIsopointComp.pdf, id=2888, 284.06125pt x 226.8475pt>
+<Figures/CoatedKiskerIsopointComp.pdf, id=2882, 284.06125pt x 226.8475pt>
 File: Figures/CoatedKiskerIsopointComp.pdf Graphic file (type pdf)
 
 <use Figures/CoatedKiskerIsopointComp.pdf>
 Package pdftex.def Info: Figures/CoatedKiskerIsopointComp.pdf used on input lin
 e 99.
 (pdftex.def)             Requested size: 284.06053pt x 226.84694pt.
-) [86 <./Figures/CoatedKiskerIsopointComp.pdf>]
+) [84 <./Figures/CoatedKiskerIsopointComp.pdf>]
 
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 410.
 
-) [87]
+) [85]
 \openout2 = `chapter_conclusions.aux'.
 
- (./chapter_conclusions.tex [88
+ (./chapter_conclusions.tex [86
 
 
 
@@ -3106,25 +3108,25 @@ LaTeX Warning: No positions in optional float specifier.
 
 ]
 Chapter 7.
-[89] [90]) [91] (./main.bbl [92
+[87] [88]) [89] (./main.bbl [90
 
 
 
 
-] [93] [94] [95] [96] [97] [98] [99] [100]
+] [91] [92] [93] [94] [95] [96] [97] [98]
 Underfull \hbox (badness 5105) in paragraph at lines 763--767
 []\T1/ppl/m/sc/10.95 (+20) Monopoli, M. P., Wal-czyk, D., Camp-bell, A., Elia, 
 G., Lynch, I.,
  []
 
-[101] [102] [103] [104] [105]) [106]
+[99] [100] [101] [102] [103]) [104]
 \openout2 = `thanksgiving.aux'.
 
- (./thanksgiving.tex [107
+ (./thanksgiving.tex [105
 
 
 
-] [108])
+] [106])
 \openout2 = `tub-eidesstattliche.aux'.
 
 
@@ -3137,7 +3139,7 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 16.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 16.
- [109
+ [107
 
 
 
@@ -3152,7 +3154,7 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 16.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 16.
- [110
+ [108
 
 
 
@@ -3168,7 +3170,7 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 38.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 38.
- [111
+ [109
 
 
 ]
@@ -3180,7 +3182,7 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 38.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 38.
- [112
+ [110
 
 
 
@@ -3196,14 +3198,14 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 45.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 45.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 45.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 00552FD455BCB0C2F2C81425C481C479;5784.
+(rerunfilecheck)             Checksum: 26D31EE1E2106060C930088CA504E048;5784.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 45.
  ) 
 Here is how much of TeX's memory you used:
- 35550 strings out of 493315
- 658176 string characters out of 6137904
- 750774 words of memory out of 5000000
- 36733 multiletter control sequences out of 15000+600000
+ 35554 strings out of 493315
+ 658315 string characters out of 6137904
+ 753906 words of memory out of 5000000
+ 36736 multiletter control sequences out of 15000+600000
  317339 words of font info for 1118 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
  77i,22n,89p,1861b,870s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -3231,10 +3233,10 @@ ic/cm-super/sfsx1728.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/urw/pa
 latino/uplb8a.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/urw/palatino/
 uplbi8a.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/urw/palatino/uplr8a
 .pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on main.pdf (130 pages, 7147964 bytes).
+Output written on main.pdf (128 pages, 7145583 bytes).
 PDF statistics:
- 3230 PDF objects out of 3580 (max. 8388607)
- 2817 compressed objects within 29 object streams
- 572 named destinations out of 1000 (max. 500000)
+ 3225 PDF objects out of 3580 (max. 8388607)
+ 2814 compressed objects within 29 object streams
+ 571 named destinations out of 1000 (max. 500000)
  157568 words of extra memory for PDF output out of 184870 (max. 10000000)
 
