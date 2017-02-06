@@ -25,10 +25,10 @@ For the preparation of the high density aqueous sucrose solutions employed in th
 
 \begin{figure*}%[htbp]
 \centering
-\subfloat[DCS setup at the initial time.]{\resizebox{0.44\linewidth}{!}{\fontsize{25pt}{25pt}\selectfont\input{Figures/ContrastScheme.pdf_tex}}\label{fig:DCSSetup}}
+\subfloat[DCS setup at the initial time.]{\resizebox{0.44\linewidth}{!}{\fontsize{25pt}{25pt}\selectfont\input{Figures/DCSSetup.pdf_tex}}\label{fig:DCSSetup}}
 \qquad
-\subfloat[Fractionation after a time $t$.]{\resizebox{0.44\linewidth}{!}{\fontsize{25pt}{25pt}\selectfont\input{Figures/MatchPointScheme.pdf_tex}}\label{fig:DCSSetup_final}}
-\caption[Scheme of the differential centrifugal sedimentation technique.]{\textcolor{red}{Scheme of the differential centrifugal sedimentation technique.}}
+\subfloat[Size fractionation after a time $t$.]{\resizebox{0.44\linewidth}{!}{\fontsize{25pt}{25pt}\selectfont\input{Figures/DCSSetup_final.pdf_tex}}\label{fig:DCSSetup_final}}
+\caption[Scheme of the differential centrifugal sedimentation setup.]{Scheme of the differential centrifugal sedimentation technique. a) A DCS setup consists of a disc rotating with a speed $\Omega$ filled with a gradient liquid with average density $\rho_f$. At a certain distance of the point where the particles are injected, the attenuation of the light beam is measured. b) After a time $t$, the particles are separated due to the centrifugal force depending on their size, where larger particles are detected earlier than smaller ones.}
 \end{figure*}
 
 \subsection{Differential Centrifugal Sedimentation}
@@ -61,14 +61,14 @@ DCS measurements were performed \textcolor{red}{by the National Physical Laborat
 
 The measured attenuation at 405 nm was converted to the number of particles for each measured diameter by treating the particles as spherical Mie scatterers with no optical absorbance at the incident wavelength. Three different types of calibration particles were used: poly(vinyl chloride) colloids in water with density of 1.385 g cm$^{-3}$ and nominal size of $(223\pm5)$ nm (calibrant A) and $(239\pm5)$ nm (calibrant B) and polybutadiene colloids in 16 \% sucrose mass fraction in heavy water with nominal size of $(510\pm20)$ nm and density of 0.91 g cm$^{-3}$ (calibrant C). 
 
-A standard disc configuration where the particles sediment through a lower density gradient was used and additionally, a more recently developed set up which makes use of a disc where colloids float through a higher density gradient was also used for the PS-Plain colloids due to their low density \citep{fitzpatrick_structure_1998}. Typically, the DCS diameter $D_p$ or density $\rho_p$ of a spherical particle is derived from the Stokes' law:
+A standard disc configuration where the particles sediment through a lower density gradient was used and additionally, a more recently developed setup which makes use of a disc where colloids float through a higher density gradient was also used for the PS-Plain colloids due to their low density \citep{fitzpatrick_structure_1998}. Typically, the DCS diameter $D_p$ or density $\rho_p$ of a spherical particle is derived from the Stokes' law:
 
 \begin{equation}
 D_p=\sqrt{\frac{18\eta\ln\sfrac{R_f}{R_i}}{\left( \rho_p - \rho_{\text{fluid}} \right)\omega^2 t_p}}
 \label{eq:stokes}
 \end{equation}
 
-where $t_p$ is the sedimentation time between radii of rotation $R_f$ and $R_i$ of the particle, $\eta$ and $\rho_f$ are the viscosity and the density of the fluid respectively and $\omega$ is the disc angular frequency. If a calibrant of known diameter $D_c$ and density $\rho_c$ is measured with the same set up, the investigated particle diameter can be expressed as:
+where $t_p$ is the sedimentation time between radii of rotation $R_f$ and $R_i$ of the particle, $\eta$ and $\rho_f$ are the viscosity and the density of the fluid respectively and $\omega$ is the disc angular frequency. If a calibrant of known diameter $D_c$ and density $\rho_c$ is measured with the same setup, the investigated particle diameter can be expressed as:
 
 \begin{equation}
 D_p=D_c\sqrt{\frac{\left( \rho_c - \rho_{\text{fluid}} \right) t_c}{\left( \rho_p - \rho_{\text{fluid}} \right) t_p}}
@@ -141,7 +141,7 @@ The data can also be analysed by using the \emph{shape scattering function} desc
 	\label{fig:PSPlainResonantTerm}
 \end{figure}
 
-The shape scattering function calculated from the measured scattering curves is depicted in figure \ref{fig:PSPlainResonantTerm} together with the spherical model fitted to the data, which employs a simple form factor that ignores the internal structure (eq. \ref{eq:ff_sphere}) and a gaussian size distribution expressed by equation \ref{eq:gauss_distribution}. From this fit, a mean particle size of $(146.8\pm1.3)$ nm was determined. The associated uncertainty calculated with this approach is 3.5 times smaller than the one obtained with the single-contrast SAXS experiment. By fitting the ellipsoid model given by expression \ref{eq:ff_ellipsoid} to the shape scattering function, a sphericity of 98 $\%$ was obtained.
+\textcolor{red}{The experimental shape scattering function is calculated from the measured scattering curves presented in figure \ref{fig:PSPlainContinuousSAXS}. The result is depicted in figure \ref{fig:PSPlainResonantTerm} together with the spherical model fitted to the data, which employs a simple form factor that ignores the internal structure (eq. \ref{eq:ff_sphere}) and a gaussian size distribution expressed by equation \ref{eq:gauss_distribution}.} From this fit, a mean particle size of $(146.8\pm1.3)$ nm was determined. The associated uncertainty calculated with this approach is 3.5 times smaller than the one obtained with the single-contrast SAXS experiment. By fitting the ellipsoid model given by expression \ref{eq:ff_ellipsoid} to the shape scattering function, a sphericity of 98 $\%$ was obtained.
 
 \subsection{Inter-laboratory comparison of the mean particle diameter}
 \label{sec:interlab_size_comparison}
@@ -197,7 +197,7 @@ An important attribute of polymeric colloids is their polydispersity, as the sui
 	\label{fig:PSPlainSizeDistribution}
 \end{figure}
 
-The SAXS results determine a polydispersity degree $p_d$ for the PS-Plain colloids of 6.1 $\%$, which is an indicator of a very monodisperse distribution, as also suggested by the regular minima observed in figure \ref{fig:PSPlainSingleContrastSAXS}. Particle polydispersities measured by DCS are also low as observed in figure \ref{fig:PSPlainSizeDistribution}, ranging from 7.8 $\%$ measured with the standard set up, to 11.3 $\%$ measured with the low density disc setup. The standard setup appears therefore to achieve a higher resolution size distribution. The size distribution measured by TSEM with a $p_d$ of 8.3 $\%$ shows good agreement with the ensemble techniques.
+The SAXS results determine a polydispersity degree $p_d$ for the PS-Plain colloids of 6.1 $\%$, which is an indicator of a very monodisperse distribution, as also suggested by the regular minima observed in figure \ref{fig:PSPlainSingleContrastSAXS}. Particle polydispersities measured by DCS are also low as observed in figure \ref{fig:PSPlainSizeDistribution}, ranging from 7.8 $\%$ measured with the standard setup, to 11.3 $\%$ measured with the low density disc setup. The standard setup appears therefore to achieve a higher resolution size distribution. The size distribution measured by TSEM with a $p_d$ of 8.3 $\%$ shows good agreement with the ensemble techniques.
 
 The measurements obtained by AFM provide polydispersity degrees larger than 10 $\%$ \citep{nicolet_inter-laboratory_2016} and, therefore, slightly broader size distributions than those calculated by SAXS, TSEM and standard DCS. This can be in part attributed to the low statistics that typically affect imaging methods, along with artefacts associated with the posterior analysis.
 
