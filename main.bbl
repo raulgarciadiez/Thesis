@@ -1,4 +1,4 @@
-\begin{thebibliography}{206}
+\begin{thebibliography}{208}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 
 \bibitem[Als-Nielsen \& McMorrow(2011)]{als-nielsen_elements_2011}
@@ -375,6 +375,13 @@
 {\sc Glatter, O. \& Kratky, O.} 1982 {\em Small Angle x-Ray Scattering\/}.
   London: {Academic Press}.
 
+\bibitem[Gleber {\em et~al.\/}(2010)Gleber, Cibik, Haas, Hoell, M{\"u}ller \&
+  Krumrey]{gleber_traceable_2010}
+{\sc Gleber, G., Cibik, L., Haas, S., Hoell, A., M{\"u}ller, P. \& Krumrey, M.}
+  2010 Traceable size determination of {{PMMA}} nanoparticles based on {{Small
+  Angle X}}-ray {{Scattering}} ({{SAXS}}). {\em J Phys Conf Ser\/} {\bf 247},
+  012027.
+
 \bibitem[Goerigk {\em et~al.\/}(2003)Goerigk, Haubold, Lyon \&
   Simon]{goerigk_anomalous_2003}
 {\sc Goerigk, G., Haubold, H.-G., Lyon, O. \& Simon, J.-P.} 2003 Anomalous
@@ -580,6 +587,10 @@
 {\sc Kiselev, M.~A., Wartewig, S., Janich, M., Lesieur, P., Kiselev, A.~M.,
   Ollivon, M. \& Neubert, R.} 2003 Does sucrose influence the properties of
   {{DMPC}} vesicles? {\em Chem Phys Lipids\/} {\bf 123}, 31--44.
+
+\bibitem[Kittel(2004)]{kittel_introduction_2004}
+{\sc Kittel, C.} 2004 {\em {Introduction to Solid State Physics}\/}, 8th edn.
+  Hoboken, NJ: {John Wiley and Sons Ltd}.
 
 \bibitem[Klein {\em et~al.\/}(2014)Klein, Thornagel \&
   Ulm]{klein_elektronenspeicherringe_2014}
