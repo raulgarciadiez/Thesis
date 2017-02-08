@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/TeX Live for SUSE Linux) (format=pdflatex 2016.7.6)  8 FEB 2017 12:00
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/TeX Live for SUSE Linux) (format=pdflatex 2016.7.6)  8 FEB 2017 19:03
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2735,12 +2735,8 @@ Package pdftex.def Info: Figures/CaelyxIodixanolIsopoint.pdf used on input line
 (pdftex.def)             Requested size: 284.06053pt x 226.84694pt.
 ) [70 <./Figures/CaelyxIodixanolContinuousSAXS.pdf> <./Figures/CaelyxIodixanolI
 sopoint.pdf>] [71]
-Underfull \hbox (badness 1014) in paragraph at lines 112--112
-\T1/cmss/m/n/9 (+20) ences, Bud-apest, Hun-
- []
-
 (./Figures/CaelyxIodixanolResonantTerm.tex
-<Figures/CaelyxIodixanolResonantTerm.pdf, id=2923, 284.06125pt x 226.8475pt>
+<Figures/CaelyxIodixanolResonantTerm.pdf, id=2924, 284.06125pt x 226.8475pt>
 File: Figures/CaelyxIodixanolResonantTerm.pdf Graphic file (type pdf)
 
 <use Figures/CaelyxIodixanolResonantTerm.pdf>
@@ -2749,7 +2745,7 @@ line 105.
 (pdftex.def)             Requested size: 284.06053pt x 226.84694pt.
 )
 (./Figures/CaelyxAverageDensity.tex
-<Figures/CaelyxAverageDensity.pdf, id=2924, 284.06125pt x 226.8475pt>
+<Figures/CaelyxAverageDensity.pdf, id=2925, 284.06125pt x 226.8475pt>
 File: Figures/CaelyxAverageDensity.pdf Graphic file (type pdf)
 
 <use Figures/CaelyxAverageDensity.pdf>
@@ -2767,7 +2763,7 @@ Package pdftex.def Info: Figures/OsmolalityElectronDensity.pdf used on input li
 ne 120.
 (pdftex.def)             Requested size: 284.06053pt x 226.84694pt.
 )
-Underfull \hbox (badness 1990) in paragraph at lines 153--153
+Underfull \hbox (badness 1990) in paragraph at lines 155--155
 []\T1/cmss/bx/n/9 Figure 6.4 | |\T1/cmss/m/n/9 (+20) Re-la-tion-
  []
 
@@ -2810,7 +2806,7 @@ d on input line 105.
 (pdftex.def)             Requested size: 284.06053pt x 226.84694pt.
 ) [75 <./Figures/CaelyxSucroseContinuousWAXS.pdf> <./Figures/CaelyxSucroseConti
 nuousWAXSDiffraction.pdf>] (./Figures/CaelyxIsopointComparison.tex
-<Figures/CaelyxIsopointComparison.pdf, id=3009, 284.06125pt x 226.8475pt>
+<Figures/CaelyxIsopointComparison.pdf, id=3008, 284.06125pt x 226.8475pt>
 File: Figures/CaelyxIsopointComparison.pdf Graphic file (type pdf)
 
 <use Figures/CaelyxIsopointComparison.pdf>
@@ -2818,13 +2814,13 @@ Package pdftex.def Info: Figures/CaelyxIsopointComparison.pdf used on input lin
 e 109.
 (pdftex.def)             Requested size: 284.06053pt x 226.84694pt.
 )
-Overfull \hbox (1.44243pt too wide) in paragraph at lines 207--208
+Overfull \hbox (1.44243pt too wide) in paragraph at lines 212--213
 []\T1/ppl/m/n/10.95 (-20) The in-cor-por-a-tion of biocom-pat-ible poly-mers in
 -creases the phos-phol-ipid bilayer strength
  []
 
 (./Figures/SSLSingleContrast.tex
-<Figures/SSLSingleContrast.pdf, id=3030, 284.06125pt x 226.8475pt>
+<Figures/SSLSingleContrast.pdf, id=3029, 284.06125pt x 226.8475pt>
 File: Figures/SSLSingleContrast.pdf Graphic file (type pdf)
 
 <use Figures/SSLSingleContrast.pdf>
@@ -2832,7 +2828,7 @@ Package pdftex.def Info: Figures/SSLSingleContrast.pdf used on input line 123.
 (pdftex.def)             Requested size: 284.06053pt x 226.84694pt.
 ) [76 <./Figures/CaelyxIsopointComparison.pdf>] (./Figures/SSLSingleContrastBil
 ayer.tex
-<Figures/SSLSingleContrastBilayer.pdf, id=3048, 198.7425pt x 312.16624pt>
+<Figures/SSLSingleContrastBilayer.pdf, id=3047, 198.7425pt x 312.16624pt>
 File: Figures/SSLSingleContrastBilayer.pdf Graphic file (type pdf)
 
 <use Figures/SSLSingleContrastBilayer.pdf>
@@ -2840,21 +2836,21 @@ Package pdftex.def Info: Figures/SSLSingleContrastBilayer.pdf used on input lin
 e 105.
 (pdftex.def)             Requested size: 198.742pt x 312.16548pt.
 ) (./Figures/ULVScheme.pdf_tex
-<Figures/ULVScheme.pdf, id=3055, 259.46674pt x 264.76715pt>
+<Figures/ULVScheme.pdf, id=3054, 259.46674pt x 264.76715pt>
 File: Figures/ULVScheme.pdf Graphic file (type pdf)
 
 <use Figures/ULVScheme.pdf>
 Package pdftex.def Info: Figures/ULVScheme.pdf used on input line 52.
 (pdftex.def)             Requested size: 121.63637pt x 124.12141pt.
 ) (./Figures/MLVScheme.pdf_tex
-<Figures/MLVScheme.pdf, id=3056, 452.33748pt x 452.26593pt>
+<Figures/MLVScheme.pdf, id=3055, 452.33748pt x 452.26593pt>
 File: Figures/MLVScheme.pdf Graphic file (type pdf)
 
 <use Figures/MLVScheme.pdf>
 Package pdftex.def Info: Figures/MLVScheme.pdf used on input line 52.
 (pdftex.def)             Requested size: 121.63637pt x 121.61655pt.
 ) (./Figures/LamellaeScheme.pdf_tex
-<Figures/LamellaeScheme.pdf, id=3057, 259.46674pt x 272.79517pt>
+<Figures/LamellaeScheme.pdf, id=3056, 259.46674pt x 272.79517pt>
 File: Figures/LamellaeScheme.pdf Graphic file (type pdf)
 
 <use Figures/LamellaeScheme.pdf>
@@ -2871,14 +2867,14 @@ e pdfs with page group included in a single page
 pdfTeX warning: pdflatex (file ./Figures/LamellaeScheme.pdf): PDF inclusion: mu
 ltiple pdfs with page group included in a single page
 >] (./Figures/SSLContinuousSAXS.tex
-<Figures/SSLContinuousSAXS.pdf, id=3117, 284.06125pt x 226.8475pt>
+<Figures/SSLContinuousSAXS.pdf, id=3116, 284.06125pt x 226.8475pt>
 File: Figures/SSLContinuousSAXS.pdf Graphic file (type pdf)
 
 <use Figures/SSLContinuousSAXS.pdf>
 Package pdftex.def Info: Figures/SSLContinuousSAXS.pdf used on input line 111.
 (pdftex.def)             Requested size: 284.06053pt x 226.84694pt.
 ) (./Figures/PlainLiposomeContinuousSAXS.tex <Figures/PlainLiposomeContinuousSA
-XS.pdf, id=3118, 284.06125pt x 226.8475pt>
+XS.pdf, id=3117, 284.06125pt x 226.8475pt>
 File: Figures/PlainLiposomeContinuousSAXS.pdf Graphic file (type pdf)
 
 <use Figures/PlainLiposomeContinuousSAXS.pdf>
@@ -2888,7 +2884,7 @@ line 113.
 ) [79 <./Figures/SSLContinuousSAXS.pdf> <./Figures/PlainLiposomeContinuousSAXS.
 pdf>]
 (./Figures/SSLIsopointIntensity.tex
-<Figures/SSLIsopointIntensity.pdf, id=3143, 284.06125pt x 226.8475pt>
+<Figures/SSLIsopointIntensity.pdf, id=3142, 284.06125pt x 226.8475pt>
 File: Figures/SSLIsopointIntensity.pdf Graphic file (type pdf)
 
 <use Figures/SSLIsopointIntensity.pdf>
@@ -2896,13 +2892,13 @@ Package pdftex.def Info: Figures/SSLIsopointIntensity.pdf used on input line 10
 9.
 (pdftex.def)             Requested size: 284.06053pt x 226.84694pt.
 )
-Underfull \hbox (badness 2418) in paragraph at lines 279--279
+Underfull \hbox (badness 2418) in paragraph at lines 284--284
 []\T1/cmss/bx/n/9 Figure 6.12 | |\T1/cmss/m/n/9 (+20) Iso-scat-
  []
 
 [80 <./Figures/SSLIsopointIntensity.pdf>]
 (./Figures/SSLContrastCurvesBilayer200SSL.tex
-<Figures/SSLContrastCurvesBilayer200SSL.pdf, id=3174, 255.95625pt x 511.9125pt>
+<Figures/SSLContrastCurvesBilayer200SSL.pdf, id=3173, 255.95625pt x 511.9125pt>
 File: Figures/SSLContrastCurvesBilayer200SSL.pdf Graphic file (type pdf)
 <use Figures/SSLContrastCurvesBilayer200SSL.pdf>
 Package pdftex.def Info: Figures/SSLContrastCurvesBilayer200SSL.pdf used on inp
@@ -2910,7 +2906,7 @@ ut line 105.
 (pdftex.def)             Requested size: 255.95561pt x 511.91125pt.
 )
 (./Figures/SSLContrastCurvesBilayer100Plain.tex
-<Figures/SSLContrastCurvesBilayer100Plain.pdf, id=3175, 255.95625pt x 511.9125p
+<Figures/SSLContrastCurvesBilayer100Plain.pdf, id=3174, 255.95625pt x 511.9125p
 t>
 File: Figures/SSLContrastCurvesBilayer100Plain.pdf Graphic file (type pdf)
  <use Figures/SSLContrastCurvesBilayer100Plain.pdf>
@@ -2919,21 +2915,21 @@ nput line 103.
 (pdftex.def)             Requested size: 255.95561pt x 511.91125pt.
 ) [81] [82 <./Figures/SSLContrastCurvesBilayer200SSL.pdf> <./Figures/SSLContras
 tCurvesBilayer100Plain.pdf>] (./Figures/HDLContinuousSAXS.tex
-<Figures/HDLContinuousSAXS.pdf, id=3226, 284.06125pt x 226.8475pt>
+<Figures/HDLContinuousSAXS.pdf, id=3225, 284.06125pt x 226.8475pt>
 File: Figures/HDLContinuousSAXS.pdf Graphic file (type pdf)
 
 <use Figures/HDLContinuousSAXS.pdf>
 Package pdftex.def Info: Figures/HDLContinuousSAXS.pdf used on input line 104.
 (pdftex.def)             Requested size: 284.06053pt x 226.84694pt.
 ) (./Figures/LDLContinuousSAXS.tex
-<Figures/LDLContinuousSAXS.pdf, id=3227, 284.06125pt x 226.8475pt>
+<Figures/LDLContinuousSAXS.pdf, id=3226, 284.06125pt x 226.8475pt>
 File: Figures/LDLContinuousSAXS.pdf Graphic file (type pdf)
 
 <use Figures/LDLContinuousSAXS.pdf>
 Package pdftex.def Info: Figures/LDLContinuousSAXS.pdf used on input line 104.
 (pdftex.def)             Requested size: 284.06053pt x 226.84694pt.
 ) (./Figures/LipoproteinIsopointComp.tex
-<Figures/LipoproteinIsopointComp.pdf, id=3237, 284.06125pt x 226.8475pt>
+<Figures/LipoproteinIsopointComp.pdf, id=3236, 284.06125pt x 226.8475pt>
 File: Figures/LipoproteinIsopointComp.pdf Graphic file (type pdf)
 
 <use Figures/LipoproteinIsopointComp.pdf>
@@ -2942,7 +2938,7 @@ Package pdftex.def Info: Figures/LipoproteinIsopointComp.pdf used on input line
 (pdftex.def)             Requested size: 284.06053pt x 226.84694pt.
 )
 (./Figures/LipoproteinsAverageDensity.tex
-<Figures/LipoproteinsAverageDensity.pdf, id=3238, 284.06125pt x 226.8475pt>
+<Figures/LipoproteinsAverageDensity.pdf, id=3237, 284.06125pt x 226.8475pt>
 File: Figures/LipoproteinsAverageDensity.pdf Graphic file (type pdf)
 
 <use Figures/LipoproteinsAverageDensity.pdf>
@@ -2954,7 +2950,7 @@ Underfull \vbox (badness 1142) has occurred while \output is active []
 
  [83 <./Figures/HDLContinuousSAXS.pdf> <./Figures/LDLContinuousSAXS.pdf>]
 (./Figures/HDLGuinierRadius.tex
-<Figures/HDLGuinierRadius.pdf, id=3285, 284.06125pt x 226.8475pt>
+<Figures/HDLGuinierRadius.pdf, id=3284, 284.06125pt x 226.8475pt>
 File: Figures/HDLGuinierRadius.pdf Graphic file (type pdf)
 
 <use Figures/HDLGuinierRadius.pdf>
@@ -2963,7 +2959,7 @@ Package pdftex.def Info: Figures/HDLGuinierRadius.pdf used on input line 107.
 ) [84 <./Figures/LipoproteinIsopointComp.pdf> <./Figures/LipoproteinsAverageDen
 sity.pdf>]
 (./Figures/CoatedKiskerIgGSingleContrastSAXS.tex
-<Figures/CoatedKiskerIgGSingleContrastSAXS.pdf, id=3312, 284.06125pt x 226.8475
+<Figures/CoatedKiskerIgGSingleContrastSAXS.pdf, id=3311, 284.06125pt x 226.8475
 pt>
 File: Figures/CoatedKiskerIgGSingleContrastSAXS.pdf Graphic file (type pdf)
  <use Figures/CoatedKiskerIgGSingleContrastSAXS.pdf>
@@ -2971,23 +2967,23 @@ Package pdftex.def Info: Figures/CoatedKiskerIgGSingleContrastSAXS.pdf used on
 input line 111.
 (pdftex.def)             Requested size: 284.06053pt x 226.84694pt.
 )
-Underfull \hbox (badness 6364) in paragraph at lines 385--385
+Underfull \hbox (badness 6364) in paragraph at lines 390--390
 []\T1/cmss/bx/n/9 Figure 6.17 | |\T1/cmss/m/n/9 (+20) SAXS
  []
 
 
-Underfull \hbox (badness 2772) in paragraph at lines 385--385
+Underfull \hbox (badness 2772) in paragraph at lines 390--390
 \T1/cmss/m/n/9 (+20) at dif-fer-ent con-cen-tra-
  []
 
 [85 <./Figures/HDLGuinierRadius.pdf>]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 393.
+               Default added (so using `tbp') on input line 398.
 
 [86 <./Figures/CoatedKiskerIgGSingleContrastSAXS.pdf>]
 (./Figures/CoatedKiskerIsopointComp.tex
-<Figures/CoatedKiskerIsopointComp.pdf, id=3343, 284.06125pt x 226.8475pt>
+<Figures/CoatedKiskerIsopointComp.pdf, id=3342, 284.06125pt x 226.8475pt>
 File: Figures/CoatedKiskerIsopointComp.pdf Graphic file (type pdf)
 
 <use Figures/CoatedKiskerIsopointComp.pdf>
@@ -3125,10 +3121,10 @@ fb></usr/share/texmf/fonts/type1/public/cm-super/sfsx1200.pfb></usr/share/texmf
 atino/uplb8a.pfb></usr/share/texmf/fonts/type1/urw/palatino/uplbi8a.pfb></usr/s
 hare/texmf/fonts/type1/urw/palatino/uplr8a.pfb></usr/share/texmf/fonts/type1/ur
 w/palatino/uplri8a.pfb>
-Output written on main.pdf (130 pages, 7575258 bytes).
+Output written on main.pdf (130 pages, 7575216 bytes).
 PDF statistics:
- 3687 PDF objects out of 4296 (max. 8388607)
- 3098 compressed objects within 31 object streams
+ 3686 PDF objects out of 4296 (max. 8388607)
+ 3097 compressed objects within 31 object streams
  581 named destinations out of 1000 (max. 500000)
  157593 words of extra memory for PDF output out of 184870 (max. 10000000)
 
