@@ -9396,7 +9396,7 @@
        xml:space="preserve"
        style="font-size:32px;font-style:normal;font-weight:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
        x="685.44043"
-       y="-337.60797"
+       y="-342.40799"
        id="text4160"
        sodipodi:linespacing="125%"
        transform="scale(1,-1)"
@@ -9405,7 +9405,7 @@
          sodipodi:role="line"
          id="tspan4162"
          x="685.44043"
-         y="-337.60797"
+         y="-342.40799"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;font-family:Carlito;-inkscape-font-specification:Carlito">\smaller{\shortstack{Intraliposomal\\volume}}</tspan></text>
 <path
        style="fill:none;stroke:#000000;stroke-width:1.60000002;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow2Mend)"
@@ -9415,8 +9415,8 @@
        sodipodi:nodetypes="cc" /><text
        xml:space="preserve"
        style="font-size:32px;font-style:normal;font-weight:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
-       x="592.95673"
-       y="-467.30606"
+       x="571.83844"
+       y="-444.728"
        id="text4160-7"
        sodipodi:linespacing="125%"
        inkscape:transform-center-x="-103.84942"
@@ -9424,14 +9424,14 @@
        transform="scale(1,-1)"><tspan
          sodipodi:role="line"
          id="tspan4162-6"
-         x="592.95673"
-         y="-467.30606"
+         x="571.83844"
+         y="-444.728"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;font-family:Carlito;-inkscape-font-specification:Carlito">\smaller{\shortstack{Hydrophilic\\head}}</tspan></text>
 <text
        xml:space="preserve"
        style="font-size:32px;font-style:normal;font-weight:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
-       x="701.43335"
-       y="-273.49216"
+       x="703.03333"
+       y="-270.29214"
        id="text4160-7-1"
        sodipodi:linespacing="125%"
        inkscape:transform-center-x="-83.079537"
@@ -9439,8 +9439,8 @@
        transform="scale(1,-1)"><tspan
          sodipodi:role="line"
          id="tspan4162-6-8"
-         x="701.43335"
-         y="-273.49216"
+         x="703.03333"
+         y="-270.29214"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;font-family:Carlito;-inkscape-font-specification:Carlito">\smaller{\shortstack{Hydrophobic\\tail}}</tspan></text>
 <path
        style="fill:none;stroke:#000000;stroke-width:1.60000002;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow2Mend)"

@@ -50,8 +50,8 @@
   \makeatother%
   \begin{picture}(1,1.02042812)%
     \put(0,0){\includegraphics[width=\unitlength]{ULVScheme.pdf}}%
-    \put(0.4943276,0.50439953){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{\smaller{\shortstack{Intraliposomal\\volume}}}}}%
-    \put(0.13655334,1.00613807){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{\smaller{\shortstack{Hydrophilic\\head}}}}}%
-    \put(0.5561964,0.25636678){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{\smaller{\shortstack{Hydrophobic\\tail}}}}}%
+    \put(0.4943276,0.52296846){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{\smaller{\shortstack{Intraliposomal\\volume}}}}}%
+    \put(0.05485701,0.91879458){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{\smaller{\shortstack{Hydrophilic\\head}}}}}%
+    \put(0.56238592,0.24398749){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{\smaller{\shortstack{Hydrophobic\\tail}}}}}%
   \end{picture}%
 \endgroup%
