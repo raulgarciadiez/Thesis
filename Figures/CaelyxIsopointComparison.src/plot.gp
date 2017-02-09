@@ -8,5 +8,5 @@ set xtics 0.05
 
 set key spacing 1.5 samplen 2 width -5
 
-p 'isoscattering_curve_iodixanol.dat' u 1:2 w l ls 1 t '\smaller Aqueous iodixanol', 'isoscattering_curve_sucrose.dat' u 1:2 w l ls 2 t '\smaller Aqueous sucrose'
+p 'isoscattering_curve_iodixanol.dat' u 1:2 w l ls 1 t '\smaller Optiprep', 'isoscattering_curve_sucrose.dat' u 1:2 w l ls 2 t '\smaller Aqueous sucrose'
 
