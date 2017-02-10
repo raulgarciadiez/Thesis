@@ -84,27 +84,28 @@
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {DOX diffraction peak}}}{75}{subfigure.6.1}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Peak position deviation}}}{75}{subfigure.6.2}
 \contentsline {figure}{\numberline {\relax 6.7}{\ignorespaces Isoscattering point position of Caelyx with different solvents.}}{76}{figure.caption.69}
-\contentsline {figure}{\numberline {\relax 6.8}{\ignorespaces Scattering curves of the liposomes in buffer.}}{77}{figure.caption.70}
-\contentsline {figure}{\numberline {\relax 6.9}{\ignorespaces The phospholipid bilayer scattering feature of the liposomes in buffer.}}{78}{figure.caption.71}
-\contentsline {figure}{\numberline {\relax 6.10}{\ignorespaces Scheme of ULV and MLVs.}}{78}{figure.caption.72}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {ULV}}}{78}{subfigure.10.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {MLV}}}{78}{subfigure.10.2}
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {Bilayer in a stack}}}{78}{subfigure.10.3}
-\contentsline {figure}{\numberline {\relax 6.11}{\ignorespaces Scattering curves of the liposomes measured at different solvent osmolalities.}}{79}{figure.caption.73}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {SSL 81 nm}}}{79}{subfigure.11.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Plain 89 nm}}}{79}{subfigure.11.2}
-\contentsline {figure}{\numberline {\relax 6.12}{\ignorespaces Isoscattering point intensity of two different liposomes.}}{80}{figure.caption.74}
-\contentsline {figure}{\numberline {\relax 6.13}{\ignorespaces Osmotic effects in the phospholipid bilayer of the liposomes.}}{82}{figure.caption.75}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {PEG 179 nm}}}{82}{subfigure.13.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Plain 128 nm}}}{82}{subfigure.13.2}
-\contentsline {figure}{\numberline {\relax 6.14}{\ignorespaces Continuous contrast variation experimental data of HDL and LDL.}}{83}{figure.caption.76}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {HDL}}}{83}{subfigure.14.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {LDL}}}{83}{subfigure.14.2}
-\contentsline {figure}{\numberline {\relax 6.15}{\ignorespaces Model free-approaches to the experimental data of HDL and LDL.}}{83}{figure.caption.77}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Isoscattering point position}}}{83}{subfigure.15.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Average electron density}}}{83}{subfigure.15.2}
-\contentsline {figure}{\numberline {\relax 6.16}{\ignorespaces Squared radius of the HDL scattering data.}}{85}{figure.caption.78}
-\contentsline {figure}{\numberline {\relax 6.17}{\ignorespaces Scattering curves of the PS-COOH particles coated with IgG.}}{86}{figure.caption.79}
-\contentsline {figure}{\numberline {\relax 6.18}{\ignorespaces Isoscattering point position before and after attaching IgG.}}{87}{figure.caption.81}
+\contentsline {figure}{\numberline {\relax 6.8}{\ignorespaces Scattering curves of the liposomes measured in buffer.}}{77}{figure.caption.70}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Scattering curves of the liposomes in buffer}}}{77}{subfigure.8.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Bilayer scattering feature}}}{77}{subfigure.8.2}
+\contentsline {figure}{\numberline {\relax 6.9}{\ignorespaces Scheme of ULV and MLVs.}}{78}{figure.caption.71}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {ULV}}}{78}{subfigure.9.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {MLV}}}{78}{subfigure.9.2}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {Bilayer in a stack}}}{78}{subfigure.9.3}
+\contentsline {figure}{\numberline {\relax 6.10}{\ignorespaces Scattering curves of the liposomes measured at different solvent osmolalities.}}{79}{figure.caption.72}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {SSL 81 nm}}}{79}{subfigure.10.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Plain 89 nm}}}{79}{subfigure.10.2}
+\contentsline {figure}{\numberline {\relax 6.11}{\ignorespaces Isoscattering point intensity of two different liposomes.}}{80}{figure.caption.73}
+\contentsline {figure}{\numberline {\relax 6.12}{\ignorespaces Osmotic effects in the phospholipid bilayer of the liposomes.}}{81}{figure.caption.74}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {PEG 179 nm}}}{81}{subfigure.12.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Plain 128 nm}}}{81}{subfigure.12.2}
+\contentsline {figure}{\numberline {\relax 6.13}{\ignorespaces Continuous contrast variation experimental data of HDL and LDL.}}{82}{figure.caption.75}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {HDL}}}{82}{subfigure.13.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {LDL}}}{82}{subfigure.13.2}
+\contentsline {figure}{\numberline {\relax 6.14}{\ignorespaces Model free-approaches to the experimental data of HDL and LDL.}}{83}{figure.caption.76}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Isoscattering point position}}}{83}{subfigure.14.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Average electron density}}}{83}{subfigure.14.2}
+\contentsline {figure}{\numberline {\relax 6.15}{\ignorespaces Squared radius of the HDL scattering data.}}{84}{figure.caption.77}
+\contentsline {figure}{\numberline {\relax 6.16}{\ignorespaces Scattering curves of the PS-COOH particles coated with IgG.}}{85}{figure.caption.78}
+\contentsline {figure}{\numberline {\relax 6.17}{\ignorespaces Isoscattering point position before and after attaching IgG.}}{87}{figure.caption.80}
 \addvspace {10\p@ }
 \select@language {ngerman}
