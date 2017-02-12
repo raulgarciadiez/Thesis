@@ -26,7 +26,7 @@
 \contentsline {section}{\numberline {3.2}The BESSY II electron storage ring}{24}{section.3.2}
 \contentsline {section}{\numberline {3.3}FCM beamline}{25}{section.3.3}
 \contentsline {subsection}{\numberline {3.3.1}UHV X-ray reflectometer}{26}{subsection.3.3.1}
-\contentsline {section}{\numberline {3.4}SAXS Setup}{27}{section.3.4}
+\contentsline {section}{\numberline {3.4}SAXS setup}{27}{section.3.4}
 \contentsline {subsection}{\numberline {3.4.1}X-ray area detector}{27}{subsection.3.4.1}
 \contentsline {subsection}{\numberline {3.4.2}HZB SAXS instrument and WAXS configuration}{28}{subsection.3.4.2}
 \contentsline {subsubsection}{Calibration of the sample-detector distance}{28}{subsubsection*.24}
@@ -34,7 +34,7 @@
 \contentsline {subsection}{\numberline {3.5.1}Round capillaries}{30}{subsection.3.5.1}
 \contentsline {subsection}{\numberline {3.5.2}Rectangular capillaries}{31}{subsection.3.5.2}
 \contentsline {subsection}{\numberline {3.5.3}Cell for low-energies}{32}{subsection.3.5.3}
-\contentsline {section}{\numberline {3.6}Data reduction: The scattering curve}{32}{section.3.6}
+\contentsline {section}{\numberline {3.6}Data reduction: the scattering curve}{32}{section.3.6}
 \contentsline {chapter}{\numberline {4}Continuous contrast variation in SAXS: the density gradient technique}{35}{chapter.4}
 \contentsline {section}{\numberline {4.1}Experimental procedure}{36}{section.4.1}
 \contentsline {subsection}{\numberline {4.1.1}Preparation of the density gradient capillaries}{36}{subsection.4.1.1}
