@@ -56,8 +56,8 @@
     \put(0.24019022,0.04085363){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\phi(\vect{r}')$}}}%
     \put(0.77625504,0.21814266){\color[rgb]{0.16470588,0.49803922,1}\makebox(0,0)[rb]{\smash{$\vect{k_s}$}}}%
     \put(0.9547431,0.21268316){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\vect{q}$}}}%
-    \put(0.77123289,0.15149127){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$2\Theta$}}}%
-    \put(0.47777462,0.13078338){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$2\Theta$}}}%
+    \put(0.77123289,0.15149127){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$2\theta$}}}%
+    \put(0.47777462,0.13078338){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$2\theta$}}}%
     \put(0.85878515,0.47387162){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{Detector}}}%
     \put(0.83621168,0.07999376){\color[rgb]{0.16470588,0.49803922,1}\makebox(0,0)[lb]{\smash{$\vect{k}$}}}%
     \put(0.60456028,0.221412){\color[rgb]{0.16470588,0.49803922,1}\makebox(0,0)[lb]{\smash{$\vect{k_s}$}}}%
