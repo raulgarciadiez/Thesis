@@ -4,6 +4,8 @@ set size 1,1
 set term push
 set term postscript enhanced eps color solid "Times" 28
 
+set cblabel "Times,24"
+
 set key font "Times,24"
 set key spacing 5
 

@@ -1,0 +1,26 @@
+list='-5.5 -5.0 -4.5 -4.0 -3.5 -3.0 -2.5 -2.0 -1.5 -1.0 -0.5 0.0 0.5 1.0 2.0 2.5 3.0 3.5 4.0'
+list_ed='360.3 359.8 359.4 358.9 357.4 355.7 354.3 351.6 348.5 345.4 342.4 340.1 338.3 337.1 336.5 335.2 334.4 334.0 333.8 333.7 '
+
+set palette defined ( 333.7 '#000fff',\
+		      360.3 '#ee0000')
+
+		      
+#set cbrange [-5.5:4]
+#set cbrange [0:9.5]
+set cbrange [360.3:333.7]
+set format cb "%.1f"
+
+set term qt enhanced
+set xlabel 'q / nm^{-1}'
+set ylabel 'Intensity / a.u.' offset 2.5,0.0
+
+set logscale xy
+set grid
+unset key 
+#set colorbox vertical user origin 0.99, 0.1 size 0.02,0.80
+set cblabel "Solvent electron density / e nm^{-3}" rotate by 270 offset 1.0,0.0 
+
+set xrange [0.036:0.6]
+
+#p for [i=1:words(list)] 'hdf_fcm_201403_060_Sam_'.word(list,i).'.dat' u 1:($2/1e22) w l lt palette cb (word(list,i)+5.5)
+p for [i=1:words(list)] 'hdf_fcm_201403_060_Sam_'.word(list,i).'.dat' u 1:($2/1e22) w l lt palette cb (word(list_ed,i)+0)

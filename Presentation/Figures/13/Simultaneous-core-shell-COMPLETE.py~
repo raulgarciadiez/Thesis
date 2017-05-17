@@ -1,0 +1,449 @@
+import numpy as np
+import time, os, sys,fnmatch
+import pylab 
+from scipy.optimize import leastsq
+import matplotlib.pyplot as plt
+from operator import itemgetter
+from scipy.interpolate import interp1d
+from matplotlib.ticker import MultipleLocator, FormatStrFormatter,FuncFormatter
+sys.path.append('/home/rgarciad/Dokumente/Programs SAXS/AutoSAXS-python/SAXSTools/src')
+import saxstools as ST
+
+class Simultaneous_fit:
+	def __init__(self, filename):
+		self.index=0
+		self.name_file=filename
+		
+		self.find_suffixes()
+		
+		#initial parameters: rho_solvent, R, sigma, nu, rho_core, rho_shell, alpha
+		if alpha_opt=='multiple':
+			self.p0=[50.8,3.2,0.85,340,363]+len(self.suffixes)*[3.5]
+			self.Npam=5
+		elif alpha_opt=='variable':
+			self.p0=[50.8,3.2,0.85,340,363,3.5]	
+		elif alpha_opt=='4':
+			self.p0=[50.8,3.2,0.85,340,363]
+
+	def find_suffixes(self):
+		self.suffixes=[]	
+		for pattern in ['*-1.dat','*-2.dat']:
+			for root, dirs, files in os.walk(dir_name):
+				for filename in fnmatch.filter(files, pattern):
+					ed=float(filename[6:-6])
+					if ed!=336.88 and ed!=338.69:# ed!=335.13:
+						self.suffixes.append(ed)
+						
+	def create_intensity_matrix(self):
+		self.I_matrix=[]
+		self.errI_matrix=[]
+		for (i,suffix) in enumerate(self.suffixes):
+			q,Iexp,errI=self.open_data(suffix)
+			self.I_matrix.append(Iexp)
+			self.errI_matrix.append(errI)
+		return q
+
+	#set q-range
+	def new_q(self,qmin,qmax,q,I,errI):
+		for i in range(len(q)):
+			if qmin<q[0]:
+				i_min=1
+				break
+			elif q[i]>=qmin:
+				i_min=i
+				break
+			else:
+				pass
+		for i in range(len(q)):
+			if qmax>=q[-1]:
+				i_max=-1
+				break
+			elif q[i]>=qmax:
+				i_max=i
+				break
+			else:
+				pass
+		return q[i_min:i_max+1],I[i_min:i_max+1],errI[i_min:i_max+1]
+
+	#import data
+	def open_data(self,suffix):
+		suffix=str(suffix)
+		N=2 # 2 datasets
+		for i in range(1,N+1):
+			name=dir_name+'/curve_'+suffix+'-'+str(i)+'.dat'
+			try:
+				filedata=np.genfromtxt(name)
+				index=i
+			except IOError:
+				pass
+		q=filedata[:,0]
+		Iexp=filedata[:,1]
+		errI=filedata[:,3]
+		q,Iexp,errI=self.new_q(qmin,qmax,q,Iexp,errI) #SELECTING RANGE OF FITTING
+		return q,Iexp,errI
+
+	#function to be minimized with inclusion of background
+	def func(self,pam, q, I, rho_solvent,alpha):
+		d=ST.Gaussian_Distribution(1, 2) #R,sigma
+		f=ST.FF_Core_Shell_Solvent(3,0,4,5) #nu,rho_solvent,rho_core,rho_shell
+		s=ST.SAXScurve(f, d)
+			
+		Rho_solvent=(rho_solvent, )		
+		A=np.empty(shape=(len(q),3))
+		A[:,0]=np.array(s.compute(q,Rho_solvent+tuple(pam)))		
+		A[:,1]=np.array(len(q)*[1])
+		if alpha<50.:
+			A[:,2]=q**(-alpha)
+		else:
+			A[:,2]=q**(-4.0)
+		lin_pam=np.linalg.lstsq(A,I) #solve a linear matrix equation	
+		N=lin_pam[0][0]
+		C0=lin_pam[0][1]/N
+		C4=lin_pam[0][2]/N
+		return N*(np.array(s.compute(q, Rho_solvent+tuple(pam)))+C0+C4*q**(-alpha))
+
+	#residuals for all the curves	
+	def residuals(self,pam,q,I,errI,suffixes,option,R0):
+		if option=='chisq':
+			pam[0]=R0
+		else:
+			pass			
+		residual=[]
+		for (i,rho_solvent) in enumerate(suffixes):
+			if alpha_opt=='4':
+				alpha=4.0
+			elif alpha_opt=='variable':
+				alpha=pam[5]
+			else:
+				alpha=pam[self.Npam+i]					
+			residual+=list((I[i]-self.func(pam, q, I[i], rho_solvent, alpha))/errI[i])
+		self.index+=1
+		sys.stdout.write('Repetitions: %i\r'%(self.index))
+		sys.stdout.flush()
+		return residual
+
+	def perform_calculation(self):
+		q=self.create_intensity_matrix()
+		self.p,cov,infodict,mesg,ier = leastsq(self.residuals,self.p0,args=(q,self.I_matrix,self.errI_matrix,self.suffixes,'normal',self.p0[0]),ftol=1.e-12, maxfev=100000000,full_output=True)
+		print self.p, '; Repetitions=',infodict['nfev']
+		self.chisq=sum(infodict['fvec']*infodict['fvec'])/(len(q)*len(self.suffixes)-len(self.p))
+		print 'Chi Squared=', self.chisq
+		self.rho0=(self.p[2]**3)*self.p[3]+(1-self.p[2]**3)*self.p[4]
+		print 'rho0=',self.rho0
+	
+	def write_results(self):
+		self.perform_calculation()
+		try:
+			os.remove(dir_name+self.name_file)
+		except OSError:
+			pass
+		data = open(dir_name+self.name_file, 'a')
+		data.write('#q-range=(%.3g, %.3g)\n '%(qmin,qmax))
+		data.write('#chisq=%.5g R=%5.g rho0=%.5g \n'%(self.chisq,self.p[0],self.rho0))
+		for i in range(len(self.p)):
+			data.write('%.5g\n'%self.p[i])
+		data.close()	
+
+		print '\n Execution time = %.2f s'%(time.time() - inTime)
+
+class Fit_analysis:
+	def __init__(self,name_file,name_fig):
+		self.name_file=name_file
+		self.name_fig=name_fig
+		self.Npam=5
+	def open_best_fit(self):
+		try:
+			self.p=np.genfromtxt(dir_name+self.name_file)
+		except IOError:
+			pass
+	def extract_data_fit(self):	
+		self.open_best_fit()	
+		R=self.p[0]
+		nu=self.p[2]
+		R0=nu*R
+		rhoc=self.p[3]
+		rhos=self.p[4]
+		self.rho0=(nu**3)*rhoc+(1-nu**3)*rhos
+		self.rhowater=333.19
+		self.distance=[0,R0,R0,R,R]
+		self.ed=[rhoc,rhoc,rhos,rhos,self.rhowater]	
+	def plot_fig(self):
+		self.extract_data_fit()	
+		fig1 = plt.figure()
+		ax1 = fig1.add_subplot(111)
+		colors = ['red', 'black', 'blue']
+		linetypes=['s','o','v']
+		suffixes_plot=[334.35, 345.4,356.99]
+		class_fit=Simultaneous_fit(name_file)
+		class_fit.find_suffixes()
+		suffixes=class_fit.suffixes
+		d=ST.Gaussian_Distribution(1, 2) #R,sigma
+		f=ST.FF_Core_Shell_Solvent(3,0,4,5) #nu,rho_solvent,rho_core,rho_shell
+		s=ST.SAXScurve(f, d)		
+		for i,(suffix,color) in enumerate(zip(suffixes_plot,colors)):
+			ind=np.where(np.array(suffixes)==round(suffix,2))[0]
+			q,Iexp,errI=class_fit.open_data(suffix)
+			Rho_solvent=(suffix, )
+			if alpha_opt=='4':
+				alpha=4.0
+			elif alpha_opt=='variable':
+				alpha=self.p[5]
+			else:
+				alpha=self.p[self.Npam+i]	
+	
+			A=np.empty(shape=(len(q),3))
+			A[:,0]=np.array(s.compute(q,Rho_solvent+tuple(self.p)))
+			A[:,1]=np.array(len(q)*[1])
+			A[:,2]=q**(-alpha)
+			lin_pam=np.linalg.lstsq(A,Iexp) #solve a linear matrix equation
+	
+			N=lin_pam[0][0]
+			C0=lin_pam[0][1]/N
+			C4=lin_pam[0][2]/N
+			print '%.5g\t%.5g\t%.5g\t%.5g\t'%(N,C0,C4,alpha)
+	
+			#ax1.scatter(q,Iexp/1.e22,color='white',zorder=1,s=35,marker=linetypes[i])
+			ax1.scatter(q,Iexp/1.e22,color=color,zorder=1,s=25,marker=linetypes[i],label='%.1f'%(self.rho0-suffix))
+			ax1.plot(q,N*(s.compute(q,Rho_solvent+tuple(self.p))+C0+C4*q**(-alpha))/1.e22,color=color,linewidth=2.,zorder=-2)
+			#ax1.plot(q,N*(C0+C4*q**(-alpha))/1.e22,color=color,linewidth=2.,zorder=-2)
+			
+			
+		ax1.set_yscale('log')
+		ax1.set_xscale('log')
+		legend1=ax1.legend(loc=3,frameon=False,bbox_to_anchor = (0.01, 0.01),title=r'$\rho_0-\rho_{solv}$ / nm$^{-3}$',fontsize=14,shadow=True, scatterpoints=1,markerscale=1.2)
+		
+		legend1.get_title().set_fontsize('16')
+		
+		def positions(x, pos):
+			return '%.2g' % (x/100.)
+		
+		ax1.yaxis.set_major_formatter(FuncFormatter(positions))
+		ax1.set_xticks([0.05,0.1,0.2,0.5])
+		ax1.set_xticklabels(['0.05','0.1','0.2','0.5'])
+		ax1.set_xlim([qmin,qmax])
+		ax1.set_ylim([0.8,1000])
+		ax1.set_ylabel('Intensity / a.u',fontsize=17,labelpad=-6)
+		ax1.set_xlabel(u'$q$ / nm$^{-1}$',fontsize=17)
+		ax1.tick_params(axis='both',which='major',labelsize=13.5)
+		#ax1.annotate('Isoscattering\nPoint', xy=(0.088,11), xytext=(-40,-90),textcoords='offset points', ha='center', va='bottom', bbox=dict(boxstyle='round,pad=0.2', fc='yellow', alpha=0.3), arrowprops=dict(arrowstyle='->', connectionstyle='arc,rad=0.1',color='grey',linewidth=1.6))			
+		#ax1.grid(True)
+	
+		ax2 = plt.axes([.52, .52, .35, .35], axisbg='y')
+		ax2.patch.set_alpha(0.05)
+		ax2.patch.set_facecolor('b')
+		ax2.plot(self.distance,self.ed,color='k',linewidth=3,label='Core-shell particle')
+		ax2.set_xlabel('Radial coordinate / nm',fontsize=14)
+		ax2.set_ylabel(u'Electron density / nm$^{-3}$',fontsize=14)
+		xmax=60.
+		majorLocator=MultipleLocator(10)
+		minorLocator=MultipleLocator(5)
+		ax2.yaxis.set_major_locator(majorLocator)
+		ax2.yaxis.set_minor_locator(minorLocator)
+		ax2.set_xlim([0,xmax])
+
+		#for i,(suffix,color) in enumerate(zip(suffixes_plot,colors)):
+		#	ax2.hlines(suffix,0,xmax, linestyle='--',color=color, linewidth=2.1)
+		
+		ax2.hlines(self.rho0,0,xmax, linestyle='--',label=r'$\rho_0$')
+		ax2.hlines(self.rhowater,0,xmax, linestyle='-.',color='b',label='Water')
+		ax2.annotate('Water',xy=(2.,334.5),xycoords='data',xytext=(2.,334.5),fontsize=13,color='b')
+		ax2.annotate(r'$\rho_0$',xy=(5.,347.5),xycoords='data',xytext=(5.,347.5),fontsize=14,color='k')
+		ax2.annotate('CORE',xy=(19.,341.),xycoords='data',xytext=(19.,341.),fontsize=14,color='grey')
+		ax2.annotate('SHELL',xy=(40.5,364.),xycoords='data',xytext=(41.5,364.),fontsize=14,color='grey')	
+
+		try:
+			os.remove(name_fig)
+			os.remove(name_fig[:-4]+'.svg')
+			os.remove(name_fig[:-4]+'.pdf')	
+		except OSError:
+			pass
+		plt.savefig(name_fig, bbox_inches='tight', pad_inches=0.1,dpi=500)
+		plt.savefig(name_fig[:-4]+'.svg', bbox_inches='tight', pad_inches=0.1)	
+		plt.savefig(name_fig[:-4]+'.pdf', bbox_inches='tight', pad_inches=0.1)
+		plt.show()
+
+class Chisq_calculation:
+	def __init__(self,name_file,filename_chisq):#,Rmin,Rmax,N):
+		self.filename_chisq=filename_chisq
+		self.name_file=name_file
+		
+	def write_initial(self):
+		data = open(dir_name+self.filename_chisq, 'a')
+		data.write('#Radius\tChisq\tRho_0\tParameters\n ')
+		data.close()
+		
+	def chisq_calculation(self,Rlim,N,Nrep):
+		try:
+			self.p=np.genfromtxt(dir_name+self.name_file)
+		except IOError:
+			pass	
+		R=self.p[0]
+		class_fit=Simultaneous_fit(name_file)
+		q=class_fit.create_intensity_matrix()
+		suffixes=class_fit.suffixes		
+		for R0 in np.linspace(R,Rlim,N):
+			self.index=0
+			inTime = time.time()	
+			self.p,cov,infodict,mesg,ier = leastsq(class_fit.residuals,self.p,args=(q,class_fit.I_matrix,class_fit.errI_matrix,suffixes,'chisq',R0), maxfev=len(self.p)+Nrep,full_output=True)
+			chisq=sum(infodict['fvec']*infodict['fvec'])/(len(q)*len(suffixes)-len(self.p))
+			rho0=(self.p[2]**3)*self.p[3]+(1-self.p[2]**3)*self.p[4]
+			data = open(dir_name+self.filename_chisq, 'a')
+			data.write('%.5g\t%.5g\t%.5g\t'%(R0,chisq,rho0))
+			for pi in self.p:
+				data.write('%.5g\t'%pi)
+			data.write('\n')	
+			data.close()
+			print self.p[0],chisq,rho0
+			print '\n Execution time = %.2f s'%(time.time() - inTime)
+
+class Chisq_analysis:
+	def __init__(self, filename,resultname):
+		self.name_file = filename
+		self.result_file=resultname
+	def extract_data(self):
+		filedata=np.genfromtxt(dir_name+self.name_file)
+		self.R=filedata[:,0]
+		self.chi=filedata[:,1]
+		self.rho0=filedata[:,2]
+		self.sigma=filedata[:,4]
+		self.nu=filedata[:,5]
+		self.rhocore=filedata[:,6]
+		self.rhoshell=filedata[:,7]
+		self.alpha=filedata[:,8]
+		self.R,self.chi,self.rho0,self.rhocore,self.rhoshell,self.sigma,self.nu, self.alpha=[list(x) for x in zip(*sorted(zip(self.R,self.chi,self.rho0,self.rhocore,self.rhoshell,self.sigma,self.nu,self.alpha), key=itemgetter(0)))]		
+		self.R0=np.array(self.nu)*np.array(self.R)
+		self.polydispersity=2.355*100*np.array(self.sigma)/np.array(self.R)
+		
+	def find_edges(self):	
+		self.extract_data()	
+		self.i_min,chi_min=min(enumerate(self.chi), key=itemgetter(1))
+		self.Rmin=self.R[self.i_min]
+		Rnew=np.linspace(min(self.R)+0.1,max(self.R)-0.1,50*len(self.R))
+		fchi=interp1d(self.R,self.chi,kind='linear')
+		chinew=fchi(Rnew)
+		frho0=interp1d(self.R,self.rho0,kind='linear')	
+		rho0new=frho0(Rnew)
+		frhocore=interp1d(self.R,self.rhocore,kind='linear')	
+		rhocorenew=frhocore(Rnew)
+		frhoshell=interp1d(self.R,self.rhoshell,kind='linear')	
+		rhoshellnew=frhoshell(Rnew)
+		fR0=interp1d(self.R,self.R0,kind='linear')
+		R0new=fR0(Rnew)		
+		fpoly=interp1d(self.R,self.polydispersity,kind='linear')	
+		polynew=fpoly(Rnew)
+		falpha=interp1d(self.R,self.alpha,kind='linear')	
+		alphanew=falpha(Rnew)	
+		i_edges=np.where(np.logical_and(chinew>=(round(2*chi_min,3)-0.005*chi_min), chinew<=(round(2*chi_min,3)+0.005*chi_min)))
+		list_averages=[Rnew,R0new,rho0new,rhocorenew,rhoshellnew,polynew,alphanew]
+		list_edge=np.empty(shape=(len(list_averages),2))
+		if len(i_edges[0])>1:
+			for i in range(len(list_averages)):
+				list_range=list_averages[i][min(i_edges[0]):max(i_edges[0])+1]
+				A=max(list_range)
+				B=min(list_range)
+				if A>=list_averages[i][max(i_edges[0])]:
+					a=A
+				else:
+					a=list_averages[i][max(i_edges[0])]
+				if B<=list_averages[i][min(i_edges[0])]:
+					b=B
+				else:
+					b=list_averages[i][min(i_edges[0])]					
+				list_edge[i]=[a,b]	
+		else:
+			for i in range(len(list_averages)):
+				list_edge[i]=max(list_averages[i]),min(list_averages[i])
+		list_averages=[]
+		list_errors=[]
+		for edge in list_edge:
+			list_averages.append(abs(edge[0]+edge[1])/2.0)
+			list_errors.append(abs(edge[0]-edge[1])/2.0)
+		self.R_av=list_averages[0]	
+		self.R0_av=list_averages[1]
+		self.rho0_av=list_averages[2]
+		self.rhocore_av=list_averages[3]
+		self.rhoshell_av=list_averages[4]
+		self.pd_av=list_averages[5]
+		self.alpha_av=list_averages[6]
+					
+		self.errR=list_errors[0]
+		self.errR0=list_errors[1]
+		self.errrho0=list_errors[2]
+		self.errrhocore=list_errors[3]
+		self.errrhoshell=list_errors[4]		
+		self.errpd=list_errors[5]
+		self.erralpha=list_errors[6]
+		
+		try:
+			self.i_av = next(i for i,val in enumerate(self.R) if val >= self.R_av)
+		except StopIteration:
+			print '____ERROR____'	
+	def find_parameters(self):
+		self.find_edges()			
+		sigma_min=self.sigma[self.i_min]
+		self.pd_min=sigma_min*2.35*100/self.Rmin
+#		sigma_av=self.sigma[self.i_av]
+#		self.pd_av=sigma_av*2.35*100/self.R_av
+		nu_min=self.nu[self.i_min]
+		self.R0_min=nu_min*self.Rmin
+		self.rho0_min=self.rho0[self.i_min]
+		self.rhocore_min=self.rhocore[self.i_min]
+		self.rhoshell_min=self.rhoshell[self.i_min]
+		self.alpha_min=self.alpha[self.i_min]
+	
+	def write_results(self):
+		self.find_parameters()		
+		try:
+			os.remove(dir_name+self.result_file)
+		except OSError:
+			pass
+		data = open(dir_name+self.result_file, 'a')
+		data.write('#Mean Chi_Value (Middle value in the confidence range)\n')
+		data.write('R=%.1f+-%.1f\n'%(self.R_av,self.errR))
+		data.write('R0=%.1f+-%.1f\n'%(self.R0_av,self.errR0))
+		data.write('polydispersity=%.1f+-%.1f\n'%(self.pd_av,self.errpd))
+		data.write('rho0=%.1f+-%.1f\n'%(self.rho0_av,self.errrho0))
+		data.write('rho(core)=%.1f+-%.1f\n'%(self.rhocore_av,self.errrhocore))
+		data.write('rho(shell)=%.1f+-%.1f\n'%(self.rhoshell_av,self.errrhoshell))
+		data.write('alpha=%.1f+-%.1f\n'%(self.alpha_av,self.erralpha))
+		data.write('####---------------###\n')
+		data.write('#Minimum Chi_Value\n')
+		data.write('R=%.1f\n'%self.Rmin)
+		data.write('R0=%.1f\n'%self.R0_min)
+		data.write('polydispersity=%.1f\n'%self.pd_min)
+		data.write('rho0=%.1f\n'%self.rho0_min)		
+		data.write('rho(core)=%.1f\n'%self.rhocore_min)
+		data.write('rho(shell)=%.1f\n'%self.rhoshell_min)
+		data.write('alpha=%.1f\n'%self.alpha_min)	
+		data.close()			
+			
+inTime = time.time()
+
+qmin=0.04
+qmax=0.6
+
+alpha_opt='variable'
+
+dir_name=os.path.dirname(os.path.realpath(__file__))
+name_file='/parameter_results-alpha-%s_range_%.3g-%.3g'%(alpha_opt,qmin,qmax)
+filename_chisq='/chisq_results-alpha-%s_range_%.3g-%.3g'%(alpha_opt,qmin,qmax)
+result_file='/results_article_summary-alpha-%s_range_%.3g-%.3g'%(alpha_opt,qmin,qmax)
+name_fig='/home/rgarciad/Dokumente/Projects/Contrast matching/ARTICLES/Article-1/figures/fig3.png'
+name_fig2='/fig3.png'
+
+class_fit=Simultaneous_fit(name_file)
+#class_fit.write_results()
+
+print '\n Execution time = %.2f s'%(time.time() - inTime)
+
+class_plot_fit=Fit_analysis(name_file,name_fig)
+class_plot_fit.plot_fig()
+
+class_chisq_calc=Chisq_calculation(name_file,filename_chisq)
+#class_chisq_calc.write_initial()
+#class_chisq_calc.chisq_calculation(53.5,30,15) #limit,number of points, extra iterations
+#class_chisq_calc.chisq_calculation(46.5,30,15)
+
+class_chisq_analysis=Chisq_analysis(filename_chisq,result_file)			
+#class_chisq_analysis.write_results()
+				

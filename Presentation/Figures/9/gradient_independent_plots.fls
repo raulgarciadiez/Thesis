@@ -1,0 +1,6 @@
+PWD /Users/raul/Desktop/Thesis/Presentation/Figures/9
+INPUT /usr/local/texlive/2013/texmf.cnf
+INPUT /usr/local/texlive/2013/texmf-dist/web2c/texmf.cnf
+INPUT /usr/local/texlive/2013/texmf-var/web2c/pdftex/latex.fmt
+INPUT gradient_independent_plots.py
+OUTPUT gradient_independent_plots.log
