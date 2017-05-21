@@ -1,7 +1,7 @@
 reset 
 l '../../style.gp'
 
-set size 0.6,1
+set size 0.45,0.75
 
 set log
 #unset log cb

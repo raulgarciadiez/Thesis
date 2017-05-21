@@ -21,7 +21,7 @@ set arrow from first osm_thres,graph 0 to first osm_thres,graph 1 nohead ls 2
 
 set xtics (250,500,750,1000,1250,1500)
 
-set yrange [-1.2:1]
+set yrange [-2.2:1.8]
 #set y2range [-20:12]
 
 unset key
